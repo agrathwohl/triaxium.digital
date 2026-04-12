@@ -206,7 +206,7 @@ export function layoutSchematics(schematics: Schematic[]): Map<string, BraxtonLa
 /**
  * Visual styling for line types
  */
-export const lineStyles = {
+export const lineStyles: Record<string, { strokeWidth: number; stroke: string; strokeOpacity: number; strokeDasharray?: string }> = {
   thick: {
     strokeWidth: 3,
     stroke: '#ffffff',
@@ -275,5 +275,5 @@ export function getNodeStyle(term: SchematicTerm) {
 }
 
 export function getEdgeStyle(type: string) {
-  return (lineStyles as Record<string, typeof lineStyles.solid>)[type] || lineStyles.solid;
+  return lineStyles[type] || lineStyles.solid;
 }
