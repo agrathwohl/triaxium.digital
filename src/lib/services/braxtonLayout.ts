@@ -275,5 +275,5 @@ export function getNodeStyle(term: SchematicTerm) {
 }
 
 export function getEdgeStyle(type: string) {
-  return lineStyles[type] || lineStyles.solid;
+  return (lineStyles as Record<string, typeof lineStyles.solid>)[type] || lineStyles.solid;
 }
