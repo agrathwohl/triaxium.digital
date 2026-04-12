@@ -1,0 +1,27 @@
+{
+  "id": "v3-bknm5",
+  "volume": 3,
+  "section": "BK(NM)-5",
+  "page": 29,
+  "subject": "BSCF",
+  "title": "Basic Scientific Functionalism - Black Composers",
+  "type": "tree",
+  "description": "Basic science framework for understanding black composers in western art music",
+  "terms": [
+    {"termId": "bscf", "isSubject": true},
+    {"termId": "sci-dym"},
+    {"termId": "spt-dym"},
+    {"termId": "info-rt"},
+    {"termId": "vt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "af-td"}
+  ],
+  "relationships": [
+    {"from": "bscf", "to": "sci-dym", "type": "thick"},
+    {"from": "bscf", "to": "spt-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "vt-dy", "type": "solid"},
+    {"from": "spt-dym", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "af-td", "type": "dashed"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v2-af23",
+  "volume": 2,
+  "section": "(AF)D-23",
+  "page": 95,
+  "subject": "AF.CON",
+  "title": "Affinity Consciousness - Transfer Dynamics",
+  "type": "crossing",
+  "description": "Consciousness of affinity in cultural transfer contexts",
+  "terms": [
+    { "termId": "af-con", "isSubject": true },
+    { "termId": "tr-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "af-td" },
+    { "termId": "acc-ft" },
+    { "termId": "if-st-dy" },
+    { "termId": "apl-dy" },
+    { "termId": "c-hm" }
+  ],
+  "relationships": [
+    { "from": "af-con", "to": "tr-dy", "type": "thick" },
+    { "from": "tr-dy", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "if-st-dy", "type": "thick" },
+    { "from": "if-st-dy", "to": "apl-dy", "type": "solid" },
+    { "from": "apl-dy", "to": "c-hm", "type": "dashed" }
+  ]
+}

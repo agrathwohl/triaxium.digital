@@ -1,0 +1,27 @@
+{
+  "id": "v3-cs20",
+  "volume": 3,
+  "section": "CS-20",
+  "page": 92,
+  "subject": "R-IST-F",
+  "title": "Restructural Isolated Function - Creativity Science",
+  "type": "tree",
+  "description": "Restructural isolated function in creativity and science synthesis",
+  "terms": [
+    {"termId": "r-ist-f", "isSubject": true, "prefix": "R"},
+    {"termId": "ext-ft"},
+    {"termId": "info-dy"},
+    {"termId": "spt-dy"},
+    {"termId": "dis-c-ct"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"}
+  ],
+  "relationships": [
+    {"from": "r-ist-f", "to": "ext-ft", "type": "thick"},
+    {"from": "r-ist-f", "to": "info-dy", "type": "solid"},
+    {"from": "ext-ft", "to": "spt-dy", "type": "solid"},
+    {"from": "ext-ft", "to": "dis-c-ct", "type": "solid"},
+    {"from": "dis-c-ct", "to": "alt-ft", "type": "dashed"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"}
+  ]
+}

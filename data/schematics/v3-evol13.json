@@ -1,0 +1,29 @@
+{
+  "id": "v3-evol13",
+  "volume": 3,
+  "section": "EVOL-13",
+  "page": 175,
+  "subject": "MT-INTR",
+  "title": "Multi-Integration - Evolution",
+  "type": "crossing",
+  "description": "Multi-integration dynamics in evolution framework",
+  "terms": [
+    {"termId": "mt-intr", "isSubject": true},
+    {"termId": "part"},
+    {"termId": "lg-dy"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dy"},
+    {"termId": "sci-dym"}
+  ],
+  "relationships": [
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "lg-dy", "to": "pol-dy", "type": "dashed"},
+    {"from": "pol-dy", "to": "r-int", "type": "solid"},
+    {"from": "r-int", "to": "c-hm", "type": "dashed"},
+    {"from": "c-hm", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "sci-dym", "type": "dashed"}
+  ]
+}

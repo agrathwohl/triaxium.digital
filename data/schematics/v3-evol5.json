@@ -1,0 +1,25 @@
+{
+  "id": "v3-evol5",
+  "volume": 3,
+  "section": "EVOL-5",
+  "page": 167,
+  "subject": "EXTN-OB",
+  "title": "Existential Observation - Evolution Dynamics",
+  "type": "tree",
+  "description": "Existential observation as evolution principle",
+  "terms": [
+    {"termId": "extn-ob", "isSubject": true},
+    {"termId": "per-dy"},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "phy-u-fund"},
+    {"termId": "info-rt"}
+  ],
+  "relationships": [
+    {"from": "extn-ob", "to": "per-dy", "type": "thick"},
+    {"from": "per-dy", "to": "af-dt", "type": "solid"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "phy-u-fund", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"}
+  ]
+}

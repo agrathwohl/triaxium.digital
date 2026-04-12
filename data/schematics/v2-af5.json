@@ -1,0 +1,27 @@
+{
+  "id": "v2-af5",
+  "volume": 2,
+  "section": "(AF)D-5",
+  "page": 77,
+  "subject": "INFO.ALGN",
+  "title": "Information Alignment - Progressional Continuance",
+  "type": "horizontal",
+  "description": "Horizontal axis showing information flow through progressional continuance",
+  "terms": [
+    { "termId": "info-algn", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "ist-f" },
+    { "termId": "stf" },
+    { "termId": "alt-f" },
+    { "termId": "dec" },
+    { "termId": "p-prog" },
+    { "termId": "vt-dy" }
+  ],
+  "relationships": [
+    { "from": "info-algn", "to": "prog-cont", "type": "dashed" },
+    { "from": "ist-f", "to": "dec", "type": "solid" },
+    { "from": "ist-f", "to": "p-prog", "type": "solid" },
+    { "from": "stf", "to": "vt-dy", "type": "solid" },
+    { "from": "stf", "to": "alt-f", "type": "solid" }
+  ]
+}

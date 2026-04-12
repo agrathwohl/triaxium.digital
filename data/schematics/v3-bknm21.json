@@ -1,0 +1,24 @@
+{
+  "id": "v3-bknm21",
+  "volume": 3,
+  "section": "BK(NM)-21",
+  "page": 45,
+  "subject": "AFI",
+  "title": "Olly Wilson and Alvin Singleton Analysis",
+  "type": "crossing",
+  "description": "Black composers analyzed through affinity insight and basic scientific functionalism",
+  "terms": [
+    { "termId": "afi-dy", "prefix": "R" },
+    { "termId": "bscf", "prefix": "R" },
+    { "termId": "ext-ft" },
+    { "termId": "info-trns" },
+    { "termId": "vt-dy" },
+    { "termId": "link-imp" }
+  ],
+  "relationships": [
+    { "from": "afi-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "afi-dy", "to": "info-trns", "type": "solid" },
+    { "from": "bscf", "to": "vt-dy", "type": "solid" },
+    { "from": "bscf", "to": "link-imp", "type": "solid" }
+  ]
+}

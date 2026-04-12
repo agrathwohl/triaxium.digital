@@ -1,0 +1,178 @@
+import { Term, Schematic } from '@/types';
+
+// Core Braxtonian Terms from CODE section
+export const terms: Term[] = [
+  {
+    id: 'vt-dy',
+    abbreviation: 'VT-DY',
+    expansion: 'vibrational dynamics',
+    category: 'vibrational',
+    volume: 1,
+    definition: 'The spectrum of possibilities related to a given vibrational position',
+  },
+  {
+    id: 'afi',
+    abbreviation: 'AFI',
+    expansion: 'affinity insight',
+    category: 'affinity',
+    volume: 1,
+    definition: 'The uncovering of necessary information through self-realization',
+  },
+  {
+    id: 'afi-1',
+    abbreviation: 'AFI(1)',
+    expansion: 'affinity insight—first degree',
+    category: 'affinity',
+    volume: 1,
+    definition: 'Realization about the whole of a given route or culture',
+  },
+  {
+    id: 'afi-2',
+    abbreviation: 'AFI(2)',
+    expansion: 'affinity insight—second degree',
+    category: 'affinity',
+    volume: 1,
+    definition: 'Use of self-realization to connect to one\'s own life realness',
+  },
+  {
+    id: 'rt-algn',
+    abbreviation: 'RT-ALGN',
+    expansion: 'reality alignment',
+    category: 'reality',
+    volume: 1,
+    definition: 'The way of one\'s vibrational nature or sensibility',
+  },
+  {
+    id: 'prog-cont',
+    abbreviation: 'PROG-CONT',
+    expansion: 'progressional continuance',
+    category: 'other',
+    volume: 1,
+    definition: 'Every creative thrust exists in a time continuum',
+  },
+  {
+    id: 'spt-dym',
+    abbreviation: 'SPT-DYM',
+    expansion: 'spectacle dynamics',
+    category: 'vibrational',
+    volume: 2,
+    definition: 'The phenomenon of spectacle-diversion',
+  },
+  {
+    id: 'bia',
+    abbreviation: 'BIA',
+    expansion: 'bi-aitional',
+    category: 'other',
+    volume: 2,
+    definition: 'The unification of masculine and feminine vibrational principle',
+  },
+  {
+    id: 'tr',
+    abbreviation: 'TR',
+    expansion: 'transformation',
+    category: 'transformation',
+    volume: 3,
+    definition: 'A cosmic junction that gives new options',
+  },
+  {
+    id: 'alt-ft',
+    abbreviation: 'ALT-FT',
+    expansion: 'alternative functionalism',
+    category: 'other',
+    volume: 3,
+    definition: 'Disciplines not perceived as culturally sustaining',
+  },
+  {
+    id: 'vt-sci',
+    abbreviation: 'VT-SCI',
+    expansion: 'vibrational science',
+    category: 'vibrational',
+    volume: 3,
+    definition: 'Science that includes vibrational/spiritual universe particulars',
+  },
+  {
+    id: 'c-cont',
+    abbreviation: 'C-CONT',
+    expansion: 'composite continuance',
+    category: 'composite',
+    volume: 1,
+    definition: 'Repeated involvement with respect to composite information and humanity',
+  },
+];
+
+// Example Schematics from the Tri-Axium Writings
+export const schematics: Schematic[] = [
+  {
+    id: 'v1-p20',
+    volume: 1,
+    section: 'WM',
+    page: 20,
+    subject: 'VT-DY',
+    title: 'Vibrational Dynamics and Postulation',
+    type: 'tree',
+    description: 'The reality of vibrational dynamics as it relates to postulation in three contexts',
+    terms: [
+      { termId: 'vt-dy', x: 400, y: 100, isSubject: true, prefix: 'R' },
+      { termId: 'prog-cont', x: 600, y: 100 },
+      { termId: 'afi', x: 200, y: 250 },
+      { termId: 'rt-algn', x: 400, y: 250 },
+    ],
+    relationships: [
+      { from: 'vt-dy', to: 'prog-cont', type: 'dashed' },
+      { from: 'vt-dy', to: 'afi', type: 'solid' },
+      { from: 'vt-dy', to: 'rt-algn', type: 'solid' },
+    ],
+  },
+  {
+    id: 'v2-sd17',
+    volume: 2,
+    section: 'SD(SY)-17',
+    page: 39,
+    subject: 'SPT-DYM',
+    title: 'Spectacle-Diversion Sequence',
+    type: 'crossing',
+    description: 'The reality and vibrational implications of American progressionalism',
+    terms: [
+      { termId: 'spt-dym', x: 300, y: 100, isSubject: true, prefix: 'c' },
+      { termId: 'prog-cont', x: 500, y: 200 },
+      { termId: 'afi', x: 100, y: 300 },
+      { termId: 'rt-algn', x: 400, y: 300 },
+    ],
+    relationships: [
+      { from: 'spt-dym', to: 'prog-cont', type: 'thick' },
+      { from: 'spt-dym', to: 'afi', type: 'solid' },
+      { from: 'prog-cont', to: 'rt-algn', type: 'solid' },
+    ],
+  },
+  {
+    id: 'v3-altft14',
+    volume: 3,
+    section: 'ALT(FT)||-14',
+    page: 120,
+    subject: 'HI.P',
+    title: 'High Purpose to Infra-Structure Dynamics',
+    type: 'angled-tree',
+    description: 'Alternative functionalism and political dynamics',
+    terms: [
+      { termId: 'alt-ft', x: 100, y: 150, isSubject: true, prefix: 'c' },
+      { termId: 'tr', x: 300, y: 100 },
+      { termId: 'c-cont', x: 200, y: 250 },
+      { termId: 'bia', x: 400, y: 250, prefix: 'R' },
+    ],
+    relationships: [
+      { from: 'alt-ft', to: 'tr', type: 'thick' },
+      { from: 'alt-ft', to: 'c-cont', type: 'solid' },
+      { from: 'c-cont', to: 'bia', type: 'solid' },
+    ],
+  },
+];
+
+// Term families for filtering
+export const termFamilies = [
+  { id: 'affinity', label: 'Affinity (AF)', color: '#ef4444' },
+  { id: 'information', label: 'Information (INFO)', color: '#3b82f6' },
+  { id: 'vibrational', label: 'Vibrational (VT)', color: '#8b5cf6' },
+  { id: 'reality', label: 'Reality (RT)', color: '#10b981' },
+  { id: 'composite', label: 'Composite (C)', color: '#f59e0b' },
+  { id: 'transformation', label: 'Transformation (TR)', color: '#ec4899' },
+];

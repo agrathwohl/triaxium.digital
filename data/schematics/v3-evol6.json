@@ -1,0 +1,27 @@
+{
+  "id": "v3-evol6",
+  "volume": 3,
+  "section": "EVOL-6",
+  "page": 168,
+  "subject": "PER-DY",
+  "title": "Performance Dynamics - Evolution Context",
+  "type": "crossing",
+  "description": "Performance dynamics in evolution framework",
+  "terms": [
+    {"termId": "per-dy", "isSubject": true},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "lg-dy"}
+  ],
+  "relationships": [
+    {"from": "per-dy", "to": "af-dt", "type": "thick"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"}
+  ]
+}

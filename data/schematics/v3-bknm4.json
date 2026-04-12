@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm4",
+  "volume": 3,
+  "section": "BK(NM)-4",
+  "page": 28,
+  "subject": "CULT.APP",
+  "title": "Cultural Appropriation - Dynamics of Transfer",
+  "type": "tree",
+  "description": "Analysis of cultural appropriation in black music context",
+  "terms": [
+    {"termId": "cult-app", "isSubject": true},
+    {"termId": "spt-dym"},
+    {"termId": "info-trns"},
+    {"termId": "src-dy"},
+    {"termId": "cross-tr"},
+    {"termId": "time-lag"},
+    {"termId": "x-def"},
+    {"termId": "sptc-d-cyc"}
+  ],
+  "relationships": [
+    {"from": "cult-app", "to": "spt-dym", "type": "thick"},
+    {"from": "cult-app", "to": "info-trns", "type": "dashed"},
+    {"from": "info-trns", "to": "src-dy", "type": "solid"},
+    {"from": "src-dy", "to": "cross-tr", "type": "solid"},
+    {"from": "cross-tr", "to": "time-lag", "type": "dashed"},
+    {"from": "time-lag", "to": "x-def", "type": "solid"},
+    {"from": "x-def", "to": "sptc-d-cyc", "type": "dashed"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd27",
+  "volume": 2,
+  "section": "SD(SY)-27",
+  "page": 49,
+  "subject": "C.INFO",
+  "title": "Composite Information - Linking Implications",
+  "type": "crossing",
+  "description": "Three networks showing complex intersections of information systems",
+  "terms": [
+    { "termId": "c-info", "isSubject": true, "prefix": "c" },
+    { "termId": "lk-imp" },
+    { "termId": "rt-algn" },
+    { "termId": "info-trns" },
+    { "termId": "stf" },
+    { "termId": "pri-vt-td" },
+    { "termId": "lang-dy" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "c-info", "to": "lk-imp", "type": "thick" },
+    { "from": "lk-imp", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "info-trns", "type": "dashed" },
+    { "from": "c-info", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "pri-vt-td", "type": "solid" },
+    { "from": "pri-vt-td", "to": "lang-dy", "type": "dashed" },
+    { "from": "lang-dy", "to": "af-dy", "type": "solid" }
+  ]
+}

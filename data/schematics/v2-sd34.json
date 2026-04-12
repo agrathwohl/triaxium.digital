@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd34",
+  "volume": 2,
+  "section": "SD(SY)-34",
+  "page": 56,
+  "subject": "R.EXT.F",
+  "title": "Reality Extended Functionalism - Transformation",
+  "type": "crossing",
+  "description": "Complex network showing transformation dynamics through extended functionalism",
+  "terms": [
+    { "termId": "r-ext-f", "isSubject": true, "prefix": "R" },
+    { "termId": "tr" },
+    { "termId": "info-rt" },
+    { "termId": "mt-intr" },
+    { "termId": "part" },
+    { "termId": "vt-dym" },
+    { "termId": "sci-dym" },
+    { "termId": "alt-ft" }
+  ],
+  "relationships": [
+    { "from": "r-ext-f", "to": "tr", "type": "thick" },
+    { "from": "tr", "to": "info-rt", "type": "solid" },
+    { "from": "info-rt", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "part", "type": "thick" },
+    { "from": "part", "to": "vt-dym", "type": "solid" },
+    { "from": "vt-dym", "to": "sci-dym", "type": "dashed" },
+    { "from": "sci-dym", "to": "alt-ft", "type": "solid" }
+  ]
+}

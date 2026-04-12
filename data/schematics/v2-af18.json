@@ -1,0 +1,27 @@
+{
+  "id": "v2-af18",
+  "volume": 2,
+  "section": "(AF)D-18",
+  "page": 90,
+  "subject": "EXP-CONT",
+  "title": "Expansion Contenance - Affinity Dynamics",
+  "type": "tree",
+  "description": "EXP-CONT(1) and EXP-CONT(2) degrees of expansion",
+  "terms": [
+    { "termId": "exp-cont", "isSubject": true },
+    { "termId": "exp-cont-1" },
+    { "termId": "exp-cont-2" },
+    { "termId": "wo-exp" },
+    { "termId": "sci-dym" },
+    { "termId": "spt-dym" },
+    { "termId": "alt-ft" }
+  ],
+  "relationships": [
+    { "from": "exp-cont", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont", "to": "exp-cont-2", "type": "solid" },
+    { "from": "exp-cont-1", "to": "wo-exp", "type": "solid" },
+    { "from": "exp-cont-1", "to": "sci-dym", "type": "dashed" },
+    { "from": "exp-cont-2", "to": "spt-dym", "type": "dashed" },
+    { "from": "exp-cont-2", "to": "alt-ft", "type": "solid" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs18",
+  "volume": 3,
+  "section": "CS-18",
+  "page": 90,
+  "subject": "DYM-SPT",
+  "title": "Dynamic Spiritualism - Transformation",
+  "type": "crossing",
+  "description": "Dynamic spiritualism as transformation principle",
+  "terms": [
+    {"termId": "dym-spt", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "r-ist-f"},
+    {"termId": "ext-ft"},
+    {"termId": "info-dy"},
+    {"termId": "spt-dy"},
+    {"termId": "dis-c-ct"},
+    {"termId": "alt-ft"}
+  ],
+  "relationships": [
+    {"from": "dym-spt", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "r-ist-f", "type": "solid"},
+    {"from": "r-ist-f", "to": "ext-ft", "type": "dashed"},
+    {"from": "ext-ft", "to": "info-dy", "type": "dashed"},
+    {"from": "info-dy", "to": "spt-dy", "type": "solid"},
+    {"from": "spt-dy", "to": "dis-c-ct", "type": "solid"},
+    {"from": "dis-c-ct", "to": "alt-ft", "type": "dashed"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v2-af29",
+  "volume": 2,
+  "section": "(AF)D-29",
+  "page": 101,
+  "subject": "INFO.TRNS",
+  "title": "Information Transfer - Source Dynamics",
+  "type": "crossing",
+  "description": "How information transfers between cultural continuums",
+  "terms": [
+    { "termId": "info-trns", "isSubject": true },
+    { "termId": "src-dy" },
+    { "termId": "cross-tr" },
+    { "termId": "time-lag" },
+    { "termId": "stf" },
+    { "termId": "crtf-d" },
+    { "termId": "spt-dym" },
+    { "termId": "proj-dy" }
+  ],
+  "relationships": [
+    { "from": "info-trns", "to": "src-dy", "type": "thick" },
+    { "from": "src-dy", "to": "cross-tr", "type": "solid" },
+    { "from": "cross-tr", "to": "time-lag", "type": "dashed" },
+    { "from": "info-trns", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "spt-dym", "type": "dashed" },
+    { "from": "spt-dym", "to": "proj-dy", "type": "solid" }
+  ]
+}

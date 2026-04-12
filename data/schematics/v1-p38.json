@@ -1,0 +1,29 @@
+{
+  "id": "v1-p38",
+  "volume": 1,
+  "section": "WM-13",
+  "page": 38,
+  "subject": "C.POST",
+  "title": "Composite Postulation",
+  "type": "crossing",
+  "description": "Crossing network showing composite postulation",
+  "terms": [
+    {"termId": "c-post", "isSubject": true, "prefix": "c"},
+    {"termId": "vt-dy"},
+    {"termId": "stf"},
+    {"termId": "af-dy"},
+    {"termId": "wo-unf"},
+    {"termId": "prog-cont"},
+    {"termId": "tr"},
+    {"termId": "pol-dym"}
+  ],
+  "relationships": [
+    {"from": "c-post", "to": "vt-dy", "type": "solid"},
+    {"from": "c-post", "to": "stf", "type": "solid"},
+    {"from": "c-post", "to": "af-dy", "type": "dashed"},
+    {"from": "vt-dy", "to": "wo-unf", "type": "dashed"},
+    {"from": "stf", "to": "prog-cont", "type": "solid"},
+    {"from": "af-dy", "to": "tr", "type": "solid"},
+    {"from": "tr", "to": "pol-dym", "type": "dashed"}
+  ]
+}

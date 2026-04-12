@@ -1,0 +1,28 @@
+{
+  "id": "v3-bknm9",
+  "volume": 3,
+  "section": "BK(NM)-9",
+  "page": 33,
+  "subject": "AFI",
+  "title": "Affinity Insight - Black Notated Music",
+  "type": "tree",
+  "description": "Affinity insight as applied to black composers and notation",
+  "terms": [
+    {"termId": "afi", "isSubject": true},
+    {"termId": "afi-1"},
+    {"termId": "afi-2"},
+    {"termId": "bscf"},
+    {"termId": "info-rt"},
+    {"termId": "vt-dy"},
+    {"termId": "proj-dy"}
+  ],
+  "relationships": [
+    {"from": "afi", "to": "afi-1", "type": "solid"},
+    {"from": "afi", "to": "afi-2", "type": "solid"},
+    {"from": "afi-1", "to": "bscf", "type": "solid"},
+    {"from": "afi-2", "to": "bscf", "type": "dashed"},
+    {"from": "bscf", "to": "info-rt", "type": "thick"},
+    {"from": "info-rt", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "proj-dy", "type": "dashed"}
+  ]
+}

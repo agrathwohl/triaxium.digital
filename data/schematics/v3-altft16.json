@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft16",
+  "volume": 3,
+  "section": "ALT(FT)||-16",
+  "page": 122,
+  "subject": "ACC-FT",
+  "title": "Accelerated Functionalism - Technology Dynamics",
+  "type": "tree",
+  "description": "Accelerated functionalism and technology dynamics",
+  "terms": [
+    {"termId": "acc-ft", "isSubject": true},
+    {"termId": "tech-dy"},
+    {"termId": "mt-info"},
+    {"termId": "c-info"},
+    {"termId": "bia"},
+    {"termId": "c-rh"},
+    {"termId": "alt-ft"}
+  ],
+  "relationships": [
+    {"from": "acc-ft", "to": "tech-dy", "type": "thick"},
+    {"from": "tech-dy", "to": "mt-info", "type": "solid"},
+    {"from": "mt-info", "to": "c-info", "type": "dashed"},
+    {"from": "c-info", "to": "bia", "type": "solid"},
+    {"from": "bia", "to": "c-rh", "type": "thick"},
+    {"from": "c-rh", "to": "alt-ft", "type": "dashed"}
+  ]
+}

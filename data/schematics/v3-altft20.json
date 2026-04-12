@@ -1,0 +1,37 @@
+{
+  "id": "v3-altft20",
+  "volume": 3,
+  "section": "ALT(FT)||-20",
+  "page": 126,
+  "subject": "BSCF",
+  "title": "Basic Science - Extended Functionalism - Information Dynamics",
+  "type": "crossing",
+  "description": "Three-way relationship showing synthesis of science, functionalism, and information",
+  "terms": [
+    {"termId": "bscf", "isSubject": true},
+    {"termId": "ext-f"},
+    {"termId": "info-dy"},
+    {"termId": "spt-dy"},
+    {"termId": "dis-c-ct"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "tech-dy"},
+    {"termId": "mt-info"},
+    {"termId": "c-info"},
+    {"termId": "bia"},
+    {"termId": "c-rh"}
+  ],
+  "relationships": [
+    {"from": "bscf", "to": "ext-f", "type": "dashed"},
+    {"from": "ext-f", "to": "info-dy", "type": "dashed"},
+    {"from": "ext-f", "to": "spt-dy", "type": "solid"},
+    {"from": "ext-f", "to": "dis-c-ct", "type": "solid"},
+    {"from": "alt-ft", "to": "bscf", "type": "solid"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "tech-dy", "type": "solid"},
+    {"from": "tech-dy", "to": "mt-info", "type": "solid"},
+    {"from": "mt-info", "to": "c-info", "type": "dashed"},
+    {"from": "c-info", "to": "bia", "type": "solid"},
+    {"from": "bia", "to": "c-rh", "type": "thick"}
+  ]
+}

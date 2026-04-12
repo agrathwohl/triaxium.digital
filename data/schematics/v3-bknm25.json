@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm25",
+  "volume": 3,
+  "section": "BK(NM)-25",
+  "page": 49,
+  "subject": "PER.DY",
+  "title": "Performance Dynamics - Black Composers",
+  "type": "crossing",
+  "description": "Performance dynamics specific to black composers in western art music",
+  "terms": [
+    {"termId": "per-dy", "isSubject": true},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"}
+  ],
+  "relationships": [
+    {"from": "per-dy", "to": "af-dt", "type": "thick"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "af-dt", "to": "pol-dy", "type": "solid"},
+    {"from": "pol-dy", "to": "r-int", "type": "dashed"}
+  ]
+}

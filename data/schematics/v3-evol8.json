@@ -1,0 +1,27 @@
+{
+  "id": "v3-evol8",
+  "volume": 3,
+  "section": "EVOL-8",
+  "page": 170,
+  "subject": "AF-DT",
+  "title": "Affinity Dictates - Evolution",
+  "type": "tree",
+  "description": "Affinity dictates in evolution framework",
+  "terms": [
+    {"termId": "af-dt", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"}
+  ],
+  "relationships": [
+    {"from": "af-dt", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "af-dt", "to": "pol-dy", "type": "solid"},
+    {"from": "pol-dy", "to": "r-int", "type": "dashed"}
+  ]
+}

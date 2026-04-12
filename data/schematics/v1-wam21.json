@@ -1,0 +1,27 @@
+{
+  "id": "v1-wam21",
+  "volume": 1,
+  "section": "WAM-21",
+  "page": 64,
+  "subject": "WAM.AF",
+  "title": "Western Art Music - Affinity Framework",
+  "type": "crossing",
+  "description": "Affinity framework in Western Art Music context",
+  "terms": [
+    {"termId": "wam-af", "isSubject": true},
+    {"termId": "afi"},
+    {"termId": "afi-1"},
+    {"termId": "afi-2"},
+    {"termId": "prog-cont"},
+    {"termId": "r-intr"},
+    {"termId": "indiv-dy"}
+  ],
+  "relationships": [
+    {"from": "wam-af", "to": "afi", "type": "thick"},
+    {"from": "afi", "to": "afi-1", "type": "solid"},
+    {"from": "afi", "to": "afi-2", "type": "solid"},
+    {"from": "afi-1", "to": "prog-cont", "type": "dashed"},
+    {"from": "afi-2", "to": "r-intr", "type": "solid"},
+    {"from": "indiv-dy", "to": "afi", "type": "dashed"}
+  ]
+}

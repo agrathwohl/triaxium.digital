@@ -1,0 +1,29 @@
+{
+  "id": "v1-p50",
+  "volume": 1,
+  "section": "WM-23",
+  "page": 50,
+  "subject": "INFO.TRNS",
+  "title": "Information Transfer - Volume 1",
+  "type": "crossing",
+  "description": "Information transfer in Volume 1 context",
+  "terms": [
+    {"termId": "info-trns", "isSubject": true},
+    {"termId": "stf"},
+    {"termId": "cross-tr"},
+    {"termId": "time-lag"},
+    {"termId": "src-def"},
+    {"termId": "x-def"},
+    {"termId": "tr-cyc"},
+    {"termId": "sptc-d-cyc"}
+  ],
+  "relationships": [
+    {"from": "info-trns", "to": "stf", "type": "thick"},
+    {"from": "stf", "to": "cross-tr", "type": "solid"},
+    {"from": "cross-tr", "to": "time-lag", "type": "dashed"},
+    {"from": "time-lag", "to": "src-def", "type": "solid"},
+    {"from": "src-def", "to": "x-def", "type": "dashed"},
+    {"from": "x-def", "to": "tr-cyc", "type": "solid"},
+    {"from": "tr-cyc", "to": "sptc-d-cyc", "type": "dashed"}
+  ]
+}

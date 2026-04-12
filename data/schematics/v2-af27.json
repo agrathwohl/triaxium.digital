@@ -1,0 +1,29 @@
+{
+  "id": "v2-af27",
+  "volume": 2,
+  "section": "(AF)D-27",
+  "page": 99,
+  "subject": "CULT.MOV",
+  "title": "Cultural Movement - Natural Transfer",
+  "type": "tree",
+  "description": "Natural cultural movement vs spectacle-diversion cycles",
+  "terms": [
+    { "termId": "cult-mov", "isSubject": true },
+    { "termId": "tr-cyc" },
+    { "termId": "sptc-d-cyc" },
+    { "termId": "info-trns" },
+    { "termId": "src-dy" },
+    { "termId": "cross-tr" },
+    { "termId": "stf" },
+    { "termId": "crtf-d" }
+  ],
+  "relationships": [
+    { "from": "cult-mov", "to": "tr-cyc", "type": "thick" },
+    { "from": "cult-mov", "to": "sptc-d-cyc", "type": "dashed" },
+    { "from": "tr-cyc", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "src-dy", "type": "solid" },
+    { "from": "src-dy", "to": "cross-tr", "type": "solid" },
+    { "from": "cross-tr", "to": "stf", "type": "dashed" },
+    { "from": "stf", "to": "crtf-d", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v3-evol10",
+  "volume": 3,
+  "section": "EVOL-10",
+  "page": 172,
+  "subject": "EXTN-OB",
+  "title": "Existential Observation to Participation",
+  "type": "angled-tree",
+  "description": "Composite spirituality in world culture music",
+  "terms": [
+    {"termId": "extn-ob", "isSubject": true},
+    {"termId": "per-dy"},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "phy-u-fund"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "lg-dy"},
+    {"termId": "r-intl"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"}
+  ],
+  "relationships": [
+    {"from": "extn-ob", "to": "per-dy", "type": "thick"},
+    {"from": "per-dy", "to": "af-dt", "type": "solid"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "phy-u-fund", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "af-dt", "to": "pol-dy", "type": "solid"},
+    {"from": "pol-dy", "to": "r-int", "type": "dashed"}
+  ]
+}

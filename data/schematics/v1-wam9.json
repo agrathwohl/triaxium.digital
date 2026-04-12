@@ -1,0 +1,27 @@
+{
+  "id": "v1-wam9",
+  "volume": 1,
+  "section": "WAM-9",
+  "page": 52,
+  "subject": "WAM.SCI",
+  "title": "Western Art Music - Scientific Dynamics",
+  "type": "tree",
+  "description": "Scientific dynamics in Western Art Music context",
+  "terms": [
+    {"termId": "wam-sci", "isSubject": true},
+    {"termId": "c-cont"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "soc-rt-dy"}
+  ],
+  "relationships": [
+    {"from": "wam-sci", "to": "c-cont", "type": "thick"},
+    {"from": "c-cont", "to": "spt-dym", "type": "dashed"},
+    {"from": "c-cont", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "soc-rt-dy", "type": "dashed"}
+  ]
+}

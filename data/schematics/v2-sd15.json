@@ -1,0 +1,30 @@
+{
+  "id": "v2-sd15",
+  "volume": 2,
+  "section": "SD(SY)-15",
+  "page": 37,
+  "subject": "SPT-DYM",
+  "title": "Spectacle Dynamics - Composite Continuance",
+  "type": "crossing",
+  "description": "The educational experience of black composers in western art music context",
+  "terms": [
+    { "termId": "spt-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "s-proj" },
+    { "termId": "rt-int-tr" },
+    { "termId": "sci-dym" },
+    { "termId": "act-t" },
+    { "termId": "re-st" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "phy-u-fund", "to": "c-cont", "type": "dashed" },
+    { "from": "spt-dym", "to": "c-cont", "type": "thick" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "s-proj", "to": "rt-int-tr", "type": "solid" },
+    { "from": "sci-dym", "to": "act-t", "type": "solid" },
+    { "from": "act-t", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "pri-info", "type": "dashed" }
+  ]
+}

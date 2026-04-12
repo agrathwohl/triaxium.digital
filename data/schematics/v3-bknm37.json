@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm37",
+  "volume": 3,
+  "section": "BK(NM)-37",
+  "page": 61,
+  "subject": "ALT-F",
+  "title": "Alternative Function - Black Aesthetic",
+  "type": "crossing",
+  "description": "Alternative function within black aesthetic framework",
+  "terms": [
+    {"termId": "alt-f", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "r-intr"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dy"},
+    {"termId": "sci-dym"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"}
+  ],
+  "relationships": [
+    {"from": "alt-f", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "r-intr", "type": "solid"},
+    {"from": "r-intr", "to": "c-hm", "type": "dashed"},
+    {"from": "c-hm", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "thick"}
+  ]
+}

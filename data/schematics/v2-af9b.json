@@ -1,0 +1,29 @@
+{
+  "id": "v2-af9b",
+  "volume": 2,
+  "section": "(AF)D-9b",
+  "page": 82,
+  "subject": "X-DEF",
+  "title": "Cross-Transfer Definitions - Media Impact",
+  "type": "crossing",
+  "description": "Impact of cross-transfer definitions on media",
+  "terms": [
+    {"termId": "x-def", "isSubject": true},
+    {"termId": "media"},
+    {"termId": "src-def"},
+    {"termId": "info-trns"},
+    {"termId": "stf"},
+    {"termId": "crtf-d"},
+    {"termId": "spt-dym"},
+    {"termId": "proj-dy"}
+  ],
+  "relationships": [
+    {"from": "x-def", "to": "media", "type": "thick"},
+    {"from": "src-def", "to": "media", "type": "dashed"},
+    {"from": "src-def", "to": "info-trns", "type": "solid"},
+    {"from": "info-trns", "to": "stf", "type": "solid"},
+    {"from": "stf", "to": "crtf-d", "type": "solid"},
+    {"from": "crtf-d", "to": "spt-dym", "type": "dashed"},
+    {"from": "spt-dym", "to": "proj-dy", "type": "solid"}
+  ]
+}

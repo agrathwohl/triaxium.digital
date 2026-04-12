@@ -1,0 +1,27 @@
+{
+  "id": "v3-bknm12",
+  "volume": 3,
+  "section": "BK(NM)-12",
+  "page": 36,
+  "subject": "LK.IMP",
+  "title": "Linking Implications - Blues Structure",
+  "type": "tree",
+  "description": "Tree structure showing linking implications in blues analysis",
+  "terms": [
+    {"termId": "lk-imp", "isSubject": true},
+    {"termId": "rt-algn"},
+    {"termId": "c-info"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "lg-dy"},
+    {"termId": "pol-dy"}
+  ],
+  "relationships": [
+    {"from": "lk-imp", "to": "rt-algn", "type": "thick"},
+    {"from": "lk-imp", "to": "c-info", "type": "solid"},
+    {"from": "c-info", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "lg-dy", "to": "pol-dy", "type": "dashed"}
+  ]
+}

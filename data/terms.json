@@ -1,0 +1,22 @@
+[
+  { "id": "vt-dy", "abbreviation": "VT-DY", "expansion": "vibrational dynamics", "category": "vibrational", "volume": 1, "definition": "The spectrum of vibrational possibilities" },
+  { "id": "afi", "abbreviation": "AFI", "expansion": "affinity insight", "category": "affinity", "volume": 1, "definition": "The uncovering of necessary information through self-realization" },
+  { "id": "afi-1", "abbreviation": "AFI(1)", "expansion": "affinity insight—first degree", "category": "affinity", "volume": 1, "definition": "Realization about the whole of a given route or culture" },
+  { "id": "afi-2", "abbreviation": "AFI(2)", "expansion": "affinity insight—second degree", "category": "affinity", "volume": 1, "definition": "Use of self-realization to connect to one's own life realness" },
+  { "id": "rt-algn", "abbreviation": "RT-ALGN", "expansion": "reality alignment", "category": "reality", "volume": 1, "definition": "The way of one's vibrational nature or sensibility" },
+  { "id": "prog-cont", "abbreviation": "PROG-CONT", "expansion": "progressional continuance", "category": "other", "volume": 1, "definition": "Every creative thrust exists in a time continuum" },
+  { "id": "spt-dym", "abbreviation": "SPT-DYM", "expansion": "spectacle dynamics", "category": "vibrational", "volume": 2, "definition": "The phenomenon of spectacle-diversion" },
+  { "id": "bia", "abbreviation": "BIA", "expansion": "bi-aitional", "category": "other", "volume": 2, "definition": "The unification of masculine and feminine vibrational principles" },
+  { "id": "tr", "abbreviation": "TR", "expansion": "transformation", "category": "transformation", "volume": 3, "definition": "A cosmic junction that gives new options" },
+  { "id": "alt-ft", "abbreviation": "ALT-FT", "expansion": "alternative functionalism", "category": "other", "volume": 3, "definition": "Disciplines not perceived as culturally sustaining" },
+  { "id": "post", "abbreviation": "POST", "expansion": "postulation", "category": "other", "volume": 1, "definition": "Reaching for understanding" },
+  { "id": "sg", "abbreviation": "SG", "expansion": "source initiation", "category": "other", "volume": 1, "definition": "The beginning of creative source" },
+  { "id": "pri-vt-td", "abbreviation": "PRI-VT-TD", "expansion": "primary vibrational tendencies", "category": "vibrational", "volume": 1, "definition": "Core vibrational attractions" },
+  { "id": "aftd", "abbreviation": "AFTD", "expansion": "affinity tendencies", "category": "affinity", "volume": 1, "definition": "The nature of principle information a person normally vibrates from" },
+  { "id": "lang-dy", "abbreviation": "LANG-DY", "expansion": "language dynamics", "category": "other", "volume": 1, "definition": "How language shapes and reflects reality" },
+  { "id": "indiv-dy", "abbreviation": "INDIV-DY", "expansion": "individual dynamics", "category": "other", "volume": 1, "definition": "Forces shaping individual experience" },
+  { "id": "stf", "abbreviation": "STF", "expansion": "source transfer", "category": "other", "volume": 2, "definition": "How knowledge moves between continuums" },
+  { "id": "crtf-d", "abbreviation": "CRTF-D", "expansion": "cross-transfer definitions", "category": "other", "volume": 2, "definition": "Definitions replacing source-initiated ones" },
+  { "id": "hi-p", "abbreviation": "HI-P", "expansion": "high purpose", "category": "other", "volume": 3, "definition": "Purpose transcending immediate circumstances" },
+  { "id": "c-hm", "abbreviation": "C-HM", "expansion": "composite humanity", "category": "composite", "volume": 3, "definition": "All humanity—men, women, children, regardless of planet sector" }
+]

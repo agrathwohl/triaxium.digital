@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm34",
+  "volume": 3,
+  "section": "BK(NM)-34",
+  "page": 58,
+  "subject": "SOC-RT-DY",
+  "title": "Social Reality Dynamics - Institutional Context",
+  "type": "crossing",
+  "description": "Social reality dynamics affecting black composers",
+  "terms": [
+    {"termId": "soc-rt-dy", "isSubject": true},
+    {"termId": "exp-dt"},
+    {"termId": "alt-f"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "sci-dym"},
+    {"termId": "c-hm"}
+  ],
+  "relationships": [
+    {"from": "soc-rt-dy", "to": "exp-dt", "type": "thick"},
+    {"from": "exp-dt", "to": "alt-f", "type": "dashed"},
+    {"from": "soc-rt-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "c-hm", "type": "solid"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft8",
+  "volume": 3,
+  "section": "ALT(FT)||-8",
+  "page": 114,
+  "subject": "DYM-SPT",
+  "title": "Dynamic Spiritualism - New Functionalism",
+  "type": "tree",
+  "description": "Dynamic spiritualism as component of new functionalism",
+  "terms": [
+    {"termId": "dym-spt", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "r-ist-f"},
+    {"termId": "new-ft"},
+    {"termId": "ext-f"},
+    {"termId": "wo-exp-pri"},
+    {"termId": "alt-ft"}
+  ],
+  "relationships": [
+    {"from": "dym-spt", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "r-ist-f", "type": "solid"},
+    {"from": "r-ist-f", "to": "new-ft", "type": "dashed"},
+    {"from": "new-ft", "to": "ext-f", "type": "solid"},
+    {"from": "new-ft", "to": "wo-exp-pri", "type": "solid"},
+    {"from": "wo-exp-pri", "to": "alt-ft", "type": "solid"}
+  ]
+}

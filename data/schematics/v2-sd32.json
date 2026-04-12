@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd32",
+  "volume": 2,
+  "section": "SD(SY)-32",
+  "page": 54,
+  "subject": "EXP.INFO.B",
+  "title": "Expanded Information Base - Reality Dynamics",
+  "type": "horizontal",
+  "description": "Horizontal axis showing expanded information and its branches",
+  "terms": [
+    { "termId": "exp-info-b", "isSubject": true },
+    { "termId": "rt-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "af-td" },
+    { "termId": "acc-ft" },
+    { "termId": "if-st-dy" },
+    { "termId": "apl-dy" },
+    { "termId": "c-hm" }
+  ],
+  "relationships": [
+    { "from": "exp-info-b", "to": "rt-dy", "type": "dashed" },
+    { "from": "rt-dy", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "if-st-dy", "type": "thick" },
+    { "from": "if-st-dy", "to": "apl-dy", "type": "solid" },
+    { "from": "apl-dy", "to": "c-hm", "type": "dashed" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "v1-p46b",
+  "volume": 1,
+  "section": "WM-18",
+  "page": 46,
+  "subject": "LK.IMP",
+  "title": "Linking Implications - Network 2",
+  "type": "network",
+  "description": "Second of three networks showing linking implications",
+  "terms": [
+    {"termId": "lk-imp", "isSubject": true},
+    {"termId": "rt-algn"},
+    {"termId": "c-info"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "lg-dy"}
+  ],
+  "relationships": [
+    {"from": "lk-imp", "to": "rt-algn", "type": "thick"},
+    {"from": "lk-imp", "to": "c-info", "type": "solid"},
+    {"from": "c-info", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"}
+  ]
+}

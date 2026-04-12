@@ -1,0 +1,27 @@
+{
+  "id": "v3-cs25",
+  "volume": 3,
+  "section": "CS-25",
+  "page": 97,
+  "subject": "GAL-SCI",
+  "title": "Galactic Science - Transformation Principle",
+  "type": "tree",
+  "description": "Galactic science as cosmic transformation principle",
+  "terms": [
+    {"termId": "gal-sci", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "part"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dym"},
+    {"termId": "sci-dym"},
+    {"termId": "info-rt"}
+  ],
+  "relationships": [
+    {"from": "gal-sci", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "c-hm", "type": "solid"},
+    {"from": "c-hm", "to": "vt-dym", "type": "solid"},
+    {"from": "vt-dym", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "info-rt", "type": "solid"}
+  ]
+}

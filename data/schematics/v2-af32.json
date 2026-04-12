@@ -1,0 +1,29 @@
+{
+  "id": "v2-af32",
+  "volume": 2,
+  "section": "(AF)D-32",
+  "page": 104,
+  "subject": "PROG.CONT",
+  "title": "Progressional Continuance - Source Alignment",
+  "type": "horizontal",
+  "description": "How creative thrusts exist in time continuum with source alignment",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "src-dy" },
+    { "termId": "info-trns" },
+    { "termId": "stf" },
+    { "termId": "cross-tr" },
+    { "termId": "time-lag" },
+    { "termId": "tr-cyc" },
+    { "termId": "sptc-d-cyc" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "src-dy", "type": "thick" },
+    { "from": "src-dy", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "cross-tr", "type": "dashed" },
+    { "from": "cross-tr", "to": "time-lag", "type": "solid" },
+    { "from": "time-lag", "to": "tr-cyc", "type": "dashed" },
+    { "from": "tr-cyc", "to": "sptc-d-cyc", "type": "dashed" }
+  ]
+}

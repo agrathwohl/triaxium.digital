@@ -1,0 +1,27 @@
+{
+  "id": "v1-wam12",
+  "volume": 1,
+  "section": "WAM-12",
+  "page": 55,
+  "subject": "WAM.VT",
+  "title": "Western Art Music - Vibrational Tendencies",
+  "type": "crossing",
+  "description": "Vibrational tendencies in Western Art Music",
+  "terms": [
+    {"termId": "wam-vt", "isSubject": true},
+    {"termId": "post"},
+    {"termId": "sg"},
+    {"termId": "rt-algn"},
+    {"termId": "aftd"},
+    {"termId": "pri-vt-td"},
+    {"termId": "lang-dy"}
+  ],
+  "relationships": [
+    {"from": "wam-vt", "to": "post", "type": "dashed"},
+    {"from": "wam-vt", "to": "sg", "type": "solid"},
+    {"from": "sg", "to": "pri-vt-td", "type": "solid"},
+    {"from": "wam-vt", "to": "rt-algn", "type": "solid"},
+    {"from": "rt-algn", "to": "lang-dy", "type": "solid"},
+    {"from": "wam-vt", "to": "aftd", "type": "dashed"}
+  ]
+}

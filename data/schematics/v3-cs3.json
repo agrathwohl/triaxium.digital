@@ -1,0 +1,27 @@
+{
+  "id": "v3-cs3",
+  "volume": 3,
+  "section": "CS-3",
+  "page": 75,
+  "subject": "SCI.DYM",
+  "title": "Scientific Dynamics - Vibrational Science Introduction",
+  "type": "tree",
+  "description": "Introduction to vibrational science in creativity context",
+  "terms": [
+    {"termId": "sci-dym", "isSubject": true},
+    {"termId": "c-cont"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "soc-rt-dy"}
+  ],
+  "relationships": [
+    {"from": "sci-dym", "to": "c-cont", "type": "thick"},
+    {"from": "c-cont", "to": "spt-dym", "type": "dashed"},
+    {"from": "c-cont", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "soc-rt-dy", "type": "dashed"}
+  ]
+}

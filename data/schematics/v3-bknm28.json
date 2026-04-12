@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm28",
+  "volume": 3,
+  "section": "BK(NM)-28",
+  "page": 52,
+  "subject": "TR",
+  "title": "Transformation - Black Music Evolution",
+  "type": "tree",
+  "description": "Transformation processes in black music evolution",
+  "terms": [
+    {"termId": "tr", "isSubject": true},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "lg-dy"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"},
+    {"termId": "c-hm"}
+  ],
+  "relationships": [
+    {"from": "tr", "to": "info-rt", "type": "thick"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "lg-dy", "to": "pol-dy", "type": "dashed"},
+    {"from": "pol-dy", "to": "r-int", "type": "solid"},
+    {"from": "r-int", "to": "c-hm", "type": "dashed"}
+  ]
+}

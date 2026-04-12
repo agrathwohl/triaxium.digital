@@ -1,0 +1,27 @@
+{
+  "id": "v1-p48",
+  "volume": 1,
+  "section": "WM-21",
+  "page": 48,
+  "subject": "C.CONT",
+  "title": "Composite Continuance - Tree Structure",
+  "type": "tree",
+  "description": "Tree structure showing multiple branches of continuance",
+  "terms": [
+    {"termId": "c-cont", "isSubject": true, "prefix": "c"},
+    {"termId": "info-trns"},
+    {"termId": "prog-cont"},
+    {"termId": "trs"},
+    {"termId": "exp-dym"},
+    {"termId": "intr"},
+    {"termId": "sci-dym"}
+  ],
+  "relationships": [
+    {"from": "c-cont", "to": "info-trns", "type": "thick"},
+    {"from": "c-cont", "to": "prog-cont", "type": "thick"},
+    {"from": "info-trns", "to": "trs", "type": "solid"},
+    {"from": "info-trns", "to": "exp-dym", "type": "solid"},
+    {"from": "info-trns", "to": "intr", "type": "solid"},
+    {"from": "prog-cont", "to": "sci-dym", "type": "solid"}
+  ]
+}

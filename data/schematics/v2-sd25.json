@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd25",
+  "volume": 2,
+  "section": "SD(SY)-25",
+  "page": 47,
+  "subject": "AF.COMP",
+  "title": "Affinity Composite - Source Dynamics",
+  "type": "tree",
+  "description": "Composite nature of affinity alignment in cultural systems",
+  "terms": [
+    { "termId": "af-comp", "isSubject": true, "prefix": "c" },
+    { "termId": "src-dy" },
+    { "termId": "info-intg" },
+    { "termId": "c-hm" },
+    { "termId": "rt-dy" },
+    { "termId": "pol-con" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "sci-dym" }
+  ],
+  "relationships": [
+    { "from": "af-comp", "to": "src-dy", "type": "thick" },
+    { "from": "src-dy", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "c-hm", "type": "solid" },
+    { "from": "c-hm", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-con", "type": "dashed" },
+    { "from": "pol-con", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "sci-dym", "type": "dashed" }
+  ]
+}

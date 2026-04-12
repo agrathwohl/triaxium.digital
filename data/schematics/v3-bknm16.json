@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm16",
+  "volume": 3,
+  "section": "BK(NM)-16",
+  "page": 40,
+  "subject": "RT-ALGN",
+  "title": "Reality Alignment - Notation Ritual",
+  "type": "crossing",
+  "description": "How notation functions as ritual consideration in black music",
+  "terms": [
+    {"termId": "rt-algn", "isSubject": true},
+    {"termId": "c-rit"},
+    {"termId": "per-dy"},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"},
+    {"termId": "part"}
+  ],
+  "relationships": [
+    {"from": "rt-algn", "to": "c-rit", "type": "thick"},
+    {"from": "c-rit", "to": "per-dy", "type": "solid"},
+    {"from": "per-dy", "to": "af-dt", "type": "solid"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "solid"},
+    {"from": "mt-intr", "to": "part", "type": "thick"}
+  ]
+}

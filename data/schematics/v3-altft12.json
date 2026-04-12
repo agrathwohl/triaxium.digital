@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft12",
+  "volume": 3,
+  "section": "ALT(FT)||-12",
+  "page": 118,
+  "subject": "ALT-FT",
+  "title": "Alternative Functionalism - Core Framework",
+  "type": "angled-tree",
+  "description": "Core framework of alternative functionalism",
+  "terms": [
+    {"termId": "alt-ft", "isSubject": true},
+    {"termId": "tr"},
+    {"termId": "rt-dy"},
+    {"termId": "pol-dy"},
+    {"termId": "if-st-dy"},
+    {"termId": "apl-dy"},
+    {"termId": "c-hm"}
+  ],
+  "relationships": [
+    {"from": "alt-ft", "to": "tr", "type": "thick"},
+    {"from": "alt-ft", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "pol-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "if-st-dy", "type": "thick"},
+    {"from": "if-st-dy", "to": "apl-dy", "type": "solid"},
+    {"from": "apl-dy", "to": "c-hm", "type": "dashed"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "v1-wam27",
+  "volume": 1,
+  "section": "WAM-27",
+  "page": 70,
+  "subject": "WAM.CRIT",
+  "title": "Western Art Music - Critical Analysis",
+  "type": "crossing",
+  "description": "Critical analysis of Western Art Music",
+  "terms": [
+    {"termId": "wam-crit", "isSubject": true},
+    {"termId": "spt-dym"},
+    {"termId": "sci-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "soc-rt-dy"}
+  ],
+  "relationships": [
+    {"from": "wam-crit", "to": "spt-dym", "type": "thick"},
+    {"from": "spt-dym", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "soc-rt-dy", "type": "dashed"}
+  ]
+}

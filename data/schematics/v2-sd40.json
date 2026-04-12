@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd40",
+  "volume": 2,
+  "section": "SD(SY)-40",
+  "page": 62,
+  "subject": "INFO.COMP",
+  "title": "Information Composite - Integration Dynamics",
+  "type": "crossing",
+  "description": "Crossing network showing information integration across multiple domains",
+  "terms": [
+    { "termId": "info-comp", "isSubject": true },
+    { "termId": "info-intg" },
+    { "termId": "c-hm" },
+    { "termId": "rt-dy" },
+    { "termId": "pol-con" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "exp-dt" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "info-comp", "to": "info-intg", "type": "thick" },
+    { "from": "info-intg", "to": "c-hm", "type": "solid" },
+    { "from": "c-hm", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-con", "type": "dashed" },
+    { "from": "pol-con", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "exp-dt", "type": "solid" },
+    { "from": "exp-dt", "to": "alt-f", "type": "dashed" }
+  ]
+}

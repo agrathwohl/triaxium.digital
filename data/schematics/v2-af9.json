@@ -1,0 +1,30 @@
+{
+  "id": "v2-af9",
+  "volume": 2,
+  "section": "(AF)D-9",
+  "page": 81,
+  "subject": "TIME-LAG",
+  "title": "Time-Lag Definitions - Source vs Cross-Transfer",
+  "type": "crossing",
+  "description": "How source-initiated definitions are denied media access",
+  "terms": [
+    { "termId": "time-lag", "isSubject": true },
+    { "termId": "src-def" },
+    { "termId": "x-def" },
+    { "termId": "media" },
+    { "termId": "info-trns" },
+    { "termId": "stf" },
+    { "termId": "crtf-d" },
+    { "termId": "spt-dym" }
+  ],
+  "relationships": [
+    { "from": "time-lag", "to": "src-def", "type": "dashed" },
+    { "from": "time-lag", "to": "x-def", "type": "solid" },
+    { "from": "src-def", "to": "media", "type": "dashed" },
+    { "from": "x-def", "to": "media", "type": "thick" },
+    { "from": "src-def", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "spt-dym", "type": "dashed" }
+  ]
+}

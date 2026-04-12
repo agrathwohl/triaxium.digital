@@ -1,0 +1,223 @@
+[
+  {
+    "id": "v1-p20",
+    "volume": 1,
+    "section": "WM",
+    "page": 20,
+    "subject": "VT-DY",
+    "title": "[R]VT-DY relates to POST",
+    "type": "tree",
+    "description": "Vibrational dynamics in three contexts: source initiation, reality alignment, affinity tendencies",
+    "terms": [
+      { "termId": "vt-dy", "isSubject": true, "prefix": "R" },
+      { "termId": "post" },
+      { "termId": "sg" },
+      { "termId": "rt-algn" },
+      { "termId": "aftd" },
+      { "termId": "pri-vt-td" },
+      { "termId": "lang-dy" },
+      { "termId": "indiv-dy" },
+      { "termId": "afi" },
+      { "termId": "prog-cont" }
+    ],
+    "relationships": [
+      { "from": "vt-dy", "to": "post", "type": "dashed" },
+      { "from": "vt-dy", "to": "sg", "type": "solid" },
+      { "from": "sg", "to": "pri-vt-td", "type": "solid" },
+      { "from": "vt-dy", "to": "rt-algn", "type": "solid" },
+      { "from": "rt-algn", "to": "lang-dy", "type": "solid" },
+      { "from": "vt-dy", "to": "aftd", "type": "solid" },
+      { "from": "aftd", "to": "indiv-dy", "type": "solid" },
+      { "from": "indiv-dy", "to": "afi", "type": "solid" },
+      { "from": "indiv-dy", "to": "prog-cont", "type": "dashed" }
+    ]
+  },
+  {
+    "id": "v1-p34-wm10",
+    "volume": 1,
+    "section": "WM-10",
+    "page": 34,
+    "subject": "T.C.IMP./ACT.TR",
+    "title": "Time Continuum Implications / Actual Transformation",
+    "type": "horizontal",
+    "description": "Horizontal axis showing relationship between time and transformation",
+    "terms": [
+      { "termId": "t-c-imp" },
+      { "termId": "act-tr" },
+      { "termId": "rt-dy" },
+      { "termId": "afl" },
+      { "termId": "pol-con" },
+      { "termId": "r-intr" },
+      { "termId": "info-de-b" }
+    ],
+    "relationships": [
+      { "from": "t-c-imp", "to": "act-tr", "type": "dashed" },
+      { "from": "act-tr", "to": "rt-dy", "type": "solid" },
+      { "from": "afl", "to": "pol-con", "type": "solid" },
+      { "from": "ext-dy", "to": "r-intr", "type": "dashed" }
+    ]
+  },
+  {
+    "id": "v1-p36-wm12",
+    "volume": 1,
+    "section": "WM-12",
+    "page": 36,
+    "subject": "SCI.DYM",
+    "title": "Scientific Dynamics - Composite Continuance",
+    "type": "tree",
+    "description": "Three schematics on one page showing scientific dynamics",
+    "terms": [
+      { "termId": "sci-dym" },
+      { "termId": "c-cont" },
+      { "termId": "spt-dym" },
+      { "termId": "afi" },
+      { "termId": "meth" },
+      { "termId": "post" },
+      { "termId": "info-af-b" },
+      { "termId": "indiv-td" },
+      { "termId": "exp-dym" },
+      { "termId": "trs" },
+      { "termId": "intr" }
+    ],
+    "relationships": [
+      { "from": "sci-dym", "to": "c-cont", "type": "dashed" },
+      { "from": "sci-dym", "to": "spt-dym", "type": "solid" },
+      { "from": "spt-dym", "to": "afi", "type": "solid" }
+    ]
+  },
+  {
+    "id": "v2-sd8",
+    "volume": 2,
+    "section": "SD(SY)-8",
+    "page": 33,
+    "subject": "CULT.INFO.F",
+    "title": "Culture Information Focus - Affinity Dynamics",
+    "type": "tree",
+    "description": "Volume 2, SD(SY)-8 - analyzing American culture critique",
+    "terms": [
+      { "termId": "cult-info-f" },
+      { "termId": "af-dy" },
+      { "termId": "mta-rt-sign" },
+      { "termId": "proj-dy" },
+      { "termId": "p-act" },
+      { "termId": "pri-info" },
+      { "termId": "cos-p" },
+      { "termId": "r-diff" },
+      { "termId": "info-intr" }
+    ],
+    "relationships": [
+      { "from": "cult-info-f", "to": "af-dy", "type": "dashed" },
+      { "from": "af-dy", "to": "mta-rt-sign", "type": "solid" },
+      { "from": "proj-dy", "to": "p-act", "type": "dashed" }
+    ]
+  },
+  {
+    "id": "v2-sd11",
+    "volume": 2,
+    "section": "SD(SY)-11",
+    "page": 33,
+    "subject": "INFO.ALGN",
+    "title": "Information Alignment - Social Reality Dynamics",
+    "type": "crossing",
+    "description": "Complex crossing network showing American progressionalism and spectacle diversion",
+    "terms": [
+      { "termId": "info-algn" },
+      { "termId": "soc-rt" },
+      { "termId": "alt-act" },
+      { "termId": "alt-f" },
+      { "termId": "att" },
+      { "termId": "afi-2" },
+      { "termId": "p-app-rdef" },
+      { "termId": "sptc-d" }
+    ],
+    "relationships": [
+      { "from": "info-algn", "to": "soc-rt", "type": "dashed" },
+      { "from": "soc-rt", "to": "alt-act", "type": "solid" },
+      { "from": "alt-f", "to": "att", "type": "solid" },
+      { "from": "att", "to": "afi-2", "type": "solid" },
+      { "from": "afi-2", "to": "p-app-rdef", "type": "solid" }
+    ]
+  },
+  {
+    "id": "v2-sd17",
+    "volume": 2,
+    "section": "SD(SY)-17",
+    "page": 39,
+    "subject": "SPT.D",
+    "title": "Spectacle Diversion Definition",
+    "type": "crossing",
+    "description": "The reality of physical universe fundamental and spectacle dynamics",
+    "terms": [
+      { "termId": "spt-dym", "isSubject": true },
+      { "termId": "c-cont" },
+      { "termId": "mt-info" },
+      { "termId": "s-proj" },
+      { "termId": "rt-int-tr" },
+      { "termId": "sci-dym" },
+      { "termId": "act-t" },
+      { "termId": "re-st" },
+      { "termId": "pri-info" }
+    ],
+    "relationships": [
+      { "from": "phy-u-fund", "to": "c-cont", "type": "dashed" },
+      { "from": "spt-dym", "to": "c-cont", "type": "thick" },
+      { "from": "c-cont", "to": "mt-info", "type": "solid" }
+    ]
+  },
+  {
+    "id": "v3-bknm21",
+    "volume": 3,
+    "section": "BK(NM)-21",
+    "page": 45,
+    "subject": "AFI",
+    "title": "Olly Wilson and Alvin Singleton Analysis",
+    "type": "crossing",
+    "description": "Black composers analyzed through affinity insight and basic scientific functionalism",
+    "terms": [
+      { "termId": "afi-dy", "prefix": "R" },
+      { "termId": "bscf", "prefix": "R" },
+      { "termId": "ext-ft" },
+      { "termId": "info-trns" },
+      { "termId": "vt-dy" },
+      { "termId": "link-imp" }
+    ],
+    "relationships": [
+      { "from": "afi-dy", "to": "ext-ft", "type": "solid" },
+      { "from": "afi-dy", "to": "info-trns", "type": "solid" },
+      { "from": "bscf", "to": "vt-dy", "type": "solid" },
+      { "from": "bscf", "to": "link-imp", "type": "solid" }
+    ]
+  },
+  {
+    "id": "v3-altft14",
+    "volume": 3,
+    "section": "ALT(FT)||-14",
+    "page": 120,
+    "subject": "HI-P",
+    "title": "High Purpose to Infra-Structure Dynamics",
+    "type": "angled-tree",
+    "description": "Alternative functionalism and political dynamics",
+    "terms": [
+      { "termId": "hi-p", "isSubject": true },
+      { "termId": "alt-ft" },
+      { "termId": "tr" },
+      { "termId": "rt-dy" },
+      { "termId": "pol-dy" },
+      { "termId": "if-st-dy" },
+      { "termId": "apl-dy" },
+      { "termId": "c-hm" }
+    ],
+    "relationships": [
+      { "from": "hi-p", "to": "alt-ft", "type": "thick" },
+      { "from": "alt-ft", "to": "tr", "type": "solid" },
+      { "from": "hi-p", "to": "rt-dy", "type": "solid" },
+      { "from": "rt-dy", "to": "pol-dy", "type": "solid" },
+      { "from": "rt-dy", "to": "if-st-dy", "type": "thick" },
+      { "from": "if-st-dy", "to": "apl-dy", "type": "solid" },
+      { "from": "alt-ft", "to": "c-hm", "type": "solid" }
+    ]
+  },
+  
+  "NOTE": "Full extraction of remaining 98 schematics in progress from memory documentation"
+]
+

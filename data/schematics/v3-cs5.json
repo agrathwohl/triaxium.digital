@@ -1,0 +1,28 @@
+{
+  "id": "v3-cs5",
+  "volume": 3,
+  "section": "CS-5",
+  "page": 77,
+  "subject": "VT.DYM",
+  "title": "Vibrational Dynamics - Social Reality",
+  "type": "tree",
+  "description": "Vibrational science and its relationship to social reality",
+  "terms": [
+    {"termId": "vt-dym", "isSubject": true},
+    {"termId": "soc-rt"},
+    {"termId": "c-cont"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "soc-rt-dy"}
+  ],
+  "relationships": [
+    {"from": "vt-dym", "to": "c-cont", "type": "solid"},
+    {"from": "c-cont", "to": "spt-dym", "type": "dashed"},
+    {"from": "c-cont", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "afi", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "soc-rt-dy", "type": "dashed"}
+  ]
+}

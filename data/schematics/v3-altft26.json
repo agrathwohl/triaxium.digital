@@ -1,0 +1,30 @@
+{
+  "id": "v3-altft26",
+  "volume": 3,
+  "section": "ALT(FT)||-26",
+  "page": 132,
+  "subject": "BIA",
+  "title": "Bi-aitionalism - Functionalism",
+  "type": "crossing",
+  "description": "Bi-aitionalism within alternative functionalism framework",
+  "terms": [
+    {"termId": "bia", "isSubject": true, "prefix": "c"},
+    {"termId": "c-rh"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "new-ft"},
+    {"termId": "mt-info"},
+    {"termId": "c-info"},
+    {"termId": "ext-f"}
+  ],
+  "relationships": [
+    {"from": "bia", "to": "c-rh", "type": "thick"},
+    {"from": "c-rh", "to": "alt-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "new-ft", "type": "solid"},
+    {"from": "new-ft", "to": "mt-info", "type": "dashed"},
+    {"from": "mt-info", "to": "c-info", "type": "solid"},
+    {"from": "c-info", "to": "bia", "type": "dashed"},
+    {"from": "new-ft", "to": "ext-f", "type": "thick"}
+  ]
+}

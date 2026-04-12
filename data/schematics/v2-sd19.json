@@ -1,0 +1,25 @@
+{
+  "id": "v2-sd19",
+  "volume": 2,
+  "section": "SD(SY)-19",
+  "page": 41,
+  "subject": "PRI.VT.TD",
+  "title": "Primary Vibrational Tendencies - Affinity Dynamics",
+  "type": "crossing",
+  "description": "The diversion sequence in America and cultural movement perception",
+  "terms": [
+    { "termId": "pri-vt-td", "isSubject": true },
+    { "termId": "af-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "post" },
+    { "termId": "r-intr" }
+  ],
+  "relationships": [
+    { "from": "pri-vt-td", "to": "af-dy", "type": "dashed" },
+    { "from": "wo-exp-pri", "to": "prog-cont", "type": "dashed" },
+    { "from": "tr", "to": "r-intr", "type": "solid" },
+    { "from": "af-dy", "to": "post", "type": "solid" },
+    { "from": "prog-cont", "to": "tr", "type": "thick" }
+  ]
+}

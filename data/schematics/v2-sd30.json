@@ -1,0 +1,31 @@
+{
+  "id": "v2-sd30",
+  "volume": 2,
+  "section": "SD(SY)-30",
+  "page": 52,
+  "subject": "C.CONT",
+  "title": "Composite Continuance - Information Transfer",
+  "type": "tree",
+  "description": "Tree structure showing multiple branches of continuance concepts",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "info-trns" },
+    { "termId": "prog-cont" },
+    { "termId": "trs" },
+    { "termId": "exp-dym" },
+    { "termId": "intr" },
+    { "termId": "sci-dym" },
+    { "termId": "spt-dym" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "c-cont", "to": "info-trns", "type": "thick" },
+    { "from": "c-cont", "to": "prog-cont", "type": "thick" },
+    { "from": "info-trns", "to": "trs", "type": "solid" },
+    { "from": "info-trns", "to": "exp-dym", "type": "solid" },
+    { "from": "info-trns", "to": "intr", "type": "solid" },
+    { "from": "prog-cont", "to": "sci-dym", "type": "solid" },
+    { "from": "prog-cont", "to": "spt-dym", "type": "dashed" },
+    { "from": "prog-cont", "to": "afi", "type": "solid" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "v1-p46c",
+  "volume": 1,
+  "section": "WM-19",
+  "page": 46,
+  "subject": "RT-ALGN",
+  "title": "Reality Alignment - Network 3",
+  "type": "tree",
+  "description": "Third of three networks showing reality alignment",
+  "terms": [
+    {"termId": "rt-algn", "isSubject": true},
+    {"termId": "info-trns"},
+    {"termId": "stf"},
+    {"termId": "cross-tr"},
+    {"termId": "time-lag"},
+    {"termId": "tr-cyc"}
+  ],
+  "relationships": [
+    {"from": "rt-algn", "to": "info-trns", "type": "thick"},
+    {"from": "info-trns", "to": "stf", "type": "solid"},
+    {"from": "stf", "to": "cross-tr", "type": "solid"},
+    {"from": "cross-tr", "to": "time-lag", "type": "dashed"},
+    {"from": "time-lag", "to": "tr-cyc", "type": "solid"}
+  ]
+}

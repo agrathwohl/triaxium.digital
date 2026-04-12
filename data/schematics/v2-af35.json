@@ -1,0 +1,29 @@
+{
+  "id": "v2-af35",
+  "volume": 2,
+  "section": "(AF)D-35",
+  "page": 107,
+  "subject": "AF.DY",
+  "title": "Affinity Dynamics - Conclusion",
+  "type": "crossing",
+  "description": "Final affinity dynamics schematic synthesizing transfer cycles and spectacle-diversion",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true },
+    { "termId": "tr-cyc" },
+    { "termId": "sptc-d-cyc" },
+    { "termId": "info-trns" },
+    { "termId": "stf" },
+    { "termId": "src-dy" },
+    { "termId": "afi" },
+    { "termId": "c-hm" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "tr-cyc", "type": "thick" },
+    { "from": "af-dy", "to": "sptc-d-cyc", "type": "dashed" },
+    { "from": "tr-cyc", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "src-dy", "type": "solid" },
+    { "from": "src-dy", "to": "afi", "type": "dashed" },
+    { "from": "afi", "to": "c-hm", "type": "solid" }
+  ]
+}

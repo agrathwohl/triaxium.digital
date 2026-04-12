@@ -1,0 +1,25 @@
+{
+  "id": "v1-p36",
+  "volume": 1,
+  "section": "WM-11",
+  "page": 36,
+  "subject": "SCI.DYM",
+  "title": "Scientific Dynamics",
+  "type": "tree",
+  "description": "Tree structure showing scientific dynamics",
+  "terms": [
+    {"termId": "sci-dym", "isSubject": true},
+    {"termId": "c-cont"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"}
+  ],
+  "relationships": [
+    {"from": "sci-dym", "to": "c-cont", "type": "thick"},
+    {"from": "c-cont", "to": "spt-dym", "type": "dashed"},
+    {"from": "c-cont", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "proj-dy", "type": "dashed"}
+  ]
+}

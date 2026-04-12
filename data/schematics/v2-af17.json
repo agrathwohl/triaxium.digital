@@ -1,0 +1,27 @@
+{
+  "id": "v2-af17",
+  "volume": 2,
+  "section": "(AF)D-17",
+  "page": 89,
+  "subject": "AFI-2",
+  "title": "Affinity Insight Second Degree - Life Realness",
+  "type": "crossing",
+  "description": "AFI(2): Use of self-realization to connect to one's own life realness",
+  "terms": [
+    { "termId": "afi-2", "isSubject": true },
+    { "termId": "life-real" },
+    { "termId": "self-real" },
+    { "termId": "tr" },
+    { "termId": "part" },
+    { "termId": "vt-dy" },
+    { "termId": "info-rt" }
+  ],
+  "relationships": [
+    { "from": "afi-2", "to": "life-real", "type": "thick" },
+    { "from": "afi-2", "to": "self-real", "type": "solid" },
+    { "from": "self-real", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "part", "type": "thick" },
+    { "from": "part", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "info-rt", "type": "dashed" }
+  ]
+}

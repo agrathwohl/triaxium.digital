@@ -1,0 +1,29 @@
+{
+  "id": "v2-af7",
+  "volume": 2,
+  "section": "(AF)D-7",
+  "page": 79,
+  "subject": "CULT.TR",
+  "title": "Cultural Transfer - Shift Dynamics",
+  "type": "tree",
+  "description": "Cultural transfer shifts and transfer cycles",
+  "terms": [
+    { "termId": "cult-tr", "isSubject": true },
+    { "termId": "shift-dy" },
+    { "termId": "tr-cyc" },
+    { "termId": "sptc-d-cyc" },
+    { "termId": "info-trns" },
+    { "termId": "src-dy" },
+    { "termId": "cross-tr" },
+    { "termId": "spt-dym" }
+  ],
+  "relationships": [
+    { "from": "cult-tr", "to": "shift-dy", "type": "thick" },
+    { "from": "shift-dy", "to": "tr-cyc", "type": "solid" },
+    { "from": "shift-dy", "to": "sptc-d-cyc", "type": "dashed" },
+    { "from": "tr-cyc", "to": "info-trns", "type": "solid" },
+    { "from": "tr-cyc", "to": "src-dy", "type": "solid" },
+    { "from": "src-dy", "to": "cross-tr", "type": "solid" },
+    { "from": "sptc-d-cyc", "to": "spt-dym", "type": "solid" }
+  ]
+}

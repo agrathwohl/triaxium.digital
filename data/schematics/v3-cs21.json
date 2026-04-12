@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs21",
+  "volume": 3,
+  "section": "CS-21",
+  "page": 93,
+  "subject": "INFO-DY",
+  "title": "Information Dynamics - Scientific Transformation",
+  "type": "crossing",
+  "description": "Information dynamics in transformation science context",
+  "terms": [
+    {"termId": "info-dy", "isSubject": true},
+    {"termId": "spt-dy"},
+    {"termId": "dis-c-ct"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "tech-dy"},
+    {"termId": "mt-info"},
+    {"termId": "c-info"}
+  ],
+  "relationships": [
+    {"from": "info-dy", "to": "spt-dy", "type": "solid"},
+    {"from": "info-dy", "to": "dis-c-ct", "type": "dashed"},
+    {"from": "dis-c-ct", "to": "alt-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "tech-dy", "type": "solid"},
+    {"from": "tech-dy", "to": "mt-info", "type": "dashed"},
+    {"from": "mt-info", "to": "c-info", "type": "solid"}
+  ]
+}

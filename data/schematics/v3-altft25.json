@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft25",
+  "volume": 3,
+  "section": "ALT(FT)||-25",
+  "page": 131,
+  "subject": "C-INFO",
+  "title": "Composite Information - Functionalism",
+  "type": "tree",
+  "description": "Composite information within alternative functionalism",
+  "terms": [
+    {"termId": "c-info", "isSubject": true, "prefix": "c"},
+    {"termId": "bia"},
+    {"termId": "c-rh"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "new-ft"},
+    {"termId": "mt-info"}
+  ],
+  "relationships": [
+    {"from": "c-info", "to": "bia", "type": "thick"},
+    {"from": "bia", "to": "c-rh", "type": "thick"},
+    {"from": "c-rh", "to": "alt-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "new-ft", "type": "solid"},
+    {"from": "new-ft", "to": "mt-info", "type": "dashed"}
+  ]
+}

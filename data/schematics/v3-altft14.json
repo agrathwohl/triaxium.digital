@@ -1,0 +1,29 @@
+{
+  "id": "v3-altft14",
+  "volume": 3,
+  "section": "ALT(FT)||-14",
+  "page": 120,
+  "subject": "HI-P",
+  "title": "High Purpose to Infra-Structure Dynamics",
+  "type": "angled-tree",
+  "description": "Alternative functionalism and political dynamics",
+  "terms": [
+    { "termId": "hi-p", "isSubject": true },
+    { "termId": "alt-ft" },
+    { "termId": "tr" },
+    { "termId": "rt-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "apl-dy" },
+    { "termId": "c-hm" }
+  ],
+  "relationships": [
+    { "from": "hi-p", "to": "alt-ft", "type": "thick" },
+    { "from": "alt-ft", "to": "tr", "type": "solid" },
+    { "from": "hi-p", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "if-st-dy", "type": "thick" },
+    { "from": "if-st-dy", "to": "apl-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "c-hm", "type": "solid" }
+  ]
+}

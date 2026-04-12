@@ -1,0 +1,25 @@
+{
+  "id": "v2-af15",
+  "volume": 2,
+  "section": "(AF)D-15",
+  "page": 87,
+  "subject": "AFI-1",
+  "title": "Affinity Insight First Degree - World Experience",
+  "type": "tree",
+  "description": "AFI(1): Realization about the whole of a given route or culture",
+  "terms": [
+    { "termId": "afi-1", "isSubject": true },
+    { "termId": "wo-exp" },
+    { "termId": "rt-und" },
+    { "termId": "tr" },
+    { "termId": "pri-vt-td" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "afi-1", "to": "wo-exp", "type": "thick" },
+    { "from": "afi-1", "to": "rt-und", "type": "solid" },
+    { "from": "rt-und", "to": "tr", "type": "solid" },
+    { "from": "wo-exp", "to": "pri-vt-td", "type": "solid" },
+    { "from": "rt-und", "to": "lang-dy", "type": "dashed" }
+  ]
+}

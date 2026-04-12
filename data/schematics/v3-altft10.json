@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft10",
+  "volume": 3,
+  "section": "ALT(FT)||-10",
+  "page": 116,
+  "subject": "WO-EXP-PRI",
+  "title": "World Expansion Principle - Functionalism",
+  "type": "crossing",
+  "description": "World expansion principle within alternative functionalism",
+  "terms": [
+    {"termId": "wo-exp-pri", "isSubject": true},
+    {"termId": "uni-pi"},
+    {"termId": "tr"},
+    {"termId": "pri-info"},
+    {"termId": "afl"},
+    {"termId": "spt-dy"},
+    {"termId": "afi"}
+  ],
+  "relationships": [
+    {"from": "wo-exp-pri", "to": "uni-pi", "type": "thick"},
+    {"from": "wo-exp-pri", "to": "tr", "type": "solid"},
+    {"from": "tr", "to": "pri-info", "type": "solid"},
+    {"from": "wo-exp-pri", "to": "afl", "type": "dashed"},
+    {"from": "afl", "to": "spt-dy", "type": "solid"},
+    {"from": "spt-dy", "to": "afi", "type": "dashed"}
+  ]
+}

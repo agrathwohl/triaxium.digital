@@ -1,0 +1,27 @@
+{
+  "id": "v2-af24",
+  "volume": 2,
+  "section": "(AF)D-24",
+  "page": 96,
+  "subject": "AF.COMP",
+  "title": "Affinity Composite - Integration Science",
+  "type": "tree",
+  "description": "Composite view of affinity across multiple disciplines",
+  "terms": [
+    { "termId": "af-comp", "isSubject": true, "prefix": "c" },
+    { "termId": "info-intg" },
+    { "termId": "sci-dym" },
+    { "termId": "spt-dym" },
+    { "termId": "afi" },
+    { "termId": "rt-dy" },
+    { "termId": "pol-con" }
+  ],
+  "relationships": [
+    { "from": "af-comp", "to": "info-intg", "type": "thick" },
+    { "from": "info-intg", "to": "sci-dym", "type": "solid" },
+    { "from": "info-intg", "to": "spt-dym", "type": "dashed" },
+    { "from": "sci-dym", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-con", "type": "dashed" }
+  ]
+}

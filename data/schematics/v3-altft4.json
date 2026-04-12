@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft4",
+  "volume": 3,
+  "section": "ALT(FT)||-4",
+  "page": 110,
+  "subject": "NEW-FT",
+  "title": "New Functionalism - Extended Framework",
+  "type": "angled-tree",
+  "description": "New functionalism with extended framework and dynamic spiritualism",
+  "terms": [
+    {"termId": "new-ft", "isSubject": true},
+    {"termId": "ext-f"},
+    {"termId": "dym-spt"},
+    {"termId": "wo-exp-pri"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "tech-dy"}
+  ],
+  "relationships": [
+    {"from": "new-ft", "to": "ext-f", "type": "thick"},
+    {"from": "new-ft", "to": "dym-spt", "type": "thick"},
+    {"from": "new-ft", "to": "wo-exp-pri", "type": "thick"},
+    {"from": "ext-f", "to": "alt-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "tech-dy", "type": "solid"}
+  ]
+}

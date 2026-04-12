@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd44",
+  "volume": 2,
+  "section": "SD(SY)-44",
+  "page": 66,
+  "subject": "EXT.F",
+  "title": "Extended Functionalism - Cultural Transfer",
+  "type": "crossing",
+  "description": "Final SD schematic showing extended functionalism and cultural transfer",
+  "terms": [
+    { "termId": "ext-f", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "dis-c-ct" },
+    { "termId": "alt-ft" },
+    { "termId": "acc-ft" },
+    { "termId": "tech-dy" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "ext-f", "to": "info-dy", "type": "dashed" },
+    { "from": "ext-f", "to": "spt-dy", "type": "solid" },
+    { "from": "ext-f", "to": "dis-c-ct", "type": "solid" },
+    { "from": "alt-ft", "to": "ext-f", "type": "solid" },
+    { "from": "alt-ft", "to": "acc-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "mt-info", "type": "dashed" }
+  ]
+}

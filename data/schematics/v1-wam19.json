@@ -1,0 +1,27 @@
+{
+  "id": "v1-wam19",
+  "volume": 1,
+  "section": "WAM-19",
+  "page": 62,
+  "subject": "WAM.RT",
+  "title": "Western Art Music - Reality Transfer",
+  "type": "tree",
+  "description": "Reality transfer dynamics in Western Art Music",
+  "terms": [
+    {"termId": "wam-rt", "isSubject": true},
+    {"termId": "info-trns"},
+    {"termId": "stf"},
+    {"termId": "cross-tr"},
+    {"termId": "time-lag"},
+    {"termId": "tr-cyc"},
+    {"termId": "sptc-d-cyc"}
+  ],
+  "relationships": [
+    {"from": "wam-rt", "to": "info-trns", "type": "thick"},
+    {"from": "info-trns", "to": "stf", "type": "solid"},
+    {"from": "stf", "to": "cross-tr", "type": "solid"},
+    {"from": "cross-tr", "to": "time-lag", "type": "dashed"},
+    {"from": "time-lag", "to": "tr-cyc", "type": "solid"},
+    {"from": "tr-cyc", "to": "sptc-d-cyc", "type": "dashed"}
+  ]
+}

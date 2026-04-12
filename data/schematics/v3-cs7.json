@@ -1,0 +1,33 @@
+{
+  "id": "v3-cs7",
+  "volume": 3,
+  "section": "CS-7",
+  "page": 79,
+  "subject": "EXTN",
+  "title": "Existentialism to Progressional Continuance",
+  "type": "angled-tree",
+  "description": "The need for vibrational science to complete western science",
+  "terms": [
+    {"termId": "extn", "isSubject": true},
+    {"termId": "pro-tf-c"},
+    {"termId": "t-c-imp"},
+    {"termId": "prog-cont"},
+    {"termId": "phy-u-p"},
+    {"termId": "uni-pi"},
+    {"termId": "per-vt-u-fund"},
+    {"termId": "cos-p"},
+    {"termId": "dym-spt"},
+    {"termId": "r-ist-f"}
+  ],
+  "relationships": [
+    {"from": "extn", "to": "pro-tf-c", "type": "thick"},
+    {"from": "extn", "to": "t-c-imp", "type": "thick"},
+    {"from": "extn", "to": "prog-cont", "type": "thick"},
+    {"from": "pro-tf-c", "to": "phy-u-p", "type": "solid"},
+    {"from": "pro-tf-c", "to": "uni-pi", "type": "dashed"},
+    {"from": "t-c-imp", "to": "per-vt-u-fund", "type": "solid"},
+    {"from": "prog-cont", "to": "cos-p", "type": "solid"},
+    {"from": "cos-p", "to": "dym-spt", "type": "dashed"},
+    {"from": "dym-spt", "to": "r-ist-f", "type": "solid"}
+  ]
+}

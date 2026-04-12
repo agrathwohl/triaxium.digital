@@ -1,0 +1,23 @@
+{
+  "id": "v2-af3",
+  "volume": 2,
+  "section": "(AF)D-3",
+  "page": 75,
+  "subject": "BIA",
+  "title": "Bi-aitionalism - Multi-Information",
+  "type": "tree",
+  "description": "The suppression of bi-aitionalism in western culture",
+  "terms": [
+    { "termId": "bia", "isSubject": true, "prefix": "c" },
+    { "termId": "prin-info" },
+    { "termId": "cult-info-f" },
+    { "termId": "dym-f" },
+    { "termId": "expm" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "prin-info", "type": "solid" },
+    { "from": "bia", "to": "cult-info-f", "type": "solid" },
+    { "from": "cult-info-f", "to": "dym-f", "type": "solid" },
+    { "from": "bia", "to": "expm", "type": "solid" }
+  ]
+}

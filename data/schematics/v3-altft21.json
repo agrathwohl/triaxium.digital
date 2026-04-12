@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft21",
+  "volume": 3,
+  "section": "ALT(FT)||-21",
+  "page": 127,
+  "subject": "MT-INFO",
+  "title": "Multi-Information - Functionalism",
+  "type": "tree",
+  "description": "Multi-information dynamics in alternative functionalism",
+  "terms": [
+    {"termId": "mt-info", "isSubject": true},
+    {"termId": "c-info"},
+    {"termId": "bia"},
+    {"termId": "c-rh"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "new-ft"}
+  ],
+  "relationships": [
+    {"from": "mt-info", "to": "c-info", "type": "thick"},
+    {"from": "c-info", "to": "bia", "type": "solid"},
+    {"from": "bia", "to": "c-rh", "type": "thick"},
+    {"from": "c-rh", "to": "alt-ft", "type": "dashed"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "new-ft", "type": "solid"}
+  ]
+}

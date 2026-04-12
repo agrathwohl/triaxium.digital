@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs14",
+  "volume": 3,
+  "section": "CS-14",
+  "page": 86,
+  "subject": "ALT-FT",
+  "title": "Alternative Functionalism - Scientific Context",
+  "type": "tree",
+  "description": "Alternative functionalism within scientific framework",
+  "terms": [
+    {"termId": "alt-ft", "isSubject": true},
+    {"termId": "ext-f"},
+    {"termId": "acc-ft"},
+    {"termId": "tech-dy"},
+    {"termId": "mt-info"},
+    {"termId": "c-info"},
+    {"termId": "bia"},
+    {"termId": "c-rh"}
+  ],
+  "relationships": [
+    {"from": "alt-ft", "to": "ext-f", "type": "thick"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "tech-dy", "type": "solid"},
+    {"from": "tech-dy", "to": "mt-info", "type": "solid"},
+    {"from": "mt-info", "to": "c-info", "type": "dashed"},
+    {"from": "c-info", "to": "bia", "type": "solid"},
+    {"from": "bia", "to": "c-rh", "type": "thick"}
+  ]
+}

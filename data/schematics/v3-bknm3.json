@@ -1,0 +1,35 @@
+{
+  "id": "v3-bknm3",
+  "volume": 3,
+  "section": "BK(NM)-3",
+  "page": 27,
+  "subject": "AF.DY",
+  "title": "Affinity Dynamics - Multi-Information",
+  "type": "crossing",
+  "description": "Western art music separation from world culture analysis",
+  "terms": [
+    {"termId": "af-dy", "isSubject": true},
+    {"termId": "mt-info"},
+    {"termId": "proj-dy"},
+    {"termId": "af-td"},
+    {"termId": "acc-ft"},
+    {"termId": "if-st-dy"},
+    {"termId": "r-chn"},
+    {"termId": "pol-con"},
+    {"termId": "soc-rt-dy"},
+    {"termId": "exp-dt"},
+    {"termId": "alt-f"}
+  ],
+  "relationships": [
+    {"from": "af-dy", "to": "mt-info", "type": "solid"},
+    {"from": "mt-info", "to": "proj-dy", "type": "solid"},
+    {"from": "proj-dy", "to": "af-td", "type": "solid"},
+    {"from": "af-td", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "if-st-dy", "type": "solid"},
+    {"from": "if-st-dy", "to": "r-chn", "type": "solid"},
+    {"from": "r-chn", "to": "pol-con", "type": "dashed"},
+    {"from": "pol-con", "to": "soc-rt-dy", "type": "solid"},
+    {"from": "soc-rt-dy", "to": "exp-dt", "type": "solid"},
+    {"from": "exp-dt", "to": "alt-f", "type": "dashed"}
+  ]
+}

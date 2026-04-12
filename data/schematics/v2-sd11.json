@@ -1,0 +1,28 @@
+{
+  "id": "v2-sd11",
+  "volume": 2,
+  "section": "SD(SY)-11",
+  "page": 33,
+  "subject": "INFO.ALGN",
+  "title": "Information Alignment - Social Reality Dynamics",
+  "type": "crossing",
+  "description": "Complex crossing network showing American progressionalism and spectacle diversion",
+  "terms": [
+    { "termId": "info-algn", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "alt-act" },
+    { "termId": "alt-f" },
+    { "termId": "att" },
+    { "termId": "afi-2" },
+    { "termId": "p-app-rdef" },
+    { "termId": "sptc-d" }
+  ],
+  "relationships": [
+    { "from": "info-algn", "to": "soc-rt", "type": "dashed" },
+    { "from": "soc-rt", "to": "alt-act", "type": "solid" },
+    { "from": "alt-f", "to": "att", "type": "solid" },
+    { "from": "att", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "p-app-rdef", "type": "solid" },
+    { "from": "p-app-rdef", "to": "sptc-d", "type": "dashed" }
+  ]
+}

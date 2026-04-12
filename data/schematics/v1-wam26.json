@@ -1,0 +1,25 @@
+{
+  "id": "v1-wam26",
+  "volume": 1,
+  "section": "WAM-26",
+  "page": 69,
+  "subject": "WAM.EXP",
+  "title": "Western Art Music - Expanded Context",
+  "type": "tree",
+  "description": "Expanded context for Western Art Music analysis",
+  "terms": [
+    {"termId": "wam-exp", "isSubject": true},
+    {"termId": "c-cont"},
+    {"termId": "info-trns"},
+    {"termId": "prog-cont"},
+    {"termId": "trs"},
+    {"termId": "exp-dym"}
+  ],
+  "relationships": [
+    {"from": "wam-exp", "to": "c-cont", "type": "thick"},
+    {"from": "c-cont", "to": "info-trns", "type": "solid"},
+    {"from": "c-cont", "to": "prog-cont", "type": "dashed"},
+    {"from": "info-trns", "to": "trs", "type": "solid"},
+    {"from": "info-trns", "to": "exp-dym", "type": "solid"}
+  ]
+}

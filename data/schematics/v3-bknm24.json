@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm24",
+  "volume": 3,
+  "section": "BK(NM)-24",
+  "page": 48,
+  "subject": "C.RIT",
+  "title": "Composite Ritual - Performance Analysis",
+  "type": "tree",
+  "description": "Detailed analysis of ritual in black music performance",
+  "terms": [
+    {"termId": "c-rit", "isSubject": true, "prefix": "c"},
+    {"termId": "per-dy"},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "phy-u-fund"},
+    {"termId": "info-rt"},
+    {"termId": "part"},
+    {"termId": "lg-dy"}
+  ],
+  "relationships": [
+    {"from": "c-rit", "to": "per-dy", "type": "thick"},
+    {"from": "per-dy", "to": "af-dt", "type": "solid"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "phy-u-fund", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "tr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "dashed"}
+  ]
+}

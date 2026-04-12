@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs26",
+  "volume": 3,
+  "section": "CS-26",
+  "page": 98,
+  "subject": "TR",
+  "title": "Transformation - Galactic Science Application",
+  "type": "crossing",
+  "description": "Transformation as applied through galactic science perspective",
+  "terms": [
+    {"termId": "tr", "isSubject": true},
+    {"termId": "part"},
+    {"termId": "lg-dy"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dy"},
+    {"termId": "info-rt"}
+  ],
+  "relationships": [
+    {"from": "tr", "to": "part", "type": "thick"},
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "lg-dy", "to": "pol-dy", "type": "dashed"},
+    {"from": "pol-dy", "to": "r-int", "type": "solid"},
+    {"from": "r-int", "to": "c-hm", "type": "dashed"},
+    {"from": "c-hm", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "info-rt", "type": "solid"}
+  ]
+}

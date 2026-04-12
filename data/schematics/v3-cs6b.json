@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs6b",
+  "volume": 3,
+  "section": "CS-6b",
+  "page": 79,
+  "subject": "VT-DY",
+  "title": "Vibrational Dynamics - Science",
+  "type": "crossing",
+  "description": "Vibrational dynamics in scientific context",
+  "terms": [
+    {"termId": "vt-dy", "isSubject": true},
+    {"termId": "post"},
+    {"termId": "sg"},
+    {"termId": "rt-algn"},
+    {"termId": "aftd"},
+    {"termId": "pri-vt-td"},
+    {"termId": "lang-dy"},
+    {"termId": "indiv-dy"}
+  ],
+  "relationships": [
+    {"from": "vt-dy", "to": "post", "type": "dashed"},
+    {"from": "vt-dy", "to": "sg", "type": "solid"},
+    {"from": "sg", "to": "pri-vt-td", "type": "solid"},
+    {"from": "vt-dy", "to": "rt-algn", "type": "solid"},
+    {"from": "rt-algn", "to": "lang-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "aftd", "type": "dashed"},
+    {"from": "aftd", "to": "indiv-dy", "type": "solid"}
+  ]
+}

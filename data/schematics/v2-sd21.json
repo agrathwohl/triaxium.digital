@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd21",
+  "volume": 2,
+  "section": "SD(SY)-21",
+  "page": 43,
+  "subject": "CULT.MOV",
+  "title": "Cultural Movement - Transfer Cycle",
+  "type": "tree",
+  "description": "Natural change cycles vs spectacle-diversion cycles in American culture",
+  "terms": [
+    { "termId": "cult-mov", "isSubject": true },
+    { "termId": "tr-cyc" },
+    { "termId": "sptc-d-cyc" },
+    { "termId": "info-trns" },
+    { "termId": "src-dy" },
+    { "termId": "cross-tr" },
+    { "termId": "spt-dym" },
+    { "termId": "proj-dy" }
+  ],
+  "relationships": [
+    { "from": "cult-mov", "to": "tr-cyc", "type": "thick" },
+    { "from": "cult-mov", "to": "sptc-d-cyc", "type": "dashed" },
+    { "from": "tr-cyc", "to": "info-trns", "type": "solid" },
+    { "from": "tr-cyc", "to": "src-dy", "type": "solid" },
+    { "from": "src-dy", "to": "cross-tr", "type": "solid" },
+    { "from": "sptc-d-cyc", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "proj-dy", "type": "dashed" }
+  ]
+}

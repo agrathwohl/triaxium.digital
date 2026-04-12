@@ -1,0 +1,28 @@
+{
+  "id": "v2-sd8",
+  "volume": 2,
+  "section": "SD(SY)-8",
+  "page": 33,
+  "subject": "CULT.INFO.F",
+  "title": "Culture Information Focus - Affinity Dynamics",
+  "type": "tree",
+  "description": "Analyzing American culture's spectacle-diversion: beatniks, hippies, cultural appropriation",
+  "terms": [
+    { "termId": "cult-info-f", "isSubject": true },
+    { "termId": "af-dy" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "proj-dy" },
+    { "termId": "p-act" },
+    { "termId": "pri-info" },
+    { "termId": "cos-p" },
+    { "termId": "r-diff" },
+    { "termId": "info-intr" }
+  ],
+  "relationships": [
+    { "from": "cult-info-f", "to": "af-dy", "type": "dashed" },
+    { "from": "af-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "proj-dy", "to": "p-act", "type": "dashed" },
+    { "from": "cos-p", "to": "r-diff", "type": "solid" },
+    { "from": "r-diff", "to": "info-intr", "type": "solid" }
+  ]
+}

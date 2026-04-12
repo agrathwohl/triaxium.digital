@@ -1,0 +1,27 @@
+{
+  "id": "v3-evol20",
+  "volume": 3,
+  "section": "EVOL-20",
+  "page": 182,
+  "subject": "PART",
+  "title": "Participation - Evolution Dynamics",
+  "type": "tree",
+  "description": "Participation as evolution principle",
+  "terms": [
+    {"termId": "part", "isSubject": true},
+    {"termId": "lg-dy"},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dy"},
+    {"termId": "info-rt"}
+  ],
+  "relationships": [
+    {"from": "part", "to": "lg-dy", "type": "solid"},
+    {"from": "lg-dy", "to": "pol-dy", "type": "dashed"},
+    {"from": "pol-dy", "to": "r-int", "type": "solid"},
+    {"from": "r-int", "to": "c-hm", "type": "dashed"},
+    {"from": "c-hm", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "info-rt", "type": "solid"}
+  ]
+}

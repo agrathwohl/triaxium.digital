@@ -1,0 +1,25 @@
+{
+  "id": "v2-sd17",
+  "volume": 2,
+  "section": "SD(SY)-17",
+  "page": 39,
+  "subject": "SPT-DYM",
+  "title": "Spectacle-Diversion Sequence",
+  "type": "crossing",
+  "description": "American progressionalism analysis",
+  "terms": [
+    { "termId": "spt-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "afi" },
+    { "termId": "vt-dy" },
+    { "termId": "stf" },
+    { "termId": "crtf-d" }
+  ],
+  "relationships": [
+    { "from": "spt-dym", "to": "prog-cont", "type": "thick" },
+    { "from": "prog-cont", "to": "afi", "type": "solid" },
+    { "from": "prog-cont", "to": "vt-dy", "type": "solid" },
+    { "from": "spt-dym", "to": "stf", "type": "solid" },
+    { "from": "spt-dym", "to": "crtf-d", "type": "solid" }
+  ]
+}

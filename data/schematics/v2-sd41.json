@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd41",
+  "volume": 2,
+  "section": "SD(SY)-41",
+  "page": 63,
+  "subject": "R.INT",
+  "title": "Reality Intuition - Dynamics of Perception",
+  "type": "tree",
+  "description": "Tree structure showing intuition and reality perception dynamics",
+  "terms": [
+    { "termId": "r-int", "isSubject": true, "prefix": "R" },
+    { "termId": "per-dy" },
+    { "termId": "info-rt" },
+    { "termId": "mt-intr" },
+    { "termId": "part" },
+    { "termId": "lg-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "soc-rt-dy" }
+  ],
+  "relationships": [
+    { "from": "r-int", "to": "per-dy", "type": "thick" },
+    { "from": "per-dy", "to": "info-rt", "type": "solid" },
+    { "from": "info-rt", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "part", "type": "thick" },
+    { "from": "part", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "pol-dy", "type": "dashed" },
+    { "from": "pol-dy", "to": "soc-rt-dy", "type": "solid" }
+  ]
+}

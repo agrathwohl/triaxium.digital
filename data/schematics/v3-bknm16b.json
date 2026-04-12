@@ -1,0 +1,27 @@
+{
+  "id": "v3-bknm16b",
+  "volume": 3,
+  "section": "BK(NM)-16b",
+  "page": 41,
+  "subject": "RIT-DY",
+  "title": "Ritual Dynamics - Notation",
+  "type": "tree",
+  "description": "Ritual dynamics in notation context",
+  "terms": [
+    {"termId": "rit-dy", "isSubject": true},
+    {"termId": "c-rit"},
+    {"termId": "per-dy"},
+    {"termId": "af-dt"},
+    {"termId": "tr"},
+    {"termId": "info-rt"},
+    {"termId": "mt-intr"}
+  ],
+  "relationships": [
+    {"from": "rit-dy", "to": "c-rit", "type": "thick"},
+    {"from": "c-rit", "to": "per-dy", "type": "solid"},
+    {"from": "per-dy", "to": "af-dt", "type": "solid"},
+    {"from": "af-dt", "to": "tr", "type": "solid"},
+    {"from": "per-dy", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "mt-intr", "type": "dashed"}
+  ]
+}

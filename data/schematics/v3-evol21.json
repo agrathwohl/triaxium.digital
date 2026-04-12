@@ -1,0 +1,29 @@
+{
+  "id": "v3-evol21",
+  "volume": 3,
+  "section": "EVOL-21",
+  "page": 183,
+  "subject": "LG-DY",
+  "title": "Language Dynamics - Evolution Conclusion",
+  "type": "crossing",
+  "description": "Final EVOL schematic on language dynamics",
+  "terms": [
+    {"termId": "lg-dy", "isSubject": true},
+    {"termId": "pol-dy"},
+    {"termId": "r-int"},
+    {"termId": "c-hm"},
+    {"termId": "vt-dy"},
+    {"termId": "sci-dym"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"}
+  ],
+  "relationships": [
+    {"from": "lg-dy", "to": "pol-dy", "type": "thick"},
+    {"from": "pol-dy", "to": "r-int", "type": "solid"},
+    {"from": "r-int", "to": "c-hm", "type": "dashed"},
+    {"from": "c-hm", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "spt-dym", "type": "dashed"},
+    {"from": "spt-dym", "to": "afi", "type": "solid"}
+  ]
+}

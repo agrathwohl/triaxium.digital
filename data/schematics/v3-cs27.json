@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs27",
+  "volume": 3,
+  "section": "CS-27",
+  "page": 99,
+  "subject": "VT-DYM",
+  "title": "Vibrational Dynamics - Final Synthesis",
+  "type": "tree",
+  "description": "Final CS schematic: vibrational science challenges strict analytical tenets",
+  "terms": [
+    {"termId": "vt-dym", "isSubject": true},
+    {"termId": "gal-sci"},
+    {"termId": "tr"},
+    {"termId": "c-hm"},
+    {"termId": "sci-dym"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"}
+  ],
+  "relationships": [
+    {"from": "vt-dym", "to": "gal-sci", "type": "thick"},
+    {"from": "gal-sci", "to": "tr", "type": "thick"},
+    {"from": "tr", "to": "c-hm", "type": "solid"},
+    {"from": "c-hm", "to": "sci-dym", "type": "solid"},
+    {"from": "sci-dym", "to": "spt-dym", "type": "dashed"},
+    {"from": "spt-dym", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"}
+  ]
+}

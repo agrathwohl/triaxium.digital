@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd19b",
+  "volume": 2,
+  "section": "SD(SY)-19b",
+  "page": 42,
+  "subject": "STF",
+  "title": "Source Transfer - Detailed Analysis",
+  "type": "tree",
+  "description": "Detailed analysis of source transfer mechanisms",
+  "terms": [
+    {"termId": "stf", "isSubject": true},
+    {"termId": "cross-tr"},
+    {"termId": "time-lag"},
+    {"termId": "src-def"},
+    {"termId": "x-def"},
+    {"termId": "tr-cyc"},
+    {"termId": "sptc-d-cyc"},
+    {"termId": "crtf-d"}
+  ],
+  "relationships": [
+    {"from": "stf", "to": "cross-tr", "type": "thick"},
+    {"from": "cross-tr", "to": "time-lag", "type": "solid"},
+    {"from": "time-lag", "to": "src-def", "type": "dashed"},
+    {"from": "src-def", "to": "x-def", "type": "solid"},
+    {"from": "x-def", "to": "tr-cyc", "type": "dashed"},
+    {"from": "tr-cyc", "to": "sptc-d-cyc", "type": "dashed"},
+    {"from": "stf", "to": "crtf-d", "type": "solid"}
+  ]
+}

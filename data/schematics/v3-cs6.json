@@ -1,0 +1,29 @@
+{
+  "id": "v3-cs6",
+  "volume": 3,
+  "section": "CS-6",
+  "page": 78,
+  "subject": "BSCF",
+  "title": "Basic Scientific Functionalism - Creativity Context",
+  "type": "crossing",
+  "description": "Basic scientific functionalism applied to creative processes",
+  "terms": [
+    {"termId": "bscf", "isSubject": true},
+    {"termId": "sci-dym"},
+    {"termId": "info-rt"},
+    {"termId": "vt-dy"},
+    {"termId": "proj-dy"},
+    {"termId": "af-td"},
+    {"termId": "acc-ft"},
+    {"termId": "if-st-dy"}
+  ],
+  "relationships": [
+    {"from": "bscf", "to": "sci-dym", "type": "thick"},
+    {"from": "bscf", "to": "info-rt", "type": "solid"},
+    {"from": "info-rt", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "proj-dy", "type": "dashed"},
+    {"from": "proj-dy", "to": "af-td", "type": "solid"},
+    {"from": "af-td", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "if-st-dy", "type": "thick"}
+  ]
+}

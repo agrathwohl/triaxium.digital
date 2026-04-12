@@ -1,0 +1,27 @@
+{
+  "id": "v3-altft22",
+  "volume": 3,
+  "section": "ALT(FT)||-22",
+  "page": 128,
+  "subject": "C-RH",
+  "title": "Composite Rhythm - Functionalism Foundation",
+  "type": "crossing",
+  "description": "Composite rhythm as foundation of alternative functionalism",
+  "terms": [
+    {"termId": "c-rh", "isSubject": true, "prefix": "c"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "new-ft"},
+    {"termId": "ext-f"},
+    {"termId": "dym-spt"},
+    {"termId": "wo-exp-pri"}
+  ],
+  "relationships": [
+    {"from": "c-rh", "to": "alt-ft", "type": "thick"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "new-ft", "type": "solid"},
+    {"from": "new-ft", "to": "ext-f", "type": "thick"},
+    {"from": "new-ft", "to": "dym-spt", "type": "thick"},
+    {"from": "new-ft", "to": "wo-exp-pri", "type": "thick"}
+  ]
+}

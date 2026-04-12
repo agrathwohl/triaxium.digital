@@ -1,0 +1,29 @@
+{
+  "id": "v3-altft17",
+  "volume": 3,
+  "section": "ALT(FT)||-17",
+  "page": 123,
+  "subject": "TECH-DY",
+  "title": "Technology Dynamics - Functionalism",
+  "type": "crossing",
+  "description": "Technology dynamics within alternative functionalism framework",
+  "terms": [
+    {"termId": "tech-dy", "isSubject": true},
+    {"termId": "mt-info"},
+    {"termId": "c-info"},
+    {"termId": "bia"},
+    {"termId": "c-rh"},
+    {"termId": "alt-ft"},
+    {"termId": "acc-ft"},
+    {"termId": "new-ft"}
+  ],
+  "relationships": [
+    {"from": "tech-dy", "to": "mt-info", "type": "thick"},
+    {"from": "mt-info", "to": "c-info", "type": "solid"},
+    {"from": "c-info", "to": "bia", "type": "dashed"},
+    {"from": "bia", "to": "c-rh", "type": "solid"},
+    {"from": "c-rh", "to": "alt-ft", "type": "dashed"},
+    {"from": "alt-ft", "to": "acc-ft", "type": "solid"},
+    {"from": "acc-ft", "to": "new-ft", "type": "thick"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd22",
+  "volume": 2,
+  "section": "SD(SY)-22",
+  "page": 44,
+  "subject": "INFO.TRNS",
+  "title": "Information Transfer - Cross-Transfer",
+  "type": "crossing",
+  "description": "How knowledge moves between cultural continuums in American context",
+  "terms": [
+    { "termId": "info-trns", "isSubject": true },
+    { "termId": "cross-tr" },
+    { "termId": "time-lag" },
+    { "termId": "src-def" },
+    { "termId": "x-def" },
+    { "termId": "stf" },
+    { "termId": "crtf-d" },
+    { "termId": "spt-dym" }
+  ],
+  "relationships": [
+    { "from": "info-trns", "to": "cross-tr", "type": "thick" },
+    { "from": "cross-tr", "to": "time-lag", "type": "solid" },
+    { "from": "time-lag", "to": "src-def", "type": "dashed" },
+    { "from": "src-def", "to": "x-def", "type": "dashed" },
+    { "from": "info-trns", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "spt-dym", "type": "dashed" }
+  ]
+}

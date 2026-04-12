@@ -1,0 +1,27 @@
+{
+  "id": "v3-bknm39",
+  "volume": 3,
+  "section": "BK(NM)-39",
+  "page": 63,
+  "subject": "C-HM",
+  "title": "Composite Humanity - Black Music Context",
+  "type": "tree",
+  "description": "Composite humanity as manifested through black music",
+  "terms": [
+    {"termId": "c-hm", "isSubject": true, "prefix": "c"},
+    {"termId": "vt-dy"},
+    {"termId": "sci-dym"},
+    {"termId": "spt-dym"},
+    {"termId": "afi"},
+    {"termId": "rt-dy"},
+    {"termId": "proj-dy"}
+  ],
+  "relationships": [
+    {"from": "c-hm", "to": "vt-dy", "type": "thick"},
+    {"from": "c-hm", "to": "sci-dym", "type": "solid"},
+    {"from": "sci-dym", "to": "spt-dym", "type": "dashed"},
+    {"from": "spt-dym", "to": "afi", "type": "solid"},
+    {"from": "afi", "to": "rt-dy", "type": "solid"},
+    {"from": "rt-dy", "to": "proj-dy", "type": "dashed"}
+  ]
+}

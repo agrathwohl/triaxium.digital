@@ -1,0 +1,29 @@
+{
+  "id": "v2-sd36",
+  "volume": 2,
+  "section": "SD(SY)-36",
+  "page": 58,
+  "subject": "C.RIT",
+  "title": "Composite Ritual - Performance Dynamics",
+  "type": "tree",
+  "description": "Tree structure showing ritual aspects in performance and culture",
+  "terms": [
+    { "termId": "c-rit", "isSubject": true, "prefix": "c" },
+    { "termId": "per-dy" },
+    { "termId": "af-dt" },
+    { "termId": "tr" },
+    { "termId": "phy-u-fund" },
+    { "termId": "info-rt" },
+    { "termId": "mt-intr" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "c-rit", "to": "per-dy", "type": "thick" },
+    { "from": "per-dy", "to": "af-dt", "type": "solid" },
+    { "from": "af-dt", "to": "tr", "type": "solid" },
+    { "from": "per-dy", "to": "phy-u-fund", "type": "solid" },
+    { "from": "per-dy", "to": "info-rt", "type": "solid" },
+    { "from": "info-rt", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "part", "type": "thick" }
+  ]
+}

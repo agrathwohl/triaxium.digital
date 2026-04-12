@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm6",
+  "volume": 3,
+  "section": "BK(NM)-6",
+  "page": 30,
+  "subject": "INFO.TRNS",
+  "title": "Information Transfer - Black Aesthetic",
+  "type": "crossing",
+  "description": "How black aesthetic information transfers across cultural boundaries",
+  "terms": [
+    {"termId": "info-trns", "isSubject": true},
+    {"termId": "stf"},
+    {"termId": "cross-tr"},
+    {"termId": "src-dy"},
+    {"termId": "crtf-d"},
+    {"termId": "time-lag"},
+    {"termId": "x-def"},
+    {"termId": "cult-app"}
+  ],
+  "relationships": [
+    {"from": "info-trns", "to": "stf", "type": "thick"},
+    {"from": "stf", "to": "cross-tr", "type": "solid"},
+    {"from": "cross-tr", "to": "src-dy", "type": "dashed"},
+    {"from": "src-dy", "to": "crtf-d", "type": "solid"},
+    {"from": "crtf-d", "to": "time-lag", "type": "dashed"},
+    {"from": "time-lag", "to": "x-def", "type": "solid"},
+    {"from": "x-def", "to": "cult-app", "type": "dashed"}
+  ]
+}

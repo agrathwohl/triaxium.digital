@@ -1,0 +1,25 @@
+{
+  "id": "v2-af12",
+  "volume": 2,
+  "section": "(AF)D-12",
+  "page": 84,
+  "subject": "AFTD",
+  "title": "Affinity Tendencies - Dynamics of Alignment",
+  "type": "tree",
+  "description": "How affinity tendencies shape cultural and individual dynamics",
+  "terms": [
+    { "termId": "aftd", "isSubject": true },
+    { "termId": "indiv-dy" },
+    { "termId": "afi" },
+    { "termId": "prog-cont" },
+    { "termId": "post" },
+    { "termId": "r-intr" }
+  ],
+  "relationships": [
+    { "from": "aftd", "to": "indiv-dy", "type": "thick" },
+    { "from": "indiv-dy", "to": "afi", "type": "solid" },
+    { "from": "indiv-dy", "to": "prog-cont", "type": "dashed" },
+    { "from": "afi", "to": "post", "type": "solid" },
+    { "from": "prog-cont", "to": "r-intr", "type": "dashed" }
+  ]
+}

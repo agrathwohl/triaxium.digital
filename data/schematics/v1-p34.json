@@ -1,0 +1,27 @@
+{
+  "id": "v1-p34",
+  "volume": 1,
+  "section": "WM-9",
+  "page": 34,
+  "subject": "WO.EXP-PRI",
+  "title": "World Expansion Principle",
+  "type": "network",
+  "description": "Network showing world expansion principle and its connections",
+  "terms": [
+    {"termId": "wo-exp-pri", "isSubject": true},
+    {"termId": "uni-pi"},
+    {"termId": "tr"},
+    {"termId": "pri-info"},
+    {"termId": "afl"},
+    {"termId": "spt-dy"},
+    {"termId": "afi"}
+  ],
+  "relationships": [
+    {"from": "wo-exp-pri", "to": "uni-pi", "type": "thick"},
+    {"from": "wo-exp-pri", "to": "tr", "type": "solid"},
+    {"from": "tr", "to": "pri-info", "type": "solid"},
+    {"from": "wo-exp-pri", "to": "afl", "type": "dashed"},
+    {"from": "afl", "to": "spt-dy", "type": "solid"},
+    {"from": "spt-dy", "to": "afi", "type": "dashed"}
+  ]
+}

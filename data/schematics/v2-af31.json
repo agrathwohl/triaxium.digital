@@ -1,0 +1,28 @@
+{
+  "id": "v2-af31",
+  "volume": 2,
+  "section": "(AF)D-31",
+  "page": 103,
+  "subject": "AFI",
+  "title": "Affinity Insight - Transformation Dynamics",
+  "type": "tree",
+  "description": "The role of affinity insight in transformation processes",
+  "terms": [
+    { "termId": "afi", "isSubject": true },
+    { "termId": "afi-1" },
+    { "termId": "afi-2" },
+    { "termId": "tr" },
+    { "termId": "part" },
+    { "termId": "c-hm" },
+    { "termId": "vt-dy" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "afi-1", "type": "solid" },
+    { "from": "afi", "to": "afi-2", "type": "solid" },
+    { "from": "afi-1", "to": "tr", "type": "dashed" },
+    { "from": "afi-2", "to": "tr", "type": "thick" },
+    { "from": "tr", "to": "part", "type": "solid" },
+    { "from": "part", "to": "c-hm", "type": "dashed" },
+    { "from": "c-hm", "to": "vt-dy", "type": "solid" }
+  ]
+}

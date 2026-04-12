@@ -1,0 +1,29 @@
+{
+  "id": "v3-bknm29",
+  "volume": 3,
+  "section": "BK(NM)-29",
+  "page": 53,
+  "subject": "INFO-RT",
+  "title": "Information Reality - Composite Perception",
+  "type": "crossing",
+  "description": "How information and reality intersect in black music analysis",
+  "terms": [
+    {"termId": "info-rt", "isSubject": true, "prefix": "R"},
+    {"termId": "mt-intr"},
+    {"termId": "part"},
+    {"termId": "vt-dy"},
+    {"termId": "sci-dym"},
+    {"termId": "spt-dym"},
+    {"termId": "alt-ft"},
+    {"termId": "c-hm"}
+  ],
+  "relationships": [
+    {"from": "info-rt", "to": "mt-intr", "type": "thick"},
+    {"from": "mt-intr", "to": "part", "type": "solid"},
+    {"from": "part", "to": "vt-dy", "type": "solid"},
+    {"from": "vt-dy", "to": "sci-dym", "type": "dashed"},
+    {"from": "sci-dym", "to": "spt-dym", "type": "dashed"},
+    {"from": "spt-dym", "to": "alt-ft", "type": "solid"},
+    {"from": "alt-ft", "to": "c-hm", "type": "solid"}
+  ]
+}

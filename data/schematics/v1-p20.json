@@ -1,0 +1,33 @@
+{
+  "id": "v1-p20",
+  "volume": 1,
+  "section": "WM",
+  "page": 20,
+  "subject": "VT-DY",
+  "title": "[R]VT-DY relates to POST",
+  "type": "tree",
+  "description": "Vibrational dynamics in three contexts: source initiation, reality alignment, affinity tendencies",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true, "prefix": "R" },
+    { "termId": "post" },
+    { "termId": "sg" },
+    { "termId": "rt-algn" },
+    { "termId": "aftd" },
+    { "termId": "pri-vt-td" },
+    { "termId": "lang-dy" },
+    { "termId": "indiv-dy" },
+    { "termId": "afi" },
+    { "termId": "prog-cont" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "post", "type": "dashed" },
+    { "from": "vt-dy", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "pri-vt-td", "type": "solid" },
+    { "from": "vt-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "lang-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "indiv-dy", "type": "solid" },
+    { "from": "indiv-dy", "to": "afi", "type": "solid" },
+    { "from": "indiv-dy", "to": "prog-cont", "type": "dashed" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "v3-bknm32",
+  "volume": 3,
+  "section": "BK(NM)-32",
+  "page": 56,
+  "subject": "POL.DY",
+  "title": "Political Dynamics - Black Notated Music",
+  "type": "tree",
+  "description": "Political dimensions of black composers in institutional contexts",
+  "terms": [
+    {"termId": "pol-dy", "isSubject": true},
+    {"termId": "soc-rt-dy"},
+    {"termId": "exp-dt"},
+    {"termId": "alt-f"},
+    {"termId": "tr"},
+    {"termId": "r-intr"},
+    {"termId": "c-hm"}
+  ],
+  "relationships": [
+    {"from": "pol-dy", "to": "soc-rt-dy", "type": "thick"},
+    {"from": "soc-rt-dy", "to": "exp-dt", "type": "solid"},
+    {"from": "exp-dt", "to": "alt-f", "type": "dashed"},
+    {"from": "pol-dy", "to": "tr", "type": "dashed"},
+    {"from": "tr", "to": "r-intr", "type": "solid"},
+    {"from": "r-intr", "to": "c-hm", "type": "dashed"}
+  ]
+}
