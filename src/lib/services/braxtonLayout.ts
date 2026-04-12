@@ -267,8 +267,8 @@ export function getNodeStyle(term: SchematicTerm) {
     return nodeStyles.subject;
   }
   
-  if (term.prefix && nodeStyles[term.prefix]) {
-    return nodeStyles[term.prefix];
+  if (term.prefix && (nodeStyles as Record<string, typeof nodeStyles.default>)[term.prefix]) {
+    return (nodeStyles as Record<string, typeof nodeStyles.default>)[term.prefix];
   }
   
   return nodeStyles.default;
