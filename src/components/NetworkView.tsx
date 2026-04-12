@@ -60,7 +60,7 @@ export default function NetworkView({
   }, [networkData]);
 
   return (
-    <div className="flex-1 bg-gray-950 overflow-auto p-6">
+    <div className="flex-1 bg-gray-950 overflow-auto p-3 sm:p-6">
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-white mb-2">
           Term Network
@@ -138,7 +138,7 @@ export default function NetworkView({
       </div>
 
       {/* Stats */}
-      <div className="mt-6 grid grid-cols-3 gap-4">
+      <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
         <div className="bg-gray-900 rounded-lg p-4 border border-gray-800">
           <div className="text-2xl font-bold text-white">{networkData.nodes.length}</div>
           <div className="text-sm text-gray-400">Terms</div>

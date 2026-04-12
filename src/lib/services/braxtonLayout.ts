@@ -91,10 +91,14 @@ export function layoutBraxtonianSchematic(schematic: Schematic): BraxtonLayout {
   });
   
   // Add edges with Braxtonian weights
+  // Normalize from/to to lowercase to match termId keys
   schematic.relationships.forEach((rel) => {
-    g.setEdge(rel.from, rel.to, {
+    const from = rel.from.toLowerCase();
+    const to = rel.to.toLowerCase();
+    if (!g.hasNode(from) || !g.hasNode(to)) return; // skip broken refs
+    g.setEdge(from, to, {
       weight: BRAXTON_CONFIG.lineWeights[rel.type],
-      minlen: rel.type === 'dashed' ? 2 : 1, // Dashed lines span more ranks
+      minlen: rel.type === 'dashed' ? 2 : 1,
       type: rel.type,
     });
   });
@@ -120,10 +124,12 @@ export function layoutBraxtonianSchematic(schematic: Schematic): BraxtonLayout {
   });
   
   const edges: LayoutEdge[] = schematic.relationships.map((rel) => {
-    const edge = g.edge(rel.from, rel.to);
+    const from = rel.from.toLowerCase();
+    const to = rel.to.toLowerCase();
+    const edge = g.edge(from, to);
     return {
-      from: rel.from,
-      to: rel.to,
+      from,
+      to,
       type: rel.type,
       points: edge?.points,
     };
@@ -228,7 +234,7 @@ export const lineStyles: Record<string, { strokeWidth: number; stroke: string; s
 /**
  * Node styling based on prefix
  */
-export const nodeStyles = {
+export const nodeStyles: Record<string, { fill: string; stroke: string; strokeWidth: number }> = {
   default: {
     fill: '#1f2937',
     stroke: '#4b5563',
@@ -239,25 +245,24 @@ export const nodeStyles = {
     stroke: '#3b82f6',
     strokeWidth: 3,
   },
-  // Prefix-based styling
   '(c)': {
     fill: '#1e3a5f',
-    stroke: '#3b82f6', // Blue for composite
+    stroke: '#3b82f6',
     strokeWidth: 2,
   },
   '(r)': {
     fill: '#3f1f1f',
-    stroke: '#ef4444', // Red for reality
+    stroke: '#ef4444',
     strokeWidth: 2,
   },
   '[R]': {
     fill: '#4a3f1f',
-    stroke: '#eab308', // Gold for emphasized Reality
+    stroke: '#eab308',
     strokeWidth: 3,
   },
   '(p)': {
     fill: '#1f3f1f',
-    stroke: '#10b981', // Green for particular
+    stroke: '#10b981',
     strokeWidth: 2,
   },
 };
