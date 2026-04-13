@@ -8,15 +8,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'braxton-v1': '#3b82f6', // Blue for Volume 1
-        'braxton-v2': '#ef4444', // Red for Volume 2  
-        'braxton-v3': '#eab308', // Gold for Volume 3
-        'braxton-dark': '#1a1a1a',
-        'braxton-light': '#f5f5f5',
+        'braxton-v1': '#5b8abf',
+        'braxton-v2': '#bf5b5b',
+        'braxton-v3': '#bfa05b',
+        'bx': {
+          'black': '#080c12',
+          'surface': '#0d1117',
+          'surface-alt': '#131a24',
+          'trace': '#2e3640',
+          'trace-light': '#414d5a',
+          'white': '#c8cdd5',
+          'amber': '#a09080',
+          'gray': {
+            300: '#b0b8c4',
+            400: '#8090a0',
+            500: '#506070',
+            600: '#607080',
+          },
+        },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-mono)', 'monospace'],
+        mono: ['"IBM Plex Mono"', '"Courier New"', 'Courier', 'monospace'],
       },
     },
   },

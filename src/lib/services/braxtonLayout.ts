@@ -215,19 +215,19 @@ export function layoutSchematics(schematics: Schematic[]): Map<string, BraxtonLa
 export const lineStyles: Record<string, { strokeWidth: number; stroke: string; strokeOpacity: number; strokeDasharray?: string }> = {
   thick: {
     strokeWidth: 3,
-    stroke: '#ffffff',
+    stroke: '#e8e8e8',
     strokeOpacity: 1,
   },
   solid: {
     strokeWidth: 1.5,
-    stroke: '#9ca3af',
-    strokeOpacity: 0.8,
+    stroke: '#808080',
+    strokeOpacity: 0.9,
   },
   dashed: {
-    strokeWidth: 1.5,
-    stroke: '#6b7280',
-    strokeDasharray: '8, 4',
-    strokeOpacity: 0.6,
+    strokeWidth: 1,
+    stroke: '#555555',
+    strokeDasharray: '6, 4',
+    strokeOpacity: 0.7,
   },
 };
 
@@ -235,36 +235,16 @@ export const lineStyles: Record<string, { strokeWidth: number; stroke: string; s
  * Node styling based on prefix
  */
 export const nodeStyles: Record<string, { fill: string; stroke: string; strokeWidth: number }> = {
-  default: {
-    fill: '#1f2937',
-    stroke: '#4b5563',
-    strokeWidth: 2,
-  },
-  subject: {
-    fill: '#1e3a5f',
-    stroke: '#3b82f6',
-    strokeWidth: 3,
-  },
-  '(c)': {
-    fill: '#1e3a5f',
-    stroke: '#3b82f6',
-    strokeWidth: 2,
-  },
-  '(r)': {
-    fill: '#3f1f1f',
-    stroke: '#ef4444',
-    strokeWidth: 2,
-  },
-  '[R]': {
-    fill: '#4a3f1f',
-    stroke: '#eab308',
-    strokeWidth: 3,
-  },
-  '(p)': {
-    fill: '#1f3f1f',
-    stroke: '#10b981',
-    strokeWidth: 2,
-  },
+  default:  { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  subject:  { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  '(c)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  'c':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  '(r)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  'r':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  '[R]':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  'R':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  '(p)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
+  'p':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
 };
 
 export function getNodeStyle(term: SchematicTerm) {

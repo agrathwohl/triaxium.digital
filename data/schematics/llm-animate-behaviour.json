@@ -1,0 +1,32 @@
+{
+  "id": "llm-animate-behaviour",
+  "volume": 3,
+  "section": "LLM-ANALYSIS",
+  "page": 0,
+  "subject": "INFO-INTG",
+  "title": "Animate Logic and the Unified Field: Braxton's Computer Science Continuum",
+  "type": "angled-tree",
+  "description": "Braxton articulating the migration of his music system's vibrational logic into a new technological continuum. The twelve sound construct sources are vibrational identity markers, each carrying its own affinity signature. The algorithm is understood not as mechanical procedure but as the first language of structural identity — vibrational science in computational form.",
+  "terms": [
+    { "termId": "info-intg", "isSubject": true, "prefix": "c" },
+    { "termId": "vt-dy", "prefix": "r" },
+    { "termId": "tr", "prefix": "R" },
+    { "termId": "alt-ft", "prefix": "c" },
+    { "termId": "afi", "prefix": "r" },
+    { "termId": "rt-algn", "prefix": "p" },
+    { "termId": "prog-cont", "prefix": "c" },
+    { "termId": "spt-dym", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "info-intg", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "alt-ft", "type": "thick" },
+    { "from": "alt-ft", "to": "prog-cont", "type": "solid" },
+    { "from": "afi", "to": "info-intg", "type": "dashed" },
+    { "from": "rt-algn", "to": "tr", "type": "dashed" },
+    { "from": "spt-dym", "to": "rt-algn", "type": "dashed" },
+    { "from": "prog-cont", "to": "afi", "type": "thick" },
+    { "from": "vt-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "info-intg", "to": "prog-cont", "type": "thick" }
+  ]
+}

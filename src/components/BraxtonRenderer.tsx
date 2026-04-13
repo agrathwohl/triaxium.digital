@@ -91,16 +91,16 @@ export default function BraxtonRenderer({
     <div className="relative" style={{ width, height }}>
       {/* Zoom controls */}
       <div className="absolute top-2 right-2 z-10 flex gap-1">
-        <button onClick={handleZoomIn} className="p-1.5 bg-gray-800 border border-gray-700 text-gray-300 hover:text-white hover:border-gray-500 transition-colors" title="Zoom in">
+        <button onClick={handleZoomIn} className="p-1.5 bg-bx-surface border border-bx-trace text-bx-gray-400 hover:text-bx-green hover:border-bx-green transition-colors" title="Zoom in">
           <ZoomIn className="w-3.5 h-3.5" />
         </button>
-        <button onClick={handleZoomOut} className="p-1.5 bg-gray-800 border border-gray-700 text-gray-300 hover:text-white hover:border-gray-500 transition-colors" title="Zoom out">
+        <button onClick={handleZoomOut} className="p-1.5 bg-bx-surface border border-bx-trace text-bx-gray-400 hover:text-bx-green hover:border-bx-green transition-colors" title="Zoom out">
           <ZoomOut className="w-3.5 h-3.5" />
         </button>
-        <button onClick={handleFit} className="p-1.5 bg-gray-800 border border-gray-700 text-gray-300 hover:text-white hover:border-gray-500 transition-colors" title="Fit to view">
+        <button onClick={handleFit} className="p-1.5 bg-bx-surface border border-bx-trace text-bx-gray-400 hover:text-bx-green hover:border-bx-green transition-colors" title="Fit to view">
           <Maximize2 className="w-3.5 h-3.5" />
         </button>
-        <span className="px-2 py-1 bg-gray-800 border border-gray-700 text-gray-500 text-xs font-mono">
+        <span className="px-2 py-1 bg-bx-surface border border-bx-trace text-bx-gray-500 text-xs font-mono">
           {Math.round(zoom * 100)}%
         </span>
       </div>
@@ -110,7 +110,7 @@ export default function BraxtonRenderer({
         width={width}
         height={height}
         viewBox={`0 0 ${width} ${height}`}
-        className="bg-gray-950"
+        className="bg-bx-black"
         style={{ cursor: dragging ? 'grabbing' : 'grab' }}
         onWheel={handleWheel}
         onMouseDown={handleMouseDown}
@@ -120,15 +120,15 @@ export default function BraxtonRenderer({
       >
         <defs>
           <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6" />
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#e8e8e8" />
           </marker>
           <marker id="arrow-subject" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6" />
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#e8e8e8" />
           </marker>
         </defs>
 
         {/* Title */}
-        <text x={width / 2} y={20} textAnchor="middle" className="fill-white text-xs font-mono font-bold">
+        <text x={width / 2} y={20} textAnchor="middle" fill="#b0b0b0" fontSize="12" fontFamily="'IBM Plex Mono', monospace" fontWeight="bold">
           {schematic.title}
         </text>
 
@@ -160,7 +160,7 @@ export default function BraxtonRenderer({
                   markerEnd={toNode.isSubject ? "url(#arrow-subject)" : undefined}
                 />
                 {toNode.isSubject && (
-                  <circle cx={endX} cy={endY} r={4} fill="#3b82f6" />
+                  <circle cx={endX} cy={endY} r={4} fill="#e8e8e8" />
                 )}
               </g>
             );
@@ -195,7 +195,7 @@ export default function BraxtonRenderer({
 
                 {/* Prefix indicator */}
                 {node.prefix && (
-                  <text x={6} y={12} className="fill-gray-400" fontSize="9" fontFamily="monospace">
+                  <text x={6} y={12} fill="#808080" fontSize="9" fontFamily="'IBM Plex Mono', monospace">
                     {node.prefix}
                   </text>
                 )}
@@ -205,9 +205,9 @@ export default function BraxtonRenderer({
                   x={node.width / 2}
                   y={node.height / 2 + 4}
                   textAnchor="middle"
-                  className="fill-white"
+                  fill={node.isSubject ? '#e8e8e8' : '#b0b0b0'}
                   fontSize="11"
-                  fontFamily="monospace"
+                  fontFamily="'IBM Plex Mono', monospace"
                   fontWeight={node.isSubject ? 'bold' : 'normal'}
                 >
                   {term?.abbreviation || node.id}
@@ -219,9 +219,9 @@ export default function BraxtonRenderer({
                     x={node.width / 2}
                     y={node.height + 13}
                     textAnchor="middle"
-                    className="fill-gray-400"
+                    fill="#555555"
                     fontSize="9"
-                    fontFamily="monospace"
+                    fontFamily="'IBM Plex Mono', monospace"
                   >
                     {term.expansion.length > 24 ? term.expansion.substring(0, 24) + '...' : term.expansion}
                   </text>
@@ -235,15 +235,15 @@ export default function BraxtonRenderer({
       {/* Tooltip with term definition */}
       {tooltip && (
         <div
-          className="fixed z-50 pointer-events-none px-3 py-2 bg-gray-900 border border-gray-600 text-xs font-mono max-w-xs"
+          className="fixed z-50 pointer-events-none px-3 py-2 bg-bx-surface border border-bx-trace-light text-xs font-mono max-w-xs"
           style={{ left: tooltip.x + 12, top: tooltip.y - 10 }}
         >
-          <div className="text-white font-bold">{tooltip.term.abbreviation}</div>
-          <div className="text-gray-400 mt-0.5">{tooltip.term.expansion}</div>
+          <div className="text-bx-white font-bold">{tooltip.term.abbreviation}</div>
+          <div className="text-bx-gray-300 mt-0.5">{tooltip.term.expansion}</div>
           {tooltip.term.definition && (
-            <div className="text-gray-500 mt-1 leading-relaxed">{tooltip.term.definition}</div>
+            <div className="text-bx-gray-400 mt-1 leading-relaxed">{tooltip.term.definition}</div>
           )}
-          <div className="text-gray-600 mt-1">Vol {tooltip.term.volume} | {tooltip.term.category}</div>
+          <div className="text-bx-gray-500 mt-1">Vol {tooltip.term.volume} | {tooltip.term.category}</div>
         </div>
       )}
     </div>

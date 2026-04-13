@@ -34,7 +34,7 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
   };
 
   return (
-    <div className="flex-1 bg-gray-950 overflow-auto p-3 sm:p-6">
+    <div className="flex-1 bg-bx-black overflow-auto p-3 sm:p-6">
       <div className="max-w-4xl mx-auto">
         {/* LLM Analysis Section */}
         <div className="mb-8">
@@ -45,13 +45,13 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
           />
         </div>
 
-        <div className="border-t border-gray-800 my-8" />
+        <div className="border-t border-bx-trace my-8" />
 
         <div className="mb-6">
-          <h2 className="text-xl font-semibold text-white mb-2">
+          <h2 className="text-xl font-semibold text-bx-white mb-2">
             Manual Schematic Workspace
           </h2>
-          <p className="text-gray-400 text-sm">
+          <p className="text-bx-gray-400 text-sm">
             Create new schematics using the Braxtonian formal language
           </p>
         </div>
@@ -59,14 +59,14 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
           {/* Creation Panel */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-4">
-              <h3 className="text-sm font-semibold text-white mb-3">
+            <div className="bg-bx-surface rounded-lg border border-bx-trace p-4">
+              <h3 className="text-sm font-semibold text-bx-white mb-3">
                 New Schematic
               </h3>
               
               <div className="space-y-3">
                 <div>
-                  <label className="block text-xs text-gray-400 mb-1">
+                  <label className="block text-xs text-bx-gray-400 mb-1">
                     Title
                   </label>
                   <input
@@ -74,12 +74,12 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     placeholder="Enter schematic title..."
-                    className="w-full bg-gray-950 border border-gray-700 rounded px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500"
+                    className="w-full bg-bx-black border border-bx-trace-light rounded px-3 py-2 text-sm text-bx-white focus:outline-none focus:border-blue-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs text-gray-400 mb-1">
+                  <label className="block text-xs text-bx-gray-400 mb-1">
                     Description
                   </label>
                   <textarea
@@ -87,18 +87,18 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
                     onChange={(e) => setDescription(e.target.value)}
                     placeholder="Describe the schematic..."
                     rows={3}
-                    className="w-full bg-gray-950 border border-gray-700 rounded px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500"
+                    className="w-full bg-bx-black border border-bx-trace-light rounded px-3 py-2 text-sm text-bx-white focus:outline-none focus:border-blue-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs text-gray-400 mb-1">
+                  <label className="block text-xs text-bx-gray-400 mb-1">
                     Type
                   </label>
                   <select
                     value={selectedType}
                     onChange={(e) => setSelectedType(e.target.value)}
-                    className="w-full bg-gray-950 border border-gray-700 rounded px-3 py-2 text-sm text-white focus:outline-none focus:border-blue-500"
+                    className="w-full bg-bx-black border border-bx-trace-light rounded px-3 py-2 text-sm text-bx-white focus:outline-none focus:border-blue-500"
                   >
                     <option value="tree">Tree / Branching</option>
                     <option value="network">Network / Crossing</option>
@@ -109,7 +109,7 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
 
                 <button
                   onClick={handleSave}
-                  className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+                  className="flex items-center gap-2 px-4 py-2 bg-bx-surface-alt border border-bx-gray-400 text-bx-white rounded-lg text-sm font-medium hover:bg-bx-surface transition-colors"
                 >
                   <Plus className="w-4 h-4" />
                   Create Schematic
@@ -118,23 +118,23 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
             </div>
 
             {/* Canvas Placeholder */}
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-4 min-h-[300px]">
+            <div className="bg-bx-surface rounded-lg border border-bx-trace p-4 min-h-[300px]">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-sm font-semibold text-white">
+                <h3 className="text-sm font-semibold text-bx-white">
                   Canvas
                 </h3>
                 <div className="flex gap-2">
-                  <button className="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded">
+                  <button className="p-2 text-bx-gray-400 hover:text-bx-white hover:bg-gray-800 rounded">
                     <Save className="w-4 h-4" />
                   </button>
-                  <button className="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded">
+                  <button className="p-2 text-bx-gray-400 hover:text-bx-white hover:bg-gray-800 rounded">
                     <Download className="w-4 h-4" />
                   </button>
                 </div>
               </div>
               
-              <div className="flex items-center justify-center h-[200px] bg-gray-950 rounded border border-dashed border-gray-700">
-                <p className="text-gray-500 text-sm">
+              <div className="flex items-center justify-center h-[200px] bg-bx-black rounded border border-dashed border-bx-trace-light">
+                <p className="text-bx-gray-500 text-sm">
                   Drag and drop terms here to build your schematic
                 </p>
               </div>
@@ -143,42 +143,42 @@ export default function Workspace({ userSchematics, onSaveSchematic }: Workspace
 
           {/* Sidebar */}
           <div className="space-y-4">
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-4">
-              <h3 className="text-sm font-semibold text-white mb-3">
+            <div className="bg-bx-surface rounded-lg border border-bx-trace p-4">
+              <h3 className="text-sm font-semibold text-bx-white mb-3">
                 Term Palette
               </h3>
               <div className="space-y-2 max-h-[200px] overflow-y-auto">
                 {['VT-DY', 'AFI', 'RT-ALGN', 'PROG-CONT', 'SPT-DYM', 'BIA', 'TR', 'C-CONT'].map((term) => (
                   <div
                     key={term}
-                    className="flex items-center justify-between px-2 py-1 bg-gray-950 rounded text-sm text-gray-300 cursor-pointer hover:bg-gray-800"
+                    className="flex items-center justify-between px-2 py-1 bg-bx-black rounded text-sm text-bx-gray-300 cursor-pointer hover:bg-gray-800"
                   >
                     <span>{term}</span>
-                    <Plus className="w-3 h-3 text-gray-500" />
+                    <Plus className="w-3 h-3 text-bx-gray-500" />
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="bg-gray-900 rounded-lg border border-gray-800 p-4">
-              <h3 className="text-sm font-semibold text-white mb-3">
+            <div className="bg-bx-surface rounded-lg border border-bx-trace p-4">
+              <h3 className="text-sm font-semibold text-bx-white mb-3">
                 Your Schematics
               </h3>
               <div className="space-y-2">
                 {userSchematics.length === 0 ? (
-                  <p className="text-gray-500 text-sm">
+                  <p className="text-bx-gray-500 text-sm">
                     No schematics yet. Create one above.
                   </p>
                 ) : (
                   userSchematics.map((schematic) => (
                     <div
                       key={schematic.id}
-                      className="flex items-center justify-between px-2 py-2 bg-gray-950 rounded text-sm"
+                      className="flex items-center justify-between px-2 py-2 bg-bx-black rounded text-sm"
                     >
-                      <span className="text-gray-300 truncate">
+                      <span className="text-bx-gray-300 truncate">
                         {schematic.title}
                       </span>
-                      <button className="text-gray-500 hover:text-red-400">
+                      <button className="text-bx-gray-500 hover:text-red-400">
                         <Trash2 className="w-3 h-3" />
                       </button>
                     </div>

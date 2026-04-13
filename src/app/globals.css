@@ -1,49 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, monospace;
+  --font-mono: 'IBM Plex Mono', 'Courier New', Courier, monospace;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border-radius: 0 !important;
 }
 
-html,
-body {
+html, body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: var(--font-mono);
 }
 
-/* Custom scrollbar */
+/* Faint ruled grid like technical drawing paper */
+.schematic-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1f2937;
+  background: #080c12;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4b5563;
-  border-radius: 4px;
+  background: #253040;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6b7280;
+  background: #3a4555;
 }
 
-/* Selection */
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
+  background: rgba(91, 138, 191, 0.2);
+  color: #c8cdd5;
 }
 
-/* Line clamp utility */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;

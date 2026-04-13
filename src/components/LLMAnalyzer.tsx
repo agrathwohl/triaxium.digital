@@ -80,15 +80,15 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
   };
 
   return (
-    <div className="bg-gray-900 border border-gray-800 p-4 sm:p-6">
+    <div className="bg-bx-surface border border-bx-trace p-4 sm:p-6">
       <div className="flex items-center gap-2 mb-4">
         <Sparkles className="w-5 h-5 text-yellow-500" />
-        <h3 className="text-base font-mono font-bold text-white">
+        <h3 className="text-base font-mono font-bold text-bx-white">
           Braxtonian LLM Analysis
         </h3>
       </div>
 
-      <p className="text-gray-400 text-xs font-mono mb-4">
+      <p className="text-bx-gray-400 text-xs font-mono mb-4">
         Submit a URL or text for Claude to analyze through the Tri-Axium framework and generate a schematic.
       </p>
 
@@ -97,7 +97,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
           <button
             onClick={() => setIsUrl(false)}
             className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono border ${
-              !isUrl ? 'border-gray-500 bg-gray-800 text-white' : 'border-transparent text-gray-500 hover:text-gray-300'
+              !isUrl ? 'border-bx-trace-light bg-gray-800 text-bx-white' : 'border-transparent text-bx-gray-500 hover:text-bx-gray-300'
             }`}
           >
             <FileText className="w-3.5 h-3.5" />
@@ -106,7 +106,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
           <button
             onClick={() => setIsUrl(true)}
             className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono border ${
-              isUrl ? 'border-gray-500 bg-gray-800 text-white' : 'border-transparent text-gray-500 hover:text-gray-300'
+              isUrl ? 'border-bx-trace-light bg-gray-800 text-bx-white' : 'border-transparent text-bx-gray-500 hover:text-bx-gray-300'
             }`}
           >
             <Link className="w-3.5 h-3.5" />
@@ -119,13 +119,13 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
           onChange={(e) => setInput(e.target.value)}
           placeholder={isUrl ? 'https://example.com/article...' : 'Paste text to analyze...'}
           rows={isUrl ? 2 : 6}
-          className="w-full bg-gray-950 border border-gray-700 px-4 py-3 text-sm font-mono text-white placeholder-gray-600 focus:outline-none focus:border-gray-500"
+          className="w-full bg-bx-black border border-bx-trace-light px-4 py-3 text-sm font-mono text-bx-white placeholder-bx-gray-500 focus:outline-none focus:border-bx-trace-light"
         />
 
         <button
           onClick={handleAnalyze}
           disabled={loading || !input.trim()}
-          className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gray-800 border border-gray-700 text-white font-mono text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:border-gray-500 transition-colors"
+          className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gray-800 border border-bx-trace-light text-bx-white font-mono text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:border-bx-trace-light transition-colors"
         >
           {loading ? (
             <>
@@ -142,15 +142,15 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
       </div>
 
       {error && (
-        <div className="mt-4 p-3 bg-red-900/20 border border-red-800 text-red-400 text-xs font-mono">
+        <div className="mt-4 p-3 bg-red-950/30 border border-red-900/50 text-red-400 text-xs font-mono">
           {error}
         </div>
       )}
 
       {resultSchematic && (
-        <div className="mt-6 border-t border-gray-800 pt-6 space-y-4">
+        <div className="mt-6 border-t border-bx-trace pt-6 space-y-4">
           {/* Rendered diagram */}
-          <div ref={diagramRef} className="bg-gray-950 border border-gray-800 overflow-hidden">
+          <div ref={diagramRef} className="bg-bx-black border border-bx-trace overflow-hidden">
             <BraxtonRenderer
               schematic={resultSchematic}
               width={diagramWidth}
@@ -159,7 +159,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
           </div>
 
           {/* Analysis text */}
-          <div className="bg-gray-950 border border-gray-800 p-4">
+          <div className="bg-bx-black border border-bx-trace p-4">
             <div className="flex items-center gap-2 mb-3">
               <span className={`px-2 py-0.5 border text-xs font-mono ${
                 resultSchematic.volume === 2 ? 'border-red-700 text-red-400' :
@@ -168,28 +168,28 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
               }`}>
                 VOL {resultSchematic.volume}
               </span>
-              <span className="text-gray-500 text-xs font-mono">
+              <span className="text-bx-gray-500 text-xs font-mono">
                 {resultSchematic.type}
               </span>
-              <span className="text-gray-500 text-xs font-mono">
+              <span className="text-bx-gray-500 text-xs font-mono">
                 {resultSchematic.subject}
               </span>
             </div>
 
-            <h4 className="text-sm font-mono font-bold text-white mb-2">
+            <h4 className="text-sm font-mono font-bold text-bx-white mb-2">
               {resultSchematic.title}
             </h4>
 
-            <p className="text-xs font-mono text-gray-400 leading-relaxed mb-3">
+            <p className="text-xs font-mono text-bx-gray-400 leading-relaxed mb-3">
               {result.analysis || result.description}
             </p>
 
             {result.insights && result.insights.length > 0 && (
               <div>
-                <h5 className="text-xs font-mono font-bold text-gray-400 mb-1 tracking-widest">INSIGHTS</h5>
+                <h5 className="text-xs font-mono font-bold text-bx-gray-400 mb-1 tracking-widest">INSIGHTS</h5>
                 <ul className="space-y-1">
                   {result.insights.map((insight: string, i: number) => (
-                    <li key={i} className="text-xs font-mono text-gray-300 flex items-start gap-2">
+                    <li key={i} className="text-xs font-mono text-bx-gray-300 flex items-start gap-2">
                       <span className="text-blue-500 mt-0.5">-</span>
                       {insight}
                     </li>
@@ -201,7 +201,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
 
           <button
             onClick={handleAdd}
-            className="w-full px-4 py-2 bg-gray-800 border border-gray-700 text-white font-mono text-xs hover:border-gray-500 transition-colors"
+            className="w-full px-4 py-2 bg-gray-800 border border-bx-trace-light text-bx-white font-mono text-xs hover:border-bx-trace-light transition-colors"
           >
             Add to Schematics
           </button>
