@@ -3,13 +3,14 @@
 import { useState, useRef, useEffect } from 'react';
 import { Schematic } from '@/types';
 import BraxtonRenderer from '@/components/BraxtonRenderer';
-import { Loader2, Link, FileText, Sparkles } from 'lucide-react';
+import { Loader2, Link, FileText, Sparkles, Key } from 'lucide-react';
 
 interface LLMAnalyzerProps {
   onSchematicGenerated: (schematic: Partial<Schematic>) => void;
 }
 
 export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) {
+  const [apiKey, setApiKey] = useState('');
   const [input, setInput] = useState('');
   const [isUrl, setIsUrl] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -43,6 +44,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           [isInputUrl ? 'url' : 'text']: input,
+          apiKey,
         }),
       });
 
@@ -93,6 +95,19 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
       </p>
 
       <div className="space-y-3">
+        <div>
+          <label className="flex items-center gap-1.5 text-xs font-mono text-bx-gray-500 mb-1.5">
+            <Key className="w-3 h-3" />
+            Anthropic API Key
+          </label>
+          <input
+            type="password"
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+            placeholder="sk-ant-..."
+            className="w-full bg-bx-black border border-bx-trace-light px-4 py-2 text-sm font-mono text-bx-white placeholder-bx-gray-500 focus:outline-none focus:border-bx-trace-light"
+          />
+        </div>
         <div className="flex gap-2">
           <button
             onClick={() => setIsUrl(false)}
@@ -124,7 +139,7 @@ export default function LLMAnalyzer({ onSchematicGenerated }: LLMAnalyzerProps) 
 
         <button
           onClick={handleAnalyze}
-          disabled={loading || !input.trim()}
+          disabled={loading || !input.trim() || !apiKey.trim()}
           className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gray-800 border border-bx-trace-light text-bx-white font-mono text-sm disabled:opacity-40 disabled:cursor-not-allowed hover:border-bx-trace-light transition-colors"
         >
           {loading ? (

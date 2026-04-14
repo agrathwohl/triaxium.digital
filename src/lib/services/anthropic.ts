@@ -3,8 +3,10 @@ import { createAnthropic } from '@ai-sdk/anthropic';
 import { z } from 'zod';
 import { Schematic } from '@/types';
 
-const anthropic = createAnthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-const model = anthropic('claude-sonnet-4-6');
+function getModel(apiKey: string) {
+  const anthropic = createAnthropic({ apiKey });
+  return anthropic('claude-sonnet-4-6');
+}
 
 const BRAXTONIAN_SYSTEM_PROMPT = `You are a Braxtonian analyst. You analyze texts through the lens of the Tri-Axium Writings by Anthony Braxton.
 
@@ -56,9 +58,9 @@ const braxtonianSchema = z.object({
   volume_alignment: z.enum(['1', '2', '3']).describe('1=foundations, 2=critique, 3=synthesis'),
 });
 
-export async function analyzeText(text: string): Promise<Partial<Schematic> & { analysis: string; insights: string[] }> {
+export async function analyzeText(text: string, apiKey: string): Promise<Partial<Schematic> & { analysis: string; insights: string[] }> {
   const { object: result } = await generateObject({
-    model,
+    model: getModel(apiKey),
     schema: braxtonianSchema,
     system: BRAXTONIAN_SYSTEM_PROMPT,
     prompt: `Analyze this text through the Braxtonian framework:\n\n${text.substring(0, 8000)}`,
@@ -89,10 +91,11 @@ export async function analyzeText(text: string): Promise<Partial<Schematic> & { 
 export async function generateSchematicFromAnalysis(
   subject: string,
   context: string,
-  terms: string[]
+  terms: string[],
+  apiKey: string
 ): Promise<string> {
   const { object } = await generateObject({
-    model,
+    model: getModel(apiKey),
     schema: z.object({
       schematic: z.string().describe('ASCII art Braxtonian schematic diagram'),
     }),

@@ -5,7 +5,14 @@ import * as cheerio from 'cheerio';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { url, text, type = 'auto' } = body;
+    const { url, text, type = 'auto', apiKey } = body;
+
+    if (!apiKey) {
+      return NextResponse.json(
+        { error: 'API key is required' },
+        { status: 400 }
+      );
+    }
 
     let contentToAnalyze = '';
 
@@ -38,7 +45,7 @@ export async function POST(request: Request) {
     }
 
     // Analyze with Anthropic
-    const analysis = await analyzeText(contentToAnalyze);
+    const analysis = await analyzeText(contentToAnalyze, apiKey);
 
     return NextResponse.json({
       success: true,
