@@ -1,0 +1,101 @@
+{
+  "id": "v1-p341-2",
+  "volume": 1,
+  "section": "PCC-25",
+  "page": 341,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT.------DYM.F.",
+  "type": "crossing",
+  "description": "Composite form action relating to dynamics factor. Crossing diagram in the Post-Cage Continuum section showing (c)c.fo.act connected to physical universe perspective, primary transformation, (r)intersection, dynamics factor, (r)information design, extended dynamics, transformation, vibrational universe perspective transition, music information, and composite continuance.",
+  "terms": [
+    {
+      "termId": "c-fo-act",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "info-doc",
+      "prefix": "r"
+    },
+    {
+      "termId": "ext-dym"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "vt-u-pt"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "c-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-fo-act",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "info-doc",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "info-doc",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "vt-u-pt",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "vt-u-pt",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "vt-u-pt",
+      "type": "solid"
+    }
+  ]
+}

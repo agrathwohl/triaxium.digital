@@ -1,0 +1,111 @@
+{
+  "id": "v1-p339-1",
+  "volume": 1,
+  "section": "PCC-23",
+  "page": 339,
+  "subject": "info-af-b",
+  "title": "INFO.AF.B.------C.FO.ACT.",
+  "type": "crossing",
+  "description": "Information affinity base relating to composite form action. Crossing diagram in the Post-Cage Continuum section showing (c)info.af.b connected to decision, social reality dynamics, composite form action, reality state, gradation, progressional continuance, (r)intersection, projectional dynamics, political dynamics, physical universe perspective, reality target, and primary transformation.",
+  "terms": [
+    {
+      "termId": "info-af-b",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "grad"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "pr-trs"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "info-af-b",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "grad",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "info-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "pr-trs",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "v1-p311",
+  "volume": 1,
+  "section": "WI-27",
+  "page": 311,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------MT.INFO.",
+  "type": "crossing",
+  "description": "World expansion principle relating to music information. Crossing diagram in the World Improvisor section showing (c)wo.exp.prin connected to alternative factor, accent dynamics, music information, stuff, composite continuance, cosmic dynamics, signal, social reality, information design base, and individual dynamics.",
+  "terms": [
+    {
+      "termId": "wo-exp-pri",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "cos-d"
+    },
+    {
+      "termId": "si"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "info-de-b"
+    },
+    {
+      "termId": "indiv-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "cos-d",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "si",
+      "type": "solid"
+    },
+    {
+      "from": "cos-d",
+      "to": "si",
+      "type": "solid"
+    }
+  ]
+}

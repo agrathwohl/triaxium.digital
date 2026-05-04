@@ -1,0 +1,97 @@
+{
+  "id": "v1-p254",
+  "volume": 1,
+  "section": "CMBA-10",
+  "page": 254,
+  "subject": "mth",
+  "title": "(R)MTH.------AF.DY.",
+  "type": "crossing",
+  "description": "Reality mathematical relating to affinity dynamics. Crossing diagram in the Creative Music Black Aesthetic section showing (r)mth connected to vibrational thrust dynamics, information static dynamics, social reality direction-vibrational, instructional perspective transformation, music developmental, reality dynamics, extension factor, accumulation factor, language dynamics, and progressional continuance.",
+  "terms": [
+    {
+      "termId": "mth",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "soc-rt-devf"
+    },
+    {
+      "termId": "ist-pt"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "prog-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "if-st-dy",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-devf",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "mt-devf",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mt-devf",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "acc-ft",
+      "type": "solid"
+    }
+  ]
+}

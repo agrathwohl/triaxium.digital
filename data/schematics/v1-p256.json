@@ -1,0 +1,102 @@
+{
+  "id": "v1-p256",
+  "volume": 1,
+  "section": "CMBA-12",
+  "page": 256,
+  "subject": "proj",
+  "title": "PROJ.------COS.P.",
+  "type": "crossing",
+  "description": "Projection relating to cosmic perspective. Crossing diagram in the Creative Music Black Aesthetic section showing (c)proj connected to action, mta.rt.sign, cosmic perspective, music developmental factor, advanced presentation, intuitive awareness, transformation, dynamic factor, information dynamics, operational speed, and individual dynamics.",
+  "terms": [
+    {
+      "termId": "proj",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "act"
+    },
+    {
+      "termId": "mta-rt-sign"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "info-algn"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "op-spd"
+    },
+    {
+      "termId": "indiv-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "act",
+      "to": "proj",
+      "type": "solid"
+    },
+    {
+      "from": "mta-rt-sign",
+      "to": "proj",
+      "type": "solid"
+    },
+    {
+      "from": "mta-rt-sign",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "info-algn",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "op-spd",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "indiv-dy",
+      "type": "solid"
+    }
+  ]
+}

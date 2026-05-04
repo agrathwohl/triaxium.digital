@@ -1,0 +1,91 @@
+{
+  "id": "v1-p229-1",
+  "volume": 1,
+  "section": "WAC-27",
+  "page": 229,
+  "subject": "exp-dy",
+  "title": "EXP.DY.------SOC.RT.",
+  "type": "crossing",
+  "description": "Expansion dynamics relating to social reality. Crossing diagram in the Western Art Composite section showing exp.dy connected to spirit dynamics, hierarchical perspective, accumulation factor, (c)definition, social reality, information dynamics structure, affinity dictation, political dynamics, and progressional continuance.",
+  "terms": [
+    {
+      "termId": "exp-dym",
+      "isSubject": true
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "hi-p"
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "def",
+      "prefix": "c"
+    },
+    {
+      "termId": "info-ds"
+    },
+    {
+      "termId": "afl-dt"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "prog-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "spt-dy",
+      "to": "hi-p",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "def",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
+      "to": "afl-dt",
+      "type": "solid"
+    }
+  ]
+}

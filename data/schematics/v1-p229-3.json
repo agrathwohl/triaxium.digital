@@ -1,0 +1,102 @@
+{
+  "id": "v1-p229-3",
+  "volume": 1,
+  "section": "WAC-27",
+  "page": 229,
+  "subject": "af-con",
+  "title": "AF.CON.------RE.ST.",
+  "type": "crossing",
+  "description": "Affinity consideration relating to re-statement. Crossing diagram in the Western Art Composite section showing (c)af.con connected to affinity dictation, language dynamics, postulation, progressional continuance, information dynamics, language extension, re-statement, social reality, intersection, information design, and information static dynamics.",
+  "terms": [
+    {
+      "termId": "af-con",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "afl-dt"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "lg-ext"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "intr"
+    },
+    {
+      "termId": "info-doc"
+    },
+    {
+      "termId": "if-st-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl-dt",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "lg-ext",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "af-con",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "info-doc",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "if-st-dy",
+      "to": "af-con",
+      "type": "solid"
+    }
+  ]
+}

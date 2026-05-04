@@ -1,0 +1,91 @@
+{
+  "id": "v1-p156",
+  "volume": 1,
+  "section": "UPB(II)-18",
+  "page": 156,
+  "subject": "pri-info-td",
+  "title": "PRI.INFO.TD.------ALT.F.",
+  "type": "crossing",
+  "description": "Primary information tendencies relating to alternative factor. Crossing diagram in the Universal Perspective Base section showing (c)pri.info.td connected to alternative factor, instructional perspective, information dynamics, information continuance, reality intentions transformation, social reality, re.st, fundamental dynamics, and affinity.",
+  "terms": [
+    {
+      "termId": "pri-vt-td",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "ist-pt"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "info-con"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "fund-dyn"
+    },
+    {
+      "termId": "afi"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-pt",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "fund-dyn",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "afi",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v1-p52",
+  "volume": 1,
+  "section": "WM-28",
+  "page": 52,
+  "subject": "cr-info-dy",
+  "title": "CR.INFO.DY.------C.INFO.",
+  "type": "crossing",
+  "description": "Diagram in WM-28, on the page where Braxton argues that 'the essence alignment of world creativity is based on the synthesis of concept and spiritualism.' CR-INFO-DY (a diagram-only compound — likely 'creative information dynamics' — see also similar-form CR-INFO-DY in glossary as 'circular information dynamics'; here read in the WM-28 context as how creative information moves) is *crossed* with C-INFO (composite information). Two argumentative arcs flow from the subject. Through SOC-RT (social reality) → CULT-INFO-F (culture information focus) → INDIV-TD (individual tendencies), with a sub-branch from CULT-INFO-F into LANG-DY (language dynamics) → T-C-IMP (time continuum implications): this arc traces how creative information moves from social reality into individual tendencies *only via* the language-dynamics filter, with implications across the time continuum. Through C-INFO into ASP-ES (aspect essence), MT-INFO (multi-information), and (r)INDIV-DY-RT (the reality of individual dynamic reality) — which dashed-links to (r)INTR (interpretation) and solid-links to LK-IMP (linkage implications): this arc traces how composite information saturates the individual at the level of interpretive linkage. The crossing's argument: world creativity's information-dynamics cannot be read as social transmission alone, nor as individual reception alone — it requires the synthesis of both arcs, the very synthesis western analytical practice (per Braxton on this page) routinely fails to perform.",
+  "terms": [
+    { "termId": "cr-info-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "c-info" },
+    { "termId": "soc-rt" },
+    { "termId": "cult-info-f" },
+    { "termId": "indiv-td" },
+    { "termId": "asp-es" },
+    { "termId": "mt-info" },
+    { "termId": "indiv-dy-rt", "prefix": "r" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "lang-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "cr-info-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "cr-info-dy", "to": "c-info", "type": "solid" },
+    { "from": "soc-rt", "to": "cult-info-f", "type": "solid" },
+    { "from": "cult-info-f", "to": "indiv-td", "type": "solid" },
+    { "from": "c-info", "to": "asp-es", "type": "solid" },
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "c-info", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "indiv-dy-rt", "to": "intr", "type": "dashed" },
+    { "from": "cult-info-f", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "indiv-dy-rt", "to": "lk-imp", "type": "solid" }
+  ]
+}

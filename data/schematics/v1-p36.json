@@ -1,25 +1,99 @@
 {
   "id": "v1-p36",
   "volume": 1,
-  "section": "WM-11",
+  "section": "WM-12",
   "page": 36,
-  "subject": "SCI.DYM",
-  "title": "Scientific Dynamics",
-  "type": "tree",
-  "description": "Tree structure showing scientific dynamics",
+  "subject": "sci-dym",
+  "title": "SCI.DYM.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in WM-12, embedded in Braxton's argument that world creativity 'does not have a real separation between its creativity and science, or its creativity and religion—or its creativity and its community.' SCI-DYM (science dynamics) is *crossed* — the (c) prefix marks crossing — with C-CONT (composite continuance), staking the claim that science cannot be detached from a culture's composite continuity. Two argumentative branches expand the subject: SCI-DYM → MTH (methodology) → C-CONT/INDIV-TD (individual tendencies), and SCI-DYM → POST (postulation) → INFO-AF-B (information affinity basis) → TRS (transition). A second arc runs from C-CONT through SPT-DY (spiritual dynamics), which then branches into AFI (affinity insight) and EXP-DYM (expansion dynamics) → INTR (interpretation). The argument is structural: in world cultures, science and continuance share a methodological/postulational base that is also spiritually saturated — interpretation, expansion, and affinity-insight all emerge from spiritual dynamics, not from empirical isolation. The diagram refuses the western analytical separation Braxton names on the same page as 'outside the basic affinity alignment of western functionalism (i.e., science).'",
   "terms": [
-    {"termId": "sci-dym", "isSubject": true},
-    {"termId": "c-cont"},
-    {"termId": "spt-dym"},
-    {"termId": "afi"},
-    {"termId": "rt-dy"},
-    {"termId": "proj-dy"}
+    {
+      "termId": "sci-dym",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "info-af-b"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "intr"
+    },
+    {
+      "termId": "trs"
+    }
   ],
   "relationships": [
-    {"from": "sci-dym", "to": "c-cont", "type": "thick"},
-    {"from": "c-cont", "to": "spt-dym", "type": "dashed"},
-    {"from": "c-cont", "to": "afi", "type": "solid"},
-    {"from": "afi", "to": "rt-dy", "type": "solid"},
-    {"from": "rt-dy", "to": "proj-dy", "type": "dashed"}
+    {
+      "from": "sci-dym",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "sci-dym",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "info-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "intr",
+      "type": "solid"
+    }
   ]
 }

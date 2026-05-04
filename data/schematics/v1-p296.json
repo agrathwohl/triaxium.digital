@@ -1,0 +1,99 @@
+{
+  "id": "v1-p296",
+  "volume": 1,
+  "section": "WI-12",
+  "page": 296,
+  "subject": "op-spd",
+  "title": "OP.SPD.------EXP.INFO.B.",
+  "type": "crossing",
+  "description": "Operational speed relating to expanded information base. Crossing diagram in the White Improvisor section showing (c)op.spd connected to spatial dynamics, apparent projection, expanded information base, bias, extension feature, intersection, political dynamics, transformation, affiliation determinant, and social reality dynamics.",
+  "terms": [
+    {
+      "termId": "op-spd",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "exp-info-b"
+    },
+    {
+      "termId": "bia"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "intr"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "afl-dt"
+    },
+    {
+      "termId": "soc-rt-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "spt-dy",
+      "to": "op-spd",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "op-spd",
+      "type": "solid"
+    },
+    {
+      "from": "op-spd",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "exp-info-b",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "afl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dt",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-info-b",
+      "to": "op-spd",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "v1-p271",
+  "volume": 1,
+  "section": "CMBA-27",
+  "page": 271,
+  "subject": "attn",
+  "title": "(R)ATTN.------AF.DY.",
+  "type": "crossing",
+  "description": "Reality attention relating to affinity dynamics. Crossing diagram in the Creative Music Black Aesthetic section showing (r)attn connected to affinity dynamics, cultural information dynamics, affirmative-line, individual tendencies, social reality position, affinity tendencies dynamics, composite information, dynamics factor, and (r)affinity insight. Includes a dashed line.",
+  "terms": [
+    {
+      "termId": "attn",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "afi",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl-dy",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "afi",
+      "type": "dashed"
+    },
+    {
+      "from": "afi",
+      "to": "dym-f",
+      "type": "solid"
+    }
+  ]
+}

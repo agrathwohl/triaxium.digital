@@ -1,0 +1,75 @@
+{
+  "id": "v1-p264-3",
+  "volume": 1,
+  "section": "CMBA-20",
+  "page": 264,
+  "subject": "alt-f",
+  "title": "ALT.F.------DEC.",
+  "type": "crossing",
+  "description": "Alternative factor relating to declaration. Crossing diagram in the Creative Music Black Aesthetic section showing alt.f connected to declaration, theoretical continuance, expansion dynamics, music information database, (c)info.de, political signal, and progressional extension factor.",
+  "terms": [
+    {
+      "termId": "alt-f",
+      "isSubject": true
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "th-cont"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "mt-if-db"
+    },
+    {
+      "termId": "info-doc",
+      "prefix": "c"
+    },
+    {
+      "termId": "pol-sign"
+    },
+    {
+      "termId": "prog-ext-ft"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "info-doc",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "mt-if-db",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "pol-sign",
+      "type": "solid"
+    },
+    {
+      "from": "pol-sign",
+      "to": "prog-ext-ft",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "v1-p210-1",
+  "volume": 1,
+  "section": "WAC-8",
+  "page": 210,
+  "subject": "ext-f",
+  "title": "EXT.F.------PROG.SIGN.",
+  "type": "crossing",
+  "description": "Extension factor relating to progressional signal. Crossing diagram in the Western Art Composite section showing (c)ext.f connected to alternative factor, affinity tendencies, political dynamics, primary information, social reality, information dynamics structure, transcendence, and progressional signal.",
+  "terms": [
+    {
+      "termId": "ext-ft",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "prog-sign"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "info-ds"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "prog-sign",
+      "type": "solid"
+    }
+  ]
+}

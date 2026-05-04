@@ -1,0 +1,86 @@
+{
+  "id": "v1-p273-2",
+  "volume": 1,
+  "section": "CMBA-29",
+  "page": 273,
+  "subject": "proj-dy",
+  "title": "(R)PROJ.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Reality projectional dynamics relating to music information. Crossing diagram in the Creative Music Black Aesthetic section showing (r)proj.dy connected to music information, (r)information intersection, (c)postulation, (r)participation, total composite implications, music reality signal, social reality, and dynamics factor.",
+  "terms": [
+    {
+      "termId": "proj-dy",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "info-intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "post",
+      "prefix": "c"
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "mta-rt-sign"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "dym-f"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mt-info",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-intr",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "dym-f",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "v1-p152",
+  "volume": 1,
+  "section": "UPB(II)-14",
+  "page": 152,
+  "subject": "rc",
+  "title": "RC.------VT.DY.",
+  "type": "crossing",
+  "description": "Composite rc relating to vibrational thrust dynamics. Crossing diagram in the Universal Perspective Base section showing (c)rc connected to vibrational thrust dynamics, postulation, affinity dynamics, music information, total composite implications, physical universe consideration, political dynamics, and music dev factor.",
+  "terms": [
+    {
+      "termId": "rc",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "mt-devf"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "rc",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "rc",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rc",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "rc",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "rc",
+      "to": "mt-devf",
+      "type": "solid"
+    }
+  ]
+}

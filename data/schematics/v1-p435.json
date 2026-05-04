@@ -1,0 +1,97 @@
+{
+  "id": "v1-p435",
+  "volume": 1,
+  "section": "MID-W-29",
+  "page": 435,
+  "subject": "mth",
+  "title": "MTH.------EXT.F.",
+  "type": "crossing",
+  "description": "Math relating to extension factor. Crossing diagram in the Midwest section showing (c)mth connected to individual transformational direction, affiliation dynamics, extension factor, progressional continuance, restated structure, transformation, accent dynamics, vibrational source, affiliation post, meta-implication, and language dynamics.",
+  "terms": [
+    {
+      "termId": "mth",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "vt-s"
+    },
+    {
+      "termId": "af-post"
+    },
+    {
+      "termId": "mta-imp"
+    },
+    {
+      "termId": "lang-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "indiv-td",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-s",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "mta-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "af-post",
+      "type": "solid"
+    }
+  ]
+}

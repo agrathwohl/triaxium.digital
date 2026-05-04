@@ -1,0 +1,82 @@
+{
+  "id": "v1-p396",
+  "volume": 1,
+  "section": "NYM-30",
+  "page": 396,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT.------SOC.RT.",
+  "type": "crossing",
+  "description": "Composite form action relating to social reality. Crossing diagram in the New York Musicians section showing c.fo.act connected to transformation, cultural information base, decision, social reality, dynamics factor, alternative factor, political dynamism, and link implication.",
+  "terms": [
+    {
+      "termId": "c-fo-act",
+      "isSubject": true
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "lk-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "soc-rt",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "pol-dym",
+      "type": "solid"
+    }
+  ]
+}

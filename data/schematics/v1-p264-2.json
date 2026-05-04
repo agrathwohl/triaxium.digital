@@ -1,0 +1,77 @@
+{
+  "id": "v1-p264-2",
+  "volume": 1,
+  "section": "CMBA-20",
+  "page": 264,
+  "subject": "afi-tf",
+  "title": "AFI.TF.------STF.",
+  "type": "crossing",
+  "description": "Affinity insight transfer relating to source-transfer factor. Crossing diagram in the Creative Music Black Aesthetic section showing (c)afi.tf connected to (p)trs, source-transfer factor, music information, affinity dynamics, projectional dimension, aspect essence, and (r)intersection. Includes a dashed line.",
+  "terms": [
+    {
+      "termId": "aftf",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "trs",
+      "prefix": "p"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "asp-es"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "trs",
+      "to": "aftf",
+      "type": "solid"
+    },
+    {
+      "from": "aftf",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "aftf",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "asp-es",
+      "type": "solid"
+    },
+    {
+      "from": "asp-es",
+      "to": "int",
+      "type": "dashed"
+    }
+  ]
+}

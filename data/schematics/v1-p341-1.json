@@ -1,0 +1,109 @@
+{
+  "id": "v1-p341-1",
+  "volume": 1,
+  "section": "PCC-25",
+  "page": 341,
+  "subject": "bia",
+  "title": "BIA.------AFI.",
+  "type": "crossing",
+  "description": "Bias relating to affinity. Crossing diagram in the Post-Cage Continuum section showing (c)bia connected to (r)composite information, action, affinity, affinity-2 (dashed), social reality, primary transition, affinity-1, dynamics factor, cosmic perspective, progressional continuance, and (r)attention.",
+  "terms": [
+    {
+      "termId": "bia",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "c-info",
+      "prefix": "r"
+    },
+    {
+      "termId": "act"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "afi-2"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "afi-1"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "attn",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "bia",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "act",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "afi-2",
+      "type": "dashed"
+    },
+    {
+      "from": "afi-2",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "afi-1",
+      "type": "dashed"
+    },
+    {
+      "from": "afi-1",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "attn",
+      "type": "solid"
+    }
+  ]
+}

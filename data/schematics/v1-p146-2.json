@@ -1,0 +1,33 @@
+{
+  "id": "v1-p146-2",
+  "volume": 1,
+  "section": "UPB(II)-8",
+  "page": 146,
+  "subject": "tr-info",
+  "title": "(R)TR.INFO.------PROJ.DY.",
+  "type": "crossing",
+  "description": "Reality transformational information relating to projectional dynamics. Crossing diagram in the Universal Perspective Base section showing (r)tr.info connected to postulation, political process, language dynamics, social reality dynamics, reality intentions transformation, world experience principal, upb, total composite implications, and projectional dynamics.",
+  "terms": [
+    { "termId": "tr-info", "isSubject": true, "prefix": "r" },
+    { "termId": "proj-dy" },
+    { "termId": "post" },
+    { "termId": "pol-p" },
+    { "termId": "lang-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "upb" },
+    { "termId": "t-c-imp" }
+  ],
+  "relationships": [
+    { "from": "soc-rt-dy", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "post", "type": "solid" },
+    { "from": "pol-p", "to": "lang-dy", "type": "solid" },
+    { "from": "tr-info", "to": "rt-int-tr", "type": "solid" },
+    { "from": "tr-info", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "upb", "type": "solid" },
+    { "from": "upb", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "upb", "to": "t-c-imp", "type": "solid" }
+  ]
+}

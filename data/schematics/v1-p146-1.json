@@ -1,0 +1,90 @@
+{
+  "id": "v1-p146-1",
+  "volume": 1,
+  "section": "UPB(II)-8",
+  "page": 146,
+  "subject": "s-proj",
+  "title": "S.PROJ.------MT.INFO.",
+  "type": "crossing",
+  "description": "Subject projection relating to music information. Crossing diagram in the Universal Perspective Base section showing s.proj connected to music information, principal information, dynamics functionalism, vibrational universe fundamental, method, dynamics-spirit, physical universe fundamental, cosmic perspective, and affinity alignment.",
+  "terms": [
+    {
+      "termId": "s-proj",
+      "isSubject": true
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "phy-u-fund"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "phy-u-fund"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "afl"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "s-proj",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "s-proj",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "phy-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-fund",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "phy-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-fund",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "afl",
+      "type": "solid"
+    }
+  ]
+}

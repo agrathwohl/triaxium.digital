@@ -1,0 +1,98 @@
+{
+  "id": "v1-p418",
+  "volume": 1,
+  "section": "MID-W-12",
+  "page": 418,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Composite form action relating to total composite implications. Crossing diagram in the Midwest section showing c.fo.act connected to expanded dynamism, reality alignment, total composite implications, music information, dynamics factor, cultural information dynamics, political dynamics, composite continuance, physical universe perspective, and information introduction (dashed).",
+  "terms": [
+    {
+      "termId": "c-fo-act",
+      "isSubject": true
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "info-intr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "exp-dym",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "info-intr",
+      "type": "dashed"
+    }
+  ]
+}

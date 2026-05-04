@@ -1,0 +1,70 @@
+{
+  "id": "v1-p392-1",
+  "volume": 1,
+  "section": "NYM-26",
+  "page": 392,
+  "subject": "si",
+  "title": "SI.------RT.OP.",
+  "type": "tree",
+  "description": "Signal initiation relating to reality option. Tree diagram in the New York Musicians section showing (c)si connected to progressional continuance, (c)reality alignment, reality option, (r)participation, (r)stylization, and social reality (dashed).",
+  "terms": [
+    {
+      "termId": "si",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "rt-algn",
+      "prefix": "c"
+    },
+    {
+      "termId": "rt-op"
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    },
+    {
+      "termId": "sty",
+      "prefix": "r"
+    },
+    {
+      "termId": "soc-rt"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "si",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "rt-op",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "sty",
+      "type": "solid"
+    },
+    {
+      "from": "rt-op",
+      "to": "soc-rt",
+      "type": "dashed"
+    }
+  ]
+}

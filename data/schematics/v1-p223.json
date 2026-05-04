@@ -1,0 +1,87 @@
+{
+  "id": "v1-p223",
+  "volume": 1,
+  "section": "WAC-21",
+  "page": 223,
+  "subject": "cul-tf-s",
+  "title": "CUL.TF.S.------C.CONT.",
+  "type": "crossing",
+  "description": "Cultural transfer-source relating to composite continuance. Crossing diagram in the Western Art Composite section showing (c)cul.tf.s connected to transcendence, information consideration, composite continuance, reality attention, re-statement, projectional dynamics, affinity dynamics, total composite implications, and primary participation.",
+  "terms": [
+    {
+      "termId": "cul-tf-s",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "info-con"
+    },
+    {
+      "termId": "attn",
+      "prefix": "r"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "part"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cul-tf-s",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "cul-tf-s",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "info-con",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
+      "to": "part",
+      "type": "solid"
+    }
+  ]
+}

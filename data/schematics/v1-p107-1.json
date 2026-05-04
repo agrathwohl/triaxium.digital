@@ -1,0 +1,100 @@
+{
+  "id": "v1-p107-1",
+  "volume": 1,
+  "section": "T(AF)M-11",
+  "page": 107,
+  "subject": "alt-f",
+  "title": "ALT.F.------RT.DY.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-11, on the page where Braxton argues that 'the vibrationaltory lining of creative black music is the same as the composite thrust of black culture—whether African or so-called American—yet the meta-reality and science of creative black music is separate from Africa or the world group, because of the nature of the path American black people have had to take.' (C)ALT-F (alternative functionalism) is crossed with (C)RT-DY (reality dynamics) — note the *double* (c) prefix, marking this as a crossing of two crossing-relations: the question is what 'alternative' means when both alternative-functionalism and reality-dynamics are themselves already structurally crossed. ALT-F branches to POL-ST (political state), POL-DYM (political dynamics), and PHY-U-C (physical universe context) → PRI-INFO (primary information) and PROG-CONT (progressional continuance) → AFN (affinity negation). RT-DY branches to SOC-RT-DY (social reality dynamics), RT-OP (reality options), and dashed-links to PER-TRS (perceived transition) — registering that perceived transition is conditional on reality dynamics, not directly produced. The argument: trans-African creativity is structurally an *alternative functionalism* whose access to reality dynamics passes through the political and physical-universe layers that constrain post-slavery black expression, with affinity negation appearing as the terminal node of the progressional-continuance chain.",
+  "terms": [
+    {
+      "termId": "alt-f",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "rt-dy",
+      "prefix": "c"
+    },
+    {
+      "termId": "pol-st"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "rt-op"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "per-trs"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "afn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "pol-st",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "rt-op",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "per-trs",
+      "type": "dashed"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "afn",
+      "type": "solid"
+    }
+  ]
+}

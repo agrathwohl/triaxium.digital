@@ -1,0 +1,97 @@
+{
+  "id": "v1-p381",
+  "volume": 1,
+  "section": "NYM-15",
+  "page": 381,
+  "subject": "afn",
+  "title": "AFN.------TH.CONT.",
+  "type": "crossing",
+  "description": "Affirmation relating to thrust continuance. Crossing diagram in the New York Musicians section showing (c)afn connected to cultural transfer source, apparent redefinition, composite continuance, thrust continuance, after-form, (r)attention, (c)stuff, (c)gradation (dashed), postulation, and participation (dashed).",
+  "terms": [
+    {
+      "termId": "afn",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "cul-tf-s"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "th-cont"
+    },
+    {
+      "termId": "aftf"
+    },
+    {
+      "termId": "attn",
+      "prefix": "r"
+    },
+    {
+      "termId": "stf",
+      "prefix": "c"
+    },
+    {
+      "termId": "grad",
+      "prefix": "c"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "part"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afn",
+      "to": "cul-tf-s",
+      "type": "solid"
+    },
+    {
+      "from": "cul-tf-s",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "cul-tf-s",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "app-rdef",
+      "type": "dashed"
+    },
+    {
+      "from": "aftf",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "post",
+      "type": "dashed"
+    }
+  ]
+}

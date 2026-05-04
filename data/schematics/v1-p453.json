@@ -1,0 +1,95 @@
+{
+  "id": "v1-p453",
+  "volume": 1,
+  "section": "EXT.F(II)-15",
+  "page": 453,
+  "subject": "cult-info-fo",
+  "title": "CULT.INFO.FO.------POL.DY.",
+  "type": "crossing",
+  "description": "Cultural information forming relating to political dynamics. Crossing diagram in the Extended Functionalism (II) section showing (c)cult.info.fo connected to extension factor, participation, political dynamics, political position, multi-position transition, affiliation, social reality, (r)introduction, primary progression, and music information.",
+  "terms": [
+    {
+      "termId": "cult-info-f",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "mpt"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "p-prog"
+    },
+    {
+      "termId": "mt-info"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-info-f",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "mpt",
+      "to": "cult-info-f",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "cult-info-f",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "p-prog",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "intr",
+      "type": "solid"
+    }
+  ]
+}

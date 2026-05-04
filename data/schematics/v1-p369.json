@@ -1,0 +1,102 @@
+{
+  "id": "v1-p369",
+  "volume": 1,
+  "section": "NYM-3",
+  "page": 369,
+  "subject": "alt-f",
+  "title": "ALT.F.------MT.INFO.",
+  "type": "crossing",
+  "description": "Alternative factor relating to music information. Crossing diagram in the New York Musicians section showing (c)alt.f connected to (c)rotation point (dashed), projectional continuance, extension factor (dashed), expanded dynamics, multiple information, signal initiation, composite information, (c)link implication, (r)postulation, and stuff.",
+  "terms": [
+    {
+      "termId": "alt-f",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "rotp",
+      "prefix": "c"
+    },
+    {
+      "termId": "proj-cont"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "si"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "lk-imp",
+      "prefix": "c"
+    },
+    {
+      "termId": "post",
+      "prefix": "r"
+    },
+    {
+      "termId": "stf"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "proj-cont",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "proj-cont",
+      "type": "dashed"
+    },
+    {
+      "from": "proj-cont",
+      "to": "ext-ft",
+      "type": "dashed"
+    },
+    {
+      "from": "alt-f",
+      "to": "si",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "stf",
+      "type": "solid"
+    }
+  ]
+}

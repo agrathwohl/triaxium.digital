@@ -1,0 +1,91 @@
+{
+  "id": "v1-p90-1",
+  "volume": 1,
+  "section": "WAM-32",
+  "page": 90,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------PRIN.INFO.",
+  "type": "crossing",
+  "description": "Diagram in WAM-32, the page where Braxton names the post-Webern/post-Cage juncture as 'the dissolution of the composite vibrational alignment of western culture' and reads serial music as connected simultaneously to the western source-initiation thrust *and* to the source-transfer junction of world creativity. (C)PROJ-DY (projectional dynamics) is crossed with PRI-INFO (primary information; title abbreviates as PRIN.INFO): the diagram poses that under post-Cageian conditions, projectional dynamics have to be re-grounded by re-engaging primary information — but the routes are constrained. PROJ-DY is fed by ALT-F (alternative functionalism), PART (participation), and AFL-DY (affinity dynamics) — three entry points marking what could *push* projectional dynamics toward re-grounding. PROJ-DY then outputs to PRI-INFO, POL-DYM (political dynamics), AFL-DT (affinity dictates), and RE-ST (restructuralism); POL-DYM further branches into INFO-AF-B (information affinity basis) and PROG-CONT (progressional continuance). The structural claim: the move toward primary information cannot bypass political dynamics — restructuralism, information affinity basis, and progressional continuance are all gated by the political-dynamics layer. This is Braxton's diagrammatic version of his prose claim that the post-Webern juncture is consequential because of what it forces on the *meta-structure*, not merely on technique.",
+  "terms": [
+    {
+      "termId": "proj-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "info-af-b"
+    },
+    {
+      "termId": "afl-dt"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "re-st"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "info-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "afl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "re-st",
+      "type": "solid"
+    }
+  ]
+}

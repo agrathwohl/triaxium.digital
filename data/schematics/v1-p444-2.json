@@ -1,0 +1,94 @@
+{
+  "id": "v1-p444-2",
+  "volume": 1,
+  "section": "EXT.F(II)-6",
+  "page": 444,
+  "subject": "re-def",
+  "title": "RE.DEF.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Redefinition relating to progressional continuance. Crossing diagram in the Extended Functionalism (II) section showing (c)re.def connected to vibrational dynamics, music introduction, progressional continuance, affiliation dynamics, apparent redefinition, affiliation continuance, language dynamics, political position, social reality dynamics, and alternative factor.",
+  "terms": [
+    {
+      "termId": "re-dif",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "af-con"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "alt-f"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "vt-dy",
+      "to": "re-dif",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "re-dif",
+      "type": "solid"
+    },
+    {
+      "from": "re-dif",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "re-dif",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "af-con",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "af-con",
+      "type": "solid"
+    }
+  ]
+}

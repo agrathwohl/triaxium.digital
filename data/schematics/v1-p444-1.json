@@ -1,0 +1,86 @@
+{
+  "id": "v1-p444-1",
+  "volume": 1,
+  "section": "EXT.F(II)-6",
+  "page": 444,
+  "subject": "pri-info-td",
+  "title": "(R)PRI.INFO.TD.------TRS.",
+  "type": "crossing",
+  "description": "Reality primary information transformational direction relating to transformation. Crossing diagram in the Extended Functionalism (II) section showing (r)pri.info.td connected to alternative direction, creative information dynamics, transformation, political dynamics, creative form direction, alternative factor, accent dynamics, progressional continuance, and language.",
+  "terms": [
+    {
+      "termId": "pri-vt-td",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "alt-d"
+    },
+    {
+      "termId": "cr-info-dy"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "crtf-d"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "lang"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-d",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "cr-info-dy",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "crtf-d",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-d",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "lang",
+      "type": "solid"
+    }
+  ]
+}

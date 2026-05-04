@@ -1,0 +1,84 @@
+{
+  "id": "v1-p292",
+  "volume": 1,
+  "section": "WI-8",
+  "page": 292,
+  "subject": "crtf-d",
+  "title": "CRTF.D.------MT.INFO.",
+  "type": "crossing",
+  "description": "Certification dynamics relating to music information. Crossing diagram in the White Improvisor section showing (c)crtf.d connected to music information, alternative dimensional, (r)intersection, affirmation, apparent redefinition, affirmative transfer, extension dynamics, and alternative crossing-progression.",
+  "terms": [
+    {
+      "termId": "crtf-d",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "alt-d"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "afn"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "aftf"
+    },
+    {
+      "termId": "ext-dym"
+    },
+    {
+      "termId": "alt-c-pg"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "crtf-d",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "alt-d",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-d",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "aftf",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "alt-c-pg",
+      "type": "solid"
+    }
+  ]
+}

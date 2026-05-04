@@ -1,0 +1,31 @@
+{
+  "id": "v1-p248-1",
+  "volume": 1,
+  "section": "CMBA-4",
+  "page": 248,
+  "subject": "rt-op",
+  "title": "RT.OP.------SOC.RT.",
+  "type": "crossing",
+  "description": "Reality operative relating to social reality. Crossing diagram in the Creative Music Black Aesthetic section showing (c)rt.op connected to spirit-ghost, social reality, source-functional realization, participation, progressional continuance, transcendence, postulation, and individual dynamics.",
+  "terms": [
+    { "termId": "rt-op", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "spt-gh" },
+    { "termId": "sf-rz" },
+    { "termId": "part" },
+    { "termId": "prog-cont" },
+    { "termId": "trs" },
+    { "termId": "post" },
+    { "termId": "indiv-dy" }
+  ],
+  "relationships": [
+    { "from": "spt-gh", "to": "rt-op", "type": "solid" },
+    { "from": "soc-rt", "to": "rt-op", "type": "solid" },
+    { "from": "soc-rt", "to": "sf-rz", "type": "solid" },
+    { "from": "sf-rz", "to": "part", "type": "solid" },
+    { "from": "rt-op", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" },
+    { "from": "prog-cont", "to": "post", "type": "solid" },
+    { "from": "post", "to": "indiv-dy", "type": "solid" }
+  ]
+}

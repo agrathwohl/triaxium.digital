@@ -1,0 +1,90 @@
+{
+  "id": "v1-p142-2",
+  "volume": 1,
+  "section": "UPB(II)-4",
+  "page": 142,
+  "subject": "c-act",
+  "title": "C.ACT.------MT.INFO.",
+  "type": "crossing",
+  "description": "Composite activation relating to music information. Crossing diagram in the Universal Perspective Base section showing c.act connected to composite continuance, music information, transcendence, cultural information dynamics, progressional continuance, linking implications, extended functionalism, social reality perspective, and experimental dynamics.",
+  "terms": [
+    {
+      "termId": "c-act",
+      "isSubject": true
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "exp-dym"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-cont",
+      "to": "c-act",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "trs",
+      "type": "dashed"
+    },
+    {
+      "from": "mt-info",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "exp-dym",
+      "type": "solid"
+    }
+  ]
+}

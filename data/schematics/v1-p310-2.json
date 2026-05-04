@@ -1,0 +1,91 @@
+{
+  "id": "v1-p310-2",
+  "volume": 1,
+  "section": "WI-26",
+  "page": 310,
+  "subject": "vt-dy",
+  "title": "(R)VT.DY.------POST.",
+  "type": "crossing",
+  "description": "Reality vibrational dynamics relating to postulation. Crossing diagram in the White Improvisor section showing (r)vt.dy connected to primary vibrational tendencies, summarization, postulation, progressional continuance, affirmative tendencies, language dynamics, reality alignment, individual dynamics, and affinity.",
+  "terms": [
+    {
+      "termId": "vt-dy",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "pri-vt-td"
+    },
+    {
+      "termId": "si"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "indiv-dy"
+    },
+    {
+      "termId": "afi"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "vt-dy",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "si",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "indiv-dy",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy",
+      "to": "afi",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "v1-p333-2",
+  "volume": 1,
+  "section": "PCC-17",
+  "page": 333,
+  "subject": "part",
+  "title": "(R)PART.------POL.DY.",
+  "type": "crossing",
+  "description": "Reality participation relating to political dynamics. Crossing diagram in the Post-Cage Continuum section showing (r)part connected to reality dynamics, progressional signal, alternative crossing-progression, expanded dynamics, accelerated dynamics, political dynamics, expanded information base, and information design.",
+  "terms": [
+    {
+      "termId": "part",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "prog-sign"
+    },
+    {
+      "termId": "alt-c-pg"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "exp-info-b"
+    },
+    {
+      "termId": "info-ds"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "part",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "exp-info-b",
+      "type": "solid"
+    }
+  ]
+}

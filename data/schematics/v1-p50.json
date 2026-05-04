@@ -1,29 +1,115 @@
 {
   "id": "v1-p50",
   "volume": 1,
-  "section": "WM-23",
+  "section": "WM-26",
   "page": 50,
-  "subject": "INFO.TRNS",
-  "title": "Information Transfer - Volume 1",
+  "subject": "info-trns",
+  "title": "INFO.TRNS.------SOC.RT.",
   "type": "crossing",
-  "description": "Information transfer in Volume 1 context",
+  "description": "Diagram in WM-26, the page where Braxton declares that 'the progressional actualness of a given creative manifestation transcends the particulars of any one empirical criterion, and as such the whole subject of musicology has to be dealt with very delicately.' INFO-TRNS (information transference) is *crossed* — (c) prefix — with SOC-RT (social reality), the central claim being that what gets transmitted as 'information' about world creativity is structurally entangled with the social-reality position of the transmitting culture. Five branches radiate from INFO-TRNS: into EXT-FT (extended functionalism), with a dashed link to RT-OP (reality options) → SOC-RT, registering the conditional nature of how western functionalist transmission constrains what reality-options reach social reality; into MT-DI (multi-dimensional/ism) with a dashed link to MTH (methodology); into TR (transformation) → CULT-AF-BS (culture affinity basis, dashed) → PRI-AF-TO (primary affinity tendencies); into POL-DYM (political dynamics); into SPT-AW (spiritual awareness) with a dashed link to CN-INFO (controlled information); and into A-PR (all-purpose). The dashed conventions cluster around exactly the relations Braxton identifies as distorted by western misdocumentation: information transference is being mediated, not direct.",
   "terms": [
-    {"termId": "info-trns", "isSubject": true},
-    {"termId": "stf"},
-    {"termId": "cross-tr"},
-    {"termId": "time-lag"},
-    {"termId": "src-def"},
-    {"termId": "x-def"},
-    {"termId": "tr-cyc"},
-    {"termId": "sptc-d-cyc"}
+    {
+      "termId": "info-trns",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "rt-op"
+    },
+    {
+      "termId": "mt-di"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "pri-af-to"
+    },
+    {
+      "termId": "spt-aw"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "cn-info"
+    }
   ],
   "relationships": [
-    {"from": "info-trns", "to": "stf", "type": "thick"},
-    {"from": "stf", "to": "cross-tr", "type": "solid"},
-    {"from": "cross-tr", "to": "time-lag", "type": "dashed"},
-    {"from": "time-lag", "to": "src-def", "type": "solid"},
-    {"from": "src-def", "to": "x-def", "type": "dashed"},
-    {"from": "x-def", "to": "tr-cyc", "type": "solid"},
-    {"from": "tr-cyc", "to": "sptc-d-cyc", "type": "dashed"}
+    {
+      "from": "info-trns",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "rt-op",
+      "type": "dashed"
+    },
+    {
+      "from": "rt-op",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "mt-di",
+      "type": "solid"
+    },
+    {
+      "from": "mt-di",
+      "to": "mth",
+      "type": "dashed"
+    },
+    {
+      "from": "info-trns",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "cult-af-bs",
+      "type": "dashed"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "spt-aw",
+      "type": "solid"
+    },
+    {
+      "from": "spt-aw",
+      "to": "cn-info",
+      "type": "dashed"
+    },
+    {
+      "from": "info-trns",
+      "to": "a-pr",
+      "type": "solid"
+    }
   ]
 }

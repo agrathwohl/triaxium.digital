@@ -1,0 +1,94 @@
+{
+  "id": "v1-p216-1",
+  "volume": 1,
+  "section": "WAC-14",
+  "page": 216,
+  "subject": "ist-pt",
+  "title": "IST.PT.------INFO.DS.",
+  "type": "crossing",
+  "description": "Instructional perspective transformation relating to information dynamics structure. Crossing diagram in the Western Art Composite section showing (c)ist.pt connected to alternative dimensional, apparent redefinition, affirmation, accumulation factor, information dynamics structure, instructional factor activation, affinity composite, dynamics factor, manifestation directional implications, and certification dynamics.",
+  "terms": [
+    {
+      "termId": "ist-pt",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "info-ds"
+    },
+    {
+      "termId": "alt-d"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "afn"
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "ist-f-at"
+    },
+    {
+      "termId": "af-comp"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "mn-di"
+    },
+    {
+      "termId": "crtf-d"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-pt",
+      "to": "alt-d",
+      "type": "solid"
+    },
+    {
+      "from": "alt-d",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "alt-d",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "ist-f-at",
+      "type": "solid"
+    },
+    {
+      "from": "af-comp",
+      "to": "mn-di",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "crtf-d",
+      "type": "solid"
+    }
+  ]
+}

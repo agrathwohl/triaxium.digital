@@ -1,0 +1,107 @@
+{
+  "id": "v1-p160",
+  "volume": 1,
+  "section": "UPB(II)-22",
+  "page": 160,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.------VT.DY.",
+  "type": "crossing",
+  "description": "Reality alignment relating to vibrational thrust dynamics. Crossing diagram in the Universal Perspective Base section showing (c)rt.algn connected to vibrational thrust dynamics, physical universe consideration, progressional signal, reality implications, language dynamics, total composite implications, social reality dynamics, political dynamics, instructional perspective, information dynamics, and transcendence.",
+  "terms": [
+    {
+      "termId": "rt-algn",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "prog-sign"
+    },
+    {
+      "termId": "rt-imp"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "ist-pt"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "trs"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "phy-u-c",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-imp",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-imp",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "info-or",
+      "type": "solid"
+    }
+  ]
+}

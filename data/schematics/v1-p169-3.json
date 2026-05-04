@@ -1,0 +1,91 @@
+{
+  "id": "v1-p169-3",
+  "volume": 1,
+  "section": "UPB(II)-31",
+  "page": 169,
+  "subject": "dym-f",
+  "title": "DYM.F.------MT.INFO.",
+  "type": "crossing",
+  "description": "Dynamics functionalism relating to music information. Crossing diagram in the Universal Perspective Base section showing dym.f connected to instructional factor activation, affinity dynamics, (r)postulation, base scientific factor, composite formation activity, music information, cultural information factor, postulation, and primary transcendence.",
+  "terms": [
+    {
+      "termId": "dym-f",
+      "isSubject": true
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "ist-f-at"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "post",
+      "prefix": "r"
+    },
+    {
+      "termId": "bscf"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "cult-info-f"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "pr-trs"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-f-at",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "bscf",
+      "type": "solid"
+    },
+    {
+      "from": "bscf",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "cult-info-f",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "pr-trs",
+      "type": "solid"
+    }
+  ]
+}

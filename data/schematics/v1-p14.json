@@ -1,0 +1,91 @@
+{
+  "id": "v1-p14",
+  "volume": 1,
+  "section": "CODE",
+  "page": 14,
+  "subject": "vt-dy",
+  "title": "(R)VT. DY.------ POST.",
+  "type": "crossing",
+  "description": "Pedagogical example schematic from the Glossary Integration / CODE section (book pp 13–14), where Braxton teaches the reader how to read his integration charts. The arrow points to VT-DY (vibrational dynamics) marking it as the schematic's subject; the bracketed (R) prefix signals 'the reality of' that subject; the dashed line to POST (postulation) signals the relational concept the subject is being read against. Three branches expand the subject: (1) source initiation SI, opening into primary vibrational tendencies PRI-VT-TD; (2) reality alignment RT-ALGN, opening into language dynamics LANG-DY; (3) affinity tendencies AFTD, opening into individual dynamics INDIV-DY which itself branches into affinity insight AFI and progressional continuance PROG-CONT. The diagram thus instantiates Braxton's broader claim — articulated on pp 13–14 — that no concept in the Tri-Axium system can be read in only one context: a schematic 'should be viewed as axiom tenets', forcing the reader to hold the subject's vibrational, reality-alignment, and affinity-tendency aspects together.",
+  "terms": [
+    {
+      "termId": "vt-dy",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "si"
+    },
+    {
+      "termId": "pri-vt-td"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "indiv-dy"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "prog-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "vt-dy",
+      "to": "post",
+      "type": "dashed"
+    },
+    {
+      "from": "vt-dy",
+      "to": "si",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "pri-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "indiv-dy",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    }
+  ]
+}

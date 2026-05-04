@@ -1,27 +1,91 @@
 {
   "id": "v1-p34",
   "volume": 1,
-  "section": "WM-9",
+  "section": "WM-10",
   "page": 34,
-  "subject": "WO.EXP-PRI",
-  "title": "World Expansion Principle",
-  "type": "network",
-  "description": "Network showing world expansion principle and its connections",
+  "subject": "t-c-imp",
+  "title": "T.C.IMP.------ACT.TR.",
+  "type": "crossing",
+  "description": "Diagram in (Level One) World Music section (WM-10), embedded in Braxton's argument that world creativity functions as 'a ritualization of the total understanding of its given culture group' rather than as standalone aesthetic product. T-C-IMP (time continuum implications) is crossed with ACT-TR (actual transformation), and the dashed edge from ACT-TR to RT-DY (reality dynamics) registers that transformation is only 'actual' when reality-dynamics-level potential gets activated — not assumed. T-C-IMP branches three ways: into AFL (affinity alignment) extending through EXT-DYM (extended dynamics) and a dashed link to INFO-DE-B (a diagram-only term, likely 'information documentation basis'); into PHY-U-P (physical universe particular) bearing on POL-CON (political consciousness) and (r)INTR (interpretation); and into PROG-EXT-FT (progressional extended functionalism). The argument: a culture's creative time-continuum implications only manifest as actual transformation when affinity alignment extends into dynamic continuance and physical-universe particulars connect to interpretive practice — the WM section's case for world creativity as essence-functional rather than spectacle-viewable.",
   "terms": [
-    {"termId": "wo-exp-pri", "isSubject": true},
-    {"termId": "uni-pi"},
-    {"termId": "tr"},
-    {"termId": "pri-info"},
-    {"termId": "afl"},
-    {"termId": "spt-dy"},
-    {"termId": "afi"}
+    {
+      "termId": "t-c-imp",
+      "isSubject": true
+    },
+    {
+      "termId": "act-tr"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "ext-dym"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "info-de-b"
+    },
+    {
+      "termId": "prog-ext-ft"
+    },
+    {
+      "termId": "pol-con"
+    }
   ],
   "relationships": [
-    {"from": "wo-exp-pri", "to": "uni-pi", "type": "thick"},
-    {"from": "wo-exp-pri", "to": "tr", "type": "solid"},
-    {"from": "tr", "to": "pri-info", "type": "solid"},
-    {"from": "wo-exp-pri", "to": "afl", "type": "dashed"},
-    {"from": "afl", "to": "spt-dy", "type": "solid"},
-    {"from": "spt-dy", "to": "afi", "type": "dashed"}
+    {
+      "from": "t-c-imp",
+      "to": "act-tr",
+      "type": "solid"
+    },
+    {
+      "from": "act-tr",
+      "to": "rt-dy",
+      "type": "dashed"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "prog-ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "pol-con",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "info-de-b",
+      "type": "dashed"
+    }
   ]
 }

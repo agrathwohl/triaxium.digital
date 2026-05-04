@@ -1,0 +1,35 @@
+{
+  "id": "v1-p175",
+  "volume": 1,
+  "section": "UPB(II)-37",
+  "page": 175,
+  "subject": "dym-spt",
+  "title": "DYM.SPT.------AFI.",
+  "type": "crossing",
+  "description": "Dynamics-spirit relating to affinity. Crossing diagram in the Universal Perspective Base section showing (c)dym.spt connected to social reality, social reality dynamics, partial, affinity insight (2), physical universe perspective, affinity, affinity insight (1), cosmic determination, transformation, reality dynamics, and accelerated dynamics.",
+  "terms": [
+    { "termId": "dym-spt", "isSubject": true, "prefix": "c" },
+    { "termId": "afi" },
+    { "termId": "soc-rt" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "part" },
+    { "termId": "afi-2" },
+    { "termId": "phy-u-p" },
+    { "termId": "afi-1" },
+    { "termId": "cos-d" },
+    { "termId": "tr" },
+    { "termId": "rt-dy" },
+    { "termId": "acc-dy" }
+  ],
+  "relationships": [
+    { "from": "soc-rt", "to": "dym-spt", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "part", "type": "solid" },
+    { "from": "afi-2", "to": "dym-spt", "type": "solid" },
+    { "from": "phy-u-p", "to": "dym-spt", "type": "solid" },
+    { "from": "afi", "to": "afi-1", "type": "solid" },
+    { "from": "afi", "to": "tr", "type": "solid" },
+    { "from": "dym-spt", "to": "cos-d", "type": "solid" },
+    { "from": "dym-spt", "to": "rt-dy", "type": "solid" },
+    { "from": "cos-d", "to": "acc-dy", "type": "solid" }
+  ]
+}

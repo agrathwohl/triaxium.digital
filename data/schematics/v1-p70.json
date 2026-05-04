@@ -1,0 +1,91 @@
+{
+  "id": "v1-p70",
+  "volume": 1,
+  "section": "WAM-12",
+  "page": 70,
+  "subject": "afl",
+  "title": "AFL.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Diagram in the Western Art Music section (WAM-12), the page where Braxton opens the argument that 'the most basic factor that has determined the course of western art music can be found in the progressive decline of the church as the vibrational center of culture and the emphasis on intellectualism as a dynamic replacement for center.' AFL (affinity alignment) is crossed with PRI-INFO (primary information): the question is what kind of primary information actually grounds an affinity alignment when the spiritual center has decayed. The diagram routes the crossing: AFL → PRI-INFO branches into ATT (attitude) by a *dashed* edge — registering that the link from primary information to attitude is conditional, not direct — and into AFN (affinity negation) which solid-extends to both SOC-RT (social reality) and IST-F (isolated focus, with IST-F → INTR (interpretation) closing the chain). Lateral solid branches from PRI-INFO reach MT-INFO (music information), AFL-DY (affinity dynamics), and AFTD (affinity tendencies). The structural claim: under western intellectualism, primary information no longer flows uncontested into attitude; instead it routes through affinity *negation* into isolated focus and the social-real, leaving music information, affinity dynamics, and affinity tendencies as parallel but separated outflows of the alignment.",
+  "terms": [
+    {
+      "termId": "afl",
+      "isSubject": true
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "att"
+    },
+    {
+      "termId": "afn"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "att",
+      "type": "dashed"
+    },
+    {
+      "from": "pri-info",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "afn",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "afn",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "intr",
+      "type": "solid"
+    }
+  ]
+}

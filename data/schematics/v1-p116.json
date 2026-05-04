@@ -1,0 +1,94 @@
+{
+  "id": "v1-p116",
+  "volume": 1,
+  "section": "T(AF)M-20",
+  "page": 116,
+  "subject": "vt-dy",
+  "title": "(R)VT.DY.------POL.P.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-20, on the page where Braxton names creative black music as 'the most basic generating stimulant for American creativity because it was the only thrust projection that drew its dynamics from the composite American vibrationaltory arena.' (R)VT-DY — the reality of vibrational dynamics — is crossed with POL-P (political policies). The diagram poses: black creativity's actual vibrational dynamics are inseparable from the political-policy regime that defines its cultural reception. VT-DY is fed by SOC-RT-DY (social reality dynamics) and PART (participation) — both upstream conditions for vibrational dynamics' reality. VT-DY outputs to ALT-F (alternative functionalism), POL-P (the crossing partner), and INFO-INTR (information interpretation). POL-P branches further to MT-INFO (music information) → INDIV-TD (individual tendencies), and to CULT-AF-BS (culture affinity basis). A separate chain runs RT-INT-TR (reality initiative traits) → TRS (transition). The structural argument: the reality of vibrational dynamics — the *actual* sounding/feeling — only enters music information through political policies, and reaches individual tendencies only at one further remove. Cultural affinity basis is on the political-policy side, not the vibrational-dynamics side. The diagram makes Braxton's claim concrete: the meta-reality of black creativity's transfer to white musicians is a political-policy event that *re-routes* what music information can mean.",
+  "terms": [
+    {
+      "termId": "vt-dy",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "info-intr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "soc-rt-dy",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "info-intr",
+      "type": "solid"
+    }
+  ]
+}

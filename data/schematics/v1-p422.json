@@ -1,0 +1,84 @@
+{
+  "id": "v1-p422",
+  "volume": 1,
+  "section": "MID-W-16",
+  "page": 422,
+  "subject": "dec",
+  "title": "(R)DEC.------DYM.F.",
+  "type": "crossing",
+  "description": "Reality decision relating to dynamics factor. Crossing diagram in the Midwest section showing (r)dec connected to link implication, information continuance, progressional continuance, transformation, dynamics factor, dynamic spirit, meta-reality signal, and (p)transformation modulation.",
+  "terms": [
+    {
+      "termId": "dec",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "info-con"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "dym-spt"
+    },
+    {
+      "termId": "mta-rt-sign"
+    },
+    {
+      "termId": "tm",
+      "prefix": "p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "dym-f",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "info-con",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
+      "to": "dym-spt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    }
+  ]
+}

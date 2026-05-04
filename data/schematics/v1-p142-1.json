@@ -1,0 +1,99 @@
+{
+  "id": "v1-p142-1",
+  "volume": 1,
+  "section": "UPB(II)-4",
+  "page": 142,
+  "subject": "af-con",
+  "title": "AF.CON.------CUL.SOLD.",
+  "type": "crossing",
+  "description": "Affinity continuance relating to cultural solidification. Crossing diagram in the Universal Perspective Base section showing (c)af.con connected to social reality dynamics, composite cultural attitude, music implications, cultural solidification, projectional dynamics, transcendence, progressional signal, creative determination, total composite implications, and experimental continuance.",
+  "terms": [
+    {
+      "termId": "af-con",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "c-cult-at"
+    },
+    {
+      "termId": "mt-imp"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "prog-sign"
+    },
+    {
+      "termId": "crtf-d"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "exp-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "soc-rt-dy",
+      "to": "c-cult-at",
+      "type": "solid"
+    },
+    {
+      "from": "c-cult-at",
+      "to": "af-con",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "af-con",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "mt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mt-imp",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-d",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "prog-sign",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "exp-cont",
+      "type": "solid"
+    }
+  ]
+}

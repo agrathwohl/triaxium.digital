@@ -1,0 +1,35 @@
+{
+  "id": "v1-p295",
+  "volume": 1,
+  "section": "WI-11",
+  "page": 295,
+  "subject": "grad",
+  "title": "GRAD.------DOC.",
+  "type": "crossing",
+  "description": "Gradation relating to documentation. Crossing diagram in the White Improvisor section showing (c)grad connected to documentation, definition, political signal, information intersection, cultural information factor, intersection, transcendence, physical universe perspective, participation, and reality dynamics.",
+  "terms": [
+    { "termId": "grad", "isSubject": true, "prefix": "c" },
+    { "termId": "doc" },
+    { "termId": "def" },
+    { "termId": "pol-sign" },
+    { "termId": "info-intr" },
+    { "termId": "cult-info-f" },
+    { "termId": "int" },
+    { "termId": "trs" },
+    { "termId": "phy-u-p" },
+    { "termId": "part" },
+    { "termId": "rt-dy" }
+  ],
+  "relationships": [
+    { "from": "doc", "to": "grad", "type": "solid" },
+    { "from": "doc", "to": "def", "type": "solid" },
+    { "from": "def", "to": "info-intr", "type": "solid" },
+    { "from": "info-intr", "to": "pol-sign", "type": "solid" },
+    { "from": "info-intr", "to": "int", "type": "solid" },
+    { "from": "cult-info-f", "to": "int", "type": "solid" },
+    { "from": "grad", "to": "trs", "type": "solid" },
+    { "from": "grad", "to": "phy-u-p", "type": "solid" },
+    { "from": "trs", "to": "part", "type": "solid" },
+    { "from": "phy-u-p", "to": "rt-dy", "type": "solid" }
+  ]
+}

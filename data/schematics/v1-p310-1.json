@@ -1,0 +1,37 @@
+{
+  "id": "v1-p310-1",
+  "volume": 1,
+  "section": "WI-26",
+  "page": 310,
+  "subject": "stf",
+  "title": "STF.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Stuff/structural factor relating to primary information. Crossing diagram in the White Improvisor section showing (c)stf connected to primary information, total composite implications, political dynamics, music information, term, affinity continuance, affiliation dynamics, link implication, reality state, cultural solidification, and instructional factor.",
+  "terms": [
+    { "termId": "stf", "isSubject": true, "prefix": "c" },
+    { "termId": "pri-info" },
+    { "termId": "t-c-imp" },
+    { "termId": "pol-dym" },
+    { "termId": "mt-info" },
+    { "termId": "tm" },
+    { "termId": "af-con" },
+    { "termId": "afl-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "re-st" },
+    { "termId": "cult-sold" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "pol-dym", "type": "solid" },
+    { "from": "pol-dym", "to": "tm", "type": "solid" },
+    { "from": "mt-info", "to": "af-con", "type": "solid" },
+    { "from": "stf", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "lk-imp", "type": "solid" },
+    { "from": "afl-dy", "to": "cult-sold", "type": "solid" },
+    { "from": "afl-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "re-st", "type": "solid" }
+  ]
+}

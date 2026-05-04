@@ -1,0 +1,83 @@
+{
+  "id": "v1-p144",
+  "volume": 1,
+  "section": "UPB(II)-6",
+  "page": 144,
+  "subject": "per-vt-u-fund",
+  "title": "PER.VT.U.FUND.------COS.P.",
+  "type": "crossing",
+  "description": "Perceptive vibrational universe fundamental relating to cosmic perspective. Crossing diagram in the Universal Perspective Base section showing (c)per.vt.u.fund connected to cosmic perspective, history perspective, affinity dynamics, transformation, information affinity-base, dynamics-spirit, if.spt, and music information.",
+  "terms": [
+    {
+      "termId": "per-vt-u-fund",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "hi-p"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "info-af-b"
+    },
+    {
+      "termId": "dym-spt"
+    },
+    {
+      "termId": "if-spt"
+    },
+    {
+      "termId": "mt-info"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cos-p",
+      "to": "per-vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "per-vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "per-vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "per-vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "per-vt-u-fund",
+      "to": "dym-spt",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "if-spt",
+      "type": "solid"
+    },
+    {
+      "from": "per-vt-u-fund",
+      "to": "mt-info",
+      "type": "solid"
+    }
+  ]
+}

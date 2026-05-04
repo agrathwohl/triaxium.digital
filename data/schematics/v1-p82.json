@@ -1,0 +1,75 @@
+{
+  "id": "v1-p82",
+  "volume": 1,
+  "section": "WAM-24",
+  "page": 82,
+  "subject": "bia",
+  "title": "BIA.------AFI.DY.",
+  "type": "crossing",
+  "description": "Diagram in WAM-24, the page where Braxton argues that 'the establishment of western art music as a composer's medium has given us the possibility to experience another viewpoint' — i.e., that the western alignment, despite its separations, produces a bi-aitional asset. (C)BIA (the *concept* of bi-aitional, Braxton's term for the dual-principle structure of western culture, masculine/feminine, intellect/spirit) is crossed with AFI (affinity insight, here read in its dynamics aspect — see also AFI-DY in title). The diagram routes BIA through TH-CONT-DY (thrust continuance dynamics) into AFI on one arm and SOC-RT (social reality) → VT-AF-ATT (vibrational affinity/attitude) on another; PHY-U-C (physical universe context) → PROJ-DY (projectional dynamics) feeds AFI from a separate angle, and AFI then solid-links to VT-DY (vibrational dynamics). The structural claim: bi-aitionalism, when crossed with affinity-insight dynamics, organizes western culture's thrust-continuance into two parallel routes — one running through projectional dynamics into vibrational dynamics (the intellectual-vibrational arm), one through social reality into vibrational affinity/attitude (the social-affective arm) — and the diagram makes visible why these arms appear as separate viewpoints rather than as a unified center.",
+  "terms": [
+    {
+      "termId": "bia",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "th-cont-dy"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "vt-af-att"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "bia",
+      "to": "th-cont-dy",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont-dy",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont-dy",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "vt-af-att",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "v1-p264-1",
+  "volume": 1,
+  "section": "CMBA-20",
+  "page": 264,
+  "subject": "ext-f",
+  "title": "EXT.F.------TH.CONT.",
+  "type": "crossing",
+  "description": "Extension factor relating to theoretical continuance. Crossing diagram in the Creative Music Black Aesthetic section showing ext.f connected to theoretical continuance, projectional dynamics, progressional extension factor, period transcendence, mpp redefinition, music information, (r)alt.c.pg, (p)info.doc, and affinity insight.",
+  "terms": [
+    {
+      "termId": "ext-ft",
+      "isSubject": true
+    },
+    {
+      "termId": "th-cont"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "prog-ext-ft"
+    },
+    {
+      "termId": "per-trs"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "alt-c-pg",
+      "prefix": "r"
+    },
+    {
+      "termId": "info-doc",
+      "prefix": "p"
+    },
+    {
+      "termId": "afi"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "th-cont",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "prog-ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "prog-ext-ft",
+      "to": "per-trs",
+      "type": "solid"
+    },
+    {
+      "from": "prog-ext-ft",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "prog-ext-ft",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "alt-c-pg",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "th-cont",
+      "type": "solid"
+    }
+  ]
+}

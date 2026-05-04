@@ -1,0 +1,35 @@
+{
+  "id": "v1-p371",
+  "volume": 1,
+  "section": "NYM-5",
+  "page": 371,
+  "subject": "info-intr",
+  "title": "(R)INFO.INTR.------TRS.",
+  "type": "crossing",
+  "description": "Reality information introduction relating to transformation. Crossing diagram in the New York Musicians section showing (r)info.intr connected to integration, primary information, affiliation dynamics, transformation, political dynamism, progressional signal, social reality position, meta-implications, meta-reality signal, and composite continuance.",
+  "terms": [
+    { "termId": "info-intr", "isSubject": true, "prefix": "r" },
+    { "termId": "int" },
+    { "termId": "afl-dy" },
+    { "termId": "pri-info" },
+    { "termId": "trs" },
+    { "termId": "pol-dym" },
+    { "termId": "prog-sign" },
+    { "termId": "soc-rt-p" },
+    { "termId": "mta-imp" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "int", "to": "info-intr", "type": "solid" },
+    { "from": "afl-dy", "to": "info-intr", "type": "solid" },
+    { "from": "pri-info", "to": "info-intr", "type": "solid" },
+    { "from": "trs", "to": "prog-sign", "type": "solid" },
+    { "from": "pol-dym", "to": "soc-rt-p", "type": "solid" },
+    { "from": "prog-sign", "to": "soc-rt-p", "type": "solid" },
+    { "from": "prog-sign", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-imp", "to": "prog-sign", "type": "solid" },
+    { "from": "c-cont", "to": "mta-imp", "type": "solid" },
+    { "from": "pri-info", "to": "trs", "type": "solid" }
+  ]
+}

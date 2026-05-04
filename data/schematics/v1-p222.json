@@ -1,0 +1,91 @@
+{
+  "id": "v1-p222",
+  "volume": 1,
+  "section": "WAC-20",
+  "page": 222,
+  "subject": "tf-sh",
+  "title": "(R)TF.SH.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Reality transfer-shift relating to world experience principal. Crossing diagram in the Western Art Composite section showing (r)tf.sh connected to instructional factor activation, expansion dynamics, alternative crossing-page, world experience principal, affirmative-line, information design, mathematical, projectional dynamics, and progressional continuance.",
+  "terms": [
+    {
+      "termId": "tf-sh",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "ist-f-at"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "alt-c-pg"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "info-doc"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "prog-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-f-at",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "tf-sh",
+      "type": "solid"
+    },
+    {
+      "from": "alt-c-pg",
+      "to": "tf-sh",
+      "type": "solid"
+    },
+    {
+      "from": "tf-sh",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "tf-sh",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "tf-sh",
+      "type": "solid"
+    },
+    {
+      "from": "tf-sh",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "v1-p452",
+  "volume": 1,
+  "section": "EXT.F(II)-14",
+  "page": 452,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------EXP.DY.",
+  "type": "crossing",
+  "description": "Progressional continuance relating to expanded dynamics. Crossing diagram in the Extended Functionalism (II) section showing prog.cont connected to expanded dynamics, social reality, primary information, (p)cultural sold, (c)affiliation, physical universe perspective, transformation, (r)transformation modulation, cosmic dynamics, and total composite implications.",
+  "terms": [
+    {
+      "termId": "prog-cont",
+      "isSubject": true
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "cult-sold",
+      "prefix": "p"
+    },
+    {
+      "termId": "afl",
+      "prefix": "c"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "tm",
+      "prefix": "r"
+    },
+    {
+      "termId": "cos-d"
+    },
+    {
+      "termId": "t-c-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "exp-dym",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "cos-d",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "cos-d",
+      "to": "t-c-imp",
+      "type": "solid"
+    }
+  ]
+}

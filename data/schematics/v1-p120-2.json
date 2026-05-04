@@ -1,0 +1,98 @@
+{
+  "id": "v1-p120-2",
+  "volume": 1,
+  "section": "T(AF)M-24",
+  "page": 120,
+  "subject": "pol-dym",
+  "title": "POL.DYM.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-24, paired with v1-p120-1. POL-DYM (political dynamics) is crossed with PROG-CONT (progressional continuance): the structural pairing the section's prose has been building toward — what does it mean to make political dynamics *continuous* with the progressional thrust of black creativity, rather than letting political dynamics merely *interrupt* progressional flow? POL-DYM is fed by EXT-FT (extended functionalism), DE-SPTL (despiritualization), and INFO-AF-B (information affinity basis), which is itself fed by INTL (intellectualism). POL-DYM outputs to MDT-DY (motivation dynamics), AF-NT (affinity nature), and PROG-CONT (the crossing partner). PROG-CONT then solid-links to T-C-IMP (time continuum implications). AF-NT branches to COS-P (cosmic particulars) and SOC-RT-P (social reality particulars). The structural argument: political dynamics is not autonomous — it is constituted *upstream* by extended-functionalism, despiritualization, and intellectualism-fed information-affinity-basis (the very combination Braxton identifies as the western philosophical apparatus). Its outputs spread into motivation dynamics and affinity nature, the latter splitting cosmic from social-reality particulars. The diagram thus stages the *constitution* of political dynamics that black creativity must contend with, and the only direct route to time-continuum implications runs through progressional continuance — not through any of the upstream constituents.",
+  "terms": [
+    {
+      "termId": "pol-dym",
+      "isSubject": true
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "de-sptl"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "info-af-b"
+    },
+    {
+      "termId": "intl"
+    },
+    {
+      "termId": "mdt-dy"
+    },
+    {
+      "termId": "af-nt"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "soc-rt-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ext-ft",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "de-sptl",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "intl",
+      "to": "info-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "mdt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "af-nt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "af-nt",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "af-nt",
+      "to": "soc-rt-p",
+      "type": "solid"
+    }
+  ]
+}

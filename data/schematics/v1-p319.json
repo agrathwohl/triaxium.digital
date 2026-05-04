@@ -1,0 +1,92 @@
+{
+  "id": "v1-p319",
+  "volume": 1,
+  "section": "PCC-3",
+  "page": 319,
+  "subject": "alt-c-pg",
+  "title": "ALT.C.PG.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Alternative crossing-progression relating to total composite implications. Crossing diagram in the Post-Cage Continuum section showing (c)alt.c.pg connected to cultural information dynamics, total composite implications, alternative factor, information design base, projectional dynamics, progressional continuance (dashed), (p)restated, projection transfer, and affiliation dynamics (dashed).",
+  "terms": [
+    {
+      "termId": "alt-c-pg",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "info-de-b"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "re-st",
+      "prefix": "p"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "afl-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-info-dy",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "alt-c-pg",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "afl-dy",
+      "type": "dashed"
+    },
+    {
+      "from": "re-st",
+      "to": "pr-trs",
+      "type": "dashed"
+    },
+    {
+      "from": "re-st",
+      "to": "alt-f",
+      "type": "dashed"
+    }
+  ]
+}

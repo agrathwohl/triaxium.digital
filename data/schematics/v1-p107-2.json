@@ -1,0 +1,93 @@
+{
+  "id": "v1-p107-2",
+  "volume": 1,
+  "section": "T(AF)M-11",
+  "page": 107,
+  "subject": "app-rdef",
+  "title": "(R)APP.RDEF.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-11, the second of two on book p107. (R)APP-RDEF — the reality of *applied redefinitions* — is crossed with T-C-IMP (time continuum implications). The schematic stages Braxton's argument that the source-transfer cycle of black culture into composite western culture forced *applied* redefinitions on every aspect of vibrational and methodological thrust projection — and these redefinitions, while necessary for survival, carry their own time-continuum implications that recur across cycles. APP-RDEF → T-C-IMP branches into ALT-F (alternative functionalism) and PROJ-CONT (projectional continuance) → RT-INT-TR (reality initiative traits). A separate chain runs APP-RDEF → POL-DYM (political dynamics) → INFO-OR (information order) → (r)RE-DIF (the reality of redefinitions) → RT-DY (reality dynamics) → (p)RE-ST (the point of activation of restructuralism). The structural claim: applied redefinitions, once enacted, are not finished — they propagate through political dynamics into information order, generate further redefinitions, and only contingently activate as restructuralism (the (p) prefix marking conditional point-of-activation). The diagram makes Braxton's slavery-and-survival argument structural: redefinition under duress recurs across the time continuum.",
+  "terms": [
+    {
+      "termId": "app-rdef",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "proj-cont"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "re-dif",
+      "prefix": "r"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "re-st",
+      "prefix": "p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "app-rdef",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "proj-cont",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "re-dif",
+      "type": "solid"
+    },
+    {
+      "from": "re-dif",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-cont",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "re-st",
+      "type": "solid"
+    }
+  ]
+}

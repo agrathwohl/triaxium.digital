@@ -1,0 +1,94 @@
+{
+  "id": "v1-p333-1",
+  "volume": 1,
+  "section": "PCC-17",
+  "page": 333,
+  "subject": "c-info",
+  "title": "C.INFO.------TR.",
+  "type": "crossing",
+  "description": "Composite information relating to transformation. Crossing diagram in the Post-Cage Continuum section showing c.info connected to extension feature, progressional continuance, music information, dynamics factor, reality differentiation, transformation, physical universe perspective, extended information base, affinity dynamics, and total composite implications.",
+  "terms": [
+    {
+      "termId": "c-info",
+      "isSubject": true
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "tr-def",
+      "prefix": "r"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "exp-info-b"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "t-c-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-info",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "tr-def",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "exp-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "exp-info-b",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "exp-info-b",
+      "type": "solid"
+    }
+  ]
+}

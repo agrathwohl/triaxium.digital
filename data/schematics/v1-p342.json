@@ -1,0 +1,110 @@
+{
+  "id": "v1-p342",
+  "volume": 1,
+  "section": "PCC-26",
+  "page": 342,
+  "subject": "proj",
+  "title": "(R)PROJ.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Reality projection relating to total composite implications. Crossing diagram in the Post-Cage Continuum section showing (r)proj connected to fundamental dynamics, transformation, total composite implications, initiation factor source-projection transfer, reality dynamics, progressional continuance, extended continuance, extended dynamics, vibrational dynamics, apparent projection, cosmic perspective, and physical universe perspective.",
+  "terms": [
+    {
+      "termId": "proj",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "fund-dyn"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "if-spt"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "ext-dym"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "phy-u-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "proj",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "fund-dyn",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "if-spt",
+      "type": "solid"
+    },
+    {
+      "from": "if-spt",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dym",
+      "to": "proj",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "phy-u-p",
+      "type": "solid"
+    }
+  ]
+}

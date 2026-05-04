@@ -1,0 +1,60 @@
+{
+  "id": "v1-p137",
+  "volume": 1,
+  "section": "T(AF)M-41",
+  "page": 137,
+  "subject": "th-cont",
+  "title": "TH.CONT-----C.INFO.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-41, on the page where Braxton names Charlie Parker's activity as 'the embodiment of the second transformation of black people in America' — the moment 'the affinity insight (1) principle' (the transformation/affirmation principle introduced on the previous page) emerged after WWII through bebop's relation to what white culture calls 'art music'. (C)TH-CONT (thrust continuance) is crossed with C-INFO (composite information): the question is how the thrust continuance of black creativity gets organized into composite information when AFI(1) has just been activated — i.e., how is Charlie Parker's transformation legible as composite information? The diagram is unusually compact for vol1 — only 6 nodes — suggesting Braxton wants the structural claim crisp. (C)MT-INFO (music information, doubly crossed) is the central hub: it feeds TH-CONT (the subject), RT-DY (reality dynamics), C-INFO (the crossing partner), and MT-IF-DB (multi-informational degree basis). TH-CONT then solid-links to PRI-INFO (primary information). The structural argument: at the AFI(1) transformation moment, music information becomes the central organizing node — it simultaneously generates thrust continuance, reality dynamics, composite information, and the multi-informational degree basis, and only thrust continuance reaches primary information directly. The diagram is thus Braxton's specification of why bebop is structurally consequential: it puts music information into the *generative* position from which composite information, reality dynamics, and the degree-basis of further multi-information all derive.",
+  "terms": [
+    {
+      "termId": "th-cont",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "mt-info",
+      "prefix": "c"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "mt-if-db"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mt-info",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "mt-if-db",
+      "type": "solid"
+    }
+  ]
+}

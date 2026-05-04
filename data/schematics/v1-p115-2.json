@@ -1,0 +1,107 @@
+{
+  "id": "v1-p115-2",
+  "volume": 1,
+  "section": "T(AF)M-19",
+  "page": 115,
+  "subject": "pri-af-td",
+  "title": "PRI.AF.TD.------ACC.DY.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-19, paired with v1-p115-1. (C)PRI-AF-TO (primary affinity tendencies) is crossed with ACC-DY (accelerated dynamics): the question is what acceleration of dynamics does to primary affinity tendencies — Braxton's term for the foundational tendencies that pre-organize how a culture orients to its essence. PRI-AF-TO is fed by C-INFO (composite information) and AF-CON (affinity convergence). PRI-AF-TO outputs to ACC-DY directly, and into INFO-OR (information order), which then fans into four chains: → DYM-F (dynamic functionalism) → WO-EXP-PRI (world expansion principle); → MT-INTR (multiple interpretation) → MT-DEVF (multiple diversification) and MT-INTR → PROG-CONT (progressional continuance); → PHY-U-P (physical universe particular) → POL-DYM (political dynamics). The structural argument: when affinity tendencies are accelerated, the resulting information order does not flow whole — it diversifies into four distinct downstream chains (dynamic functionalism→world expansion, multiple interpretation→diversification, multiple interpretation→progressional continuance, physical-universe→political dynamics). Read against the section's argument: the source-transfer dynamics imposed on black culture *accelerated* primary affinity tendencies in ways that fragmented their downstream coherence, producing the multiple-interpretation/diversification spread Braxton names as both vital and structurally constraining.",
+  "terms": [
+    {
+      "termId": "pri-af-to",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "af-con"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "pol-dym"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-info",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "af-con",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "pri-af-to",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-af-to",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "pol-dym",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v1-p345",
+  "volume": 1,
+  "section": "PCC-29",
+  "page": 345,
+  "subject": "c-cont",
+  "title": "C.CONT.------ALT.F.",
+  "type": "crossing",
+  "description": "Composite continuance relating to alternative factor. Crossing diagram in the Post-Cage Continuum section showing c.cont connected to alternative factor, social reality position, affiliation, (r)participation, stuff, cultural information factor (dashed), political position, gradation, and a secondary alt.f node.",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt-p" },
+    { "termId": "afl" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "stf" },
+    { "termId": "cult-info-f" },
+    { "termId": "pol-p" },
+    { "termId": "grad" }
+  ],
+  "relationships": [
+    { "from": "alt-f", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "afl", "type": "solid" },
+    { "from": "soc-rt-p", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "part", "type": "solid" },
+    { "from": "stf", "to": "cult-info-f", "type": "dashed" },
+    { "from": "cult-info-f", "to": "pol-p", "type": "dashed" },
+    { "from": "alt-f", "to": "grad", "type": "solid" }
+  ]
+}

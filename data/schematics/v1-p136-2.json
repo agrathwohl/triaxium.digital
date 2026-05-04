@@ -1,0 +1,99 @@
+{
+  "id": "v1-p136-2",
+  "volume": 1,
+  "section": "T(AF)M-40",
+  "page": 136,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-40, paired with v1-p136-1. (C)WO-EXP-PRI (world expansion principle) is crossed with PROG-CONT (progressional continuance): the question is what world-expansion (the basic principle by which a culture extends its reach) means when crossed with the progressional continuance of black creativity, given that AFI(1) — the transformation principle introduced on this very page — has just been named. WO-EXP-PRI outputs to PROG-CONT (the crossing partner) → CULT-SOLD (culture solidification), and to TR-INFO (trans-information), MT-INFO (music information). TR-INFO branches to ALT-C-PG (alternative composite progressionalism) and SPT-DY (spiritual dynamics). MT-INFO branches to TRS (transition) and ATTN (attraction). TRS solid-links to AFL (affinity alignment) and PART (participation). The structural claim: world-expansion crossed with progressional continuance requires *both* trans-information producing alternative composite progressionalism *and* music information producing transition into participation — with spiritual dynamics as a side-branch from trans-information. Read against AFI(1)'s introduction: this is the diagrammatic specification of what *transformation-grade* world expansion would have to operate through — exactly the spiritual-dynamics-grounded alternative composite progressionalism that AFI(1) demands.",
+  "terms": [
+    {
+      "termId": "wo-exp-pri",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "alt-c-pg"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "spt-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "wo-exp-pri",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "spt-dy",
+      "type": "solid"
+    }
+  ]
+}

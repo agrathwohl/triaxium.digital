@@ -1,0 +1,98 @@
+{
+  "id": "v1-p378",
+  "volume": 1,
+  "section": "NYM-12",
+  "page": 378,
+  "subject": "rt-op",
+  "title": "RT.OP.------POL.DY.",
+  "type": "crossing",
+  "description": "Reality option relating to political dynamics. Crossing diagram in the New York Musicians section showing rt.op connected to political dynamics, alternative factor, transformation, spectacle ghost, postulation, sforzando reality, universal pivot, transformational difficulty, participation, and vibrational attribute.",
+  "terms": [
+    {
+      "termId": "rt-op",
+      "isSubject": true
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "spt-gh"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "sf-rz"
+    },
+    {
+      "termId": "unf-pi"
+    },
+    {
+      "termId": "tr-def"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "vt-att"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "pol-dym",
+      "to": "rt-op",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "rt-op",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "spt-gh",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "vt-att",
+      "type": "solid"
+    },
+    {
+      "from": "spt-gh",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "sf-rz",
+      "type": "solid"
+    },
+    {
+      "from": "unf-pi",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "tr-def",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "trs",
+      "type": "solid"
+    }
+  ]
+}

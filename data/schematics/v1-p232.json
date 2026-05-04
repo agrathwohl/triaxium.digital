@@ -1,0 +1,91 @@
+{
+  "id": "v1-p232",
+  "volume": 1,
+  "section": "WAC-30",
+  "page": 232,
+  "subject": "alt-c-pg",
+  "title": "ALT.C.PG.------SOC.RT.",
+  "type": "crossing",
+  "description": "Alternative crossing-page relating to social reality. Crossing diagram in the Western Art Composite section showing (c)alt.c.pg connected to social reality, lock implications, reality dynamics, expansion dynamics, theoretical continuance, transformation, progressional extension framework, alternative factor, and dynamics factor. Includes dashed implication lines.",
+  "terms": [
+    {
+      "termId": "alt-c-pg",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "exp-dym"
+    },
+    {
+      "termId": "th-cont"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "prog-ext-ft"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "dym-f"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-c-pg",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "lk-imp",
+      "type": "dashed"
+    },
+    {
+      "from": "soc-rt",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "th-cont",
+      "type": "dashed"
+    },
+    {
+      "from": "exp-dym",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "prog-ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "alt-c-pg",
+      "type": "solid"
+    }
+  ]
+}

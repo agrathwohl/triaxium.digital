@@ -1,0 +1,94 @@
+{
+  "id": "v1-p263",
+  "volume": 1,
+  "section": "CMBA-19",
+  "page": 263,
+  "subject": "re-st",
+  "title": "RE.ST.------PRIN.INFO.",
+  "type": "crossing",
+  "description": "Re-statement relating to principle information. Crossing diagram in the Creative Music Black Aesthetic section showing (c)re.st connected to universal principle information, intersection, principle information, contextual information, social reality dynamics, music information, affinity composite, cultural affinity-base structure, instructional factor at, and intersection.",
+  "terms": [
+    {
+      "termId": "re-st",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "unf-pi"
+    },
+    {
+      "termId": "int"
+    },
+    {
+      "termId": "cn-info"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "af-comp"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "ist-f-at"
+    },
+    {
+      "termId": "intr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "unf-pi",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "cn-info",
+      "to": "af-comp",
+      "type": "solid"
+    },
+    {
+      "from": "af-comp",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "af-comp",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f-at",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "ist-f-at",
+      "type": "solid"
+    }
+  ]
+}

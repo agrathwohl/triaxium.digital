@@ -1,0 +1,34 @@
+{
+  "id": "v1-p385",
+  "volume": 1,
+  "section": "NYM-19",
+  "page": 385,
+  "subject": "rt-int-tr",
+  "title": "RT.INT.TR.------TRS.",
+  "type": "crossing",
+  "description": "Reality intersection transformation relating to transformation. Crossing diagram in the New York Musicians section showing (c)rt.int.tr connected to cultural information base, leg disassociation, transformation, intentional steady dynamics, junior dynamism, postulation, after-direction, individual dynamics, accent factor, and link implication.",
+  "terms": [
+    { "termId": "rt-int-tr", "isSubject": true, "prefix": "c" },
+    { "termId": "lg-disa" },
+    { "termId": "cult-info-b" },
+    { "termId": "trs" },
+    { "termId": "if-st-dy" },
+    { "termId": "jr-dym" },
+    { "termId": "post" },
+    { "termId": "aftd" },
+    { "termId": "indiv-dy" },
+    { "termId": "acc-ft" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "cult-info-b", "to": "rt-int-tr", "type": "solid" },
+    { "from": "indiv-dy", "to": "rt-int-tr", "type": "solid" },
+    { "from": "lg-disa", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "post", "type": "solid" },
+    { "from": "post", "to": "aftd", "type": "solid" },
+    { "from": "acc-ft", "to": "post", "type": "solid" },
+    { "from": "if-st-dy", "to": "jr-dym", "type": "solid" },
+    { "from": "jr-dym", "to": "lk-imp", "type": "solid" },
+    { "from": "aftd", "to": "lk-imp", "type": "solid" }
+  ]
+}

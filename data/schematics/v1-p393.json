@@ -1,0 +1,102 @@
+{
+  "id": "v1-p393",
+  "volume": 1,
+  "section": "NYM-27",
+  "page": 393,
+  "subject": "lg-dy",
+  "title": "LG.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Language dynamics relating to music information. Crossing diagram in the New York Musicians section showing (c)lg.dy connected to music information, affiliation, primary intention, extended continuance (2), projection dynamics, participation, physical universe perspective, extended dynamics, primary affiliation transfer-direction, projection factor cluster, and after-direction.",
+  "terms": [
+    {
+      "termId": "lg-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "pr-int"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "ext-dym"
+    },
+    {
+      "termId": "pri-af-to"
+    },
+    {
+      "termId": "p-fc"
+    },
+    {
+      "termId": "aftd"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mt-info",
+      "to": "lg-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "lg-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pr-int",
+      "to": "lg-dy",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "pri-af-to",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "p-fc",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "pr-int",
+      "to": "part",
+      "type": "solid"
+    }
+  ]
+}

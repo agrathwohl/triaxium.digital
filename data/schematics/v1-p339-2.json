@@ -1,0 +1,34 @@
+{
+  "id": "v1-p339-2",
+  "volume": 1,
+  "section": "PCC-23",
+  "page": 339,
+  "subject": "mt-info",
+  "title": "MT.INFO.------CRTF.PROG.",
+  "type": "crossing",
+  "description": "Music information relating to certification progression. Crossing diagram in the Post-Cage Continuum section showing (c)mt.info connected to total composite implications, certification progression, cosmic perspective, link implication, vibrational dynamics, social reality dynamics, affiliation dynamics, information design, transformation information, and reality state.",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true, "prefix": "c" },
+    { "termId": "t-c-imp" },
+    { "termId": "crtf-prog" },
+    { "termId": "cos-p" },
+    { "termId": "lk-imp" },
+    { "termId": "vt-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "afl-dy" },
+    { "termId": "info-ds" },
+    { "termId": "tr-info" },
+    { "termId": "re-st" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "crtf-prog", "type": "solid" },
+    { "from": "cos-p", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "lk-imp", "type": "solid" },
+    { "from": "vt-dy", "to": "mt-info", "type": "solid" },
+    { "from": "vt-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "re-st", "to": "mt-info", "type": "solid" },
+    { "from": "afl-dy", "to": "tr-info", "type": "solid" },
+    { "from": "afl-dy", "to": "info-ds", "type": "solid" }
+  ]
+}

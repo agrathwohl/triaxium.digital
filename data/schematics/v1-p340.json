@@ -1,0 +1,94 @@
+{
+  "id": "v1-p340",
+  "volume": 1,
+  "section": "PCC-24",
+  "page": 340,
+  "subject": "af-td",
+  "title": "AF.TD.------TH.AF.ALGN.",
+  "type": "crossing",
+  "description": "Affinity tendencies relating to theoretical affinity alignment. Crossing diagram in the Post-Cage Continuum section showing (c)af.td connected to (n)primary information, theoretical affinity alignment, individual dynamics root, cosmic perspective, (r)participation, affiliation, cultural information factor, dynamics factor, and (r)attention.",
+  "terms": [
+    {
+      "termId": "aftd",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "pri-info",
+      "prefix": "n"
+    },
+    {
+      "termId": "th-af-algn"
+    },
+    {
+      "termId": "indiv-dy-rt"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "cult-info-f"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "attn",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "aftd",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "th-af-algn",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "indiv-dy-rt",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy-rt",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "indiv-dy-rt",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-dy-rt",
+      "to": "cult-info-f",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-f",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "attn",
+      "type": "solid"
+    }
+  ]
+}

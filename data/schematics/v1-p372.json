@@ -1,0 +1,92 @@
+{
+  "id": "v1-p372",
+  "volume": 1,
+  "section": "NYM-6",
+  "page": 372,
+  "subject": "pol-dy",
+  "title": "POL.DY.------PRO.TF.C.",
+  "type": "crossing",
+  "description": "Political dynamics relating to projectional transformation continuance. Crossing diagram in the New York Musicians section showing (c)pol.dy connected to political position, social reality position, projectional transformation continuance, structural state, language dynamics, restated structure, reality intersection transformation, (r)transformation modulation, and motional dynamics.",
+  "terms": [
+    {
+      "termId": "pol-dym",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "prog-tf-c"
+    },
+    {
+      "termId": "s-st"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "rt-imp",
+      "prefix": "r"
+    },
+    {
+      "termId": "mdt-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "pol-p",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "prog-tf-c",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "prog-tf-c",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "s-st",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "rt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rt-imp",
+      "to": "mdt-dy",
+      "type": "solid"
+    }
+  ]
+}

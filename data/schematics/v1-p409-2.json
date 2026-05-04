@@ -1,0 +1,31 @@
+{
+  "id": "v1-p409-2",
+  "volume": 1,
+  "section": "MID-W-3",
+  "page": 409,
+  "subject": "pol-dym",
+  "title": "(R)POL.DYM.------TRS.",
+  "type": "crossing",
+  "description": "Reality political dynamism relating to transformation. Crossing diagram in the Midwest section showing (r)pol.dym connected to restated structure, cultural transfer source, alternative factor, transformation, gradation, documentation, decision, and music transfer-source attribute.",
+  "terms": [
+    { "termId": "pol-dym", "isSubject": true, "prefix": "r" },
+    { "termId": "re-st" },
+    { "termId": "cul-tf-s" },
+    { "termId": "alt-f" },
+    { "termId": "trs" },
+    { "termId": "grad" },
+    { "termId": "doc" },
+    { "termId": "dec" },
+    { "termId": "mt-tfs-at" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "pol-dym", "type": "solid" },
+    { "from": "pol-dym", "to": "trs", "type": "solid" },
+    { "from": "cul-tf-s", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "alt-f", "type": "solid" },
+    { "from": "trs", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "doc", "type": "solid" },
+    { "from": "dec", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "mt-tfs-at", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v1-p313",
+  "volume": 1,
+  "section": "WI-29",
+  "page": 313,
+  "subject": "info-ds",
+  "title": "(R)INFO.DS.------C.CONT.",
+  "type": "crossing",
+  "description": "Reality information design relating to composite continuance. Crossing diagram in the White Improvisor section showing (r)info.ds connected to projectional dynamics, physical universe perspective, total composite implications, theoretical continuance dynamics, composite continuance, cosmic perspective, higher position, reality state, and transformation.",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "r" },
+    { "termId": "proj-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "t-c-imp" },
+    { "termId": "th-cont-dy" },
+    { "termId": "c-cont" },
+    { "termId": "cos-p" },
+    { "termId": "hi-p" },
+    { "termId": "re-st" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "info-ds", "to": "c-cont", "type": "solid" },
+    { "from": "proj-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "proj-dy", "to": "c-cont", "type": "solid" },
+    { "from": "phy-u-p", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "th-cont-dy", "type": "solid" },
+    { "from": "th-cont-dy", "to": "hi-p", "type": "solid" },
+    { "from": "th-cont-dy", "to": "cos-p", "type": "solid" },
+    { "from": "c-cont", "to": "re-st", "type": "solid" },
+    { "from": "cos-p", "to": "trs", "type": "solid" }
+  ]
+}

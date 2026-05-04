@@ -1,0 +1,91 @@
+{
+  "id": "v1-p120-1",
+  "volume": 1,
+  "section": "T(AF)M-24",
+  "page": 120,
+  "subject": "info-intr",
+  "title": "INFO.INTR.------TR.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-24, on the page where Braxton argues that 'the sophistication of the western defining and controlling community has helped to produce a situation where the transfer-shift implications (interpretations) of black creativity have assumed more importance than the principle thrust projection responsible for the subsequent transfers (the leaf is more important than the tree).' (C)INFO-INTR (information interpretation) is crossed with TR (transformation). The diagram poses what *information interpretation* — Braxton's term for how the meaning of an event gets fixed — would have to look like to actually deliver transformation rather than merely re-encoding meaning. INFO-INTR is fed by CRTF-D (cross-transfer definitions), INT (intention), and C-CULT-AT (composite culture attitude). INFO-INTR outputs to DYM-F (dynamic functionalism), C-CONT (composite continuance) → LK-IMP (linkage implications), TR (the crossing partner), and LANG-DY (language dynamics) → MT-IF-DB (multi-informational degree basis). The structural argument: information interpretation's path to transformation runs through dynamic functionalism, composite continuance, and language dynamics — and it requires *all three* upstream feeds (cross-transfer definitions, intention, and culture attitude) to generate. The 'leaf vs tree' problem is now visible: when interpretation gets dominated by cross-transfer definitions alone, the tripartite upstream collapses and transformation cannot follow.",
+  "terms": [
+    {
+      "termId": "info-intr",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "int"
+    },
+    {
+      "termId": "crtf-d"
+    },
+    {
+      "termId": "c-cult-at"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "mt-if-db"
+    },
+    {
+      "termId": "lang-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "crtf-d",
+      "to": "info-intr",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "info-intr",
+      "type": "solid"
+    },
+    {
+      "from": "c-cult-at",
+      "to": "info-intr",
+      "type": "solid"
+    },
+    {
+      "from": "info-intr",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "info-intr",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "info-intr",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "info-intr",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "mt-if-db",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "lk-imp",
+      "type": "solid"
+    }
+  ]
+}

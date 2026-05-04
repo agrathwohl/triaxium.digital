@@ -1,0 +1,105 @@
+{
+  "id": "v1-p273-1",
+  "volume": 1,
+  "section": "CMBA-29",
+  "page": 273,
+  "subject": "c-act",
+  "title": "C.ACT.------DYM.F.",
+  "type": "crossing",
+  "description": "Composite action relating to dynamics factor. Crossing diagram in the Creative Music Black Aesthetic section showing (c)c.act connected to dynamics factor, music information, information factor, transformation, composite continuance, gradation, alternative factor, (r)individual tendencies, (r)language, (p)re.dif, and social reality position.",
+  "terms": [
+    {
+      "termId": "c-act",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "info-f"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "grad"
+    },
+    {
+      "termId": "indiv-td",
+      "prefix": "r"
+    },
+    {
+      "termId": "lang",
+      "prefix": "r"
+    },
+    {
+      "termId": "re-dif",
+      "prefix": "p"
+    },
+    {
+      "termId": "soc-rt-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-act",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "grad",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "lang",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "re-dif",
+      "type": "solid"
+    }
+  ]
+}

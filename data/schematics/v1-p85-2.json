@@ -1,0 +1,103 @@
+{
+  "id": "v1-p85-2",
+  "volume": 1,
+  "section": "WAM-27",
+  "page": 85,
+  "subject": "pol-dym",
+  "title": "POL.DYM.------ALT.F.",
+  "type": "crossing",
+  "description": "Diagram in WAM-27, paired with v1-p85-1 on the same page. (C)POL-DYM (political dynamics) is crossed with ALT-F (alternative functionalism): if the previous diagram established that western methodology is politically constituted, this one stages the inverse — what alternative functionalism would have to confront to rework the political-dynamic regime. POL-DYM is fed by TRS (transition), POL-P (political policies), and PHY-U-P (physical universe particular), and outputs to ALT-F and MTH (methodology). A separate chain runs (r)PART (the reality of participation) → INFO-OR (information order) → fanning into LANG-DY (language dynamics), AFTF (affinity transfer), EXT-FT (extended functionalism), and MT-INFO (music information). The structural claim: alternative functionalism's relation to political dynamics is *not* mediated by participation in the diagram — the participation chain runs entirely through information order into the western-aligned outputs (language, affinity transfer, extended functionalism, music information). Read against the page's prose, this argues that genuine alternative functionalism would require bypassing the participation→information-order chain that western culture has institutionalized — i.e., it would require dismantling the very route by which 'what is interesting' has replaced 'what is unifying'.",
+  "terms": [
+    {
+      "termId": "pol-dym",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "aftf"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "ext-ft"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "trs",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "aftf",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "mt-info",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "v1-p291",
+  "volume": 1,
+  "section": "WI-7",
+  "page": 291,
+  "subject": "c-info",
+  "title": "C.INFO.------PROJ.DY.",
+  "type": "crossing",
+  "description": "Composite information relating to projectional dynamics. Crossing diagram in the White Improvisor section showing c.info connected to projectional dynamics, music information database, social reality dynamics, (p)attention, information factor, information design, theoretical continuance, progressional extension factor, and (c)participation.",
+  "terms": [
+    {
+      "termId": "c-info",
+      "isSubject": true
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "mt-if-db"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "attn",
+      "prefix": "p"
+    },
+    {
+      "termId": "info-f"
+    },
+    {
+      "termId": "info-doc"
+    },
+    {
+      "termId": "th-cont"
+    },
+    {
+      "termId": "prog-ext-ft"
+    },
+    {
+      "termId": "part",
+      "prefix": "c"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "proj-dy",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-if-db",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-if-db",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "info-doc",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "prog-ext-ft",
+      "type": "solid"
+    }
+  ]
+}

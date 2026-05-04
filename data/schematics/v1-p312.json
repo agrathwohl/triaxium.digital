@@ -1,0 +1,76 @@
+{
+  "id": "v1-p312",
+  "volume": 1,
+  "section": "WI-28",
+  "page": 312,
+  "subject": "post",
+  "title": "(R)POST.------IND.DY.TD.",
+  "type": "crossing",
+  "description": "Reality postulation relating to individual dynamics tendencies. Crossing diagram in the White Improvisor section showing (r)post connected to affiliation, information dynamics, individual dynamic tendencies, (p)attention, affiliation dynamics, affinity-1, and projectional dynamics.",
+  "terms": [
+    {
+      "termId": "post",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "indiv-dy-td"
+    },
+    {
+      "termId": "attn",
+      "prefix": "p"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "afi-1"
+    },
+    {
+      "termId": "proj-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "post",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "indiv-dy-td",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "afi-1",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "proj-dy",
+      "type": "solid"
+    }
+  ]
+}

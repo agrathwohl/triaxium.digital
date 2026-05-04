@@ -1,0 +1,91 @@
+{
+  "id": "v1-p460",
+  "volume": 1,
+  "section": "EXT.F(II)-22",
+  "page": 460,
+  "subject": "ist-pt",
+  "title": "IST.PT.------WO.EXT.PRI.",
+  "type": "crossing",
+  "description": "Istigative point relating to world expansion principle. Crossing diagram in the Extended Functionalism (II) section showing (c)ist.pt connected to transformation, dynamics factor, alternative crossing-progression, meta-implication, progressional continuance, world expansion principle, projection factor cluster, primary transformation, and information dynamics.",
+  "terms": [
+    {
+      "termId": "ist-pt",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "alt-c-pg"
+    },
+    {
+      "termId": "mt-imp"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "wo-ext-pri"
+    },
+    {
+      "termId": "p-fc"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "info-or"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "trs",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "alt-c-pg",
+      "to": "mt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "wo-ext-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-ext-pri",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "pr-trs",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "ist-pt",
+      "type": "solid"
+    }
+  ]
+}

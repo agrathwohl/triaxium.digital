@@ -1,0 +1,96 @@
+{
+  "id": "v1-p229-2",
+  "volume": 1,
+  "section": "WAC-27",
+  "page": 229,
+  "subject": "doc",
+  "title": "DOC.------(R)INFO.TRNS.",
+  "type": "crossing",
+  "description": "Document relating to reality information transition. Crossing diagram in the Western Art Composite section showing (c)doc connected to projectional dynamics, (r)info.trns, political dynamics, gradation, affinity dynamics, music information, extension factor, (r)mpt, primary transcendence, and social reality.",
+  "terms": [
+    {
+      "termId": "doc",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "info-trns",
+      "prefix": "r"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "mpt",
+      "prefix": "r"
+    },
+    {
+      "termId": "grad"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "soc-rt"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "doc",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "doc",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "doc",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "mpt",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "grad",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "mt-info",
+      "type": "solid"
+    }
+  ]
+}

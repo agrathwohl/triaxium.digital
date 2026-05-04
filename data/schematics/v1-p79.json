@@ -1,0 +1,76 @@
+{
+  "id": "v1-p79",
+  "volume": 1,
+  "section": "WAM-21",
+  "page": 79,
+  "subject": "cult-info-dy",
+  "title": "CULT.INFO.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram in WAM-21, embedded in Braxton's argument that western art music has 'established a projection that corresponds to the dynamics of the composer rather than the total group' through the institutionalization of notation. CULT-INFO-DY (culture information dynamics) is *crossed* — (c) prefix — with MT-INFO (music information): the question is what happens to music information when culture's information dynamics have been re-shaped by composer-centric notation. The diagram routes the crossing: CULT-INFO-DY → MT-INFO branches into AFL-DY (affinity dynamics) and AFTD (affinity tendencies), while a parallel branch CULT-INFO-DY → SOC-RT → PRI-INFO → IST-F closes via a *dashed* edge to (r)INTR (interpretation). The structural claim mirrors Braxton's prose: under composer-as-medium, music information's path to affinity dynamics/tendencies has been institutionally *separated* from its grounding in social reality and primary information — and the chain back to interpretation now passes through *isolated focus* and arrives only conditionally. The musician interpreting from notation is what the dashed edge encodes.",
+  "terms": [
+    {
+      "termId": "cult-info-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-info-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "intr",
+      "type": "dashed"
+    }
+  ]
+}

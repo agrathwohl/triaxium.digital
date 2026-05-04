@@ -1,0 +1,106 @@
+{
+  "id": "v1-p306",
+  "volume": 1,
+  "section": "WI-22",
+  "page": 306,
+  "subject": "s-proj",
+  "title": "S.PROJ.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Source projection relating to total composite implications. Crossing diagram in the White Improvisor section showing s.proj connected to total composite implications, affinity dynamics, transformation information, language dynamics, composite form action, apparent projection, individual tendencies, political position, participation, physical universe perspective, and reality state.",
+  "terms": [
+    {
+      "termId": "s-proj",
+      "isSubject": true
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "re-st"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "s-proj",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "re-st",
+      "type": "solid"
+    }
+  ]
+}

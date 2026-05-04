@@ -1,22 +1,1946 @@
 [
-  { "id": "vt-dy", "abbreviation": "VT-DY", "expansion": "vibrational dynamics", "category": "vibrational", "volume": 1, "definition": "The spectrum of vibrational possibilities" },
-  { "id": "afi", "abbreviation": "AFI", "expansion": "affinity insight", "category": "affinity", "volume": 1, "definition": "The uncovering of necessary information through self-realization" },
-  { "id": "afi-1", "abbreviation": "AFI(1)", "expansion": "affinity insight—first degree", "category": "affinity", "volume": 1, "definition": "Realization about the whole of a given route or culture" },
-  { "id": "afi-2", "abbreviation": "AFI(2)", "expansion": "affinity insight—second degree", "category": "affinity", "volume": 1, "definition": "Use of self-realization to connect to one's own life realness" },
-  { "id": "rt-algn", "abbreviation": "RT-ALGN", "expansion": "reality alignment", "category": "reality", "volume": 1, "definition": "The way of one's vibrational nature or sensibility" },
-  { "id": "prog-cont", "abbreviation": "PROG-CONT", "expansion": "progressional continuance", "category": "other", "volume": 1, "definition": "Every creative thrust exists in a time continuum" },
-  { "id": "spt-dym", "abbreviation": "SPT-DYM", "expansion": "spectacle dynamics", "category": "vibrational", "volume": 2, "definition": "The phenomenon of spectacle-diversion" },
-  { "id": "bia", "abbreviation": "BIA", "expansion": "bi-aitional", "category": "other", "volume": 2, "definition": "The unification of masculine and feminine vibrational principles" },
-  { "id": "tr", "abbreviation": "TR", "expansion": "transformation", "category": "transformation", "volume": 3, "definition": "A cosmic junction that gives new options" },
-  { "id": "alt-ft", "abbreviation": "ALT-FT", "expansion": "alternative functionalism", "category": "other", "volume": 3, "definition": "Disciplines not perceived as culturally sustaining" },
-  { "id": "post", "abbreviation": "POST", "expansion": "postulation", "category": "other", "volume": 1, "definition": "Reaching for understanding" },
-  { "id": "sg", "abbreviation": "SG", "expansion": "source initiation", "category": "other", "volume": 1, "definition": "The beginning of creative source" },
-  { "id": "pri-vt-td", "abbreviation": "PRI-VT-TD", "expansion": "primary vibrational tendencies", "category": "vibrational", "volume": 1, "definition": "Core vibrational attractions" },
-  { "id": "aftd", "abbreviation": "AFTD", "expansion": "affinity tendencies", "category": "affinity", "volume": 1, "definition": "The nature of principle information a person normally vibrates from" },
-  { "id": "lang-dy", "abbreviation": "LANG-DY", "expansion": "language dynamics", "category": "other", "volume": 1, "definition": "How language shapes and reflects reality" },
-  { "id": "indiv-dy", "abbreviation": "INDIV-DY", "expansion": "individual dynamics", "category": "other", "volume": 1, "definition": "Forces shaping individual experience" },
-  { "id": "stf", "abbreviation": "STF", "expansion": "source transfer", "category": "other", "volume": 2, "definition": "How knowledge moves between continuums" },
-  { "id": "crtf-d", "abbreviation": "CRTF-D", "expansion": "cross-transfer definitions", "category": "other", "volume": 2, "definition": "Definitions replacing source-initiated ones" },
-  { "id": "hi-p", "abbreviation": "HI-P", "expansion": "high purpose", "category": "other", "volume": 3, "definition": "Purpose transcending immediate circumstances" },
-  { "id": "c-hm", "abbreviation": "C-HM", "expansion": "composite humanity", "category": "composite", "volume": 3, "definition": "All humanity—men, women, children, regardless of planet sector" }
+  {
+    "id": "a-pr",
+    "abbreviation": "A-PR",
+    "expansion": "all-purpose",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "acc-dy",
+    "abbreviation": "ACC-DY",
+    "expansion": "accelerated dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "acc-ft",
+    "abbreviation": "ACC-FT",
+    "expansion": "accelerated functionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "act",
+    "abbreviation": "ACT",
+    "expansion": "activism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "act-t",
+    "abbreviation": "ACT-T",
+    "expansion": "actual terms",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "act-tr",
+    "abbreviation": "ACT-TR",
+    "expansion": "actual transformation",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "af-comp",
+    "abbreviation": "AF-COMP",
+    "expansion": "affinity compression",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "af-con",
+    "abbreviation": "AF-CON",
+    "expansion": "affinity convergence",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "af-nt",
+    "abbreviation": "AF-NT",
+    "expansion": "affinity nature",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "af-post",
+    "abbreviation": "AF-POST",
+    "expansion": "affinity postulation",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "afi",
+    "abbreviation": "AFI",
+    "expansion": "affinity insight",
+    "category": "affinity",
+    "volume": 1,
+    "definition": "The uncovering of necessary information through self-realization"
+  },
+  {
+    "id": "afi-1",
+    "abbreviation": "AFI(1)",
+    "expansion": "affinity insight—first degree",
+    "category": "affinity",
+    "volume": 1,
+    "definition": "Realization about the whole of a given route or culture"
+  },
+  {
+    "id": "afi-2",
+    "abbreviation": "AFI(2)",
+    "expansion": "affinity insight—second degree",
+    "category": "affinity",
+    "volume": 1,
+    "definition": "Use of self-realization to connect to one's own life realness"
+  },
+  {
+    "id": "afl",
+    "abbreviation": "AFL",
+    "expansion": "affinity alignment",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "afl-dt",
+    "abbreviation": "AFL-DT",
+    "expansion": "affinity dictates",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "afl-dy",
+    "abbreviation": "AFL-DY",
+    "expansion": "affinity dynamics",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "afn",
+    "abbreviation": "AFN",
+    "expansion": "affinity negation",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "aftd",
+    "abbreviation": "AFTD",
+    "expansion": "affinity tendencies",
+    "category": "affinity",
+    "volume": 1,
+    "definition": "The nature of principle information a person normally vibrates from"
+  },
+  {
+    "id": "aftf",
+    "abbreviation": "AFTF",
+    "expansion": "affinity transfer",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "agt",
+    "abbreviation": "AGT",
+    "expansion": "agreement",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "alt-act",
+    "abbreviation": "ALT-ACT",
+    "expansion": "alternative activism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "alt-c-pg",
+    "abbreviation": "ALT-C-PG",
+    "expansion": "alternative composite progressionalism",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "alt-d",
+    "abbreviation": "ALT-D",
+    "expansion": "alternative definitions",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "alt-f",
+    "abbreviation": "ALT-F",
+    "expansion": "alternative functionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "apl-dt",
+    "abbreviation": "APL-DT",
+    "expansion": "application dictates",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "app-rdef",
+    "abbreviation": "APP-RDEF",
+    "expansion": "applied redefinitions",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "asp-es",
+    "abbreviation": "ASP-ES",
+    "expansion": "aspect essence",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "att",
+    "abbreviation": "ATT",
+    "expansion": "attitude",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "attc",
+    "abbreviation": "ATTC",
+    "expansion": "attachment",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "attn",
+    "abbreviation": "ATTN",
+    "expansion": "attraction",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "bia",
+    "abbreviation": "BIA",
+    "expansion": "bi-aitional (or bi-aitionalism)",
+    "category": "other",
+    "volume": 1,
+    "definition": "The unification of masculine and feminine vibrational principles"
+  },
+  {
+    "id": "bscf",
+    "abbreviation": "BSCF",
+    "expansion": "basic science (or basic scientific functionalism)",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-act",
+    "abbreviation": "C-ACT",
+    "expansion": "composite activism",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-af-algn",
+    "abbreviation": "C-AF-ALGN",
+    "expansion": "composite affinity alignment",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-cont",
+    "abbreviation": "C-CONT",
+    "expansion": "composite continuance",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-cult-at",
+    "abbreviation": "C-CULT-AT",
+    "expansion": "composite culture attitude",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-fo-act",
+    "abbreviation": "C-FO-ACT",
+    "expansion": "composite focused activism",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-hm",
+    "abbreviation": "C-HM",
+    "expansion": "composite humanity",
+    "category": "composite",
+    "volume": 1,
+    "definition": "All humanity—men, women, children, regardless of planet sector"
+  },
+  {
+    "id": "c-info",
+    "abbreviation": "C-INFO",
+    "expansion": "composite information",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "c-rh",
+    "abbreviation": "C-RH",
+    "expansion": "composite research",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cn-info",
+    "abbreviation": "CN-INFO",
+    "expansion": "controlled information",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "colc-fr-wc",
+    "abbreviation": "COLC-FR-WC",
+    "expansion": "collected forces of western culture",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cos-agn",
+    "abbreviation": "COS-AGN",
+    "expansion": "cosmic assignment",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cos-d",
+    "abbreviation": "COS-D",
+    "expansion": "cosmic dictates",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cos-p",
+    "abbreviation": "COS-P",
+    "expansion": "cosmic particulars",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cr-info-dy",
+    "abbreviation": "CR-INFO-DY",
+    "expansion": "circular information dynamics",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "crt",
+    "abbreviation": "CRT",
+    "expansion": "criticism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "crtf-d",
+    "abbreviation": "CRTF-D",
+    "expansion": "cross-transfer definitions",
+    "category": "transformation",
+    "volume": 1,
+    "definition": "Definitions replacing source-initiated ones"
+  },
+  {
+    "id": "crtf-prog",
+    "abbreviation": "CRTF-PROG",
+    "expansion": "cross-transfer progressionalism",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cul-tf-s",
+    "abbreviation": "CUL-TF-S",
+    "expansion": "cultural transfer shift(s)",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-af-bs",
+    "abbreviation": "CULT-AF-BS",
+    "expansion": "culture affinity basis",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-info-b",
+    "abbreviation": "CULT-INFO-B",
+    "expansion": "culture information basis",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-info-dy",
+    "abbreviation": "CULT-INFO-DY",
+    "expansion": "culture information dynamics",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-info-f",
+    "abbreviation": "CULT-INFO-F",
+    "expansion": "culture information focus",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-o",
+    "abbreviation": "CULT-O",
+    "expansion": "culture order",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "cult-sold",
+    "abbreviation": "CULT-SOLD",
+    "expansion": "culture solidification",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "de-sptl",
+    "abbreviation": "DE-SPTL",
+    "expansion": "despiritualization (or despiritualism)",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "dec",
+    "abbreviation": "DEC",
+    "expansion": "decentralization",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "def",
+    "abbreviation": "DEF",
+    "expansion": "definition",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "dis-c-ct",
+    "abbreviation": "DIS-C-CT",
+    "expansion": "disintegration of a culture’s center",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "doc",
+    "abbreviation": "DOC",
+    "expansion": "documentation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "dym-f",
+    "abbreviation": "DYM-F",
+    "expansion": "dynamic functionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "dym-sep",
+    "abbreviation": "DYM-SEP",
+    "expansion": "dynamic separation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "dym-spt",
+    "abbreviation": "DYM-SPT",
+    "expansion": "dynamic spiritualism",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "eco-dym",
+    "abbreviation": "ECO-DYM",
+    "expansion": "economic dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exb-h-or",
+    "abbreviation": "EXB-H-OR",
+    "expansion": "establishing high order",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-cont",
+    "abbreviation": "EXP-CONT",
+    "expansion": "expansion condition (the concept of )",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-cont-1",
+    "abbreviation": "EXP-CONT(1)",
+    "expansion": "expansion condition (composite focus)",
+    "category": "composite",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-cont-2",
+    "abbreviation": "EXP-CONT(2)",
+    "expansion": "expansion condition (isolated focus)",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-dt",
+    "abbreviation": "EXP-DT",
+    "expansion": "expansion dictates",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-dym",
+    "abbreviation": "EXP-DYM",
+    "expansion": "expansion dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exp-info-b",
+    "abbreviation": "EXP-INFO-B",
+    "expansion": "expansion information basis",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "expm",
+    "abbreviation": "EXPM",
+    "expansion": "expansionism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ext-dym",
+    "abbreviation": "EXT-DYM",
+    "expansion": "extended dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ext-ft",
+    "abbreviation": "EXT-FT",
+    "expansion": "extended functionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "extn",
+    "abbreviation": "EXTN",
+    "expansion": "existentialism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "extn-d",
+    "abbreviation": "EXTN-D",
+    "expansion": "existential definition",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "extn-ob",
+    "abbreviation": "EXTN-OB",
+    "expansion": "existential observation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "exts",
+    "abbreviation": "EXTS",
+    "expansion": "extension (or nature of extension)",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "f",
+    "abbreviation": "F",
+    "expansion": "form",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "fund-dyn",
+    "abbreviation": "FUND-DYN",
+    "expansion": "fundamental dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "fund-p",
+    "abbreviation": "FUND-P",
+    "expansion": "fundamental particulars",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "grad",
+    "abbreviation": "GRAD",
+    "expansion": "gradualism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "hi-p",
+    "abbreviation": "HI-P",
+    "expansion": "high purpose",
+    "category": "other",
+    "volume": 1,
+    "definition": "Purpose transcending immediate circumstances"
+  },
+  {
+    "id": "if-spt",
+    "abbreviation": "IF-SPT",
+    "expansion": "infra-spirituality",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "if-st-dy",
+    "abbreviation": "IF-ST-DY",
+    "expansion": "infra-structure dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "impov",
+    "abbreviation": "IMPOV",
+    "expansion": "improvisation (the concept of )",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "indiv-dy",
+    "abbreviation": "INDIV-DY",
+    "expansion": "individual dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": "Forces shaping individual experience"
+  },
+  {
+    "id": "indiv-dy-rt",
+    "abbreviation": "INDIV-DY-RT",
+    "expansion": "individual dynamic reality",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "indiv-dy-td",
+    "abbreviation": "INDIV-DY-TD)",
+    "expansion": "or concept of )",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "indiv-td",
+    "abbreviation": "INDIV-TD",
+    "expansion": "(or \tindividual tendencies (the reality of",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-af-b",
+    "abbreviation": "INFO-AF-B",
+    "expansion": "information affinity basis",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-algn",
+    "abbreviation": "INFO-ALGN",
+    "expansion": "information alignment",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-comp",
+    "abbreviation": "INFO-COMP",
+    "expansion": "information compression",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-con",
+    "abbreviation": "INFO-CON",
+    "expansion": "information convergence",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-de-b",
+    "abbreviation": "INFO-DE(B)",
+    "expansion": "information degrees (or information degree basis)",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-doc",
+    "abbreviation": "INFO-DOC",
+    "expansion": "information documentation",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-ds",
+    "abbreviation": "INFO-DS",
+    "expansion": "information dissemination",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-f",
+    "abbreviation": "INFO-F",
+    "expansion": "information focus",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-f-d",
+    "abbreviation": "INFO-F-D",
+    "expansion": "information focus distortion",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-fm",
+    "abbreviation": "INFO-FM",
+    "expansion": "(or FR) \tinformation forum",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-intg",
+    "abbreviation": "INFO-INTG",
+    "expansion": "information integration",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-intr",
+    "abbreviation": "INFO-INTR",
+    "expansion": "information interpretation",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-or",
+    "abbreviation": "INFO-OR",
+    "expansion": "information order",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-proj",
+    "abbreviation": "INFO-PROJ",
+    "expansion": "information projection",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-rt",
+    "abbreviation": "INFO-RT",
+    "expansion": "information reality",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-sold",
+    "abbreviation": "INFO-SOLD",
+    "expansion": "information solidification",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "info-trns",
+    "abbreviation": "INFO-TRNS",
+    "expansion": "information transference",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "int",
+    "abbreviation": "INT",
+    "expansion": "intention (the reality of )",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "intl",
+    "abbreviation": "INTL",
+    "expansion": "intellectualism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "intr",
+    "abbreviation": "INTR",
+    "expansion": "interpretation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "invt-dt",
+    "abbreviation": "INVT-DT",
+    "expansion": "investigation dictates",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-act",
+    "abbreviation": "IST-ACT",
+    "expansion": "isolated activism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-f",
+    "abbreviation": "IST-F",
+    "expansion": "isolated focus",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-f-at",
+    "abbreviation": "IST-F-AT",
+    "expansion": "isolated focus activism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-f-dt",
+    "abbreviation": "IST-F-DT",
+    "expansion": "isolated focus dictates",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-pt",
+    "abbreviation": "IST-PT",
+    "expansion": "isolated particulars",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ist-s-algn",
+    "abbreviation": "IST-S-ALGN",
+    "expansion": "isolated systematic alignment",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "jr-dym",
+    "abbreviation": "JR-DYM",
+    "expansion": "journalism dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "lang",
+    "abbreviation": "LANG",
+    "expansion": "language",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "lang-dy",
+    "abbreviation": "LANG-DY",
+    "expansion": "language dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": "How language shapes and reflects reality"
+  },
+  {
+    "id": "lg-disa",
+    "abbreviation": "LG-DISA",
+    "expansion": "logical dissolution",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "lg-dy",
+    "abbreviation": "LG-DY",
+    "expansion": "logical dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "lg-ext",
+    "abbreviation": "LG-EXT",
+    "expansion": "logical extension",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "lk-imp",
+    "abbreviation": "LK-IMP",
+    "expansion": "linkage implications",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "md-dy",
+    "abbreviation": "MD-DY",
+    "expansion": "media dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mdt-dy",
+    "abbreviation": "MDT-DY",
+    "expansion": "motivation dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mn-di",
+    "abbreviation": "MN-DI",
+    "expansion": "mono-dimensional",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mpt",
+    "abbreviation": "MPT",
+    "expansion": "manipulation (the reality of )",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-devf",
+    "abbreviation": "MT-DEVF",
+    "expansion": "multiple diversification",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-di",
+    "abbreviation": "MT-DI",
+    "expansion": "multi-dimensional (or ISM)",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-if-db",
+    "abbreviation": "MT-IF-DB",
+    "expansion": "multi-informational degree basis",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-imp",
+    "abbreviation": "MT-IMP",
+    "expansion": "multi-implications",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-info",
+    "abbreviation": "MT-INFO",
+    "expansion": "multi-information",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-intr",
+    "abbreviation": "MT-INTR",
+    "expansion": "multiple interpretation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mt-tfs-at",
+    "abbreviation": "MT-TFS-AT",
+    "expansion": "multi-transfer shift activity",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mta-imp",
+    "abbreviation": "MTA-IMP",
+    "expansion": "meta-implications",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mta-rt",
+    "abbreviation": "MTA-RT",
+    "expansion": "meta-reality",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mta-rt-sign",
+    "abbreviation": "MTA-RT-SIGN",
+    "expansion": "meta-reality significance",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "mth",
+    "abbreviation": "MTH",
+    "expansion": "methodology",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "obs",
+    "abbreviation": "OBS",
+    "expansion": "observation (or reality of )",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "op-spd",
+    "abbreviation": "OP-SPD",
+    "expansion": "option spread",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "p-fc",
+    "abbreviation": "P-FC",
+    "expansion": "particular focus",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "p-prog",
+    "abbreviation": "P-PROG",
+    "expansion": "particular progressionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "part",
+    "abbreviation": "PART",
+    "expansion": "participation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "per-dy",
+    "abbreviation": "PER-DY",
+    "expansion": "perception dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "per-phy-u-fund",
+    "abbreviation": "PER-PHY-U-FUND",
+    "expansion": "perceived physical universe fundamental",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "per-tr",
+    "abbreviation": "PER-TR",
+    "expansion": "perceived transformation",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "per-trs",
+    "abbreviation": "PER-TRS",
+    "expansion": "perceived transition",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "per-vt-u-fund",
+    "abbreviation": "PER-VT-U-FUND",
+    "expansion": "perceived vibrational universe fundamental",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "phy-u-c",
+    "abbreviation": "PHY-U-C",
+    "expansion": "physical universe context",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "phy-u-fund",
+    "abbreviation": "PHY-U-FUND",
+    "expansion": "physical universe fundamental",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "phy-u-p",
+    "abbreviation": "PHY-U-P",
+    "expansion": "physical universe particular",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-con",
+    "abbreviation": "POL-CON",
+    "expansion": "political consciousness",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-dym",
+    "abbreviation": "POL-DYM",
+    "expansion": "political dynamics",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-or",
+    "abbreviation": "POL-OR",
+    "expansion": "political order",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-p",
+    "abbreviation": "POL-P",
+    "expansion": "political policies (or execution of )",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-sign",
+    "abbreviation": "POL-SIGN",
+    "expansion": "political significance",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pol-st",
+    "abbreviation": "POL-ST",
+    "expansion": "political state",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "post",
+    "abbreviation": "POST",
+    "expansion": "postulation",
+    "category": "other",
+    "volume": 1,
+    "definition": "Reaching for understanding"
+  },
+  {
+    "id": "pr-int",
+    "abbreviation": "PR-INT",
+    "expansion": "primary intention",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pr-trs",
+    "abbreviation": "PR-TRS",
+    "expansion": "primary transition",
+    "category": "transformation",
+    "volume": 1,
+    "definition": "Diagram-only term — appears in TAW1 schematics but not in the back-of-book glossary"
+  },
+  {
+    "id": "pri-af-to",
+    "abbreviation": "PRI-AF-TO",
+    "expansion": "primary affinity tendencies",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pri-info",
+    "abbreviation": "PRI-INFO",
+    "expansion": "principle information",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "pri-vt-td",
+    "abbreviation": "PRI-VT-TD",
+    "expansion": "principle vibrational tendencies",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": "Core vibrational attractions"
+  },
+  {
+    "id": "prog-cont",
+    "abbreviation": "PROG-CONT",
+    "expansion": "progressional continuance",
+    "category": "other",
+    "volume": 1,
+    "definition": "Every creative thrust exists in a time continuum"
+  },
+  {
+    "id": "prog-ext-ft",
+    "abbreviation": "PROG-EXT-FT",
+    "expansion": "progressional extended functionalism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "prog-sign",
+    "abbreviation": "PROG-SIGN",
+    "expansion": "progressional significance",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "prog-tf-c",
+    "abbreviation": "PROG-TF-C",
+    "expansion": "progressional transfer cycles",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "proj",
+    "abbreviation": "PROJ",
+    "expansion": "projection",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "proj-cont",
+    "abbreviation": "PROJ-CONT",
+    "expansion": "projectional continuance",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "proj-dy",
+    "abbreviation": "PROJ-DY",
+    "expansion": "projectional dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rc",
+    "abbreviation": "RC",
+    "expansion": "race",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "re-cont",
+    "abbreviation": "RE-CONT",
+    "expansion": "recontinuance",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "re-dif",
+    "abbreviation": "RE-DIF",
+    "expansion": "redefinitions",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "re-doc",
+    "abbreviation": "RE-DOC",
+    "expansion": "redocumentation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "re-st",
+    "abbreviation": "RE-ST",
+    "expansion": "restructuralism",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rel-apc",
+    "abbreviation": "REL-APC",
+    "expansion": "relevant application",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rel-tech",
+    "abbreviation": "REL-TECH",
+    "expansion": "relevant technology",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "res-rt",
+    "abbreviation": "RES-RT",
+    "expansion": "responsibility ratio",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "ret-af-td",
+    "abbreviation": "RET-AF-TD",
+    "expansion": "retrograde affinity tendencies",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rit-dy",
+    "abbreviation": "RIT-DY",
+    "expansion": "ritual dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rotp",
+    "abbreviation": "ROTP",
+    "expansion": "responsibility of the position (the concept of )",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rt-algn",
+    "abbreviation": "RT-ALGN",
+    "expansion": "reality alignment",
+    "category": "reality",
+    "volume": 1,
+    "definition": "The way of one's vibrational nature or sensibility"
+  },
+  {
+    "id": "rt-dy",
+    "abbreviation": "RT-DY",
+    "expansion": "reality dynamics",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rt-imp",
+    "abbreviation": "RT-IMP",
+    "expansion": "reality implications",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rt-int-tr",
+    "abbreviation": "RT-INT-TR",
+    "expansion": "reality initiative traits",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rt-op",
+    "abbreviation": "RT-OP",
+    "expansion": "reality options",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "rtd-prd",
+    "abbreviation": "RTD-PRD",
+    "expansion": "related procedure",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "s-proj",
+    "abbreviation": "S-PROJ",
+    "expansion": "source projection",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "s-st",
+    "abbreviation": "S-ST",
+    "expansion": "source shift (progressionalism) manipulation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "sci-dym",
+    "abbreviation": "SCI-DYM",
+    "expansion": "scientific dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "sf-rz",
+    "abbreviation": "SF-RZ",
+    "expansion": "self-realization",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "si",
+    "abbreviation": "SI",
+    "expansion": "source initiation",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-pr",
+    "abbreviation": "SOC-PR",
+    "expansion": "social programs",
+    "category": "social",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt",
+    "abbreviation": "SOC-RT",
+    "expansion": "social reality",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt-devf",
+    "abbreviation": "SOC-RT-DEVF",
+    "expansion": "social reality diversification",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt-dt",
+    "abbreviation": "SOC-RT-DT",
+    "expansion": "social reality dictates",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt-dy",
+    "abbreviation": "SOC-RT-DY",
+    "expansion": "social reality dynamics",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt-int",
+    "abbreviation": "SOC-RT-INT",
+    "expansion": "social reality interpretation",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "soc-rt-p",
+    "abbreviation": "SOC-RT-P",
+    "expansion": "social reality particular(s)",
+    "category": "reality",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "spt-aw",
+    "abbreviation": "SPT-AW",
+    "expansion": "spiritual awareness",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "spt-dy",
+    "abbreviation": "SPT-DY",
+    "expansion": "spiritual dynamics",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "spt-gh",
+    "abbreviation": "SPT-GH",
+    "expansion": "spiritual growth",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "spt-unf",
+    "abbreviation": "SPT-UNF",
+    "expansion": "spiritual unification",
+    "category": "spiritual",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "sptc-d",
+    "abbreviation": "SPTC-D",
+    "expansion": "spectacle diversion",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "stf",
+    "abbreviation": "STF",
+    "expansion": "source transfer",
+    "category": "transformation",
+    "volume": 1,
+    "definition": "How knowledge moves between continuums"
+  },
+  {
+    "id": "sty",
+    "abbreviation": "STY",
+    "expansion": "style (or the concept of )",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "t-c-imp",
+    "abbreviation": "T-C-IMP",
+    "expansion": "time continuum implications",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "t-l",
+    "abbreviation": "T-L",
+    "expansion": "time lag",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "t-p",
+    "abbreviation": "T-P",
+    "expansion": "time presence",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "t-sc",
+    "abbreviation": "T-SC",
+    "expansion": "theoretical science",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tech-dy",
+    "abbreviation": "TECH-DY",
+    "expansion": "technological (or technology) dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tf-sh",
+    "abbreviation": "TF-SH",
+    "expansion": "transfer shift(s)",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "th-af-algn",
+    "abbreviation": "TH-AF-ALGN",
+    "expansion": "thrust affinity alignment",
+    "category": "affinity",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "th-cont",
+    "abbreviation": "TH-CONT",
+    "expansion": "thrust continuance",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "th-cont-dy",
+    "abbreviation": "TH-CONT-DY",
+    "expansion": "thrust continuance dynamics",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tm",
+    "abbreviation": "TM",
+    "expansion": "terminology—or terms of a definition",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tr",
+    "abbreviation": "TR",
+    "expansion": "transformation",
+    "category": "transformation",
+    "volume": 1,
+    "definition": "A cosmic junction that gives new options"
+  },
+  {
+    "id": "tr-def",
+    "abbreviation": "TR-DEF",
+    "expansion": "trans-definition",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tr-info",
+    "abbreviation": "TR-INFO",
+    "expansion": "trans-information",
+    "category": "information",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "tr-trs",
+    "abbreviation": "TR-TRS",
+    "expansion": "transformation transition",
+    "category": "transformation",
+    "volume": 1,
+    "definition": "Diagram-only term — appears in TAW1 schematics but not in the back-of-book glossary"
+  },
+  {
+    "id": "trs",
+    "abbreviation": "TRS",
+    "expansion": "transition",
+    "category": "transformation",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "unf-pi",
+    "abbreviation": "UNF-PI",
+    "expansion": "unification (positively intended)/world unification",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "upb",
+    "abbreviation": "UPB",
+    "expansion": "underlying philosophical basis",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "utz",
+    "abbreviation": "UTZ",
+    "expansion": "utilization",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "v-sy",
+    "abbreviation": "V-SY",
+    "expansion": "value system",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-af-att",
+    "abbreviation": "VT-AF/ATT",
+    "expansion": "vibrational affinity and/or attitude",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-att",
+    "abbreviation": "VT-ATT",
+    "expansion": "vibrational attitude",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-dy",
+    "abbreviation": "VT-DY",
+    "expansion": "vibrational dynamics",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": "The spectrum of vibrational possibilities"
+  },
+  {
+    "id": "vt-imp",
+    "abbreviation": "VT-IMP",
+    "expansion": "vibrational implications",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-plt",
+    "abbreviation": "VT-PLT",
+    "expansion": "vibrational platform",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-post",
+    "abbreviation": "VT-POST",
+    "expansion": "vibrational postulation",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-s",
+    "abbreviation": "VT-S",
+    "expansion": "vibrational science",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-td",
+    "abbreviation": "VT-TD",
+    "expansion": "vibrational tendencies",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "vt-u-pt",
+    "abbreviation": "VT-U-PT",
+    "expansion": "vibrational universe particulars",
+    "category": "vibrational",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "wo-ch",
+    "abbreviation": "WO-CH",
+    "expansion": "world change",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "wo-exp-pri",
+    "abbreviation": "WO-EXP-PRI",
+    "expansion": "world expansion principle",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "wo-ext-pri",
+    "abbreviation": "WO-EXT-PRI",
+    "expansion": "world extension principle",
+    "category": "other",
+    "volume": 1,
+    "definition": "Diagram-only term — appears in TAW1 schematics but not in the back-of-book glossary"
+  },
+  {
+    "id": "wo-mth",
+    "abbreviation": "WO-MTH",
+    "expansion": "world methodology",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "wo-unf",
+    "abbreviation": "WO-UNF",
+    "expansion": "world unification",
+    "category": "other",
+    "volume": 1,
+    "definition": ""
+  },
+  {
+    "id": "spt-dym",
+    "abbreviation": "SPT-DYM",
+    "expansion": "spectacle dynamics",
+    "category": "vibrational",
+    "volume": 2,
+    "definition": "The phenomenon of spectacle-diversion"
+  },
+  {
+    "id": "alt-ft",
+    "abbreviation": "ALT-FT",
+    "expansion": "alternative functionalism",
+    "category": "other",
+    "volume": 3,
+    "definition": "Disciplines not perceived as culturally sustaining"
+  }
 ]

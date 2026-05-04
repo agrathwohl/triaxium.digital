@@ -1,0 +1,60 @@
+{
+  "id": "v1-p448",
+  "volume": 1,
+  "section": "EXT.F(II)-10",
+  "page": 448,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT.------TR.",
+  "type": "tree",
+  "description": "Composite form action relating to transformation. Tree diagram in the Extended Functionalism (II) section showing c.fo.act connected to physical compositional content, dynamics factor, (r)intersection, transformation, and (r)participation.",
+  "terms": [
+    {
+      "termId": "c-fo-act",
+      "isSubject": true
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-fo-act",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "c-fo-act",
+      "type": "solid"
+    }
+  ]
+}

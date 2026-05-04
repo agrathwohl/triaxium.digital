@@ -1,0 +1,29 @@
+{
+  "id": "v1-p413",
+  "volume": 1,
+  "section": "MID-W-7",
+  "page": 413,
+  "subject": "pol-con",
+  "title": "(R)POL.CON.------TR.",
+  "type": "crossing",
+  "description": "Reality political continuance relating to transformation. Crossing diagram in the Midwest section showing (r)pol.con connected to composite form action, dynamics factor, information continuance, transformation, intersection, reality option, and thrust affiliation alignment.",
+  "terms": [
+    { "termId": "pol-con", "isSubject": true, "prefix": "r" },
+    { "termId": "c-fo-act" },
+    { "termId": "dym-f" },
+    { "termId": "info-con" },
+    { "termId": "tr" },
+    { "termId": "intr" },
+    { "termId": "rt-op" },
+    { "termId": "th-af-algn" }
+  ],
+  "relationships": [
+    { "from": "c-fo-act", "to": "pol-con", "type": "solid" },
+    { "from": "c-fo-act", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "info-con", "type": "solid" },
+    { "from": "dym-f", "to": "tr", "type": "solid" },
+    { "from": "rt-op", "to": "pol-con", "type": "solid" },
+    { "from": "rt-op", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "th-af-algn", "type": "solid" }
+  ]
+}

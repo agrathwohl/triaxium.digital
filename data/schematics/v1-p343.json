@@ -1,0 +1,93 @@
+{
+  "id": "v1-p343",
+  "volume": 1,
+  "section": "PCC-27",
+  "page": 343,
+  "subject": "alt-c-prog",
+  "title": "(R)ALT.C.PROG.------TRS.",
+  "type": "crossing",
+  "description": "Reality alternative crossing-progression relating to transformation. Crossing diagram in the Post-Cage Continuum section showing (r)alt.c.prog connected to total composite implications, multiple information, (r)meta-implications, reality implications, social reality dynamics (dashed), transformation, cosmic agnation, (r)intersection, and expanded dynamics.",
+  "terms": [
+    {
+      "termId": "alt-c-pg",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "mta-imp",
+      "prefix": "r"
+    },
+    {
+      "termId": "rt-imp"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "cos-agn"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "exp-dym"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-c-pg",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "mta-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mta-imp",
+      "to": "rt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "trs",
+      "type": "dashed"
+    },
+    {
+      "from": "trs",
+      "to": "cos-agn",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "exp-dym",
+      "type": "solid"
+    }
+  ]
+}

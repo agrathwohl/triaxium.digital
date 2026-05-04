@@ -1,0 +1,102 @@
+{
+  "id": "v1-p409-1",
+  "volume": 1,
+  "section": "MID-W-3",
+  "page": 409,
+  "subject": "cult-info-b",
+  "title": "(R)CULT.INFO.B.------AF.DY.",
+  "type": "crossing",
+  "description": "Reality cultural information base relating to affiliation dynamics. Crossing diagram in the Midwest section showing (r)cult.info connected to (r)transformation modulation, information design, (d.t)affiliation dynamics, composite information, projection signal, music information, political dynamics, (r)intersection, participation, and information route.",
+  "terms": [
+    {
+      "termId": "cult-info-b",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "tm",
+      "prefix": "r"
+    },
+    {
+      "termId": "info-ds"
+    },
+    {
+      "termId": "afl-dy",
+      "prefix": "dt"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "prog-sign"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "info-rt"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-info-b",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "info-rt",
+      "type": "dashed"
+    }
+  ]
+}

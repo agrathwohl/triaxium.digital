@@ -1,0 +1,92 @@
+{
+  "id": "v1-p251",
+  "volume": 1,
+  "section": "CMBA-7",
+  "page": 251,
+  "subject": "th-cont",
+  "title": "TH.CONT.------(R)TH.CONT.",
+  "type": "crossing",
+  "description": "Theoretical continuance relating to reality theoretical continuance. Crossing diagram in the Creative Music Black Aesthetic section showing (c)th.cont connected to composite continuance, affinity insight, total composite implications, projectional dynamics, information design, affirmative-line dynamics, lock implications, and (r)th.cont connected to information design base.",
+  "terms": [
+    {
+      "termId": "th-cont",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "th-cont",
+      "prefix": "r"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "info-doc"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "info-de-b"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-cont",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "info-de-b",
+      "type": "solid"
+    }
+  ]
+}

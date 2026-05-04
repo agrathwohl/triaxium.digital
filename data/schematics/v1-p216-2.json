@@ -1,0 +1,34 @@
+{
+  "id": "v1-p216-2",
+  "volume": 1,
+  "section": "WAC-14",
+  "page": 216,
+  "subject": "re-st",
+  "title": "RE.ST.------TRS.",
+  "type": "crossing",
+  "description": "Re-statement relating to transcendence. Crossing diagram in the Western Art Composite section showing (c)re.st connected to progressional continuance, transcendence, instructional source alignment, information affinity base, affirmative transfer, alternative action, individual tendencies, affinity insight, spirit dynamics, and intersection.",
+  "terms": [
+    { "termId": "re-st", "isSubject": true, "prefix": "c" },
+    { "termId": "trs" },
+    { "termId": "prog-cont" },
+    { "termId": "ist-s-algn" },
+    { "termId": "info-af-b" },
+    { "termId": "aftf" },
+    { "termId": "intr" },
+    { "termId": "alt-act" },
+    { "termId": "spt-dy" },
+    { "termId": "indiv-td" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "re-st", "type": "solid" },
+    { "from": "trs", "to": "re-st", "type": "solid" },
+    { "from": "ist-s-algn", "to": "re-st", "type": "solid" },
+    { "from": "info-af-b", "to": "aftf", "type": "solid" },
+    { "from": "info-af-b", "to": "intr", "type": "solid" },
+    { "from": "re-st", "to": "alt-act", "type": "solid" },
+    { "from": "alt-act", "to": "spt-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "re-st", "type": "solid" },
+    { "from": "afi", "to": "indiv-td", "type": "solid" }
+  ]
+}

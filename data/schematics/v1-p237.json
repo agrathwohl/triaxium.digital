@@ -1,0 +1,83 @@
+{
+  "id": "v1-p237",
+  "volume": 1,
+  "section": "WAC-35",
+  "page": 237,
+  "subject": "info-f-d",
+  "title": "INFO.F.D.------ALT.F.",
+  "type": "crossing",
+  "description": "Information factor dynamics relating to alternative factor. Crossing diagram in the Western Art Composite section showing info.f.d connected to alternative factor, spirit-dynamic, social reality, primary information, (c)st, spiritual world, individual dynamic tendencies, and instructional source alignment.",
+  "terms": [
+    {
+      "termId": "info-f-d",
+      "isSubject": true
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "sptc-d"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "stf",
+      "prefix": "c"
+    },
+    {
+      "termId": "spt-aw"
+    },
+    {
+      "termId": "indiv-dy-rt"
+    },
+    {
+      "termId": "ist-s-algn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "sptc-d",
+      "to": "stf",
+      "type": "dashed"
+    },
+    {
+      "from": "soc-rt",
+      "to": "info-f-d",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "spt-aw",
+      "type": "solid"
+    },
+    {
+      "from": "info-f-d",
+      "to": "spt-aw",
+      "type": "solid"
+    },
+    {
+      "from": "info-f-d",
+      "to": "ist-s-algn",
+      "type": "dashed"
+    },
+    {
+      "from": "spt-aw",
+      "to": "indiv-dy-rt",
+      "type": "solid"
+    }
+  ]
+}

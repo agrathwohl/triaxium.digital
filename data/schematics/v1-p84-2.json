@@ -1,0 +1,92 @@
+{
+  "id": "v1-p84-2",
+  "volume": 1,
+  "section": "WAM-26",
+  "page": 84,
+  "subject": "lang-dy",
+  "title": "LANG.DY.------AFL.",
+  "type": "crossing",
+  "description": "Diagram in WAM-26, paired with v1-p84-1 on the same page where Braxton names language as the key vector by which western separation propagates into social-political reality. (C)LANG-DY (language dynamics) is crossed with AFL (affinity alignment): the diagram makes the case that language dynamics, in the western frame, *are* the means by which affinity alignment is constituted (and thus by which separation is institutionalized). Three radial chains expand the subject: LANG-DY → AFL → AFTD (affinity tendencies); LANG-DY → PROG-CONT (progressional continuance) → RT-INT-TR (reality initiative traits); LANG-DY → (r)POST (the reality of postulation) → PHY-U-P (physical universe particular) → INDIV-TD (individual tendencies) → SOC-RT (social reality) → EXT-FT (extended functionalism). The structural claim is striking: there is no direct edge from language dynamics to extended functionalism — the path requires passing through postulation, the physical-universe particular, individual tendencies, and social reality first. Read against the WAM-26 prose, this stages Braxton's thesis that western 'extended functionalism' (the empirical-instrumental disposition) is *produced* by language acting on postulation, not the other way around.",
+  "terms": [
+    {
+      "termId": "lang-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "post",
+      "prefix": "r"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "rt-int-tr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "lang-dy",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "ext-ft",
+      "type": "solid"
+    }
+  ]
+}

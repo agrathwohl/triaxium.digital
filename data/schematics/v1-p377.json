@@ -1,0 +1,107 @@
+{
+  "id": "v1-p377",
+  "volume": 1,
+  "section": "NYM-11",
+  "page": 377,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.------CULT.INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram in The New York Movement section (NYM-11) condensing the structural argument running across pages 374–379 of TAW1: the reality alignment (RT-ALGN) of post-Ayler creative black music is not autonomously self-determined but is *crossed* — the (c) prefix denotes a crossing relation — with culture information dynamics (CULT-INFO-DY), the apparatus by which the white defining/controlling community processes and disseminates cultural product. The crossing is mediated, not direct: a determined chain runs from information dissemination (INFO-DS) through political policies (POL-P), redocumentation (RE-DOC), affinity compression (AF-COMP), and controlled information (CN-INFO) into political dynamics (POL-DYM) and from there onto RT-ALGN itself. Isolated focus (IST-F) and a transformation/transition node (the diagram-only term TR-TRS, fed by social reality particulars SOC-RT-P) bear directly on the subject; alternative functionalism (ALT-F) bears on CULT-INFO-DY in turn. The page's prose makes the diagram concrete: rock music's commercial dominance was crushing post-Ayler musicians economically, but Braxton's claim is structural rather than circumstantial — black creative music's reality options are constrained by the cultural-political control chain, which 'defines and discards' (NYM-12) the music through redocumentation and dissemination policy rather than through any direct engagement with the music's own thrust trajectory.",
+  "terms": [
+    {
+      "termId": "rt-algn",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "tr-trs"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "cn-info"
+    },
+    {
+      "termId": "af-comp"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "re-doc"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "info-ds"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-f",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "tr-trs",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "tr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cn-info",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "af-comp",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
+      "to": "af-comp",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "re-doc",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
+      "to": "pol-p",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v1-p80",
+  "volume": 1,
+  "section": "WAM-22",
+  "page": 80,
+  "subject": "alt-d",
+  "title": "(R)ALT.D.------AFI.",
+  "type": "crossing",
+  "description": "Diagram in WAM-22, on the page where Braxton argues that notation in western art music produced 'the gradual inability of western musicians to function creatively without notation'. The subject (R)ALT-D — the reality of alternative definitions — is crossed with AFI (affinity insight); the (c) prefix on AFI marks the crossing relation, while (p) on IST-F marks the *point of activation* code (per Braxton's CODE notation, p13–14). AFI sits at the diagram's hub: it solid-links to ALT-D (the subject), to ATTN (attraction) which dashed-links to RT-INT-TR (reality initiative traits), to ALT-C-PG (alternative composite progressionalism) → INDIV-TD (individual tendencies), and to INFO-AF-B (information affinity basis). A *dashed* edge from AFI to (p)IST-F registers that affinity insight only conditionally activates as isolated focus. The argument: under western composer-medium conditions, alternative definitions reach reality only through affinity-insight, but affinity-insight itself fans out into multiple competing channels (attraction, alternative composite progressionalism, information affinity basis) and arrives at the point-of-activation only contingently — which structurally explains why western musicians so rarely produce alternative definitions outside the notational frame.",
+  "terms": [
+    { "termId": "alt-d", "isSubject": true, "prefix": "R" },
+    { "termId": "afi", "prefix": "c" },
+    { "termId": "ist-f", "prefix": "p" },
+    { "termId": "attn" },
+    { "termId": "alt-c-pg" },
+    { "termId": "indiv-td" },
+    { "termId": "info-af-b" },
+    { "termId": "rt-int-tr" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "alt-d", "type": "solid" },
+    { "from": "afi", "to": "ist-f", "type": "dashed" },
+    { "from": "afi", "to": "attn", "type": "solid" },
+    { "from": "afi", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "indiv-td", "type": "solid" },
+    { "from": "afi", "to": "info-af-b", "type": "solid" },
+    { "from": "attn", "to": "rt-int-tr", "type": "dashed" }
+  ]
+}

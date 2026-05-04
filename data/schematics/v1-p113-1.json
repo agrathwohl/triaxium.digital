@@ -1,0 +1,116 @@
+{
+  "id": "v1-p113-1",
+  "volume": 1,
+  "section": "T(AF)M-17",
+  "page": 113,
+  "subject": "proj",
+  "title": "PROJ.------INTL.",
+  "type": "crossing",
+  "description": "Diagram in T(AF)M-17, on the page where Braxton argues that 'the actualness of black creativity functions as the most efficient generator for American creative culture, supplying either the base dynamics or vibrational identity for practically every American creative thrust involving music or dance.' (C)PROJ (projection) is crossed with INTL (intellectualism): the question is what happens to projection — black creativity's outward force into American culture — when it is processed through the western intellectualism that defines and 're-interprets' it. PROJ is fed by PRI-AF-TO (primary affinity tendencies) and P-PROG (particular progressionalism). PROJ then branches: → INTL (the crossing); → MT-INTR (multiple interpretation); → LG-DY (logical dynamics) → IST-PT (isolated particulars) → RT-ALGN (reality alignment) → INFO-OR (information order), and IST-PT → IF-ST-DY (infra-structure dynamics); → POL-DYM (political dynamics) → (r)INT (the reality of intention) → LK-IMP (linkage implications). The argument: black creativity's projection into American culture passes through *logical-dynamics* and *isolated-particulars* before reaching information order — exactly the western analytical tools Braxton identifies as separating 'the leaf from the tree.'",
+  "terms": [
+    {
+      "termId": "proj",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "intl"
+    },
+    {
+      "termId": "pri-af-to"
+    },
+    {
+      "termId": "p-prog"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "lg-dy"
+    },
+    {
+      "termId": "ist-pt"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "lk-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "pri-af-to",
+      "to": "proj",
+      "type": "solid"
+    },
+    {
+      "from": "p-prog",
+      "to": "proj",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
+      "to": "intl",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
+      "to": "lg-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lg-dy",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "lk-imp",
+      "type": "solid"
+    }
+  ]
+}

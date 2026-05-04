@@ -1,0 +1,75 @@
+{
+  "id": "v1-p72",
+  "volume": 1,
+  "section": "WAM-14",
+  "page": 72,
+  "subject": "rt-dym",
+  "title": "RT.DYM.------CULT.INFO.B.",
+  "type": "crossing",
+  "description": "Diagram in WAM-14, the page where Braxton names 'intellectual empiricism' as the dominant force shaping western culture's progressional continuance after the dissolution of its composite spiritual center. RT-DY (reality dynamics) is crossed with CULT-INFO-B (culture information basis): the diagram poses that the *basis* on which a culture processes information determines what its reality dynamics will look like. The chain runs: RT-DY → CULT-INFO-B branches into AFTD (affinity tendencies), MT-INFO (music information), and SOC-RT (social reality). SOC-RT then branches into PRI-INFO (primary information) and IST-F (isolated focus); IST-F closes via a *dashed* edge to (r)INTR (the reality of interpretation), marking that the link from isolated focus to interpretive practice is conditional rather than guaranteed. The structural argument: when culture-information basis is empirical-intellectual rather than spiritual-composite, reality dynamics no longer flow whole — they fragment into separated streams of tendency, music-information, and social reality, with isolated focus only contingently producing interpretation.",
+  "terms": [
+    {
+      "termId": "rt-dy",
+      "isSubject": true
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "aftd"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "rt-dy",
+      "to": "cult-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "intr",
+      "type": "dashed"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v1-p169-1",
+  "volume": 1,
+  "section": "UPB(II)-31",
+  "page": 169,
+  "subject": "tf-sh",
+  "title": "TF.SH.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Transfer-shift relating to primary information. Crossing diagram in the Universal Perspective Base section showing (c)tf.sh connected to transformation, primary information, cosmic perspective, cultural affinity-base, total composite implications, physical universe perspective, music information, apparent redefinition, political process, transcendence, and attention.",
+  "terms": [
+    { "termId": "tf-sh", "isSubject": true, "prefix": "c" },
+    { "termId": "pri-info" },
+    { "termId": "tr" },
+    { "termId": "cos-p" },
+    { "termId": "cult-af-bs" },
+    { "termId": "t-c-imp" },
+    { "termId": "phy-u-p" },
+    { "termId": "mt-info" },
+    { "termId": "app-rdef" },
+    { "termId": "pol-p" },
+    { "termId": "trs" },
+    { "termId": "attn" }
+  ],
+  "relationships": [
+    { "from": "tr", "to": "tf-sh", "type": "solid" },
+    { "from": "tf-sh", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "cult-af-bs", "type": "solid" },
+    { "from": "tf-sh", "to": "t-c-imp", "type": "solid" },
+    { "from": "tf-sh", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "app-rdef", "type": "solid" },
+    { "from": "mt-info", "to": "pol-p", "type": "solid" },
+    { "from": "t-c-imp", "to": "trs", "type": "solid" },
+    { "from": "phy-u-p", "to": "attn", "type": "solid" }
+  ]
+}

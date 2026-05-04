@@ -1,0 +1,96 @@
+{
+  "id": "v1-p248-2",
+  "volume": 1,
+  "section": "CMBA-4",
+  "page": 248,
+  "subject": "sg",
+  "title": "SG.------HI.P.",
+  "type": "crossing",
+  "description": "Signal relating to hierarchical perspective. Crossing diagram in the Creative Music Black Aesthetic section showing (c)sg connected to hierarchical perspective, intuition, extension factor, bias, dynamics-spirit, cosmic perspective, spirit dynamics, dynamic factor, intersection, and creative action.",
+  "terms": [
+    {
+      "termId": "si",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "hi-p"
+    },
+    {
+      "termId": "int"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "bia"
+    },
+    {
+      "termId": "dym-spt"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "c-act"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "si",
+      "to": "hi-p",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "dym-spt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "c-act",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "int",
+      "type": "solid"
+    }
+  ]
+}

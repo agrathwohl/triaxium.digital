@@ -1,0 +1,33 @@
+{
+  "id": "v1-p303",
+  "volume": 1,
+  "section": "WI-19",
+  "page": 303,
+  "subject": "rt-int-tr",
+  "title": "RT.INT.TR.------POL.P.",
+  "type": "crossing",
+  "description": "Reality intersection transfer relating to political position. Crossing diagram in the White Improvisor section showing rt.int.tr connected to total composite implications, information transference, political position, information design base, affinity composite, definition, information documentation, continuance information, and agitation.",
+  "terms": [
+    { "termId": "rt-int-tr", "isSubject": true },
+    { "termId": "t-c-imp" },
+    { "termId": "info-trns" },
+    { "termId": "pol-p" },
+    { "termId": "info-de-b" },
+    { "termId": "af-comp" },
+    { "termId": "def" },
+    { "termId": "info-doc" },
+    { "termId": "cn-info" },
+    { "termId": "agt" }
+  ],
+  "relationships": [
+    { "from": "t-c-imp", "to": "af-comp", "type": "solid" },
+    { "from": "info-trns", "to": "af-comp", "type": "solid" },
+    { "from": "pol-p", "to": "af-comp", "type": "solid" },
+    { "from": "info-de-b", "to": "def", "type": "solid" },
+    { "from": "rt-int-tr", "to": "af-comp", "type": "solid" },
+    { "from": "af-comp", "to": "def", "type": "solid" },
+    { "from": "info-doc", "to": "af-comp", "type": "solid" },
+    { "from": "cn-info", "to": "af-comp", "type": "solid" },
+    { "from": "info-doc", "to": "agt", "type": "solid" }
+  ]
+}

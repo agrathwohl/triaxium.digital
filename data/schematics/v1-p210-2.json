@@ -1,0 +1,97 @@
+{
+  "id": "v1-p210-2",
+  "volume": 1,
+  "section": "WAC-8",
+  "page": 210,
+  "subject": "sg",
+  "title": "SG.------FUND.DYM.",
+  "type": "crossing",
+  "description": "Signal relating to fundamental dynamics. Crossing diagram in the Western Art Composite section showing (c)sg connected to fundamental dynamics, composite perspective, transformation difference, physical universe perspective, vibrational platform, physical universe consideration, social reality dynamics, political dynamics, projectional dynamics, individual tendencies, and transformation matrix.",
+  "terms": [
+    {
+      "termId": "si",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "fund-dyn"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "tr-def"
+    },
+    {
+      "termId": "phy-u-p"
+    },
+    {
+      "termId": "vt-plt"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "tm"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "si",
+      "to": "fund-dyn",
+      "type": "solid"
+    },
+    {
+      "from": "fund-dyn",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "tr-def",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "si",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "tm",
+      "type": "solid"
+    }
+  ]
+}

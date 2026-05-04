@@ -1,0 +1,95 @@
+{
+  "id": "v1-p338",
+  "volume": 1,
+  "section": "PCC-22",
+  "page": 338,
+  "subject": "if-st-dy",
+  "title": "IF.ST.DY.------C.CONT.",
+  "type": "crossing",
+  "description": "Initiation factor structural dynamics relating to composite continuance. Crossing diagram in the Post-Cage Continuum section showing (c)if.st.dy connected to (r)method, composite continuance, stuff, information dynamics, postulation, cultural affinity base, instructional factor, music developing, social reality dynamics, and language dynamics.",
+  "terms": [
+    {
+      "termId": "if-st-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mth",
+      "prefix": "r"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "lang-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "if-st-dy",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "mt-devf",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-or",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    }
+  ]
+}

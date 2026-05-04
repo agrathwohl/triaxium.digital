@@ -1,0 +1,91 @@
+{
+  "id": "v1-p169-2",
+  "volume": 1,
+  "section": "UPB(II)-31",
+  "page": 169,
+  "subject": "vt-u-p",
+  "title": "(R)VT.U.P.------POL.DY.",
+  "type": "crossing",
+  "description": "Reality vibrational universe perspective relating to political dynamics. Crossing diagram in the Universal Perspective Base section showing (r)vt.u.p connected to political dynamics, progressional continuance, world experience principal, language dynamics, mta.rt.sign, affinity-alignment dynamics, info.de.b, primary affinity tendencies, and projectional dynamics.",
+  "terms": [
+    {
+      "termId": "vt-u-pt",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "pol-dym"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "mta-rt-sign"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "info-de-b"
+    },
+    {
+      "termId": "pri-af-to"
+    },
+    {
+      "termId": "proj-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "prog-cont",
+      "to": "vt-u-pt",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "vt-u-pt",
+      "type": "solid"
+    },
+    {
+      "from": "vt-u-pt",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-u-pt",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "proj-dy",
+      "type": "solid"
+    }
+  ]
+}
