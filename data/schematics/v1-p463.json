@@ -1,0 +1,37 @@
+{
+  "id": "v1-p463",
+  "volume": 1,
+  "section": "EXT.F(II)-25",
+  "page": 463,
+  "subject": "wo-exp-pri",
+  "title": "(R)WO.EXP.PRI.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Diagram in EXT.F(II)-25, on the page where Braxton diagnoses the seventies' fragmentation: 'the music scene can be broken into several different cult-like movements, and few groups seem to have any respect or affinity for what is perceived to be outside initiations. This was the state of alternative creativity in the seventies.' (R)WO-EXP-PRI — the *reality* of world expansion principle — is crossed with T-C-IMP (time continuum implications). The structural pairing is sharp: real world-expansion (not the concept) crossed with time-continuum implications asks what world-expansion would actually require to operate across cycles, given the seventies' cult-like atomization. SP-DY (spiritual dynamics) → LK-IMP (linkage implications) → TR (transformation) — a top-arc chain establishing the spiritual-linkage-transformation route as a separate constituting layer. PRI-INFO (primary information) → WO-EXP-PRI (the subject, with subject arrow). WO-EXP-PRI → T-C-IMP (the crossing). T-C-IMP → RE-ST (restructuralism, upper right). WO-EXP-PRI also feeds DYM-SEP (dynamic separation) downward; DYM-SEP fans into IST-F-AT (isolated focus activism) and RE-DOC (redocumentation). RE-DOC → PHY-U-P (physical universe particular) → GRAD (gradualism) → RE-ST. Structural argument: the reality of world expansion principle, when crossed with time-continuum implications, exposes its own structural threat — its productive line passes through dynamic separation into the redocumentation/gradualism chain that terminates at restructuralism. Restructuralism arrives via *two* paths: directly from time-continuum implications, and indirectly through the dynamic-separation → redocumentation → physical-universe → gradualism chain. The latter is the choke chain Braxton names: world-expansion's reality has to navigate dynamic separation (the cult-like atomization) and redocumentation (gradualist capture) before reaching restructuralism. The spiritual-dynamics → linkage-implications → transformation arc runs in parallel as the alternative route — bypassing the gradualism-capture chain entirely if it can be sustained.",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true, "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "spt-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "tr" },
+    { "termId": "pri-info" },
+    { "termId": "re-st" },
+    { "termId": "dym-sep" },
+    { "termId": "ist-f-at" },
+    { "termId": "re-doc" },
+    { "termId": "grad" },
+    { "termId": "phy-u-p" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "tr", "type": "solid" },
+    { "from": "pri-info", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "t-c-imp", "type": "dashed" },
+    { "from": "t-c-imp", "to": "re-st", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "dym-sep", "type": "solid" },
+    { "from": "dym-sep", "to": "ist-f-at", "type": "solid" },
+    { "from": "dym-sep", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "re-st", "type": "solid" }
+  ]
+}
