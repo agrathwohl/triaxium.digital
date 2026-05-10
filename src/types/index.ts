@@ -46,7 +46,7 @@ export type SchematicType =
 export interface SchematicTerm {
   termId: string;
   isSubject?: boolean;
-  prefix?: 'c' | 'r' | 'R' | 'p' | 'dt';
+  prefix?: 'c' | 'r' | 'R' | 'p' | 'dt' | 'po' | 'n';
   // x, y are optional - will be calculated by layout algorithm if not provided
   x?: number;
   y?: number;
