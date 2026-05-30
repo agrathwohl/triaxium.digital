@@ -1,0 +1,35 @@
+{
+  "id": "v2-p162-2",
+  "volume": 2,
+  "section": "SR(TRS)II-18",
+  "page": 162,
+  "subject": "rc",
+  "title": "RC.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-18 (Social Reality / Trans-Information, Level Two), second of two on book p162, paired with v2-p162-1. Continues the closing education argument by holding race as concept against progressional-continuance — the question of whether race-thinking can be reconciled with real cultural continuance. (C)RC (the concept of race) is crossed with PROG-CONT (progressional continuance): the question is what race-as-concept produces when crossed with progressional-continuance — under conditions where narrow information lines sustain spectacle. SPT-DY (spectacle dynamics) feeds in from the upper-left. ATTN (attention) sits between subject and partner on the left. PROG-CONT sits at the upper-center. INFO-DY (information dynamics) anchors the upper-right output. RE-ST (restructuralism) sits below the central axis. AF-DY (affinity dynamics) and VT-DY (vibrational dynamics) form the lower-right output cluster. STY (style) hangs on the lower-left margin. INDIV-DY-RT (individual-dynamics reality) anchors the lower-center. IST-PT (interior-source point) anchors the bottom-center. Structural argument: race-as-concept crossed with progressional-continuance is mediated by attention as central hub and restructuralism as lower hub. The doubled lower upstreams — style on one side, individual-dynamics-reality plus interior-source-point on the other — register Braxton's structural commitment that real continuance requires individual-dynamics-reality (the (rt) suffix marks it as real) as the deeper upstream. The diagram exposes Braxton's diagnostic: race-as-concept can productively cross with progressional-continuance only when interior-source-point is the lower foundation — when education works at that level — and only then does the affinity-dynamics/vibrational-dynamics output cluster register cultural transformation.",
+  "terms": [
+    { "termId": "rc", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "spt-dy" },
+    { "termId": "attn" },
+    { "termId": "info-dy" },
+    { "termId": "re-st" },
+    { "termId": "af-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "sty" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "ist-pt" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "attn", "to": "rc", "type": "solid" },
+    { "from": "rc", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "info-dy", "type": "solid" },
+    { "from": "rc", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "af-dy", "type": "solid" },
+    { "from": "re-st", "to": "vt-dy", "type": "solid" },
+    { "from": "sty", "to": "rc", "type": "solid" },
+    { "from": "indiv-dy-rt", "to": "re-st", "type": "solid" },
+    { "from": "ist-pt", "to": "indiv-dy-rt", "type": "solid" }
+  ]
+}

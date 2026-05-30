@@ -1,0 +1,35 @@
+{
+  "id": "v2-p520",
+  "volume": 2,
+  "section": "MP(II)-38",
+  "page": 520,
+  "subject": "tr-def",
+  "title": "(R)TR.DEF.-----RE.ST.",
+  "type": "crossing",
+  "description": "Diagram closing MP(II)-38, the section on geo-politics, alliance-formation, and the next composite cycle. The prose above the diagram names the structural object: 'the consideration of politics is not separate from what this involvement means in actual physical universe terms' — and 'the reality actualness of politics must be viewed as necessarily related to not only the state of given creative projections, but must include the future of the planet itself.' The crossing diagrams how the *transformation of working definitions* meets restructuralism at the planet-level: (R)TR-DEF (the reality of transformation-definition — what the cycle's working definitions actually are when transformation is the active mode) is crossed with RE-ST (restructuralism — actual form-rebuilding). TR-DEF sits on the left with the subject-arrow; T-C-IMP (temporal-continuity implication) hangs below as the subject's downward output and POL-P (political particulars) anchors the bottom-left as the subject's terminus. SOC-RT-INT (social-reality internal) sits centrally as the bridging hub, with INDIV-DY (individual dynamics) at the bottom-center and MT-INFO (meta-information) at the right of SOC-RT-INT as bridging-side outputs. RE-ST sits at upper-right as partner-axis; TRS (transformation) hangs centrally below RE-ST as the partner's hub, with C-CONT (composite continuance) at upper-right and WO-EXT-PRI (world-extension principle) and POL-DYM (political dynamism) on the right margin as partner-side downward chain. Structural argument: when the transformation of working definitions is crossed with restructuralism at the geo-political scale, the partner's downward chain TRS → WO-EXT-PRI → POL-DYM is the route by which world-extension actually produces political-dynamism. The subject's downward chain T-C-IMP → POL-P terminates without crossing back to the partner. SOC-RT-INT → MT-INFO on the central-right is the only edge that lets internal-social-reality reach meta-information — but it produces meta-information *about* the situation rather than feeding back into TR-DEF's definitional work. The 'forming alliances' the prose names are exactly the kind of partner-side WO-EXT-PRI moves these third-world countries (which 'have no choice but to become activists') must structurally interrupt — without holding the diagonal back across to TR-DEF, world-extension keeps producing political-dynamism on the partner side alone.",
+  "terms": [
+    { "termId": "tr-def", "isSubject": true, "prefix": "r" },
+    { "termId": "re-st" },
+    { "termId": "trs" },
+    { "termId": "c-cont" },
+    { "termId": "wo-ext-pri" },
+    { "termId": "pol-dym" },
+    { "termId": "t-c-imp" },
+    { "termId": "soc-rt-int" },
+    { "termId": "mt-info" },
+    { "termId": "pol-p" },
+    { "termId": "indiv-dy" }
+  ],
+  "relationships": [
+    { "from": "tr-def", "to": "re-st", "type": "solid" },
+    { "from": "tr-def", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "pol-p", "type": "solid" },
+    { "from": "tr-def", "to": "soc-rt-int", "type": "solid" },
+    { "from": "soc-rt-int", "to": "indiv-dy", "type": "solid" },
+    { "from": "soc-rt-int", "to": "mt-info", "type": "solid" },
+    { "from": "re-st", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "c-cont", "type": "solid" },
+    { "from": "trs", "to": "wo-ext-pri", "type": "solid" },
+    { "from": "wo-ext-pri", "to": "pol-dym", "type": "solid" }
+  ]
+}

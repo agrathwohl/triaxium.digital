@@ -1,0 +1,36 @@
+{
+  "id": "v2-p124",
+  "volume": 2,
+  "section": "AE(PD)-12",
+  "page": 124,
+  "subject": "c-cont",
+  "title": "C.CONT.------C.ACT.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-12 (Aspect Essence / Perception Dynamics, Level One), on the page where Braxton argues that the motivating factor for sixties activism 'had not so much to do with the dynamics of any one focus, but rather had to do with a greater cosmic awareness (and concern) for human rights' — and that 'however different each person's physical universe slant — in terms of so-called race or ideology — the basic affinity that solidified the resurgence of alternative functionalism in the sixties could be reduced to how people related to the concept of human rights.' (C)C-CONT (composite continuance) is crossed with C-ACT (composite activism): the question is what composite continuance produces when crossed with the composite activism that the sixties represented. (R)TM (the reality of terminology) feeds the subject. The crossing produces C-ACT, which fans into EXT-INFO-B (extension information basis), EXT-F (extension factor, via a *dashed* edge — extension is conditional), and INFO-DY (information dynamics). PR-TRS (primary transition, *dashed*) and AF-DY (affinity dynamics, *dashed*) are aspirational productive outputs. SOC-RT (social reality), TR (transformation), POST (postulation), and AFI (affinity insight) form the lower structural ground. Structural argument: composite continuance's path to composite activism requires terminology grounding upstream, with three dashed edges marking that extension, primary-transition, and affinity-dynamics are *conditional* outputs of the activism — not guaranteed by the crossing alone. The dashed structure honestly registers the sixties' aspirational rather than fully-actualized achievements.",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "c-act" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "ext-info-b" },
+    { "termId": "ext-ft" },
+    { "termId": "info-doc" },
+    { "termId": "pr-trs" },
+    { "termId": "afi" },
+    { "termId": "afl-dy" },
+    { "termId": "soc-rt" },
+    { "termId": "tr" },
+    { "termId": "post" }
+  ],
+  "relationships": [
+    { "from": "tm", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "c-act", "type": "solid" },
+    { "from": "c-act", "to": "ext-info-b", "type": "solid" },
+    { "from": "c-act", "to": "ext-ft", "type": "dashed" },
+    { "from": "c-act", "to": "info-doc", "type": "solid" },
+    { "from": "c-act", "to": "pr-trs", "type": "dashed" },
+    { "from": "c-act", "to": "afl-dy", "type": "dashed" },
+    { "from": "soc-rt", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "post", "type": "solid" },
+    { "from": "post", "to": "afi", "type": "solid" }
+  ]
+}

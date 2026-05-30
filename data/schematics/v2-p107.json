@@ -1,0 +1,35 @@
+{
+  "id": "v2-p107",
+  "volume": 2,
+  "section": "AF(D)-35",
+  "page": 107,
+  "subject": "vt-u-pt",
+  "title": "VT.U.PT.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-35 (Affinity Dynamics, Level One) opening Braxton's section on dis-unification: 'the most basic resultant that has developed through information compression has been the multi-levels of dis-unification between people (regardless of nationality or affinity nature) — and as a result, non-functionalism.' (C)VT-U-PT (the concept of vibrational-universe point) is crossed with C-CONT (composite continuance): the question is what vibrational-universe-point produces when crossed with composite-continuance — under conditions where dis-unification has produced non-functionalism. HI-P (high principle), PROJ-DY (projectional dynamics), and C-CONT cluster in the upper register. MT-INFO (multi-information) and PRI-INFO (principle information) anchor the upper-right output. COS-P (cosmic principle) and WO-EXP-PRI (world experiential principles) feed in from the lower-left. IF-ST-DY (information-style dynamics) sits centrally. MTA-RT-SIGN (meta-reality significance) hangs on the lower-right margin. T-C-IMP (temporal-continuity implication) anchors the lower-center. Structural argument: vibrational-universe-point crossed with composite-continuance is mediated by information-style-dynamics — exposing Braxton's structural diagnostic that under dis-unification, even the most fundamental vibrational orientation gets routed through *style-dynamics* rather than substance. The doubled upstreams (cosmic-principle plus world-experiential-principles on one side, temporal-continuity-implication on the other) are what hold the crossing together — when those fail, composite-continuance collapses into multi-information-as-data without meta-reality-significance, which is exactly the non-functionalism Braxton describes.",
+  "terms": [
+    { "termId": "vt-u-pt", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "hi-p" },
+    { "termId": "proj-dy" },
+    { "termId": "mt-info" },
+    { "termId": "pri-info" },
+    { "termId": "cos-p" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "if-st-dy" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "t-c-imp" }
+  ],
+  "relationships": [
+    { "from": "vt-u-pt", "to": "c-cont", "type": "solid" },
+    { "from": "hi-p", "to": "c-cont", "type": "solid" },
+    { "from": "proj-dy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "c-cont", "to": "pri-info", "type": "solid" },
+    { "from": "cos-p", "to": "vt-u-pt", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "if-st-dy", "type": "solid" },
+    { "from": "vt-u-pt", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "t-c-imp", "to": "if-st-dy", "type": "solid" }
+  ]
+}

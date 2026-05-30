@@ -1,0 +1,33 @@
+{
+  "id": "v2-p119",
+  "volume": 2,
+  "section": "AE(PD)-7",
+  "page": 119,
+  "subject": "c-act",
+  "title": "C.ACT.------POL.SIGN.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-7 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's analysis of CORE (Congress of Racial Equality) and sixties alternative-functionalism: 'As early as 1964 one could view the solidification of dynamic functionalism in American social reality. This was especially true for the emergence of alternative functionalism — as related to the reality position of poor and disenfranchised Americans.' (C)C-ACT (the concept of composite activism) is crossed with POL-SIGN (political significance): the question is what composite-activism produces when crossed with political-significance — composite-activism being CORE's mode (multiple groups, multiple cities, multiple issues unified by structural concern). PROG-SIGN (progressional significance) feeds in from the upper-left. C-ACT itself sits centrally at the top. RE-ST (restructuralism) anchors the upper-right output. EXP-DY (experimental dynamics) and DEC (decision) form the upper-center cluster. INFO-DS (information descent) sits below the crossing line. POL-SIGN appears with GRAD (gradualism) as the partner. PHY-U-P (physical universe particulars) hangs on the right output via a *dashed* edge from POL-SIGN to GRAD — conditional. CRTF-D (creative-dynamic) anchors the lower-center via another dashed edge. Structural argument: composite-activism crossed with political-significance produces restructuralism as the primary output, with physical-universe-particulars as a *conditional* (dashed) downstream of gradualism. The dashed edges expose Braxton's structural diagnostic: composite-activism in the early sixties produced *real* restructuralism precisely because it did not commit to gradualism — gradualism's link to physical-universe-particulars was held dashed (conditional), reserving the option for non-gradual change. The diagram is the structural reason early-sixties activism worked: experimental-dynamics and decision were upper upstreams (not gradualism), and restructuralism was the productive output.",
+  "terms": [
+    { "termId": "c-act", "isSubject": true, "prefix": "c" },
+    { "termId": "pol-sign" },
+    { "termId": "prog-sign" },
+    { "termId": "re-st" },
+    { "termId": "exp-dy" },
+    { "termId": "dec" },
+    { "termId": "info-ds" },
+    { "termId": "grad" },
+    { "termId": "phy-u-p" },
+    { "termId": "crtf-d" }
+  ],
+  "relationships": [
+    { "from": "prog-sign", "to": "c-act", "type": "solid" },
+    { "from": "c-act", "to": "pol-sign", "type": "solid" },
+    { "from": "c-act", "to": "re-st", "type": "solid" },
+    { "from": "exp-dy", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "c-act", "type": "solid" },
+    { "from": "info-ds", "to": "pol-sign", "type": "solid" },
+    { "from": "pol-sign", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "phy-u-p", "type": "dashed" },
+    { "from": "grad", "to": "crtf-d", "type": "dashed" }
+  ]
+}

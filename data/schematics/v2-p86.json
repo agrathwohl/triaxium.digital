@@ -1,0 +1,39 @@
+{
+  "id": "v2-p86",
+  "volume": 2,
+  "section": "AF(D)-14",
+  "page": 86,
+  "subject": "cul-tf-s",
+  "title": "CUL.TF.S.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-14 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the great predominance of information spread (or transfer) has been brought about through the destruction of nation against nation — what we call war' — that war-driven transfer brings 'special problems with respect to the reality underlying how information is viewed.' (C)CUL-TF-S (the concept of cultural transfer source) is crossed with SOC-RT-DY (social reality dynamics): the question is what cultural-transfer-source produces when crossed with social-reality-dynamics under war-mediated transfer conditions. C-INFO (composite information), MT-INFO (multi-information), and S-ST (source-state) form the upper-center cluster. RT-DY (reality dynamics) and LANG-DY (language dynamics) anchor the upper-right output. SOC-RT-DY (social reality dynamics) itself is the central crossing axis. AFL (affinity alignment) sits below. CULT-AF-B (culture affinity basis) feeds upward from the lower-left via a *dashed* edge (conditional). (R)INTR (the reality of interior) anchors the lower-left via another dashed edge. TH-CONT (theoretical continuance), (R)IST-F (reality of interior-source functionalism), and IST-F (interior-source functionalism) form the lower-right cluster with another dashed connection. Structural argument: the multiple dashed edges expose Braxton's structural diagnostic — under war-mediated transfer, the link between cultural-transfer-source and culture-affinity-basis, between reality-interior and the crossing, and between social-reality-dynamics and interior-source-functionalism, are all *conditional* rather than guaranteed. The diagram exposes that war does transfer information but corrupts the fidelity of the very upstreams (interior, affinity-basis, source-functionalism) that would make the transferred information productive.",
+  "terms": [
+    { "termId": "cul-tf-s", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "c-info" },
+    { "termId": "mt-info" },
+    { "termId": "s-st" },
+    { "termId": "rt-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "afl" },
+    { "termId": "cult-af-b" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "th-cont" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "cul-tf-s", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "s-st", "type": "dashed" },
+    { "from": "cul-tf-s", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "afl", "type": "solid" },
+    { "from": "cul-tf-s", "to": "cult-af-b", "type": "dashed" },
+    { "from": "cult-af-b", "to": "intr", "type": "dashed" },
+    { "from": "afl", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "ist-f", "type": "dashed" },
+    { "from": "afl", "to": "ist-f", "type": "solid" }
+  ]
+}

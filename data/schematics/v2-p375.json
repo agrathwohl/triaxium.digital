@@ -1,0 +1,32 @@
+{
+  "id": "v2-p375",
+  "volume": 2,
+  "section": "R(AS)CM(II)-19",
+  "page": 375,
+  "subject": "info-f",
+  "title": "INF.F.-----RT.DY.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(II)-19, the section on advertising and the present-day machinery of music promotion. The prose immediately above identifies the structural target: 'I find it amazing that there is an audience for classical and creative (let alone \"world\") music at all — not that there isn't any advertising for alternative forms to some degree, but the composite thrust of present-day machinery for popular music is almost overwhelming. The seriousness of what this phenomenon means is not separate from the reality realness of creative music.' The crossing diagrams what information-form actually meets when the machinery of advertising is the working partner: INFO-F (information form — the form the music's information takes as it travels in the media) is crossed with RT-DY (reality dynamics — what the advertising machinery treats as actually-real for the receiving public). INFO-F sits on the left with the subject-arrow; ACT (action) rises above as the subject's upper output and CULT-INFO-BS (cultural-information base, written as 'cult.info.bs.') sits at the upper-right as the bridging hub. GRAD (gradualism) hangs at lower-left and PROG-CONT (progressional continuance) sits centrally below as the subject's downward hub, with STF (structural-formal) at the bottom and AF-NT (affinity natural) at the bottom-right as the subject's downward terminus. RT-DY sits at the right as partner-axis; CN-INFO (continuance-information) hangs on the right margin as the partner's downward output. Structural argument: the upper diagonal ACT → CULT-INFO-BS → RT-DY is the *advertising route* — the form's action gets received only when the cultural-information-base hub is held open, and from there reality-dynamics receives the form into continuance-information. The subject's downward chain GRAD → PROG-CONT → STF/AF-NT is what information-form produces on its own when the upper diagonal is *not* held — gradualism routes through progressional-continuance into structural-formal and affinity-natural, the form's own working outputs without the machinery's reception. The overwhelm the prose names is structurally that the upper diagonal for popular music is always-already held by advertising machinery while for creative and classical music it is structurally not; the audience nevertheless reaches the music via the subject's downward chain, which is the structural answer to why the prose says it is 'amazing that there is an audience' at all.",
+  "terms": [
+    { "termId": "info-f", "isSubject": true },
+    { "termId": "rt-dy" },
+    { "termId": "act" },
+    { "termId": "cult-info-bs" },
+    { "termId": "cn-info" },
+    { "termId": "grad" },
+    { "termId": "prog-cont" },
+    { "termId": "stf" },
+    { "termId": "af-nt" }
+  ],
+  "relationships": [
+    { "from": "info-f", "to": "rt-dy", "type": "solid" },
+    { "from": "info-f", "to": "act", "type": "solid" },
+    { "from": "act", "to": "cult-info-bs", "type": "solid" },
+    { "from": "cult-info-bs", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "cn-info", "type": "solid" },
+    { "from": "info-f", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "stf", "type": "solid" },
+    { "from": "prog-cont", "to": "af-nt", "type": "solid" }
+  ]
+}

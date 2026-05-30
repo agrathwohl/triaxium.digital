@@ -1,0 +1,35 @@
+{
+  "id": "v2-p501",
+  "volume": 2,
+  "section": "MP(II)-19",
+  "page": 501,
+  "subject": "proj-dy",
+  "title": "(R)PROJ.DY.------GRAD.",
+  "type": "crossing",
+  "description": "Diagram closing MP(II)-19, the section on Africa as the site of the next political transformation. The prose above the diagram identifies its argument: 'the dynamics of the next transition in Africa will be very interesting for what its liberation will mean to alternative functionalism. Because the seriousness of colonial manipulation has created a necessarily complex situation for information dynamics and expansion dictates.' The crossing diagrams that complexity: (R)PROJ-DY (the reality of projection-dynamics — what actual liberation-projection consists of, on the ground) is crossed with GRAD (gradualism — the temporal pacing the colonial situation has made structurally necessary). PROJ-DY sits centrally with the subject-arrow; T-C-IMP (temporal-continuity implication) anchors the left margin, with TRS rising up-right to ALT-F (alternative form) at the top-left. INTR (introduction) sits centrally to the right of PROJ-DY as the bridging hub. POL-DY (political dynamics) and INFO-COMP (information composite) anchor the bottom-center and lower-left as subject downward outputs. GRAD sits at upper center-right as partner-axis; INT (intention) hangs to its right and MT-INFO (meta-information) anchors the right margin. CULT-AF-B (cultural-affinity base) sits centrally on the partner side. Structural argument: when projection-dynamics is crossed with gradualism, the diagonal from TRS up to ALT-F shows the subject's path through transformation into alternative-form — but ALT-F has *no edge* back to GRAD on the partner-axis. The diagonal from INT down to MT-INFO is the partner's downward chain, but MT-INFO does not reach back to INTR's central hub. INTR → CULT-AF-B is the only edge that lets the bridging hub reach the partner side — and through CULT-AF-B is the only route a liberation-projection's cultural-affinity-base can route back to the subject's POL-DY / INFO-COMP outputs. The 'necessarily complex situation' the prose names is exactly this: only the central INTR → CULT-AF-B edge holds, and it must do all the work of converting the projection's intentions into composite-information without the upper diagonals carrying the alternative-form load.",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "grad" },
+    { "termId": "alt-f" },
+    { "termId": "trs" },
+    { "termId": "t-c-imp" },
+    { "termId": "intr" },
+    { "termId": "int" },
+    { "termId": "mt-info" },
+    { "termId": "cult-af-b" },
+    { "termId": "info-comp" },
+    { "termId": "pol-dy" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "grad", "type": "solid" },
+    { "from": "proj-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "alt-f", "type": "solid" },
+    { "from": "proj-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "proj-dy", "to": "info-comp", "type": "solid" },
+    { "from": "proj-dy", "to": "intr", "type": "solid" },
+    { "from": "grad", "to": "int", "type": "solid" },
+    { "from": "int", "to": "mt-info", "type": "solid" },
+    { "from": "intr", "to": "cult-af-b", "type": "solid" },
+    { "from": "proj-dy", "to": "pol-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "v2-p56",
+  "volume": 2,
+  "section": "SD(SY)-34",
+  "page": 56,
+  "subject": "phy-u-fund",
+  "title": "PHY.U.FUND.------TR.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-34 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the diversion sequence syndrome … does in fact affirm an alternative vibration — or vibrational intention — and we are forced to look at how given considerations can be incorporated into the general reality of the society without actually changing the essence factor of the culture.' (C)PHY-U-FUND (the concept of physical-universe-fundamental) is crossed with TR (transformation): the question is what physical-universe-fundamental requires to produce transformation, when the establishment has the sophistication to absorb alternative considerations without essence-factor change. OBS (observation) and C-INFO (composite information) feed downward into the upper-center. P-FC (point-focus) sits between observation and the crossing arrow into the subject. TR appears twice in the diagram (once as the partner output, once as an inner node on the upper-right), registering that transformation is being marked at two levels — as conceptual partner and as actual interior structure. C-AF-ALGN (composite affinity alignment) anchors the lower-center, feeding upward into the crossing. RE-ST (restructuralism) hangs on the right margin. Structural argument: physical-universe-fundamental's path to transformation is mediated through point-focus, with observation and composite-information as upper upstreams and composite-affinity-alignment as the lower upstream. The duplicated TR is load-bearing: it registers Braxton's diagnostic that 'transformation' as the establishment uses it (the inner TR) is not the same as actual transformation (the partner TR) — the diagram exposes the gap between absorbed-transformation and essence-changing-transformation.",
+  "terms": [
+    { "termId": "phy-u-fund", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "obs" },
+    { "termId": "c-info" },
+    { "termId": "p-fc" },
+    { "termId": "re-st" },
+    { "termId": "c-af-algn" }
+  ],
+  "relationships": [
+    { "from": "obs", "to": "p-fc", "type": "solid" },
+    { "from": "c-info", "to": "tr", "type": "solid" },
+    { "from": "p-fc", "to": "phy-u-fund", "type": "solid" },
+    { "from": "phy-u-fund", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "re-st", "type": "solid" },
+    { "from": "c-af-algn", "to": "phy-u-fund", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v2-p479",
+  "volume": 2,
+  "section": "MP(I)-53",
+  "page": 479,
+  "subject": "info-dy",
+  "title": "INFO.DY.-----SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-53 — the section on rock music's appeal to the controlling political forces of western culture as a *sanctioned* form. The prose immediately above identifies the structural mechanism: 'the utilization of rock music was found to be attractive because the meta-reality of the form was not in disagreement with the vibrational arena of the controlling community — in short, the forces controlling events in the west utilize rock to the extent they do because there is no separation between what that form is and who they are — and the controlling forces dictating policy in the American functional establishment are not revolutionary... Rock music was found to be an attractive commodity because of its ability to fall within the sanctioned reality of American culture — that is: the idea of rock having anything to do with revolution was an idea probably thought up at Columbia Records.' The crossing diagrams the structural fit between rock-information-dynamics and the sanctioned social-reality: INFO-DY (information dynamics — the form's actual information working) crossed with SOC-RT (social reality — the sanctioned receiving cultural reality). INFO-DY sits on the left with the subject-arrow; DEC (decision) sits at upper-center and RT-DY (reality dynamics) at the upper-right with INDIV-DY-RT (individual-dynamics reality) on the right margin as partner-side upper outputs. SPT-DY (spectacle dynamics) hangs at the left as the subject's leftward output, with TR (transformation), BIA (bias), LANG (language), and CRTF-PROG (creative-progression) clustered at the bottom-left through bottom-center as the subject-side downward chain. SOC-RT sits at center-right as partner-axis with (P)RE-DIF (physical-universe redefinitions) hanging below as the partner's downward output. Structural argument: when information-dynamics is crossed with social-reality at rock's sanctioned-form scale, the upper diagonal DEC → RT-DY → INDIV-DY-RT is the *sanctioned route* — decision routes through reality-dynamics into individual-dynamics reality, the partner-axis's working chain that the controlling community can already process. The subject's leftward and lower chain SPT-DY → TR → BIA → LANG → CRTF-PROG is what information-dynamics produces on its own when the upper diagonal is held by the partner without contention — spectacle, transformation, bias-language-creative-progression all routed into the subject's own chain without ever crossing into the partner-axis's contentful machinery. (P)RE-DIF on the partner-bottom is the *physical-universe redefinitions* the partner-axis converts the form into — exactly the Columbia-Records redefinition the prose names. The rhetorical question 'why didn't it record and distribute records by Malcolm X?' is structurally why: Malcolm X's actual information-dynamics would have required the subject's lower chain to cross back into the partner-axis, breaking the sanctioned-route's clean upper-diagonal pass.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "dec" },
+    { "termId": "rt-dy" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "spt-dy" },
+    { "termId": "re-dif", "prefix": "p" },
+    { "termId": "tr" },
+    { "termId": "bia" },
+    { "termId": "lang" },
+    { "termId": "crtf-prog" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "info-dy", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "info-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "lang", "type": "solid" },
+    { "from": "lang", "to": "crtf-prog", "type": "solid" },
+    { "from": "soc-rt", "to": "re-dif", "type": "solid" }
+  ]
+}

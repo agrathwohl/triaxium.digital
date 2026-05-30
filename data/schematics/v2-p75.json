@@ -1,0 +1,37 @@
+{
+  "id": "v2-p75",
+  "volume": 2,
+  "section": "AF(D)-3",
+  "page": 75,
+  "subject": "bia",
+  "title": "BIA.-----MULT.INFO.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-3 (Affinity Dynamics, Level One) anchoring Braxton's central claim of the chapter: 'the collected forces of western culture have deliberately designed a reality perspective that retards the function of any affinity slant other than what it perceives as its own … only a selected area of information is made available to the public.' (C)BIA (the concept of bias) is crossed with (C)MULT-INFO (the concept of multi-information): the question is what bias produces when crossed with multi-information — bias being the western-culture filter, multi-information being what is being filtered out. Both subject and partner take the (c) prefix, marking that the crossing operates at the conceptual register (Braxton is analyzing the structural design, not just particular instances). C-ACT (composite activism) anchors the upper-right output. PRIN-INFO (principle information) sits between subject and partner as central hub. CULT-INFO-F (culture-information functionalism) feeds in from the left. POST (postulation) anchors the lower-center. (R)INFO-DE (the reality of information descent), AFI (affinity insight), and EXT-FT (extended functionalism) cluster on the right output chain. C-INFO (composite information), DYM-F (dynamics fundamentals), and EXPM (experimental) form the lower upstream chain. Structural argument: bias crossed with multi-information is mediated through principle-information as the central hub. The (c) prefix on both subject and partner is the structural claim: this is not about particular biases or particular information items, but about the *concept-level* design of western information filtering. The diagram exposes that real multi-information output (composite-activism, the reality of information-descent, extended-functionalism) is blocked precisely at the principle-information hub — which is where the design Braxton names operates.",
+  "terms": [
+    { "termId": "bia", "isSubject": true, "prefix": "c" },
+    { "termId": "mult-info", "prefix": "c" },
+    { "termId": "c-act" },
+    { "termId": "prin-info" },
+    { "termId": "cult-info-f" },
+    { "termId": "post" },
+    { "termId": "info-de", "prefix": "r" },
+    { "termId": "afi" },
+    { "termId": "ext-ft" },
+    { "termId": "c-info" },
+    { "termId": "dym-f" },
+    { "termId": "expm" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "prin-info", "type": "solid" },
+    { "from": "prin-info", "to": "mult-info", "type": "solid" },
+    { "from": "mult-info", "to": "c-act", "type": "solid" },
+    { "from": "mult-info", "to": "info-de", "type": "solid" },
+    { "from": "cult-info-f", "to": "bia", "type": "solid" },
+    { "from": "info-de", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "ext-ft", "type": "solid" },
+    { "from": "prin-info", "to": "post", "type": "solid" },
+    { "from": "c-info", "to": "bia", "type": "solid" },
+    { "from": "dym-f", "to": "post", "type": "solid" },
+    { "from": "expm", "to": "afi", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v2-p184-2",
+  "volume": 2,
+  "section": "SR(TRS)II-40",
+  "page": 184,
+  "subject": "def",
+  "title": "(R)DEF.------ AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-40 (Social Reality / Trans-Information, Level Two), second of two on book p184, paired with v2-p184-1. Continues the definition argument: 'the significance of definition is directly related to the total concept of positive transformation. For the reality options of a given group are not separate from how that group perceives of itself.' (R)DEF (the reality of definition) is crossed with AF-DY (affinity dynamics): the question is what definition produces in its actual instantiation when crossed with affinity-dynamics — the (R) prefix marking that real definition (not imposed definition) is what links to real affinity-dynamics. PRIN-INFO (principle information) sits at the upper-center. (R)ATTN (the reality of attention) anchors the upper-right output. PHY-U-C (physical-universe conditions) sits between subject and partner. POL-DY (political dynamics) and P-PROG (positive progression) cluster on the right output. POST (postulation) feeds in from below-left. AF-DY itself is the partner-hub at the center-right. SPI-GH (spiritual ghost — Braxton's term for a spiritual presence that affects without obvious cause) anchors the lower-center. PART (participation) sits between subject and the lower output. AFI (affinity insight) anchors the bottom-center. Structural argument: definition-as-real crossed with affinity-dynamics is mediated by physical-universe-conditions as central hub. The (r) prefix on attention is load-bearing — only real attention (not spectacle-attention) connects principle-information to definition. The spiritual-ghost node is rare and load-bearing: it registers Braxton's structural commitment that the link from postulation through participation to affinity-insight runs through a *spiritual presence*, not just causal mechanism. Real definition therefore requires real attention plus spiritual-ghost as parallel mediators between principle-information and the affinity-dynamics output that constitutes group self-perception.",
+  "terms": [
+    { "termId": "def", "isSubject": true, "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "prin-info" },
+    { "termId": "attn", "prefix": "r" },
+    { "termId": "phy-u-c" },
+    { "termId": "pol-dy" },
+    { "termId": "p-prog" },
+    { "termId": "post" },
+    { "termId": "spi-gh" },
+    { "termId": "part" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "def", "to": "prin-info", "type": "solid" },
+    { "from": "prin-info", "to": "attn", "type": "solid" },
+    { "from": "def", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "af-dy", "to": "p-prog", "type": "solid" },
+    { "from": "post", "to": "def", "type": "solid" },
+    { "from": "af-dy", "to": "spi-gh", "type": "solid" },
+    { "from": "post", "to": "part", "type": "solid" },
+    { "from": "part", "to": "spi-gh", "type": "solid" },
+    { "from": "spi-gh", "to": "afi", "type": "solid" }
+  ]
+}

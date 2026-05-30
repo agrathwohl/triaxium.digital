@@ -1,0 +1,38 @@
+{
+  "id": "v2-p435",
+  "volume": 2,
+  "section": "MP(I)-9",
+  "page": 435,
+  "subject": "alt-ft",
+  "title": "ALT.FT.------POL.DY.",
+  "type": "crossing",
+  "description": "Diagram opening MP(I)-9 — the section connecting alternative-creativity to political-consciousness in the sixties. The prose below the diagram identifies what the crossing diagrams: 'there was, of course, a relationship between alternative creativity and the emergence of political consciousness in the sixties. For the realness of this period in time would establish a particular vibrational state that permeated the composite spectrum of \"doing.\"' The crossing diagrams that relationship structurally: ALT-FT (alternative functionalism — the form's actual working) is crossed with POL-DY (political dynamics — the actual political-working the form gets crossed with). ALT-FT sits on the left with the subject-arrow; DIS-C-CT (disconnect) rises above and ACT (action) sits at top-right with UNF-PI (unified physical-information-implication) on the right margin and ACC-FT (accumulated functionalism) below — the partner-side's upper outputs. RT-ALGN (reality alignment) sits centrally below the subject, with DEF (definition) hanging immediately below RT-ALGN and SOC-RT-INT (social-reality internal) at the lower-left as the subject's downward chain. INFO-TRNS (information-transition) sits centrally as the bridging hub; POL-DY is partner-axis at center-right with TRS (transformation) on the right and LK-IMP (linkage implication) at the bottom-center as bridging terminus. Structural argument: when alternative-functionalism is crossed with political-dynamics in the sixties, the partner's upper chain DIS-C-CT → ACT → UNF-PI / ACC-FT is the route by which alternative-creativity's *action* gets converted into unified-physical-implication and accumulated-functionalism — the actual political reading the sixties gave. The subject's downward chain RT-ALGN → DEF and SOC-RT-INT is what alternative-functionalism produces on its own — reality-alignment routes through definition into social-reality-internal. The central diagonal SOC-RT-INT → INFO-TRNS → POL-DY → TRS is the *bridging route* — social-reality-internal supplies the information-transition that POL-DY converts into transformation. LK-IMP at the bottom is the load-bearing terminus: information-transition reaches linkage-implication only when the bridging hub holds. The 'vibrational state that permeated the composite spectrum of doing' the prose names is precisely the bridging hub doing exactly this work — without INFO-TRNS, the upper chain absorbs alternative-functionalism's action into political-dynamics on the partner side alone, and the linkage-implication that would make the sixties' alternative-creativity politically coherent never arrives.",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true },
+    { "termId": "pol-dy" },
+    { "termId": "dis-c-ct" },
+    { "termId": "act" },
+    { "termId": "unf-pi" },
+    { "termId": "acc-ft" },
+    { "termId": "rt-algn" },
+    { "termId": "def" },
+    { "termId": "info-trns" },
+    { "termId": "soc-rt-int" },
+    { "termId": "trs" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "pol-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "dis-c-ct", "type": "solid" },
+    { "from": "dis-c-ct", "to": "act", "type": "solid" },
+    { "from": "act", "to": "unf-pi", "type": "solid" },
+    { "from": "act", "to": "acc-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "def", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt-int", "type": "solid" },
+    { "from": "soc-rt-int", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "pol-dy", "type": "solid" },
+    { "from": "info-trns", "to": "lk-imp", "type": "solid" },
+    { "from": "pol-dy", "to": "trs", "type": "solid" }
+  ]
+}

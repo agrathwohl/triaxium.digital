@@ -1,0 +1,28 @@
+{
+  "id": "v2-p248",
+  "volume": 2,
+  "section": "CMOA(II)-6",
+  "page": 248,
+  "subject": "afi",
+  "title": "AFI.------(R)PART.OR.POST.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-6 (Creative Music Outside of America, Level One) accompanying Braxton's claim that 'the principal interest in black postulation dynamics … developed as a result of the composite projectional spread of black creative invention in the last three thousand years.' (C)AFI (the concept of affinity insight) is crossed with (R)PART-OR-POST (the reality of participation OR postulation): the question is what affinity-insight produces when crossed with the disjunctive partner participation-or-postulation — the disjunction itself is load-bearing, registering Braxton's structural distinction that European reception of black creativity could result in either real participation or real postulation, not both simultaneously. SI (something interesting) anchors the upper-right output. COS-ASN (cosmic assignment) sits between subject and partner. OP-SPD (option-spread) anchors the right margin. PRI-INFO (principle information) sits below the central axis. AFL-DY (affinity-alignment dynamics) hangs on the lower-center via a *dashed* edge to PRI-INFO — conditional. (R)PART-OR-POST itself is the disjunctive partner. Structural argument: affinity-insight crossed with the disjunctive participation-or-postulation is mediated by cosmic-assignment as central hub — Braxton's structural commitment that the participation-vs-postulation choice in European reception is a cosmically-assigned matter, not a stylistic one. The dashed edge between principle-information and affinity-alignment-dynamics is the diagnostic: real principle-information has only a conditional link to affinity-alignment-dynamics in this configuration, exposing why European audiences sometimes participate and sometimes postulate but rarely both — the cosmic-assignment hub forces the disjunction.",
+  "terms": [
+    { "termId": "afi", "isSubject": true, "prefix": "c" },
+    { "termId": "part-or-post", "prefix": "r" },
+    { "termId": "si" },
+    { "termId": "cos-asn" },
+    { "termId": "op-spd" },
+    { "termId": "pri-info" },
+    { "termId": "afl-dy" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "cos-asn", "type": "solid" },
+    { "from": "cos-asn", "to": "si", "type": "solid" },
+    { "from": "cos-asn", "to": "part-or-post", "type": "solid" },
+    { "from": "part-or-post", "to": "op-spd", "type": "solid" },
+    { "from": "afi", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "part-or-post", "type": "solid" },
+    { "from": "pri-info", "to": "afl-dy", "type": "dashed" }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "v2-p135",
+  "volume": 2,
+  "section": "AE(PD)-23",
+  "page": 135,
+  "subject": "ist-f",
+  "title": "(R)IST.F.------ALT.FT.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-23 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's call: 'the resolidification of composite activism is directly related to the nature of the next transformation (that being, the realness that the coming transformation can only be shaped — not stopped). The nature of the meta-reality position of western information dynamics must be re-examined now — for the particulars of its dynamic misinterpretations permeate the whole of western culture, from our relationship to creativity as well as our understanding of functionalism.' (R)IST-F (the reality of interior-source functionalism) is crossed with ALT-FT (alternative functionalism): the question is what interior-source-functionalism produces in its actual instantiation when crossed with alternative-functionalism — both subject and partner being the meta-reality terms Braxton calls for re-examination. HI-P (high principle) sits upper-center. INFO-SOLD (information solidification), PART (participation), POL-DY (political dynamics), and PROG-CONT (progressional continuance) form the upper-right output cluster. EXT-DY (extended dynamics) and APL-DT (applied determining) feed in from the upper-left. SCI-DY (scientific dynamics) sits centrally. WO-UNF (world unification) anchors the left margin. ALT-FT itself is the partner. MOT-DY (motion dynamics) and DYM-SPT (dynamics-spectacle) form the lower-center upstream cluster. SOC-RT-DY (social-reality dynamics) anchors the lower-left. Structural argument: interior-source-functionalism-as-real crossed with alternative-functionalism is fed by extended-dynamics plus applied-determining (upper upstream) and motion-dynamics, dynamics-spectacle, and social-reality-dynamics (triple lower upstream). The productive output cluster of four (information-solidification, participation, political-dynamics, progressional-continuance) is held together by high-principle. The diagram is Braxton's structural case for re-examination: alternative-functionalism requires reality-interior-source-functionalism as crossing-partner, world-unification as edge condition, and at least three lower upstreams — and only then does it produce the participation-political-progressional cluster that constitutes meaningful transformation.",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true, "prefix": "r" },
+    { "termId": "alt-ft" },
+    { "termId": "hi-p" },
+    { "termId": "info-sold" },
+    { "termId": "part" },
+    { "termId": "pol-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "ext-dy" },
+    { "termId": "apl-dt" },
+    { "termId": "sci-dy" },
+    { "termId": "wo-unf" },
+    { "termId": "mot-dy" },
+    { "termId": "dym-spt" },
+    { "termId": "soc-rt-dy" }
+  ],
+  "relationships": [
+    { "from": "ist-f", "to": "hi-p", "type": "solid" },
+    { "from": "hi-p", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "part", "type": "solid" },
+    { "from": "part", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "ext-dy", "to": "ist-f", "type": "solid" },
+    { "from": "apl-dt", "to": "ist-f", "type": "solid" },
+    { "from": "sci-dy", "to": "alt-ft", "type": "solid" },
+    { "from": "wo-unf", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "alt-ft", "type": "solid" },
+    { "from": "mot-dy", "to": "sci-dy", "type": "solid" },
+    { "from": "dym-spt", "to": "alt-ft", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "mot-dy", "type": "solid" }
+  ]
+}

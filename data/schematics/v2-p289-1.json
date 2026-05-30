@@ -1,0 +1,35 @@
+{
+  "id": "v2-p289-1",
+  "volume": 2,
+  "section": "CMOA(II)-47",
+  "page": 289,
+  "subject": "pri-info",
+  "title": "PRI.INFO.------AF.DY.",
+  "type": "crossing",
+  "description": "First of two diagrams closing CMOA(II)-47 (Creative Music Outside of America, Level Two — the principle-exposure cycle). The prose immediately above argues that by the time a given projection completes its principle-exposure cycle, 'many other dynamic factors at work' have entered — 'many of which have nothing to do with the music (as far as the meta-reality implications of thrust alignment implies) — and some of which are directly the inverse of what the music poses as a positive transformational and vibrational tool.' This crossing diagrams that inversion: PRI-INFO (principle information — the structured exposure-narrative built around a new thrust alignment) is crossed with AF-DY (affinity dynamics — what the music actually does vibrationally to listener-communities). (C)PRI-INFO sits as subject in the upper-left with the subject-arrow; AF-DY anchors the upper-right as partner-center. INFO-INTR (information introduction) drops directly from PRI-INFO and feeds the central cluster of (R)TM and CULT-AF-BS, where the *reality* of the time-cycle meets the cultural-affinity-base that is supposed to receive the new form. (R)EXTN (the reality of extension) anchors the lower-left margin, and CR-INFO-DY (creative-information dynamics) and EXP-DY (exposure dynamics) sit at the bottom of the subject-side — these are the outputs Braxton expects the principle-information system to produce. On the partner side, AF-DY feeds rightward into STF (structural-formal phenomenon) and downward into CULT-INFO-B (cultural-information base). The structural argument: when principle-information is crossed with affinity-dynamics, the diagram's diagonals show the inversion the prose names — the (R)TM/CULT-AF-BS central cluster, which should belong to PRI-INFO's downward chain, is pulled diagonally up-right into the STF/CULT-INFO-B partner cluster, while CULT-INFO-B is pulled back diagonally toward EXP-DY at the subject's bottom. Principle-exposure does not stay on its own side of the crossing; the partner-axis reaches across and rewrites the subject's outputs. This is why the definitions that attach to a form during its principle-exposure cycle 'stay with the form throughout its life.'",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "c" },
+    { "termId": "af-dy" },
+    { "termId": "info-intr" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "cult-af-bs" },
+    { "termId": "extn", "prefix": "r" },
+    { "termId": "cr-info-dy" },
+    { "termId": "exp-dy" },
+    { "termId": "stf" },
+    { "termId": "cult-info-b" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "af-dy", "type": "solid" },
+    { "from": "pri-info", "to": "info-intr", "type": "solid" },
+    { "from": "info-intr", "to": "tm", "type": "solid" },
+    { "from": "info-intr", "to": "extn", "type": "solid" },
+    { "from": "tm", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "cr-info-dy", "type": "solid" },
+    { "from": "cult-af-bs", "to": "exp-dy", "type": "solid" },
+    { "from": "tm", "to": "stf", "type": "solid" },
+    { "from": "af-dy", "to": "stf", "type": "solid" },
+    { "from": "af-dy", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "exp-dy", "type": "solid" }
+  ]
+}

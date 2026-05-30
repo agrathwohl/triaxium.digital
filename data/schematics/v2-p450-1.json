@@ -1,0 +1,39 @@
+{
+  "id": "v2-p450-1",
+  "volume": 2,
+  "section": "MP(I)-24",
+  "page": 450,
+  "subject": "info-dy",
+  "title": "INFO.DY.------ALT.FT.",
+  "type": "crossing",
+  "description": "First of two diagrams in MP(I)-24. The preceding section (MP(I)-23) ends with the indictment of sixties fragmentation: 'the inability to solidify a composite viewpoint would promote an over-reliance on western ideologies as the most attractive tool for bringing about world change. The effect of this over-reliance is what we are still dealing with as we move into the seventies.' The next page begins Cecil Taylor's remark that 'many of the black political activists had practically no knowledge of who they were.' The crossing diagrams the structural shape of that over-reliance: INFO-DY (information dynamics — the form's own information output, anchoring the upper-right with subject-arrow) is crossed with ALT-FT (alternative functionalism). The subject's downward chain falls through TR-INFO (transformation-information) into MT-INFO (meta-information), then routes left into WO-EXP-PRI (world-exposure principle), then down into VT-SY (value system) and VT-PLT (vibrational plateau) on the right margin — these are what the form's information-dynamics *can* produce as outputs. ALT-FT sits as partner-axis at center-left, with POL-P (political particulars) and SOC-RT (social reality) at the upper-left as partner-side upper outputs, RT-DY and CULT-INFO-B in the center as the partner's working hubs, PROG-CONT and T-P (temporal-particulars) at the lower-left as partner-side downward terminus. Structural argument: when the form's information-dynamics is crossed with alternative-functionalism, the diagonal from SOC-RT up to TR-INFO is what would allow the partner's social-reality to reach the subject's transformation-information — and the diagonal from VT-SY/VT-PLT back across to PROG-CONT is what would allow the subject's vibrational outputs to feed the partner's progressional-continuance. In the sixties fragmentation the prose names, neither diagonal is held: information-dynamics produces its outputs on the right margin and alternative-functionalism produces its outputs on the left margin, but they do not cross. Western ideologies become the only available bridging mechanism precisely because the structural diagonals that would let alternative-functionalism reach information-dynamics on its own terms are not maintained.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "alt-ft" },
+    { "termId": "pol-p" },
+    { "termId": "soc-rt" },
+    { "termId": "tr-info" },
+    { "termId": "mt-info" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "vt-sy" },
+    { "termId": "vt-plt" },
+    { "termId": "prog-cont" },
+    { "termId": "rt-dy" },
+    { "termId": "cult-info-b" },
+    { "termId": "t-p" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "alt-ft", "type": "solid" },
+    { "from": "info-dy", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "vt-sy", "type": "solid" },
+    { "from": "vt-sy", "to": "vt-plt", "type": "solid" },
+    { "from": "pol-p", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "tr-info", "type": "solid" },
+    { "from": "alt-ft", "to": "rt-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "t-p", "type": "solid" },
+    { "from": "rt-dy", "to": "cult-info-b", "type": "solid" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "v2-p169",
+  "volume": 2,
+  "section": "SR(TRS)II-25",
+  "page": 169,
+  "subject": "act-tr",
+  "title": "ACT.TR.------ALT.C.PG.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-25 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim: 'composite progressional information can better help us to understand the dynamics which surround how all of this has come into being (and how all of this can and will come out of being).' (C)ACT-TR (the concept of actual transformation) is crossed with ALT-C-PG (alternative-culture programming): the question is what actual-transformation produces when crossed with alternative-culture-programming — the (c) prefix marking that this is the structural design of transformation, not a particular instance. C-ACT (composite activism) sits at the upper-center. (CT)INFO-F (information functionalism, ct prefix variant) anchors the upper-right output. ALT-C-PG itself is the partner. CUL-INFO-DY (culture-information dynamics) hangs on the right output via a *dashed* edge. AFI-DY (affinity-insight dynamics) sits below the subject. DYM-F (dynamics fundamentals) sits centrally between subject and partner. BSCF (basic continuance-functionalism) anchors the bottom-center via a *dashed* edge — conditional. (R)INTR (reality of interior) hangs on the lower-right via a *dashed* edge to DYM-F. Structural argument: actual-transformation crossed with alternative-culture-programming is mediated by composite-activism as upper bridge and dynamics-fundamentals as lower hub. The multiple dashed edges (alt-c-pg→cul-info-dy, dym-f→bscf, dym-f→intr) are Braxton's structural diagnostic that the transition from alternative-culture-programming to real outcomes (information-dynamics, basic-continuance-functionalism, interior) is conditional at multiple points. The diagram exposes that what Braxton calls 'progressional information' is the discipline of holding those dashed edges live — without that work, alternative-programming produces only its conceptual form without the lower-output substance.",
+  "terms": [
+    { "termId": "act-tr", "isSubject": true, "prefix": "c" },
+    { "termId": "alt-c-pg" },
+    { "termId": "c-act" },
+    { "termId": "info-f", "prefix": "ct" },
+    { "termId": "cul-info-dy" },
+    { "termId": "afi-dy" },
+    { "termId": "dym-f" },
+    { "termId": "bscf" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "act-tr", "to": "c-act", "type": "solid" },
+    { "from": "c-act", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "info-f", "type": "solid" },
+    { "from": "alt-c-pg", "to": "cul-info-dy", "type": "dashed" },
+    { "from": "act-tr", "to": "afi-dy", "type": "solid" },
+    { "from": "act-tr", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "alt-c-pg", "type": "solid" },
+    { "from": "dym-f", "to": "bscf", "type": "dashed" },
+    { "from": "dym-f", "to": "intr", "type": "dashed" }
+  ]
+}

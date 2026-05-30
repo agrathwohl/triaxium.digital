@@ -1,0 +1,37 @@
+{
+  "id": "v2-p349-1",
+  "volume": 2,
+  "section": "R(AS)CM(I)-33",
+  "page": 349,
+  "subject": "dym-f",
+  "title": "(R)DYM.F.------PRI.INFO.",
+  "type": "crossing",
+  "description": "First of two diagrams closing R(AS)CM(I)-33, the section on alternative recording. The prose above names the structural stake: the implication of musicians-as-recording-companies (Jazz Composer's Orchestra, Strata East) is 'directly related to the realness of decentralization — that being, the possibility of breaking the dominance that certain sectors of the planet now enjoy over the composite planet with respect to both information exposure as well as economics.' The crossing diagrams what decentralization actually crosses: (R)DYM-F (the *reality* of dynamic form — the actual working form that alternative-recording musicians produce) is crossed with PRI-INFO (principle information — the established exposure-narrative that recording companies built around the music). DYM-F sits on the left with the subject-arrow; SOC-RT (social reality) drops below as the form's immediate social context, with BIA (bias) anchoring the lower-left margin as the suppression-vector the prose names. ALT-D (alternative definitions) rises at the top center of the diagram as the bridging hub. PRI-INFO sits at lower-center as partner-center, with POST (postulation) hanging below it and AFI-1 (affinity insight, level one) sitting centrally as the partner's middle hub. On the right margin VT-DY (vibrational dynamics) and RE-ST (restructuralism) anchor the upper partner outputs; INFO-DY (information dynamics) and EXP-DY (exposure dynamics) anchor the lower partner outputs. Structural argument: when the reality of dynamic-form is crossed with principle-information, the entire ALT-D → VT-DY/RE-ST → INFO-DY chain is what decentralization actually does — it routes alternative-definitions across the top of the diagram into restructuralism on the partner side, producing the new information-dynamics that recording-company principle-information cannot supply. The diagonal that pulls AFI-1 from the partner-center back up toward DYM-F is the load-bearing edge: affinity-insight reaches the dynamic-form subject only when the partner-side's principle-information has been re-routed through ALT-D first. Without that re-routing, BIA on the subject's lower-left stays load-bearing and SOC-RT collapses back into PRI-INFO's existing exposure narrative — exactly the dominance the prose names.",
+  "terms": [
+    { "termId": "dym-f", "isSubject": true, "prefix": "r" },
+    { "termId": "pri-info" },
+    { "termId": "alt-d" },
+    { "termId": "soc-rt" },
+    { "termId": "afi-1" },
+    { "termId": "bia" },
+    { "termId": "post" },
+    { "termId": "vt-dy" },
+    { "termId": "re-st" },
+    { "termId": "info-dy" },
+    { "termId": "exp-dy" }
+  ],
+  "relationships": [
+    { "from": "dym-f", "to": "pri-info", "type": "solid" },
+    { "from": "dym-f", "to": "alt-d", "type": "solid" },
+    { "from": "dym-f", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "bia", "type": "solid" },
+    { "from": "alt-d", "to": "vt-dy", "type": "solid" },
+    { "from": "alt-d", "to": "re-st", "type": "solid" },
+    { "from": "vt-dy", "to": "info-dy", "type": "solid" },
+    { "from": "re-st", "to": "info-dy", "type": "solid" },
+    { "from": "pri-info", "to": "afi-1", "type": "solid" },
+    { "from": "pri-info", "to": "post", "type": "solid" },
+    { "from": "info-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "afi-1", "to": "dym-f", "type": "solid" }
+  ]
+}

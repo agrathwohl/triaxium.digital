@@ -1,0 +1,36 @@
+{
+  "id": "v2-p493-2",
+  "volume": 2,
+  "section": "MP(II)-11",
+  "page": 493,
+  "subject": "if-st-dy",
+  "title": "IF.ST.DY.------PART.",
+  "type": "crossing",
+  "description": "Second diagram on page 493, paired with VT-DY × DIS-C-CT above. Where the first diagram shows how vibrational-dynamics gets disconnected into isolated-focus spectacle on the partner-axis, this one structurally shows the inverse: how the *isolated-focus stable-dynamics* (the spectacle product) gets routed back toward actual participation. IF-ST-DY (isolated-focus stable-dynamics — what's been produced at the end of the disconnect chain) is crossed with PART (participation — the actual participatory ground the form would reach if the route held). IF-ST-DY sits at top-center with the subject-arrow; INFO-DY (information dynamics) rises at upper-left and ACT (action) sits below INFO-DY, with PROG-CONT (progressional continuance) at far-left and TRS (transformation) below as the subject-side leftward chain. AFI (affinity insight) and TR-INFO (transformation-information) sit centrally below IF-ST-DY as the bridging hubs. SOC-RT (social reality) anchors the right margin, with CN-INFO (continuance-information) hanging below SOC-RT and RT-IMP (reality implication) at the lower-right as the partner-side downward chain. PART sits at the bottom-center as partner-axis terminus. Structural argument: when isolated-focus-stable-dynamics is crossed with participation, the leftward chain INFO-DY → ACT → PROG-CONT → TRS is what the form's *own* working would produce as it reaches back into participation — information-dynamics routes through action into progressional-continuance and transformation, all four edges held together. The central AFI → TR-INFO chain is the *insight-to-information* route: affinity-insight routes through transformation-information into PART at the bottom. The right-side SOC-RT → CN-INFO → RT-IMP chain is what social-reality produces on its own without the central bridging — continuance-information routes only into reality-implication on the partner side. The diagrams together (this one paired with the first) show the full structural picture: vibrational-dynamics gets disconnected into stable-dynamics on the upper diagram, then stable-dynamics must hold both the leftward chain and the central AFI route to reach back into actual participation. The State-Department-as-transfer-mechanism the prior section names succeeds precisely because it disconnects without supplying the return route.",
+  "terms": [
+    { "termId": "if-st-dy", "isSubject": true },
+    { "termId": "part" },
+    { "termId": "info-dy" },
+    { "termId": "act" },
+    { "termId": "prog-cont" },
+    { "termId": "afi" },
+    { "termId": "tr-info" },
+    { "termId": "trs" },
+    { "termId": "soc-rt" },
+    { "termId": "cn-info" },
+    { "termId": "rt-imp" }
+  ],
+  "relationships": [
+    { "from": "if-st-dy", "to": "part", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "act", "type": "solid" },
+    { "from": "act", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" },
+    { "from": "if-st-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "part", "type": "solid" },
+    { "from": "if-st-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "rt-imp", "type": "solid" }
+  ]
+}

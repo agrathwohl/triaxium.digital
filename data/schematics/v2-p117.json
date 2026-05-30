@@ -1,0 +1,32 @@
+{
+  "id": "v2-p117",
+  "volume": 2,
+  "section": "AE(PD)-5",
+  "page": 117,
+  "subject": "p-fc",
+  "title": "(R)P.FC.------POL.P.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-5 (Aspect Essence / Perception Dynamics, Level One) opening Braxton's central frame for the chapter: the sixties activism analysis. 'The vibrational platform that solidified in the sixties would establish the first real move towards alternative functionalism for the post–World War Two generation.' (R)P-FC (the reality of point-focus) is crossed with POL-P (political particulars): the question is what point-focus produces in its actual instantiation when crossed with political-particulars — the (R) prefix marking that this is about the *real* focal-point at which sixties activism intervened, not a conceptual one. EXT-INFO (extended information) sits between subject and partner. MT-INFO (multi-information) feeds in from the upper-left. POL-P sits at the upper-right. TRS (transference) hangs below EXT-INFO. POST (postulation) anchors the lower-center. OP-SPD (option-spread) hangs on the lower-right. SOC-RT-DY (social-reality dynamics) sits between point-focus and the lower output. CULT-SOLD (culture solidification) anchors the lower-center. Structural argument: point-focus-as-real crossed with political-particulars is mediated by extended-information as central hub, with multi-information as upstream and option-spread as marginal output. The diagram exposes Braxton's structural diagnostic of sixties activism: real point-focus crossed with political-particulars produces option-spread (multiple alternative paths) and feeds into culture-solidification through postulation and social-reality-dynamics. The schematic is the case for why the early sixties activism was productive — point-focus was *real* (not styled), and the productive output ran through three lower upstream tests (transference, postulation, social-reality-dynamics) into culture-solidification.",
+  "terms": [
+    { "termId": "p-fc", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-p" },
+    { "termId": "ext-info" },
+    { "termId": "mt-info" },
+    { "termId": "trs" },
+    { "termId": "post" },
+    { "termId": "op-spd" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "cult-sold" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "ext-info", "type": "solid" },
+    { "from": "p-fc", "to": "ext-info", "type": "solid" },
+    { "from": "ext-info", "to": "pol-p", "type": "solid" },
+    { "from": "p-fc", "to": "pol-p", "type": "solid" },
+    { "from": "ext-info", "to": "trs", "type": "solid" },
+    { "from": "p-fc", "to": "post", "type": "solid" },
+    { "from": "pol-p", "to": "op-spd", "type": "solid" },
+    { "from": "post", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "post", "to": "cult-sold", "type": "solid" }
+  ]
+}

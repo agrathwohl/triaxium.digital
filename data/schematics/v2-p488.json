@@ -1,0 +1,34 @@
+{
+  "id": "v2-p488",
+  "volume": 2,
+  "section": "MP(II)-6",
+  "page": 488,
+  "subject": "per-vt-u-fund",
+  "title": "(R)PER.VT.U.FUND.-----MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram opening MP(II)-6 — the section on State Department use of creative music as 'an accelerated political factor — and tool — since the middle forties.' This diagram pairs with the v2-p487 (PER.PHY.U.FUND × SPT.DYM) crossing on the preceding page; where p487 diagrammed the periodic-physical-universe-fundament meeting spectacle-dynamism, this one diagrams the *vibrational* version of the same fundament meeting meta-information: (R)PER-VT-U-FUND (the reality of periodic vibrational-universe fundament — a region's vibrational ground as actually working) is crossed with MT-INFO (meta-information — the information *about* the information that State-Department transfer-cycles produce). PER-VT-U-FUND sits centrally with the subject-arrow; T-C-IMP (temporal-continuity implication) rises above and STF (structural-formal) sits at the upper-right as the partner-side's upper output. SPT-DYM (spectacle dynamism — picking up the prior diagram's partner-axis) anchors the left, with IST-F (isolated focus) between SPT-DYM and PER-VT-U-FUND and MOT-DY (motion dynamics) at the lower-left as subject-side outputs. MT-INFO sits at the right as partner-axis; UNF-PI (unified physical-information) hangs on the right margin as partner-side output. SOC-RT-DY (social-reality dynamics) hangs centrally below as the bridging-axis hub with LK-IMP (linkage implication, written 'lk.inp.') as the bridging terminus. Structural argument: when periodic-vibrational-universe-fundament is crossed with meta-information, the upper diagonal T-C-IMP → STF → MT-INFO is the State Department's *meta-information route* — temporal-continuity-implication routes through structural-formal into the partner-axis. The left-side chain SPT-DYM → IST-F → MOT-DY is the carry-over from the prior diagram's spectacle-dynamism — the State Department's spectacle keeps producing isolated-focus motion-dynamics on the subject side. The central diagonal PER-VT-U-FUND → SOC-RT-DY → LK-IMP is the *vibrational-fundament's linkage route* — the form's actual vibrational ground reaches linkage-implication only through social-reality-dynamics. MT-INFO → UNF-PI is what the partner-side produces alone: unified-physical-information, the State Department's working output that converts a region's creativity into political tool. The crossing makes clear why the State Department succeeded: the partner-axis only needed the upper diagonal to produce its political tool, while the subject's vibrational ground had to hold both the spectacle-leftover and the central LK-IMP diagonal simultaneously.",
+  "terms": [
+    { "termId": "per-vt-u-fund", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "stf" },
+    { "termId": "t-c-imp" },
+    { "termId": "spt-dym" },
+    { "termId": "ist-f" },
+    { "termId": "mot-dy" },
+    { "termId": "unf-pi" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "per-vt-u-fund", "to": "mt-info", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "mt-info", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "ist-f", "type": "solid" },
+    { "from": "spt-dym", "to": "mot-dy", "type": "solid" },
+    { "from": "mt-info", "to": "unf-pi", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "lk-imp", "type": "solid" }
+  ]
+}

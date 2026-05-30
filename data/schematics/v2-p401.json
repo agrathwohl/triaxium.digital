@@ -1,0 +1,34 @@
+{
+  "id": "v2-p401",
+  "volume": 2,
+  "section": "R(AS)CM(II)-45",
+  "page": 401,
+  "subject": "alt-ft",
+  "title": "ALT.FT.-----PRI.INFO.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(II)-45 — the section on the 'every man for himself' phenomenon among creative musicians in America vs. the unification possible in Europe. The prose immediately below the diagram (the section's argument) identifies what the crossing diagrams: 'the present situation concerning creative music in America has to do with isolated individuals — some of whom are functioning, and most not. The success of real transformation implies that somehow this situation is corrected on some level.' The crossing diagrams the structural ground of the isolation: ALT-FT (alternative functionalism — the form's actual working) is crossed with PRI-INFO (principle information — the form's structured presentation as principle). ALT-FT sits at the upper-right with the subject-arrow; ACT (action) sits centrally above with PER-TRS (perceived transition) at upper-left as the bridging upper hub. (R)INTR (the reality of introduction) hangs on the right margin as the subject's downward output. PRI-INFO sits centrally as partner-axis at left; SF-RZ (self-realization) hangs below as the partner's downward output. ACC-DY (accent dynamics) sits centrally as the bridging hub, with AFI (affinity insight) and AF-DY (affinity dynamics) below as the bridging-side outputs, and PART (participation) at the bottom-center as the bridging terminus. Structural argument: when alternative-functionalism is crossed with principle-information, the upper diagonal ACT → PER-TRS → PRI-INFO is the route the prose names — action through perceived-transition into principle-information is the path by which an individual functioning-as-alternative-functionalism gets received as principle. Without that diagonal, ALT-FT routes only down-right into (R)INTR and PRI-INFO routes only down into SF-RZ. The central ACC-DY → AFI / AF-DY → PART chain is the *unification chain* the prose names as achievable in Europe — accent-dynamics routes through affinity-insight / affinity-dynamics into participation. In America the upper diagonal fails to hold, so the central chain runs without being supplied by the form's alternative-functionalism; isolated individuals reach affinity-insight on their own but never see it converted back into the principle-information chain — every man for himself.",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true },
+    { "termId": "pri-info" },
+    { "termId": "act" },
+    { "termId": "per-trs" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "acc-dy" },
+    { "termId": "afi" },
+    { "termId": "af-dy" },
+    { "termId": "sf-rz" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "pri-info", "type": "solid" },
+    { "from": "alt-ft", "to": "act", "type": "solid" },
+    { "from": "act", "to": "per-trs", "type": "solid" },
+    { "from": "per-trs", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "sf-rz", "type": "solid" },
+    { "from": "pri-info", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "afi", "type": "solid" },
+    { "from": "acc-dy", "to": "af-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "intr", "type": "solid" },
+    { "from": "afi", "to": "part", "type": "solid" }
+  ]
+}

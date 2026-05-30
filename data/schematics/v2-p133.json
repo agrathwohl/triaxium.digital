@@ -1,0 +1,38 @@
+{
+  "id": "v2-p133",
+  "volume": 2,
+  "section": "AE(PD)-21",
+  "page": 133,
+  "subject": "per-dy",
+  "title": "PER.DY.------C.INFO.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-21 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's question about the next cycle: 'In the coming cycle we will be forced to decide the nature of the next continuum of applied progressionalism — that being, will we move to perceive of progressionalism only by what this consideration implies for our isolated national interest, or will we view this consideration with respect for its composite implications.' PER-DY (perception dynamics) is crossed with C-INFO (composite information): the question is what perception-dynamics produces when crossed with composite-information — perception-dynamics being the chapter's organizing concept, composite-information being the integrated information-position the next cycle requires. C-INFO sits at the top. MT-INFO (multi-information) and INFO-DE-B (information-descent-basis) cluster on the upper-right output. AFI (affinity insight) sits centrally between subject and partner. ALT-C-PROG (alternative-culture programming) feeds in from below-left. SPT-DY (spectacle dynamics) sits centrally. EXB-H-OR (exhibitive horizontal organization) anchors the lower-right. LK-IMP (linkage implication) hangs on the right margin. TRS (transference) and ACT (activism) anchor the lower-left. AF-CY (affinity-cycle) sits on the lower-center. Structural argument: perception-dynamics crossed with composite-information is mediated by affinity-insight as central hub, with spectacle-dynamics as an active competing hub — Braxton's structural diagnostic that the next cycle's outcome depends on whether affinity-insight or spectacle-dynamics is the actual operating hub between perception-dynamics and composite-information. The doubled lower upstream (transference plus activism on one side, alternative-culture-programming on the other) is the decentralization signal: perception-dynamics' productive output depends on at least two distinct upstream commitments, and the exhibition-horizontal-organization output flows only if the activism-upstream is held.",
+  "terms": [
+    { "termId": "per-dy", "isSubject": true },
+    { "termId": "c-info" },
+    { "termId": "mt-info" },
+    { "termId": "info-de-b" },
+    { "termId": "afi" },
+    { "termId": "alt-c-pg" },
+    { "termId": "spt-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "lk-imp" },
+    { "termId": "trs" },
+    { "termId": "act" },
+    { "termId": "af-cy" }
+  ],
+  "relationships": [
+    { "from": "per-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "c-info", "to": "info-de-b", "type": "solid" },
+    { "from": "per-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "c-info", "type": "solid" },
+    { "from": "alt-c-pg", "to": "per-dy", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "lk-imp", "type": "solid" },
+    { "from": "trs", "to": "alt-c-pg", "type": "solid" },
+    { "from": "act", "to": "af-cy", "type": "solid" },
+    { "from": "af-cy", "to": "spt-dy", "type": "solid" }
+  ]
+}

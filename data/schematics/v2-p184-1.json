@@ -1,0 +1,37 @@
+{
+  "id": "v2-p184-1",
+  "volume": 2,
+  "section": "SR(TRS)II-40",
+  "page": 184,
+  "subject": "lang-dy",
+  "title": "LANG.DY.------POL.DY.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-40 (Social Reality / Trans-Information, Level Two), first of two on book p184. Accompanies Braxton's claim that 'the importance of defining terms cannot be overemphasized if we are to view social reality.' (C)LANG-DY (the concept of language dynamics) is crossed with POL-DY (political dynamics): the question is what language-dynamics produces when crossed with political-dynamics — language being the operational vehicle of definition, political-dynamics being the mechanism that determines whose definitions count. (R)TM (reality of time) feeds in from the upper-left. POL-DY sits at the upper-center. CU-AF-B (culture affinity basis) anchors the upper-right output. AF-COMP (affinity composite) and INT (interior) form the right output cluster. PROG-CONT (progressional continuance) and IST-F-ALGN (interior-source-functionalism alignment) feed in from the upper-left. INFO-DS (information descent) and APP-RDEF (apparent redefinition) form the lower-right cluster. RE-DOC (redocumentation) and RE-ST (restructuralism) anchor the lower-left. Structural argument: language-dynamics-as-concept crossed with political-dynamics is mediated by multiple parallel upstreams (progressional-continuance, interior-source-functionalism-alignment, reality-of-time) — the unusual multi-upstream signature registers Braxton's structural commitment that definition is *over-determined* in a healthy system. The lower-output pair (information-descent and apparent-redefinition) is the diagnostic: when language-dynamics crosses with political-dynamics in the corrupted operative system, the output is information-descent into apparent-redefinition rather than into composite-affinity output. Redocumentation and restructuralism as lower upstreams are what must be live for the productive culture-affinity-basis output to obtain.",
+  "terms": [
+    { "termId": "lang-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "pol-dy" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "cu-af-b" },
+    { "termId": "af-comp" },
+    { "termId": "int" },
+    { "termId": "prog-cont" },
+    { "termId": "ist-f-algn" },
+    { "termId": "info-ds" },
+    { "termId": "app-rdef" },
+    { "termId": "re-doc" },
+    { "termId": "re-st" }
+  ],
+  "relationships": [
+    { "from": "tm", "to": "pol-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "cu-af-b", "type": "solid" },
+    { "from": "cu-af-b", "to": "af-comp", "type": "solid" },
+    { "from": "af-comp", "to": "int", "type": "solid" },
+    { "from": "prog-cont", "to": "lang-dy", "type": "solid" },
+    { "from": "ist-f-algn", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "info-ds", "type": "solid" },
+    { "from": "info-ds", "to": "app-rdef", "type": "solid" },
+    { "from": "re-doc", "to": "lang-dy", "type": "solid" },
+    { "from": "re-st", "to": "lang-dy", "type": "solid" }
+  ]
+}

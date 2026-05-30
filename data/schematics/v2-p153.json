@@ -1,0 +1,28 @@
+{
+  "id": "v2-p153",
+  "volume": 2,
+  "section": "SR(TRS)II-9",
+  "page": 153,
+  "subject": "info-dy",
+  "title": "(R)INFO.DY.------TH.CONT.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-9 (Social Reality / Trans-Information, Level Two) accompanying Braxton's introduction of economics as the late-seventies organizing factor: 'creativity does not exist separate from actual life, and/or life and death decisions … the reality position of a given culture is directly related to its life support systems — whether that system is its creativity or economics.' (R)INFO-DY (the reality of information dynamics) is crossed with TH-CONT (theoretical continuance): the question is what information-dynamics produces in its actual instantiation when crossed with theoretical-continuance — the crossing operating at the economic-reality level where unemployment figures and policy decisions register as actual information rather than abstract data. PART (participation) and POL-DY (political dynamics) feed in from the upper-left. TH-CONT sits at the upper-right. WO-EXP-PRI (world experiential principles) anchors the right output. ALT-F (alternative functionalism) sits below the central axis. TRNS (transformation) anchors the lower-center. PART appears a second time on the lower-right margin (Braxton's typographic double-naming registering participation's two registers: as upper input to the political economy and as lower output of transformation). Structural argument: information-dynamics-as-real crossed with theoretical-continuance is fed by participation plus political-dynamics from above and produces world-experiential-principles as upper output plus alternative-functionalism flowing into transformation and participation as lower output cluster. The doubled PART node is load-bearing: it exposes Braxton's structural commitment that real participation operates at both registers — as cause (political-economic input) and as effect (transformative output) — and the cycle between them is what the late-seventies unemployment data actually represents.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "th-cont" },
+    { "termId": "part" },
+    { "termId": "pol-dy" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "alt-f" },
+    { "termId": "trns" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "info-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "info-dy", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "trns", "type": "solid" },
+    { "from": "trns", "to": "part", "type": "solid" }
+  ]
+}

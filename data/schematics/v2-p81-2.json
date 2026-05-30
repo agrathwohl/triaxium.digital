@@ -1,0 +1,33 @@
+{
+  "id": "v2-p81-2",
+  "volume": 2,
+  "section": "AF(D)-9",
+  "page": 81,
+  "subject": "info-dy",
+  "title": "INFO.DY.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-9 (Affinity Dynamics, Level One), second of two on book p81, paired with v2-p81-1. Continues the same argument: that affinity-dynamics operates as a structural layer beneath race-thinking, and that information-dynamics must be read multidimensionally. INFO-DY (information dynamics) is crossed with C-CONT (composite continuance): the question is what information-dynamics produces when crossed with composite-continuance — given that 'every projectional thrust of knowledge must take into account its affinity dynamics.' C-CONT sits at the top with MT-INFO (multi-information) on the upper-right output. INFO-PROJ (information projection) anchors the right margin. IST-FT (interior-source fundamentals) feeds into INFO-DY from the left. AF-DY (affinity dynamics) sits between subject and partner as central hub. ALT-C-PG (alternative culture program) anchors the lower-left. SOC-RT-INT (social-reality interior) feeds upward into AF-DY from below. (P)STF (point-of-activation source-transfer-functionalism) hangs on the right via a *dashed* edge — the only conditional relation in the diagram, marking that source-transfer-functionalism is here functioning at a *trigger* level rather than as sustained operation. PROG-EXT-F (progressional extended functionalism) anchors the lower-right via the dashed line from (P)STF. Structural argument: information-dynamics crossed with composite-continuance is mediated by affinity-dynamics as the central hub — the same hub as in v2-p81-1, registering Braxton's structural commitment that affinity-dynamics is *the* organizing layer. The (p) prefix and dashed edge on STF together expose that source-transfer becomes operative as a trigger, not a sustained drive, and the consequent route to progressional-extended-functionalism is conditional rather than guaranteed.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "info-proj" },
+    { "termId": "ist-ft" },
+    { "termId": "af-dy" },
+    { "termId": "alt-c-pg" },
+    { "termId": "soc-rt-int" },
+    { "termId": "stf", "prefix": "p" },
+    { "termId": "prog-ext-f" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "c-cont", "to": "info-proj", "type": "solid" },
+    { "from": "ist-ft", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "af-dy", "type": "solid" },
+    { "from": "alt-c-pg", "to": "af-dy", "type": "solid" },
+    { "from": "soc-rt-int", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "stf", "type": "dashed" },
+    { "from": "stf", "to": "prog-ext-f", "type": "dashed" }
+  ]
+}

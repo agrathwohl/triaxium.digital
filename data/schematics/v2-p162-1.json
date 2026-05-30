@@ -1,0 +1,28 @@
+{
+  "id": "v2-p162-1",
+  "volume": 2,
+  "section": "SR(TRS)II-18",
+  "page": 162,
+  "subject": "c-cont",
+  "title": "(C)C.CONT. -----TR.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-18 (Social Reality / Trans-Information, Level Two), first of two on book p162. Accompanies Braxton's closing argument about education: 'the importance of education for transformation cannot be over-emphasized, because the present physical universe situation is directly sustained by narrow information lines.' (C)C-CONT (the concept of composite continuance) is crossed with TR (transformation): the question is what composite-continuance produces when crossed with transformation — under conditions where narrow information lines sustain the present situation. C-CONT also appears as the left node (the (c)c.cont. label refers to the subject). AFI (affinity insight) and SPT-DY (spectacle dynamics) form the upper-center cluster. TR is the partner on the upper-right. C-INFO-DY (composite-information dynamics) anchors the right output. AF-DY (affinity dynamics) sits centrally. ALT-INFO (alternative information) hangs on the lower-right margin. Structural argument: composite-continuance-as-concept crossed with transformation is mediated by affinity-dynamics as central hub. The upper cluster — affinity-insight together with spectacle-dynamics — is structurally telling: insight and spectacle co-occur as upstreams, exposing Braxton's diagnostic that current education does not produce affinity-insight cleanly; it produces it always alongside spectacle. The productive output cluster (composite-information-dynamics, alternative-information) requires affinity-dynamics as hub, but the hub's upper feed is mixed. Transformation can occur only when education separates affinity-insight from spectacle-dynamics — which is exactly what 'narrow information lines' prevents.",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "afi" },
+    { "termId": "spt-dy" },
+    { "termId": "c-info-dy" },
+    { "termId": "af-dy" },
+    { "termId": "alt-info" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "c-cont", "type": "solid" },
+    { "from": "spt-dy", "to": "tr", "type": "solid" },
+    { "from": "c-cont", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-info-dy", "type": "solid" },
+    { "from": "c-cont", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "c-info-dy", "type": "solid" },
+    { "from": "af-dy", "to": "alt-info", "type": "solid" }
+  ]
+}

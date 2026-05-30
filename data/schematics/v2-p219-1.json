@@ -1,0 +1,33 @@
+{
+  "id": "v2-p219-1",
+  "volume": 2,
+  "section": "CMOA(I)-13",
+  "page": 219,
+  "subject": "mt-info",
+  "title": "MT.INFO.------ TRS.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One — Britain/Germany/Holland), first of two on book p219. Accompanies Braxton's structural turn: 'it becomes more a question of musicians celebrating their creativity in accordance with the vibrational dictates of their environment as well as their own cultural and vibrational pull.' MT-INFO (multi-information) is crossed with TRS (transference): the question is what multi-information produces when crossed with transference — under conditions where each European musician is celebrating both environment and personal vibration. C-INFO (composite information) and PHY-U-FUND (physical universe fundamental) form the upper-center cluster. LANG-DY (language dynamics) feeds in from the upper-left. TRS itself is the partner. TR-INFO (transfer information) sits between subject and partner on the left. PART (participation) sits below the subject. P-PROG (positive progression) anchors the right output. CULT-SOLD (culture solidification) hangs on the lower-right. PRI-INFO (principle information) anchors the bottom-center. Structural argument: multi-information crossed with transference is fed by composite-information and physical-universe-fundamental from above and by language-dynamics from below-left. The lower output cluster (participation, principle-information, culture-solidification, positive-progression) registers the productive structure of European creativity: when multi-information genuinely crosses with transference, the productive output is *participation rooted in principle-information* that produces culture-solidification and positive-progression. The diagram is Braxton's structural case for why European creativity has a chance to make a real contribution — the upstream tests (composite-information, physical-universe-fundamental, language-dynamics) ground the crossing in actual conditions.",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "trs" },
+    { "termId": "c-info" },
+    { "termId": "phy-u-fund" },
+    { "termId": "lang-dy" },
+    { "termId": "tr-info" },
+    { "termId": "part" },
+    { "termId": "p-prog" },
+    { "termId": "cult-sold" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "phy-u-fund", "to": "trs", "type": "solid" },
+    { "from": "lang-dy", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "p-prog", "type": "solid" },
+    { "from": "mt-info", "to": "part", "type": "solid" },
+    { "from": "part", "to": "pri-info", "type": "solid" },
+    { "from": "p-prog", "to": "cult-sold", "type": "solid" }
+  ]
+}

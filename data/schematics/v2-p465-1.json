@@ -1,0 +1,31 @@
+{
+  "id": "v2-p465-1",
+  "volume": 2,
+  "section": "MP(I)-39",
+  "page": 465,
+  "subject": "ist-f",
+  "title": "IST.F.------AFL.DY.-----AFI.",
+  "type": "triple-crossing",
+  "description": "First of two diagrams in MP(I)-39. The preceding section closes 'either we meet the responsibility of the next cycle or be prepared to become the effects of dynamic change.' The opening prose of MP(I)-39 declares: 'the realness of the changing political reality — and its relationship to creativity — proposes a great deal of research and responsibility — and more than that, implies actual functioning on the physical universe level. And no one is excluded, not even the people who call themselves \"artists.\"' The crossing diagrams the three-axis structure that exclusion-of-no-one names: (D)IST-F (the dynamic-prefix isolated focus — focused activity as actually performed) is crossed with AFL-DY (affinity dynamics) which is in turn crossed with AFI (affinity insight, level one). IST-F sits on the left with the subject-arrow; ALT-F (alternative form) rises above the subject, with LANG-DY (language dynamics) below as the subject's downward output. AFI-1 (affinity insight, the partner-axis) sits at top-center; PER-TR (perceived transformation) anchors the upper-right and COS-P (cosmic-particulars) sits on the lower-right as partner-side outputs. CULT-INFO-DY (cultural-information dynamics) hangs centrally below, connected to AFI-1 via a *dashed* edge — load-bearing conditional. Structural argument: when isolated-focus is crossed with affinity-dynamics-as-middle and affinity-insight-as-partner, the diagonal from ALT-F across into the AFI-1 hub is what carries alternative-form into affinity-insight. The dashed edge AFI-1 → CULT-INFO-DY is the load-bearing conditional: affinity-insight reaches cultural-information-dynamics only conditionally, as the prose says — only when the artist-no-one-excluded actively maintains it. Without that maintenance, COS-P and PER-TR remain partner-side outputs without ever feeding the subject's LANG-DY, and the three-axis crossing collapses into IST-F speaking only on its own side, the isolation the section names as exactly what must be broken.",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true, "prefix": "d" },
+    { "termId": "afl-dy" },
+    { "termId": "afi-1" },
+    { "termId": "alt-f" },
+    { "termId": "per-tr" },
+    { "termId": "cos-p" },
+    { "termId": "lang-dy" },
+    { "termId": "cult-info-dy" }
+  ],
+  "relationships": [
+    { "from": "ist-f", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "afi-1", "type": "solid" },
+    { "from": "ist-f", "to": "alt-f", "type": "solid" },
+    { "from": "ist-f", "to": "lang-dy", "type": "solid" },
+    { "from": "alt-f", "to": "afi-1", "type": "solid" },
+    { "from": "afi-1", "to": "per-tr", "type": "solid" },
+    { "from": "afi-1", "to": "cos-p", "type": "solid" },
+    { "from": "afi-1", "to": "cult-info-dy", "type": "dashed" },
+    { "from": "lang-dy", "to": "cult-info-dy", "type": "solid" }
+  ]
+}

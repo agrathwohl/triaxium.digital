@@ -1,0 +1,26 @@
+{
+  "id": "v2-p215",
+  "volume": 2,
+  "section": "CMOA(I)-9",
+  "page": 215,
+  "subject": "aftf",
+  "title": "(R)AFTF.------TH.CONT.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(I)-9 (Creative Music Outside of America, Level One — Britain/Germany/Holland) accompanying Braxton's claim about the post-Webern movement and the late-fifties emergence of European improvisation: 'the creativity which I have been experiencing in the last ten years can clearly be looked at as a separate creative thrust that is distinctly European in its vibrational identity and directly coupled to the challenge of world music.' (R)AFTF (the reality of affinity-tendency functionalism) is crossed with TH-CONT (theoretical continuance): the question is what affinity-tendency-functionalism produces in its actual instantiation when crossed with theoretical-continuance — under conditions where Europe is forging a creative identity distinct from American improvised music. TH-CONT sits at the upper-center. TF-SH (transfer shift) anchors the upper-right output. T-C-IMP (temporal-continuity implication) sits between subject and partner. CRTF-D (creative-dynamic) hangs on the lower-right via a *dashed* edge to T-C-IMP — conditional. POL-SIGN (political significance) anchors the bottom via another *dashed* edge to T-C-IMP. Structural argument: affinity-tendency-functionalism-as-real crossed with theoretical-continuance is mediated by temporal-continuity-implication as central hub. The unusually sparse diagram (only 5 nodes) is itself structurally significant: Braxton is making a focused argument about what European improvisation requires — affinity-tendency-functionalism actually obtaining (the (r)), theoretical-continuance as crossing-partner, temporal-continuity as hub, and transfer-shift as output. The two dashed edges (T-C-IMP→CRTF-D and T-C-IMP→POL-SIGN) are load-bearing diagnostic: creative-dynamic and political-significance are only *conditional* outputs of this crossing — the European improvised music scene can achieve transfer-shift without necessarily achieving creative-dynamic or political-significance, which is why the next pages will distinguish productive from unproductive European movements.",
+  "terms": [
+    { "termId": "aftf", "isSubject": true, "prefix": "r" },
+    { "termId": "th-cont" },
+    { "termId": "tf-sh" },
+    { "termId": "t-c-imp" },
+    { "termId": "crtf-d" },
+    { "termId": "pol-sign" }
+  ],
+  "relationships": [
+    { "from": "aftf", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "tf-sh", "type": "solid" },
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "tf-sh", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "crtf-d", "type": "dashed" },
+    { "from": "t-c-imp", "to": "pol-sign", "type": "dashed" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v2-p47",
+  "volume": 2,
+  "section": "SD(SY)-25",
+  "page": 47,
+  "subject": "soc-rt-dy",
+  "title": "SOC.RT.DY.------PHY.U.P.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-25 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's opening of the hippie-movement analysis: 'the principles which manifest themselves in each spectacle-diversion sequence, and how people relate to what this sequence is supposed to mean — that clarifies the real fabric of American culture.' (C)SOC-RT-DY (the concept of social reality dynamics) is crossed with PHY-U-P (physical universe particulars): the question is what social-reality-dynamics produces when crossed with physical-universe-particulars in a culture where the diversion sequence determines self-perception. (R)TM (the reality of time) and (R)INT (the reality of interior) form an upper-right cluster. CUL-INFO-B (culture-information basis) sits centrally between subject and partner. POL-P (political particulars) feeds upward from the lower-left into the subject. CN-INFO (continuance information) and PROG-CONT (progressional continuance) form the central downward chain. TRS (transference) anchors the lower-right margin. Structural argument: social-reality-dynamics crossed with physical-universe-particulars is mediated by the culture-information-basis as a central hub, with political-particulars as the lower upstream and time-as-real plus interior-as-real as the upper output frame. The diagram exposes Braxton's structural commitment: any honest reading of social-reality requires both physical-universe-particulars and the culture-information-basis — the hippie movement (the surrounding prose context) failed precisely because it took social-reality as primary without crossing it against physical-universe ground.",
+  "terms": [
+    { "termId": "soc-rt-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "phy-u-p" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "cul-info-b" },
+    { "termId": "pol-p" },
+    { "termId": "cn-info" },
+    { "termId": "prog-cont" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "pol-p", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "tm", "type": "solid" },
+    { "from": "phy-u-p", "to": "intr", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "cul-info-b", "type": "solid" },
+    { "from": "cul-info-b", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "prog-cont", "type": "solid" },
+    { "from": "cul-info-b", "to": "trs", "type": "solid" }
+  ]
+}

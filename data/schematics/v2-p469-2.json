@@ -1,0 +1,35 @@
+{
+  "id": "v2-p469-2",
+  "volume": 2,
+  "section": "MP(I)-43",
+  "page": 469,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------PR.INT.",
+  "type": "crossing",
+  "description": "Second diagram on page 469, paired with OP-SPD × POL-P above. Where the first diagram shows the structural shape of western-art-music's always-already-there funding, this one names what projection-dynamics meets when it actually goes out into the world without that funding: PROJ-DY (projection dynamics) crossed with PR-INT (the principle interior — the receiving culture's already-formed interior dispositions about which forms are 'real' art). PROJ-DY sits on the left with the subject-arrow; AFI (affinity insight) hangs below as the projection's immediate downward output and PRI-AF-TD (principle-affinity transformation-dynamics) at the bottom-left as the deeper output. SPT-DY (spectacle dynamics) sits at the bottom-center as the bridging-axis terminus. (R)OBS (the reality of observation) rises at top-center and T-C-IMP (temporal-continuity implication) sits centrally as the bridging hub. PR-INT sits as partner-axis at center-right with MOT-DY (motion dynamics) hanging below as the partner's downward output. AF-DY (affinity dynamics) rises at upper-right and INFO-DY (information dynamics) and RT-DY (reality dynamics) sit on the right as partner-side stacked outputs. Structural argument: projection-dynamics reaches principle-interior only across the T-C-IMP hub — projection routes through temporal-continuity-implication into the partner's reality-dynamics chain. The upper diagonal from (R)OBS down to T-C-IMP is the load-bearing edge: observation is what makes temporal-continuity-implication available to projection. For western art music, that route is reinforced by every institution; for creative music from the black aesthetic in the cycle the prose names ('the 1954 liberal cycle'), the observation-edge is structurally absent — when 'Patricia Von Dupotstein' (Braxton's invented name) performs at Alice Tully Hall, T-C-IMP is supplied by institutional reflex, not by actual reality-of-observation. The projection-dynamics of creative musicians without that institutional reflex must hold (R)OBS → T-C-IMP open themselves, and SPT-DY then becomes the only working terminus rather than reaching the partner's MOT-DY.",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "pr-int" },
+    { "termId": "obs", "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "af-dy" },
+    { "termId": "info-dy" },
+    { "termId": "rt-dy" },
+    { "termId": "afi" },
+    { "termId": "pri-af-td" },
+    { "termId": "spt-dy" },
+    { "termId": "mot-dy" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "pr-int", "type": "solid" },
+    { "from": "proj-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "pri-af-td", "type": "solid" },
+    { "from": "proj-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "obs", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "pr-int", "type": "solid" },
+    { "from": "pr-int", "to": "mot-dy", "type": "solid" },
+    { "from": "af-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "mot-dy", "type": "solid" }
+  ]
+}

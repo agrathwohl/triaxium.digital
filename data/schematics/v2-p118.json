@@ -1,0 +1,35 @@
+{
+  "id": "v2-p118",
+  "volume": 2,
+  "section": "AE(PD)-6",
+  "page": 118,
+  "subject": "pol-con",
+  "title": "POL.CON. ------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-6 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's diagnostic of the move toward non-functionalism: 'I believe that the move towards non-functionalism in the seventies is directly related to the realness of both spectacle diversion progressionalism … as well as the aspect-essence distortions which came to permeate composite information dissemination.' POL-CON (political concept) is crossed with SOC-RT (social reality): the question is what political-concept produces when crossed with social-reality — under conditions where aspect-essence distortions have come to permeate information dissemination. INFO-INTR (information interior) and SOC-RT cluster in the upper register. (R)INTR (the reality of interior) feeds into the central axis from the upper-left. CRTF-D (creative-dynamic) anchors the upper-right output. RT-DYM (reality dynamics) feeds upward into the subject from below-left. POL-P (political particulars) sits between subject and partner on the central axis. SPT-DYM (spectacle dynamics) hangs on the right output. MT-INFO (multi-information) anchors the right margin. INFO-F (information functionalism) sits below. C-CONT (composite continuance) anchors the lower-right. Structural argument: political-concept crossed with social-reality is mediated by political-particulars as central hub, with the reality-of-interior as upper upstream and reality-dynamics as lower upstream. The presence of spectacle-dynamics in the right output cluster is load-bearing: it exposes that political-particulars under these conditions produces *spectacle-dynamics* as an output (not as an input as in earlier diagrams) — Braxton's structural diagnostic that the seventies' non-functionalism is the consequence of political-particulars *itself* generating spectacle, rather than spectacle being imposed externally.",
+  "terms": [
+    { "termId": "pol-con", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "info-intr" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "crtf-d" },
+    { "termId": "rt-dym" },
+    { "termId": "pol-p" },
+    { "termId": "spt-dym" },
+    { "termId": "mt-info" },
+    { "termId": "info-f" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "pol-con", "to": "soc-rt", "type": "solid" },
+    { "from": "info-intr", "to": "soc-rt", "type": "solid" },
+    { "from": "intr", "to": "pol-con", "type": "solid" },
+    { "from": "soc-rt", "to": "crtf-d", "type": "solid" },
+    { "from": "rt-dym", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "mt-info", "type": "solid" },
+    { "from": "pol-p", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "c-cont", "type": "solid" }
+  ]
+}

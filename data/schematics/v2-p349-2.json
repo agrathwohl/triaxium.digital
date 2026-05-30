@@ -1,0 +1,36 @@
+{
+  "id": "v2-p349-2",
+  "volume": 2,
+  "section": "R(AS)CM(I)-33",
+  "page": 349,
+  "subject": "dec",
+  "title": "DEC.------C.ACT.",
+  "type": "crossing",
+  "description": "Second diagram on page 349, paired with the (R)DYM-F × PRI-INFO crossing above it. Where the first diagram structurally shows how alternative-recording's dynamic-form reaches affinity-insight through ALT-D, this one names the political condition that makes that routing possible: (R)DEC (the reality of decentralization — the move the section's prose calls 'breaking the dominance certain sectors of the planet now enjoy') is crossed with C-ACT (composite activism — the organized collective doing of decentralization). DEC sits on the left with the subject-arrow; DYM-F (dynamic form) hangs immediately below as the decentralization subject's primary output, with POL-DY (political dynamics) at the lower-center. PHY-U-P (the physical-universe particulars) crosses the top of the diagram and routes to EXP-INFO-B (exposure-information base) — the partner-side hub that picks up where the prior diagram's INFO-DY left off. (R)POST sits centrally as the conditional postulation hub. On the right margin AF-DY (affinity dynamics) is the partner-center output, with (C)INDIV-TD (central individual-transformational dynamics) and SPI-GH (spirit-ghost) hanging off it as the partner-side's downward chain. T-C-IMP (temporal-continuity implication) anchors the bottom-right as the partner's terminus. Structural argument: when decentralization is crossed with composite-activism, the diagonal that runs PHY-U-P → EXP-INFO-B → AF-DY → INDIV-TD is what *gives the prior diagram's affinity-insight return-edge somewhere to actually land*. Without composite-activism on the partner-axis, the physical-universe particulars never route through exposure-information-base into affinity-dynamics — the individual transformational dynamics stay isolated, spirit-ghost becomes a private matter, and temporal-continuity-implication terminates without the decentralizing form receiving the political coverage it needs. The prose's 'next cycle' the section names is exactly this diagonal staying held: composite-activism keeps the partner-axis routing physical-universe-particulars into affinity-dynamics so the decentralizing musicians do not have to carry the political weight alone.",
+  "terms": [
+    { "termId": "dec", "isSubject": true, "prefix": "r" },
+    { "termId": "c-act" },
+    { "termId": "dym-f" },
+    { "termId": "phy-u-p" },
+    { "termId": "exp-info-b" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "af-dy" },
+    { "termId": "indiv-td", "prefix": "c" },
+    { "termId": "spi-gh" },
+    { "termId": "t-c-imp" }
+  ],
+  "relationships": [
+    { "from": "dec", "to": "c-act", "type": "solid" },
+    { "from": "dec", "to": "dym-f", "type": "solid" },
+    { "from": "dec", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "exp-info-b", "type": "solid" },
+    { "from": "exp-info-b", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "af-dy", "to": "spi-gh", "type": "solid" },
+    { "from": "exp-info-b", "to": "post", "type": "solid" },
+    { "from": "post", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "indiv-td", "to": "t-c-imp", "type": "solid" }
+  ]
+}

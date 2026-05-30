@@ -1,0 +1,35 @@
+{
+  "id": "v2-p58",
+  "volume": 2,
+  "section": "SD(SY)-36",
+  "page": 58,
+  "subject": "rt-dym",
+  "title": "RT.DYM.------POL.P.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-36 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's distinction between two transfer conditions: one 'natural' (connected to spiritual and vibrational factors interconnecting with progressional information) and one 'manufactured' (the result of flaws in the western philosophical and vibrational position). (C)RT-DYM (the concept of reality dynamics) is crossed with POL-P (political particulars): the question is what reality-dynamics produces when crossed with political-particulars, when the transfer-cycle is being manufactured rather than naturally occurring. IST-PT (interior-source point) and INFO-DE-B (information-descent basis) form the upper-left and upper-center upstreams. C-CULT-AT (composite cultural attitude) and RT-INT-TR (reality-interior traits) cluster on the upper-right output. CRT (critical) sits between subject and partner as central hub. AFTD (affinity-tendency) and JR-DYM (junior dynamics) form the lower upstream chain. CN-INFO (continuance information) anchors the lower-left. ATT (attitude) hangs on the right margin. Structural argument: reality-dynamics crossed with political-particulars is mediated by critical-faculty as the central hub, with interior-source-point and information-descent-basis as upper upstreams and continuance-information plus junior-dynamics as lower upstreams. The diagram exposes Braxton's structural verdict on manufactured-transfer: political-particulars only output composite-cultural-attitude and reality-interior-traits when reality-dynamics is genuinely critical — without the critical-faculty as hub, the crossing collapses into pure attitude (the right-margin output).",
+  "terms": [
+    { "termId": "rt-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "pol-p" },
+    { "termId": "ist-pt" },
+    { "termId": "info-de-b" },
+    { "termId": "c-cult-at" },
+    { "termId": "rt-int-tr" },
+    { "termId": "crt" },
+    { "termId": "aftd" },
+    { "termId": "jr-dym" },
+    { "termId": "cn-info" },
+    { "termId": "att" }
+  ],
+  "relationships": [
+    { "from": "ist-pt", "to": "rt-dym", "type": "solid" },
+    { "from": "info-de-b", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "c-cult-at", "type": "solid" },
+    { "from": "pol-p", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-dym", "to": "crt", "type": "solid" },
+    { "from": "crt", "to": "pol-p", "type": "solid" },
+    { "from": "cn-info", "to": "rt-dym", "type": "solid" },
+    { "from": "aftd", "to": "crt", "type": "solid" },
+    { "from": "jr-dym", "to": "aftd", "type": "solid" },
+    { "from": "rt-int-tr", "to": "att", "type": "solid" }
+  ]
+}

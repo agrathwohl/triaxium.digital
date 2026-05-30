@@ -1,0 +1,35 @@
+{
+  "id": "v2-p282",
+  "volume": 2,
+  "section": "CMOA(II)-40",
+  "page": 282,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.-----TR.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-40 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) accompanying Braxton's closing claim about world creativity: 'the real dynamics of world transformation will be directly proportioned to how individuals deal with the challenge of actual reality expansion — both theoretically and actually.' PROG-CONT (progressional continuance) is crossed with TR (transformation): the question is what progressional-continuance produces when crossed with transformation — under conditions where individual transcultural artistic activity is the operative scale. CRTF-D (creative-dynamic) sits between subject and partner. TR is partner-center. INFO-DE (information descent) sits centrally on the right. (R)PART (the reality of participation) anchors the upper-right margin via a *dashed* edge — conditional. T-C-IMP (temporal-continuity implication) sits below the central axis. AFI (affinity insight) anchors the right output. CULT-INFO-DY (culture-information dynamics) feeds in from the lower-left. EXT-F (extended functionalism) sits centrally below. AF-DY (affinity dynamics) anchors the lower-center. BSCF (basic continuance-functionalism) hangs on the lower-right. Structural argument: progressional-continuance crossed with transformation is mediated by creative-dynamic as central hub and temporal-continuity-implication as lower hub. The dashed edge to reality-of-participation is load-bearing: world-transformation produces real participation only conditionally — the individual transcultural artist (Tony Scott, Akiyoshi, Watanabe in the surrounding prose) must actively hold that edge. The diagram is Braxton's structural case for why individual world-musicianship matters: it is the only configuration in which the conditional participation edge gets actively maintained, producing affinity-insight and basic-continuance-functionalism as the real outputs of progressional-continuance crossed with transformation.",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "crtf-d" },
+    { "termId": "info-de" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "afi" },
+    { "termId": "cult-info-dy" },
+    { "termId": "ext-f" },
+    { "termId": "af-dy" },
+    { "termId": "bscf" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "info-de", "type": "solid" },
+    { "from": "info-de", "to": "part", "type": "dashed" },
+    { "from": "crtf-d", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "ext-f", "type": "solid" },
+    { "from": "info-de", "to": "afi", "type": "solid" },
+    { "from": "cult-info-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "ext-f", "to": "af-dy", "type": "solid" },
+    { "from": "ext-f", "to": "bscf", "type": "solid" }
+  ]
+}

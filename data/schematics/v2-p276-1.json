@@ -1,0 +1,33 @@
+{
+  "id": "v2-p276-1",
+  "volume": 2,
+  "section": "CMOA(II)-34",
+  "page": 276,
+  "subject": "crtf-d",
+  "title": "CRTF.D.------ALT.F.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-34 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p276. Closes Braxton's Japan analysis where 'the present reality of Japanese creativity is not available for international scrutiny.' (C)CRTF-D (the concept of creative-dynamic) is crossed with ALT-F (alternative functionalism): the question is what creative-dynamic produces when crossed with alternative-functionalism under conditions of the Japan-West one-way culture gap. PROG-CONT (progressional continuance) and POL-DY (political dynamics) form the upper-center cluster. (P)CULT-INFO-DY (point-of-activation culture-information dynamics) anchors the upper-right output via a long bridge from the central axis. ALT-F itself sits centrally below. PROJ-CONT (projectional continuance) and LK-IMP (linkage implication) form the right-side outputs. INFO-DS (information descent), DYM-F (dynamics fundamentals), and STF (source-transfer functionalism) form the lower upstream cluster. Structural argument: creative-dynamic-as-concept crossed with alternative-functionalism is mediated by alternative-functionalism itself as central hub (an unusual but structurally telling configuration where the partner doubles as the hub). The (p) prefix on culture-information-dynamics is load-bearing — Japanese culture-information operates at point-of-activation rather than as sustained system, exposing Braxton's diagnostic that Japanese creative-dynamic only triggers culture-information event-by-event because the Western recognition apparatus does not provide sustained channels. The triple lower upstream (information-descent, dynamics-fundamentals, source-transfer-functionalism) gives the schematic its decentralization, but the productive outputs depend on the conditional point-of-activation hub firing.",
+  "terms": [
+    { "termId": "crtf-d", "isSubject": true, "prefix": "c" },
+    { "termId": "alt-f" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "cult-info-dy", "prefix": "p" },
+    { "termId": "proj-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "info-ds" },
+    { "termId": "dym-f" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "crtf-d", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "cult-info-dy", "type": "solid" },
+    { "from": "crtf-d", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "proj-cont", "type": "solid" },
+    { "from": "proj-cont", "to": "lk-imp", "type": "solid" },
+    { "from": "info-ds", "to": "alt-f", "type": "solid" },
+    { "from": "dym-f", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "stf", "type": "solid" }
+  ]
+}

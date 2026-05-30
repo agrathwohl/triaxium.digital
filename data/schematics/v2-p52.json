@@ -1,0 +1,35 @@
+{
+  "id": "v2-p52",
+  "volume": 2,
+  "section": "SD(SY)-30",
+  "page": 52,
+  "subject": "info-ds",
+  "title": "(R)INFO.DS.------AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-30, on the page where Braxton argues that spectacle-diversion 'extends to source transfer' — that the actual realness of spectacle-diversion functions as the phenomenon allowing style transference, with style being indebted to world group influences (Indian religion, Asian dress, women's movement use of black functionalism, etc.). (R)INFO-DS — the reality of information dissemination — is crossed with AF-DY (affinity dynamics): the question is what real dissemination does to affinity dynamics in a culture that has institutionalized spectacle-diversion. (C)SPT-D (the concept of spectacle dynamics), (C)ST (the concept of style), and PHY-U-P (physical universe particular) feed the subject. PROG-CONT (progressional continuance) and SOC-RT (social reality) are upstream constituting forces. The crossing produces AF-DY, which fans into VT-DY (vibrational dynamics), POST (postulation), INDIV-TD (individual tendencies), and STF (source transfer). Structural argument: real information dissemination, when routed through the spectacle-style apparatus of a culture, produces affinity dynamics that flow outward to four parallel cultural-vibrational outputs. STF (source transfer) as the terminal node registers Braxton's diagnostic claim: the dissemination apparatus IS the source-transfer mechanism by which spectacle absorbs style from outside its essence continuum.",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "r" },
+    { "termId": "afl-dy" },
+    { "termId": "spt-dym", "prefix": "c" },
+    { "termId": "sty", "prefix": "c" },
+    { "termId": "phy-u-p" },
+    { "termId": "prog-cont" },
+    { "termId": "soc-rt" },
+    { "termId": "vt-dy" },
+    { "termId": "post" },
+    { "termId": "indiv-td" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "spt-dym", "to": "info-ds", "type": "solid" },
+    { "from": "sty", "to": "info-ds", "type": "solid" },
+    { "from": "phy-u-p", "to": "info-ds", "type": "solid" },
+    { "from": "prog-cont", "to": "info-ds", "type": "solid" },
+    { "from": "soc-rt", "to": "info-ds", "type": "solid" },
+    { "from": "info-ds", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "post", "type": "solid" },
+    { "from": "afl-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "afl-dy", "to": "stf", "type": "solid" }
+  ]
+}

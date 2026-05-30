@@ -1,0 +1,37 @@
+{
+  "id": "v2-p281",
+  "volume": 2,
+  "section": "CMOA(II)-39",
+  "page": 281,
+  "subject": "af-con",
+  "title": "AF.CON.------TH.CON.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-39 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) closing Braxton's world-creativity argument: 'the multi-implications of creative music are not separate from the nature underlying how given continuums have affected composite earth culture — as well as how those effects have shaped the present vibrational, social, and political realities we now exist in.' (C)AF-CON (the concept of affinity continuance) is crossed with TH-CON (theoretical continuance): the question is what affinity-continuance produces when crossed with theoretical-continuance — when the world-music question requires both continuance-types in productive tension. INFO-INTR (information interior) feeds in from the upper-left. IF-SPI (information-source projection toolkit) sits between subject and partner. MT-DEVF (multi-developmental functionalism) anchors the upper-center. TR-INFO (transfer information) anchors the upper-right output. AF-DY (affinity dynamics) sits on the right output. TH-CONT (theoretical continuance — appears with -t suffix as a clarifying variant of TH-CON) sits below the central axis. (R)PART (the reality of participation) anchors the lower-center. P-PC (point-of-activation perception conception) hangs on the lower-right. PRI-AF-TD (principle affinity-tendency) and IST-P (interior-source principle) form the lower-left upstream chain. Structural argument: affinity-continuance crossed with theoretical-continuance is mediated by information-source-projection-toolkit as central hub and theoretical-continuance-variant as lower hub. The (r) prefix on participation registers Braxton's structural commitment that real participation must obtain — touring musicians like Tony Scott (cited in the prose) actualize this by living and performing across multiple cultural sectors. The diagram exposes that affinity-continuance and theoretical-continuance can productively cross only when principle-affinity-tendency and interior-source-principle ground them at the deeper level — without those lower upstreams, the crossing collapses into mere multi-developmental cataloging.",
+  "terms": [
+    { "termId": "af-con", "isSubject": true, "prefix": "c" },
+    { "termId": "th-con" },
+    { "termId": "info-intr" },
+    { "termId": "if-spi" },
+    { "termId": "mt-devf" },
+    { "termId": "tr-info" },
+    { "termId": "af-dy" },
+    { "termId": "th-cont" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "p-pc" },
+    { "termId": "pri-af-td" },
+    { "termId": "ist-p" }
+  ],
+  "relationships": [
+    { "from": "info-intr", "to": "if-spi", "type": "solid" },
+    { "from": "af-con", "to": "if-spi", "type": "solid" },
+    { "from": "if-spi", "to": "mt-devf", "type": "solid" },
+    { "from": "mt-devf", "to": "th-con", "type": "solid" },
+    { "from": "th-con", "to": "tr-info", "type": "solid" },
+    { "from": "th-con", "to": "af-dy", "type": "solid" },
+    { "from": "af-con", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "part", "type": "solid" },
+    { "from": "part", "to": "p-pc", "type": "solid" },
+    { "from": "pri-af-td", "to": "af-con", "type": "solid" },
+    { "from": "ist-p", "to": "th-cont", "type": "solid" }
+  ]
+}

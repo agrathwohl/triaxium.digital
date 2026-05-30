@@ -1,0 +1,33 @@
+{
+  "id": "v2-p104",
+  "volume": 2,
+  "section": "AF(D)-32",
+  "page": 104,
+  "subject": "soc-rt",
+  "title": "SOC.RT.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-32, on the page where Braxton argues that 'the dissolution of the composite-affinity-alignment aspect of source transfer can also be viewed with respect to the political developments which have taken place in the progressional rise and fall of world culture groups' — and that the 'manipulation of affinity dynamics is not separate from manipulation on the physical universe level.' (C)SOC-RT (social reality) is crossed with PROG-CONT (progressional continuance): the question is what social reality requires of progressional continuance when the manipulation apparatus is operative. (R)RE-DIF (the reality of redefinitions) feeds the subject from above. SOC-RT-DY (social reality dynamics) is a parallel feed. MT-INFO-DB (multi-informational degree basis), INFO-RT (information reality), LK-IMP (linkage implications), S-ST (source-shift manipulation), and CULT-INFO-DY (culture information dynamics) form a constituting cluster below. PROJ-CONT (projectional continuance) is the terminal output. Structural argument: social reality crossed with progressional continuance flows through the source-shift / culture-information-dynamics layer — the very layer where Braxton identifies western manipulation as operative. The diagram thus exposes how affinity isolation works at the structural level: by routing social reality through a manipulation-layered chain into projectional continuance.",
+  "terms": [
+    { "termId": "soc-rt", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "re-dif", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mt-if-db" },
+    { "termId": "info-rt" },
+    { "termId": "lk-imp" },
+    { "termId": "s-st" },
+    { "termId": "cult-info-dy" },
+    { "termId": "proj-cont" }
+  ],
+  "relationships": [
+    { "from": "re-dif", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "prog-cont", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "mt-if-db", "to": "soc-rt", "type": "solid" },
+    { "from": "info-rt", "to": "mt-if-db", "type": "solid" },
+    { "from": "s-st", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "proj-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "proj-cont", "type": "solid" }
+  ]
+}

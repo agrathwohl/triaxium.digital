@@ -1,0 +1,38 @@
+{
+  "id": "v2-p490-2",
+  "volume": 2,
+  "section": "MP(II)-8",
+  "page": 490,
+  "subject": "sci-dym",
+  "title": "SCI.DYM.------PROJ.DY.",
+  "type": "crossing",
+  "description": "Diagram in MP(II)-8, second of two on book p490, paired with v2-p490-1. (C)SCI-DYM (scientific dynamics) is crossed with PROJ-DY (projectional dynamics): the question is what scientific-dynamics produces when crossed with projectional-dynamics in the context of state-broadcast cultural politics where the broadcasting apparatus doesn't comprehend its own material. INFO-DY (information dynamics) and ACC-FT (accelerated functionalism) form the upper-right cluster with METH (methodology). AFL (affinity alignment) and INDIV-TD (individual tendencies) feed from the left. PER-TR (perceived transformation) and MT-INFO (multi-information) form lower constituting nodes. AFI (affinity insight), CULT-INFO-B (culture information basis), and C-INFO (composite information) cluster in the lower-right. PART (participation) and PROJ-DY (the partner) form the central output structure. Structural argument: scientific-dynamics crossed with projectional-dynamics requires individual-tendencies and affinity-alignment as foundational upstreams. The diagram makes Braxton's structural claim that scientific projection (even state-broadcast scientific projection) only becomes culturally productive when grounded in individual tendencies and affinity alignment — without those, it remains uncomprehended apparatus.",
+  "terms": [
+    { "termId": "sci-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "proj-dy" },
+    { "termId": "info-doc" },
+    { "termId": "acc-ft" },
+    { "termId": "mth" },
+    { "termId": "afl" },
+    { "termId": "indiv-td" },
+    { "termId": "per-tr" },
+    { "termId": "mt-info" },
+    { "termId": "afi" },
+    { "termId": "cult-info-b" },
+    { "termId": "c-info" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "sci-dym", "to": "proj-dy", "type": "solid" },
+    { "from": "sci-dym", "to": "info-doc", "type": "solid" },
+    { "from": "info-doc", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "mth", "type": "solid" },
+    { "from": "afl", "to": "sci-dym", "type": "solid" },
+    { "from": "indiv-td", "to": "sci-dym", "type": "solid" },
+    { "from": "per-tr", "to": "part", "type": "solid" },
+    { "from": "mt-info", "to": "part", "type": "solid" },
+    { "from": "part", "to": "proj-dy", "type": "solid" },
+    { "from": "afi", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "c-info", "type": "solid" }
+  ]
+}

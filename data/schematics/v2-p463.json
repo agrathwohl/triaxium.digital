@@ -1,0 +1,37 @@
+{
+  "id": "v2-p463",
+  "volume": 2,
+  "section": "MP(I)-37",
+  "page": 463,
+  "subject": "pol-dy",
+  "title": "POL.DY.-----CULT.INFO.F.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-37 — the section identifying the spectacle-diversion cycle's information-regulation mechanisms. The prose immediately above the diagram names what the crossing makes structural: 'The utilization of source transfer — gradualism — words (or their use in outlets like western criticism) — misdocumentation — and outright lies are only a few of what I call the available procedures that have been established in the west as factors to regulate culture. It is for this reason that alternative creativity must first come through the spectacle-diversion cycle of information regulation before the public can actually be exposed to its particulars.' The crossing diagrams that spectacle-diversion structurally: POL-DY (political dynamics — the working political-mechanism that regulates information) is crossed with CULT-INFO-F (cultural-information form — the form that culture's information takes when it has been regulated). POL-DY sits on the left with the subject-arrow; (R)INFO-TRNS (the reality of information-transition) rises above and DOC (documentation) sits at upper-right, with CULT-SOLD (culture-soldered), EXTN-D (extended-definition), and CULT-O (cultural other) stacked on the right margin as the partner-side's downward chain. CULT-INFO-F sits as partner-axis centrally; POL-P (political particulars) hangs below the partner-center. AF-DY (affinity dynamics) sits at lower-left as the subject's downward output, with (R)P-FC (the reality of political-focus/-functionalism) anchoring the bottom-left. AF-COMP (affinity composite) sits at lower-center and DYM-SEP (dynamism-separation) at the lower-right as the subject's downward terminus chain. Structural argument: the upper diagonal INFO-TRNS → DOC → CULT-SOLD → EXTN-D → CULT-O is the *misdocumentation chain* — political-dynamics routes information-transition through documentation into culture-soldered extended-definitions and finally into cultural-other categorization. This is the structural shape of 'source transfer — gradualism — words.' AF-DY → P-FC on the lower-left is what political-dynamics produces on its own — affinity-dynamics routing into political-focus. The central AF-COMP → DYM-SEP edge is the dynamism-separation the spectacle-diversion produces: affinity-composite gets separated into dynamism-separation rather than reaching CULT-INFO-F directly. CULT-INFO-F → POL-P is the partner-axis's working output — culture's regulated information form produces political-particulars on the partner side alone. The 'sophistication of the western political position' the prose names is exactly this: every upper-chain edge and every lower-chain edge is structurally held by available procedures.",
+  "terms": [
+    { "termId": "pol-dy", "isSubject": true },
+    { "termId": "cult-info-f" },
+    { "termId": "info-trns", "prefix": "r" },
+    { "termId": "doc" },
+    { "termId": "cult-sold" },
+    { "termId": "extn-d" },
+    { "termId": "cult-o" },
+    { "termId": "af-dy" },
+    { "termId": "p-fc", "prefix": "r" },
+    { "termId": "af-comp" },
+    { "termId": "pol-p" },
+    { "termId": "dym-sep" }
+  ],
+  "relationships": [
+    { "from": "pol-dy", "to": "cult-info-f", "type": "solid" },
+    { "from": "pol-dy", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "extn-d", "type": "solid" },
+    { "from": "extn-d", "to": "cult-o", "type": "solid" },
+    { "from": "pol-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "p-fc", "type": "solid" },
+    { "from": "af-dy", "to": "af-comp", "type": "solid" },
+    { "from": "af-comp", "to": "dym-sep", "type": "solid" },
+    { "from": "cult-info-f", "to": "pol-p", "type": "solid" }
+  ]
+}

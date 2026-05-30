@@ -1,0 +1,34 @@
+{
+  "id": "v2-p318-1",
+  "volume": 2,
+  "section": "R(AS)CM(I)-2",
+  "page": 318,
+  "subject": "th-cont",
+  "title": "TH.CONT.-----PER.TRS.",
+  "type": "crossing",
+  "description": "First of two diagrams in R(AS)CM(I)-2, the opening section of 'Reality (Aspect) of Creative Music — Level One.' The prose above identifies the mechanism Braxton is structurally diagramming: 'the nature of the journalism that took place in the early period of bebop transcended the particulars of a given focus (or opinion), but instead moved to suppress the reality position (and/or affinity dynamics) underlying what a given creative participation really meant (in its vibrational and cosmic sense).' The crossing names how that suppression worked structurally: TH-CONT (thrust continuance — the form's actual forward motion) is crossed with PER-TRS (perceived transition — what the journalism declared the bebop transition to be). TH-CONT sits on the left with the subject-arrow; STR descends from it directly into ALT-F (alternative functionalism), with AFL (affinity alignment) at the bottom anchoring the subject's downward output chain. PER-TRS is partner-center; AF-TF (affinity transfer) rises above it and AF-TD branches up-right, with (R)EXT-F (the reality of extended functionalism) on the right and (P)ASP-ES (the physical-universe aspect-essence) hanging at the lower-right margin. APP-RDEF (applied redefinitions) sits just below PER-TRS as the partner's downward hub. Structural argument: when thrust-continuance is crossed with the journalism's perceived-transition narrative, the partner-side's upper chain (AF-TF → AF-TD → EXT-F) carries the form's actual extended-functionalism into the partner's reality margin (P)ASP-ES — but only after passing through APP-RDEF, where applied redefinitions intercept it. That interception is exactly Braxton's 'cross-transfer definitions' mechanism: the upward thrust-continuance never reaches the partner-side outputs as itself; it is redefined into APP-RDEF and then routed down into ALT-F on the subject side, where the form's *actual* alternative functionalism gets re-described as what the perceived-transition story already allowed. The reality position of creative participation is suppressed not by being denied but by being passed through the applied-redefinitions hub on its way back into the subject's own chain.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true },
+    { "termId": "per-trs" },
+    { "termId": "aftf" },
+    { "termId": "af-td" },
+    { "termId": "app-rdef" },
+    { "termId": "str" },
+    { "termId": "alt-f" },
+    { "termId": "afl" },
+    { "termId": "ext-f", "prefix": "r" },
+    { "termId": "asp-es", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "per-trs", "type": "solid" },
+    { "from": "th-cont", "to": "str", "type": "solid" },
+    { "from": "str", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "afl", "type": "solid" },
+    { "from": "per-trs", "to": "aftf", "type": "solid" },
+    { "from": "aftf", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "asp-es", "type": "solid" },
+    { "from": "per-trs", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "alt-f", "type": "solid" }
+  ]
+}

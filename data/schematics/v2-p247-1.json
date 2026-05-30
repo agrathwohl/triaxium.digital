@@ -1,0 +1,37 @@
+{
+  "id": "v2-p247-1",
+  "volume": 2,
+  "section": "CMOA(II)-5",
+  "page": 247,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------TRS.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-5 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p247. Accompanies Braxton's claim: 'the influence (and impact) of given touring ensembles should not be viewed in narrow terms, for the exposure and effect generated through live performance is directly related to how the composite music was perceived.' LK-IMP (linkage implication) is crossed with TRS (transference): the question is what linkage-implication produces when crossed with transference — under conditions where touring (the operational vehicle of transference) shapes European reception of American creative music. IST-S-ALGN (interior-source alignment) and DY-FT (dynamics functionalism) feed in from the upper-left. TRS sits at the upper-right. MT-INFO (multi-information) and DOC (documentation) cluster on the right. EXP-DY (experimental dynamics) sits centrally. POL-DY (political dynamics) sits below the crossing. INFO-DY (information dynamics) anchors the lower-center. (R)INTR (reality of interior), INT (interior), and AF-DY (affinity dynamics) form the lower-center cluster. Structural argument: linkage-implication crossed with transference is mediated by experimental-dynamics as central hub, with political-dynamics as lower hub and interior-as-real as deepest upstream. The doubled interior nodes ((r)intr and int) register Braxton's structural distinction between reality-interior (the actually obtaining interior life of the musicians) and interior-as-such (the structural position) — both must function for affinity-dynamics to register the touring impact as transformation rather than as mere documentation.",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true },
+    { "termId": "trs" },
+    { "termId": "ist-s-algn" },
+    { "termId": "dy-ft" },
+    { "termId": "mt-info" },
+    { "termId": "doc" },
+    { "termId": "exp-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "info-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "int" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "ist-s-algn", "to": "lk-imp", "type": "solid" },
+    { "from": "dy-ft", "to": "trs", "type": "solid" },
+    { "from": "lk-imp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "mt-info", "type": "solid" },
+    { "from": "trs", "to": "doc", "type": "solid" },
+    { "from": "lk-imp", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "lk-imp", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "int", "type": "solid" },
+    { "from": "info-dy", "to": "af-dy", "type": "solid" }
+  ]
+}

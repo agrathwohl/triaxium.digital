@@ -1,0 +1,31 @@
+{
+  "id": "v2-p101",
+  "volume": 2,
+  "section": "AF(D)-29",
+  "page": 101,
+  "subject": "rc",
+  "title": "RC------AFL.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-29 (Affinity Dynamics, Level One) accompanying Braxton's clarification: 'the perceived composite western affinity alignment is not the composite western affinity alignment … there would still be the realness of affinity dynamics as well as the dynamic uniqueness of given planet areas and/or vibrational groups.' (C)RC (the concept of race) is crossed with AFL (affinity alignment): the question is what race produces when crossed with affinity-alignment — race being explicitly held at the conceptual level (the (c) prefix) because Braxton's argument is that race-as-concept is *interpretively* opposed to affinity-alignment-as-reality. IF-SPT (information-source projection toolkit) feeds into RC from the upper-left. AFL is the partner. AFTD (affinity-tendency) hangs on the upper-right output. COS-D (cosmic dynamics) anchors the right output. INDIV-DY (individual dynamics) feeds into RC from the left. IST-F (interior-source functionalism) anchors the lower-left. AF-POST (affinity postulation) sits below the crossing. HI-P (high principle) hangs on the lower-right margin. Structural argument: race-as-concept crossed with affinity-alignment produces affinity-tendency, cosmic-dynamics, and high-principle as outputs — but only when interior-source-functionalism and individual-dynamics function as live upstreams, and affinity-postulation operates as a lower mediating term. The diagram exposes Braxton's structural commitment: race-thinking, when held conceptually rather than naturalized, can productively cross with affinity-alignment because the affinity-postulation reading replaces race as the actually-operative organizing layer. Without affinity-postulation as the lower mediator, race would not cross productively at all.",
+  "terms": [
+    { "termId": "rc", "isSubject": true, "prefix": "c" },
+    { "termId": "afl" },
+    { "termId": "if-spt" },
+    { "termId": "aftd" },
+    { "termId": "cos-d" },
+    { "termId": "indiv-dy" },
+    { "termId": "ist-f" },
+    { "termId": "af-post" },
+    { "termId": "hi-p" }
+  ],
+  "relationships": [
+    { "from": "if-spt", "to": "rc", "type": "solid" },
+    { "from": "rc", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "cos-d", "type": "solid" },
+    { "from": "indiv-dy", "to": "rc", "type": "solid" },
+    { "from": "ist-f", "to": "rc", "type": "solid" },
+    { "from": "rc", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "hi-p", "type": "solid" }
+  ]
+}

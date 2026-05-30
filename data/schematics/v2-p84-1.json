@@ -1,0 +1,30 @@
+{
+  "id": "v2-p84-1",
+  "volume": 2,
+  "section": "AF(D)-12",
+  "page": 84,
+  "subject": "asp-es",
+  "title": "ASP.ES.------SPT.D.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-12 (Affinity Dynamics, Level One), first of two on book p84, paired with v2-p84-2. Opens Braxton's transfer-cycles analysis: 'the concept of transfer cycles can be viewed with respect to the nature underlying how information is passed through various time zones and culture groups.' (C)ASP-ES (the concept of aspect essence) is crossed with SPT-D (spectacle dynamics): the question is what aspect-essence produces when crossed with spectacle-dynamics — aspect-essence being the perceptual-extraction layer through which transfer-cycles operate, spectacle-dynamics being what disrupts that layer in the western context. (R)TM (the reality of time) sits centrally between subject and partner. AFN (affinity) hangs on the upper-right margin via a *dashed* edge from SPT-D — the only conditional relation, marking that affinity's link to spectacle-dynamics is uncertain (spectacle attempts to redirect affinity but does not deterministically capture it). S-ST (source-state) anchors the left margin. ALT-D (alternative dynamics) hangs on the right output. PROG-CONT (progressional continuance) sits lower-center between the two upper output chains. CRTF-D (creative-dynamic) anchors the lower-center. Structural argument: aspect-essence crossed with spectacle-dynamics is mediated by the reality-of-time as central hub, with source-state and creative-dynamic as upstreams. The dashed AFN edge is load-bearing: it exposes Braxton's structural insight that affinity is *not* automatically captured by spectacle — there is structural slack in that edge, which is where transfer-cycles can be honestly read. The diagram is the case that aspect-essence (perception of essence-traits) and spectacle-dynamics are in productive tension only when time-reality, source-state, and creative-dynamic are all live upstreams.",
+  "terms": [
+    { "termId": "asp-es", "isSubject": true, "prefix": "c" },
+    { "termId": "spt-d" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "afn" },
+    { "termId": "s-st" },
+    { "termId": "alt-d" },
+    { "termId": "prog-cont" },
+    { "termId": "crtf-d" }
+  ],
+  "relationships": [
+    { "from": "asp-es", "to": "spt-d", "type": "solid" },
+    { "from": "asp-es", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "spt-d", "type": "solid" },
+    { "from": "spt-d", "to": "afn", "type": "dashed" },
+    { "from": "s-st", "to": "asp-es", "type": "solid" },
+    { "from": "tm", "to": "alt-d", "type": "solid" },
+    { "from": "asp-es", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "crtf-d", "type": "solid" }
+  ]
+}

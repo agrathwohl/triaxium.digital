@@ -1,0 +1,40 @@
+{
+  "id": "v2-p461",
+  "volume": 2,
+  "section": "MP(I)-35",
+  "page": 461,
+  "subject": "proj",
+  "title": "PROJ.-------PRI.INFO.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-35 — the section on the inability of sixties black political activism to secure 'what was implied in the actual creativity (not just the music).' The prose immediately above identifies the structural problem: 'the activism that occurred in the sixties never secured what was implied in the actual creativity (not just the music), because of the inability of black people to overcome the dynamic forces related to disunification. For however any group chooses to understand communism, socialism, etc., these viewpoints are still philosophies which, however utilized, seek to secure the white sensibility in a dominant position, and this can no longer be tolerated on any level.' The crossing diagrams what projection structurally meets when principle-information is its partner: (C)PROJ (central projection — what creative-music's actual projection consists of) crossed with PRI-INFO (principle information — the form's structured presentation as principle). PROJ sits on the left with the subject-arrow; AFI-2 (affinity insight, level two) at upper-left, AFI (the bare affinity insight term) at top-center, and AFI-1 (affinity insight, level one) between AFI and PRI-INFO — three levels of affinity-insight stacked across the upper axis. PRI-INFO sits at upper-right as partner-axis. AF-DY (affinity dynamics) hangs on the right with DYM-F (dynamic form) below and SCI-DYM (scientific dynamism) on the right margin. PER-VT-U-FUND (periodic vibrational-universe fundament) and PER-PHI-U-FUND (periodic philosophical-universe fundament) sit at the lower-left and lower-center as the subject-side downward chain; POST (postulation), AF-DR (affinity-direction), and DYM-SPT (dynamism-spectacle) anchor the bottom as subject-side terminus. Structural argument: the three-step upper chain AFI-2 → AFI → AFI-1 → PRI-INFO is the *securing-route* the prose names — projection routes through three escalating levels of affinity-insight into principle-information; this is what creative-music's actual projection achieves when the diagonal holds. The partner-side AF-DY → DYM-F → SCI-DYM is what principle-information produces on its own. The subject's lower chain PER-VT-U-FUND / PER-PHI-U-FUND → POST → AF-DR / DYM-SPT is what projection produces *without* the upper diagonal — the periodic vibrational and philosophical fundament routes through postulation into affinity-direction and dynamism-spectacle. The 'disunification' the prose names is structural: when AFI-2 / AFI / AFI-1 cannot stay stacked as three levels across the upper axis, projection's three-step securing-route collapses, and the partner-axis's principle-information receives only the lower fundament's postulation. Sixties activism could not hold the three-level upper stack; this is why the actual creativity's implication was never secured.",
+  "terms": [
+    { "termId": "proj", "isSubject": true, "prefix": "c" },
+    { "termId": "pri-info" },
+    { "termId": "afi" },
+    { "termId": "afi-1" },
+    { "termId": "afi-2" },
+    { "termId": "af-dy" },
+    { "termId": "dym-f" },
+    { "termId": "sci-dym" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "per-phi-u-fund" },
+    { "termId": "post" },
+    { "termId": "af-dr" },
+    { "termId": "dym-spt" }
+  ],
+  "relationships": [
+    { "from": "proj", "to": "pri-info", "type": "solid" },
+    { "from": "proj", "to": "afi-2", "type": "solid" },
+    { "from": "proj", "to": "afi", "type": "solid" },
+    { "from": "proj", "to": "afi-1", "type": "solid" },
+    { "from": "afi-1", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "sci-dym", "type": "solid" },
+    { "from": "proj", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "proj", "to": "per-phi-u-fund", "type": "solid" },
+    { "from": "per-phi-u-fund", "to": "post", "type": "solid" },
+    { "from": "post", "to": "af-dr", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "dym-spt", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v2-p93",
+  "volume": 2,
+  "section": "AF(D)-21",
+  "page": 93,
+  "subject": "af-td",
+  "title": "AF.TD.------AFI(1)",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-21 (Affinity Dynamics, Level One) accompanying Braxton's diagnostic that 'the solidification of alternative viewpoints cannot affect the basic lining of western culture — and because of this, positive transformation is negated (or stopped)' under suppressed affinity dynamics. (C)AF-TD (the concept of affinity-tendency) is crossed with AFI(1) (affinity insight, first-order): the question is what affinity-tendency produces when crossed with first-order affinity-insight — the (1) marker on AFI being load-bearing, distinguishing primary affinity-insight from secondary (AFI2) which appears elsewhere in the glossary. VT-DY (vibrational dynamics) sits between subject and partner. PER-TRS (perceived transference) anchors the upper-right output. SOC-RT-P (social reality particulars) hangs on the right margin. (R)TM (the reality of time) feeds in from the lower-left. SF-RZ (surface realization) sits below the subject. IST-F (interior-source functionalism) and AFL (affinity alignment) form the lower-center. ACT-T (actual terms) anchors the lower-right via a *dashed* edge to ALT-F (alternative functionalism). Structural argument: affinity-tendency crossed with first-order-affinity-insight produces perceived-transference as upper output and social-reality-particulars as right output. The dashed edge between ACT-T and ALT-F is load-bearing: it exposes Braxton's structural verdict that *actual* alternative-functionalism is only conditionally achievable from actual-terms — the suppression Braxton names operates precisely by breaking that dashed link, making alternative-functionalism appear unreachable from any actual ground.",
+  "terms": [
+    { "termId": "af-td", "isSubject": true, "prefix": "c" },
+    { "termId": "afi1" },
+    { "termId": "vt-dy" },
+    { "termId": "per-trs" },
+    { "termId": "soc-rt-p" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "sf-rz" },
+    { "termId": "ist-f" },
+    { "termId": "afl" },
+    { "termId": "act-t" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "af-td", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "afi1", "type": "solid" },
+    { "from": "afi1", "to": "per-trs", "type": "solid" },
+    { "from": "afi1", "to": "soc-rt-p", "type": "solid" },
+    { "from": "tm", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "sf-rz", "type": "solid" },
+    { "from": "sf-rz", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "act-t", "type": "solid" },
+    { "from": "act-t", "to": "alt-f", "type": "dashed" }
+  ]
+}

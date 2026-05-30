@@ -1,0 +1,32 @@
+{
+  "id": "v2-p323",
+  "volume": 2,
+  "section": "R(AS)CM(I)-7",
+  "page": 323,
+  "subject": "pol-dym",
+  "title": "POL.DYM.------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(I)-7. The prose immediately above identifies the structural target: the sexist-and-nationalistic 'redefinitions' bebop-era journalism produced represent 'the most important bastion of disruption in this time zone.' The crossing diagrams what political-dynamism actually crosses with when social-reality is its working partner: (C)POL-DYM (central political-dynamism — the organized political-motion the journalism's redefinitions are part of) is crossed with SOC-RT (social reality — the receiving culture that absorbs the redefinitions). POL-DYM sits on the left with the subject-arrow; T-C-IMP (temporal-continuity implication) rises above and COS-D (cosmic dimension) sits at top-center as bridging output — the political-dynamism's upper claim is exactly cosmic-dimensional. MOT-DY (motion dynamics) and PART (participation) anchor the lower-left as the subject's downward outputs. SOC-RT is partner-axis at upper-right; INDIV-DY-RT (individual-dynamics reality) hangs on the right, with AFL-DY (affinity dynamics) below it and INTR (introduction) at the lower-right as the partner-side's downward chain. Structural argument: when political-dynamism is crossed with social-reality at the bebop-redefinition scale, the upper diagonal COS-D → SOC-RT shows the route — cosmic-dimensional claims supply political-dynamism's authority to reach social-reality. The lower-right chain INDIV-DY-RT → AFL-DY → INTR is what social-reality produces on its own: introduction-only affinity-dynamics-of-the-individual, the privatized reception form. MOT-DY → PART on the subject's bottom is what political-dynamism produces alone. The diagonals must hold or POL-DYM's claim that 'sexist and nationalistic redefinitions' carry the cosmic-dimensional weight gets absorbed into SOC-RT's individual-dynamics chain without ever meeting the participation the subject side could supply.",
+  "terms": [
+    { "termId": "pol-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "t-c-imp" },
+    { "termId": "cos-d" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "afl-dy" },
+    { "termId": "intr" },
+    { "termId": "mot-dy" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "pol-dym", "to": "soc-rt", "type": "solid" },
+    { "from": "pol-dym", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "cos-d", "type": "solid" },
+    { "from": "cos-d", "to": "soc-rt", "type": "solid" },
+    { "from": "pol-dym", "to": "mot-dy", "type": "solid" },
+    { "from": "pol-dym", "to": "part", "type": "solid" },
+    { "from": "soc-rt", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "intr", "type": "solid" }
+  ]
+}

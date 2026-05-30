@@ -1,0 +1,31 @@
+{
+  "id": "v2-p97",
+  "volume": 2,
+  "section": "AF(D)-25",
+  "page": 97,
+  "subject": "ist-f",
+  "title": "(R)IST.F.------TR.INFO.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-25 (Affinity Dynamics, Level One) accompanying Braxton's argument that 'institutionalized prodding' (university dominance) suppresses inquiry: 'the nature of being is suppressed — which is to say, both creative and functional information routes are perceived in accordance to the established power structure dictates.' (R)IST-F (the reality of interior-source functionalism) is crossed with TR-INFO (transfer information): the question is what interior-source-functionalism produces in its actual instantiation when crossed with transfer-information — the (R) prefix marking that interior-source-functionalism must actually obtain to resist institutional suppression. VT-DY (vibrational dynamics) feeds in from the upper-left. RT-INT-TR (reality-interior traits) sits between subject and partner. TR-INFO is the partner. AFL (affinity alignment) anchors the upper-right output. ATTN (attention) sits below the subject as a central hub. TH-CONT-DY (theoretical-continuance dynamics) hangs on the right output. (P)INTR (point-of-activation interior) and AF-CON (affinity contact) form the lower-center cluster. Structural argument: interior-source-functionalism-as-real crossed with transfer-information is mediated by reality-interior-traits (the natural intersection between interior and exterior). The (p) prefix on INTR registers that interior in this configuration is triggered rather than continuous — Braxton's diagnostic that institutional prodding makes interior-life intermittent. Attention as the lower hub is load-bearing: it is what gets captured by 'four thousand books' (the prose example), and the diagram exposes that real interior-source-functionalism must route around the captured-attention hub to reach affinity-alignment.",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true, "prefix": "r" },
+    { "termId": "tr-info" },
+    { "termId": "vt-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "afl" },
+    { "termId": "attn" },
+    { "termId": "th-cont-dy" },
+    { "termId": "intr", "prefix": "p" },
+    { "termId": "af-con" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "afl", "type": "solid" },
+    { "from": "ist-f", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "th-cont-dy", "type": "solid" },
+    { "from": "af-con", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "intr", "type": "solid" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "v2-p95",
+  "volume": 2,
+  "section": "AF(D)-23",
+  "page": 95,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------AFL.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-23 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the attempts to suppress this most important phenomenon must not be taken lightly,' immediately following his insistence that affinity-alignment 'in fact does mean something.' (R)INDIV-TD (the reality of individual tendencies) is crossed with AFL (affinity alignment): the question is what individual-tendencies produces in their *actual* instantiation when crossed with affinity-alignment — the (R) prefix marking Braxton's commitment that individual-tendencies actually obtain (against the suppression). AFL is the partner. (C)POST (the concept of postulation) anchors the upper-right output. PROJ-DY (projectional dynamics) hangs on the right margin. PROG-CONT (progressional continuance) sits between subject and AFL on the lower bridge. INFO-AF-B (information-affinity basis) sits centrally. T-C-IMP (temporal-continuity implication) anchors the right cluster. VT-ATT (vibrational attitude) hangs on the lower-right. RT-DY (reality dynamics) and RT-OP (reality operation) form the lower-center upstream. Structural argument: individual-tendencies-as-real crossed with affinity-alignment is fed by progressional-continuance (the upper bridge) and reality-dynamics plus reality-operation (the lower upstreams). The (c) prefix on POST registers that postulation is the conceptual *output* — what gets formulated *about* the alignment — while projectional-dynamics is its plain operational output. The diagram exposes Braxton's structural commitment that individual-tendencies, when honored as real, sustain affinity-alignment through information-affinity-basis as the central hub, with vibrational-attitude as the marginal output to be measured.",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "afl" },
+    { "termId": "post", "prefix": "c" },
+    { "termId": "proj-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "info-af-b" },
+    { "termId": "t-c-imp" },
+    { "termId": "vt-att" },
+    { "termId": "rt-dy" },
+    { "termId": "rt-op" }
+  ],
+  "relationships": [
+    { "from": "indiv-td", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "post", "type": "solid" },
+    { "from": "post", "to": "proj-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "afl", "type": "solid" },
+    { "from": "prog-cont", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "vt-att", "type": "solid" },
+    { "from": "rt-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "rt-op", "to": "info-af-b", "type": "solid" }
+  ]
+}

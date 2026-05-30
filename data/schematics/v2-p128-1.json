@@ -1,0 +1,35 @@
+{
+  "id": "v2-p128-1",
+  "volume": 2,
+  "section": "AE(PD)-16",
+  "page": 128,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT. ------ PRI.INFO.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-16 (Aspect Essence / Perception Dynamics, Level One), first of three on book p128. Accompanies Braxton's two-conditions diagnostic of sixties activism: '(1) with respect to the composite focus of a given objective, and (2) with respect to the particulars of a given route. Both of these conditions are important if a given transition is to be achieved.' (C)C-FO-ACT (the concept of composite focused activism) is crossed with PRI-INFO (principle information): the question is what composite-focused-activism produces when crossed with principle-information — the activism-condition being held against the information-condition. T-C-IMP (temporal-continuity implication) and DYM-F (dynamics fundamentals) form the upper bridge. PART (participation) and LANG-DY (language dynamics) cluster on the upper-right output. PROG-CONT (progressional continuance) and MT-INFO (multi-information) form the lower-left upstream chain. PRI-INFO itself sits centrally. (R)INT (the reality of interior) and (C)POST (the concept of postulation) form the lower-right cluster. PROJ-CONT (projectional continuance) anchors the lower-center. Structural argument: composite-focused-activism crossed with principle-information is mediated by temporal-continuity-implication and dynamics-fundamentals as upper bridge, with progressional-continuance and multi-information as lower upstream. The mixed prefixes — (r) on int but (c) on post — register Braxton's structural distinction: real interior must obtain, but postulation is being held conceptually. The diagram is the structural case for why composite activism requires *principle*-information (not particular-information) as its crossing partner: the activism only sustains across the temporal continuity hub when principle-information is the partner.",
+  "terms": [
+    { "termId": "c-fo-act", "isSubject": true, "prefix": "c" },
+    { "termId": "pri-info" },
+    { "termId": "t-c-imp" },
+    { "termId": "dym-f" },
+    { "termId": "part" },
+    { "termId": "lang-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "mt-info" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "post", "prefix": "c" },
+    { "termId": "proj-cont" }
+  ],
+  "relationships": [
+    { "from": "c-fo-act", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "part", "type": "solid" },
+    { "from": "dym-f", "to": "lang-dy", "type": "solid" },
+    { "from": "c-fo-act", "to": "pri-info", "type": "solid" },
+    { "from": "prog-cont", "to": "c-fo-act", "type": "solid" },
+    { "from": "mt-info", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "intr", "type": "solid" },
+    { "from": "pri-info", "to": "post", "type": "solid" },
+    { "from": "mt-info", "to": "proj-cont", "type": "solid" }
+  ]
+}

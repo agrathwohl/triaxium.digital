@@ -1,0 +1,31 @@
+{
+  "id": "v2-p178",
+  "volume": 2,
+  "section": "SR(TRS)II-34",
+  "page": 178,
+  "subject": "rt-op",
+  "title": "RT.OP.------TR.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-34 (Social Reality / Trans-Information, Level Two) accompanying Braxton's structural diagnostic of western culture's center-factor: 'the social mechanisms sustaining the center factor of western culture is that the lives and affinity realness of outside initiations are isolated from the mainstream (the mainstream being white people and their lives and their social, intellectual and functional reality).' RT-OP (reality operation) is crossed with TR (transformation): the question is what reality-operation produces when crossed with transformation — under conditions where reality-operation is structured to isolate non-mainstream initiations. EXT-DYM (extended dynamics) and RE-ST (restructuralism) form the upper-left cluster. TR sits upper-center. ACC-DY (accelerated dynamics) anchors the upper-right output. LK-IMP (linkage implication) sits between subject and partner. POL-DY (political dynamics) sits below. AFI (affinity insight) and INFO-CON (information conformity) cluster on the lower-right output. Structural argument: reality-operation crossed with transformation is mediated by linkage-implication as central hub, with extended-dynamics and restructuralism as upper upstreams and political-dynamics as the central-lower mediation. The diagram exposes Braxton's structural diagnostic of the isolation-mechanism: the productive output cluster (accelerated-dynamics, affinity-insight, information-conformity) routes through linkage-implication, and linkage-implication is precisely what western culture controls by determining which lives count as 'mainstream linkable.' Political-dynamics as lower mediator is the mechanism — it determines what gets linked to what, and so determines whose affinity-insight registers as transformation-relevant.",
+  "terms": [
+    { "termId": "rt-op", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "ext-dym" },
+    { "termId": "re-st" },
+    { "termId": "acc-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "pol-dy" },
+    { "termId": "afi" },
+    { "termId": "info-con" }
+  ],
+  "relationships": [
+    { "from": "ext-dym", "to": "tr", "type": "solid" },
+    { "from": "re-st", "to": "tr", "type": "solid" },
+    { "from": "rt-op", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "acc-dy", "type": "solid" },
+    { "from": "rt-op", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "info-con", "type": "solid" }
+  ]
+}

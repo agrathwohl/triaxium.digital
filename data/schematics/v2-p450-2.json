@@ -1,0 +1,36 @@
+{
+  "id": "v2-p450-2",
+  "volume": 2,
+  "section": "MP(I)-24",
+  "page": 450,
+  "subject": "dym-ft",
+  "title": "DYM.FT.------C.FO.ACT.",
+  "type": "crossing",
+  "description": "Second diagram on page 450, paired with INFO-DY × ALT-FT above. Where the first diagram structurally shows how sixties information-dynamics could not reach alternative-functionalism across the diagonals, this one structurally shows the same fragmentation at the level of *form* itself: DYM-FT (dynamic functionalism — what alternative form *does* in working motion) crossed with C-FO-ACT (central focused activism — what political activism *does* in working motion). DYM-FT sits on the left with the subject-arrow; SCI-DY (scientific dynamics) rises above as the subject's upward output, with IST-F (isolated focus) at the lower-left as the subject's downward output. INFO-DY hangs centrally below DYM-FT as the subject's working hub. C-FO-ACT is partner-center; METH (method) rises above it and CULT-SOLD (culture-soldered) sits between C-FO-ACT and the upper-right margin, with PART (participation) anchoring the upper-right and RT-ALGN (reality alignment) below PART, and DEF (definition) on the right margin as the partner's eastern output. MT-INFO (meta-information) hangs at the bottom-center as the bridging-axis bottom terminus. Structural argument: Cecil Taylor's remark the next page records — that the black political activists 'had practically no knowledge of who they were' — is exactly this crossing's failure. C-FO-ACT routes upward through METH and CULT-SOLD into PART and RT-ALGN — but PART terminates at DEF (definition) rather than crossing back into DYM-FT's SCI-DY. Meanwhile DYM-FT's INFO-DY routes downward into MT-INFO without ever reaching CULT-SOLD on the partner-axis. The activist 'who they were' lives in DYM-FT's SCI-DY — but the partner-axis terminates in DEF, leaving the activists with definitions of activism rather than the dynamic-functionalism that would supply the self-knowledge Cecil names. The structural diagonals that would let SCI-DY meet CULT-SOLD are exactly what sixties fragmentation could not hold.",
+  "terms": [
+    { "termId": "dym-ft", "isSubject": true },
+    { "termId": "c-fo-act" },
+    { "termId": "sci-dy" },
+    { "termId": "meth" },
+    { "termId": "cult-sold" },
+    { "termId": "part" },
+    { "termId": "rt-algn" },
+    { "termId": "def" },
+    { "termId": "ist-f" },
+    { "termId": "info-dy" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "dym-ft", "to": "c-fo-act", "type": "solid" },
+    { "from": "dym-ft", "to": "sci-dy", "type": "solid" },
+    { "from": "dym-ft", "to": "ist-f", "type": "solid" },
+    { "from": "dym-ft", "to": "info-dy", "type": "solid" },
+    { "from": "c-fo-act", "to": "meth", "type": "solid" },
+    { "from": "c-fo-act", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "part", "type": "solid" },
+    { "from": "cult-sold", "to": "rt-algn", "type": "solid" },
+    { "from": "c-fo-act", "to": "def", "type": "solid" },
+    { "from": "c-fo-act", "to": "mt-info", "type": "solid" },
+    { "from": "info-dy", "to": "mt-info", "type": "solid" }
+  ]
+}

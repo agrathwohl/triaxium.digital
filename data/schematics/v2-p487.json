@@ -1,0 +1,34 @@
+{
+  "id": "v2-p487",
+  "volume": 2,
+  "section": "MP(II)-5",
+  "page": 487,
+  "subject": "per-phy-u-fund",
+  "title": "PER.PHY.U.FUND.------SPT.DYM.",
+  "type": "crossing",
+  "description": "Diagram closing MP(II)-5, opening the Level Two political-implications section. The prose immediately above names the structural ground: 'the use of transfer cycles would play a great role in helping to establish creativity as a political tool, and the particulars of this phenomenon are directly related to what cycle we choose to focus on... the creativity of any region is related to the composite reality of that region (including its physical universe particulars).' The crossing diagrams what 'physical universe fundament' produces when crossed with the transfer-cycle's working dynamism: (C)PER-PHY-U-FUND (the central periodic physical-universe fundament — a region's actual material-cultural ground) is crossed with SPT-DYM (spectacle dynamism — the form the State Department's transfer cycles convert region-creativity into). PER-PHY-U-FUND sits at the lower-left as subject; POST (postulation) sits to the left as the subject's directly-above output, with AFTD (affinity transfer-dynamics) at the upper-left and RIT-DY (ritual dynamics) at top-center as the subject's upper chain. SPT-DYM sits at upper-right as partner-axis; SOC-RT-DY (social-reality dynamics) anchors the right margin and LANG-DY (language dynamics) sits centrally on the partner side as the bridging hub. RT-ALGN (reality alignment), PROG-CONT (progressional continuance), and APP-RDEF (applied redefinitions) anchor the lower-right as partner-side downward outputs. Structural argument: when the physical-universe fundament of a region is crossed with State-Department spectacle-dynamism, the upper chain POST → AFTD → RIT-DY → SPT-DYM is the *transfer cycle itself* — the subject's own postulation gets converted through affinity-transfer-dynamics and ritual-dynamics into the partner's spectacle. The LANG-DY central hub is the converter: language-dynamics is what carries the subject's region into the partner's working political vocabulary. The diagonals from LANG-DY down through RT-ALGN → PROG-CONT → APP-RDEF show the partner-side's terminus — applied-redefinitions is where the region's creativity ends up being defined when politics has used it as a tool. The State Department, the next page says, has done exactly this since the middle-forties.",
+  "terms": [
+    { "termId": "per-phy-u-fund", "isSubject": true, "prefix": "c" },
+    { "termId": "spt-dym" },
+    { "termId": "post" },
+    { "termId": "aftd" },
+    { "termId": "rit-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "prog-cont" },
+    { "termId": "app-rdef" }
+  ],
+  "relationships": [
+    { "from": "per-phy-u-fund", "to": "spt-dym", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "post", "type": "solid" },
+    { "from": "post", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "rit-dy", "type": "solid" },
+    { "from": "rit-dy", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "spt-dym", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "lang-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "app-rdef", "type": "solid" }
+  ]
+}

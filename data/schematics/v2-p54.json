@@ -1,0 +1,33 @@
+{
+  "id": "v2-p54",
+  "volume": 2,
+  "section": "SD(SY)-32",
+  "page": 54,
+  "subject": "mt-info",
+  "title": "MT.INFO.------CULT.SOLD.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-32 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's structural verdict on the sixties: 'these people were no more equipped to deal with the transition which took place in the sixties than their parents were … nothing had changed anyway.' MT-INFO (multi-information) is crossed with CULT-SOLD (culture solidification): the question is what multi-information produces when crossed with culture-solidification — the structural failure of the sixties being precisely that multi-information arrived but no culture-solidification followed. FUND-P (fundamental particulars) and SCI-DYM (scientific dynamics) feed downward into the upper-center. DYM-F (dynamics fundamentals) sits between the upstreams and the crossing line. DYM-SPT (dynamics-spectacle) feeds in from the right. AF-TD (affinity-tendencies) and VT-DY (vibrational dynamics) form the lower-left upstream chain. PROJ-DY (projectional dynamics) anchors the lower-center. VT-PT (vibrational point) hangs on the right margin of CULT-SOLD. Structural argument: multi-information is fed by fundamental-particulars and scientific-dynamics from above and by affinity-tendencies plus vibrational-dynamics from below — a doubled upstream consistent with Braxton's decentralization principle. But the crossing with culture-solidification routes through projectional-dynamics, exposing the structural reason culture failed to solidify in the sixties: projection mediated everything, and projectional-dynamics cannot itself solidify. The diagram is Braxton's argument that the sixties produced multi-information without producing culture, because the productive output collapsed into projection rather than solidification.",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "cult-sold" },
+    { "termId": "fund-p" },
+    { "termId": "sci-dym" },
+    { "termId": "dym-f" },
+    { "termId": "dym-spt" },
+    { "termId": "af-td" },
+    { "termId": "vt-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "vt-pt" }
+  ],
+  "relationships": [
+    { "from": "fund-p", "to": "mt-info", "type": "solid" },
+    { "from": "sci-dym", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "cult-sold", "type": "solid" },
+    { "from": "dym-spt", "to": "cult-sold", "type": "solid" },
+    { "from": "mt-info", "to": "cult-sold", "type": "solid" },
+    { "from": "af-td", "to": "mt-info", "type": "solid" },
+    { "from": "vt-dy", "to": "mt-info", "type": "solid" },
+    { "from": "proj-dy", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "vt-pt", "type": "solid" }
+  ]
+}

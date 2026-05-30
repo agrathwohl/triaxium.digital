@@ -1,0 +1,34 @@
+{
+  "id": "v2-p441",
+  "volume": 2,
+  "section": "MP(I)-15",
+  "page": 441,
+  "subject": "lg-dy",
+  "title": "LG.DY.------AF.DY.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-15 — the section on bebop's post-forties reception as either-underground-or-let-it-stay-there and the structural separation between creative-music and black political activism (Malcolm X as exception, Huey Newton attaching himself to rock music as the rule). The prose immediately above identifies the structural target: 'the progressional continuance of creative music from the affinity insight (1) principle... would come to be perceived as either in the underground, or in the underground \"and let it stay there.\" Because the dynamics of its existence had long since been dismissed.' The crossing diagrams how language-dynamics structurally meets affinity-dynamics in that dismissal: (C)LG-DY (central language dynamics — the form's actual working language, the bebop vocabulary) crossed with AF-DY (affinity dynamics — the form's actual affinity working). LG-DY sits on the left with the subject-arrow; TR (transformation) sits at top-center and DYM-SPI (dynamism-spirit) at upper-right with PRI-INFO (principle information) on the right and MT-IMP (meta-implication) below — the partner-side's upper chain. LANG-DY (language dynamics — the more specific compound) hangs centrally below the subject, with (C)ATTC (central attitude) at the lower-left and AFI (affinity insight) at lower-center routing into COS-AGN (cosmic agnostic) at the lower-right. AF-DY sits at center-right as partner-axis. Structural argument: when the form's central-language-dynamics is crossed with affinity-dynamics, the upper diagonal TR → DYM-SPI → PRI-INFO → MT-IMP is the *underground-perception route* — transformation routes through dynamism-spirit into principle-information then into meta-implication; the partner-axis receives the form's underground-perception as principle. The lower chain LANG-DY → ATTC and AFI → COS-AGN is what affinity-dynamics produces on its own at the bottom — central-attitude and cosmic-agnostic, the two postures black political activism adopted toward bebop. Huey Newton attaching to rock music structurally fits the AFI → COS-AGN edge — cosmic-agnostic about creative music because the partner-axis's affinity-dynamics never received the language-dynamics on its own terms. Malcolm X as the exception is the diagonal that *does* hold: the LANG-DY → AFI → AF-DY route, language-dynamics through affinity-insight into affinity-dynamics directly. For everyone else, the underground status the prose names is exactly the upper diagonal absorbing the form into meta-implication while the lower chain produces only the two postures.",
+  "terms": [
+    { "termId": "lg-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "af-dy" },
+    { "termId": "tr" },
+    { "termId": "dym-spi" },
+    { "termId": "pri-info" },
+    { "termId": "mt-imp" },
+    { "termId": "lang-dy" },
+    { "termId": "attc", "prefix": "c" },
+    { "termId": "afi" },
+    { "termId": "cos-agn" }
+  ],
+  "relationships": [
+    { "from": "lg-dy", "to": "af-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "dym-spi", "type": "solid" },
+    { "from": "dym-spi", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "mt-imp", "type": "solid" },
+    { "from": "lg-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "attc", "type": "solid" },
+    { "from": "lang-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "cos-agn", "type": "solid" },
+    { "from": "afi", "to": "af-dy", "type": "solid" }
+  ]
+}

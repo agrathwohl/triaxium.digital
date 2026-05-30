@@ -1,0 +1,37 @@
+{
+  "id": "v2-p444-1",
+  "volume": 2,
+  "section": "MP(I)-18",
+  "page": 444,
+  "subject": "mth",
+  "title": "(R)MTH.------RE.ST.",
+  "type": "crossing",
+  "description": "First of two diagrams in MP(I)-18. The prose preceding (MP(I)-17) establishes Braxton's claim about the Coltrane/King 'center platform': 'the realness of John Coltrane's activity and Dr. Martin Luther King's activity solidified the same vibrational position with respect to what it posed for alternative functionalism' — and the prose immediately following declares 'there is another route just as important, and the realness it implies has also affected the composite reality of things.' The crossing names that other route: (R)MTH (the reality of method — the *how* of alternative-functionalism's working) is crossed with RE-ST (restructuralism — the form-rebuilding that route produces). MTH sits on the left with the subject-arrow; RT-DY (reality dynamics) rises above as the method's immediate working condition, with IF-SPT (isolated-focus spectacle) on the upper-left and INFO-DY (information dynamics) at the top center bridging across to RE-ST. INFO-INTR (information introduction) sits centrally below as the method's hub, with (R)INT (the reality of intention) on its right, and AF-DY (affinity dynamics) and PHY-U-P (physical-universe particulars) anchoring the bottom-center as method's downward outputs. RE-ST is partner-axis at upper-right; IST-S-ALGN (isolated-source alignment) hangs below it and MT-INFO (meta-information) anchors the right margin as partner-side outputs. Structural argument: when method-as-method is crossed with restructuralism, the upper chain (RT-DY → INFO-DY → RE-ST → IST-S-ALGN → MT-INFO) is the *complete route* the prose names as 'just as important' — method produces restructuralism only by routing reality-dynamics through information-dynamics into the partner-axis, and only there does isolated-source-alignment receive the meta-information that turns restructuralism into actual form-rebuilding. The diagonal from (R)INT back across to RE-ST is the load-bearing edge: the method's intention is what holds the chain open. Without that edge, INFO-INTR's outputs (AF-DY, PHY-U-P) stay subject-side, the partner's IST-S-ALGN never connects back to method, and the second route the prose names collapses into the Coltrane/King first-route platform.",
+  "terms": [
+    { "termId": "mth", "isSubject": true, "prefix": "r" },
+    { "termId": "re-st" },
+    { "termId": "if-spt" },
+    { "termId": "info-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "rt-dy" },
+    { "termId": "info-intr" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "af-dy" },
+    { "termId": "phy-u-p" }
+  ],
+  "relationships": [
+    { "from": "mth", "to": "re-st", "type": "solid" },
+    { "from": "mth", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "if-spt", "type": "solid" },
+    { "from": "rt-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "mt-info", "type": "solid" },
+    { "from": "mth", "to": "info-intr", "type": "solid" },
+    { "from": "info-intr", "to": "int", "type": "solid" },
+    { "from": "int", "to": "mt-info", "type": "solid" },
+    { "from": "info-intr", "to": "af-dy", "type": "solid" },
+    { "from": "info-intr", "to": "phy-u-p", "type": "solid" }
+  ]
+}

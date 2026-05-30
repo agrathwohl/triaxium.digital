@@ -1,0 +1,31 @@
+{
+  "id": "v2-p62",
+  "volume": 2,
+  "section": "SD(SY)-40",
+  "page": 62,
+  "subject": "v-sy",
+  "title": "V.SY.------POL.DY.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-40 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's analysis of media as the gatekeeper of alternative considerations: 'as long as western culture can give the illusion that western information principles are valid when applied to any offering from the world group aesthetic, this practice will continue.' V-SY (the vibrational system) is crossed with POL-DY (political dynamics): the question is what vibrational-system produces when crossed with political-dynamics, where political-dynamics is the gatekeeping function executed by media. MOT-DY (motion dynamics) and POL-DY appear together in the upper-left, with RT-ALGN (reality alignment) on the upper-right. INFO-INTR (information interior) feeds into the subject from the left. DY-F (dynamics fundamental) hangs on the right margin. POL-P (political particulars) sits below political-dynamics. RT-OP (reality operation) anchors the lower-center. PART (participation) hangs on the lower-right margin. Structural argument: the vibrational-system crossed with political-dynamics is fed by motion-dynamics, information-interior, and the political-particulars/reality-operation lower chain. The crossing produces reality-alignment as the upper output and dynamics-fundamental and participation as marginal outputs. The diagram exposes Braxton's structural diagnostic: the vibrational-system cannot produce real reality-alignment without going through political-dynamics first — which is precisely why media (the operational form of political-dynamics in this section) controls what counts as 'aligned reality.'",
+  "terms": [
+    { "termId": "v-sy", "isSubject": true },
+    { "termId": "pol-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "info-intr" },
+    { "termId": "dy-f" },
+    { "termId": "pol-p" },
+    { "termId": "part" },
+    { "termId": "rt-op" }
+  ],
+  "relationships": [
+    { "from": "info-intr", "to": "v-sy", "type": "solid" },
+    { "from": "v-sy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "pol-dy", "to": "dy-f", "type": "solid" },
+    { "from": "v-sy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "rt-op", "type": "solid" },
+    { "from": "rt-op", "to": "part", "type": "solid" }
+  ]
+}

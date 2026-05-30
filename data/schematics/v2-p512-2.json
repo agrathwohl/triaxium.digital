@@ -1,0 +1,28 @@
+{
+  "id": "v2-p512-2",
+  "volume": 2,
+  "section": "MP(II)-30",
+  "page": 512,
+  "subject": "pri-info",
+  "title": "PRI.INFO.------LK.IMP.",
+  "type": "crossing",
+  "description": "Second diagram on page 512, paired with VT-U-PT × POST above. Where the first diagram structurally shows the diagonal that lets vibrational-particulars supply insight into postulation, this one names the structural condition under which principle-information actually carries linkage-implication into political functionalism: PRI-INFO (principle information — the form's working informational frame) crossed with LK-IMP (linkage implication — what the form's principles structurally link to). PRI-INFO sits centrally with the subject-arrow; (PO)STF (the political-output structural-form) sits at the upper-left and TH-CONT (thrust continuance) at the upper-right as the upper context. LK-IMP sits centrally above as partner-axis bridging hub. TH-AFF-ALGN (thrust-affinity alignment) anchors the bottom-center as the subject's downward terminus; RT-INT-TR (reality-internal transformation) and OP-SPD (operational spending) hang on the right as partner-side outputs. Structural argument: the route is PO-STF → LK-IMP → TH-CONT across the top of the diagram — the political-output structural-form supplies the linkage that lets thrust-continuance reach across. The diagonals from LK-IMP down into PRI-INFO and across to RT-INT-TR / OP-SPD show how linkage-implication grounds itself: principle-information receives the linkage, and the reality-internal transformation routes the partner-side into operational-spending. TH-AFF-ALGN at the bottom-center is what the subject's principle-information actually aligns with when the upper diagonal holds — thrust-affinity-alignment, the affinity grounding of the form's forward motion. Without LK-IMP holding both upper edges open, principle-information's downward chain stops at TH-AFF-ALGN unable to reach RT-INT-TR, and the partner-side's operational-spending becomes pure expenditure without principle-grounded transformation — exactly what the next-cycle energy decisions cannot afford to be.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true },
+    { "termId": "lk-imp" },
+    { "termId": "stf", "prefix": "po" },
+    { "termId": "th-cont" },
+    { "termId": "rt-int-tr" },
+    { "termId": "op-spd" },
+    { "termId": "th-aff-algn" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "lk-imp", "type": "solid" },
+    { "from": "stf", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "th-cont", "type": "solid" },
+    { "from": "lk-imp", "to": "pri-info", "type": "solid" },
+    { "from": "th-cont", "to": "rt-int-tr", "type": "solid" },
+    { "from": "th-cont", "to": "op-spd", "type": "solid" },
+    { "from": "pri-info", "to": "th-aff-algn", "type": "solid" }
+  ]
+}

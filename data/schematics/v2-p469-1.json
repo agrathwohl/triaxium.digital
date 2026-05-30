@@ -1,0 +1,36 @@
+{
+  "id": "v2-p469-1",
+  "volume": 2,
+  "section": "MP(I)-43",
+  "page": 469,
+  "subject": "op-spd",
+  "title": "OP.SPD.------POL.P.",
+  "type": "crossing",
+  "description": "First of two diagrams in MP(I)-43 — the western-art-music funding analysis. The prose immediately above names the structural condition: 'no other form of music in this time zone enjoys the political and financial support that western art music takes for granted... The money is simply there — there for the purpose of advancing the arts, there for the purpose of necessary research... It's there if the persons there are white and \"not in disfavor\" with the powers that be.' The crossing diagrams how operational-spending and political-particulars actually cross to produce that always-already-there funding: OP-SPD (operational spending — the funding flow itself) is crossed with POL-P (political particulars — the political conditions that gate which forms receive funding). OP-SPD sits at the upper-right with the subject-arrow; JR-DY (junior dynamic) sits just below OP-SPD and (R)PART (the reality of participation) anchors both above-and-below OP-SPD as the participating-position the funding presupposes. AF-DY (affinity dynamics) at the upper-left feeds C-INFO (central information) and IF-ST-DY (isolated-focus stable-dynamics) — these are the western-art-music institutional information flows that *qualify* a recipient. POL-P sits centrally as partner-axis; (R)CULT-AF-BS (the reality of cultural-affinity base) anchors the left as the partner-side's cultural condition, PROG-CONT (progressional continuance) hangs at lower-left and INDIV-TD (individual transformation-dynamics) at lower-center with AFN (affinity natural) anchoring the bottom-right. Structural argument: the diagonal from IF-ST-DY through POL-P down into PROG-CONT is the *funding route* — operational spending reaches participation only when the political-particulars route stable-dynamics into progressional-continuance. The lower diagonals from INDIV-TD to AFN and back up to (R)PART are the always-already-there condition: individual transformation-dynamics route into affinity-natural only when participation-as-reality is already on the right side of the crossing. For creative music from the black aesthetic those upper-axis IF-ST-DY institutional information-flows simply do not exist as conditions for POL-P; the diagonal cannot be held, and the funding doesn't appear.",
+  "terms": [
+    { "termId": "op-spd", "isSubject": true },
+    { "termId": "pol-p" },
+    { "termId": "af-dy" },
+    { "termId": "c-info" },
+    { "termId": "if-st-dy" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "jr-dy" },
+    { "termId": "cult-af-bs", "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "indiv-td" },
+    { "termId": "afn" }
+  ],
+  "relationships": [
+    { "from": "op-spd", "to": "pol-p", "type": "solid" },
+    { "from": "af-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "cult-af-bs", "type": "solid" },
+    { "from": "pol-p", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "afn", "type": "solid" },
+    { "from": "part", "to": "jr-dy", "type": "solid" },
+    { "from": "jr-dy", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "part", "type": "solid" }
+  ]
+}

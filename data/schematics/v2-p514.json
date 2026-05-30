@@ -1,0 +1,35 @@
+{
+  "id": "v2-p514",
+  "volume": 2,
+  "section": "MP(II)-32",
+  "page": 514,
+  "subject": "exp-dy",
+  "title": "EXP.DY.-----POL.P.",
+  "type": "crossing",
+  "description": "Diagram closing MP(II)-32 — the section on world politics at the close of the seventies and how western political functionalism has expanded western culture's material/geographical reality while 'progressively crushing the life options of composite world culture.' The prose directly above identifies the structural object the diagram captures: 'the nature underlying how these various progressions have actualized is indeed related to the realness of politics, and this concerns the whole of humanity.' The crossing diagrams how exposure-dynamics meets political-particulars: EXP-DY (exposure dynamics — how the form / region / phenomenon actually appears in the world) is crossed with POL-P (political particulars — the political conditions that gate which exposures count). EXP-DY sits on the left with the subject-arrow; INFO-DY (information dynamics) drops below it and C-INFO (central information) anchors the bottom-center as the subject's downward outputs. JR-DYM (junior dynamism) rises above as the subject's upper bridge to PART (participation) and SOC-RT (social reality), with PROG-CONT (progressional continuance) on the upper-right and CULT-TF-S (cultural-transfer-source) feeding down into TRS (transformation) at the right margin. POL-P sits centrally as partner-axis; EXT-FT (extended functionalism) hangs below as the partner's downward output. Structural argument: the upper chain JR-DYM → PART → SOC-RT → PROG-CONT is the *world-information question* the prose names — the route by which exposure-dynamics, junior-dynamism, and participation reach the partner-axis's progressional-continuance. CULT-TF-S → TRS on the right is the cultural-transfer-into-transformation route the partner needs. But the diagram's load-bearing structural claim is that POL-P routes downward into EXT-FT alone — political-particulars produces extended-functionalism on the partner side, and that extended-functionalism is exactly what 'expands the material and geographical reality of western culture.' The lower subject chain INFO-DY → C-INFO terminates without crossing back to the partner; the diagonal that would let central-information meet extended-functionalism on the partner-side is what the next-cycle ecological awareness the next section names structurally requires. Without it, world information-dynamics never reaches political-particulars as the kind of input that could change extended-functionalism's course.",
+  "terms": [
+    { "termId": "exp-dy", "isSubject": true },
+    { "termId": "pol-p" },
+    { "termId": "jr-dym" },
+    { "termId": "part" },
+    { "termId": "soc-rt" },
+    { "termId": "prog-cont" },
+    { "termId": "cult-tf-s" },
+    { "termId": "trs" },
+    { "termId": "ext-ft" },
+    { "termId": "info-dy" },
+    { "termId": "c-info" }
+  ],
+  "relationships": [
+    { "from": "exp-dy", "to": "pol-p", "type": "solid" },
+    { "from": "exp-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-info", "type": "solid" },
+    { "from": "exp-dy", "to": "jr-dym", "type": "solid" },
+    { "from": "jr-dym", "to": "part", "type": "solid" },
+    { "from": "part", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "cult-tf-s", "type": "solid" },
+    { "from": "cult-tf-s", "to": "trs", "type": "solid" },
+    { "from": "pol-p", "to": "ext-ft", "type": "solid" }
+  ]
+}

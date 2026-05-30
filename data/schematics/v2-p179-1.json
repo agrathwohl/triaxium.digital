@@ -1,0 +1,34 @@
+{
+  "id": "v2-p179-1",
+  "volume": 2,
+  "section": "SR(TRS)II-35",
+  "page": 179,
+  "subject": "trs",
+  "title": "TRS.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-35, first of two on book p179, on the page where Braxton argues that 'to view the vibrational and actual realness of western culture is to view non-white people as only supporting players — whose contributions, no matter how vast, do not really figure in the defining and controlling scheme that determines how events are to be culturally perceived.' TRS (transition) is crossed with C-CONT (composite continuance): the question is what transition produces when crossed with composite continuance under the conditions of western cultural curation Braxton has just described. DYM-F (dynamic functionalism) and S-SH (source shift) feed the upper section. VT-DY (vibrational dynamics) and PRO-CONT (progressional continuance) are right-side outputs. RE-ST (restructuralism) is a central convergence. INFO-DE (information degrees), (P)DOC (the point of activation of documentation), T-C-IMP (time continuum implications), and RT-INT-TR (reality initiative traits) form the lower constituting layer. Structural argument: transition crossed with composite continuance produces restructuralism as the central convergence, with the (p) prefix on documentation marking it as the *activation point* of documentation rather than its sustained state — meaning Braxton's diagrammatic claim is that real restructuralism requires documentation to be activated, not merely present.",
+  "terms": [
+    { "termId": "trs", "isSubject": true },
+    { "termId": "c-cont" },
+    { "termId": "dym-f" },
+    { "termId": "s-st" },
+    { "termId": "vt-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "re-st" },
+    { "termId": "info-de-b" },
+    { "termId": "doc", "prefix": "p" },
+    { "termId": "t-c-imp" },
+    { "termId": "rt-int-tr" }
+  ],
+  "relationships": [
+    { "from": "trs", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "s-st", "type": "solid" },
+    { "from": "s-st", "to": "vt-dy", "type": "solid" },
+    { "from": "c-cont", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "prog-cont", "type": "solid" },
+    { "from": "info-de-b", "to": "re-st", "type": "solid" },
+    { "from": "doc", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "rt-int-tr", "type": "solid" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v2-p465-2",
+  "volume": 2,
+  "section": "MP(I)-39",
+  "page": 465,
+  "subject": "stf",
+  "title": "STF.------IST.S.ALGN.",
+  "type": "crossing",
+  "description": "Second diagram on page 465, paired with the IST-F × AFL-DY × AFI-1 triple-crossing above. Where the first diagram shows the three-axis exclusion-of-no-one route, this one closes by structurally showing where the artist's structural-form has to land if the political-creativity relationship the prose names is to hold: (C)STF (the central structural-formal phenomenon — the artist's working form) is crossed with IST-S-ALGN (isolated-source alignment — where the form would actually align if it were not isolated). STF sits at top-center with the subject-arrow; PROG-CONT (progressional continuance) hangs at upper-left and PROJ-CONT (projectional continuance) at upper-right as the form's two upward outputs — what the form is supposed to keep continuing. ALT-D (alternative definitions) drops at lower-left as the subject's downward output. CUL-TF-S (cultural-transfer-source) sits centrally below PROJ-CONT, with APP-RDEF (applied redefinitions) as the central downward hub. IST-F (isolated focus) hangs below APP-RDEF and IST-S-ALGN anchors the bottom-right as the partner-axis terminus. Structural argument: the prose declares 'the political implications of creativity can no longer be controlled by white people exclusively — especially the political implications of creative music from the black aesthetic.' Structurally that is the claim that APP-RDEF on the central bottom must *not* be the only path STF reaches IST-S-ALGN through. The diagonal from PROG-CONT down through ALT-D back to APP-RDEF is the route by which the form's own progressional-continuance can reach applied-redefinitions on the subject's terms; otherwise, CUL-TF-S routes directly from PROJ-CONT to APP-RDEF and the partner-axis's alignment is reached only through cultural-transfer (the very mechanism the prose says must no longer be controlled exclusively). The artist's structural-form aligns isolated-source only when alternative-definitions hold the diagonal; that is what the next-cycle responsibility actually requires.",
+  "terms": [
+    { "termId": "stf", "isSubject": true, "prefix": "c" },
+    { "termId": "ist-s-algn" },
+    { "termId": "prog-cont" },
+    { "termId": "proj-cont" },
+    { "termId": "alt-d" },
+    { "termId": "cul-tf-s" },
+    { "termId": "app-rdef" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "ist-s-algn", "type": "solid" },
+    { "from": "stf", "to": "prog-cont", "type": "solid" },
+    { "from": "stf", "to": "proj-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "alt-d", "type": "solid" },
+    { "from": "proj-cont", "to": "cul-tf-s", "type": "solid" },
+    { "from": "cul-tf-s", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "ist-s-algn", "type": "solid" },
+    { "from": "alt-d", "to": "app-rdef", "type": "solid" }
+  ]
+}

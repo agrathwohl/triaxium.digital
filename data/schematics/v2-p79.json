@@ -1,0 +1,33 @@
+{
+  "id": "v2-p79",
+  "volume": 2,
+  "section": "AF(D)-7",
+  "page": 79,
+  "subject": "vt-dy",
+  "title": "VT.DY.------WO.EXT.PRI.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-7 (Affinity Dynamics, Level One), on the page where Braxton argues that transfer shifts are 'natural' (or unnatural) dynamics manifested on the planet — registered in three things: (1) different types of beings in society, (2) the realness that culture groups perceive each other through affinity nature, (3) the progressional spread of information manifesting in mystical terms. (C)VT-DY (vibrational dynamics) is crossed with WO-EXT-PRI (world expansion principle): the question is what vibrational dynamics produces when crossed with the world-expansion principle that Braxton positions as the cosmic-scale generative engine. The subject is fed by ACT (activism), SPT-GH (spiritual growth), and POL-DY (political dynamics). The partner WO-EXT-PRI is the structural endpoint. T-C-IMP (time continuum implications) is the central convergence hub, with COS-P (cosmic particulars) and PROG-CONT (progressional continuance) feeding it from above. TR-INFO (trans-information) and MOT-DY (motivation dynamics) form the lower output chain. Structural argument: vibrational dynamics reaches world-expansion only via the time-continuum-implications central hub, fed by cosmic-particulars and progressional-continuance. The transfer-shift framework requires the time-continuum and cosmic-scale convergence; vibrational dynamics alone is structurally insufficient.",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-ext-pri" },
+    { "termId": "act" },
+    { "termId": "spt-gh" },
+    { "termId": "pol-dym" },
+    { "termId": "t-c-imp" },
+    { "termId": "cos-p" },
+    { "termId": "prog-cont" },
+    { "termId": "tr-info" },
+    { "termId": "mdt-dy" }
+  ],
+  "relationships": [
+    { "from": "act", "to": "vt-dy", "type": "solid" },
+    { "from": "spt-gh", "to": "vt-dy", "type": "solid" },
+    { "from": "pol-dym", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
+    { "from": "prog-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "wo-ext-pri", "type": "solid" },
+    { "from": "t-c-imp", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "mdt-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v2-p87",
+  "volume": 2,
+  "section": "AF(D)-15",
+  "page": 87,
+  "subject": "dec",
+  "title": "DEC.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-15 (Affinity Dynamics, Level One) accompanying Braxton's analysis of redocumentation: 'the inability of given groups to acknowledge the dynamic offerings of another group (or the seriousness of time change, as a factor that promotes memory gaps) can better help us to understand what has happened to make this cycle as it is.' (C)DEC (the concept of decision) is crossed with C-CONT (composite continuance): the question is what decision produces when crossed with composite-continuance — decision being the act of acknowledgment-or-suppression that determines whether transferred information continues honestly. MT-INFO (multi-information) sits at the upper-right of the partner. INFO-DY (information dynamics) anchors the right output. INFO-COMP (information composite) sits between subject and partner as central hub. (R)PART (the reality of participation) hangs on the right output. PR-TR (principal transformation) sits below the crossing. EXP-F (experimental functionalism) anchors the lower-center. POL-P (political particulars), AS-ES (aspect essence), DYM-F (dynamics fundamentals), and UNF-PI (unified principle information) form the lower upstream cluster. Structural argument: decision crossed with composite-continuance is mediated by information-composite as central hub. The lower upstreams — political-particulars, aspect-essence, dynamics-fundamentals, unified-principle-information — show Braxton's commitment to a *quadrupled* lower upstream, an unusually strong decentralization signal: composite-continuance can only emerge through decision when at least four distinct lower considerations are live. The diagram exposes that memory-gap (the cycle's pathology) results when decision is taken without these four upstream tests.",
+  "terms": [
+    { "termId": "dec", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "info-dy" },
+    { "termId": "info-comp" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "pr-tr" },
+    { "termId": "exp-f" },
+    { "termId": "pol-p" },
+    { "termId": "as-es" },
+    { "termId": "dym-f" },
+    { "termId": "unf-pi" }
+  ],
+  "relationships": [
+    { "from": "dec", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "c-cont", "to": "info-dy", "type": "solid" },
+    { "from": "dec", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "c-cont", "type": "solid" },
+    { "from": "info-dy", "to": "part", "type": "solid" },
+    { "from": "c-cont", "to": "pr-tr", "type": "solid" },
+    { "from": "pr-tr", "to": "exp-f", "type": "solid" },
+    { "from": "pol-p", "to": "info-comp", "type": "solid" },
+    { "from": "as-es", "to": "info-comp", "type": "solid" },
+    { "from": "dym-f", "to": "exp-f", "type": "solid" },
+    { "from": "unf-pi", "to": "part", "type": "solid" }
+  ]
+}

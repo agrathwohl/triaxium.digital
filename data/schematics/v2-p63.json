@@ -1,0 +1,34 @@
+{
+  "id": "v2-p63",
+  "volume": 2,
+  "section": "SD(SY)-41",
+  "page": 63,
+  "subject": "vt-u-pt",
+  "title": "VT.U.PT.-----INFO.DE.B.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-41 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the first condition that any alternative initiation must pass is the condition posed by media' — media being the operational form of the western information-principles gatekeeping. (C)VT-U-PT (the concept of vibrational-universe point) is crossed with INFO-DE-B (information-descent basis): the question is what vibrational-universe-point produces when crossed with information-descent-basis, given that media defines the descent conditions any alternative must pass through. INFO-DE-B sits at the top with TR-INFO (transfer information) and A-PR (all-purpose) on the right output. ATTN (attention) sits below INFO-DE-B as central hub. SPT-DYM (spectacle dynamics) feeds upward into the upper-right cluster. MT-INFO (multi-information) hangs on the right margin. AFL-DY (affinity-alignment dynamics) feeds into the subject from below-left. CULT-AF-BS (culture-affinity basis) and CULT-INFO-DY (culture-information dynamics) form the lower-right output chain. Structural argument: vibrational-universe-point crossed with information-descent-basis is mediated through attention as the central hub — a Braxtonian diagnostic about media specifically. Attention is the descent-mechanism; spectacle-dynamics is the upstream that activates it. The diagram exposes that any 'alternative initiation' which thinks it can bypass the attention hub is naive: media gates information-descent precisely by capturing attention, and the productive outputs (transfer-information, all-purpose, multi-information, culture-affinity-basis, culture-information-dynamics) all route through that gate.",
+  "terms": [
+    { "termId": "vt-u-pt", "isSubject": true, "prefix": "c" },
+    { "termId": "info-de-b" },
+    { "termId": "attn" },
+    { "termId": "a-pr" },
+    { "termId": "mt-info" },
+    { "termId": "spt-dym" },
+    { "termId": "tr-info" },
+    { "termId": "afl-dy" },
+    { "termId": "cult-af-bs" },
+    { "termId": "cult-info-dy" }
+  ],
+  "relationships": [
+    { "from": "vt-u-pt", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "tr-info", "type": "solid" },
+    { "from": "info-de-b", "to": "a-pr", "type": "solid" },
+    { "from": "vt-u-pt", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "info-de-b", "type": "solid" },
+    { "from": "spt-dym", "to": "info-de-b", "type": "solid" },
+    { "from": "a-pr", "to": "mt-info", "type": "solid" },
+    { "from": "afl-dy", "to": "vt-u-pt", "type": "solid" },
+    { "from": "afl-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "cult-info-dy", "type": "solid" }
+  ]
+}

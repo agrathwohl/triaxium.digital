@@ -1,0 +1,31 @@
+{
+  "id": "v2-p164",
+  "volume": 2,
+  "section": "SR(TRS)II-20",
+  "page": 164,
+  "subject": "info-ds",
+  "title": "(R)INFO.DS.------SOC.RT.P.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-20 (Social Reality and Trans-Information, Level Two), on the page where Braxton argues that 'the realness of history is important for providing the necessary backdrop to develop the character and confidence of young people' — citing the example that even in the late sixties the only great figures black people could study in grammar and high school were George Washington Carver and Booker T. Washington. (R)INFO-DS (the reality of information dissemination) is crossed with SOC-RT-P (social reality particulars): the question is what real dissemination produces when crossed with social-reality-particulars in a culture where history itself is selectively curated. IST-ACT (isolated activism) feeds the subject. SOC-RT-P (the partner) is the structural endpoint. (R)CULT-INFO-FO (the reality of culture information focus) is a parallel feed from below. AF-DY (affinity dynamics) is the central hub. DYM-F (dynamic functionalism) is the upper-right output. ALT-C-PROG (alternative composite progressionalism, *dashed*) and PR-TR (primary transformation, *dashed*) are conditional outputs. INFO-DOC (information documentation) feeds AF-DY. Structural argument: real dissemination's path to social-reality-particulars passes through affinity-dynamics, with the *dashed* edges to alternative-composite-progressionalism and primary-transformation marking these as conditional — the diagram registers that alternative progression and primary transformation are not guaranteed by the dissemination-social-reality crossing alone; they require additional structural conditions Braxton names elsewhere.",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "r" },
+    { "termId": "soc-rt-p" },
+    { "termId": "ist-act" },
+    { "termId": "cult-info-f", "prefix": "r" },
+    { "termId": "afl-dy" },
+    { "termId": "dym-f" },
+    { "termId": "alt-c-pg" },
+    { "termId": "pr-trs" },
+    { "termId": "info-doc" }
+  ],
+  "relationships": [
+    { "from": "ist-act", "to": "info-ds", "type": "solid" },
+    { "from": "info-ds", "to": "soc-rt-p", "type": "solid" },
+    { "from": "cult-info-f", "to": "afl-dy", "type": "solid" },
+    { "from": "info-ds", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "dym-f", "type": "solid" },
+    { "from": "info-doc", "to": "afl-dy", "type": "solid" },
+    { "from": "info-doc", "to": "alt-c-pg", "type": "dashed" },
+    { "from": "info-doc", "to": "pr-trs", "type": "dashed" }
+  ]
+}

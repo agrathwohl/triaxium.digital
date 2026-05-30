@@ -1,0 +1,35 @@
+{
+  "id": "v2-p454",
+  "volume": 2,
+  "section": "MP(I)-28",
+  "page": 454,
+  "subject": "intr",
+  "title": "(R)INTR.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-28 — the section comparing alternative-creative-music continuance with sixties black political activism. The prose immediately above identifies the structural target: 'the meta-reality of alternative creativity has, regardless of its route, maintained its constant alignment with the basic tenets of transformational information dynamics. For while I am not in disagreement with the vibrational alignment of western culture, it is clear that the progressional application of western affinity dynamics serves to re-enforce the exclusive position of only western culture, and this position cannot be viewed as \"revolutionary\" on any level.' The crossing diagrams that constant-alignment structurally: (R)INTR (the reality of introduction — how the form actually enters its receiving context) crossed with PROG-CONT (progressional continuance — the actual continuance the form maintains). INTR sits on the left with the subject-arrow; T-C-IMP (temporal-continuity implication) rises above-right and (R)PART (the reality of participation) anchors the upper-right, with CULT-AF-BS (cultural-affinity base) and VT-DY (vibrational dynamics) on the right margin as the partner-side's downward chain. PROG-CONT sits at center-right as partner-axis; LANG-DY (language dynamics) anchors the right-lower margin. IST-F (isolated focus) sits centrally below the subject, with MOT-DY (motion dynamics) at lower-left and TR (transformation) at the bottom-center, and C-INFO (central information) at the bottom-left as the subject-side downward terminus. Structural argument: when the reality-of-introduction is crossed with progressional-continuance, the upper diagonal T-C-IMP → PART → CULT-AF-BS → VT-DY is the *constant-alignment route* the prose names — temporal-continuity-implication routes through reality-of-participation into cultural-affinity-base and finally into vibrational-dynamics. This is what alternative-creative-music maintains 'regardless of route.' PROG-CONT → LANG-DY on the right shows how the partner-axis's progressional-continuance routes specifically into language-dynamics — language as the carrier of progressional continuance. The subject's downward chain IST-F → MOT-DY → TR / C-INFO is what introduction produces on its own when the upper diagonal is not held — isolated-focus motion-dynamics ending in transformation and central-information, without ever reaching the partner-axis. The 'difference between alternative creative music and sixties political activism' the prose names is structural: alternative creative music holds the upper diagonal across all four edges; sixties political activism holds only the introduction → isolated-focus chain on the lower-left.",
+  "terms": [
+    { "termId": "intr", "isSubject": true, "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "cult-af-bs" },
+    { "termId": "vt-dy" },
+    { "termId": "ist-f" },
+    { "termId": "lang-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "tr" },
+    { "termId": "c-info" }
+  ],
+  "relationships": [
+    { "from": "intr", "to": "prog-cont", "type": "solid" },
+    { "from": "intr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "part", "type": "solid" },
+    { "from": "part", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "vt-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "lang-dy", "type": "solid" },
+    { "from": "intr", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "tr", "type": "solid" },
+    { "from": "mot-dy", "to": "c-info", "type": "solid" }
+  ]
+}

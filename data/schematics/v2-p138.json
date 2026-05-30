@@ -1,0 +1,43 @@
+{
+  "id": "v2-p138",
+  "volume": 2,
+  "section": "AE(PD)-26",
+  "page": 138,
+  "subject": "trs",
+  "title": "TRS.------INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-26 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's closing diagnostic: 'the dynamics of spectacle diversion information perception have come to permeate the total lining of western culture and are manifested in everything from progressionalism to creativity (e.g., the relationship between how given techniques are viewed with respect to what the music is of that technique).' TRS (transference) is crossed with INFO-DY (information dynamics): the question is what transference produces when crossed with information-dynamics — under permeated spectacle conditions. INFO-DY sits at the upper-center with LANG-DY (language dynamics) on the upper-right. BIA (bias) and C-RH (composite rhythm) form the upper-center cluster. SOC-RT-DY (social-reality dynamics) and MT-INFO-DB (multi-information descent basis) sit between subject and partner. VT-DY (vibrational dynamics) and RE-ST (restructuralism) cluster on the right output. INFO-FR (information fragmentation) and LG-DY (logic dynamics) hang on the lower-right. RT-ALGN (reality alignment) feeds upward into the central axis. REL-TECH (relational technique) anchors the lower-left. SOC-PR with (c) prefix (social practice) hangs on the right margin. ROTP (rotational principle) anchors the lower-center. Structural argument: transference crossed with information-dynamics is mediated by a multi-hub structure (composite-rhythm, social-reality-dynamics, multi-information-descent-basis) — Braxton's structural diagnostic of permeation. There is no single hub here; the diagram is unusually dense with central nodes, registering that under spectacle-permeation conditions, transference becomes routed through *multiple parallel hubs* simultaneously, producing the language-dynamics and vibrational-dynamics outputs but also fragmenting into information-fragmentation and logic-dynamics. The (c) prefix on social-practice is load-bearing: under these conditions, social-practice itself is no longer real but conceptual — Braxton's structural verdict on the late-seventies cultural state.",
+  "terms": [
+    { "termId": "trs", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "bia" },
+    { "termId": "c-rh" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mt-info-db" },
+    { "termId": "vt-dy" },
+    { "termId": "re-st" },
+    { "termId": "info-fr" },
+    { "termId": "lg-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "rel-tech" },
+    { "termId": "soc-pr", "prefix": "c" },
+    { "termId": "rotp" }
+  ],
+  "relationships": [
+    { "from": "trs", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "info-dy", "to": "bia", "type": "solid" },
+    { "from": "trs", "to": "c-rh", "type": "solid" },
+    { "from": "c-rh", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "mt-info-db", "type": "solid" },
+    { "from": "c-rh", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "re-st", "type": "solid" },
+    { "from": "mt-info-db", "to": "info-fr", "type": "solid" },
+    { "from": "info-fr", "to": "lg-dy", "type": "solid" },
+    { "from": "info-fr", "to": "rt-algn", "type": "solid" },
+    { "from": "rel-tech", "to": "trs", "type": "solid" },
+    { "from": "lg-dy", "to": "soc-pr", "type": "solid" },
+    { "from": "rotp", "to": "rel-tech", "type": "solid" }
+  ]
+}

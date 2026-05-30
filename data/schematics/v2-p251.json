@@ -1,0 +1,37 @@
+{
+  "id": "v2-p251",
+  "volume": 2,
+  "section": "CMOA(II)-9",
+  "page": 251,
+  "subject": "info-doc",
+  "title": "(R)INFO.DOC. ------CULT.SOLD.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-9 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) opening Braxton's France analysis: 'creative black music has long enjoyed the support of the French public on many different levels … most people in France have some level of awareness about creative black music — which is not to say that every given person must necessarily like every aspect.' (R)INFO-DOC (the reality of information documentation) is crossed with CULT-SOLD (culture solidification): the question is what information-documentation produces in its actual instantiation when crossed with culture-solidification — the (R) prefix marking that real documentation (French television, radio, concert schedules) is what makes the crossing productive. (P)CULT-SOLD (point-of-activation culture-solidification) hangs at the upper-center. PHY-U-P (physical universe particulars) and MT-INFO (multi-information) cluster on the upper-right. STF (source-transfer functionalism) anchors the right margin. P-FC (point-focus) feeds into the subject from below-left. PROG-CONT (progressional continuance) sits centrally between subject and partner. AF-DY (affinity dynamics) hangs on the left margin. (R)INT (reality of interior) sits below. TRS (transference) and GRAD (gradualism) form the lower-center cluster. Structural argument: information-documentation-as-real crossed with culture-solidification is mediated by progressional-continuance as central hub. The (p) prefix on CULT-SOLD is load-bearing — the French case shows that culture-solidification operates here at point-of-activation (the live music event triggers it) rather than as sustained background. The diagram exposes Braxton's structural diagnostic of why France produces a healthy creative-music infrastructure: real documentation (broadcasters, concert venues) actually obtains, the progressional-continuance hub holds, and the point-of-activation cultural absorption keeps happening event-by-event.",
+  "terms": [
+    { "termId": "info-doc", "isSubject": true, "prefix": "r" },
+    { "termId": "cult-sold" },
+    { "termId": "cult-sold", "prefix": "p" },
+    { "termId": "phy-u-p" },
+    { "termId": "mt-info" },
+    { "termId": "stf" },
+    { "termId": "p-fc" },
+    { "termId": "prog-cont" },
+    { "termId": "af-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "trs" },
+    { "termId": "grad" }
+  ],
+  "relationships": [
+    { "from": "info-doc", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "stf", "type": "solid" },
+    { "from": "p-fc", "to": "info-doc", "type": "solid" },
+    { "from": "info-doc", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "cult-sold", "type": "solid" },
+    { "from": "af-dy", "to": "info-doc", "type": "solid" },
+    { "from": "prog-cont", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "trs", "type": "solid" },
+    { "from": "prog-cont", "to": "grad", "type": "solid" }
+  ]
+}

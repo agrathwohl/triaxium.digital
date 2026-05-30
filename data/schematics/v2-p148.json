@@ -1,0 +1,32 @@
+{
+  "id": "v2-p148",
+  "volume": 2,
+  "section": "SR(TRS)II-4",
+  "page": 148,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------ MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-4 (Social Reality / Trans-Information, Level Two) opening Braxton's diagnostic of late-seventies western culture: 'we are creating the future now.' (C)LK-IMP (the concept of linkage implication) is crossed with MT-INFO (multi-information): the question is what linkage-implication produces when crossed with multi-information — the linkage at issue being the connection between American black-culture conditions and world-cultural significance, the multi-information being the spectrum of perceptual claims (the prose lists NBC polls, women's-liberation rhetoric, black-middle-class commentary) that constitute late-seventies western culture's self-image. TH-CONT (theoretical continuance) anchors the upper-right output. SO-EXP-PRI (source-experiential principles) hangs on the right margin. AF-DY (affinity dynamics) sits between subject and partner. (P)DIFF (point-of-activation difference) sits below the central axis. IST-F (interior-source functionalism) anchors the right output. (R)POL-DY (the reality of political dynamics) anchors the lower-center. INFO-DE (information descent) hangs on the lower-right. Structural argument: linkage-implication crossed with multi-information is mediated by affinity-dynamics as central hub. The (p) prefix on DIFF is load-bearing — difference here functions at point-of-activation, not as sustained category. The (r) prefix on POL-DY commits that political-dynamics actually obtains (the prose describes real policies, not hypothetical ones). The diagram exposes Braxton's structural diagnostic: late-seventies western culture treats linkage-implication as if multi-information already settled the case (the NBC poll, the 'enough special treatment' sentiment), but the real structure routes through affinity-dynamics as hub and point-of-activation-difference as the lower mediator — and difference, taken only as point-of-activation, cannot sustain the linkage claim.",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true, "prefix": "c" },
+    { "termId": "mt-info" },
+    { "termId": "th-cont" },
+    { "termId": "so-exp-pri" },
+    { "termId": "af-dy" },
+    { "termId": "diff", "prefix": "p" },
+    { "termId": "ist-f" },
+    { "termId": "pol-dy", "prefix": "r" },
+    { "termId": "info-de" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "so-exp-pri", "type": "solid" },
+    { "from": "lk-imp", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "mt-info", "type": "solid" },
+    { "from": "af-dy", "to": "ist-f", "type": "solid" },
+    { "from": "diff", "to": "af-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "diff", "type": "solid" },
+    { "from": "pol-dy", "to": "info-de", "type": "solid" }
+  ]
+}

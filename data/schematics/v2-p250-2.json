@@ -1,0 +1,37 @@
+{
+  "id": "v2-p250-2",
+  "volume": 2,
+  "section": "CMOA(II)-8",
+  "page": 250,
+  "subject": "crtf-d",
+  "title": "(R)CRTF.D.----POL.DY.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-8, second of two on book p250, paired with v2-p250-1. (R)CRTF-D (the reality of creative-dynamic) is crossed with POL-DY (political dynamics): the question is what creative-dynamic produces in its actual instantiation when crossed with political-dynamics — the (R) prefix marking that real creative-dynamic (the actual music made by touring musicians) is what political-dynamics had to absorb. DEC (decision) and POL-DY itself form the upper-center cluster. PROG-SIGN (progressional significance) sits centrally. DIS-C-CT (dis-composite-continuance traits) anchors the upper-right output. (R)DOC (reality of documentation) and MT-INFO (multi-information) cluster on the right output. (R)INT (reality of interior) sits between subject and partner. EXPM (experimental) feeds into the central axis from below-left. STF (source-transfer functionalism) sits centrally below. TRS (transference) anchors the bottom-center. DE-SPTL (de-spatialization) hangs on the lower-right margin. Structural argument: creative-dynamic-as-real crossed with political-dynamics is mediated by reality-interior as central hub, with progressional-significance as the cross-axis between subject and partner. The multiple (r) prefixes ((r)crtf-d, (r)int, (r)doc) register Braxton's structural commitment that real touring impact required *real* — not styled — versions of creative-dynamic, interior, and documentation. The lower upstreams (experimental, source-transfer-functionalism, transference) sustain the crossing. The de-spatialization output is structurally telling: real political-dynamics crossed with real creative-dynamic produces de-spatialization (the dissolution of place-bound musical identity), exposing why the touring impact functioned as transformation rather than merely as documentation.",
+  "terms": [
+    { "termId": "crtf-d", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "dec" },
+    { "termId": "prog-sign" },
+    { "termId": "dis-c-ct" },
+    { "termId": "doc", "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "expm" },
+    { "termId": "stf" },
+    { "termId": "trs" },
+    { "termId": "de-sptl" }
+  ],
+  "relationships": [
+    { "from": "crtf-d", "to": "dec", "type": "solid" },
+    { "from": "crtf-d", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "prog-sign", "type": "solid" },
+    { "from": "prog-sign", "to": "dis-c-ct", "type": "solid" },
+    { "from": "pol-dy", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "mt-info", "type": "solid" },
+    { "from": "crtf-d", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "stf", "type": "solid" },
+    { "from": "expm", "to": "intr", "type": "solid" },
+    { "from": "stf", "to": "trs", "type": "solid" },
+    { "from": "stf", "to": "de-sptl", "type": "solid" }
+  ]
+}

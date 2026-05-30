@@ -1,0 +1,33 @@
+{
+  "id": "v2-p99",
+  "volume": 2,
+  "section": "AF(D)-27",
+  "page": 99,
+  "subject": "per-phy-u-find",
+  "title": "PER.PHY.U.FUND.------TRS.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-27 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the over-balance of information from the western perceived affinity alignment (taught without regard for its progressional significance — source initiation) must be viewed as a negative factor for positive transformation.' (C)PER-PHY-U-FIND (the concept of perceived physical-universe findings) is crossed with TRS (transference): the question is what perceived-physical-universe-findings produces when crossed with transference — perceived being the load-bearing qualifier (this is not actual physical-universe findings but those perceived through western alignment). LANG-DY (language dynamics) feeds into TRS from the upper-left. GRAD (gradualism) and IST-F-ACT (interior-source-functionalism activation) form the upper-right output cluster. T-C-IMP (temporal-continuity implication) anchors the right. INFO-CO (information collective) hangs on the right margin. A-PR (all-purpose) feeds into the subject from below. WO-MTH (world methodology) anchors the lower-center. IF-SPT (information-source projection toolkit) hangs on the lower-right. Structural argument: perceived-physical-universe-findings crossed with transference produces gradualism and interior-source-functionalism-activation as upper outputs (i.e., western culture transfers in this configuration produces *gradual* change with interior-source merely activated, not sustained). The lower upstreams — all-purpose, world-methodology — are diagnostic: when the cross is mediated by world-methodology, the perceived-findings become productive of *real* temporal-continuity. Without that lower mediation, the crossing collapses into mere gradualism.",
+  "terms": [
+    { "termId": "per-phy-u-find", "isSubject": true, "prefix": "c" },
+    { "termId": "trs" },
+    { "termId": "lang-dy" },
+    { "termId": "grad" },
+    { "termId": "ist-f-act" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-co" },
+    { "termId": "a-pr" },
+    { "termId": "wo-mth" },
+    { "termId": "if-spt" }
+  ],
+  "relationships": [
+    { "from": "lang-dy", "to": "trs", "type": "solid" },
+    { "from": "per-phy-u-find", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "ist-f-act", "type": "solid" },
+    { "from": "ist-f-act", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-co", "type": "solid" },
+    { "from": "a-pr", "to": "per-phy-u-find", "type": "solid" },
+    { "from": "per-phy-u-find", "to": "wo-mth", "type": "solid" },
+    { "from": "wo-mth", "to": "if-spt", "type": "solid" }
+  ]
+}

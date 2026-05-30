@@ -1,0 +1,39 @@
+{
+  "id": "v2-p289-2",
+  "volume": 2,
+  "section": "CMOA(II)-47",
+  "page": 289,
+  "subject": "info-ds",
+  "title": "INFO.DS.-----C.CONT.",
+  "type": "crossing",
+  "description": "Second diagram on page 289, sitting between the closing fragment of CMOA(II)-47 and the start of CMOA(II)-48 (the 'adaptation cycle of creative music'). Where the first diagram on this page sets up the inversion the principle-exposure cycle produces, this one diagrams the next sequence: INFO-DS (information dissemination — how a thrust alignment actually spreads) crossed with C-CONT (composite continuance — whether the form persists through that spread). (C)INFO-DS is subject in the upper-left with the subject-arrow; C-CONT is the partner-center beside it. From C-CONT, MT-INFO (meta-information) rises up-right and feeds INFO-INTR (information introduction) at the upper right margin, with TRS (transformation) anchoring the right side. PROJ-DY (projection dynamics) sits centrally below C-CONT and drops to CRTF-D (creative-dynamic), which fans into ALT-F (alternative form) on the lower-left of the partner side and SOC-RT-DY (social-reality dynamics) on the lower-right. On the subject side, GRAD (gradualism) descends from INFO-DS to SOC-RT (social reality) at lower-left and to T-C-IMP (temporal-continuity implication) at bottom-center. The structural argument the prose on the facing page makes (CMOA(II)-48): dissemination produces composite-continuance only when each of the cycle's stages — exposure, imitation, stylism, restructuralism — is allowed to actually run. The diagram shows why: the diagonal that pulls MT-INFO down through the partner-side into T-C-IMP (the X-cross with GRAD rising back up) is exactly the temporal mechanism that converts dissemination into continuance. Without that diagonal — without gradualism meeting meta-information on the partner-axis — projection-dynamics produces only creative-dynamic outputs (alt-f, soc-rt-dy) that do not feed back into the subject's continuance chain, and the form arrives without continuing.",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "info-intr" },
+    { "termId": "trs" },
+    { "termId": "proj-dy" },
+    { "termId": "crtf-d" },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "grad" },
+    { "termId": "soc-rt" },
+    { "termId": "t-c-imp" }
+  ],
+  "relationships": [
+    { "from": "info-ds", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-intr", "type": "solid" },
+    { "from": "info-intr", "to": "trs", "type": "solid" },
+    { "from": "c-cont", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "alt-f", "type": "solid" },
+    { "from": "crtf-d", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "info-ds", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "soc-rt", "type": "solid" },
+    { "from": "grad", "to": "t-c-imp", "type": "solid" },
+    { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "trs", "to": "soc-rt-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v2-p295-2",
+  "volume": 2,
+  "section": "CMOA(II)-53",
+  "page": 295,
+  "subject": "re-dif",
+  "title": "RE.DEF.-----C.CONT.",
+  "type": "crossing",
+  "description": "Second diagram on page 295 (CMOA(II)-53), paired with the (R)RE-DOC × C-CONT crossing above it. Where the first diagram structurally shows how redocumentation can fail to remain composite-continuance (and the suppression cycle takes hold), this one structurally shows the same crossing one transformation deeper: (C)RE-DIF (the *central* reality of redefinitions — the cycle in which the form's working definitions get rewritten) crossed with C-CONT (composite continuance). RE-DIF is subject on the left with the subject-arrow; PROG-SIGN (progressional signal) hangs immediately above it, indicating that redefinitions only count as composite-continuance when the form is *signaling* its own progression. DY-F (dynamic form) anchors the bottom-left margin and MT-DI (meta-direction) / RE-ST (restructuralism) sit at the bottom of the subject side as the redefinition cycle's downstream outputs. On the partner side, C-CONT routes up-right to RT-DY (reality dynamics), right to POL-DY (political dynamics), and down-right to MT-IMP (meta-implication) and INFO-DY (information dynamics) as the partner's downstream outputs. Across the top, SOC-RT-DY feeds TRS and TRS lands in C-CONT — the same upper-diagonal entry the previous diagram used. Structural argument: the prose calls this the period 'where one asks the question \"whatever happened to ole Joe?\"' Braxton's structural answer is here: redefinitions become composite-continuance only when MT-DI/RE-ST on the subject's bottom chain are actually fed by C-CONT's downstream POL-DY and MT-IMP on the partner's bottom chain. Cut the cross-feed — let the partner-side run alone into INFO-DY — and the subject's restructuralism never receives the political and meta-implication weight it needs to actually re-define the form. The form's working definitions get rewritten only on the partner's terms; the subject's PROG-SIGN goes silent; 'ole Joe' disappears.",
+  "terms": [
+    { "termId": "re-dif", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "prog-sign" },
+    { "termId": "dy-f" },
+    { "termId": "mt-di" },
+    { "termId": "re-st" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "trs" },
+    { "termId": "rt-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "mt-imp" },
+    { "termId": "info-dy" }
+  ],
+  "relationships": [
+    { "from": "re-dif", "to": "c-cont", "type": "solid" },
+    { "from": "re-dif", "to": "prog-sign", "type": "solid" },
+    { "from": "re-dif", "to": "dy-f", "type": "solid" },
+    { "from": "re-dif", "to": "mt-di", "type": "solid" },
+    { "from": "mt-di", "to": "re-st", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "rt-dy", "type": "solid" },
+    { "from": "c-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "c-cont", "to": "mt-imp", "type": "solid" },
+    { "from": "mt-imp", "to": "info-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "re-st", "type": "solid" }
+  ]
+}

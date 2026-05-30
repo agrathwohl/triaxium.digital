@@ -1,0 +1,29 @@
+{
+  "id": "v2-p132",
+  "volume": 2,
+  "section": "AE(PD)-20",
+  "page": 132,
+  "subject": "pri-info",
+  "title": "(R)PRI.INFO.------ MTA.RT.SIGN.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-20 (Aspect Essence / Perception Dynamics, Level One) accompanying Braxton's claim about composite-focused activism: 'the effectiveness of a given intention can permeate the total lining of its culture and culture imprint. The seeds underlying a given composite activist participation can move to redirect an entire culture, and in doing so, serve as a positive factor for reunification — and hopefully, later, even cultural greatness.' (R)PRI-INFO (the reality of principle information) is crossed with MTA-RT-SIGN (meta-reality significance): the question is what principle-information produces in its actual instantiation when crossed with meta-reality-significance — the (R) prefix marking that real principle-information is what carries the cultural-redirection seed Braxton describes. MTA-RT-SIGN sits at the top. COS-P (cosmic principle) and (PO)SG (positional significance) cluster on the upper-right output. T-C-IMP (temporal-continuity implication) sits below the subject. PHY-C (physical conditions) anchors the lower-center. (P-IN)TH-CONT-DY (point-of-activation interior theoretical-continuance dynamics — a compound modal marker) hangs on the right via a *dashed* edge to COS-P. RT-DY (reality dynamics) anchors the lower-right margin. Structural argument: principle-information-as-real crossed with meta-reality-significance is mediated by temporal-continuity-implication. The (po) prefix on SG (significance) registers that significance functions positionally — its meaning depends on its place in the cultural system, not its inherent content. The dashed edge from the compound-prefix node to cosmic-principle is load-bearing: it exposes Braxton's structural diagnostic that the point-of-activation of interior theoretical-continuance dynamics has only a *conditional* link to cosmic-principle — the cultural seed of composite activism becomes cosmically productive only when that conditional link is actually held by the participants.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "r" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "cos-p" },
+    { "termId": "sg", "prefix": "po" },
+    { "termId": "t-c-imp" },
+    { "termId": "phy-c" },
+    { "termId": "th-cont-dy", "prefix": "p" },
+    { "termId": "rt-dy" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "sg", "type": "solid" },
+    { "from": "pri-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "phy-c", "type": "solid" },
+    { "from": "th-cont-dy", "to": "cos-p", "type": "dashed" },
+    { "from": "phy-c", "to": "rt-dy", "type": "solid" }
+  ]
+}

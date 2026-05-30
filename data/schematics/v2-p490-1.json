@@ -1,0 +1,40 @@
+{
+  "id": "v2-p490-1",
+  "volume": 2,
+  "section": "MP(II)-8",
+  "page": 490,
+  "subject": "stf",
+  "title": "STF.------MTH.",
+  "type": "crossing",
+  "description": "Diagram in MP(II)-8, first of two on book p490, on the page where Braxton argues that 'the State Department's use of creative music must be viewed as a real factor for political persuasion, yet it must also be understood that at no point has this agency ever had any real understanding of what it was broadcasting' — the music exposed people but the apparatus had no comprehension of what it had created. (C)STF (source transfer) is crossed with MTH (methodology): the question is what source-transfer produces when crossed with methodology when the source-transferring institution doesn't comprehend its own apparatus. MTH (the partner) outputs to SCI-DY (scientific dynamics), IST-S (isolated source) → ALGN (alignment) → ALT-FT (alternative functionalism). TRS (transition), ACC-FT (accelerated functionalism), and RT-DY (reality dynamics) cluster in the upper-right. INFO-DY (information dynamics) is a central convergence. PER-PHY-U-FUND (perceived physical universe fundamental) feeds the subject from below. RIT-DY (ritual dynamics), WOR-EXP-PRI (world expansion principle, alternate spelling), and RE-ST (restructuralism) constitute the lower production layer. Structural argument: source-transfer crossed with methodology routes through *isolated-source → alignment → alternative-functionalism* — Braxton's diagrammatic claim that even uncomprehending state-broadcast source-transfer can produce alternative functionalism, but only via an isolated-source chain that the broadcasting institution doesn't recognize.",
+  "terms": [
+    { "termId": "stf", "isSubject": true, "prefix": "c" },
+    { "termId": "mth" },
+    { "termId": "sci-dym" },
+    { "termId": "ist-s" },
+    { "termId": "algn" },
+    { "termId": "alt-ft" },
+    { "termId": "trs" },
+    { "termId": "acc-ft" },
+    { "termId": "rt-dy" },
+    { "termId": "info-doc" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "rit-dy" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "re-st" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "mth", "type": "solid" },
+    { "from": "mth", "to": "sci-dym", "type": "solid" },
+    { "from": "mth", "to": "ist-s", "type": "solid" },
+    { "from": "ist-s", "to": "algn", "type": "solid" },
+    { "from": "algn", "to": "alt-ft", "type": "solid" },
+    { "from": "mth", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "rt-dy", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "info-doc", "type": "solid" },
+    { "from": "info-doc", "to": "rit-dy", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "re-st", "type": "solid" }
+  ]
+}

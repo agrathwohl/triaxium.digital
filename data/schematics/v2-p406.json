@@ -1,0 +1,35 @@
+{
+  "id": "v2-p406",
+  "volume": 2,
+  "section": "R(AS)CM(II)-50",
+  "page": 406,
+  "subject": "acc-dy",
+  "title": "ACC.DY.------INFO.F.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(II)-50 — the section transitioning into the Decentralization argument. The prose immediately above identifies the structural object: 'the relationship between creative musicians and their community must be viewed as important.' The crossing diagrams what accent-dynamics meets when it tries to reach the form-of-information that musician-community relationship would carry: ACC-DY (accent dynamics — what creative-music's accenting actually does in working terms) is crossed with INFO-F (information form — the actual form that accent-dynamics' information takes when received). ACC-DY sits on the left with the subject-arrow; MTA-RT-SIGN (meta-reality signal) hangs to its left as the subject's leftward output, with LG-DY (linguistic dynamics) anchoring the lower-left margin and LANG (language, written as 'lang.d.' for language-definition) and MOT-DY (motion dynamics) centrally as the subject's downward hub. AFI-1 (affinity insight, level one) rises above the subject as the upper bridging hub, with TR (transformation) at the upper-right. INFO-F sits as partner-axis at center-right; SPT-DY (spectacle dynamics) rises at right and HI-P (high purpose) sits on the right margin, with INDIV-DY (individual dynamics) at the lower-right as the partner-side's downward output. Structural argument: when accent-dynamics is crossed with information-form, the upper diagonal AFI-1 → TR is the load-bearing edge — affinity-insight is what carries accent-dynamics into transformation as actual information-form. The subject's leftward chain MTA-RT-SIGN → LG-DY is what accent-dynamics produces on its own as meta-reality signaling; this is real but unhoused. The partner's HI-P → INDIV-DY chain shows where information-form lands without the upper diagonal — high-purpose individual-dynamics, the isolated artist the prose-section critiques (the next Decentralization argument names that those who 'were not born or raised in New York... were instead forced to migrate as a means to make a living'). The diagonal must hold or the community-musician relationship the section names cannot route the form's actual accenting into its receiving community.",
+  "terms": [
+    { "termId": "acc-dy", "isSubject": true },
+    { "termId": "info-f" },
+    { "termId": "afi-1" },
+    { "termId": "tr" },
+    { "termId": "spt-dy" },
+    { "termId": "hi-p" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "lang" },
+    { "termId": "mot-dy" },
+    { "termId": "lg-dy" },
+    { "termId": "indiv-dy" }
+  ],
+  "relationships": [
+    { "from": "acc-dy", "to": "info-f", "type": "solid" },
+    { "from": "acc-dy", "to": "afi-1", "type": "solid" },
+    { "from": "afi-1", "to": "tr", "type": "solid" },
+    { "from": "acc-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "lg-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "lang", "type": "solid" },
+    { "from": "lang", "to": "mot-dy", "type": "solid" },
+    { "from": "info-f", "to": "spt-dy", "type": "solid" },
+    { "from": "info-f", "to": "hi-p", "type": "solid" },
+    { "from": "info-f", "to": "indiv-dy", "type": "solid" }
+  ]
+}

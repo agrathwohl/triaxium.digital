@@ -1,0 +1,32 @@
+{
+  "id": "v2-p110",
+  "volume": 2,
+  "section": "AF(D)-38",
+  "page": 110,
+  "subject": "ist-f",
+  "title": "IST.F.------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-38 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'in the final analysis, all of these concepts do translate on the physical universe level — which is to say, our actual lives are related to what has happened from the distortion of true information.' (C)IST-F (the concept of interior-source functionalism) is crossed with SOC-RT (social reality): the question is what interior-source-functionalism produces when crossed with social-reality — when distortion has made interior-source-functionalism an isolated, controlled phenomenon. SOC-RT sits at the upper-center with CULT-INFO-DY (culture-information dynamics) on the upper-right. POST (postulation) anchors the upper-right output. INTR (interior) sits centrally between subject and partner. AFL (affinity alignment) hangs on the right of the central axis. POL-DYM (political dynamics) anchors the right output. INFO-ALGN (information alignment) feeds upward from below into the central axis. IF-ST-DY (information-style dynamics) sits below the crossing line. Structural argument: interior-source-functionalism crossed with social-reality is mediated by interior as central hub — Braxton's structural commitment that real social-reality emerges only when interior is live. The lower upstreams (information-alignment, information-style-dynamics) expose that without alignment of the *style* of information (which Braxton's chapter has shown to be western-skewed), the crossing produces culture-information-dynamics that flows into postulation and political-dynamics — i.e., into operational politics — rather than into affinity-alignment. The diagram is the structural case that *isolated* functionalism (the prose context) is the consequence of interior failing to operate as the hub.",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "cult-info-dy" },
+    { "termId": "post" },
+    { "termId": "intr" },
+    { "termId": "afl" },
+    { "termId": "pol-dym" },
+    { "termId": "info-algn" },
+    { "termId": "if-st-dy" }
+  ],
+  "relationships": [
+    { "from": "ist-f", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "post", "type": "solid" },
+    { "from": "ist-f", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "soc-rt", "type": "solid" },
+    { "from": "intr", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "pol-dym", "type": "solid" },
+    { "from": "info-algn", "to": "intr", "type": "solid" },
+    { "from": "if-st-dy", "to": "afl", "type": "solid" }
+  ]
+}

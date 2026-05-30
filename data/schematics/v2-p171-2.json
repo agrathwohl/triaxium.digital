@@ -1,0 +1,35 @@
+{
+  "id": "v2-p171-2",
+  "volume": 2,
+  "section": "SR(TRS)II-27",
+  "page": 171,
+  "subject": "ist-s-algn",
+  "title": "(R)IST.S.ALGN.------INFO.CON.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-27, second of two on book p171, paired with v2-p171-1. Continues the procedure argument by crossing a new subject (interior-source alignment) against information-conformity. (R)IST-S-ALGN (the reality of interior-source alignment) is crossed with INFO-CON (information conformity): the question is what interior-source-alignment produces in its actual instantiation when crossed with information-conformity — the (R) prefix marking that real interior-source-alignment is the only resource against information-conformity's pull. SPT-DY (spectacle dynamics) and PRI-INFO (principle information) form the upper-right cluster. EXTN-D (extension-determining) sits between subject and partner. AFN (affinity) anchors the upper-right margin. (P)VT-PLT (point-of-activation vibrational platform) hangs on the right output. INFO-CON itself is partner. AFI(1) (affinity insight, first-order) sits below the central axis. AF-DY (affinity dynamics) anchors the lower-left. PR-TR (principal transformation) sits centrally between the lower nodes. EXT-DY (extended dynamics) anchors the lower-right margin. Structural argument: interior-source-alignment-as-real crossed with information-conformity is mediated by extension-determining as central hub. The (p) prefix on VT-PLT is load-bearing — vibrational-platform here functions at point-of-activation (it triggers when actuated, not as sustained operation). The diagram exposes Braxton's structural diagnostic: information-conformity is a real force, but interior-source-alignment-as-real produces (through extension-determining) the affinity-insight-first-order output that constitutes resistance — and that resistance is sustained by affinity-dynamics, principal-transformation, and extended-dynamics as lower upstreams.",
+  "terms": [
+    { "termId": "ist-s-algn", "isSubject": true, "prefix": "r" },
+    { "termId": "info-con" },
+    { "termId": "spt-dy" },
+    { "termId": "pri-info" },
+    { "termId": "extn-d" },
+    { "termId": "afn" },
+    { "termId": "vt-plt", "prefix": "p" },
+    { "termId": "afi1" },
+    { "termId": "af-dy" },
+    { "termId": "pr-tr" },
+    { "termId": "ext-dy" }
+  ],
+  "relationships": [
+    { "from": "ist-s-algn", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "pri-info", "type": "solid" },
+    { "from": "ist-s-algn", "to": "extn-d", "type": "solid" },
+    { "from": "extn-d", "to": "info-con", "type": "solid" },
+    { "from": "extn-d", "to": "afn", "type": "solid" },
+    { "from": "info-con", "to": "vt-plt", "type": "solid" },
+    { "from": "ist-s-algn", "to": "afi1", "type": "solid" },
+    { "from": "af-dy", "to": "afi1", "type": "solid" },
+    { "from": "afi1", "to": "pr-tr", "type": "solid" },
+    { "from": "pr-tr", "to": "ext-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v2-p245-1",
+  "volume": 2,
+  "section": "CMOA(II)-3",
+  "page": 245,
+  "subject": "pol-dy",
+  "title": "POL.DY.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-3 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p245. Opens Braxton's chapter argument: 'the planet expansion of post-Parker creativity can be viewed as related to the social-reality implications of the Second World War — and the subsequent interest (focus) on creative black music that solidified in that period profoundly affected the vibrational creative arena of both western Europe and Japan.' (C)POL-DY (the concept of political dynamics) is crossed with PROG-CONT (progressional continuance): the question is what political-dynamics produces when crossed with progressional-continuance — the political-dynamics here being the post-WW2 reordering that opened European and Japanese receptivity to creative black music. (R)INFO-DY (reality of information dynamics) feeds into the central axis from the upper-left. RIT-DY (ritual dynamics) and SPT-DY (spectacle dynamics) form the upper-center cluster. PROG-CONT sits at the upper-right. CULT-INFO-DY (culture-information dynamics) anchors the upper-right output. INFO-DE (information descent) sits below the crossing. SOC-RT-DY (social-reality dynamics) feeds in from the lower-left. AFL (affinity alignment) sits centrally. PART (participation) anchors the lower-center. AF-DY (affinity dynamics) and APP-RDEF (apparent redefinition) form the lower-right cluster. Structural argument: political-dynamics-as-concept crossed with progressional-continuance is mediated by ritual-dynamics and spectacle-dynamics in the upper register (these two compete for the meaning of post-war reordering) and information-descent in the lower register. The diagram exposes Braxton's structural commitment: the post-Parker spread to Europe/Japan happened through political-dynamics, but ritual-dynamics versus spectacle-dynamics is the live argument — the productive output (culture-information-dynamics, affinity-dynamics) registers only if ritual-dynamics wins; otherwise the crossing produces apparent-redefinition instead.",
+  "terms": [
+    { "termId": "pol-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "info-dy", "prefix": "r" },
+    { "termId": "rit-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "cult-info-dy" },
+    { "termId": "info-de" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "afl" },
+    { "termId": "part" },
+    { "termId": "af-dy" },
+    { "termId": "app-rdef" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "rit-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "pol-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "cult-info-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "info-de", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "pol-dy", "type": "solid" },
+    { "from": "afl", "to": "part", "type": "solid" },
+    { "from": "part", "to": "app-rdef", "type": "solid" },
+    { "from": "cult-info-dy", "to": "af-dy", "type": "solid" }
+  ]
+}

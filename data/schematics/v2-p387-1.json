@@ -1,0 +1,36 @@
+{
+  "id": "v2-p387-1",
+  "volume": 2,
+  "section": "R(AS)CM(II)-31",
+  "page": 387,
+  "subject": "c-cult-at",
+  "title": "C.CULT.AT.-----RT.DY.",
+  "type": "crossing",
+  "description": "First of two diagrams in R(AS)CM(II)-31 (Reality Aspect of Creative Music, Level Two — Agents). The facing prose names the structural ground: 'most creative musicians work with one of the two or three jazz booking agencies available, or work independently. This is understandable, since the jazz agencies can handle only so many musicians... But the Jack Whitmores are few in between, and the actual reality of most creative musicians is to function as both musician and agent.' The crossing diagrams what that double-functioning is structurally crossing: C-CULT-AT (central cultural attitude — the receiving culture's organized stance toward the music) is crossed with RT-DY (reality dynamics — what booking, touring, contracting actually require). C-CULT-AT sits on the left with the subject-arrow; JR-DYM (junior dynamic) hangs at mid-left as the form's emerging-artist position, with CULT-INFO-B (cultural-information base) below it routing down to IST-F (isolated focus) on the lower-left margin and MOT-DY (motion dynamics) at the lower center. PART (participation) sits at the bottom-center as the subject's downward terminus. RT-DY is partner-center; SOC-RT (social reality) rises up-right and UPB (upper-base) anchors the upper-right margin. POL-SIGN (political signal) and OP-SD (oppositional side) drop on the right as the partner's downward outputs. Structural argument: when the receiving culture's organized attitude is crossed with the reality-dynamics of agenting, the subject's downward chain (JR-DYM → CULT-INFO-B → IST-F/MOT-DY → PART) is the path emerging creative musicians must walk *alone* — there is no JR-DYM hub on the partner side. The diagonal from MOT-DY back up to RT-DY is the only edge that lets the subject's motion reach the partner's reality-dynamics; without it, the partner-side's POL-SIGN/OP-SD outputs route through SOC-RT and UPB on the established-cultural axis only, and the creative musician's participation never reaches the booking-and-touring machinery the prose names. This is exactly why the prose says 'there are none' — no creative artists of the post-Coleman juncture with 'real machinery connected.'",
+  "terms": [
+    { "termId": "c-cult-at", "isSubject": true },
+    { "termId": "rt-dy" },
+    { "termId": "jr-dym" },
+    { "termId": "cult-info-b" },
+    { "termId": "ist-f" },
+    { "termId": "mot-dy" },
+    { "termId": "part" },
+    { "termId": "soc-rt" },
+    { "termId": "upb" },
+    { "termId": "pol-sign" },
+    { "termId": "op-sd" }
+  ],
+  "relationships": [
+    { "from": "c-cult-at", "to": "rt-dy", "type": "solid" },
+    { "from": "c-cult-at", "to": "jr-dym", "type": "solid" },
+    { "from": "c-cult-at", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "ist-f", "type": "solid" },
+    { "from": "cult-info-b", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "part", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "rt-dy", "to": "upb", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-sign", "type": "solid" },
+    { "from": "rt-dy", "to": "op-sd", "type": "solid" },
+    { "from": "mot-dy", "to": "rt-dy", "type": "solid" }
+  ]
+}

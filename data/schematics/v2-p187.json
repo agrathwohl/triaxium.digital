@@ -1,0 +1,33 @@
+{
+  "id": "v2-p187",
+  "volume": 2,
+  "section": "SR(TRS)II-43",
+  "page": 187,
+  "subject": "op-spd",
+  "title": "(R)OP.SPD.------ POL.P.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-43 (Social Reality / Trans-Information, Level Two) closing the Level Two chapter with Braxton's distinction between collective forces and controlling forces of western culture: 'the difference between the concept of collective forces as opposed to controlling forces would have to do with the option spread that is available to white people … but the real controlling factors which really determine American — and western — policy are quite separate from this option spread.' (R)OP-SPD (the reality of option-spread) is crossed with POL-P (political particulars): the question is what option-spread produces in its actual instantiation when crossed with political-particulars — the (R) prefix marking that this is the actual option-spread available, not the marketed one. POL-P sits at the upper-center with DYM-F (dynamics fundamentals) on the upper-right. DEC (decision) anchors the upper-right margin. PART (participation) sits between subject and partner. EXP-CONT (experimental continuance) feeds in from the lower-left. MT-INFO (multi-information) sits centrally below. C-FO-ACT (composite focused activism) anchors the lower-right output. VT-DY (vibrational dynamics) and SOC-RT-DY (social-reality dynamics) form the lower upstream chain. Structural argument: option-spread-as-real crossed with political-particulars is mediated by participation as central hub, with experimental-continuance as upstream and social-reality-dynamics, vibrational-dynamics, multi-information as lower upstreams. The diagram exposes Braxton's structural diagnostic of the option-spread illusion: the productive output (composite-focused-activism, dynamics-fundamentals, decision) routes through participation, but participation in this configuration is shaped by political-particulars *before* it reaches activism — meaning the option-spread of the average white person is constrained to participation-within-particulars, not participation that could constitute composite-focused-activism. The diagram is the structural case for why controlling forces are *separate from* the option-spread.",
+  "terms": [
+    { "termId": "op-spd", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-p" },
+    { "termId": "dym-f" },
+    { "termId": "dec" },
+    { "termId": "part" },
+    { "termId": "exp-cont" },
+    { "termId": "mt-info" },
+    { "termId": "c-fo-act" },
+    { "termId": "vt-dy" },
+    { "termId": "soc-rt-dy" }
+  ],
+  "relationships": [
+    { "from": "op-spd", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "dec", "type": "solid" },
+    { "from": "pol-p", "to": "part", "type": "solid" },
+    { "from": "exp-cont", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "mt-info", "type": "solid" },
+    { "from": "part", "to": "c-fo-act", "type": "solid" },
+    { "from": "vt-dy", "to": "exp-cont", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "mt-info", "type": "solid" }
+  ]
+}

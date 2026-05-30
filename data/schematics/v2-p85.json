@@ -1,0 +1,33 @@
+{
+  "id": "v2-p85",
+  "volume": 2,
+  "section": "AF(D)-13",
+  "page": 85,
+  "subject": "pri-info",
+  "title": "(R)PRI.INFO.------INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-13 (Affinity Dynamics, Level One) accompanying Braxton's call to read 'high culture' through affinity-dynamics rather than applied empiricism: 'the individual brilliance that has underlined how given culture groups attain high culture … has more to do with the realness of affinity dynamics than any notion of superiority.' (R)PRI-INFO (the reality of principle information) is crossed with INFO-DY (information dynamics): the question is what principle-information produces in its real instantiation when crossed with information-dynamics. The (R) prefix on the subject is load-bearing — Braxton commits here that principle-information *actually* exists across cultures, not merely conceptually. TH-CONT (theoretical continuance) feeds upward from below into the subject. INFO-PROJ (information projection) anchors the upper-right output. ATTN (attention) sits centrally between the two upstreams from PRI-INFO and PROJ-DY. ACT-TR (actual transformation) and AFI (affinity insight) cluster on the right output chain. RT-DY (reality dynamics) and PROJ-DY (projectional dynamics) form the lower-left upstream chain. CUL-TR-S (cultural transfer source) anchors the lower-right margin. Structural argument: principle-information-as-real crossed with information-dynamics is mediated through attention as central hub. The productive outputs (actual-transformation, affinity-insight, cultural-transfer-source) are sustained only through doubled upstreams — theoretical-continuance and reality-dynamics on one side, projectional-dynamics on the other.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "r" },
+    { "termId": "info-dy" },
+    { "termId": "th-cont" },
+    { "termId": "info-proj" },
+    { "termId": "attn" },
+    { "termId": "act-tr" },
+    { "termId": "afi" },
+    { "termId": "rt-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "cul-tr-s" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-proj", "type": "solid" },
+    { "from": "pri-info", "to": "attn", "type": "solid" },
+    { "from": "info-dy", "to": "act-tr", "type": "solid" },
+    { "from": "act-tr", "to": "afi", "type": "solid" },
+    { "from": "rt-dy", "to": "attn", "type": "solid" },
+    { "from": "proj-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "act-tr", "to": "cul-tr-s", "type": "solid" }
+  ]
+}

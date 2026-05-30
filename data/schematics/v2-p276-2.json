@@ -1,0 +1,36 @@
+{
+  "id": "v2-p276-2",
+  "volume": 2,
+  "section": "CMOA(II)-34",
+  "page": 276,
+  "subject": "exp-info-b",
+  "title": "(R)EXP.INFO.B. ----LANG.DY.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-34, second of two on book p276, paired with v2-p276-1. Continues the Japan analysis by holding experiential-information-basis at its real register against language-dynamics — language being the operational vehicle of culture-gap. (R)EXP-INFO-B (the reality of experiential information basis) is crossed with LANG-DY (language dynamics): the question is what experiential-information-basis produces in its actual instantiation when crossed with language-dynamics — the (R) prefix marking that the actual Japanese creative experience exists (against Western denial), and language-dynamics is precisely what determines whether that experience can become internationally legible. (R)SG (reality of significance) sits at the upper-center. AFTD (affinity-tendency) anchors the upper-right output. ALT-F (alternative functionalism) and C-CONT (composite continuance) form the right output cluster. LANG-DY appears a second time on the lower-left (Braxton's typographic double-naming when a node functions at two registers — as crossing-partner and as lower-cluster element). (P)POST (point-of-activation postulation), (R)STY (reality of style), and SOC (society) form the lower-center cluster. MT-INFO (multi-information) and PROG-CONT (progressional continuance) anchor the bottom. Structural argument: experiential-information-basis-as-real crossed with language-dynamics is mediated by reality-of-significance as central hub. The doubled LANG-DY exposes Braxton's structural commitment that language-dynamics functions at two simultaneous registers: as the crossing-partner (the structural axis) and as a lower-cluster element (the operational mechanism). The (p) prefix on postulation registers that under one-way culture-gap conditions, postulation about Japanese music operates only at point-of-activation — when individual Western listeners encounter the music — rather than as sustained institutional postulation, and the (r) prefix on style commits that real Japanese style actually obtains and can ground composite-continuance.",
+  "terms": [
+    { "termId": "exp-info-b", "isSubject": true, "prefix": "r" },
+    { "termId": "lang-dy" },
+    { "termId": "sg", "prefix": "r" },
+    { "termId": "aftd" },
+    { "termId": "alt-f" },
+    { "termId": "c-cont" },
+    { "termId": "post", "prefix": "p" },
+    { "termId": "sty", "prefix": "r" },
+    { "termId": "soc" },
+    { "termId": "mt-info" },
+    { "termId": "prog-cont" }
+  ],
+  "relationships": [
+    { "from": "exp-info-b", "to": "lang-dy", "type": "solid" },
+    { "from": "exp-info-b", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "c-cont", "type": "solid" },
+    { "from": "exp-info-b", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "sty", "type": "solid" },
+    { "from": "sty", "to": "soc", "type": "solid" },
+    { "from": "mt-info", "to": "lang-dy", "type": "solid" },
+    { "from": "post", "to": "prog-cont", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v2-p318-2",
+  "volume": 2,
+  "section": "R(AS)CM(I)-2",
+  "page": 318,
+  "subject": "extn",
+  "title": "EXTN.-----SOC.RT.",
+  "type": "crossing",
+  "description": "Second diagram on page 318, paired with the TH-CONT × PER-TRS crossing above it. Where the first diagram structurally shows how the applied-redefinitions hub intercepts thrust-continuance on its way to the partner-side outputs, this one shows the same suppression mechanism at the deeper level the prose names — 'the reality position (and/or affinity dynamics) underlying what a given creative participation really meant in its vibrational and cosmic sense.' The crossing: (C)EXTN (the central reality of existentialism — what alternative creativity actually is, ontologically) crossed with SOC-RT (social reality — the receiving culture's organized acceptance). EXTN is subject on the left with the subject-arrow; V-SY (value system) hangs below it as the immediate downward output, and APP-RDEF (applied redefinitions) anchors the lower-left margin — the same hub from the previous diagram, now positioned as a *subject-side* output rather than a partner-side interceptor. SOC-RT is partner-center; OP-SD rises up-right and PART (participation) sits to its right, with AF-TD on the right margin. INDIV-DY (individual dynamics) descends centrally from SOC-RT and routes to IST-F-AT (isolated focus activism) at the bottom-center and VT-ATT (vibrational attitude) at the lower-right, with OBS (observation) at the very bottom as the partner-side's downward terminus. Structural argument: when existentialism-as-such is crossed with social-reality, the partner's downward chain (INDIV-DY → IST-F-AT / VT-ATT → OBS) is exactly the journalism's process — social-reality routes individual-dynamics into *isolated* focus activism (the journalism's 'particulars of a given focus or opinion' the prose names) and into vibrational-attitude that terminates in mere observation. Meanwhile the subject's downward chain stops at APP-RDEF: the existentialism never reaches its own affinity-alignment output because applied-redefinitions catches it first. The diagonal that lets PART (on the partner side) reach back across into the subject's V-SY is the *only* edge that could carry actual creative participation back to a value-system reading — and in the bebop-reception cycle Braxton describes, that diagonal does not get held. Social-reality consumes existentialism as observation; the cosmic-vibrational sense the prose names is structurally unreachable from the partner-side outputs alone.",
+  "terms": [
+    { "termId": "extn", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "op-sd" },
+    { "termId": "part" },
+    { "termId": "af-td" },
+    { "termId": "v-sy" },
+    { "termId": "app-rdef" },
+    { "termId": "indiv-dy" },
+    { "termId": "ist-f-at" },
+    { "termId": "vt-att" },
+    { "termId": "obs" }
+  ],
+  "relationships": [
+    { "from": "extn", "to": "soc-rt", "type": "solid" },
+    { "from": "extn", "to": "v-sy", "type": "solid" },
+    { "from": "extn", "to": "app-rdef", "type": "solid" },
+    { "from": "soc-rt", "to": "op-sd", "type": "solid" },
+    { "from": "soc-rt", "to": "part", "type": "solid" },
+    { "from": "part", "to": "af-td", "type": "solid" },
+    { "from": "soc-rt", "to": "indiv-dy", "type": "solid" },
+    { "from": "indiv-dy", "to": "ist-f-at", "type": "solid" },
+    { "from": "indiv-dy", "to": "vt-att", "type": "solid" },
+    { "from": "vt-att", "to": "obs", "type": "solid" },
+    { "from": "part", "to": "v-sy", "type": "solid" }
+  ]
+}

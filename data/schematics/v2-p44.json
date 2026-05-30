@@ -1,0 +1,35 @@
+{
+  "id": "v2-p44",
+  "volume": 2,
+  "section": "SD(SY)-22",
+  "page": 44,
+  "subject": "asp-es",
+  "title": "ASP.ES.------AF.DY.",
+  "type": "hub-spoke",
+  "description": "Diagram in SD(SY)-22, where Braxton argues that 'the significance of a given spectacle diversion lies in its ability to progressionally re-dictate the reality dynamics of its time zone — or focus.' (C)ASP-ES (aspect essence — the focusing on one part as if it were the whole) is crossed with AF-DY (affinity dynamics): the question is what aspect-essence compression does to affinity dynamics across the culture. The graph is hub-spoke around (c)asp-es, which fans into LK-IMP (linkage implications), AF-DY (the crossing partner — itself a hub in the lower diagram), and four parallel sub-nodes through AF-DY: (R)INT (the reality of intention), MTA-IMP (meta-implications), LANG-DY (language dynamics), VT-ATT (vibrational attitude), and PROJ-DY (projectional dynamics). INFO-DE (information degrees), IST-S-ALGN (isolated systematic alignment), and MT-TFS-AT (multi-transfer shift activity) feed AF-DY from below. Structural argument: aspect-essence compression as a *conceptual* move (the (c) prefix) does not merely block affinity dynamics — it routes affinity dynamics through linkage-implications into the meta-implication / language-dynamics / vibrational-attitude / projectional-dynamics chains. The diagram exposes the structure of how spectacle-driven cultures redistribute affinity onto surface variables rather than essence ones.",
+  "terms": [
+    { "termId": "asp-es", "isSubject": true, "prefix": "c" },
+    { "termId": "afl-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "mta-imp" },
+    { "termId": "lang-dy" },
+    { "termId": "vt-att" },
+    { "termId": "proj-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "ist-s-algn" },
+    { "termId": "mt-tfs-at" }
+  ],
+  "relationships": [
+    { "from": "asp-es", "to": "lk-imp", "type": "solid" },
+    { "from": "asp-es", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "int", "type": "solid" },
+    { "from": "afl-dy", "to": "mta-imp", "type": "solid" },
+    { "from": "afl-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "vt-att", "type": "solid" },
+    { "from": "afl-dy", "to": "proj-dy", "type": "solid" },
+    { "from": "info-de-b", "to": "afl-dy", "type": "solid" },
+    { "from": "ist-s-algn", "to": "afl-dy", "type": "solid" },
+    { "from": "mt-tfs-at", "to": "afl-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v2-p444-2",
+  "volume": 2,
+  "section": "MP(I)-18",
+  "page": 444,
+  "subject": "th-cont",
+  "title": "TH.CONT.-----PROJ.DY-----AFL.",
+  "type": "triple-crossing",
+  "description": "Second diagram on page 444 — a triple-crossing rather than a simple two-axis crossing. The triple-axis is the structural payload of MP(I)-18's argument that there is a *second* route through alternative functionalism beyond the Coltrane/King center-platform: TH-CONT (thrust continuance — the form's forward motion) is crossed with PROJ-DY (projection dynamics — the active casting of the form into the world) which is in turn crossed with AFL (affinity alignment — the receiving condition that makes the projection land). TH-CONT sits on the left with the subject-arrow; AF-DY (affinity dynamics) and PRI-INFO (principle information) anchor the lower-left and lower-center as the subject's downward outputs, with AFTO (after-the-fact-organization) at the very bottom as the subject's terminus. PROJ-DY sits at the middle of the axis as the *bridging* center; ALT-C-PG (alternative-creative page/projection) rises above PROJ-DY and CN-INFO (continuance-information) anchors the top-right as the bridging-axis's upper output, with ISTF (isolated-source thrust functionalism) on the lower-right as its downward output. AFL is the partner-axis on the right; APP-RDEF (applied redefinitions) hangs on the upper-right of AFL and SOC-RT (social reality) anchors the lower-right as the partner's downward outputs. Structural argument: the three-axis structure is how this 'second route' actually works — thrust-continuance does not reach affinity-alignment directly. Projection-dynamics is the necessary middle term; only by routing through PROJ-DY's ALT-C-PG → CN-INFO upper chain does the subject's thrust reach the partner-axis's APP-RDEF. Meanwhile the subject's PRI-INFO → AFTO chain on the lower-left and AFL's SOC-RT chain on the lower-right would, if connected via the bridging-axis's ISTF, close the loop — but the triple-crossing only succeeds when ISTF holds that diagonal back to AFTO. This is the structural form of the route Braxton names: 'the realness of this phenomenon is not one-dimensional' precisely because it requires the projection-dynamics middle term to mediate continuance and alignment. Single crossings cannot represent the route; only the triple-axis can.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true },
+    { "termId": "proj-dy" },
+    { "termId": "afl" },
+    { "termId": "alt-c-pg" },
+    { "termId": "cn-info" },
+    { "termId": "app-rdef" },
+    { "termId": "soc-rt" },
+    { "termId": "istf" },
+    { "termId": "pri-info" },
+    { "termId": "afto" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "afl", "type": "solid" },
+    { "from": "th-cont", "to": "af-dy", "type": "solid" },
+    { "from": "th-cont", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "afto", "type": "solid" },
+    { "from": "proj-dy", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "cn-info", "type": "solid" },
+    { "from": "proj-dy", "to": "istf", "type": "solid" },
+    { "from": "afl", "to": "app-rdef", "type": "solid" },
+    { "from": "afl", "to": "soc-rt", "type": "solid" },
+    { "from": "istf", "to": "afto", "type": "solid" }
+  ]
+}

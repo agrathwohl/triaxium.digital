@@ -1,0 +1,31 @@
+{
+  "id": "v2-p69",
+  "volume": 2,
+  "section": "SD(SY)-47",
+  "page": 69,
+  "subject": "app-rdef",
+  "title": "APP.RDEF.------P.PROG.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-47 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's diagnostic that 'all of the signs for real change have solidified and the question now is which way will events take us … the most basic factor to induce the need for positive change is the awareness of extended information.' (C)APP-RDEF (the concept of apparent redefinition) is crossed with P-PROG (positive progression): the question is what apparent-redefinition produces when crossed with positive-progression — when the late-seventies progressional weight is 'isolating the dynamics of composite perception.' POL-P (political particulars) feeds into P-PROG from above. CRTF-D (creative-dynamic) sits between subject and partner on the upper register. IST-F (interior-source functionalism) anchors the upper-right margin. P-PROG itself is centrally crossed. W-DY (world dynamics) connects to INFO-AF-B (information-affinity basis) via a *dashed* edge — the only mediated/conditional relation in the diagram, marking Braxton's caution that world-dynamics' link to information-affinity-basis is uncertain. RT-ALGN (reality alignment) feeds upward into P-PROG from the lower-left. CUL-INFO-F (culture-information functionalism) anchors the lower-center via another dashed edge. Structural argument: apparent-redefinition crossed with positive-progression is the diagnostic for the late-seventies situation — apparent-redefinition is what the dominant culture offers as 'change,' while positive-progression is what actually obtains. The diagram's two dashed edges (W-DY→INFO-AF-B and P-PROG→CUL-INFO-F) are load-bearing: they expose that the link between progression and culture-information is mediated, conditional — exactly the gap that 'extended information awareness' must close to enable real change.",
+  "terms": [
+    { "termId": "app-rdef", "isSubject": true, "prefix": "c" },
+    { "termId": "p-prog" },
+    { "termId": "pol-p" },
+    { "termId": "crtf-d" },
+    { "termId": "ist-f" },
+    { "termId": "w-dy" },
+    { "termId": "info-af-b" },
+    { "termId": "rt-algn" },
+    { "termId": "cul-info-f" }
+  ],
+  "relationships": [
+    { "from": "pol-p", "to": "p-prog", "type": "solid" },
+    { "from": "app-rdef", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "ist-f", "type": "solid" },
+    { "from": "app-rdef", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "w-dy", "type": "solid" },
+    { "from": "w-dy", "to": "info-af-b", "type": "dashed" },
+    { "from": "rt-algn", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "cul-info-f", "type": "dashed" }
+  ]
+}

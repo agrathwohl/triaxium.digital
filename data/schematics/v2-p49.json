@@ -1,0 +1,37 @@
+{
+  "id": "v2-p49",
+  "volume": 2,
+  "section": "SD(SY)-27",
+  "page": 49,
+  "subject": "if-st-dy",
+  "title": "IF.ST.DY.-----SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-27 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's distinction between style-driven and substance-driven cultural movements: 'the most basic factor that determines the particulars of spectacle-diversion initiations has to do with the style of a given movement — rather than its intention.' (C)IF-ST-DY (information-style dynamics) is crossed with SOC-RT (social reality): the question is what information-style-dynamics produces when crossed with social-reality, given that style functions as the basic factor of spectacle-diversion. VT-PLT (vibrational platform) and ACT (activism) form the upper bridge between subject and partner. (R)TM (reality of time) anchors a temporal frame for SOC-RT. INFO-DY (information dynamics) feeds in from the upper-left. AFN (affinity) and APP-RDEF (apparent redefinition) cluster on the upper-right output. ACC-DY (accelerated dynamics), POL-DY (political dynamics), and PROG-CONT (progressional continuance) form the central-lower chain. (P)AGT (point-of-activation agent) anchors the lower-center as a trigger node. Structural argument: information-style-dynamics becomes productive of social-reality through a doubled mediation — vibrational-platform with activism above, accelerated-dynamics with political-dynamics below. The (p) prefix on agent registers Braxton's diagnostic that activism here is *triggered* rather than *sustained*: the diagram exposes that what looks like substance is really point-of-activation manipulation, with style-dynamics as the deeper driver of apparent social-reality.",
+  "terms": [
+    { "termId": "if-st-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "vt-plt" },
+    { "termId": "act" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "info-dy" },
+    { "termId": "afn" },
+    { "termId": "app-rdef" },
+    { "termId": "acc-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "agt", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "act", "type": "solid" },
+    { "from": "act", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "tm", "type": "solid" },
+    { "from": "soc-rt", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "app-rdef", "type": "solid" },
+    { "from": "if-st-dy", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "agt", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dy", "type": "solid" }
+  ]
+}

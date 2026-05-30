@@ -1,0 +1,34 @@
+{
+  "id": "v2-p245-2",
+  "volume": 2,
+  "section": "CMOA(II)-3",
+  "page": 245,
+  "subject": "grad",
+  "title": "(R)GRAD.------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-3, second of two on book p245, paired with v2-p245-1. Continues Braxton's post-WW2 frame: 'the resulting affinity focus on (attraction to) creative black music that emerged in that same period must be viewed as not separate from the composite nature of European continuance.' (R)GRAD (the reality of gradualism) is crossed with SOC-RT (social reality): the question is what gradualism produces in its actual instantiation when crossed with social-reality — the (R) prefix marking that real gradualism (the slow post-war absorption of black creativity) is what produced the European/Japanese receptivity. RT-ALGN (reality alignment) feeds in from the upper-left. SOC-RT-DY (social-reality dynamics) and SOC-RT sit at the upper-center. INT (interior) anchors the upper-right output. STF (source-transfer functionalism) hangs on the right margin. POL-SIGN (political significance) sits centrally between subject and partner. POL-P (political particulars) sits below the central axis. INFO-INTR (information interior) feeds in from below-left. MPT (multi-postulation transformation) anchors the lower-center. Structural argument: gradualism-as-real crossed with social-reality is mediated by political-significance as central hub and political-particulars as lower hub. The doubled SOC-RT-DY/SOC-RT pairing at the top register registers Braxton's structural distinction between social-reality-dynamics (the operative system) and social-reality (the lived condition) — both must be live as partner-cluster for the crossing to obtain. The diagram exposes that real gradualism — not styled gradualism — produces interior and source-transfer-functionalism as upper outputs and multi-postulation-transformation as lower output. The post-WW2 receptivity was 'real' because gradualism actually obtained at the political-significance hub; without that, the affinity-focus on black music would have remained spectacle.",
+  "terms": [
+    { "termId": "grad", "isSubject": true, "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "rt-algn" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "int" },
+    { "termId": "stf" },
+    { "termId": "pol-sign" },
+    { "termId": "pol-p" },
+    { "termId": "info-intr" },
+    { "termId": "mpt" }
+  ],
+  "relationships": [
+    { "from": "rt-algn", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "int", "type": "solid" },
+    { "from": "int", "to": "stf", "type": "solid" },
+    { "from": "grad", "to": "pol-sign", "type": "solid" },
+    { "from": "pol-sign", "to": "soc-rt", "type": "solid" },
+    { "from": "pol-sign", "to": "pol-p", "type": "solid" },
+    { "from": "info-intr", "to": "pol-sign", "type": "solid" },
+    { "from": "pol-p", "to": "mpt", "type": "solid" }
+  ]
+}

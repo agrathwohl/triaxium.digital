@@ -1,0 +1,36 @@
+{
+  "id": "v2-p332",
+  "volume": 2,
+  "section": "R(AS)CM(I)-16",
+  "page": 332,
+  "subject": "pri-info",
+  "title": "PRI.INFO.------COS.ASN.-----ACT.TR.",
+  "type": "triple-crossing",
+  "description": "Triple-crossing diagram closing R(AS)CM(I)-16, the section on television's failure to document creative music. The prose above names the structural stake: 'the failure of American television to responsibly present creative music will one day be seen as one of the great tragedies of this time period — for it must be understood that the neglect of artists like Charles Mingus is more than a simple oversight: what we could have learned from visual documentation of his work cannot be replaced.' The triple-crossing diagrams what principle-information is structurally meeting when television-documentation is at stake: (C)PRI-INFO (central principle information — the form's intellectually presented working content) crossed with COS-ASN (cosmic assignment — the form's cosmic/spiritual remit) crossed with ACT-TR ((D)INDIV-TD's actual transformation — the dynamic-individual transformation work the form does). PRI-INFO sits at upper-left with the subject-arrow; (R)PHY-U-C (the reality of physical-universe continuance) anchors the left margin and (R)INFO-DE (the reality of information-descent) sits centrally with a *dashed* edge from COS-ASN above — the load-bearing conditional. SOC-RT (social reality) hangs below INFO-DE and routes to T-C-IMP (temporal-continuity implication) at the lower center, which then connects via a second *dashed* edge down to DYM-F (dynamic form) at the bottom — the second conditional, the form actually appearing. COS-ASN sits at the top-center as the middle-axis bridging hub. ACT-TR is partner-axis at upper-right with (D)INDIV-TD (dynamic individual transformation-dynamics) above it, PROJ-DY (projection dynamics) below, and PER-TR (perceived transformation) on the right margin. Structural argument: the two dashed edges (COS-ASN → INFO-DE and T-C-IMP → DYM-F) are exactly the load-bearing conditionals television-documentation could supply and currently does not. Without visual documentation, cosmic-assignment reaches information-descent only conditionally, and temporal-continuity-implication reaches dynamic-form only conditionally. The route from PHY-U-C (subject's left margin) across to PER-TR (partner's right margin) via PRI-INFO → COS-ASN → ACT-TR is the *full* documentation route — and the three axes need the dashed conditionals to actually hold, or the perceived-transformation on the partner-right never receives the physical-universe-continuance the subject side carries. Mingus's neglect is structurally this: the dashed edges were never held.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "c" },
+    { "termId": "cos-asn" },
+    { "termId": "act-tr" },
+    { "termId": "indiv-td", "prefix": "d" },
+    { "termId": "phy-u-c", "prefix": "r" },
+    { "termId": "info-de", "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "proj-dy" },
+    { "termId": "per-tr" },
+    { "termId": "t-c-imp" },
+    { "termId": "dym-f" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "cos-asn", "type": "solid" },
+    { "from": "cos-asn", "to": "act-tr", "type": "solid" },
+    { "from": "pri-info", "to": "phy-u-c", "type": "solid" },
+    { "from": "pri-info", "to": "info-de", "type": "solid" },
+    { "from": "cos-asn", "to": "info-de", "type": "dashed" },
+    { "from": "info-de", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "dym-f", "type": "dashed" },
+    { "from": "indiv-td", "to": "act-tr", "type": "solid" },
+    { "from": "act-tr", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "per-tr", "type": "solid" }
+  ]
+}

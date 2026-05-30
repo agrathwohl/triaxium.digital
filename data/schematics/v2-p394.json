@@ -1,0 +1,36 @@
+{
+  "id": "v2-p394",
+  "volume": 2,
+  "section": "R(AS)CM(II)-38",
+  "page": 394,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.-----ALT.F.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(II)-38 — the section on the realness of alternative recording in the late-sixties as the beginning 'of a whole new period — and thrust continuum — for earth culture.' The prose immediately above frames the structural object: 'the realness of what this sector has contributed to the total community is very important. Their survival has meant the beginning of a whole new period.' The crossing diagrams what reality-alignment actually crosses with when alternative-form is the working partner: RT-ALGN (reality alignment — the alignment between the form and its actual world conditions) is crossed with ALT-F (alternative form — the alternative-functionalist form alternative recording carries). RT-ALGN sits on the left with the subject-arrow; SOC-RT-DY (social-reality dynamics) anchors the upper-left and ECO-DYM (economic dynamism) sits at top-center as the subject's upward output chain. MT-INTR (meta-introduction) sits centrally and MT-DEVF (meta-developmental functionalism) at the right of MT-INTR as the bridging hub. CRTF-PROG (creative-progression) anchors the bottom-center as the subject's downward terminus. ALT-F sits as partner-axis at top-center-right; BIA (bias) anchors the upper-right and C-INFO (central information) hangs on the right margin as partner-side upper outputs. POL-P (political particulars) sits centrally below and PHY-U-C (physical-universe continuance) on the lower-right as partner-side downward chain. Structural argument: the upper diagonal SOC-RT-DY → ECO-DYM → ALT-F → BIA → C-INFO is the *alternative-recording route* — social-reality dynamics routes into economic-dynamism (learning about business, the prose names) which converts into alternative-form, but BIA on the right-margin shows the receiving-cultural counter-pressure that converts alternative-form's central-information back into bias. The central MT-INTR → MT-DEVF diagonal is the load-bearing hub: meta-introduction routes through meta-developmental-functionalism into the partner-side's physical-universe-continuance, and that is the only edge by which alternative recording reaches actual reshape (the prose's claim that 'alternative recording would help establish many musicians whose activity might have taken many more years to surface through conventional channels'). RT-ALGN → CRTF-PROG at the bottom is what reality-alignment produces *with* the upper diagonal held — creative-progression on the subject side. Without MT-INTR holding the central diagonal, ALT-F's outputs absorb back into BIA / C-INFO and the partner-axis converts the form back into conventional channels.",
+  "terms": [
+    { "termId": "rt-algn", "isSubject": true },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "eco-dym" },
+    { "termId": "bia" },
+    { "termId": "c-info" },
+    { "termId": "mt-intr" },
+    { "termId": "mt-devf" },
+    { "termId": "pol-p" },
+    { "termId": "phy-u-c" },
+    { "termId": "crtf-prog" }
+  ],
+  "relationships": [
+    { "from": "rt-algn", "to": "alt-f", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "eco-dym", "type": "solid" },
+    { "from": "eco-dym", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "c-info", "type": "solid" },
+    { "from": "rt-algn", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "mt-devf", "type": "solid" },
+    { "from": "alt-f", "to": "pol-p", "type": "solid" },
+    { "from": "mt-devf", "to": "phy-u-c", "type": "solid" },
+    { "from": "rt-algn", "to": "crtf-prog", "type": "solid" }
+  ]
+}

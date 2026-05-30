@@ -1,0 +1,37 @@
+{
+  "id": "v2-p81-1",
+  "volume": 2,
+  "section": "AF(D)-9",
+  "page": 81,
+  "subject": "af-post",
+  "title": "AF.POST.------TR.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-9 (Affinity Dynamics, Level One), first of two on book p81, paired with v2-p81-2. Accompanies Braxton's claim that 'it is possible to view the dynamic spectrum of people in a single culture as representing and manifesting the realness of affinity dynamics through the same context as we now ascribe to race.' (C)AF-POST (the concept of affinity postulation) is crossed with TR (transformation): the question is what affinity-postulation produces when crossed with transformation — the postulation being the new affinity-spectrum reading that replaces race-as-given. TR sits at the upper-left of the partner cluster, with INFO-DY (information dynamics) and PART (participation) on the upper-right output. RE-ST (restructuralism) sits between TR and AF-DY. AF-DY (affinity dynamics) functions as the central hub between subject and partner. SOC-RT (social reality) anchors the right margin. BIA (bias) feeds into AF-DY from the lower-left. DYM-SPT (dynamics-spectacle) and A-PR (all-purpose) form the lower-left chain. INFO-DY appears a second time on the lower middle (Braxton's diagrams sometimes name a node twice when it functions at two levels). AF-N (affinity-negation) and ALT-F (alternative functionalism) cluster on the lower-right output. Structural argument: affinity-postulation crossed with transformation is mediated through affinity-dynamics as the central hub — exactly the chapter's organizing concept. The doubled INFO-DY exposes Braxton's diagnostic that information-dynamics functions at two registers in any real transformation: as upper output (what people will perceive after) and as lower upstream (what feeds the new postulation). The diagram is the case that race-thinking blocks transformation precisely by preventing the affinity-dynamics hub from operating across the full spectrum.",
+  "terms": [
+    { "termId": "af-post", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "info-dy" },
+    { "termId": "part" },
+    { "termId": "re-st" },
+    { "termId": "af-dy" },
+    { "termId": "soc-rt" },
+    { "termId": "bia" },
+    { "termId": "dym-spt" },
+    { "termId": "a-pr" },
+    { "termId": "af-n" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "part", "type": "solid" },
+    { "from": "tr", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "bia", "to": "af-dy", "type": "solid" },
+    { "from": "dym-spt", "to": "bia", "type": "solid" },
+    { "from": "a-pr", "to": "dym-spt", "type": "solid" },
+    { "from": "af-dy", "to": "af-n", "type": "solid" },
+    { "from": "af-n", "to": "alt-f", "type": "solid" }
+  ]
+}

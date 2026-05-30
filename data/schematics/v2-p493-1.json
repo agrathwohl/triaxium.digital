@@ -1,0 +1,37 @@
+{
+  "id": "v2-p493-1",
+  "volume": 2,
+  "section": "MP(II)-11",
+  "page": 493,
+  "subject": "vt-dy",
+  "title": "VT.DY.-----DIS.C.CT.",
+  "type": "crossing",
+  "description": "First of two diagrams in MP(II)-11. The crossing diagrams how vibrational-dynamics structurally meets disconnect — the structural mechanism Braxton names when transfer-cycle creativity gets disconnected from its source-region's actual vibrational ground. VT-DY (vibrational dynamics — what the form's actual vibrational working consists of) is crossed with DIS-C-CT (disconnect — the partner-side's mechanism for severing the form from its vibrational ground). VT-DY sits on the left with the subject-arrow; TR (transformation) rises above and EXP-DY (exposure dynamics) sits at upper-right, with T-C-IMP (temporal-continuity implication) below EXP-DY routing into INFO-COMP (information composite), AFN (affinity natural), and IF-SPT (isolated-focus spectacle) on the right margin as the partner-side's downward chain. POL-DY (political dynamics) sits at center-left as the subject's downward output, with POL-P (political particulars), PART (participation), and ECO-DYM (economic dynamism) clustered at the bottom-left as the subject's downward chain. Structural argument: when vibrational-dynamics is crossed with disconnect, the upper diagonal TR → EXP-DY → T-C-IMP → INFO-COMP → AFN → IF-SPT is the *disconnection-route* the State Department's transfer cycles produce — transformation routes through exposure-dynamics into temporal-continuity-implication, then through information-composite into affinity-natural, terminating in isolated-focus spectacle. The form's vibrational-dynamics gets converted into spectacle on the partner-side. POL-DY → POL-P → PART / ECO-DYM on the lower-left is what vibrational-dynamics produces on its own when the upper diagonal absorbs the form — political-dynamics routes into political-particulars and participation, but reduced to economic-dynamism as the lower terminus. The disconnect is structural: the upper chain's mechanisms hand the form's vibrational-dynamics off as spectacle without ever letting it reach the lower-left's actual political-participation.",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true },
+    { "termId": "dis-c-ct" },
+    { "termId": "tr" },
+    { "termId": "exp-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-comp" },
+    { "termId": "afn" },
+    { "termId": "if-spt" },
+    { "termId": "pol-dy" },
+    { "termId": "pol-p" },
+    { "termId": "part" },
+    { "termId": "eco-dym" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "dis-c-ct", "type": "solid" },
+    { "from": "vt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "if-spt", "type": "solid" },
+    { "from": "vt-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "part", "type": "solid" },
+    { "from": "pol-p", "to": "eco-dym", "type": "solid" }
+  ]
+}

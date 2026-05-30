@@ -1,0 +1,38 @@
+{
+  "id": "v2-p173",
+  "volume": 2,
+  "section": "SR(TRS)II-29",
+  "page": 173,
+  "subject": "per-vt-u-fund",
+  "title": "(R)PER.VT.U.FUND.------WO.EXT.PRIN.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-29 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim: 'the physical universe reality situation of a given people or culture dictates what aspect of their information is to be relevant or utilized — which is to say, it would be counter-productive to over-generalize this most important subject.' (R)PER-VT-U-FUND (the reality of perceived vibrational-universe fundamental) is crossed with WO-EXT-PRIN (world experiential principles): the question is what perceived-vibrational-universe-fundamental produces in its actual instantiation when crossed with world-experiential-principles — the (R) prefix marking real perception is at stake. PRI-AF-TD (principle affinity-tendency) and EXT-FT (extended functionalism) feed in from the upper-left. WO-EXT-PRIN itself is partner. POST (postulation) anchors the upper-right output. SPT-DYM (spectacle dynamics) hangs on the right. TR-DEF (transformation definition) sits below. V-SY (vibrational system) feeds into the subject from below. RIT-DYM (ritual dynamics) sits centrally between subject and partner. LANG-DY (language dynamics) anchors the lower-right margin. ROTP (rotational principle) and AFL (affinity alignment) form the lower-center upstream chain. Structural argument: perceived-vibrational-universe-fundamental-as-real crossed with world-experiential-principles is mediated by ritual-dynamics as central hub. The doubled upper upstreams (principle-affinity-tendency plus extended-functionalism) and doubled lower upstreams (vibrational-system from below, rotational-principle and affinity-alignment from bottom) sustain the crossing. The diagram exposes Braxton's structural commitment: real perception of the vibrational-universe-fundamental, crossed with world-experiential-principles, requires *ritual* (not theoretical) mediation — ritual being the embodied practice that translates the perceived fundamental into world-applicable principles.",
+  "terms": [
+    { "termId": "per-vt-u-fund", "isSubject": true, "prefix": "r" },
+    { "termId": "wo-ext-prin" },
+    { "termId": "pri-af-td" },
+    { "termId": "ext-ft" },
+    { "termId": "post" },
+    { "termId": "spt-dym" },
+    { "termId": "tr-def" },
+    { "termId": "v-sy" },
+    { "termId": "rit-dym" },
+    { "termId": "lang-dy" },
+    { "termId": "rotp" },
+    { "termId": "afl" }
+  ],
+  "relationships": [
+    { "from": "pri-af-td", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "ext-ft", "to": "wo-ext-prin", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "wo-ext-prin", "type": "solid" },
+    { "from": "wo-ext-prin", "to": "post", "type": "solid" },
+    { "from": "post", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "tr-def", "type": "solid" },
+    { "from": "v-sy", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "rit-dym", "type": "solid" },
+    { "from": "rit-dym", "to": "wo-ext-prin", "type": "solid" },
+    { "from": "tr-def", "to": "lang-dy", "type": "solid" },
+    { "from": "rotp", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "rit-dym", "type": "solid" }
+  ]
+}

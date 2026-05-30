@@ -1,0 +1,37 @@
+{
+  "id": "v2-p328",
+  "volume": 2,
+  "section": "R(AS)CM(I)-12",
+  "page": 328,
+  "subject": "alt-d",
+  "title": "ALT.D.------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(I)-12. The prose immediately above identifies the structural target: 'the phenomenon of \"time lag\" re-interpretation cannot be allowed to continue unchecked because we all suffer from \"incomplete information.\"' The crossing diagrams how alternative-definitions structurally meet social-reality at the re-interpretation interface: (C)ALT-D (central alternative definitions — the actual working definitions the form would carry if not suppressed) is crossed with SOC-RT (social reality — the receiving cultural reality that western information regulation has shaped). ALT-D sits on the left with the subject-arrow; AF-DY (affinity dynamics) rises above and routes through POL-DY (political dynamics) into PER-TRS (perceived transition) at the upper right, with TF-SH (transformation-shift) on the right margin as the partner's upper output. SOC-RT sits centrally as partner-axis; IDY-G-ACT (ideology guided activism) sits to the right of SOC-RT and INFO-DS (information dissemination) anchors the right margin as the partner's working output. A *dashed* edge runs from ALT-D down to T-C-IMP (temporal-continuity implication) at the lower-left — load-bearing conditional. PHY-U-P (physical-universe particulars) and PRI-INFO (principle information) sit centrally below as the bridging chain, with PROJ-CONT (projectional continuance) at the lower-right as the bridging terminus. Structural argument: the dashed edge ALT-D → T-C-IMP is the load-bearing conditional that the time-lag re-interpretation breaks — alternative-definitions reach temporal-continuity-implication only conditionally, only when the form's working position can actually claim its own time. PHY-U-P → PRI-INFO → PROJ-CONT routes the form's physical-universe particulars through principle-information into projectional-continuance, but only if the dashed edge holds. The upper diagonal AF-DY → POL-DY → PER-TRS → TF-SH shows what social-reality's reception does without ALT-D's downward conditional: affinity-dynamics gets converted to political-dynamics, perceived-transition produces transformation-shift on the partner side alone, and IDY-G-ACT → INFO-DS routes the ideology-guided activism into the information-dissemination apparatus the prose names. The 'incomplete information' the prose names is structurally this — the partner-side runs without the subject's T-C-IMP conditional.",
+  "terms": [
+    { "termId": "alt-d", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "af-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "per-trs" },
+    { "termId": "tf-sh" },
+    { "termId": "idy-g-act" },
+    { "termId": "info-ds" },
+    { "termId": "t-c-imp" },
+    { "termId": "phy-u-p" },
+    { "termId": "pri-info" },
+    { "termId": "proj-cont" }
+  ],
+  "relationships": [
+    { "from": "alt-d", "to": "soc-rt", "type": "solid" },
+    { "from": "alt-d", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "per-trs", "type": "solid" },
+    { "from": "per-trs", "to": "tf-sh", "type": "solid" },
+    { "from": "soc-rt", "to": "idy-g-act", "type": "solid" },
+    { "from": "idy-g-act", "to": "info-ds", "type": "solid" },
+    { "from": "alt-d", "to": "t-c-imp", "type": "dashed" },
+    { "from": "t-c-imp", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "proj-cont", "type": "solid" }
+  ]
+}

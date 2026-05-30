@@ -1,0 +1,37 @@
+{
+  "id": "v2-p430-2",
+  "volume": 2,
+  "section": "MP(I)-4",
+  "page": 430,
+  "subject": "stf",
+  "title": "STF.------POL.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 430, paired with (R)SG × TR above. Where the first diagram structurally shows how the sixties' source-generation terminated in political-dynamism rather than transformation, this one picks up exactly that POL-DY output as the partner-axis of a new crossing: (C)STF (central structural-formal phenomenon — the *form* of sixties activism as it actually constituted itself) crossed with POL-DY (political dynamics — the working political reality of that activism). STF sits centrally with the subject-arrow; CN-INFO (continuance-information) sits just above it as the form's information-hub, with ALT-D (alternative definitions) on the left feeding down to MT-INFO (meta-information) at the bottom-left, and AF-NT (affinity natural) on the right of CN-INFO. TRS hangs below STF as the subject's downward terminus. POL-DYM (political dynamism — the prior diagram's terminus) anchors the upper-left as partner-axis; INT (intention) rises at top-center and TM (the matrix term) sits centrally on the partner side, with ALT-F (alternative form) at the top-right and SOC-RT-P (social-reality-particular) on the right margin. Structural argument: when sixties structural-form is crossed with political-dynamics, the partner's upper chain (POL-DYM → INT → TM → ALT-F / SOC-RT-P) is the actual political route — intention routes through the matrix into alternative-form and social-reality-particular. But the subject's CN-INFO routes the form's own information through ALT-D into MT-INFO on the *subject's* bottom-left, never reaching the partner's TM. The diagonal that would let AF-NT cross to TM (the only edge that could make affinity-natural appear in the political-matrix) is exactly what sixties activism could not hold — and so the structural-form's TRS terminates as a subject-side output without crossing back to the partner's alternative-form. The prose's argument that the sixties' significance lies in what comes next — 'transitional functionalism of the second degree as this consideration will apply to extended multi-functionalism in the coming periods' — is structurally a claim about needing that AF-NT/TM diagonal to actually be held in the next cycle.",
+  "terms": [
+    { "termId": "stf", "isSubject": true, "prefix": "c" },
+    { "termId": "pol-dy" },
+    { "termId": "pol-dym" },
+    { "termId": "int" },
+    { "termId": "tm" },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt-p" },
+    { "termId": "cn-info" },
+    { "termId": "alt-d" },
+    { "termId": "af-nt" },
+    { "termId": "trs" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "pol-dy", "type": "solid" },
+    { "from": "stf", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "alt-d", "type": "solid" },
+    { "from": "cn-info", "to": "af-nt", "type": "solid" },
+    { "from": "alt-d", "to": "mt-info", "type": "solid" },
+    { "from": "stf", "to": "trs", "type": "solid" },
+    { "from": "pol-dym", "to": "int", "type": "solid" },
+    { "from": "int", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "alt-f", "type": "solid" },
+    { "from": "tm", "to": "soc-rt-p", "type": "solid" },
+    { "from": "af-nt", "to": "tm", "type": "solid" }
+  ]
+}

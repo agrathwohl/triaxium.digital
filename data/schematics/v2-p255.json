@@ -1,0 +1,33 @@
+{
+  "id": "v2-p255",
+  "volume": 2,
+  "section": "CMOA(II)-13",
+  "page": 255,
+  "subject": "op-spd",
+  "title": "OP.SPD.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-13 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) accompanying Braxton's claim about French creative musicians' dilemma: 'the social-reality realness of France does not move to necessarily give the native French musician — and/or collective — the same regard that is generally acknowledged in other areas of its greater cultural creativity.' (C)OP-SPD (the concept of option-spread) is crossed with SOC-RT-DY (social-reality dynamics): the question is what option-spread produces when crossed with social-reality-dynamics — under conditions where French social-reality-dynamics gives international musicians more regard than native ones. INT (interior) feeds in from the upper-left. RT-DY (reality dynamics) sits between subject and partner. C-CONT (composite continuance) anchors the upper-left margin. SOC-RT-DY itself is partner. PART (participation) and INDIV-DY-RT (individual-dynamics reality) form the upper-right cluster. ATT (attitude) feeds upward into the central axis. AF-NT (affinity-nature) sits centrally below. PRI-INFO (principle information) anchors the lower-center. Structural argument: option-spread-as-concept crossed with social-reality-dynamics is mediated by reality-dynamics as central hub and affinity-nature as lower hub. The diagram exposes Braxton's structural diagnostic of the French dilemma: option-spread is *real* for international musicians visiting Paris (the upper output cluster of participation and individual-dynamics-reality) but it requires the affinity-nature lower mediation — and that mediation, anchored in principle-information, is what local French musicians do not receive because the social-reality-dynamics tone privileges the imported over the indigenous. The crossing produces the right outputs only when attitude (the lower upstream) is held actively, which French institutional support fails to provide for its own musicians.",
+  "terms": [
+    { "termId": "op-spd", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "int" },
+    { "termId": "rt-dy" },
+    { "termId": "c-cont" },
+    { "termId": "part" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "att" },
+    { "termId": "af-nt" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "int", "to": "rt-dy", "type": "solid" },
+    { "from": "c-cont", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "att", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "pri-info", "type": "solid" }
+  ]
+}

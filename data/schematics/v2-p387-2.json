@@ -1,0 +1,34 @@
+{
+  "id": "v2-p387-2",
+  "volume": 2,
+  "section": "R(AS)CM(II)-31",
+  "page": 387,
+  "subject": "cult-af-bs",
+  "title": "CULT.AF.BS.------INFO.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 387, paired with C-CULT-AT × RT-DY above. Where the first diagram structurally shows why creative musicians of the post-Coleman juncture have no booking machinery, this one names the deeper reason as a crossing: CULT-AF-BS (cultural-affinity base — the receiving culture's affinity orientation toward the music) is crossed with INFO-DY (information dynamics — what touring/booking *as exposure* would do for the form). CULT-AF-BS is subject on the left with the subject-arrow; SPT-PLT (spectacle plateau) hangs at the lower-left as the receiving culture's preferred output, with V-SY (value system) and VT-PLT (vibrational plateau) clustered immediately below the subject as the form's own value-and-vibration outputs. MT-INFO (meta-information) rises up-right and TR-INFO (transformation-information) anchors the upper-right margin as the partner's upper outputs. INFO-DY sits as partner-center at the upper-right region; EXP-DY (exposure dynamics) hangs from MT-INFO on the right, and WO-EXP-PRI (world-exposure principle) and COS-AGN (cosmic agnostic) anchor the lower-right margin as the partner-side's downward chain. Structural argument: when cultural-affinity-base is crossed with information-dynamics, the established performing agencies do exactly what the partner-axis shows — they route the form's exposure through SPT-PLT (spectacle plateau) on the subject side, never letting CULT-AF-BS's actual affinity reach MT-INFO/TR-INFO on the partner. The diagonal that would carry V-SY back up across to INFO-DY — the edge that would let creative music's value-system actually appear in the touring-and-booking information stream — is what the established agents structurally refuse. WO-EXP-PRI on the bottom-right is what world-exposure could be if the diagonal held; in the existing arrangement it terminates in COS-AGN, an exposure-principle no one is agnostic about because no one knows the form exists at the scale the partner-axis would otherwise carry.",
+  "terms": [
+    { "termId": "cult-af-bs", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "spt-plt" },
+    { "termId": "v-sy" },
+    { "termId": "vt-plt" },
+    { "termId": "mt-info" },
+    { "termId": "tr-info" },
+    { "termId": "exp-dy" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "cos-agn" }
+  ],
+  "relationships": [
+    { "from": "cult-af-bs", "to": "info-dy", "type": "solid" },
+    { "from": "cult-af-bs", "to": "spt-plt", "type": "solid" },
+    { "from": "cult-af-bs", "to": "v-sy", "type": "solid" },
+    { "from": "v-sy", "to": "vt-plt", "type": "solid" },
+    { "from": "cult-af-bs", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "tr-info", "type": "solid" },
+    { "from": "mt-info", "to": "exp-dy", "type": "solid" },
+    { "from": "info-dy", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "info-dy", "to": "cos-agn", "type": "solid" },
+    { "from": "v-sy", "to": "info-dy", "type": "solid" }
+  ]
+}

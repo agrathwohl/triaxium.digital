@@ -1,0 +1,34 @@
+{
+  "id": "v2-p103",
+  "volume": 2,
+  "section": "AF(D)-31",
+  "page": 103,
+  "subject": "afi-dy",
+  "title": "(R)AFI.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-31 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the significance of a composite affinity alignment would have to do with an expanded basis for viewing information … the significance of a composite affinity alignment would move to realign every segment of western and world culture.' (R)AFI-DY (the reality of affinity-insight dynamics) is crossed with MT-INFO (multi-information): the question is what affinity-insight-dynamics produces in its actual instantiation when crossed with multi-information — the (R) prefix marking Braxton's commitment that affinity-insight-dynamics must actually obtain (not merely be wished for) to expand the information basis. PROG-CONT (progressional continuance) sits between subject and partner on the upper bridge. ALT-F (alternative functionalism) anchors the upper-right output. DIS-C-CT (dis-composite continuance traits) hangs on the right output. (R)TM (reality of time) sits centrally between subject and the lower mediating chain via a *dashed* edge to (R)ATTN (reality of attention) — the dashed line marking that the time-attention link is conditional. INFO-DE (information descent) feeds in from below. AFI-DY appears a second time on the lower-right (Braxton's typographic double-naming when a node functions at two registers). AFN (affinity) anchors the lower-center. (R)POST (the reality of postulation) hangs on the lower-right margin. Structural argument: the dashed time-attention edge is load-bearing: it exposes Braxton's structural diagnostic that the expanded information basis depends on a conditional link between reality-of-time and reality-of-attention. Without that link held (the prose says 'the significance of a composite affinity alignment would directly affect the vibrationaltory lining'), the affinity-insight-dynamics produces only dis-composite-continuance, not the alternative-functionalism that would realign world culture.",
+  "terms": [
+    { "termId": "afi-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "prog-cont" },
+    { "termId": "alt-f" },
+    { "termId": "dis-c-ct" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "attn", "prefix": "r" },
+    { "termId": "info-de" },
+    { "termId": "afn" },
+    { "termId": "post", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "afi-dy", "to": "mt-info", "type": "solid" },
+    { "from": "afi-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "alt-f", "type": "solid" },
+    { "from": "prog-cont", "to": "dis-c-ct", "type": "solid" },
+    { "from": "tm", "to": "attn", "type": "dashed" },
+    { "from": "info-de", "to": "tm", "type": "solid" },
+    { "from": "attn", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "afi-dy", "type": "solid" },
+    { "from": "afn", "to": "post", "type": "solid" }
+  ]
+}

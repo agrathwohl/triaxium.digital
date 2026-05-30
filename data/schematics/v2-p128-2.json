@@ -1,0 +1,37 @@
+{
+  "id": "v2-p128-2",
+  "volume": 2,
+  "section": "AE(PD)-16",
+  "page": 128,
+  "subject": "grad",
+  "title": "GRAD. ------ INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-16, second of three on book p128, paired with v2-p128-1 and v2-p128-3. Continues Braxton's diagnostic of expansion conditions: gradualism considered as a *concept* (the (c) prefix) against information-dynamics. (C)GRAD (the concept of gradualism) is crossed with INFO-DY (information dynamics): the question is what gradualism produces when crossed with information-dynamics — gradualism being the seventies' default mode of activism. CRTF-D (creative-dynamic) sits at the top with IST-F (interior-source functionalism) and CRT (critical) on the upper-center. CR-INFO-DY (creative-information dynamics) forms the upper-left chain. INFO-DY is the partner. INFO-TRNS (information transference) and IF-ST-DY (information-style dynamics) cluster on the right output. APP-RDEF (apparent redefinition) anchors the lower-right margin. INT (interior) feeds into the subject from below-left. DYM-SEP (dynamics separation) anchors the lower-left. INFO-AF-B (information-affinity basis) sits between subject and partner on the lower bridge. Structural argument: gradualism-as-concept crossed with information-dynamics produces information-transference and information-style-dynamics as outputs — but information-style-dynamics flows to apparent-redefinition (a Braxtonian alarm: gradualism's information-dynamics produces only *apparent* redefinition, not actual transformation). The upper chain through creative-information-dynamics, interior-source-functionalism, and critical-faculty exposes Braxton's structural alternative: when gradualism is held as concept and crossed against information-dynamics, real creative-dynamic outputs are theoretically available — but they require the critical-faculty hub, which the prose (about seventies activism's decline) implies has been lost.",
+  "terms": [
+    { "termId": "grad", "isSubject": true, "prefix": "c" },
+    { "termId": "info-dy" },
+    { "termId": "crtf-d" },
+    { "termId": "ist-f" },
+    { "termId": "crt" },
+    { "termId": "cr-info-dy" },
+    { "termId": "info-trns" },
+    { "termId": "if-st-dy" },
+    { "termId": "app-rdef" },
+    { "termId": "int" },
+    { "termId": "dym-sep" },
+    { "termId": "info-af-b" }
+  ],
+  "relationships": [
+    { "from": "crtf-d", "to": "cr-info-dy", "type": "solid" },
+    { "from": "ist-f", "to": "crt", "type": "solid" },
+    { "from": "cr-info-dy", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-trns", "type": "solid" },
+    { "from": "info-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "app-rdef", "type": "solid" },
+    { "from": "int", "to": "grad", "type": "solid" },
+    { "from": "dym-sep", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "info-dy", "type": "solid" }
+  ]
+}

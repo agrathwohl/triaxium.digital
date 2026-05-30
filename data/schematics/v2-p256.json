@@ -1,0 +1,33 @@
+{
+  "id": "v2-p256",
+  "volume": 2,
+  "section": "CMOA(II)-14",
+  "page": 256,
+  "subject": "tr-info",
+  "title": "(R)TR.INFO. -----ACC.DY.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-14 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) accompanying Braxton's pivot from French infrastructure to French historical contribution: 'France has long been involved in creative music throughout its history. It was in France that the activity of Django Reinhardt was to solidify.' (R)TR-INFO (the reality of transfer information) is crossed with ACC-DY (accelerated dynamics): the question is what transfer-information produces in its actual instantiation when crossed with accelerated-dynamics — the (R) prefix marking that real transfer (Reinhardt's actual musical lineage from gypsy tradition into modern jazz) is what produces accelerated-dynamics in the French scene. ACC-DY itself sits at the upper-center. IST-PT (interior-source point) feeds in from the upper-right. LK-IMP (linkage implication) anchors the right output. RT-INT-TR (reality-interior traits) hangs on the upper-right margin. PART (participation) sits between subject and partner. CULT-SOLD (culture solidification) and AF-DY (affinity dynamics) form the right output cluster. INFO-AF-B (information-affinity basis) anchors the lower-right. EXP-DYM (extended-dynamics) feeds in from below-left. Structural argument: transfer-information-as-real crossed with accelerated-dynamics is mediated by participation as central hub, with interior-source-point as upper upstream and extended-dynamics as lower upstream. The diagram exposes Braxton's structural commitment about why France produces durable creative musicians (Reinhardt, Grappelli): real transfer-information (the actual lineage of musical material from one tradition to another) crossing with accelerated-dynamics requires participation as the live hub — and France's culture, despite its institutional gaps for native musicians, does sustain that participation hub. The productive outputs (linkage-implication, reality-interior-traits, culture-solidification, affinity-dynamics, information-affinity-basis) all register the deep musical accomplishment that France enables.",
+  "terms": [
+    { "termId": "tr-info", "isSubject": true, "prefix": "r" },
+    { "termId": "acc-dy" },
+    { "termId": "ist-pt" },
+    { "termId": "lk-imp" },
+    { "termId": "rt-int-tr" },
+    { "termId": "part" },
+    { "termId": "cult-sold" },
+    { "termId": "af-dy" },
+    { "termId": "info-af-b" },
+    { "termId": "exp-dym" }
+  ],
+  "relationships": [
+    { "from": "tr-info", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "ist-pt", "type": "solid" },
+    { "from": "ist-pt", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "rt-int-tr", "type": "solid" },
+    { "from": "tr-info", "to": "part", "type": "solid" },
+    { "from": "part", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "exp-dym", "to": "tr-info", "type": "solid" }
+  ]
+}

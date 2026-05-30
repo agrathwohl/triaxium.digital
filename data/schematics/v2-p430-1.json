@@ -1,0 +1,32 @@
+{
+  "id": "v2-p430-1",
+  "volume": 2,
+  "section": "MP(I)-4",
+  "page": 430,
+  "subject": "sg",
+  "title": "(R)SG.------TR.",
+  "type": "crossing",
+  "description": "First of two diagrams in MP(I)-4 (Multi-Particulars, Level One — sixties activism). The prose facing the diagrams names the structural problem: it would 'not be correct to view the functionalism in this period as a successful revolution by any means. Instead, the real significance of this period might lie in what this junction means for black people as we enter the eighties — that being, the nature of how sixties functionalism has helped to set the stage for transitional functionalism of the second degree.' The crossing diagrams the route the sixties' source-generation actually traveled: (R)SG (reality of source-generation — what the radical political activism of the sixties actually generated) is crossed with TR (transformation — what that generation was supposed to become). SG sits on the left with the subject-arrow; T-C-IMP (temporal-continuity implication) sits centrally as the subject's hub, with MT-DEVF (meta-developmental functionalism), IF-SPT (isolated focus spectacle), and TRS (transformation, in its lowercase aspect-form) hanging below — the actual outputs source-generation produced in the sixties. TR rises at top-center as partner-axis; A-PR (applied projection) anchors the upper-right, with DIS-C-CT (disconnect) and POL-DYM (political dynamism) on the right as the partner's downward outputs. Structural argument: when sixties source-generation is crossed with transformation, the partner-side's downward chain (A-PR → DIS-C-CT → POL-DYM) is precisely the failure-route the prose names — applied-projection terminates in disconnect rather than reaching back to the subject-side's hub. The subject's T-C-IMP holds MT-DEVF/IF-SPT/TRS as temporal-continuity implications, but without the partner-side closing the loop, those implications stay implications. The transformation never reaches the subject's source-generation as actual continuance; the political-dynamism on the partner-right becomes the only output, and that is exactly the political-dynamism the next diagram on this page picks up.",
+  "terms": [
+    { "termId": "sg", "isSubject": true, "prefix": "r" },
+    { "termId": "tr" },
+    { "termId": "a-pr" },
+    { "termId": "t-c-imp" },
+    { "termId": "mt-devf" },
+    { "termId": "if-spt" },
+    { "termId": "trs" },
+    { "termId": "dis-c-ct" },
+    { "termId": "pol-dym" }
+  ],
+  "relationships": [
+    { "from": "sg", "to": "tr", "type": "solid" },
+    { "from": "sg", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "mt-devf", "type": "solid" },
+    { "from": "t-c-imp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "if-spt", "type": "solid" },
+    { "from": "tr", "to": "a-pr", "type": "solid" },
+    { "from": "a-pr", "to": "dis-c-ct", "type": "solid" },
+    { "from": "dis-c-ct", "to": "pol-dym", "type": "solid" },
+    { "from": "a-pr", "to": "t-c-imp", "type": "solid" }
+  ]
+}

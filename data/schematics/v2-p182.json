@@ -1,0 +1,32 @@
+{
+  "id": "v2-p182",
+  "volume": 2,
+  "section": "SR(TRS)II-38",
+  "page": 182,
+  "subject": "pol-con",
+  "title": "(R)POL.CON.------SPT.DYM.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-38 (Social Reality / Trans-Information, Level Two) accompanying Braxton's framing of culture-information focus: 'the collective forces which dictate how given information lines are interpreted to either the composite spectrum (people) of a given culture, or to the composite whole of its effective parameter (which in this case is planet Earth).' (C)POL-CON (the concept of political conformity) is crossed with SPT-DYM (spectacle dynamics): the question is what political-conformity produces when crossed with spectacle-dynamics — the (c) prefix marking that this is the structural design, not a particular policy. POL-P (political particulars) feeds into the subject from the upper-left. MT-INFO (multi-information) and SPT-DYM itself form the upper-right cluster. ALT-F (alternative functionalism) and LK-IMP (linkage implication) cluster on the right output. MOT-DY (motion dynamics) sits centrally. INFO-AF-B (information-affinity basis) anchors the lower-center. IF-ST-DY (information-style dynamics) hangs on the lower-right margin. Structural argument: political-conformity-as-concept crossed with spectacle-dynamics is mediated by motion-dynamics as central hub, with political-particulars as upstream and information-affinity-basis as the lower foundation. The diagram exposes Braxton's structural diagnostic: the spectacle-pull of western culture works through political-conformity precisely because motion-dynamics (the apparent activity of information) is the hub — what looks like political life is in fact motion-dynamics in the service of spectacle. Alternative-functionalism and linkage-implication remain as theoretical outputs, but they require the information-style-dynamics edge to actually manifest, and that edge is marginal to the operative configuration.",
+  "terms": [
+    { "termId": "pol-con", "isSubject": true, "prefix": "c" },
+    { "termId": "spt-dym" },
+    { "termId": "pol-p" },
+    { "termId": "mt-info" },
+    { "termId": "alt-f" },
+    { "termId": "lk-imp" },
+    { "termId": "mot-dy" },
+    { "termId": "info-af-b" },
+    { "termId": "if-st-dy" }
+  ],
+  "relationships": [
+    { "from": "pol-p", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "spt-dym", "type": "solid" },
+    { "from": "mt-info", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "lk-imp", "type": "solid" },
+    { "from": "pol-con", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "spt-dym", "type": "solid" },
+    { "from": "mot-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "mot-dy", "to": "if-st-dy", "type": "solid" }
+  ]
+}

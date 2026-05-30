@@ -1,0 +1,35 @@
+{
+  "id": "v2-p470",
+  "volume": 2,
+  "section": "MP(I)-44",
+  "page": 470,
+  "subject": "exp-dym",
+  "title": "EXP.DYM.------MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-44 — the section on western art music's reserved theatres and the structural absence of black creativity from the New York Times exposure-stream. The prose immediately above identifies the structural target: 'the information reality that sustains western art music — whether in America or Europe — is completely isolated from the greater public's view. Instead, the greater public's only involvement with this sector's existence is to see the notice of a given exposure (or performance) in the New York Times. How is it that \"Patricia Von Dupotstein\" (a name I made up) is given a performance in Alice Tully Hall — when I know NO ONE KNOWS WHO THE HELL SHE IS, let alone where she came from. My point is that all of these matters are political.' The crossing diagrams how exposure-dynamism structurally meets meta-information at the Alice-Tully scale: EXP-DYM (exposure dynamism — the form's actual exposure-working) crossed with MT-INFO (meta-information — the information *about* the form that institutional reception supplies). EXP-DYM sits at the right with the subject-arrow; AFI (affinity insight) sits centrally and EXT-FT (extended functionalism) immediately above EXP-DYM as the subject's upper hub. IF-ST-DY (isolated-focus stable-dynamics) anchors the upper-right and A-PR (applied projection) at top-center with TRS (transformation) above MT-INFO as the partner-side's upper chain. MT-INFO sits at upper-left as partner-axis; CULT-INFO-BS (cultural-information base) hangs at lower-left as the partner's downward output with INDIV-TD (individual transformation-dynamics) at the bottom-left as terminus. (R)INTR (the reality of introduction) sits centrally and PART (participation) at the bottom-center as the bridging chain. Structural argument: when exposure-dynamism is crossed with meta-information at the institutional-reception scale, the upper chain TRS → A-PR → IF-ST-DY → EXT-FT → EXP-DYM is the *Patricia Von Dupotstein route* — transformation routes through applied-projection into isolated-focus stable-dynamics, then through extended-functionalism into the subject's exposure-dynamism. This is exactly how the Alice Tully Hall mechanism works structurally: the institutional reception supplies the upper diagonal through all four edges, so meta-information's output of an unknown performer reaches exposure-dynamism without anyone needing to know who the performer is. MT-INFO → CULT-INFO-BS → INDIV-TD on the lower-left is the partner-side's downward chain — cultural-information-base routes meta-information into individual-transformation-dynamics, the partner-side's working. The (R)INTR → PART bridging-chain on the central-bottom is what would be required to let actual public-introduction reach participation — but in the western-art-music institutional reception the upper diagonal makes the bridging-chain structurally redundant. For black creativity, the upper diagonal does not get held by institutions, so (R)INTR → PART becomes the *only* route — which the public-view-isolation the prose names prevents.",
+  "terms": [
+    { "termId": "exp-dym", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "a-pr" },
+    { "termId": "trs" },
+    { "termId": "if-st-dy" },
+    { "termId": "afi" },
+    { "termId": "ext-ft" },
+    { "termId": "cult-info-bs" },
+    { "termId": "indiv-td" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "exp-dym", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "a-pr", "type": "solid" },
+    { "from": "a-pr", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "exp-dym", "type": "solid" },
+    { "from": "afi", "to": "exp-dym", "type": "solid" },
+    { "from": "mt-info", "to": "cult-info-bs", "type": "solid" },
+    { "from": "cult-info-bs", "to": "indiv-td", "type": "solid" },
+    { "from": "intr", "to": "part", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v2-p39",
+  "volume": 2,
+  "section": "SD(SY)-17",
+  "page": 39,
+  "subject": "phy-u-fund",
+  "title": "PHY.U.FUND.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-17 (Spectacle-Diversion Syndrome, Level One), opening Braxton's elaboration of 'the spectacle-diversion sequence of American progressionalism — involving what this phenomenon has posed for western affinity dynamics and expansion as well as creativity.' (C)PHY-U-FUND (physical universe fundamental) is crossed with C-CONT (composite continuance): the question is what the physical universe fundamental requires to produce composite continuance, when the culture's actual generative apparatus is spectacle-diversion. SPT-DYM (spectacle dynamics), S-PROJ (source projection), and PRI-INFO (principle information) feed the subject. The crossing routes through RT-INT-TR (reality initiative traits) as a central hub, with SCI-DYM (scientific dynamics) and ACT-T (actual terms) as parallel inputs. C-CONT outputs to MT-INFO (multi-information). RE-ST (restructuralism) is a peripheral output. Structural argument: the physical-universe fundamental's path to composite continuance is mediated through reality-initiative-traits — Braxton's structural claim that culture continues only when initiative traits are actually generated, not merely simulated through spectacle. The presence of spectacle-dynamics as an upstream feed of the subject (rather than as a parallel resistance) registers Braxton's diagnostic: the spectacle-diversion syndrome is already constitutive of how western culture perceives its physical-universe ground.",
+  "terms": [
+    { "termId": "phy-u-fund", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "spt-dym" },
+    { "termId": "s-proj" },
+    { "termId": "pri-info" },
+    { "termId": "rt-int-tr" },
+    { "termId": "sci-dym" },
+    { "termId": "act-t" },
+    { "termId": "mt-info" },
+    { "termId": "re-st" }
+  ],
+  "relationships": [
+    { "from": "spt-dym", "to": "phy-u-fund", "type": "solid" },
+    { "from": "s-proj", "to": "phy-u-fund", "type": "solid" },
+    { "from": "pri-info", "to": "phy-u-fund", "type": "solid" },
+    { "from": "phy-u-fund", "to": "rt-int-tr", "type": "solid" },
+    { "from": "sci-dym", "to": "rt-int-tr", "type": "solid" },
+    { "from": "act-t", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "rt-int-tr", "to": "re-st", "type": "solid" }
+  ]
+}

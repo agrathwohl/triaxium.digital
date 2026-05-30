@@ -1,0 +1,31 @@
+{
+  "id": "v2-p339",
+  "volume": 2,
+  "section": "R(AS)CM(I)-23",
+  "page": 339,
+  "subject": "pri-info",
+  "title": "(R)PRI.INFO.-----SG.------PROJ.DY.",
+  "type": "triple-crossing",
+  "description": "Triple-crossing diagram closing R(AS)CM(I)-23, the section on radio as the medium through which rock music attracted new listeners and through which 'this activity (rock music) has also contributed to the present curiosity about creative improvised music.' The prose immediately above identifies the structural mechanism the diagram makes explicit: 'once a person has a chance to be exposed to a given particular, within a given time frame, he or she is apt to find some aspect of its focus that can be positively experienced.' The triple-crossing diagrams that exposure-mechanism: (R)PRI-INFO (the reality of principle information — the form's working content as it travels through the medium) crossed with SG (source-generation — the form's generative source) crossed with PROJ-DY (projection dynamics — what radio's projection of the form actually does). PRI-INFO sits at upper-left with the subject-arrow; TH-CONT (thrust continuance) hangs below as the subject's downward output. SG sits centrally as the bridging hub; (P)CULT-INFO (the physical-universe cultural information) sits below SG as the central hub's downward output, and AFI (affinity insight) at the very bottom — written in parentheses '(afi)' — connected by a *dashed* edge as a load-bearing conditional. PROJ-DY is partner-axis at upper-center-right; SOC-RT (social reality) anchors the upper-right and TR (transformation) sits at the right, with C-CONT (composite continuance) below TR as the partner-side downward terminus. Structural argument: the dashed edge SG → AFI (in parens) is the load-bearing conditional the prose names — affinity-insight reaches the listener only conditionally, only when source-generation has actually crossed through the cultural-information hub into the listener's reception. PROJ-DY → SOC-RT → TR → C-CONT is the partner's full chain: radio's projection produces social-reality transformation that becomes composite-continuance — but only if the central SG hub holds the dashed edge open to AFI. Rock-music's contribution to creative-music curiosity (which the prose names) is exactly the partner-axis carrying SOC-RT through TR even when SG → AFI is held only weakly. For creative music itself to receive what rock has structurally received, the dashed edge has to be made solid — and that is the next-cycle radio-question the prose poses.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "r" },
+    { "termId": "sg" },
+    { "termId": "proj-dy" },
+    { "termId": "soc-rt" },
+    { "termId": "th-cont" },
+    { "termId": "cult-info", "prefix": "p" },
+    { "termId": "afi" },
+    { "termId": "tr" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "proj-dy", "type": "solid" },
+    { "from": "pri-info", "to": "th-cont", "type": "solid" },
+    { "from": "sg", "to": "cult-info", "type": "solid" },
+    { "from": "sg", "to": "afi", "type": "dashed" },
+    { "from": "proj-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "proj-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-cont", "type": "solid" }
+  ]
+}

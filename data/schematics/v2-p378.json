@@ -1,0 +1,33 @@
+{
+  "id": "v2-p378",
+  "volume": 2,
+  "section": "R(AS)CM(II)-22",
+  "page": 378,
+  "subject": "info-dy",
+  "title": "INFO.DY.------ATTN.",
+  "type": "crossing",
+  "description": "Diagram closing R(AS)CM(II)-22, the section on how television, articles, and university courses positively educate listeners about classical music — and the *absence* of equivalent positive-media-involvement for alternative creativity. The prose immediately above names what the crossing diagrams: 'Only with this type of positive media involvement can anyone expect to really increase awareness of alternative creativity.' The crossing diagrams what information-dynamics actually crosses with when attention is the working partner: INFO-DY (information dynamics — the form's own information output) is crossed with ATTN (attention — the receiving listener's actual focused awareness). INFO-DY sits at the upper-right with the subject-arrow; ACC-DY (accent dynamics) rises above-left and ACT (action) anchors the upper-left as the subject's upper output. VT-DY (vibrational dynamics) sits at the right with INDIV-TD (individual transformation-dynamics) below it, then COS-P (cosmic-particulars) and AFI (affinity insight) on the lower-right as the subject's downward chain. ATTN sits centrally as partner-axis; SPT-DY (spectacle dynamics) and C-INFO (central information) anchor the lower-left as partner-side downward outputs. Structural argument: the right-side chain VT-DY → INDIV-TD → COS-P → AFI is the *positive-media-involvement chain* the prose names — information-dynamics routes through vibrational-dynamics into individual transformation-dynamics, then into cosmic-particulars, and finally into affinity-insight. This is the chain western-classical-music receives because the upper diagonal ACC-DY → ACT routes accent-dynamics into action that holds the right-side chain open. The partner-axis ATTN → SPT-DY / C-INFO is what attention produces on its own when the upper diagonal is *not* held — spectacle-dynamics and central-information without the affinity-insight terminus. For alternative creativity, the upper diagonal does not get held; attention routes directly into spectacle-dynamics and central-information without traversing the right-side chain. The 'positive media involvement' the prose names is structurally the ACC-DY → ACT diagonal: it must run, or the partner-side absorbs attention into spectacle without ever reaching cosmic-particulars or affinity-insight.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "attn" },
+    { "termId": "acc-dy" },
+    { "termId": "act" },
+    { "termId": "vt-dy" },
+    { "termId": "indiv-td" },
+    { "termId": "cos-p" },
+    { "termId": "afi" },
+    { "termId": "spt-dy" },
+    { "termId": "c-info" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "attn", "type": "solid" },
+    { "from": "info-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "afi", "type": "solid" },
+    { "from": "info-dy", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "act", "type": "solid" },
+    { "from": "attn", "to": "spt-dy", "type": "solid" },
+    { "from": "attn", "to": "c-info", "type": "solid" }
+  ]
+}

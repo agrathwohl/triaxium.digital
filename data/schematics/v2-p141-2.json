@@ -1,0 +1,36 @@
+{
+  "id": "v2-p141-2",
+  "volume": 2,
+  "section": "AE(PD)-29",
+  "page": 141,
+  "subject": "info-ds",
+  "title": "INFO.DS.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-29 (Aspect Essence / Perception Dynamics, Level One), second of two on book p141, paired with v2-p141-1. Continues the unification argument by holding the same partner (social-reality-dynamics) against a new subject. (C)INFO-DS (the concept of information descent) is crossed with SOC-RT-DY (social-reality dynamics): the question is what information-descent produces when crossed with social-reality-dynamics — descent here being the directional vector of information from principle to particular to apparent. (R)INFO-DS appears as a doubled version of the subject node, indicating a structural commitment to both the *concept* of descent and the *reality* of descent simultaneously. POL-DY (political dynamics) anchors the upper-right output. LK-IMP (linkage implication) sits between subject and the right output. INFO-INTR (information interior) and UNF-PI (unified principle information) feed in from the upper-center. SOC-RT-DY itself sits centrally. LANG-DY (language dynamics) and ACC-DY (accelerated dynamics) cluster on the lower-right output. TRS (transference) and POL-P (political particulars) anchor the lower-right margin. ALT-D (alternative dynamics) hangs on the lower-left. Structural argument: information-descent crossed with social-reality-dynamics produces political-dynamics and linkage-implication as upper outputs and language-dynamics, accelerated-dynamics, transference, and political-particulars as a quadrupled lower output cluster. The unusual doubled-subject (both (c)info-ds and (r)info-ds) registers Braxton's structural commitment that for unification, descent must be reckoned at both registers — its concept-form (the structural design) and its reality-form (its actual operation). The two diagrams on this page together make the case that unification operates on culture-information-basis (v2-p141-1) and information-descent (v2-p141-2) simultaneously, with social-reality-dynamics as common crossing-partner.",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "info-ds", "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "info-intr" },
+    { "termId": "unf-pi" },
+    { "termId": "lang-dy" },
+    { "termId": "acc-dy" },
+    { "termId": "trs" },
+    { "termId": "pol-p" },
+    { "termId": "alt-d" }
+  ],
+  "relationships": [
+    { "from": "info-ds", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "info-ds", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "info-intr", "to": "info-ds", "type": "solid" },
+    { "from": "unf-pi", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "pol-p", "type": "solid" },
+    { "from": "alt-d", "to": "soc-rt-dy", "type": "solid" }
+  ]
+}

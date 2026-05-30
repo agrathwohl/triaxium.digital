@@ -1,0 +1,36 @@
+{
+  "id": "v2-p175",
+  "volume": 2,
+  "section": "SR(TRS)II-31",
+  "page": 175,
+  "subject": "re-st",
+  "title": "(R)RE.ST. ------ POL.DY.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-31 (Social Reality / Trans-Information, Level Two) accompanying Braxton's diagnostic on transformation: 'the route to transformation — positive transformation — will be as progressional as the developments which have produced this cycle, having to do with the gradual acquisition of information and composite functionalism as a means to move towards reinstatement.' (R)RE-ST (the reality of restructuralism) is crossed with POL-DY (political dynamics): the question is what restructuralism produces in its actual instantiation when crossed with political-dynamics — the (R) prefix marking that real restructuralism (not gradual restyling) is what produces real transformation. POL-DY sits at the upper-center. T-C-IMP (temporal-continuity implication) anchors the upper-right output. EXTN (extension) sits between subject and partner. DYM-SPT (dynamics-spectacle) and IST-P (interior-source principle) form the middle cluster. RIT-DY (ritual dynamics) feeds in from the lower-left. METH (methodology) sits centrally below. IF-ST-DY (information-style dynamics) anchors the lower-right output. EXT-FT (extended functionalism) hangs on the right margin. POST (postulation) anchors the bottom-center. Structural argument: restructuralism-as-real crossed with political-dynamics is mediated by extension as central hub, with ritual-dynamics and methodology as lower upstreams. The diagram exposes Braxton's structural diagnostic for real transformation: the route from restructuralism through political-dynamics produces temporal-continuity-implication only when methodology and ritual-dynamics function as live upstreams. The dynamics-spectacle and interior-source-principle pairing as middle cluster registers Braxton's structural tension — interior-source-principle is what allows real restructuralism to resist the spectacle-pull that political-dynamics tends to introduce.",
+  "terms": [
+    { "termId": "re-st", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "extn" },
+    { "termId": "dym-spt" },
+    { "termId": "ist-p" },
+    { "termId": "rit-dy" },
+    { "termId": "meth" },
+    { "termId": "if-st-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "post" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "re-st", "to": "extn", "type": "solid" },
+    { "from": "extn", "to": "pol-dy", "type": "solid" },
+    { "from": "dym-spt", "to": "extn", "type": "solid" },
+    { "from": "extn", "to": "ist-p", "type": "solid" },
+    { "from": "rit-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "meth", "type": "solid" },
+    { "from": "meth", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "meth", "to": "post", "type": "solid" }
+  ]
+}

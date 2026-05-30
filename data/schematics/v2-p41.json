@@ -1,0 +1,38 @@
+{
+  "id": "v2-p41",
+  "volume": 2,
+  "section": "SD(SY)-19",
+  "page": 41,
+  "subject": "pri-vt-td",
+  "title": "PRI.VT.TD.------AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-19 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the diversion sequence in America can be talked of as patterns that occur within a given time cycle which invariably determine how a given group of people see themselves — both conceptually and vibrationally.' (C)PRI-VT-TD (primary vibrational tendencies) is crossed with AF-DY (affinity dynamics): the question is what primary-vibrational-tendencies produces when crossed with affinity-dynamics, given that the diversion sequence is described as 'extremely sophisticated manipulation' rather than 'natural progressionalism.' PROG-CONT (progressional continuance) and AFL (affinity alignment) feed downward into the right cluster around PHY-U-P (physical universe particulars) and POST (postulation). WO-EXP-PRI (world experiential principles) feeds in from the left. TRS (transference) and POL-DY (political dynamics) form the lower-left upstream. MT-INFO (multi-information) and INFO-DY (information dynamics) attach to the central crossing line. AFI (affinity insight) and (R)INTR (reality interior) hang on the right margin. Structural argument: primary-vibrational-tendencies become productive of affinity-dynamics only through a doubled mediation — world-experiential-principles on one side and progressional-continuance with affinity-alignment on the other. The diagram exposes that no single upstream sustains the crossing; the diversion sequence works precisely because it disguises itself as natural progressionalism, and the schematic insists that real affinity-dynamics requires both pre-given vibrational tendencies and live world-experiential input.",
+  "terms": [
+    { "termId": "pri-vt-td", "isSubject": true, "prefix": "c" },
+    { "termId": "af-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "afl" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "phy-u-p" },
+    { "termId": "post" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "info-dy" },
+    { "termId": "afi" },
+    { "termId": "trs" },
+    { "termId": "pol-dy" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "pri-vt-td", "type": "solid" },
+    { "from": "prog-cont", "to": "af-dy", "type": "solid" },
+    { "from": "afl", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "af-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "intr", "type": "solid" },
+    { "from": "pri-vt-td", "to": "mt-info", "type": "solid" },
+    { "from": "pri-vt-td", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "afi", "type": "solid" },
+    { "from": "trs", "to": "pri-vt-td", "type": "solid" },
+    { "from": "pol-dy", "to": "pri-vt-td", "type": "solid" }
+  ]
+}

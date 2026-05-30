@@ -1,0 +1,29 @@
+{
+  "id": "v2-p150",
+  "volume": 2,
+  "section": "SR(TRS)II-6",
+  "page": 150,
+  "subject": "op-spd",
+  "title": "(R)OP.SPD.------VT.PLT.",
+  "type": "crossing",
+  "description": "Diagram in SR(TRS)II-6 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim that 'the next cycle in western culture promises to be very … interesting' — interesting because the late-seventies sentiment (that injustices have been corrected) sets up a particular vibrational position for what follows. (R)OP-SPD (the reality of option-spread) is crossed with VT-PLT (vibrational platform): the question is what option-spread produces in its actual instantiation when crossed with vibrational-platform — the (R) prefix marking Braxton's commitment that option-spread is what actually obtains for late-seventies America. ALT-ACT (alternative activism) feeds in from the upper-left. DYM-SPT (dynamics-spectacle) sits centrally between subject and partner. VT-PLT is the partner. AFI (affinity insight) anchors the upper-right output. RT-DY (reality dynamics) sits below the crossing. EXT-DYM (extended dynamics) anchors the lower-center. WO-EXP-PRI (world experiential principles) hangs on the lower-right margin. Structural argument: option-spread-as-real crossed with vibrational-platform is mediated by dynamics-spectacle as central hub — exposing Braxton's structural diagnostic that the late-seventies' option-spread is *spectacle-mediated*, not vibrational-platform-mediated. The schematic is the case for why the 'interesting' next cycle will replicate spectacle: alternative-activism remains as upper upstream feeding into the dynamics-spectacle hub, and the productive output (affinity-insight) is downstream of spectacle. World-experiential-principles as the lower-right margin is what would normally provide the *real* upstream — its marginal position registers its absence from the operative configuration.",
+  "terms": [
+    { "termId": "op-spd", "isSubject": true, "prefix": "r" },
+    { "termId": "vt-plt" },
+    { "termId": "alt-act" },
+    { "termId": "dym-spt" },
+    { "termId": "afi" },
+    { "termId": "rt-dy" },
+    { "termId": "ext-dym" },
+    { "termId": "wo-exp-pri" }
+  ],
+  "relationships": [
+    { "from": "alt-act", "to": "dym-spt", "type": "solid" },
+    { "from": "op-spd", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "afi", "type": "solid" },
+    { "from": "op-spd", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "ext-dym", "type": "solid" },
+    { "from": "rt-dy", "to": "wo-exp-pri", "type": "solid" }
+  ]
+}

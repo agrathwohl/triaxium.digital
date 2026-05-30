@@ -273,16 +273,16 @@ export default function HomeClient({ schematics }: HomeClientProps) {
                 />
               </div>
 
-              <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="bg-bx-surface border border-bx-trace p-3">
-                  <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest">DESCRIPTION</h3>
-                  <p className="text-xs text-bx-gray-400 leading-relaxed">
+              <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] min-h-0">
+                <div className="bg-bx-surface border border-bx-trace p-3 flex flex-col min-h-0 overflow-hidden">
+                  <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest flex-shrink-0">DESCRIPTION</h3>
+                  <p className="text-xs text-bx-gray-400 leading-relaxed overflow-y-auto min-h-0">
                     {selectedSchematic.description || 'No description.'}
                   </p>
                 </div>
-                <div className="bg-bx-surface border border-bx-trace p-3">
-                  <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest">TERMS</h3>
-                  <div className="flex flex-wrap gap-1">
+                <div className="bg-bx-surface border border-bx-trace p-3 flex flex-col min-h-0 overflow-hidden">
+                  <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest flex-shrink-0">TERMS</h3>
+                  <div className="flex flex-wrap gap-1 overflow-y-auto min-h-0">
                     {selectedSchematic.terms.map((term) => (
                       <span
                         key={term.termId}

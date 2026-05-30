@@ -1,0 +1,38 @@
+{
+  "id": "v2-p219-2",
+  "volume": 2,
+  "section": "CMOA(I)-13",
+  "page": 219,
+  "subject": "pri-af-td",
+  "title": "PRI.AF.TD. ------ TR.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One — Britain/Germany/Holland), second of two on book p219, paired with v2-p219-1. Continues the European creativity argument by holding affinity-tendency at the principle level against transformation. (C)PRI-AF-TD (the concept of principle affinity-tendency) is crossed with TR (transformation): the question is what principle-affinity-tendency produces when crossed with transformation — the (c) prefix marking that principle-affinity-tendency is being held conceptually (the structural design), and the transformation question is whether European creativity constitutes a transformative move. AF-DY (affinity dynamics) and AFI (affinity insight) form the upper-left cluster. COS-D (cosmic dictates) anchors the upper-left margin. TR is the partner at the upper-right. ALT-D (alternative dynamics), (R)TM (reality of time), and ACT (activism) form the central cluster. (R)INT (reality of interior) sits between TR and the lower outputs. SOC-RT-DY (social-reality dynamics) hangs on the right output. IST-F (interior-source functionalism) anchors the right margin. APP-RDEF (apparent redefinition) sits below the central axis. FUND-DY (fundamental dynamics) anchors the lower-right. Structural argument: principle-affinity-tendency-as-concept crossed with transformation is mediated by a triple-mediation: alternative-dynamics, reality-of-time, and activism all sit at the central register between subject and partner. The (r) prefix on INT registers that interior must actually obtain for the output cluster (social-reality-dynamics, interior-source-functionalism, fundamental-dynamics) to register transformation. The diagram exposes Braxton's structural diagnostic of what European creativity must achieve: not just multi-information transference (v2-p219-1), but the *transformational* crossing that requires principle-affinity-tendency, alternative-dynamics, time-as-real, and activism to all be live. Apparent-redefinition as marginal output is the warning: without those upstreams, the crossing produces only the appearance of redefinition.",
+  "terms": [
+    { "termId": "pri-af-td", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "af-dy" },
+    { "termId": "afi" },
+    { "termId": "cos-d" },
+    { "termId": "alt-d" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "act" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "ist-f" },
+    { "termId": "app-rdef" },
+    { "termId": "fund-dy" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "pri-af-td", "type": "solid" },
+    { "from": "afi", "to": "cos-d", "type": "solid" },
+    { "from": "pri-af-td", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "intr", "type": "solid" },
+    { "from": "alt-d", "to": "pri-af-td", "type": "solid" },
+    { "from": "tm", "to": "tr", "type": "solid" },
+    { "from": "act", "to": "tr", "type": "solid" },
+    { "from": "intr", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "ist-f", "type": "solid" },
+    { "from": "pri-af-td", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "fund-dy", "type": "solid" }
+  ]
+}

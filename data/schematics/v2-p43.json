@@ -1,0 +1,35 @@
+{
+  "id": "v2-p43",
+  "volume": 2,
+  "section": "SD(SY)-21",
+  "page": 43,
+  "subject": "cr-info-dy",
+  "title": "(R)CR.INFO.DY.------INFO.DE.",
+  "type": "crossing",
+  "description": "Diagram in SD(SY)-21 (Spectacle-Diversion Syndrome, Level One) closing Braxton's beatnik-period analysis: 'the beatnik period really only solidified the nature of post-existential source-transfer continuance as an attitude rather than a reality (or as a style rather than life purpose) … this phenomenon would thus define the surface dynamics necessary to establish cross-transfer information progressionalism.' (R)CR-INFO-DY (the reality of creative information dynamics) is crossed with INFO-DE (information descent): the question is what creative-information-dynamics produces in its real instantiation when crossed with information-descent — the descent-vector being the beatnik movement's role as fuel for the next cycle of co-opted style. VT-DY (vibrational dynamics) and PROJ-DY (projectional dynamics) form the upper bridge between subject and partner. STF (source-transfer functionalism) emerges from PROJ-DY and feeds POL-DY (political dynamics) on the right margin. SOC-RT-INT (social reality interior) attaches to POL-DY. INFO-DY (information dynamics) and AFL (affinity alignment) hang below the crossing line. (R)OBS (the reality of observation) feeds upward into (R)CR-INFO-DY from the lower-left. (R)ST (the reality of structure) anchors the lower-center. Structural argument: when creative-information-dynamics is taken as actually obtaining (the (R) prefix), it is constituted by observation and structure as twin lower upstreams, but its productive output collapses into information-descent — the descent being routed through projectional and source-transfer dynamics into political dynamics. The diagram is Braxton's structural diagnostic of how a real creative impulse (the beatniks' initial energy) gets converted by spectacle-diversion into political-dynamic fuel.",
+  "terms": [
+    { "termId": "cr-info-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "info-de" },
+    { "termId": "vt-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "stf" },
+    { "termId": "pol-dy" },
+    { "termId": "soc-rt-int" },
+    { "termId": "afl" },
+    { "termId": "info-dy" },
+    { "termId": "obs", "prefix": "r" },
+    { "termId": "st", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "cr-info-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "info-de", "type": "solid" },
+    { "from": "proj-dy", "to": "info-de", "type": "solid" },
+    { "from": "proj-dy", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "soc-rt-int", "type": "solid" },
+    { "from": "info-dy", "to": "cr-info-dy", "type": "solid" },
+    { "from": "afl", "to": "info-dy", "type": "solid" },
+    { "from": "obs", "to": "cr-info-dy", "type": "solid" },
+    { "from": "st", "to": "info-dy", "type": "solid" }
+  ]
+}

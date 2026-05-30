@@ -1,0 +1,37 @@
+{
+  "id": "v2-p247-2",
+  "volume": 2,
+  "section": "CMOA(II)-5",
+  "page": 247,
+  "subject": "c-info",
+  "title": "(R)C.INFO.------TH.CONT.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(II)-5, second of two on book p247, paired with v2-p247-1. Continues the touring-impact argument by holding composite-information at its real register against theoretical-continuance. (R)C-INFO (the reality of composite information) is crossed with TH-CONT (theoretical continuance): the question is what composite-information produces in its actual instantiation when crossed with theoretical-continuance — the (R) prefix marking that real composite-information (the lived music) is what the European audience encountered, distinct from theoretical or marketed accounts. T-C-IMP (temporal-continuity implication) and MT-INFO (multi-information) form the upper-center cluster. INFO-DS (information descent) anchors the upper-right output. POL-CON (political conformity) sits between subject and partner. AFTD (affinity-tendency) hangs on the central axis. EXT-DY (extended dynamics) feeds in from below-left. TR (transformation) sits centrally between lower nodes. VT-DY (vibrational dynamics) and (P)ATTN (point-of-activation attention) form the lower-center cluster. (R)INT (reality of interior) anchors the lower-right via a *dashed* edge — conditional. Structural argument: composite-information-as-real crossed with theoretical-continuance is mediated by political-conformity as central hub (the partner-side stabilizer) and transformation as lower hub. The (p) prefix on attention is load-bearing — European audience attention was triggered (point-of-activation) by the live music, not sustained across the cultural infrastructure. The dashed edge to interior-as-real registers that the link to actual interior conviction was conditional: real composite-information produced real outputs (information-descent, transformation) only when the conditional interior-as-real edge was held by individual listeners.",
+  "terms": [
+    { "termId": "c-info", "isSubject": true, "prefix": "r" },
+    { "termId": "th-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "mt-info" },
+    { "termId": "info-ds" },
+    { "termId": "pol-con" },
+    { "termId": "aftd" },
+    { "termId": "ext-dy" },
+    { "termId": "tr" },
+    { "termId": "vt-dy" },
+    { "termId": "attn", "prefix": "p" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "c-info", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "th-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-ds", "type": "solid" },
+    { "from": "c-info", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "aftd", "type": "solid" },
+    { "from": "ext-dy", "to": "c-info", "type": "solid" },
+    { "from": "aftd", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "vt-dy", "type": "solid" },
+    { "from": "tr", "to": "attn", "type": "solid" },
+    { "from": "info-ds", "to": "intr", "type": "dashed" }
+  ]
+}

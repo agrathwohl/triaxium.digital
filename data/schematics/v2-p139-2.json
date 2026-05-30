@@ -1,0 +1,41 @@
+{
+  "id": "v2-p139-2",
+  "volume": 2,
+  "section": "AE(PD)-27",
+  "page": 139,
+  "subject": "c-fo-act",
+  "title": "C.FO.ACT.------TR.",
+  "type": "crossing",
+  "description": "Diagram in AE(PD)-27, second of two on book p139, paired with v2-p139-1. (C)C-FO-ACT (composite focused activism) is crossed with TR (transformation): the question is what composite focused activism produces when crossed with transformation, in the same context where the spectacle-diversion is operative as the progressional platform. HI-P (high purpose), C-HM (composite humanity), and MT-INFO (multi-information) feed the upper part of the diagram. C-ACT (composite activism), WO-UNF (world unification), and OBS (observation) are mid-level constituting nodes. ECO-DY (economic dynamics) and EXP-DY (expansion dynamics) feed the lower diagram. AF-POST (affinity postulation), AFI (affinity insight), IF-SPT (infra-spirituality), FUND-DY (fundamental dynamics), and APL-DT (application dictates) constitute the lower production layer. Structural argument: composite focused activism's path to transformation requires high-purpose and composite-humanity as foundational upstream commitments, with composite activism and world-unification as parallel intermediary structures. The diagram makes explicit Braxton's structural claim that activism transforms only when grounded simultaneously in cosmic purpose (high-purpose), humanistic commitment (composite-humanity), and infra-spiritual conviction (IF-SPT). Without all three, the activism remains at the spectacle layer.",
+  "terms": [
+    { "termId": "c-fo-act", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "hi-p" },
+    { "termId": "c-hm" },
+    { "termId": "mt-info" },
+    { "termId": "c-act" },
+    { "termId": "wo-unf" },
+    { "termId": "obs" },
+    { "termId": "eco-dym" },
+    { "termId": "exp-dym" },
+    { "termId": "af-post" },
+    { "termId": "afi" },
+    { "termId": "if-spt" },
+    { "termId": "fund-dyn" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "hi-p", "to": "c-fo-act", "type": "solid" },
+    { "from": "c-hm", "to": "c-fo-act", "type": "solid" },
+    { "from": "mt-info", "to": "obs", "type": "solid" },
+    { "from": "c-fo-act", "to": "c-act", "type": "solid" },
+    { "from": "c-act", "to": "wo-unf", "type": "solid" },
+    { "from": "wo-unf", "to": "tr", "type": "solid" },
+    { "from": "eco-dym", "to": "af-post", "type": "solid" },
+    { "from": "exp-dym", "to": "afi", "type": "solid" },
+    { "from": "af-post", "to": "afi", "type": "solid" },
+    { "from": "if-spt", "to": "fund-dyn", "type": "solid" },
+    { "from": "fund-dyn", "to": "tr", "type": "solid" },
+    { "from": "fund-dyn", "to": "apl-dt", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v2-p209",
+  "volume": 2,
+  "section": "CMOA(I)-3",
+  "page": 209,
+  "subject": "doc",
+  "title": "DOC.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(I)-3 (Creative Music Outside of America — Britain, Germany, Holland — Level One), on the page where Braxton argues that 'Europe has always viewed the composite continuity of black creativity as a signal related to the progressional greater dynamics of black culture and world change' — Europe remembering Africa and the transformation that put her in power, in contrast to America's amnesia. (C)DOC (the concept of documentation) is crossed with PROG-CONT (progressional continuance): the question is what documentation produces when crossed with progressional-continuance in the European reception of black creativity. IST-F-ACT (isolated focus activism) and P-FC (particular focus) feed the subject from below-left. POL-DY (political dynamics) and (R)OBS (the reality of observation) are upper-right outputs. T-C-IMP (time continuum implications) is a central convergence. LK-IMP (linkage implications), INFO-COMP (information compression), (R)INT (the reality of intention), and INDIV-DY (individual dynamics) constitute the right output cluster. (DT)OP-SPD (option spread, with the (dt) prefix marking it as 'determines the ___ of its ___' — Braxton's prefix for terms functioning as determining relations rather than ordinary nodes) is the structural endpoint. Structural argument: the diagrammatic use of (dt)op-spd as endpoint registers Braxton's claim that European documentation of black creativity, when crossed with progressional-continuance, *determines* the option-spread available to subsequent reception — a determining-relation, not a passive output.",
+  "terms": [
+    { "termId": "doc", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "ist-f-at" },
+    { "termId": "p-fc" },
+    { "termId": "pol-dym" },
+    { "termId": "obs", "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "lk-imp" },
+    { "termId": "info-comp" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "indiv-dy" },
+    { "termId": "op-spd", "prefix": "dt" }
+  ],
+  "relationships": [
+    { "from": "ist-f-at", "to": "doc", "type": "solid" },
+    { "from": "p-fc", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dym", "type": "solid" },
+    { "from": "prog-cont", "to": "obs", "type": "solid" },
+    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" },
+    { "from": "t-c-imp", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "int", "type": "solid" },
+    { "from": "indiv-dy", "to": "op-spd", "type": "solid" }
+  ]
+}

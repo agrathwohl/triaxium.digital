@@ -1,0 +1,34 @@
+{
+  "id": "v2-p77",
+  "volume": 2,
+  "section": "AF(D)-5",
+  "page": 77,
+  "subject": "info-algn",
+  "title": "INFO.ALGN.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in AF(D)-5 (Affinity Dynamics, Level One) accompanying Braxton's structural claim about source-initiation: 'all of the principle areas of information (knowledge) that we are now dealing with in this time zone can be researched back into the progressional rise and fall of various cultures in the world community — and as such, the surface differences of a given route of information only tell of the progressional path that information has traveled.' (C)INFO-ALGN (the concept of information alignment) is crossed with PROG-CONT (progressional continuance): the question is what information-alignment produces when crossed with progressional-continuance — the alignment-question being the same as the source-initiation question. STF (source-transfer functionalism) and VT-DY (vibrational dynamics) feed into the upper-center. ALT-F (alternative functionalism) and TR-DEF (transformation definition) cluster on the upper-right output. IST-F (interior-source functionalism) feeds into the subject from the left. DEC (decision) sits between the subject's lower margin and prog-cont. P-PROG (positive progression) anchors the lower-left. LANG-DY (language dynamics) hangs on the lower-right margin. Structural argument: information-alignment crossed with progressional-continuance is mediated by a doubled upstream — source-transfer-functionalism plus vibrational-dynamics above, decision plus interior-source-functionalism below. The diagram exposes Braxton's structural commitment: real progressional-continuance produces alternative-functionalism and transformation-definition as outputs, with language-dynamics as a marginal output. The schematic is the structural case for why source-initiation tracing matters — information-alignment becomes culturally productive only when traced back to its source via these doubled upstreams.",
+  "terms": [
+    { "termId": "info-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "stf" },
+    { "termId": "vt-dy" },
+    { "termId": "alt-f" },
+    { "termId": "tr-def" },
+    { "termId": "ist-f" },
+    { "termId": "dec" },
+    { "termId": "p-prog" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "info-algn", "type": "solid" },
+    { "from": "vt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "info-algn", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "alt-f", "type": "solid" },
+    { "from": "prog-cont", "to": "tr-def", "type": "solid" },
+    { "from": "ist-f", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "prog-cont", "type": "solid" },
+    { "from": "p-prog", "to": "info-algn", "type": "solid" },
+    { "from": "prog-cont", "to": "lang-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v2-p211",
+  "volume": 2,
+  "section": "CMOA(I)-5",
+  "page": 211,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------MT.INFO.",
+  "type": "crossing",
+  "description": "Diagram in CMOA(I)-5 (Creative Music Outside of America, Level One — Britain/Germany/Holland) accompanying Braxton's analysis of the post-Coleman impact in Europe: 'the emergence of the post-Coleman/Coltrane/Taylor junction of black creativity would have a profound effect on the composite nature of earth creativity — and this is no less true for what it would imply in Europe.' (R)INDIV-TD (the reality of individual tendencies) is crossed with MT-INFO (multi-information): the question is what individual-tendencies produces in its actual instantiation when crossed with multi-information — the (R) prefix marking that the post-Coleman moment elicited *real* individual-tendencies, not styled ones, and the crossing with multi-information is what made European audiences receptive. DYM-F (dynamics fundamentals) feeds in from the upper-left. (R)INDIV-TD also appears as central — a doubled-naming of the subject. PROG-CONT (progressional continuance) anchors the upper-right output. SOC-RT (social reality) sits between subject and partner. RT-ALGN (reality alignment) feeds in from the lower-left. INFO-AF-B (information-affinity basis) sits centrally below. AFI(2) (affinity insight, second-order) anchors the lower-center. VT-DY (vibrational dynamics) and AFI(1) (affinity insight, first-order) form the lower-right cluster. EXP-DY (experimental dynamics) hangs on the right margin. Structural argument: individual-tendencies-as-real crossed with multi-information is mediated by social-reality as central hub and information-affinity-basis as lower hub. The presence of both AFI(1) and AFI(2) is load-bearing — Braxton distinguishes first-order affinity-insight (immediate response) from second-order (reflective comprehension), and both are operative outputs here. The diagram is the structural case for why post-Coleman creativity reached Europe productively: real individual-tendencies, when crossed with multi-information through social-reality, produced both immediate and reflective affinity-insight, which is exactly the European audience's documented response.",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "dym-f" },
+    { "termId": "prog-cont" },
+    { "termId": "soc-rt" },
+    { "termId": "rt-algn" },
+    { "termId": "info-af-b" },
+    { "termId": "afi2" },
+    { "termId": "vt-dy" },
+    { "termId": "afi1" },
+    { "termId": "exp-dy" }
+  ],
+  "relationships": [
+    { "from": "dym-f", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "prog-cont", "type": "solid" },
+    { "from": "indiv-td", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "mt-info", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "afi2", "type": "solid" },
+    { "from": "info-af-b", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "afi1", "type": "solid" },
+    { "from": "afi1", "to": "exp-dy", "type": "solid" }
+  ]
+}

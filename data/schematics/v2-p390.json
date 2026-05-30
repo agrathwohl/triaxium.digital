@@ -1,0 +1,34 @@
+{
+  "id": "v2-p390",
+  "volume": 2,
+  "section": "R(AS)CM(II)-34",
+  "page": 390,
+  "subject": "af-dy",
+  "title": "AF.DY.------SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in R(AS)CM(II)-34 — the section on record-company involvement, project budgets, and creative-music ensemble formations. The prose above the diagram names the structural problem: 'the dynamic implications of creative music cannot be totally achieved unless given musicians can have the opportunity to function in the composite spectrum of their activity — because duos, quartets, orchestra music, etc., can move to give an expanded realness of what is really happening in creative music.' The crossing diagrams what affinity-dynamics actually meets when it tries to be heard at the full ensemble scale: AF-DY (affinity dynamics — the music's actual vibrational working) is crossed with SOC-RT (social reality — the receiving culture's organized listening conditions). AF-DY sits on the left with the subject-arrow; INFO-DY (information dynamics) rises above as the subject's information-output and DYM-SPT (dynamism-spectacle) hangs below with EXPM (exposure-method) at the bottom-left as the subject's downward chain. SOC-RT sits at center as partner-axis; CULT-SOLD (culture-soldered) sits at upper-right as the partner-side's preferred receiving hub, with RT-DY (reality dynamics) on the right margin and EXT-FT (extended functionalism) below RT-DY, then SCI-DYM (scientific dynamism) at the lower-right as the partner-side downward chain. DEC (decision) anchors the bottom-center as the bridging-axis terminus. Structural argument: the upper diagonal INFO-DY → CULT-SOLD → RT-DY is the *record-company route* — the music's information-dynamics gets received only through culture-soldered reality-dynamics, and from there routes through extended-functionalism into scientific-dynamism on the partner's bottom-right. The subject's DYM-SPT → EXPM downward chain is what affinity-dynamics produces *without* the upper diagonal — pure spectacle and exposure-method, the small-ensemble economics the prose describes. DEC at the bottom-center is the bridging point: only when affinity-dynamics' upper-route reaches SCI-DYM via the partner-side does the form's actual decision-content reach social-reality. Otherwise SOC-RT routes DEC back into the subject-side spectacle, and the project-budget barrier the prose names structurally repeats.",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "info-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "rt-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "sci-dym" },
+    { "termId": "dym-spt" },
+    { "termId": "expm" },
+    { "termId": "dec" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "af-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "rt-dy", "type": "solid" },
+    { "from": "cult-sold", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "sci-dym", "type": "solid" },
+    { "from": "af-dy", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "expm", "type": "solid" },
+    { "from": "soc-rt", "to": "dec", "type": "solid" },
+    { "from": "soc-rt", "to": "sci-dym", "type": "solid" }
+  ]
+}
