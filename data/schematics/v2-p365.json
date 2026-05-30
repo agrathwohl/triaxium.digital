@@ -1,0 +1,32 @@
+{
+  "id": "v2-p365",
+  "volume": 2,
+  "section": "R(AS)CM(II)-9",
+  "page": 365,
+  "subject": "pol-dym",
+  "title": "POL.DYM.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(II)-9 — the section on cultural-information focus as the structural ground beneath the present reality of creative music. The prose immediately above identifies the structural target: 'It is important that this idea is challenged — because the present situation we are now living in has not simply come from nowhere.' The crossing diagrams how political-dynamism structurally meets world-exposure-principle to produce the present-situation the prose names: (C)POL-DYM (central political-dynamism — the receiving culture's organized political-motion) crossed with WO-EXP-PRI (world-exposure principle — the principle by which a form actually receives world-exposure). POL-DYM sits on the left with the subject-arrow; LG-EXT (linguistic extension) sits at the left and STF (structural-formal) anchors the left-margin as the subject-side leftward output. TRS (transformation) sits centrally and ACC-FT (accumulated functionalism) at the upper-right with SOC-RT-DY (social-reality dynamics) on the right margin as the partner-side upper chain. SPT-DYM (spectacle dynamism) sits at the bottom-center as the bridging hub; PRI-INFO (principle information) anchors the bottom-left and WO-EXP-PRI is the partner-axis at lower-right. Structural argument: when political-dynamism is crossed with world-exposure-principle, the upper diagonal TRS → ACC-FT → SOC-RT-DY is the *cultural-information-focus route* — transformation routes through accumulated-functionalism into social-reality-dynamics on the partner-side. This is the route that supplies the present-situation: political-dynamism's transformation reaches social-reality-dynamics by way of accumulated-functionalism that the receiving culture has built up over time. The leftward LG-EXT → STF output is what political-dynamism produces on its own — linguistic-extension into structural-formal, the form's own working chain. SPT-DYM at the bridging-bottom is the load-bearing hub: spectacle-dynamism routes PRI-INFO ← SPT-DYM → WO-EXP-PRI, supplying principle-information on the subject-bottom-left and the world-exposure-principle on the partner-bottom-right. The 'present situation' the prose names is exactly this configuration: political-dynamism's spectacle-dynamism hub converts principle-information into world-exposure-principle without ever crossing the upper diagonal's transformation route, leaving the subject's working chain on its own.",
+  "terms": [
+    { "termId": "pol-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "lg-ext" },
+    { "termId": "trs" },
+    { "termId": "acc-ft" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "stf" },
+    { "termId": "spt-dym" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "pol-dym", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "pol-dym", "to": "lg-ext", "type": "solid" },
+    { "from": "pol-dym", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "trs", "to": "acc-ft", "type": "solid" },
+    { "from": "pol-dym", "to": "stf", "type": "solid" },
+    { "from": "pol-dym", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "pri-info", "type": "solid" },
+    { "from": "spt-dym", "to": "wo-exp-pri", "type": "solid" }
+  ]
+}

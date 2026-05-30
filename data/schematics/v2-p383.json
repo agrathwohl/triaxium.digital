@@ -1,0 +1,32 @@
+{
+  "id": "v2-p383",
+  "volume": 2,
+  "section": "R(AS)CM(II)-27",
+  "page": 383,
+  "subject": "pol-con",
+  "title": "(R)POL.CON.-----PHY.U.P.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(II)-27 — the section on creative-music as a closed-society continuum and the limited-work consequence for would-be younger musicians. The prose below identifies the structural target: 'The present situation in creative music must be viewed as a kind of closed-society continuum as a result of little outlets... most musicians try to function from the broadest possible base — having to do with travels outside of the country when possible.' The crossing diagrams how political-consideration structurally meets physical-universe particulars at the closed-society scale: (R)POL-CON (the reality of political consideration — what political-consideration actually is in working operation) crossed with PHY-U-P (physical-universe particulars — the material conditions the form encounters). POL-CON sits on the left with the subject-arrow; DOC (documentation) sits at upper-left and INFO-F (information form) at top-center with PHY-U-P at top-center as the upper chain bridging into partner-axis. RE-ST (restructuralism) and PROJ-DYM (projection dynamism) anchor the upper-right and right margin as partner-side downward chain. PART (participation) sits below the subject as the bridging hub. INDIV-DY-RT (individual-dynamics reality) hangs at the right of PART, with AFL-DY (affinity-alignment dynamics) at the bottom as the bridging-axis downward terminus. Structural argument: when political-consideration is crossed with physical-universe-particulars, the upper diagonal DOC → INFO-F → PHY-U-P → RE-ST → PROJ-DYM is the *closed-society route* — documentation routes through information-form into physical-universe particulars, then through restructuralism into projection-dynamism on the partner-side. This upper chain is *the* sole apparatus by which the closed-society continuum functions: every edge converts the form's working into something else. The subject's bridging PART → INDIV-DY-RT / AFL-DY chain is what political-consideration produces alone via the central hub — participation routes through individual-dynamics reality into affinity-alignment dynamics. The structural argument: the closed-society continuum the prose names is structurally that the upper diagonal converts the form's documentation all the way through to projection-dynamism on the partner-axis without ever needing to cross back into the subject's PART hub — meaning the form's *political consideration* is registered as projection-dynamism (commercial work, mainstream forms) rather than reaching the affinity-alignment-dynamics the subject's bridging chain would produce. Travels-outside-the-country the prose names are structurally the move to find a different partner-axis where the upper diagonal doesn't auto-route closed.",
+  "terms": [
+    { "termId": "pol-con", "isSubject": true, "prefix": "r" },
+    { "termId": "phy-u-p" },
+    { "termId": "doc" },
+    { "termId": "info-f" },
+    { "termId": "re-st" },
+    { "termId": "proj-dym" },
+    { "termId": "part" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "afl-dy" }
+  ],
+  "relationships": [
+    { "from": "pol-con", "to": "phy-u-p", "type": "solid" },
+    { "from": "pol-con", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "proj-dym", "type": "solid" },
+    { "from": "pol-con", "to": "part", "type": "solid" },
+    { "from": "part", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "part", "to": "afl-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "v2-p368-1",
+  "volume": 2,
+  "section": "R(AS)CM(II)-12",
+  "page": 368,
+  "subject": "mt-info",
+  "title": "MT.INFO.------T.C.IMP.------INF.AFB.",
+  "type": "triple-crossing",
+  "description": "First of three diagrams on page 368 (R(AS)CM(II)-12) — a triple-crossing that diagrams how meta-information meets temporal-continuity-implication meets information-affinity base in the structural form of cultural-information regulation. (C)MT-INFO (central meta-information — the information *about* the form's information that the receiving culture builds) is crossed with T-C-IMP (temporal-continuity implication — the time-bound implication the information carries) which is in turn crossed with INFO-AF-B (information-affinity base — the affinity-base structure the information lands in). MT-INFO sits on the left with the subject-arrow; TH-CONT-DYM (thrust-continuance dynamism) hangs below as the subject's downward output. T-C-IMP is the middle axis; PROJ-CONT (projectional continuance) drops below T-C-IMP as the bridging-axis downward output, with EXT-DYM (extended dynamism) connected by a *dashed* edge — load-bearing conditional. INFO-AF-B sits at upper-right as partner-axis terminus. Structural argument: the triple-axis shows the three-step route by which meta-information actually reaches information-affinity-base — meta-information routes through temporal-continuity-implication which routes through information-affinity-base. The dashed edge T-C-IMP → EXT-DYM is the load-bearing conditional: extended-dynamism arrives only conditionally, only when temporal-continuity-implication can actually hold the extension open. Without that dashed edge holding, the triple-crossing collapses to MT-INFO → T-C-IMP → INFO-AF-B alone, and TH-CONT-DYM / PROJ-CONT on the lower axis stay subject-side and bridging-side outputs that never reach the partner's affinity-base. The receiving culture's meta-information then receives temporal-continuity without the extended dynamism — exactly the regulation-via-narrow-information the surrounding prose names.",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true, "prefix": "c" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-af-b" },
+    { "termId": "th-cont-dym" },
+    { "termId": "proj-cont" },
+    { "termId": "ext-dym" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-af-b", "type": "solid" },
+    { "from": "mt-info", "to": "th-cont-dym", "type": "solid" },
+    { "from": "t-c-imp", "to": "proj-cont", "type": "solid" },
+    { "from": "t-c-imp", "to": "ext-dym", "type": "dashed" }
+  ]
+}

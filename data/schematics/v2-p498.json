@@ -1,0 +1,32 @@
+{
+  "id": "v2-p498",
+  "volume": 2,
+  "section": "MP(II)-16",
+  "page": 498,
+  "subject": "phy-u-fund",
+  "title": "(R)PHY.U.FUND.-----DYM.F.",
+  "type": "crossing",
+  "description": "Diagram opening MP(II)-16 — the section on the wane of American world-political influence and the move away from America in the political-thrust of world politics. The prose immediately below identifies the structural target: 'the political dynamics of capitalism is not universally viewed as a positive political philosophy. Moreover, it is important that the collective move away from America is viewed seriously... Any movement that hopes to really re-establish itself must necessarily view both America and the Soviet Union as a negative factor.' The crossing diagrams how the reality of physical-universe-fundament structurally meets dynamic-form at the post-American world-political scale: (R)PHY-U-FUND (the reality of physical-universe fundament — what the planet's actual material-political ground consists of) crossed with DYM-F (dynamic form — the actual form world-politics is taking). PHY-U-FUND sits on the left with the subject-arrow; LANG-DY (language dynamics) rises above and IF-ST-DY (isolated-focus stable-dynamics) sits at top-center as the upper bridging chain. DYM-F is partner-axis at upper-right; INTR (introduction) sits centrally, MT-INFO (meta-information) on the right margin, and VT-DY (vibrational dynamics) below INTR as partner-side downward outputs. IST-S-ALGN (isolated-source alignment) sits centrally below the subject, with C-CONT (composite continuance) at the bottom-center as the bridging-axis downward terminus. Structural argument: when physical-universe-fundament is crossed with dynamic-form, the upper diagonal LANG-DY → IF-ST-DY → DYM-F is the *world-political route* — language-dynamics routes through isolated-focus stable-dynamics into the partner-axis's dynamic-form. The partner's INTR → VT-DY chain converts dynamic-form into introduction-through-vibrational-dynamics, with MT-INFO on the right as meta-information output. IST-S-ALGN → C-CONT on the bottom-center is what physical-universe-fundament produces alone as the bridging chain — isolated-source-alignment into composite-continuance. The structural argument: the route the prose names ('view both America and the Soviet Union as a negative factor') requires the bridging IST-S-ALGN → C-CONT chain to hold open *without* the upper-diagonal LANG-DY → IF-ST-DY → DYM-F route delivering the partner's dynamic-form to the receiving culture in America/Soviet terms. Otherwise the partner-axis's INTR → VT-DY chain converts the planet's physical-universe-fundament back into the same bipolar dynamic-form the world is trying to move past.",
+  "terms": [
+    { "termId": "phy-u-fund", "isSubject": true, "prefix": "r" },
+    { "termId": "dym-f" },
+    { "termId": "lang-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "intr" },
+    { "termId": "mt-info" },
+    { "termId": "vt-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "phy-u-fund", "to": "dym-f", "type": "solid" },
+    { "from": "phy-u-fund", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "dym-f", "type": "solid" },
+    { "from": "phy-u-fund", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "c-cont", "type": "solid" },
+    { "from": "dym-f", "to": "intr", "type": "solid" },
+    { "from": "dym-f", "to": "mt-info", "type": "solid" },
+    { "from": "intr", "to": "vt-dy", "type": "solid" }
+  ]
+}

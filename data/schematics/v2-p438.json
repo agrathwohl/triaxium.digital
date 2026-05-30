@@ -1,0 +1,32 @@
+{
+  "id": "v2-p438",
+  "volume": 2,
+  "section": "MP(I)-12",
+  "page": 438,
+  "subject": "part",
+  "title": "PART.------TR.",
+  "type": "crossing",
+  "description": "Diagram opening MP(I)-12 — the section on the accelerated division between black-creativity's affinity-insight-1 principle and the black community after bebop's emergence. The prose below identifies the structural target: 'the accelerated division between black creativity of the affinity insight (1) principle and the black community could be seen forming after the emergence of bebop — having to do with the misinformation that would accompany this continuum.' The crossing diagrams how participation structurally meets transformation in that division: PART (participation — actual participation in black creativity) crossed with TR (transformation — the receiving partner-axis that converts participation into transformation). PART sits on the left with the subject-arrow; POL-SIGN (political signal) rises at upper-right and EXP-DY (exposure dynamics) sits at the upper-right margin as the bridging upper chain. TR is partner-axis at center-right. AF-TD (affinity transformation-dynamics) sits centrally as the bridging hub; CULT-INFO-DY (cultural-information dynamics) and PROG-CONT (progressional continuance) anchor the bottom-center to bottom-right as the bridging-axis downward chain. INDIV-DY (individual dynamics) and RES-RT (resultant-reality) hang on the lower-left as the subject's downward outputs. Structural argument: when participation is crossed with transformation, the upper diagonal POL-SIGN → EXP-DY → TR is the *bebop-misinformation route* — political-signal routes through exposure-dynamics into transformation, the upper-axis route that white-press and black-community reception used to convert bebop's participation. AF-TD → CULT-INFO-DY → PROG-CONT is the bridging chain: affinity-transformation-dynamics routes through cultural-information-dynamics into progressional-continuance, the path participation takes to actually become transformation. INDIV-DY → RES-RT is what participation produces on its own without the bridging chain — individual-dynamics into resultant-reality, the privatized outcome the misinformation forced. The structural argument: the upper diagonal carried bebop into TR while the central AF-TD chain was *not* held by the receiving cultures (white press misinterpreted; black community received the misinformation through cultural-information-dynamics that didn't reach progressional-continuance) — and the result is the division the prose names. Participation reached transformation only through political-signal/exposure-dynamics, not through affinity-transformation-dynamics, and what should have been the central bridging route became the channel of misinformation instead.",
+  "terms": [
+    { "termId": "part", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "pol-sign" },
+    { "termId": "exp-dy" },
+    { "termId": "af-td" },
+    { "termId": "indiv-dy" },
+    { "termId": "res-rt" },
+    { "termId": "cult-info-dy" },
+    { "termId": "prog-cont" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "tr", "type": "solid" },
+    { "from": "part", "to": "pol-sign", "type": "solid" },
+    { "from": "pol-sign", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "tr", "type": "solid" },
+    { "from": "part", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "part", "to": "indiv-dy", "type": "solid" },
+    { "from": "indiv-dy", "to": "res-rt", "type": "solid" }
+  ]
+}

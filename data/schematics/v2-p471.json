@@ -1,0 +1,31 @@
+{
+  "id": "v2-p471",
+  "volume": 2,
+  "section": "MP(I)-45",
+  "page": 471,
+  "subject": "afl-dy",
+  "title": "(R)AFL.DY.------IST.S.ALGN.------AF.DY.",
+  "type": "triple-crossing",
+  "description": "Triple-crossing diagram closing MP(I)-45 — the section on festival funding and the structural realness of those composers 'who have not behaved' (i.e., who don't function within the composite quilt of western continuance). The prose immediately above identifies the structural target: 'what of those individuals who \"have not behaved\"? That is, what is the reality of those composers whose activity has somehow not been accepted into the composite reality dynamics of western culture?' The triple-axis diagrams the three-step structural ground of that have-not-been-accepted condition: (R)AFL-DY (the reality of affinity-alignment dynamics — the form's actual affinity-alignment working) crossed with IST-S-ALGN (isolated-source alignment — what would actually let the form align) crossed with (C)AF-DY (central affinity dynamics — the partner-axis's affinity-working that the receiving culture supplies). AFL-DY sits on the left with the subject-arrow; (P)RE-DOC (the physical-universe redocumentation) hangs at the lower-left as the subject-side downward output. IST-S-ALGN sits at top-center as the bridging middle axis. (C)AF-DY sits at upper-right as partner-axis with (R-prefixed) INFO-F (the reality of information-form) on the right margin and AFN (affinity natural) below as partner-side downward outputs. CUL-TR-S (cultural-transfer source) sits centrally below the middle axis as the bridging hub, with POL-DY (political dynamics) at the bottom-center as the bridging-axis downward output. A *dashed* edge runs from IST-S-ALGN down to RT-OP (reality option) at the very bottom — load-bearing conditional. Structural argument: when affinity-alignment-dynamics is crossed with isolated-source alignment is crossed with central affinity-dynamics, the *full three-axis chain* is what would let a form's affinity-alignment actually reach the partner's affinity-dynamics. The dashed edge IST-S-ALGN → RT-OP is the load-bearing conditional — reality-option appears only when isolated-source alignment can actually be held open. AFL-DY → (P)RE-DOC on the subject's lower-left is what the form's affinity-alignment produces alone: physical-universe redocumentation. The central CUL-TR-S → POL-DY chain is the bridging-axis downward route — cultural-transfer-source routes through political-dynamics. (C)AF-DY → INFO-F / AFN is what the partner-axis produces: reality-information-form and affinity-natural. The composers 'who have not behaved' are structurally those whose AFL-DY is *real* but whose RT-OP dashed-conditional does not get held by the receiving culture — without IST-S-ALGN actually supplying reality-options, the triple-axis collapses to AFL-DY → (P)RE-DOC alone on the subject-side, and the form is documented but unaligned with AF-DY's working chain. The festival-funding apparatus the prose names is exactly the mechanism that selectively withholds IST-S-ALGN's dashed conditional from non-behaving composers.",
+  "terms": [
+    { "termId": "afl-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "ist-s-algn" },
+    { "termId": "af-dy", "prefix": "c" },
+    { "termId": "re-doc", "prefix": "p" },
+    { "termId": "cul-tr-s" },
+    { "termId": "pol-dy" },
+    { "termId": "info-f", "prefix": "r" },
+    { "termId": "afn" },
+    { "termId": "rt-op" }
+  ],
+  "relationships": [
+    { "from": "afl-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "af-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "re-doc", "type": "solid" },
+    { "from": "afl-dy", "to": "cul-tr-s", "type": "solid" },
+    { "from": "cul-tr-s", "to": "pol-dy", "type": "solid" },
+    { "from": "af-dy", "to": "info-f", "type": "solid" },
+    { "from": "af-dy", "to": "afn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "rt-op", "type": "dashed" }
+  ]
+}

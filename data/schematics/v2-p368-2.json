@@ -1,0 +1,33 @@
+{
+  "id": "v2-p368-2",
+  "volume": 2,
+  "section": "R(AS)CM(II)-12",
+  "page": 368,
+  "subject": "per-vt-u-fund",
+  "title": "PER.VT.U.FUND.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Second diagram on page 368 (R(AS)CM(II)-12). The crossing diagrams how the central periodic-vibrational-universe-fundament structurally meets progressional-continuance through the central-information bridging hub: (C)PER-VT-U-FUND (central periodic vibrational-universe fundament — the form's actual vibrational ground over time) crossed with PROG-CONT (progressional continuance). PER-VT-U-FUND sits on the left with the subject-arrow; AFI (affinity insight) hangs at upper-left as the subject-side upper output. C-INFO (central information) sits centrally as the bridging hub; PROJ-DYM (projection dynamism) rises above the hub, SOC-RT-DY (social-reality dynamics) drops to the lower-left as the bridging-side downward output, with PHY-U-P (physical-universe particulars) at bottom-center and POL-DYM (political dynamism) at bottom-right, and MT-INFO (meta-information) at right-center. PROG-CONT sits at upper-right as partner-axis with TRS (transformation) on the right margin as partner-side downward output. Structural argument: when periodic-vibrational-universe-fundament is crossed with progressional-continuance, the central C-INFO hub is what carries the form's actual vibrational ground into the partner-axis. C-INFO → PROJ-DYM at the top is the upward route — central-information routes into projection-dynamism, the partner-side's working projection. The downward chain C-INFO → SOC-RT-DY / PHY-U-P / POL-DYM is the partner-side's downward outputs: social-reality-dynamics, physical-universe particulars, and political-dynamism all routed through the central hub. C-INFO → MT-INFO at the right is the partner-axis's meta-information output. The diagram's structural argument is that PROG-CONT → TRS on the partner-axis right side reaches the form only through the C-INFO hub — without the hub holding all six edges, progressional-continuance produces transformation on the partner-side alone, without the subject's vibrational-fundament carrying the projection through projection-dynamism's working axis.",
+  "terms": [
+    { "termId": "per-vt-u-fund", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "afi" },
+    { "termId": "proj-dym" },
+    { "termId": "c-info" },
+    { "termId": "trs" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-dym" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "per-vt-u-fund", "to": "prog-cont", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "afi", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "proj-dym", "type": "solid" },
+    { "from": "c-info", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "c-info", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-dym", "type": "solid" },
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" }
+  ]
+}

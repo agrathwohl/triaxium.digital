@@ -1,0 +1,37 @@
+{
+  "id": "v2-p348",
+  "volume": 2,
+  "section": "R(AS)CM(I)-32",
+  "page": 348,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------(P)DOC.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(I)-32 — the section on alternative recording by musicians themselves (Jazz Composer's Orchestra, Strata East, etc.). The prose below the diagram identifies the structural ground: 'The complexity of the contemporary music business is also related to the emergence of alternative recording by the musicians themselves... it was clear that no assistance would be coming from the established recording companies.' The crossing diagrams how progressional-continuance structurally meets physical-universe documentation when establishment-channels refuse to document the form: PROG-CONT (progressional continuance — the form's actual forward motion) crossed with (P)DOC (the physical-universe documentation — the actual material record of the form). PROG-CONT sits on the left with the subject-arrow; MT-INFO (meta-information) rises above and P-FC (political focus/functionalism) sits at upper-left as the subject-side upper-context. SI (source initiation), AFL (affinity alignment), and TRS (transformation) anchor the bottom-left to bottom-center as the subject-side downward chain. (P)DOC sits as partner-axis at upper-right; SOC-RT-P (social-reality particular, written 'soc.rt. p.') sits to the right of PDOC, with DIS-C-CT (disconnect) further right and STF (structural-formal) at the upper-right margin. RT-ALGN (reality alignment) sits below DIS-C-CT with RE-DIF (redefinitions, written 're.diff.') below RT-ALGN as the partner-side downward chain. Structural argument: when progressional-continuance is crossed with physical-universe documentation, the upper diagonal MT-INFO → DOC → SOC-RT-P → DIS-C-CT → STF is the *establishment route* — meta-information routes through documentation into social-reality-particular and then disconnects into structural-formal on the partner-side. This is exactly what 'no assistance from established recording companies' means structurally: the upper-axis runs through DIS-C-CT, the disconnect that severs progressional-continuance from the document. RT-ALGN → RE-DIF is the partner-side's actual *redefinition* output: even when established recording does document a form, it routes through reality-alignment into redefinitions that reshape what was documented. The subject's downward chain SI → AFL → TRS is what progressional-continuance produces *on its own* without documentation — source-initiation routes through affinity-alignment into transformation, the form's own working chain. The musicians-themselves alternative-recording the prose names is structurally the move to hold the lower chain *and* supply the documentation diagonal without the upper-axis's DIS-C-CT route, making physical-universe documentation actually available without the disconnect.",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "doc", "prefix": "p" },
+    { "termId": "mt-info" },
+    { "termId": "p-fc" },
+    { "termId": "soc-rt-p" },
+    { "termId": "dis-c-ct" },
+    { "termId": "stf" },
+    { "termId": "rt-algn" },
+    { "termId": "re-dif" },
+    { "termId": "si" },
+    { "termId": "afl" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "doc", "type": "solid" },
+    { "from": "prog-cont", "to": "mt-info", "type": "solid" },
+    { "from": "p-fc", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "si", "type": "solid" },
+    { "from": "prog-cont", "to": "afl", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" },
+    { "from": "doc", "to": "soc-rt-p", "type": "solid" },
+    { "from": "doc", "to": "dis-c-ct", "type": "solid" },
+    { "from": "dis-c-ct", "to": "stf", "type": "solid" },
+    { "from": "dis-c-ct", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "re-dif", "type": "solid" }
+  ]
+}

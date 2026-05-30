@@ -1,0 +1,40 @@
+{
+  "id": "v2-p431",
+  "volume": 2,
+  "section": "MP(I)-5",
+  "page": 431,
+  "subject": "tf-sh",
+  "title": "TF.SH.-----POL.DY.",
+  "type": "crossing",
+  "description": "Diagram closing MP(I)-5 — the section examining sixties dynamic-activism's relationship to vibrational state and political-activism. The prose immediately above identifies the structural target: 'the composite thrust of sixties functionalism supplied the first response to the vibrational dictates of this transition cycle — and the nature of that response was never one-dimensional.' The crossing diagrams how transformation-shift structurally meets political-dynamics at the sixties-activism scale: (R)TF-SH (the reality of transformation-shift — the actual transformational shift the form is undergoing) crossed with POL-DY (political dynamics — the political-working partner-axis). TF-SH sits on the left with the subject-arrow; SPT-DY (spectacle dynamics) rises above and ATTC (attitude — central) sits at upper-center as the subject-side upper outputs. POL-DY sits centrally as partner-axis with T-C-IMP (temporal-continuity implication) at the upper-right; TR-INFO (transformation-information), VT-IMP (vibrational implication), and ALT-F (alternative form) anchor the right margin as the partner-side downward chain. F (functionalism) sits centrally as the bridging hub. SOC-RT (social reality), INTR (introduction), MT-INFO (meta-information), and AF-NT (affinity natural) anchor the bottom row as the bridging-axis downward chain. Structural argument: when transformation-shift is crossed with political-dynamics, the upper diagonal SPT-DY → ATTC → POL-DY → T-C-IMP → TR-INFO → VT-IMP → ALT-F is the *one-route sixties response* the prose names as 'never one-dimensional' but structurally is a single long chain — spectacle-dynamics routes through central-attitude into political-dynamics, then through temporal-continuity-implication into transformation-information and finally through vibrational-implication into alternative-form. The bridging F → SOC-RT → INTR → MT-INFO → AF-NT chain is the *second route* the prose hints at — functionalism routes through social-reality into introduction, then through meta-information into affinity-natural at the bottom. The diagram's claim is that both routes are necessary for transformation-shift to actually become political-dynamics in a multi-dimensional way; without the bridging functionalism chain holding, the sixties response collapses to the upper-axis long chain alone, and the result is the one-dimensionality the prose explicitly denies.",
+  "terms": [
+    { "termId": "tf-sh", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "attc" },
+    { "termId": "t-c-imp" },
+    { "termId": "tr-info" },
+    { "termId": "vt-imp" },
+    { "termId": "alt-f" },
+    { "termId": "f" },
+    { "termId": "soc-rt" },
+    { "termId": "intr" },
+    { "termId": "mt-info" },
+    { "termId": "af-nt" }
+  ],
+  "relationships": [
+    { "from": "tf-sh", "to": "pol-dy", "type": "solid" },
+    { "from": "tf-sh", "to": "spt-dy", "type": "solid" },
+    { "from": "tf-sh", "to": "attc", "type": "solid" },
+    { "from": "attc", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "vt-imp", "type": "solid" },
+    { "from": "vt-imp", "to": "alt-f", "type": "solid" },
+    { "from": "tf-sh", "to": "f", "type": "solid" },
+    { "from": "f", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "mt-info", "type": "solid" },
+    { "from": "soc-rt", "to": "af-nt", "type": "solid" }
+  ]
+}

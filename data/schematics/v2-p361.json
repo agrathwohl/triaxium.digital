@@ -1,0 +1,33 @@
+{
+  "id": "v2-p361",
+  "volume": 2,
+  "section": "R(AS)CM(II)-5",
+  "page": 361,
+  "subject": "v-sy",
+  "title": "V.SY.------INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(II)-5 — the section on the option-spread dynamics of Ornette Coleman / Cecil Taylor versus Horowitz / Bernstein. The prose immediately below identifies the structural target: 'The sad truth is that the option-spread dynamics of Ornette Coleman and Cecil Taylor are not even in the same league as those of Vladimir Horowitz and Leonard Bernstein. For by option spread I am commenting on what degree an established individual is allowed to really shape his or her destiny with regard to the progressional spread of the work or the progressional route surrounding how that work is to be disseminated.' The crossing diagrams how value-system structurally meets information-dynamics at the option-spread scale: V-SY (value system — the receiving culture's working value-system that gates who gets shaped-destiny) crossed with INFO-DY (information dynamics — the form's actual information output). V-SY sits on the left with the subject-arrow; DEF (definition) sits at upper-left and CULT-INFO-F (cultural-information form) at top-center with CULT-AF-B (cultural-affinity base) at upper-right and LK-IMP (linkage implication) at the far upper-right margin as the partner-side upper chain. INFO-DY sits at center-right as partner-axis; SPT-DY (spectacle dynamics) anchors the right with UPB (upper-base) below and INFO-AF-B (information-affinity base) at the lower-right as the partner-side downward chain. IF-ST-DY (isolated-focus stable-dynamics) sits at the bottom-center as the subject's downward output. Structural argument: when value-system is crossed with information-dynamics at the option-spread scale, the upper diagonal DEF → CULT-INFO-F → CULT-AF-B → LK-IMP is the *Horowitz/Bernstein route* — definition routes through cultural-information form into cultural-affinity-base then into linkage-implication. This is what western-culture's value-system supplies to Horowitz/Bernstein: their definitions reach linkage-implication because the upper diagonal is structurally held by every institution. INFO-DY → SPT-DY → UPB → INFO-AF-B is the partner-side's downward chain: information-dynamics routes through spectacle into upper-base then into information-affinity-base — the spread the partner's institutional reception supplies. The subject's IF-ST-DY downward output is what value-system produces alone — isolated-focus stable-dynamics, the option-spread Coleman/Taylor are restricted to. The partner-axis's downward chain feeds the partner side alone; the upper diagonal supplies the Horowitz/Bernstein recipients with destiny-shaping. For Coleman/Taylor the upper diagonal does not get held by the receiving value-system because DEF refuses to route their cultural-information-form into cultural-affinity-base; the option-spread the prose names is structurally the gap between IF-ST-DY (what their value-system can hold) and LK-IMP (what value-system supplies to its own).",
+  "terms": [
+    { "termId": "v-sy", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "def" },
+    { "termId": "cult-info-f" },
+    { "termId": "cult-af-b" },
+    { "termId": "lk-imp" },
+    { "termId": "spt-dy" },
+    { "termId": "upb" },
+    { "termId": "info-af-b" },
+    { "termId": "if-st-dy" }
+  ],
+  "relationships": [
+    { "from": "v-sy", "to": "info-dy", "type": "solid" },
+    { "from": "v-sy", "to": "def", "type": "solid" },
+    { "from": "v-sy", "to": "cult-info-f", "type": "solid" },
+    { "from": "cult-info-f", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "lk-imp", "type": "solid" },
+    { "from": "info-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "info-dy", "to": "upb", "type": "solid" },
+    { "from": "upb", "to": "info-af-b", "type": "solid" },
+    { "from": "v-sy", "to": "if-st-dy", "type": "solid" }
+  ]
+}

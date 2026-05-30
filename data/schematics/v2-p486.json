@@ -1,0 +1,32 @@
+{
+  "id": "v2-p486",
+  "volume": 2,
+  "section": "MP(II)-4",
+  "page": 486,
+  "subject": "per-phy-u-fund",
+  "title": "PER.PHY.U.FUND.------CRTF.D.",
+  "type": "crossing",
+  "description": "Diagram opening MP(II)-4 — the section on transfer-shifts as the natural-and-forced consideration coupling humanity's acquisition of world-creativity to its spread, solidification, and destruction. The prose below identifies the structural target: 'For the historical acquisition of world culture bounty was not separate from the realness of war and devastation — and the later economic considerations related to this phenomenon were imposed rather than copied.' The crossing diagrams how the periodic physical-universe-fundament structurally meets cross-transfer-definitions at the world-cultural-acquisition scale: PER-PHY-U-FUND (periodic physical-universe fundament — the actual material-cultural ground of a region) crossed with CRTF-D (cross-transfer definitions — the partner-axis converter that the acquiring culture supplies). PER-PHY-U-FUND sits on the left with the subject-arrow; AFL-DYM (affinity-alignment dynamism) sits at upper-left and APP-RDEF (applied redefinitions) at top-center with CRTF-D at top-right as the partner-side upper chain. SCI-DYM (scientific dynamism) sits centrally as the bridging hub; TR-INFO (transformation-information) on the right margin and FUND-DYM (fundamental dynamism) below as partner-side outputs, with MT-INFO (meta-information) at lower-right and VT-DY (vibrational dynamics) at the bottom as the partner-side downward chain. Structural argument: when periodic physical-universe-fundament is crossed with cross-transfer definitions, the upper diagonal AFL-DYM → APP-RDEF → CRTF-D is the *acquisition route* — affinity-alignment dynamism routes through applied-redefinitions into cross-transfer definitions on the partner-axis. This is exactly the route through which an acquiring culture (the prose's 'many different nations coming into Egypt and taking what they wanted') converts a region's affinity-alignment into the cross-transfer definitions it later imposes as alien economic considerations. SCI-DYM → TR-INFO → FUND-DYM → MT-INFO / VT-DY is the central bridging-and-partner downward chain — scientific-dynamism routes through transformation-information into fundamental-dynamism and then into the meta-information and vibrational-dynamics on the partner-side. The structural argument: the periodic physical-universe-fundament's actual ground is converted by the partner-axis's upper diagonal into cross-transfer definitions while the bridging SCI-DYM chain supplies the receiving culture's transformation-information — the route by which 'value' is given to what was acquired. The ravaging the prose names is structurally that the bridging chain runs *after* the upper diagonal has converted the form's affinity-alignment, producing transformation-information that is no longer grounded in the original physical-universe-fundament.",
+  "terms": [
+    { "termId": "per-phy-u-fund", "isSubject": true },
+    { "termId": "crtf-d" },
+    { "termId": "afl-dym" },
+    { "termId": "app-rdef" },
+    { "termId": "sci-dym" },
+    { "termId": "tr-info" },
+    { "termId": "fund-dym" },
+    { "termId": "mt-info" },
+    { "termId": "vt-dy" }
+  ],
+  "relationships": [
+    { "from": "per-phy-u-fund", "to": "crtf-d", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "afl-dym", "type": "solid" },
+    { "from": "afl-dym", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "crtf-d", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "fund-dym", "type": "solid" },
+    { "from": "fund-dym", "to": "mt-info", "type": "solid" },
+    { "from": "fund-dym", "to": "vt-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v2-p437-1",
+  "volume": 2,
+  "section": "MP(I)-11",
+  "page": 437,
+  "subject": "part",
+  "title": "PART.------HI.P.",
+  "type": "crossing",
+  "description": "First of two diagrams on page 437 (MP(I)-11). The crossing diagrams how participation structurally meets high-purpose at the activist-creativity scale: PART (participation — actual creative participation in the form) is crossed with HI-P (high purpose — the cultural-political high-purpose participation is supposed to serve). PART sits on the left with the subject-arrow; AF-DY (affinity dynamics) hangs at the left margin as the subject's leftward output. UNF-PI (unified physical-implication) rises at the upper-right and TR (transformation) sits below it, with OBS (observation) and HI-P clustered at the partner-axis center-right. IF-ST-DY (isolated-focus stable-dynamics) sits centrally with CULT-O (cultural other) below it and MT-INFO (meta-information) at the lower-left as subject-side downward outputs. RIT-DY (ritual dynamics) hangs at the right with P-FC (political-focus / functionalism) below as partner-side downward outputs, and MTA-RT-SIGN (meta-reality signal) at the bottom-center as the bridging-axis terminus. Structural argument: when participation is crossed with high-purpose, the upper diagonal UNF-PI → TR → OBS → HI-P is the *high-purpose route* — unified-physical-implication routes through transformation into observation and into high-purpose. The subject's downward chain IF-ST-DY → MT-INFO is what participation produces on its own without the partner-axis: isolated-focus stable-dynamics into meta-information. The central CULT-O → RIT-DY → P-FC → MTA-RT-SIGN chain is the bridging-axis: cultural-other routes through ritual-dynamics into political-focus and finally into meta-reality signal at the bottom. AF-DY on the subject's left margin is what affinity-dynamics provides as participation's actual working ground. The argument structurally: participation reaches high-purpose only when the upper diagonal holds all four edges *and* the central bridging chain holds; otherwise participation produces only meta-information (subject-side) or meta-reality signal (bridging-side), without ever crossing into the partner-axis's working high-purpose.",
+  "terms": [
+    { "termId": "part", "isSubject": true },
+    { "termId": "hi-p" },
+    { "termId": "unf-pi" },
+    { "termId": "tr" },
+    { "termId": "obs" },
+    { "termId": "af-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "cult-o" },
+    { "termId": "mt-info" },
+    { "termId": "rit-dy" },
+    { "termId": "p-fc" },
+    { "termId": "mta-rt-sign" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "hi-p", "type": "solid" },
+    { "from": "part", "to": "unf-pi", "type": "solid" },
+    { "from": "unf-pi", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "hi-p", "type": "solid" },
+    { "from": "part", "to": "af-dy", "type": "solid" },
+    { "from": "part", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "mt-info", "type": "solid" },
+    { "from": "part", "to": "cult-o", "type": "solid" },
+    { "from": "cult-o", "to": "rit-dy", "type": "solid" },
+    { "from": "rit-dy", "to": "p-fc", "type": "solid" },
+    { "from": "cult-o", "to": "mta-rt-sign", "type": "solid" }
+  ]
+}

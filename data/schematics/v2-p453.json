@@ -1,0 +1,35 @@
+{
+  "id": "v2-p453",
+  "volume": 2,
+  "section": "MP(I)-27",
+  "page": 453,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.----INFO.DY.",
+  "type": "crossing",
+  "description": "Diagram opening MP(I)-27 — the section examining how by-the-end-of-the-sixties everyone-had-rediscovered-Marx in the so-called black revolution. The prose below identifies the structural target: 'by the end of the sixties, everyone had rediscovered Marx (which later would lead to scientific socialism, as a term that \"implied not a complete surrender\" to western ideology). The realness of this phenomenon cannot be ignored... the gradual adaptation of western informational dynamics by the so-called black revolutionaries cannot be simply dismissed as normal within the multi-informational state of things (source transfer).' The crossing diagrams how world-exposure-principle structurally meets information-dynamics at the sixties-end Marxism-adoption scale: WO-EXP-PRI (world-exposure principle — the principle by which a form's world-exposure is supposed to work) crossed with INFO-DY (information dynamics — the form's actual information output). WO-EXP-PRI sits on the right with the subject-arrow; INFO-DY sits at top-center as partner-axis. INFO-TRNS (information-transition) at upper-left, with T-C-IMP (temporal-continuity implication) and PROG-CONT (progressional continuance) hanging below on the lower-left as the partner-side downward chain. DOC (documentation) sits centrally with SPT-DY (spectacle dynamics) below as the bridging-axis downward output. IF-ST-DY (isolated-focus stable-dynamics) sits at upper-right with MT-INTR (meta-introduction) on the right, POST (postulation) at lower-right, and AF-DY (affinity dynamics) at the bottom-right as the subject-side downward chain. Structural argument: when world-exposure-principle is crossed with information-dynamics, the upper diagonal INFO-DY → INFO-TRNS → T-C-IMP → PROG-CONT is the *source-transfer route* — information-dynamics routes through information-transition into temporal-continuity-implication and finally into progressional-continuance on the partner-side. This is structurally exactly the Marx-adoption mechanism the prose names: the upper diagonal supplies progressional-continuance via the form's *partner-axis*'s working — the activists' progressional-continuance comes from the partner-axis's western informational chain, not from world-exposure-principle's own working. DOC → SPT-DY on the central bridging chain is what world-exposure-principle and information-dynamics produce together when held — documentation into spectacle-dynamics. IF-ST-DY → MT-INTR → POST → AF-DY on the subject side is what world-exposure produces on its own without the partner's upper chain — isolated-focus stable-dynamics routes through meta-introduction into postulation and finally into affinity-dynamics. The structural argument: the sixties black revolutionaries' adoption of Marxism is the case where INFO-DY's upper diagonal supplies PROG-CONT via the western chain while WO-EXP-PRI's subject-side AF-DY chain remains active but unrouted to the partner-axis — the multi-informational state of things the prose names is structurally this: two complete chains running in parallel without crossing.",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "info-trns" },
+    { "termId": "doc" },
+    { "termId": "if-st-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "prog-cont" },
+    { "termId": "spt-dy" },
+    { "termId": "mt-intr" },
+    { "termId": "post" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "info-dy", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "if-st-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" },
+    { "from": "info-dy", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "spt-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "post", "type": "solid" },
+    { "from": "post", "to": "af-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "v2-p495",
+  "volume": 2,
+  "section": "MP(II)-13",
+  "page": 495,
+  "subject": "t-c-imp",
+  "title": "T.C.IMP.------EXP.DY.",
+  "type": "crossing",
+  "description": "Diagram opening MP(II)-13 (the U.S.A. subsection on the changing position of the United States as a world power). The prose immediately above the diagram identifies the structural target: 'it is important to examine aspects of world culture with emphasis on progressional continuance and political reality — and political transition.' The crossing diagrams how temporal-continuity-implication structurally meets exposure-dynamics at the world-power-position scale: T-C-IMP (temporal-continuity implication — the implication a phenomenon's temporal continuity carries) crossed with EXP-DY (exposure dynamics — the actual exposure dynamics by which world-power-position registers). T-C-IMP sits on the left with the subject-arrow; TR (transformation) sits at upper-left and UNF-PI (unified physical-implication) at top-center with POST (postulation) at the upper-right as the upper bridging chain. C-CONT (composite continuance) sits centrally as the bridging hub; BSCI (basic-source-continuance-information) and FUND-DY (fundamental dynamics) anchor the right margin as partner-side downward outputs. EXP-DY is partner-axis at center-right with OBS (observation) below as partner-side downward output. PRI-INFO (principle information) sits at center-bottom as bridging-downward hub, with MT-IF-DB (meta-information-feedback double-bind, written 'mt.if.db.') below and DEC (decision) at the bottom as the bridging-axis terminus. Structural argument: when temporal-continuity-implication is crossed with exposure-dynamics, the upper diagonal TR → UNF-PI → POST is the *world-power postulation route* — transformation routes through unified-physical-implication into postulation, the route that gives America its post-WWII bulwark-status. POST → BSCI → FUND-DY is what postulation produces on the partner-side as fundamental working — basic-source-continuance routes into fundamental-dynamics. UNF-PI → C-CONT → EXP-DY is the central diagonal that supplies exposure-dynamics with composite-continuance. The subject's PRI-INFO → MT-IF-DB → DEC chain is the *feedback-double-bind decision route* the prose names as the political-transition's structural problem: principle-information routes through meta-information-feedback double-bind into decision, the political-transition decision made under the structural constraint of the meta-feedback the changing world-power-position generates. EXP-DY → OBS terminates the partner-axis on observation alone. The structural argument: when the upper diagonal stays held by post-WWII unified-physical-implication, the partner-side BSCI/FUND-DY chain runs, and the world recognizes America's exposure-dynamics — but the changing position the prose names is structurally that UNF-PI no longer holds the diagonal, and PRI-INFO → MT-IF-DB → DEC becomes the only route the political-transition can find.",
+  "terms": [
+    { "termId": "t-c-imp", "isSubject": true },
+    { "termId": "exp-dy" },
+    { "termId": "tr" },
+    { "termId": "unf-pi" },
+    { "termId": "post" },
+    { "termId": "c-cont" },
+    { "termId": "bsci" },
+    { "termId": "fund-dy" },
+    { "termId": "obs" },
+    { "termId": "pri-info" },
+    { "termId": "mt-if-db" },
+    { "termId": "dec" }
+  ],
+  "relationships": [
+    { "from": "t-c-imp", "to": "exp-dy", "type": "solid" },
+    { "from": "t-c-imp", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "unf-pi", "type": "solid" },
+    { "from": "unf-pi", "to": "post", "type": "solid" },
+    { "from": "unf-pi", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "exp-dy", "type": "solid" },
+    { "from": "post", "to": "bsci", "type": "solid" },
+    { "from": "bsci", "to": "fund-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "obs", "type": "solid" },
+    { "from": "t-c-imp", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "mt-if-db", "type": "solid" },
+    { "from": "pri-info", "to": "dec", "type": "solid" }
+  ]
+}

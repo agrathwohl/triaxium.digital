@@ -1,0 +1,39 @@
+{
+  "id": "v2-p515",
+  "volume": 2,
+  "section": "MP(II)-33",
+  "page": 515,
+  "subject": "int",
+  "title": "(R)INT.-----WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Diagram opening MP(II)-33 — the section on the energy-environment dilemma as the ecological implication of political functionalism. The prose below identifies the structural target: 'the ecological implications of political functionalism must be viewed as directly related to the coming dilemma we are leaving our children to face... \"What is happening to our air?\" — \"What is happening to the beautiful rivers and lakes of this planet?\" — \"What will become of this planet unless serious changes are made?\"' The crossing diagrams how the reality of intention structurally meets world-exposure-principle at the energy/environmental scale: (R)INT (the reality of intention — actual intentional working in the political-functional system) crossed with WO-EXP-PRI (world-exposure principle — the principle of how the form's working actually reaches world-exposure). INT sits on the right with the subject-arrow; RT-OP (reality option) sits at upper-right as the subject's upward output. WO-EXP-PRI sits at upper-left as partner-axis; PROJ-DY (projection dynamics) sits below as the partner's working hub, with PART (participation) and TRS (transformation) as partner-side outputs. STY (stylization) sits at lower-left and POST (postulation) at the bottom-left as the partner-side downward chain. CULT-INFO (cultural information) sits centrally with POL-DY (political dynamics) below as the bridging-axis downward chain, with S-ST (source-stability) at the bottom-center as the bridging terminus. MT-INTR (meta-introduction) sits centrally on the right with AF-DY (affinity dynamics) below as the subject's downward chain. Structural argument: when reality-of-intention is crossed with world-exposure-principle, the upper diagonal RT-OP → INT → WO-EXP-PRI is the *reality-option route* — reality-option supplies intentional intention which reaches world-exposure-principle. WO-EXP-PRI → PROJ-DY → TRS → STY → POST is the partner-axis's downward chain: world-exposure-principle routes through projection-dynamics into transformation, then through stylization into postulation — the full *partner-axis policy route* that converts environmental considerations into formalized political postulates. CULT-INFO → POL-DY → S-ST is the bridging chain: cultural-information routes through political-dynamics into source-stability. MT-INTR → AF-DY on the subject-right is what intention produces alone — meta-introduction into affinity-dynamics. The structural argument: the ecological-political dilemma the prose names is structurally that the partner-axis's long downward chain absorbs world-exposure-principle into stylized postulation while reality-of-intention's MT-INTR → AF-DY chain stays subject-side. The questions ('what is happening to our air?') reach intention as MT-INTR → AF-DY but never cross into PROJ-DY's working — and what actually gets made into political-action is the postulation on the partner-axis bottom, the stylized form that has already lost contact with the form's affinity-dynamics.",
+  "terms": [
+    { "termId": "int", "isSubject": true, "prefix": "r" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "rt-op" },
+    { "termId": "proj-dy" },
+    { "termId": "part" },
+    { "termId": "trs" },
+    { "termId": "sty" },
+    { "termId": "post" },
+    { "termId": "cult-info" },
+    { "termId": "pol-dy" },
+    { "termId": "mt-intr" },
+    { "termId": "s-st" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "int", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "int", "to": "rt-op", "type": "solid" },
+    { "from": "int", "to": "cult-info", "type": "solid" },
+    { "from": "int", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "af-dy", "type": "solid" },
+    { "from": "cult-info", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "s-st", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "proj-dy", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "part", "type": "solid" },
+    { "from": "proj-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "sty", "type": "solid" },
+    { "from": "sty", "to": "post", "type": "solid" }
+  ]
+}

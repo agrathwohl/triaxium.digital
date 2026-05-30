@@ -1,0 +1,38 @@
+{
+  "id": "v2-p448",
+  "volume": 2,
+  "section": "MP(I)-22",
+  "page": 448,
+  "subject": "af-post",
+  "title": "AF.POST.------SPT.DYM.",
+  "type": "crossing",
+  "description": "Diagram opening MP(I)-22 — the section on dynamic-separation in the late-sixties black community (Jesse Jackson, alignment-with-philosophical-positions, vibrational dynamics of split). The prose below identifies the structural target: 'the vibrational dynamics of this period would move to have individuals align themselves with one given philosophical or vibrational position — one that was inherently opposed to any other position.' The crossing diagrams how affinity-postulation structurally meets spectacle-dynamism at the late-sixties alignment scale: AF-POST (affinity postulation — the form's actual affinity-based postulation) crossed with SPT-DYM (spectacle dynamism). AF-POST sits on the left with the subject-arrow; TR (transformation) sits at the upper-left and T-C-IMP (temporal-continuity implication) at top-center as the bridging upper hub. SPT-DYM sits at upper-right as partner-axis; PROG-CONT (progressional continuance) at right with RIT-DY (ritual dynamics) at lower-right as partner-side downward chain. AFI (affinity insight) sits centrally as the bridging hub; ACC-DY (accent dynamics) below AFI and SOC-RT (social reality) at lower-center as the bridging-axis downward chain. RE-ST (restructuralism) hangs below the subject with PART (participation) at the bottom-left as the subject-side downward output. POL-DY (political dynamics) sits at the bottom-center as the bridging terminus. Structural argument: when affinity-postulation is crossed with spectacle-dynamism, the upper diagonal T-C-IMP → TR / SPT-DYM is the *temporal-continuity route* — the bridging hub routes either to TR on the subject-side or SPT-DYM on the partner-side. SPT-DYM → PROG-CONT → RIT-DY is what the partner-axis produces alone: spectacle-dynamism converts progressional-continuance into ritual-dynamics on the partner side. AFI → ACC-DY → SOC-RT → POL-DY is the bridging-axis chain that carries affinity-insight through accent-dynamics into the social-reality and political-dynamics. RE-ST → PART is the subject's own downward chain. The dynamic-separation the prose names is structurally this: when AF-POST holds AFI as bridging hub but the upper diagonal at T-C-IMP routes only into SPT-DYM (not TR), affinity-postulation reaches the partner's RIT-DY without the transformation-edge holding — alignment becomes ritualized at the partner side while the subject's RE-ST → PART chain stays subject-side, opposed to all other positions.",
+  "terms": [
+    { "termId": "af-post", "isSubject": true },
+    { "termId": "spt-dym" },
+    { "termId": "t-c-imp" },
+    { "termId": "tr" },
+    { "termId": "prog-cont" },
+    { "termId": "afi" },
+    { "termId": "acc-dy" },
+    { "termId": "rit-dy" },
+    { "termId": "re-st" },
+    { "termId": "soc-rt" },
+    { "termId": "part" },
+    { "termId": "pol-dy" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "spt-dym", "type": "solid" },
+    { "from": "af-post", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "tr", "type": "solid" },
+    { "from": "t-c-imp", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "rit-dy", "type": "solid" },
+    { "from": "af-post", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "af-post", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "part", "type": "solid" },
+    { "from": "soc-rt", "to": "pol-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "v2-p518",
+  "volume": 2,
+  "section": "MP(II)-36",
+  "page": 518,
+  "subject": "phy-u-fund",
+  "title": "(R)PHY.U.FUND.------POL.DYM.",
+  "type": "crossing",
+  "description": "Diagram closing MP(II)-36 — the section on multi-national corporations and the structural permeation of multi-national power-politics through western political functionalism. The prose immediately above identifies the structural target: 'no political decision of consequence can be viewed as separate from the composite area of controlling factors related to what a multi-national company really is. Because among other things, politics is about power — and economics.' The crossing diagrams how the reality of physical-universe-fundament structurally meets political-dynamism at the multi-national scale: (R)PHY-U-FUND (the reality of physical-universe fundament — the material-political ground of a culture) crossed with POL-DYM (political dynamism — the political-working partner-axis). PHY-U-FUND sits on the left with the subject-arrow; POL-DYM sits at top-center as partner-axis with PART (participation) at the upper-right. PRI-INFO (principle information) sits centrally to the right of POL-DYM, with PROJ-DYM (projection dynamism) at the lower-right as the partner-side downward output. AFL-DY (affinity dynamics) sits centrally as the bridging hub; SOC-RT-INT (social-reality internal) hangs at lower-left and AFI (affinity insight) at the bottom-center as the bridging-axis downward chain. Structural argument: when physical-universe-fundament is crossed with political-dynamism, the upper diagonal POL-DYM → PART → PRI-INFO → PROJ-DYM is the *multi-national route* — political-dynamism routes through participation into principle-information and finally into projection-dynamism on the partner-side. This is structurally how multi-national corporations colonize western political functionalism: the partner-axis's working chain converts political-dynamism into projection-dynamism without ever needing to reach back into the subject's physical-universe-fundament. PHY-U-FUND → AFL-DY → SOC-RT-INT / AFI on the lower-left is what physical-universe-fundament produces alone via the bridging hub — affinity-dynamics routes through social-reality-internal and into affinity-insight, the form's own ground without the partner-axis. The structural argument: the multi-national permeation the prose names is structurally that the upper diagonal is always-held, so political-decisions reach projection-dynamism via the partner-axis without crossing into the subject's bridging chain — politics is about power-and-economics on the partner-side alone, never feeding affinity-insight on the subject side.",
+  "terms": [
+    { "termId": "phy-u-fund", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dym" },
+    { "termId": "part" },
+    { "termId": "pri-info" },
+    { "termId": "afl-dy" },
+    { "termId": "soc-rt-int" },
+    { "termId": "afi" },
+    { "termId": "proj-dym" }
+  ],
+  "relationships": [
+    { "from": "phy-u-fund", "to": "pol-dym", "type": "solid" },
+    { "from": "phy-u-fund", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "soc-rt-int", "type": "solid" },
+    { "from": "afl-dy", "to": "afi", "type": "solid" },
+    { "from": "pol-dym", "to": "part", "type": "solid" },
+    { "from": "part", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "proj-dym", "type": "solid" }
+  ]
+}

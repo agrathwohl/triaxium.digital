@@ -1,0 +1,39 @@
+{
+  "id": "v2-p492-1",
+  "volume": 2,
+  "section": "MP(II)-10",
+  "page": 492,
+  "subject": "cn-info",
+  "title": "CN.INFO.------AF.DY.",
+  "type": "crossing",
+  "description": "First of two diagrams on page 492 (MP(II)-10). The crossing diagrams how continuance-information structurally meets affinity-dynamics at the political-cultural reception scale: CN-INFO (continuance information — the information by which a form actually continues) crossed with AF-DY (affinity dynamics — the partner-side's actual affinity working). CN-INFO sits on the left with the subject-arrow; (R)POST (the reality of postulation) sits at upper-center as a bridging upper-output and ATT (attention) sits between POST and the partner-axis chain. SOC-RT (social reality) sits centrally above and AF-COMP (affinity composite) at upper-right with DIS-C-CT (disconnect) further right and POL-P (political particulars) below DIS-C-CT as the partner-side upper chain. AFI-2 (affinity insight, level two) sits centrally as the bridging hub; AF-DY is the partner-axis at center-right with INFO-DE (information descent) below as partner-side downward output. RIT-DY (ritual dynamics) hangs at the lower-left as the subject-side downward output with AFI (affinity insight) at bottom-center and TR (transformation) at the lower-right as the bridging-axis downward chain. Structural argument: the upper diagonal POST → ATT → SOC-RT → AF-COMP → DIS-C-CT → POL-P is the *reception route* — postulation routes through attention into social-reality and through affinity-composite into the disconnect into political-particulars on the partner-side. The bridging AFI-2 hub holds the central diagonal; the subject's lower chain RIT-DY → AFI → TR routes ritual-dynamics through affinity-insight (level one) into transformation as the bridging-axis bottom. AF-DY → INFO-DE on the partner-axis is what affinity-dynamics produces alone — information-descent without continuance-information's continuance. The structural argument is that continuance-information reaches affinity-dynamics only through the upper diagonal *and* through the central AFI-2 bridging — both must hold or the partner-axis terminates at INFO-DE alone and the form's continuance is severed at the disconnect.",
+  "terms": [
+    { "termId": "cn-info", "isSubject": true },
+    { "termId": "af-dy" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "att" },
+    { "termId": "soc-rt" },
+    { "termId": "af-comp" },
+    { "termId": "dis-c-ct" },
+    { "termId": "pol-p" },
+    { "termId": "afi-2" },
+    { "termId": "info-de" },
+    { "termId": "rit-dy" },
+    { "termId": "afi" },
+    { "termId": "tr" }
+  ],
+  "relationships": [
+    { "from": "cn-info", "to": "af-dy", "type": "solid" },
+    { "from": "cn-info", "to": "post", "type": "solid" },
+    { "from": "cn-info", "to": "att", "type": "solid" },
+    { "from": "att", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "af-comp", "type": "solid" },
+    { "from": "af-comp", "to": "dis-c-ct", "type": "solid" },
+    { "from": "dis-c-ct", "to": "pol-p", "type": "solid" },
+    { "from": "cn-info", "to": "afi-2", "type": "solid" },
+    { "from": "af-dy", "to": "info-de", "type": "solid" },
+    { "from": "cn-info", "to": "rit-dy", "type": "solid" },
+    { "from": "rit-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "tr", "type": "solid" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "v2-p381",
+  "volume": 2,
+  "section": "R(AS)CM(II)-25",
+  "page": 381,
+  "subject": "th-cont",
+  "title": "TH.CONT.------TRS.",
+  "type": "crossing",
+  "description": "Diagram in R(AS)CM(II)-25 — the section on performance-space culture-function and the unequal distribution of performance outlets. The prose immediately above identifies the structural ground: 'the performance of classical music is not about economics as such — because whatever has to be done to keep the music will be done... The reality of any form of creative music is related to whether or not that form can have the possibility of performance — and the focus realness of creative music must also be viewed with this in mind.' The crossing diagrams how thrust-continuance structurally meets transformation when performance-possibility is the working partner: TH-CONT (thrust continuance — the form's actual forward motion) crossed with TRS (transformation — what transformation the form's performance produces). TH-CONT sits on the left with the subject-arrow; C-INFO (central information) sits at top-center as the bridging hub. TRS is partner-axis at upper-right with PROJ-CONT (projectional continuance) below as the partner's downward output. T-CONT (transitional continuance) hangs at lower-left as the subject-side downward output, with IST-F (isolated focus) at the bottom-right connected by a *dashed* edge — load-bearing conditional. Structural argument: when thrust-continuance is crossed with transformation, the central diagonal TH-CONT → C-INFO → TRS is the *culture-function route* — thrust-continuance routes through central-information into transformation only when central-information actually holds the diagonal. TRS → PROJ-CONT on the partner-axis is what transformation produces as projectional-continuance — the working continuance the partner-side supplies when the upper diagonal holds. The dashed edge T-CONT → IST-F is the load-bearing conditional: transitional-continuance reaches isolated-focus only conditionally. When performance-space cultural-function withholds the C-INFO diagonal (classical music receives it; creative music does not), thrust-continuance routes only through T-CONT down to the dashed-conditional IST-F edge, and the form is left as 'isolated focus' rather than reaching transformation as projectional-continuance. The 'major performance spaces conceived with respect to the perpetuation of \"culture\"' the prose names are structurally the culture-function that selectively holds the C-INFO diagonal — for classical, against creative.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true },
+    { "termId": "trs" },
+    { "termId": "c-info" },
+    { "termId": "proj-cont" },
+    { "termId": "t-cont" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "trs", "type": "solid" },
+    { "from": "th-cont", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "proj-cont", "type": "solid" },
+    { "from": "th-cont", "to": "t-cont", "type": "solid" },
+    { "from": "t-cont", "to": "ist-f", "type": "dashed" }
+  ]
+}

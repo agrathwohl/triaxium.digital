@@ -1,0 +1,36 @@
+{
+  "id": "v2-p340",
+  "volume": 2,
+  "section": "R(AS)CM(I)-24",
+  "page": 340,
+  "subject": "cult-info-f",
+  "title": "CULT.INFO.F.----PR.TRS.",
+  "type": "crossing",
+  "description": "Diagram opening R(AS)CM(I)-24. The prose immediately above identifies the structural target: 'find a way to align this phenomenon with the factors that control the vibrational lining of American culture (and in this context, big business cannot make money).' The crossing diagrams how cultural-information-form structurally meets principle-transmission at the corporate-recording-of-creative-music scale: CULT-INFO-F (cultural-information form — what the form looks like as it travels through media) crossed with PR-TRS (principle transmission — what the institutional channel actually transmits as principle). CULT-INFO-F sits on the left with the subject-arrow; RT-ALGN (reality alignment) rises above-left and (P)RE-ST (the physical-universe redefinition of restructuralism) sits at top-center with APP-RDEF (applied redefinitions) anchoring the upper-right. PROG-CONT (progressional continuance) sits centrally as the bridging hub; PR-TRS is partner-axis at right with TR (transformation) hanging below. (R)PART (the reality of participation) anchors the lower-left as subject-side output; POL-DY (political dynamics), ALT-DEF (alternative definition), and STF (structural-formal) cluster at the bottom-center to bottom-right as the bridging-side downward chain. Structural argument: when cultural-information-form is crossed with principle-transmission, the upper diagonal RT-ALGN → RE-ST → APP-RDEF is the *corporate restructuralism route* — reality-alignment routes through restructuralism into applied-redefinitions on the partner-side. This is what big-business-recording does when it takes a form's cultural-information and converts it to principle-transmission through the redefinition chain. PROG-CONT → PR-TRS → TR is the partner-axis's downward chain: progressional-continuance routes through principle-transmission into transformation. The subject's PART → POL-DY → ALT-DEF → STF lower chain is what cultural-information-form produces *without* the partner-axis carrying it — participation routes through political-dynamics into alternative-definition and structural-formal on the form's own working axis. The big-business-cannot-make-money condition the prose names is structural: the upper diagonal route works for big business only when CULT-INFO-F can be routed through APP-RDEF, but creative-music's PART → POL-DY chain on the lower side would have to be allowed to feed back into PROG-CONT to make alternative-definition profitable, and the corporate route structurally refuses that feedback.",
+  "terms": [
+    { "termId": "cult-info-f", "isSubject": true },
+    { "termId": "pr-trs" },
+    { "termId": "rt-algn" },
+    { "termId": "re-st", "prefix": "p" },
+    { "termId": "app-rdef" },
+    { "termId": "prog-cont" },
+    { "termId": "tr" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "alt-def" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "cult-info-f", "to": "pr-trs", "type": "solid" },
+    { "from": "cult-info-f", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "app-rdef", "type": "solid" },
+    { "from": "cult-info-f", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pr-trs", "type": "solid" },
+    { "from": "pr-trs", "to": "tr", "type": "solid" },
+    { "from": "cult-info-f", "to": "part", "type": "solid" },
+    { "from": "part", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "alt-def", "type": "solid" },
+    { "from": "alt-def", "to": "stf", "type": "solid" }
+  ]
+}

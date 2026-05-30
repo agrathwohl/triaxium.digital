@@ -1,0 +1,36 @@
+{
+  "id": "v2-p437-2",
+  "volume": 2,
+  "section": "MP(I)-11",
+  "page": 437,
+  "subject": "part",
+  "title": "PART.-----ALT.F.",
+  "type": "crossing",
+  "description": "Second diagram on page 437 (MP(I)-11). The crossing diagrams how participation structurally meets alternative-functionalism: PART (participation, again on the subject axis with the arrow — on the right this time) crossed with ALT-F (alternative functionalism — the form's actual alternative-working). PART sits at the right with the subject-arrow; ACT (action) sits at the upper-right and OMT-DY (omitted dynamics) hangs to its right as the subject-side rightward outputs. TRS (transformation) sits centrally below as the subject's downward output. POL-CON (political consideration) anchors the upper-left and IST-ACT (isolated-source activism) sits at the left margin as partner-side upper outputs. ALT-F sits at center-left as partner-axis; SOC-RT-DY (social-reality dynamics) hangs at the lower-left as partner-side downward output. LK-IMP (linkage implication) sits centrally as the bridging hub, with CULT-TF-S (cultural-transfer source) at lower-center, (R)INTR (the reality of introduction) below CULT-TF-S, and OBS (observation) at the bottom as the bridging-axis downward terminus. Structural argument: when participation is crossed with alternative-functionalism, the upper diagonal from PART out to ACT routes participation into action, but the action chain produces OMT-DY — omitted-dynamics — meaning what's *missing* from the participation's working when only action is its partner-side route. The partner's upper chain POL-CON → IST-ACT → ALT-F routes political-consideration through isolated-source activism into alternative-functionalism — but ALT-F then routes only to SOC-RT-DY on the lower-left, producing social-reality-dynamics on the partner-side alone. The central bridging chain LK-IMP → CULT-TF-S → (R)INTR → OBS is the *full route*: linkage-implication routes through cultural-transfer-source into the reality of introduction and finally into observation. This is the structural path the prose needs the activist to hold — LK-IMP must hold all four edges for participation to actually reach alternative-functionalism without being stranded as either OMT-DY on the subject-side or SOC-RT-DY alone on the partner-side.",
+  "terms": [
+    { "termId": "part", "isSubject": true },
+    { "termId": "alt-f" },
+    { "termId": "pol-con" },
+    { "termId": "act" },
+    { "termId": "ist-act" },
+    { "termId": "lk-imp" },
+    { "termId": "trs" },
+    { "termId": "omt-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "cult-tf-s" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "obs" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "alt-f", "type": "solid" },
+    { "from": "part", "to": "act", "type": "solid" },
+    { "from": "act", "to": "omt-dy", "type": "solid" },
+    { "from": "act", "to": "trs", "type": "solid" },
+    { "from": "alt-f", "to": "pol-con", "type": "solid" },
+    { "from": "alt-f", "to": "ist-act", "type": "solid" },
+    { "from": "alt-f", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "lk-imp", "to": "cult-tf-s", "type": "solid" },
+    { "from": "cult-tf-s", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "obs", "type": "solid" }
+  ]
+}
