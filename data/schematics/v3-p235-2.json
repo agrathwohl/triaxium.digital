@@ -1,0 +1,102 @@
+{
+  "id": "v3-p235-2",
+  "volume": 3,
+  "section": "T(IMP)M-33",
+  "page": 235,
+  "subject": "grad",
+  "title": "GRAD.------RT.ALGN.",
+  "type": "crossing",
+  "description": "Second diagram on page 235 (T(IMP)M-33). The crossing diagrams how gradualism structurally meets reality-alignment at the western-fixation scale: GRAD crossed with RT-ALGN. GRAD sits at left with the subject-arrow; RT-ALGN at right as partner-axis. CN-INFO (continuance-information) upper-center, CULT-INFO-B (cultural-information base) upper-right, INFO-TRNS (information transition) upper-right. (R)INTR (reality of introduction) center. AFN (affinity negation), APL-DT (applied dictates) right. PROG-CONT (progressional continuance), CULT-AF-DT (cultural-affinity dictates), CULT-COD (cultural code) form the lower-left chain. POL-P (political particulars) right. Structural argument: gradualism reaches reality-alignment through the central (R)INTR hub; the upper chain CN-INFO -> CULT-INFO-B -> INFO-TRNS routes the form into cultural-information-transition; lower chain PROG-CONT -> CULT-AF-DT -> CULT-COD routes through cultural-code.",
+  "terms": [
+    {
+      "termId": "grad",
+      "isSubject": true
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "cn-info"
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "info-trns"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "afn"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "cult-af-dt"
+    },
+    {
+      "termId": "cult-cod"
+    },
+    {
+      "termId": "pol-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "grad",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "cn-info",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "cult-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "afn",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "cult-af-dt",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-dt",
+      "to": "cult-cod",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "pol-p",
+      "type": "solid"
+    }
+  ]
+}

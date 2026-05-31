@@ -1,0 +1,133 @@
+{
+  "id": "v3-p251-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-5",
+  "page": 251,
+  "subject": "soc-rt",
+  "title": "SOC.RT.------POL.P.",
+  "type": "crossing",
+  "description": "Second diagram on page 251 (PR.S(RD)II-5), paired with CULT-AF-B x POL-P above. The crossing diagrams how social-reality structurally meets political-particulars: SOC-RT crossed with POL-P. SOC-RT sits at left with the subject-arrow; POL-P at center-right as partner-axis. CULT-SOLD (culture-soldered), SOC-RT-P (social-reality particular), TRS (transformation) upper-right. RT-ALGN (reality alignment), STF (structural-formal) center. T-C-IMP (temporal-continuity implication) right, PART (participation), INFO-COMP (information composite) right. IF-ST-DY (isolated-focus stable-dynamics) center-bottom. EXP-DY (exposure dynamics), CN-INFO (continuance-information) lower-center. INFO-ALGN (information alignment) lower-left, VT-SY (value system), VT-PLT (vibrational plateau) bottom-left.",
+  "terms": [
+    {
+      "termId": "soc-rt",
+      "isSubject": true
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "info-comp"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "cn-info"
+    },
+    {
+      "termId": "info-algn"
+    },
+    {
+      "termId": "vt-sy"
+    },
+    {
+      "termId": "vt-plt"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "soc-rt",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "info-comp",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "info-algn",
+      "type": "solid"
+    },
+    {
+      "from": "info-algn",
+      "to": "vt-sy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-sy",
+      "to": "vt-plt",
+      "type": "solid"
+    }
+  ]
+}

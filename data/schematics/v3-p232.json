@@ -1,0 +1,112 @@
+{
+  "id": "v3-p232",
+  "volume": 3,
+  "section": "T(IMP)M-30",
+  "page": 232,
+  "subject": "sg",
+  "title": "SG.-----APP.RDEF.",
+  "type": "crossing",
+  "description": "Diagram in T(IMP)M-30. The prose above identifies the structural target: 'I am interested in the total reality of this phenomenon - that being, how creative music is taught in America and the relationship of these teachings to the meta-reality of the music.' The crossing diagrams how source-generation structurally meets applied-redefinitions at the music-teaching-meta-reality scale: SG crossed with APP-RDEF. SG sits at left with the subject-arrow; APP-RDEF at lower-center as partner-axis. ATTN (attention), EXPM (expansionism), AF-DY (affinity dynamics) upper chain. EXP-DY (exposure dynamics), PROJ-DY (projection dynamics), CULT-INFO-B (cultural-information base), (R)INFO-SOLD (reality of information-soldered) right chain. WO-EXP-PRI (world exposure principle), TRS (transformation), PROG-CONT (progressional continuance) lower-left chain.",
+  "terms": [
+    {
+      "termId": "sg",
+      "isSubject": true
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "expm"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "info-sold",
+      "prefix": "r"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "prog-cont"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "sg",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "expm",
+      "type": "solid"
+    },
+    {
+      "from": "expm",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "cult-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "info-sold",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "app-rdef",
+      "type": "solid"
+    }
+  ]
+}

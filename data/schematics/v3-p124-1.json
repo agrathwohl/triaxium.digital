@@ -1,0 +1,39 @@
+{
+  "id": "v3-p124-1",
+  "volume": 3,
+  "section": "ALT(FT)II-18",
+  "page": 124,
+  "subject": "ext-ft",
+  "title": "EXT.FT.------C.CONT.",
+  "type": "crossing",
+  "description": "Diagram in ALT(FT)II-18 (Alternative Functionalism, Level Two), first of two on book p124, on the page where Braxton argues that 'no region of American culture has escaped the influence of creative black music (and culture) — whether or not individuals were actually aware of a given influence. On the other hand, the creative reality of black people has not escaped the vibrational influence of western culture either.' (C)EXT-FT (extended functionalism) is crossed with C-CONT (composite continuance): the question is what extended-functionalism produces when crossed with composite-continuance in a context of mutual cross-cultural vibrational transference. LK-IMP (linkage implications) feeds the upper-left. TECH-DY (technological dynamics) and PER-VT-U-FUND (perceived vibrational universe fundamental) are upper-right structure. AFI (affinity insight) is a parallel output. PER-PHY-U-FUND (perceived physical universe fundamental) and METH (methodology) are mid-right. POL-OR (political order) is a left-side output. WO-UNF (world unification) and MT-INFO (multi-information) form lower-left. (P)JSG is the point of activation of a diagram-only term. PROG-CONT (progressional continuance) and INFO-SOLD (information solidification) constitute lower-right convergence. Structural argument: extended-functionalism crossed with composite-continuance requires both the perceived-vibrational and perceived-physical fundamentals (the (p) and (per-) prefixes mark these as *perception-grade* knowledge, not absolute) — Braxton's diagrammatic claim that cross-cultural extension produces composite-continuance only when both perception layers are operative.",
+  "terms": [
+    { "termId": "ext-ft", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "tech-dy" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "afi" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "mth" },
+    { "termId": "pol-or" },
+    { "termId": "wo-unf" },
+    { "termId": "mt-info" },
+    { "termId": "jsg", "prefix": "p" },
+    { "termId": "prog-cont" },
+    { "termId": "info-sold" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "afi", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "mth", "type": "solid" },
+    { "from": "ext-ft", "to": "pol-or", "type": "solid" },
+    { "from": "wo-unf", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "c-cont", "type": "solid" },
+    { "from": "jsg", "to": "info-sold", "type": "solid" },
+    { "from": "c-cont", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "info-sold", "type": "solid" }
+  ]
+}

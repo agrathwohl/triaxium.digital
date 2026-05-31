@@ -1,0 +1,98 @@
+{
+  "id": "v3-p456-1",
+  "volume": 3,
+  "section": "TRF(CW)-28",
+  "page": 456,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------VT.PLT.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(CW)-28. The prose below identifies the structural target: 'Quite possibly the best way to understand the significance of bi-aitionalism - as a unification, spiritual and ethical insight factor - might be to examine the post-World War Two juncture in American history.' The crossing diagrams how world-exposure principle structurally meets vibrational-plateau at the bi-aitionalism scale: WO-EXP-PRI crossed with VT-PLT. WO-EXP-PRI sits at left with the subject-arrow; VT-PLT at center-lower-right as partner-axis. INFO-FM (information form-medium), PRI-INFO (principle information), SG (source-generation) upper chain. INFO-AF-BS (information-affinity base), ALT-DEF (alternative definition), ALT-FT (alternative functionalism) on the right. TR (transformation) lower-left, UNF-PI (unified physical-implication) lower-center, POL-ACT (political activism) lower-right.",
+  "terms": [
+    {
+      "termId": "wo-exp-pri",
+      "isSubject": true
+    },
+    {
+      "termId": "vt-plt"
+    },
+    {
+      "termId": "info-fm"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "sg"
+    },
+    {
+      "termId": "info-af-bs"
+    },
+    {
+      "termId": "alt-def"
+    },
+    {
+      "termId": "alt-ft"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "unf-pi"
+    },
+    {
+      "termId": "pol-act"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "wo-exp-pri",
+      "to": "vt-plt",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "info-fm",
+      "type": "solid"
+    },
+    {
+      "from": "info-fm",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "info-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-bs",
+      "to": "alt-def",
+      "type": "solid"
+    },
+    {
+      "from": "alt-def",
+      "to": "alt-ft",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "unf-pi",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "pol-act",
+      "type": "solid"
+    }
+  ]
+}

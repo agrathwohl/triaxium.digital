@@ -1,0 +1,111 @@
+{
+  "id": "v3-p127-1",
+  "volume": 3,
+  "section": "ALT(FT)II-21",
+  "page": 127,
+  "subject": "act",
+  "title": "ACT.------INFO.TRNS.",
+  "type": "hub-spoke",
+  "description": "First of two diagrams in ALT(FT)II-21 \u2014 the section closing with Braxton's call: 'There is now a need to combat the mis-information surrounding world information \u2014 and we can no longer wait for western scholars and definers to discover universality and bail us out of this dilemma \u2014 because these people are part of the problem. The time to act is now (and it was \"now\" two thousand years ago).' The crossing diagrams how action structurally meets information-transition at the universal-information scale: ACT (action \u2014 the actual move-now action the prose names) is crossed with INFO-TRNS (information transition \u2014 the partner-axis converting action into the western definers' working information). ACT sits centrally with the subject-arrow; JR-DY (junior dynamic) rises above and MT-INFO (meta-information) at upper-left with RT-DY (reality dynamics) and INFO-TRNS at top as the upper chain. DOC (documentation) anchors the right margin as the partner-side's upper output. CUL-AF-H (cultural-affinity host) sits at right of ACT, with POL-P (political particulars) below as the partner-side downward output. C-FO-ACT (central focused activism) at the left, with DEC (decision) at lower-left and C-INFO (central information) below as the subject-side downward chain. POL-DY (political dynamics) hangs at the bottom-center as the bridging-axis downward terminus. Structural argument: when action is crossed with information-transition, the upper chain JR-DY \u2192 MT-INFO \u2192 RT-DY \u2192 INFO-TRNS \u2192 DOC is the *western definers' route* \u2014 junior-dynamic routes through meta-information and reality-dynamics into the partner-axis's information-transition, finally producing documentation. This is exactly what the prose names: the route through which 'mis-information surrounding world information' gets manufactured. The subject's C-FO-ACT \u2192 DEC \u2192 C-INFO chain on the left is what action produces alone \u2014 central-focused-activism routes through decision into central-information without ever reaching the partner-axis. CUL-AF-H \u2192 POL-P is the partner-side bottom \u2014 cultural-affinity-host produces political-particulars. POL-DY at the bottom-center is the bridging terminus. The 'time to act is now' is structurally the call to hold the C-FO-ACT diagonal back across into RT-DY without letting JR-DY's upper chain capture it first \u2014 Braxton's structural insistence that action precedes the western definers' chain rather than waiting on it.",
+  "terms": [
+    {
+      "termId": "act",
+      "isSubject": true
+    },
+    {
+      "termId": "info-trns"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "jr-dy"
+    },
+    {
+      "termId": "doc"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "cul-af-h"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "pol-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "act",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "jr-dy",
+      "type": "solid"
+    },
+    {
+      "from": "jr-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "doc",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "cul-af-h",
+      "type": "solid"
+    },
+    {
+      "from": "cul-af-h",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "pol-dy",
+      "type": "solid"
+    }
+  ]
+}

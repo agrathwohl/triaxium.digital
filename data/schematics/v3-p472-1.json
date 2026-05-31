@@ -1,0 +1,120 @@
+{
+  "id": "v3-p472-1",
+  "volume": 3,
+  "section": "TRF(II)-8",
+  "page": 472,
+  "subject": "expn",
+  "title": "EXPN.------PROG.CONT.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(II)-8. The prose above identifies: 'transformation, by its very definition, functions as a factor to reshape a given vibrational or physical universe situation. The realness of this phenomenon will comment on the changing nature of political and social dynamics.' The crossing diagrams how expansionism structurally meets progressional-continuance at the transformational-reshape scale: EXPN (expansionism) crossed with PROG-CONT (progressional continuance). EXPN sits at left with the subject-arrow; PROG-CONT at upper-right as partner-axis. ALT-FT (alternative functionalism) upper-left, DYM-FT (dynamic functionalism) upper-center, ACT (action) center as upper bridging chain. INFO-DY (information dynamics), MT-INFO (meta-information), PER-DY (perceived dynamics) on the right as partner outputs. APL-DT (applied dictates) center, IST-F-ACT (isolated-focus activism) lower-right. (R)INT (reality of intention), ECO-DY (economic dynamics), POL-P (political particulars) at lower-left as subject's downward chain. Structural argument: the upper chain ALT-FT -> DYM-FT -> ACT -> PROG-CONT routes the form's expansionism through alternative-functionalism and action into progressional-continuance.",
+  "terms": [
+    {
+      "termId": "expn",
+      "isSubject": true
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "alt-ft"
+    },
+    {
+      "termId": "dym-ft"
+    },
+    {
+      "termId": "act"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "ist-f-act"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "eco-dy"
+    },
+    {
+      "termId": "pol-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "expn",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "alt-ft",
+      "to": "expn",
+      "type": "solid"
+    },
+    {
+      "from": "alt-ft",
+      "to": "dym-ft",
+      "type": "solid"
+    },
+    {
+      "from": "dym-ft",
+      "to": "act",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "ist-f-act",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "pol-p",
+      "type": "solid"
+    }
+  ]
+}

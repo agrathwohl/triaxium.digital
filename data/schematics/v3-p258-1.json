@@ -1,0 +1,115 @@
+{
+  "id": "v3-p258-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-12",
+  "page": 258,
+  "subject": "ext-dy",
+  "title": "EXT.DY.------SOC.RT.DY.",
+  "type": "hub-spoke",
+  "description": "First of two diagrams in PR.S(RD)II-12. The following prose names the structural target: 'From early creative music (e.g., Louis Armstrong and Duke Ellington) until the present, western journalism has basically focused on the form and tools of the music as a means to interpret whether or not a given participation corresponds to an imposed definition of \"real\" (or correct).' The crossing diagrams how extended-dynamics structurally meets social-reality dynamics at the journalism's-form-and-tools-focus scale: EXT-DY (extended dynamics \u2014 the form's actual extended-working) crossed with SOC-RT-DY (social-reality dynamics \u2014 the partner-axis's working social-reality). EXT-DY sits centrally with the subject-arrow; COS-P (cosmic-particulars) at upper-left and EXPM (expansionism) at top-center with SCI-DY (scientific dynamics) at upper-right as the partner-side upper outputs. WO-EXP-PRI (world-exposure principle) at left and RE-ST (restructuralism) right of WO-EXP-PRI as the bridging upper hubs. TRS (transformation) and INFO-SOLD (information-soldered) at center-right with (R)INTR (the reality of introduction) below as the partner-side downward chain. SOC-RT-DY anchors the lower-left margin as partner-axis. C-INFO (central information) and T-C-IMP (temporal-continuity implication) at center-bottom with STF (structural-formal) below as the bridging-axis downward terminus. Structural argument: when extended-dynamics is crossed with social-reality dynamics, the upper diagonal COS-P \u2192 EXT-DY \u2192 EXPM \u2192 SCI-DY is the *cosmic-to-scientific route* \u2014 cosmic-particulars route through extended-dynamics into expansionism and finally into scientific-dynamics on the partner-side. WO-EXP-PRI \u2192 RE-ST is the bridging upper hub: world-exposure-principle routes into restructuralism. SCI-DY \u2192 TRS \u2192 INFO-SOLD \u2192 (R)INTR is the partner-side downward chain \u2014 scientific-dynamics routes through transformation into information-soldered and finally into the reality of introduction. SOC-RT-DY at the partner-axis bottom is the partner's terminus. C-INFO \u2192 T-C-IMP \u2192 STF is the bridging-axis downward chain \u2014 central-information routes through temporal-continuity-implication into structural-formal. The structural argument: journalism's focus on form-and-tools as imposed definition of 'real' is structurally produced when the upper diagonal converts EXT-DY's working extension via EXPM into SCI-DY's scientific-dynamics \u2014 the form's actual extended-dynamics gets translated into scientific-form-measurement, which the partner-axis then converts through TRS \u2192 INFO-SOLD into the imposed reality of introduction. The form's structural-formal terminus (STF) on the bridging-bottom is what black creative music's actual structural form-and-tools point to \u2014 but journalism captures the upper diagonal before that bridging chain reaches social-reality dynamics directly.",
+  "terms": [
+    {
+      "termId": "ext-dy",
+      "isSubject": true
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "expm"
+    },
+    {
+      "termId": "sci-dy"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "info-sold"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "stf"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ext-dy",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "ext-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "expm",
+      "type": "solid"
+    },
+    {
+      "from": "expm",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "sci-dy",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "info-sold",
+      "type": "solid"
+    },
+    {
+      "from": "info-sold",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "stf",
+      "type": "solid"
+    }
+  ]
+}

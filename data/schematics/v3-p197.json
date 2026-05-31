@@ -1,0 +1,122 @@
+{
+  "id": "v3-p197",
+  "volume": 3,
+  "section": "EVOL-35",
+  "page": 197,
+  "subject": "hi-p",
+  "title": "HI.P.-----SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in EVOL-35. The prose above identifies the structural target: 'All of the high culture information in existence seems to comment on the same basic reality focus. That being: how to live with each other - how to treat each other - the concept of there being greater forces determining what is really happening (God) and the inter-relationship of this information as a means to function.' The crossing diagrams how high-purpose structurally meets social-reality at the world-unification-purpose scale: HI-P crossed with SOC-RT. HI-P sits at left with the subject-arrow; SOC-RT at lower-center as partner-axis. ATTN (attention), AF-DY (affinity dynamics), STY (stylization), SPT-DY (spectacle dynamics) upper chain. MT-INTR (meta-introduction), INFO-DY (information dynamics), SOC-RT-DEVL (social-reality development) upper-right. SF-RZ (self-realization) center-left, UTZ (utilization) center. PART (participation), SCI-DY (scientific dynamics) right. EXP-DY (exposure dynamics) lower-center.",
+  "terms": [
+    {
+      "termId": "hi-p",
+      "isSubject": true
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "sty"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "soc-rt-devl"
+    },
+    {
+      "termId": "sf-rz"
+    },
+    {
+      "termId": "utz"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "sci-dy"
+    },
+    {
+      "termId": "exp-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "hi-p",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "sty",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "soc-rt-devl",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "sf-rz",
+      "type": "solid"
+    },
+    {
+      "from": "sf-rz",
+      "to": "utz",
+      "type": "solid"
+    },
+    {
+      "from": "utz",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "exp-dy",
+      "type": "solid"
+    }
+  ]
+}

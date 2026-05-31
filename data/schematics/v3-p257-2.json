@@ -1,0 +1,38 @@
+{
+  "id": "v3-p257-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-11",
+  "page": 257,
+  "subject": "sty",
+  "title": "(R)STY.------INFO.F.",
+  "type": "crossing",
+  "description": "Second diagram on page 257 (PR.S(RD)II-11), paired with ALT-FT × SPT-GH above. Where the first diagram structurally diagrams how alternative-functionalism reaches information-dynamics via the partner-axis's extended chain, this one names what stylization meets when information-form is the working partner: (R)STY (the reality of stylization — the actual stylistic working the form takes) crossed with INFO-F (information form — the partner-axis converter into received-information form). STY sits on the right with the subject-arrow; INDIV-TD (individual transformation-dynamics) at top-center and ATTN (attention) at top-right with POST (postulation) below STY as the subject-side upper outputs. AF-DY (affinity dynamics) sits at upper-left as bridging upper-input; PER-DY (perceived dynamics) sits centrally and AFI (affinity insight) on the left as the bridging upper hub. VT-DY (vibrational dynamics) hangs at the right margin below STY as the partner-side downward output. RIT-DY (ritual dynamics) sits centrally below as the bridging hub. SPT-DY (spectacle dynamics) anchors the lower-left and INFO-F sits at center-bottom as partner-axis with SOC-RT-DY (social-reality dynamics) at lower-right as the partner-side downward terminus. Structural argument: when stylization is crossed with information-form, the upper diagonal AF-DY → PER-DY → AFI is the *affinity-insight route* — affinity-dynamics routes through perceived-dynamics into affinity-insight on the bridging upper-side. ATTN → INDIV-TD → AF-DY routes attention through individual-transformation back to affinity-dynamics. STY → POST is the subject's downward output: stylization into postulation. The central RIT-DY hub holds the bridging-axis: ritual-dynamics routes from AFI on the left into INFO-F at center-bottom and SOC-RT-DY at lower-right. SPT-DY at the lower-left is what stylization produces alone via spectacle-dynamics. The structural argument: the form's actual stylization reaches information-form only when AFI holds the upper bridging-input chain and RIT-DY holds the central hub; otherwise STY routes only into POST (subject-postulation) and VT-DY (partner-vibrational), with social-reality-dynamics absorbing the partner-axis into received-information form without the form's affinity-insight ever crossing.",
+  "terms": [
+    { "termId": "sty", "isSubject": true, "prefix": "r" },
+    { "termId": "info-f" },
+    { "termId": "indiv-td" },
+    { "termId": "attn" },
+    { "termId": "af-dy" },
+    { "termId": "per-dy" },
+    { "termId": "post" },
+    { "termId": "afi" },
+    { "termId": "vt-dy" },
+    { "termId": "rit-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "soc-rt-dy" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "info-f", "type": "solid" },
+    { "from": "sty", "to": "attn", "type": "solid" },
+    { "from": "sty", "to": "post", "type": "solid" },
+    { "from": "attn", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "rit-dy", "type": "solid" },
+    { "from": "info-f", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "vt-dy", "type": "solid" }
+  ]
+}

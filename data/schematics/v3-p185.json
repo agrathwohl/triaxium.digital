@@ -1,0 +1,65 @@
+{
+  "id": "v3-p185",
+  "volume": 3,
+  "section": "EVOL-23",
+  "page": 185,
+  "subject": "lang",
+  "title": "LANG.------(P)SOC.RT.",
+  "type": "crossing",
+  "description": "Diagram in EVOL-23. The prose above identifies the structural target: 'the reality of present-day information dynamics will not be dealt with unless those of us outside the basic structure move to change it. In the final analysis, we really have no other choice. Either we change the information reality surrounding our lives or progressively become the effect of mis-documentation and/or imposed affinity dynamics. There are no other alternatives.' The crossing diagrams how language structurally meets the physical-universe social-reality at the change-the-information-reality scale: LANG (language) crossed with (P)SOC-RT (physical-universe social-reality). LANG sits at left with the subject-arrow; SOC-RT at upper-right as partner-axis. AFL (affinity alignment) center-left, AFL-DY (affinity dynamics) upper-center as bridging hubs. (R)ATTN (reality of attention) lower-left, VT-AF/ATT (vibrational-affinity attitude) at lower-right as subject's downward outputs. Structural argument: when language is crossed with physical-universe social-reality, the upper chain AFL -> AFL-DY -> SOC-RT routes the form's language through affinity-alignment and affinity-dynamics into social-reality. The form's actual change-the-information-reality move requires holding the AFL hub open.",
+  "terms": [
+    {
+      "termId": "lang",
+      "isSubject": true
+    },
+    {
+      "termId": "soc-rt",
+      "prefix": "p"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "attn",
+      "prefix": "r"
+    },
+    {
+      "termId": "vt-af-att"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "lang",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "lang",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "lang",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "vt-af-att",
+      "type": "solid"
+    }
+  ]
+}

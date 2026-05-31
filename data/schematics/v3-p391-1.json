@@ -1,0 +1,39 @@
+{
+  "id": "v3-p391-1",
+  "volume": 3,
+  "section": "JR-13",
+  "page": 391,
+  "subject": "proj",
+  "title": "PROJ.------C.INFO.",
+  "type": "crossing",
+  "description": "First of two diagrams in JR-13 (Jazz-Rock). The prose immediately above identifies the structural target: 'To understand the reality implications of jazz-rock, it would be to our advantage to better understand the position of composite western creativity (from every so-called persuasion) with regard to the dynamic vibrational complications of its aesthetic — as a means to establish a basis for probing into the secrets of this projection.' The crossing diagrams how projection structurally meets central-information at the jazz-rock-aesthetic-secrets scale: PROJ (projection — the form's actual projecting working) crossed with C-INFO (central information — the partner-axis's central-information chain). PROJ sits centrally-down with the subject-arrow; INFO-DE(B) (black information-descent) at top-center and IF-ST-DY (isolated-focus stable-dynamics) at upper-right with SCI-DY (scientific dynamics) and MTH (method) further right as the partner-side upper outputs. C-INFO sits at upper-left; (R)INTR (the reality of introduction) sits centrally as the bridging hub. EXT-FT (extended functionalism) and LANG-DY (language dynamics) at right-margin as partner-side downward outputs. SPT-DY (spectacle dynamics) at left-center and EXB-H-OR (establishing high order) below as the subject-side downward outputs. C-RH (central rhythm) at lower-left and OIS at the lower-center as the bridging-axis downward terminus. Structural argument: when projection is crossed with central-information, the upper diagonal INFO-DE(B) → IF-ST-DY → SCI-DY → MTH is the *black-descent-into-method route* — black information-descent routes through isolated-focus stable-dynamics into scientific-dynamics and finally into method, the partner-side's working chain that converts the form's black-information into received methodology. C-INFO → (R)INTR is the bridging upper input — central-information routes through the reality of introduction. The partner's MTH → EXT-FT → LANG-DY chain on the right converts method through extended-functionalism into language-dynamics. SPT-DY → EXB-H-OR is the subject's downward chain. C-RH → OIS at the bridging-bottom is what projection produces. The structural argument: the secrets of this projection (jazz-rock) the prose names are structurally that the upper diagonal must hold the four-edge chain INFO-DE(B) → IF-ST-DY → SCI-DY → MTH simultaneously — the bi-aitional principle requires the black-information descent to actually reach method via scientific-dynamics rather than getting absorbed into the partner-axis's language-dynamics chain on its own.",
+  "terms": [
+    { "termId": "proj", "isSubject": true },
+    { "termId": "c-info" },
+    { "termId": "info-de", "suffix": "b" },
+    { "termId": "if-st-dy" },
+    { "termId": "sci-dy" },
+    { "termId": "mth" },
+    { "termId": "ext-ft" },
+    { "termId": "lang-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "c-rh" },
+    { "termId": "ois" }
+  ],
+  "relationships": [
+    { "from": "proj", "to": "c-info", "type": "solid" },
+    { "from": "info-de", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "mth", "type": "solid" },
+    { "from": "mth", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "lang-dy", "type": "solid" },
+    { "from": "c-info", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "proj", "type": "solid" },
+    { "from": "proj", "to": "spt-dy", "type": "solid" },
+    { "from": "proj", "to": "exb-h-or", "type": "solid" },
+    { "from": "proj", "to": "c-rh", "type": "solid" },
+    { "from": "exb-h-or", "to": "ois", "type": "solid" }
+  ]
+}

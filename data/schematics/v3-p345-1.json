@@ -1,0 +1,40 @@
+{
+  "id": "v3-p345-1",
+  "volume": 3,
+  "section": "PMBA-9",
+  "page": 345,
+  "subject": "stf",
+  "title": "(R)STF.------SOC.RT.",
+  "type": "crossing",
+  "description": "First of two diagrams in PMBA-9 (Popular Music in Black America). The prose immediately above identifies the structural target: 'The emergence of rock and roll would signal the nature of the next transfer cycle in western culture, and on a physical universe level, this phenomenon would manifest itself in the cross-transfer shift of black popular music. Thus, the attraction this form would have in the white community would serve as the strongest factor to solidify moves towards real alternative options (with regard to life thrust).' The crossing diagrams how the reality of structural-form structurally meets social-reality at the rock-and-roll transfer-cycle scale: (R)STF (the reality of structural-formal phenomenon — the actual form rock-and-roll's working takes) crossed with SOC-RT (social reality — the partner-axis's receiving cultural conditions). STF sits on the left with the subject-arrow; APP-RDEF (applied redefinitions) at top-center and EXP-DY (exposure dynamics) at upper-right with POL-SIGN (political signal) and PER-DY (perceived dynamics) below as the partner-side upper outputs. SOC-RT sits at right as partner-axis with OBS (observation) below as the partner-side downward output. POL-DY (political dynamics) sits at the upper-left as the subject's upper output. ALT-FT (alternative functionalism) hangs at the lower-left as the subject's downward output. PRI-INFO (principle information) sits centrally with MD-DY (medium dynamics), INFO-DY (information dynamics), and CULT-INFO-BS (cultural-information base) below as the bridging-axis downward chain. Structural argument: when structural-form is crossed with social-reality, the upper diagonal APP-RDEF → EXP-DY → SOC-RT is the *transfer-cycle route* — applied-redefinitions route through exposure-dynamics into social-reality, the partner-axis's working chain that converts black popular music's structural-form into the white community's cross-transfer reception. POL-SIGN → PER-DY → OBS is what the partner-side produces as political-signal-perceived-observation. The subject's POL-DY upward and ALT-FT downward outputs are what structural-form produces alone. The central PRI-INFO → MD-DY → INFO-DY → CULT-INFO-BS chain is the *medium route* — principle-information routes through medium-dynamics into information-dynamics and finally into cultural-information base. Structural argument: the cross-transfer shift the prose names is structurally that the upper APP-RDEF → EXP-DY → SOC-RT diagonal already-runs in the white community while the subject's central PRI-INFO chain converts the form's principle-information through the medium-route's accumulated working — the rock-and-roll form thus reaches social-reality only on terms the partner-axis has pre-conditioned.",
+  "terms": [
+    { "termId": "stf", "isSubject": true, "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "app-rdef" },
+    { "termId": "exp-dy" },
+    { "termId": "pol-sign" },
+    { "termId": "per-dy" },
+    { "termId": "obs" },
+    { "termId": "pol-dy" },
+    { "termId": "alt-ft" },
+    { "termId": "pri-info" },
+    { "termId": "md-dy" },
+    { "termId": "info-dy" },
+    { "termId": "cult-info-bs" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "soc-rt", "type": "solid" },
+    { "from": "stf", "to": "pol-dy", "type": "solid" },
+    { "from": "stf", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "app-rdef", "to": "pol-sign", "type": "solid" },
+    { "from": "soc-rt", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "obs", "type": "solid" },
+    { "from": "stf", "to": "alt-ft", "type": "solid" },
+    { "from": "stf", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "md-dy", "type": "solid" },
+    { "from": "md-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "cult-info-bs", "type": "solid" }
+  ]
+}

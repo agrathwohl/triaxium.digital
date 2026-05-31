@@ -1,0 +1,33 @@
+{
+  "id": "v3-p61",
+  "volume": 3,
+  "section": "BK(NM)-37",
+  "page": 61,
+  "subject": "th-cont",
+  "title": "(R)TH.CONT.------T.C.IMP.------COS.AGN.",
+  "type": "network",
+  "description": "Diagram in BK(NM)-37 (Black Notated Music, Level One), a *triple-titled* schematic — distinctive in the corpus because Braxton uses two `------` separators to chain three terms in the title, signaling a three-way crossing rather than a binary one. (R)TH-CONT (the reality of thrust continuance) ── T-C-IMP (time continuum implications) ── COS-AGN (cosmic assignment): the question is what these three concepts produce when held in mutual three-way tension. On the page Braxton argues that 'the progressional continuum of creative music from the black aesthetic has forecasted and actualized a whole new dynamic understanding of even the instruments themselves.' MTA-IMP (meta-implications), COS-AGN (the third title term), and AFI (affinity insight) are upper structure. C-INFO (composite information), INFO-AF-B (information affinity basis), CULT-INFO-DY (culture information dynamics) form the lower-left convergence. DYM-F (dynamic functionalism) and BIA (bi-aitionalism) complete the lower-right. T-C-IMP is the central convergence hub. Structural argument: the three-way title is the diagram's argument: thrust continuance, time-continuum implications, and cosmic assignment must be read mutually rather than as binary crossings. Braxton's diagrammatic claim is that the reality of black-notated-music's thrust continuance can only be understood when both its time-continuum implications AND its cosmic assignment are honored simultaneously — a three-axis crossing rather than a single-axis tension.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true, "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "cos-agn" },
+    { "termId": "mta-imp" },
+    { "termId": "afi" },
+    { "termId": "c-info" },
+    { "termId": "info-af-b" },
+    { "termId": "cult-info-dy" },
+    { "termId": "dym-f" },
+    { "termId": "bia" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "cos-agn", "type": "solid" },
+    { "from": "mta-imp", "to": "t-c-imp", "type": "solid" },
+    { "from": "afi", "to": "cos-agn", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-af-b", "type": "solid" },
+    { "from": "c-info", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "bia", "type": "solid" }
+  ]
+}

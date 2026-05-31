@@ -1,0 +1,39 @@
+{
+  "id": "v3-p29",
+  "volume": 3,
+  "section": "BK(NM)-5",
+  "page": 29,
+  "subject": "c-cont",
+  "title": "C.CONT.------INFO.DE.(B)",
+  "type": "crossing",
+  "description": "Diagram closing BK(NM)-5. The prose immediately above identifies the structural target: 'it might be more useful to simply examine the cross-transfer implications of information exchange.' The crossing diagrams how composite-continuance structurally meets the black-information-descent at the cross-transfer-of-information-exchange scale: C-CONT (composite continuance — the form's actual continuance working) crossed with INFO-DE (information descent — the partner-axis with the (b) suffix marking this as the *black* information-descent specifically). C-CONT sits at top-center with the subject-arrow; HI-P (high purpose) at upper-left and VT-DY (vibrational dynamics) with AF-NT (affinity natural) at top-right as the partner-side upper outputs. SCI-DY (scientific dynamics) sits centrally as the bridging hub; RT-DY (reality dynamics) at left and EXP-DY (exposure dynamics) at center-right with T-C-IMP (temporal-continuity implication) and POL-IMP (political implication) below as the partner-side downward chain. AFI (affinity insight) hangs at lower-left and INFO-CON (information conservation) at lower-center-right with EXT-FT (extended functionalism) at the bottom-right as the bridging-axis downward chain. INFO-DE(B) sits at center-bottom as partner-axis terminus. Structural argument: when composite-continuance is crossed with the black-information descent, the upper diagonal HI-P → C-CONT → VT-DY → AF-NT is the *high-purpose route* — high-purpose routes through composite-continuance into vibrational-dynamics and finally into affinity-natural, the partner-side's working upward chain. SCI-DY hub holds the bridging diagonal: scientific-dynamics routes through EXP-DY into T-C-IMP and POL-IMP — the partner-axis converts the form's composite-continuance into political-implications via exposure-dynamics. HI-P → RT-DY → AFI on the left is what high-purpose produces alone through reality-dynamics into affinity-insight. INFO-CON → EXT-FT on the bottom-right is the bridging-bottom chain — information-conservation routes through extended-functionalism. The structural argument: the cross-transfer of information-exchange the prose names is structurally the configuration where SCI-DY's bridging hub converts the form's composite-continuance into political-implications via the partner-axis chain — the *information descent* term in the title is precisely the political-implications terminus, marking how black-creative-composers' composite-continuance arrives at the partner-axis as descended information, not as the working continuance the upper-diagonal would carry to vibrational-dynamics.",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true },
+    { "termId": "info-de", "suffix": "b" },
+    { "termId": "hi-p" },
+    { "termId": "vt-dy" },
+    { "termId": "af-nt" },
+    { "termId": "sci-dy" },
+    { "termId": "rt-dy" },
+    { "termId": "exp-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "pol-imp" },
+    { "termId": "afi" },
+    { "termId": "info-con" },
+    { "termId": "ext-ft" }
+  ],
+  "relationships": [
+    { "from": "c-cont", "to": "info-de", "type": "solid" },
+    { "from": "c-cont", "to": "hi-p", "type": "solid" },
+    { "from": "c-cont", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-nt", "type": "solid" },
+    { "from": "c-cont", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "pol-imp", "type": "solid" },
+    { "from": "sci-dy", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "ext-ft", "type": "solid" },
+    { "from": "hi-p", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "afi", "type": "solid" }
+  ]
+}

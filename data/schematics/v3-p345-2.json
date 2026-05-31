@@ -1,0 +1,43 @@
+{
+  "id": "v3-p345-2",
+  "volume": 3,
+  "section": "PMBA-9",
+  "page": 345,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------INFO.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 345 (PMBA-9), paired with (R)STF × SOC-RT above. Where the first diagram structurally diagrams how rock-and-roll's structural-form reaches social-reality via the white-community transfer-cycle, this one names what progressional-continuance meets when information-dynamics is the working partner — the deeper question of how black popular music's continuance is converted by the receiving information-channel: PROG-CONT (progressional continuance — the form's actual forward motion) crossed with INFO-DY (information dynamics). PROG-CONT sits on the left with the subject-arrow; (P)SG (physical-universe source-generation) rises above and TH-CONT (thrust continuance) at top-center with LANG-DY (language dynamics) at upper-right as the upper bridging chain. CPS-P (composite particulars) sits at left and TR (transformation) centrally as the bridging hubs. PRI-INFO (principle information) at upper-right above PROJ-DY (projection dynamics). INFO-DY sits at center-right as partner-axis; SOC-RT-DT (social-reality dictates) at right and IST-F (isolated focus) below as the partner-side downward chain. TM (the matrix/medium term) sits centrally below with RE-ST (restructuralism) at lower-left, TRS (transformation, lowercase) at center-bottom, and STF (structural-formal) at the bottom as the bridging-axis downward chain. Structural argument: when progressional-continuance is crossed with information-dynamics, the upper diagonal (P)SG → TH-CONT → LANG-DY → SOC-RT-DT → IST-F is the *language-dictates route* — physical-universe source-generation routes through thrust-continuance into language-dynamics, then through social-reality dictates into isolated-focus on the partner-side. This is the structural route through which the receiving culture's language-dynamics absorb black popular music's source-generation into isolated-focus reception. CPS-P → PROG-CONT → TR → PRI-INFO → PROJ-DY → INFO-DY is the *information-conversion route* — composite-particulars route through progressional-continuance into transformation, then through principle-information into projection-dynamics, finally producing information-dynamics on the partner-axis. The central TM → TRS → STF chain is the bridging-axis downward terminus — the matrix routes through transformation into structural-formal. RE-ST on the lower-left is the subject's restructuralism output. The structural argument: the cross-transfer shift the prior diagram named structurally requires the partner-axis to hold both upper diagonals simultaneously — without language-dictates *and* projection-dynamics-into-information-dynamics, the form's progressional-continuance reaches the receiving culture's information-dynamics only through TM's matrix-conversion, where the form's actual working-content gets transcoded into transformation-as-structural-formal alone.",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "sg", "prefix": "p" },
+    { "termId": "th-cont" },
+    { "termId": "lang-dy" },
+    { "termId": "cps-p" },
+    { "termId": "tr" },
+    { "termId": "pri-info" },
+    { "termId": "proj-dy" },
+    { "termId": "soc-rt-dt" },
+    { "termId": "ist-f" },
+    { "termId": "tm" },
+    { "termId": "re-st" },
+    { "termId": "trs" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "info-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "sg", "type": "solid" },
+    { "from": "prog-cont", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "soc-rt-dt", "type": "solid" },
+    { "from": "soc-rt-dt", "to": "ist-f", "type": "solid" },
+    { "from": "sg", "to": "cps-p", "type": "solid" },
+    { "from": "tr", "to": "pri-info", "type": "solid" },
+    { "from": "tr", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "info-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "stf", "type": "solid" },
+    { "from": "re-st", "to": "prog-cont", "type": "solid" }
+  ]
+}

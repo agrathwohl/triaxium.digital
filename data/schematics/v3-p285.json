@@ -1,0 +1,99 @@
+{
+  "id": "v3-p285",
+  "volume": 3,
+  "section": "PR.S(RD)II-39",
+  "page": 285,
+  "subject": "info-dy",
+  "title": "(R)INFO.DY.----C.CULT.AT.",
+  "type": "crossing",
+  "description": "Diagram in PR.S(RD)II-39. The prose above identifies the structural target: 'The controlling and defining forces of western information regulation function as a negative factor to the actual meta-reality of creative music.' The crossing diagrams how the reality of information-dynamics structurally meets central cultural attitude at the regulation-of-creative-music scale: (R)INFO-DY (reality of information dynamics) crossed with C-CULT-AT (central cultural attitude). INFO-DY sits at lower-center with the subject-arrow; C-CULT-AT at upper-center as partner-axis. CULT-INFO-B (cultural-information base) upper-right, DOC (documentation) center-right, MD-DY (medium dynamics) right, JR-DY (junior dynamic) right. MT-INFO (meta-information) left. T-C-IMP (temporal-continuity implication) lower-left, AF-DY (affinity dynamics) lower-center, RT-DY (reality dynamics) lower-right, RT-INT-TR (reality-internal transformation) lower-right. Structural argument: when reality-information-dynamics is crossed with central-cultural-attitude, the upper-right chain CULT-INFO-B -> DOC -> MD-DY -> JR-DY is the western-information-regulation route. The lower chain T-C-IMP -> AF-DY -> RT-DY -> RT-INT-TR routes through the form's own working axis.",
+  "terms": [
+    {
+      "termId": "info-dy",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "c-cult-at"
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "doc"
+    },
+    {
+      "termId": "md-dy"
+    },
+    {
+      "termId": "jr-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "rt-int-tr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "info-dy",
+      "to": "c-cult-at",
+      "type": "solid"
+    },
+    {
+      "from": "c-cult-at",
+      "to": "cult-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "c-cult-at",
+      "to": "doc",
+      "type": "solid"
+    },
+    {
+      "from": "doc",
+      "to": "md-dy",
+      "type": "solid"
+    },
+    {
+      "from": "md-dy",
+      "to": "jr-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "rt-int-tr",
+      "type": "solid"
+    }
+  ]
+}

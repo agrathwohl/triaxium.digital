@@ -1,0 +1,32 @@
+{
+  "id": "v3-p214",
+  "volume": 3,
+  "section": "T(IMP)M-12",
+  "page": 214,
+  "subject": "grad",
+  "title": "GRAD.------STF.",
+  "type": "crossing",
+  "description": "Diagram in T(IMP)M-12 (The Teaching of Improvised Music, Level One), on the page where Braxton argues that 'there is a difference between the essence factor that dictates how functionalism is perceived in world creativity and that of western art music. This difference is not reflected in present-day teaching methods, however — and as such, the reality of world creativity (information dynamics) and its encounter with western observation must be looked at very seriously.' (C)GRAD (gradualism) is crossed with STF (source transfer): the question is what gradualism produces when crossed with source-transfer, in the context of teaching improvised music through institutions whose essence-factor differs from the music's source. ACT (activism) and TF-SH (transfer shift) feed the central. (PO)APP-RDEF (the *position of* applied redefinitions — the (po) prefix marks 'position of' rather than a sustained state) and (PO)RE-DIFF (the position of redefinitions) bracket the upper-middle area. RE-ST (restructuralism) and (P)INT (the point of activation of intention) form the right output. IST-F (isolated focus) and AFTF (affinity transfer) constitute the lower productive layer. Structural argument: gradualism crossed with source-transfer routes through *positions* of applied-redefinitions and redefinitions — Braxton's prefix-coded claim that gradualism captures source-transfer by positioning concepts as if they were redefined when they have only been positionally reframed. Real intention requires activation; restructuralism requires the affinity-transfer chain through isolated-focus to escape the gradualist capture.",
+  "terms": [
+    { "termId": "grad", "isSubject": true, "prefix": "c" },
+    { "termId": "stf" },
+    { "termId": "act" },
+    { "termId": "tf-sh" },
+    { "termId": "app-rdef", "prefix": "po" },
+    { "termId": "re-dif", "prefix": "po" },
+    { "termId": "re-st" },
+    { "termId": "int", "prefix": "p" },
+    { "termId": "ist-f" },
+    { "termId": "aftf" }
+  ],
+  "relationships": [
+    { "from": "act", "to": "stf", "type": "solid" },
+    { "from": "grad", "to": "stf", "type": "solid" },
+    { "from": "tf-sh", "to": "re-dif", "type": "solid" },
+    { "from": "app-rdef", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "int", "type": "solid" },
+    { "from": "stf", "to": "re-dif", "type": "solid" },
+    { "from": "aftf", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "re-st", "type": "solid" }
+  ]
+}

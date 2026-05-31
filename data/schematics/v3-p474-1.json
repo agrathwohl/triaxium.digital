@@ -1,0 +1,35 @@
+{
+  "id": "v3-p474-1",
+  "volume": 3,
+  "section": "TRF(II)-10",
+  "page": 474,
+  "subject": "per-phy-u-fund",
+  "title": "PER.PHY.U.FUND.-----WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(II)-10. The following prose names the structural target: 'Everything in this period seems to point to a transformation of some kind. Not just the alignment of one or two situations on the planet, but instead a multitude of factors... this is a cyclic shift phenomenon that utilizes many dynamic considerations — including time.' The crossing diagrams how periodic physical-universe-fundament structurally meets world-exposure-principle at the multi-factor-cyclic-shift scale: PER-PHY-U-FUND (periodic physical-universe fundament — the region's actual material-cultural ground over time) crossed with WO-EXP-PRI (world-exposure principle). PER-PHY-U-FUND sits at upper-left with the subject-arrow; COS-P (cosmic-particulars) at top-center and PRI-INFO (principle information) at upper-right with RE-CONT (recontinuance), a second COS-P, and C-CONT (composite continuance) below as the partner-side upper-right chain. WO-EXP-PRI sits centrally; EXT-FT (extended functionalism) at the lower-left and TH-CONT (thrust continuance), INFO-DY (information dynamics), TECH-DY (technological dynamics) as the bridging-axis middle chain. COS-P (a third instance) at lower-center and APL-DT (applied dictates) at the bottom-right as the bridging-axis downward terminus. Structural argument: when periodic physical-universe-fundament is crossed with world-exposure-principle, the upper diagonal COS-P → PRI-INFO → RE-CONT → COS-P → C-CONT is the *cosmic-principle re-continuance route* — cosmic-particulars route through principle-information into recontinuance and finally back to cosmic-particulars and composite-continuance. The triple appearance of COS-P (three distinct instances of cosmic-particulars across the diagram) is structurally significant: cosmic-particulars must be held at three different positions simultaneously for the form's periodic-physical-universe-fundament to actually reach world-exposure-principle. EXT-FT → WO-EXP-PRI → TH-CONT → INFO-DY → TECH-DY is the bridging middle chain — extended-functionalism routes through world-exposure-principle's central position into thrust-continuance, then through information-dynamics into technological-dynamics. APL-DT at the bridging-bottom is the applied-dictates terminus. The structural argument: the multi-factor cyclic-shift the prose names requires the triple-COS-P configuration to hold — without all three cosmic-particulars positions maintained, the world-exposure-principle's central axis collapses into TECH-DY's terminal technological-dynamics while the partner-axis's composite-continuance never receives the form's periodic working.",
+  "terms": [
+    { "termId": "per-phy-u-fund", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "cos-p" },
+    { "termId": "pri-info" },
+    { "termId": "re-cont" },
+    { "termId": "c-cont" },
+    { "termId": "ext-ft" },
+    { "termId": "th-cont" },
+    { "termId": "info-dy" },
+    { "termId": "tech-dy" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "per-phy-u-fund", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "re-cont", "type": "solid" },
+    { "from": "re-cont", "to": "c-cont", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "ext-ft", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "tech-dy", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "apl-dt", "type": "solid" }
+  ]
+}

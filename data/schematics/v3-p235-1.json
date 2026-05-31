@@ -1,0 +1,117 @@
+{
+  "id": "v3-p235-1",
+  "volume": 3,
+  "section": "T(IMP)M-33",
+  "page": 235,
+  "subject": "crtf-prog",
+  "title": "CRTF.PROG.------POL.P.",
+  "type": "crossing",
+  "description": "First of two diagrams in T(IMP)M-33. The crossing diagrams how creative-progression structurally meets political-particulars at the western-defining-fixation scale the following prose names: 'improvised music has now been fixed in a formulated phrase to the degree that western words can be applied to its functionalism.' CRTF-PROG crossed with POL-P. CRTF-PROG sits at lower-center with the subject-arrow; POL-P at upper-center as partner-axis. REL-APC (relational apparatus), MO-DY (motion dynamics), MT-INTR (meta-introduction), T-C-IMP (temporal-continuity implication), C-INFO (central information), SOC-RT-P (social-reality particular), POL-OR (political orientation) form the upper-right chain. SOC-RT-DEVT (social-reality developmental), CULT-SOLD (culture-soldered), PER-DY (perceived dynamics) center. ECO-DY (economic dynamics), PHY-U-C (physical-universe context) lower-left.",
+  "terms": [
+    {
+      "termId": "crtf-prog",
+      "isSubject": true
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "rel-apc"
+    },
+    {
+      "termId": "mo-dy"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "pol-or"
+    },
+    {
+      "termId": "soc-rt-devt"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "eco-dy"
+    },
+    {
+      "termId": "phy-u-c"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "crtf-prog",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "rel-apc",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "mo-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mo-dy",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "pol-or",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-devt",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "phy-u-c",
+      "type": "solid"
+    }
+  ]
+}

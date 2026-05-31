@@ -5,31 +5,96 @@
   "page": 457,
   "subject": "pri-vt-td",
   "title": "PRI.VT.TD.------PROG.CONT.",
-  "type": "crossing",
-  "description": "Diagram closing MP(I)-31 — the section identifying black political activism's twelfth-hour need to adopt 'the vibrational and actual tenets of western ideology' as a clarifying real-reality move. The prose immediately above identifies the structural target: 'the fact that, in the twelfth hour, the composite-reality position of black political activism would have to adopt the vibrational and actual tenets of western ideology cannot be viewed lightly. Because the realness of this adaptation would clarify the real \"reality\" position of this phenomenon — and this is true on every level.' The crossing diagrams that adaptation structurally: (C)PRI-VT-TD (central principle vibrational transformation-dynamics — what black political activism's actual vibrational principles are when activated) is crossed with PROG-CONT (progressional continuance — the working continuance the western-ideology-adoption produces). PRI-VT-TD sits centrally with the subject-arrow; (R)MTH (the reality of method) rises above center and ACC-F (accumulated functionalism) sits at upper-left as the subject's upper context. INFO-DY (information dynamics) anchors the left margin with VT-DY (vibrational dynamics) below as the subject's downward chain. PROG-CONT sits at upper-right as partner-axis with COS-P (cosmic-particulars) hanging on the right. IF-ST-DY (isolated-focus stable dynamics) sits centrally as the bridging hub with C-CONT (composite continuance) to its right, INFO-TRNS (information-transition) below, and IST-F (isolated focus) at the lower-right as bridging terminus. Structural argument: when principle-vibrational-transformation-dynamics is crossed with progressional-continuance, the bridging hub IF-ST-DY is what carries the form into the partner-axis. The diagonals from ACC-F → INFO-DY → VT-DY route the subject's accumulated-functionalism down through information-dynamics into vibrational-dynamics — the form's own vibrational chain. PROG-CONT → COS-P routes the partner's progressional-continuance into cosmic-particulars. The bridging hub IF-ST-DY → C-CONT → INFO-TRNS → IST-F is the *adaptation chain* the prose names: isolated-focus stable-dynamics routes through composite-continuance and information-transition into isolated-focus — the structural shape of adopting western-ideological tenets *as principle* into the form's own working. (R)MTH at the top is the reality-of-method anchor: only when method-as-reality holds the upper diagonal does the central bridging chain produce the adaptation the prose says will 'clarify the real reality position.'",
+  "type": "hub-spoke",
+  "description": "Diagram closing MP(I)-31 \u2014 the section identifying black political activism's twelfth-hour need to adopt 'the vibrational and actual tenets of western ideology' as a clarifying real-reality move. The prose immediately above identifies the structural target: 'the fact that, in the twelfth hour, the composite-reality position of black political activism would have to adopt the vibrational and actual tenets of western ideology cannot be viewed lightly. Because the realness of this adaptation would clarify the real \"reality\" position of this phenomenon \u2014 and this is true on every level.' The crossing diagrams that adaptation structurally: (C)PRI-VT-TD (central principle vibrational transformation-dynamics \u2014 what black political activism's actual vibrational principles are when activated) is crossed with PROG-CONT (progressional continuance \u2014 the working continuance the western-ideology-adoption produces). PRI-VT-TD sits centrally with the subject-arrow; (R)MTH (the reality of method) rises above center and ACC-F (accumulated functionalism) sits at upper-left as the subject's upper context. INFO-DY (information dynamics) anchors the left margin with VT-DY (vibrational dynamics) below as the subject's downward chain. PROG-CONT sits at upper-right as partner-axis with COS-P (cosmic-particulars) hanging on the right. IF-ST-DY (isolated-focus stable dynamics) sits centrally as the bridging hub with C-CONT (composite continuance) to its right, INFO-TRNS (information-transition) below, and IST-F (isolated focus) at the lower-right as bridging terminus. Structural argument: when principle-vibrational-transformation-dynamics is crossed with progressional-continuance, the bridging hub IF-ST-DY is what carries the form into the partner-axis. The diagonals from ACC-F \u2192 INFO-DY \u2192 VT-DY route the subject's accumulated-functionalism down through information-dynamics into vibrational-dynamics \u2014 the form's own vibrational chain. PROG-CONT \u2192 COS-P routes the partner's progressional-continuance into cosmic-particulars. The bridging hub IF-ST-DY \u2192 C-CONT \u2192 INFO-TRNS \u2192 IST-F is the *adaptation chain* the prose names: isolated-focus stable-dynamics routes through composite-continuance and information-transition into isolated-focus \u2014 the structural shape of adopting western-ideological tenets *as principle* into the form's own working. (R)MTH at the top is the reality-of-method anchor: only when method-as-reality holds the upper diagonal does the central bridging chain produce the adaptation the prose says will 'clarify the real reality position.'",
   "terms": [
-    { "termId": "pri-vt-td", "isSubject": true, "prefix": "c" },
-    { "termId": "prog-cont" },
-    { "termId": "mth", "prefix": "r" },
-    { "termId": "acc-f" },
-    { "termId": "info-dy" },
-    { "termId": "vt-dy" },
-    { "termId": "cos-p" },
-    { "termId": "if-st-dy" },
-    { "termId": "c-cont" },
-    { "termId": "info-trns" },
-    { "termId": "ist-f" }
+    {
+      "termId": "pri-vt-td",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "mth",
+      "prefix": "r"
+    },
+    {
+      "termId": "acc-f"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "info-trns"
+    },
+    {
+      "termId": "ist-f"
+    }
   ],
   "relationships": [
-    { "from": "pri-vt-td", "to": "prog-cont", "type": "solid" },
-    { "from": "pri-vt-td", "to": "mth", "type": "solid" },
-    { "from": "pri-vt-td", "to": "acc-f", "type": "solid" },
-    { "from": "acc-f", "to": "info-dy", "type": "solid" },
-    { "from": "info-dy", "to": "vt-dy", "type": "solid" },
-    { "from": "pri-vt-td", "to": "if-st-dy", "type": "solid" },
-    { "from": "if-st-dy", "to": "c-cont", "type": "solid" },
-    { "from": "if-st-dy", "to": "info-trns", "type": "solid" },
-    { "from": "info-trns", "to": "ist-f", "type": "solid" },
-    { "from": "prog-cont", "to": "cos-p", "type": "solid" }
+    {
+      "from": "pri-vt-td",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "acc-f",
+      "type": "solid"
+    },
+    {
+      "from": "acc-f",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "if-st-dy",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "if-st-dy",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "cos-p",
+      "type": "solid"
+    }
   ]
 }

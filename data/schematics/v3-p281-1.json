@@ -1,0 +1,118 @@
+{
+  "id": "v3-p281-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-35",
+  "page": 281,
+  "subject": "sty",
+  "title": "(R)STY.------PROJ.DY.",
+  "type": "crossing",
+  "description": "First of two diagrams in PR.S(RD)II-35. The prose below identifies the structural target: 'The retrograde affinity tendency functions as a factor to keep the people of its culture aware of the dynamic route of its path.' The crossing diagrams how reality-of-stylization structurally meets projection-dynamics at the retrograde-affinity-tendency scale: (R)STY crossed with PROJ-DY. STY sits at left with the subject-arrow; PROJ-DY at center as partner-axis. AF-POST (affinity postulation), RIT-DT (ritual dictates), POL-SIGN (political signal), RT-INT-TR (reality-internal transformation), SPT-DE (spectacle dictates) upper chain. T-C-IMP (temporal-continuity implication), MD-DY (medium dynamics), CULT-AF-B (cultural-affinity base) center-right. LK-IMP (linkage implication), PER-DY (perceived dynamics), PRI-INFO (principle information), OBS (observation) lower chain.",
+  "terms": [
+    {
+      "termId": "sty",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "af-post"
+    },
+    {
+      "termId": "rit-dt"
+    },
+    {
+      "termId": "pol-sign"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "spt-de"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "md-dy"
+    },
+    {
+      "termId": "cult-af-b"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "obs"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "sty",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "rit-dt",
+      "type": "solid"
+    },
+    {
+      "from": "rit-dt",
+      "to": "pol-sign",
+      "type": "solid"
+    },
+    {
+      "from": "pol-sign",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "spt-de",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "md-dy",
+      "type": "solid"
+    },
+    {
+      "from": "md-dy",
+      "to": "cult-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "obs",
+      "type": "solid"
+    }
+  ]
+}

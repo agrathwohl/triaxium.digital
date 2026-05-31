@@ -1,0 +1,115 @@
+{
+  "id": "v3-p445-2",
+  "volume": 3,
+  "section": "TRF(CW)-17",
+  "page": 445,
+  "subject": "bia",
+  "title": "BIA.----EXT.FT.",
+  "type": "crossing",
+  "description": "Second diagram on page 445 (TRF(CW)-17), paired with (R)PART x TR above. The crossing diagrams how bias structurally meets extended-functionalism at the creative-women improvised-music essence-factor scale: BIA crossed with EXT-FT. BIA sits centrally with the subject-arrow; EXT-FT at lower-left as partner-axis. PROJ-DY (projection dynamics), VT-PLT (vibrational plateau), TRS (transformation), RIT-DY (ritual dynamics) on upper chain. ALT-DEF (alternative definition), COS-P (cosmic-particulars), INFO-DE(B) (black information-descent), SPT-DY (spectacle dynamics) on the right side. TR-INFO (transformation-information) lower-left, AFI (affinity insight), UFI-PI (unified physical-implication) lower-right.",
+  "terms": [
+    {
+      "termId": "bia",
+      "isSubject": true
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "vt-plt"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "rit-dy"
+    },
+    {
+      "termId": "alt-def"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "info-de",
+      "suffix": "b"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "ufi-pi"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "bia",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "rit-dy",
+      "type": "solid"
+    },
+    {
+      "from": "alt-def",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "info-de",
+      "type": "solid"
+    },
+    {
+      "from": "info-de",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "ufi-pi",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "v3-p489-1",
+  "volume": 3,
+  "section": "TRF(II)-25",
+  "page": 489,
+  "subject": "int",
+  "title": "(R)INT.------PART.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(II)-25. The prose above the diagrams identifies the structural target: 'Transformation in this context will address itself to the nature of power flows... For the next cycle, people must learn how to share space on the physical universe level without trying to destroy each other.' The crossing diagrams how the reality of intention structurally meets participation at the power-sharing scale: (R)INT (reality of intention) crossed with PART (participation). INT sits at left with the subject-arrow; PART at upper-right as partner-axis. SPT-DY (spectacle dynamics) upper-left, IF-ST-DY (isolated-focus stable-dynamics) upper-center, P-FC (political focus) upper-right with INFO-DY (information dynamics) and (R)INTR (reality of introduction) further right. C-INFO (central information) center; LK-IMP (linkage implication), DOC (documentation), POST (postulation), AFI (affinity insight) form the lower chain. Structural argument: the upper chain SPT-DY -> IF-ST-DY -> PART -> P-FC -> INFO-DY -> (R)INTR is the partner-axis route through which participation reaches reality-of-introduction. The form's intention reaches participation only when C-INFO holds the central hub - otherwise the chain absorbs intention into the partner-side's downward chain through documentation and postulation.",
+  "terms": [
+    {
+      "termId": "int",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "p-fc"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "doc"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "afi"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "int",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "if-st-dy",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "p-fc",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "doc",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "afi",
+      "type": "solid"
+    }
+  ]
+}

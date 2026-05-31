@@ -1,0 +1,40 @@
+{
+  "id": "v3-p234-1",
+  "volume": 3,
+  "section": "T(IMP)M-32",
+  "page": 234,
+  "subject": "af-post",
+  "title": "AF.POST.-----TRS.",
+  "type": "crossing",
+  "description": "First of two diagrams in T(IMP)M-32. The prose immediately above identifies the structural target: 'the vibrational realness of creative music reflecting the reality of black people, the use of this phenomenon will serve as a factor for aligning the functional arena of black creativity (regardless of period) under the American umbrella (and in this position, the black vibrational thrust will be inoperative). The net effect of this phenomenon will be a retardation of the sensibilities which allowed creative black music in America to be \"ised,\" as well as the implications of what that retardation implies.' The crossing diagrams how affinity-postulation structurally meets transformation at the retardation-of-sensibilities scale: AF-POST (affinity postulation — the form's actual postulating-from-affinity working) crossed with TRS (transformation — the partner-axis's working transformation). AF-POST sits centrally with the subject-arrow; T-C-IMP (temporal-continuity implication) at upper-left and ALT-DEF (alternative definition) at upper-right with (R)INTR (the reality of introduction) and INFO-DY (information dynamics) further right as the partner-side upper chain. TR (transformation, uppercase variant) sits at the left as a separate bridging hub. POL-DY (political dynamics) sits centrally with ALT-C-PG (alternative-creative page) and CN-INFO (continuance-information) below as the bridging-axis hub. TRS sits at lower-left as partner-axis; ATTN (attention) and SPT-DY (spectacle dynamics) on the right as the partner-side downward outputs. AFI (affinity insight) sits at the bottom-center as the bridging-axis downward terminus. Structural argument: when affinity-postulation is crossed with transformation, the upper diagonal T-C-IMP → AF-POST → ALT-DEF → (R)INTR → INFO-DY is the *American-umbrella route* — temporal-continuity-implication routes through affinity-postulation into alternative-definition, then through the reality of introduction into information-dynamics. This is exactly the route the prose names: black creative music's affinity-postulation gets aligned under the American umbrella by passing through this chain. TR on the left is the un-American bridging-route's upper input. POL-DY → ALT-C-PG → CN-INFO is the central downward bridging-chain. TRS → ATTN / SPT-DY is what transformation produces on the partner-side — attention and spectacle-dynamics. AFI at the bridging-bottom is the form's affinity-insight terminus. The structural argument: the retardation-of-sensibilities the prose names is structurally the upper diagonal's running through (R)INTR → INFO-DY without ever crossing back into TR on the left — affinity-postulation gets converted to alternative-definition via introduction-into-information-dynamics, and the form's working AFI terminus arrives only on the bridging-bottom where TRS-as-attention has already absorbed transformation.",
+  "terms": [
+    { "termId": "af-post", "isSubject": true },
+    { "termId": "trs" },
+    { "termId": "t-c-imp" },
+    { "termId": "alt-def" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "tr" },
+    { "termId": "info-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "attn" },
+    { "termId": "alt-c-pg" },
+    { "termId": "cn-info" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "trs", "type": "solid" },
+    { "from": "af-post", "to": "t-c-imp", "type": "solid" },
+    { "from": "af-post", "to": "alt-def", "type": "solid" },
+    { "from": "alt-def", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "info-dy", "type": "solid" },
+    { "from": "tr", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "cn-info", "type": "solid" },
+    { "from": "pol-dy", "to": "trs", "type": "solid" },
+    { "from": "info-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "spt-dy", "type": "solid" },
+    { "from": "cn-info", "to": "afi", "type": "solid" }
+  ]
+}

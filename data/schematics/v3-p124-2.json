@@ -1,0 +1,35 @@
+{
+  "id": "v3-p124-2",
+  "volume": 3,
+  "section": "ALT(FT)II-18",
+  "page": 124,
+  "subject": "alt-ft",
+  "title": "ALT.FT.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Diagram in ALT(FT)II-18, second of two on book p124, paired with v3-p124-1, on the page where Braxton argues that 'as such, the emergence of alternative functionalism has relevance as a composite transformational tool for the total planet. The seriousness of the next cycle demands that this phenomenon is understood on some level.' (C)ALT-FT (alternative functionalism) is crossed with WO-EXP-PRI (world expansion principle): the question is what alternative-functionalism produces when crossed with the world-expansion-principle, in the context where alternative-functionalism IS being positioned as the composite transformational tool. RE-ST (restructuralism) and PROJ-DY (projectional dynamics) form upper structure. INFO-TRNS (information transference) and ALT-D (alternative definitions) are right-side outputs. C-INFO (composite information) feeds the central. ACT (activism), POL-DY (political dynamics), MT-INFO (multi-information), and P-FC (particular focus) form the lower constituting layer. Structural argument: alternative-functionalism crossed with world-expansion-principle produces restructuralism and projectional-dynamics as upper outputs and information-transference / alternative-definitions as right-side outputs — Braxton's diagrammatic claim that real alternative-functionalism (as the composite-transformational tool) requires both restructural and projectional dimensions, with information-transference and alternative-definitions as the productive results.",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "re-st" },
+    { "termId": "proj-dy" },
+    { "termId": "info-trns" },
+    { "termId": "alt-d" },
+    { "termId": "c-info" },
+    { "termId": "act" },
+    { "termId": "pol-dym" },
+    { "termId": "mt-info" },
+    { "termId": "p-fc" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "re-st", "to": "alt-ft", "type": "solid" },
+    { "from": "proj-dy", "to": "alt-ft", "type": "solid" },
+    { "from": "proj-dy", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "act", "type": "solid" },
+    { "from": "pol-dym", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "p-fc", "type": "solid" }
+  ]
+}

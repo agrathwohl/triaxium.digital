@@ -1,0 +1,38 @@
+{
+  "id": "v3-p391-2",
+  "volume": 3,
+  "section": "JR-13",
+  "page": 391,
+  "subject": "proj",
+  "title": "(R)PROJ.------AF.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 391 (JR-13), paired with PROJ × C-INFO above. The crossing diagrams the same projection-axis at its *reality*-prefix level, crossed with affinity-dynamics: (R)PROJ (the reality of projection — projection in its actual working form) crossed with AF-DY (affinity dynamics — the partner-axis's actual affinity-working). PROJ sits centrally-up with the subject-arrow; COS-P (cosmic-particulars) at top-right with C-CONT (composite continuance) below as the partner-side upper outputs. MT-INFO (meta-information) at upper-left and INTL (intentional) below as the subject-side leftward chain. INFO-CON (information conservation) sits centrally with TH-CONT (thrust continuance), RE-ST (restructuralism), and TR (transformation) anchoring the right margin as the bridging-axis right chain. AF-POST (affinity postulation) hangs at lower-left with LG-EXT (linguistic extension) below as the subject-side downward chain. AF-DY sits at the bottom-center as partner-axis. Structural argument: when the reality of projection is crossed with affinity-dynamics, the upper diagonal COS-P → C-CONT is the *cosmic-continuance route* — cosmic-particulars route through composite-continuance on the partner-side upper. PROJ → INFO-CON → TH-CONT → RE-ST → TR is the bridging-axis right chain — projection routes through information-conservation into thrust-continuance, then through restructuralism into transformation. MT-INFO → INTL is the subject's leftward chain — meta-information routes through intentional into the form's working subject-axis. AF-POST → LG-EXT → AF-DY is the bridging-bottom chain — affinity-postulation routes through linguistic-extension into affinity-dynamics, the form's actual chain from affinity-postulating to affinity-working. The structural argument: the bi-aitional principle's reality the JR-12 prose called for is structurally that AF-POST → LG-EXT → AF-DY must hold *and* PROJ → INFO-CON → TH-CONT must hold simultaneously — only with both edges open does the form's reality-of-projection actually route to affinity-dynamics through linguistic-extension while the partner-axis's information-conservation routes into thrust-continuance. Without both, AF-DY arrives via either the subject's lone postulating chain or the partner's lone cosmic-continuance chain; the form's working dynamic-vibrational complications never integrate as jazz-rock's reality.",
+  "terms": [
+    { "termId": "proj", "isSubject": true, "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "cos-p" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "intl" },
+    { "termId": "info-con" },
+    { "termId": "th-cont" },
+    { "termId": "re-st" },
+    { "termId": "tr" },
+    { "termId": "af-post" },
+    { "termId": "lg-ext" }
+  ],
+  "relationships": [
+    { "from": "proj", "to": "af-dy", "type": "solid" },
+    { "from": "proj", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "c-cont", "type": "solid" },
+    { "from": "proj", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "intl", "type": "solid" },
+    { "from": "proj", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "tr", "type": "solid" },
+    { "from": "proj", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "lg-ext", "type": "solid" },
+    { "from": "lg-ext", "to": "af-dy", "type": "solid" }
+  ]
+}

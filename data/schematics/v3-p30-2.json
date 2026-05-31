@@ -1,0 +1,38 @@
+{
+  "id": "v3-p30-2",
+  "volume": 3,
+  "section": "BK(NM)-6",
+  "page": 30,
+  "subject": "cult-af-bs",
+  "title": "CULT.AF.BS.------STF.",
+  "type": "crossing",
+  "description": "Second diagram on page 30 (BK(NM)-6), paired with CRTF-PROG × TR above. The crossing diagrams how cultural-affinity base structurally meets structural-form at the Spain/Italy black-Moors-and-classical-music transfer-cycle scale the following prose names ('the progressional expansion of classical music can be viewed as moving northward from the region of Spain and later Italy'): CULT-AF-BS (cultural-affinity base — the form's actual cultural-affinity foundation) crossed with STF (structural-formal phenomenon — the partner-axis's structural-formal working). CULT-AF-BS sits at upper-right with the subject-arrow; STF at center-bottom as partner-axis with arrow. BIA (bias) sits at upper-left and TRS (transformation) at top-center with T-C-IMP (temporal-continuity implication) at upper-right margin as the upper bridging chain. AF-DY (affinity dynamics) at center-left and POL-CON (political consideration) below, with AFL (affinity alignment) at lower-left as the subject-side downward chain. LANG-DY (language dynamics) sits centrally and C-ACT (central activism) at lower-center as the bridging hubs. GRAD (gradualism) sits at the bottom-center as the bridging-axis terminus. INFO-DE(B) (black information-descent) at the bottom-right with the (b) suffix. Structural argument: when cultural-affinity base is crossed with structural-form, the upper diagonal BIA → TRS → CULT-AF-BS → T-C-IMP is the *bias-cultural route* — bias routes through transformation into cultural-affinity-base and finally into temporal-continuity-implication. AF-DY → POL-CON → AFL is the subject's downward chain — affinity-dynamics routes through political-consideration into affinity-alignment, the form's own working axis. LANG-DY → C-ACT → STF → GRAD is the bridging-bottom chain: language-dynamics routes through central-activism into structural-formal and finally into gradualism, the bridging-terminus. INFO-DE(B) at the bottom-right is the black information-descent terminus. The structural argument: the cross-transfer the prose names is structurally that the upper diagonal absorbs cultural-affinity-base via BIA before it can reach STF directly — and the bridging LANG-DY → C-ACT → STF → GRAD chain routes the form's structural-formal working through gradualism (Braxton's recurring suppression mechanism). INFO-DE(B) marks the descent of black-information into the partner-axis's working chain. The black Moors / Spain / Italy progression is structurally this configuration: cultural-affinity-base reaching structural-formal only through gradualism while the receiving culture's bias has already pre-converted it via the upper diagonal into temporal-continuity-implication.",
+  "terms": [
+    { "termId": "cult-af-bs", "isSubject": true },
+    { "termId": "stf" },
+    { "termId": "bia" },
+    { "termId": "trs" },
+    { "termId": "t-c-imp" },
+    { "termId": "af-dy" },
+    { "termId": "pol-con" },
+    { "termId": "afl" },
+    { "termId": "lang-dy" },
+    { "termId": "c-act" },
+    { "termId": "grad" },
+    { "termId": "info-de", "suffix": "b" }
+  ],
+  "relationships": [
+    { "from": "cult-af-bs", "to": "stf", "type": "solid" },
+    { "from": "bia", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "t-c-imp", "type": "solid" },
+    { "from": "cult-af-bs", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "afl", "type": "solid" },
+    { "from": "af-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "c-act", "type": "solid" },
+    { "from": "c-act", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "grad", "type": "solid" },
+    { "from": "stf", "to": "info-de", "type": "solid" }
+  ]
+}

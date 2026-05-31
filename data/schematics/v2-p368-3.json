@@ -5,13 +5,23 @@
   "page": 368,
   "subject": "sci-dym",
   "title": "SCI.DYM.------PRI.INFO.",
-  "type": "crossing",
-  "description": "Third diagram on page 368 (R(AS)CM(II)-12) — a distinctive crossing in which only the two crossing-axis terms (R)SCI-DYM and PRI-INFO are labeled; the diagram's nine internal junction points sit as unlabeled black-dot nodes connected in a recursive branching pattern. (R)SCI-DYM (the reality of scientific dynamism — the form's scientific-dynamic working in actual operation) is crossed with PRI-INFO (principle information). SCI-DYM sits on the left with the subject-arrow; PRI-INFO sits at top-center as partner-axis. From the central junction the diagram fans into approximately nine unlabeled terminal nodes via a recursive tree of internal junctions. Structural argument: the structural payload is precisely the unlabeled-leaf form — the diagram depicts the *unspecified branching multiplicity* that scientific-dynamism crossed with principle-information produces. Where the prior two diagrams on this page name specific outputs (TH-CONT-DYM, PROJ-CONT, EXT-DYM; PROJ-DYM, SOC-RT-DY, PHY-U-P, POL-DYM, MT-INFO), this one withholds the leaf-names because the structural claim is that scientific-dynamism × principle-information produces a *generic branching* — any number of unspecified outputs that depend on the local information-regulation conditions. The 'distortive redefining agent' that information-dynamics has become (per the prior page's prose) is structurally this: the leaves are unnamed because the regulation supplies the names case-by-case. The crossing's working content is the *form* of the multiplicity, not its specifics.",
+  "type": "network",
+  "description": "Third diagram on page 368 (R(AS)CM(II)-12) \u2014 a distinctive crossing in which only the two crossing-axis terms (R)SCI-DYM and PRI-INFO are labeled; the diagram's nine internal junction points sit as unlabeled black-dot nodes connected in a recursive branching pattern. (R)SCI-DYM (the reality of scientific dynamism \u2014 the form's scientific-dynamic working in actual operation) is crossed with PRI-INFO (principle information). SCI-DYM sits on the left with the subject-arrow; PRI-INFO sits at top-center as partner-axis. From the central junction the diagram fans into approximately nine unlabeled terminal nodes via a recursive tree of internal junctions. Structural argument: the structural payload is precisely the unlabeled-leaf form \u2014 the diagram depicts the *unspecified branching multiplicity* that scientific-dynamism crossed with principle-information produces. Where the prior two diagrams on this page name specific outputs (TH-CONT-DYM, PROJ-CONT, EXT-DYM; PROJ-DYM, SOC-RT-DY, PHY-U-P, POL-DYM, MT-INFO), this one withholds the leaf-names because the structural claim is that scientific-dynamism \u00d7 principle-information produces a *generic branching* \u2014 any number of unspecified outputs that depend on the local information-regulation conditions. The 'distortive redefining agent' that information-dynamics has become (per the prior page's prose) is structurally this: the leaves are unnamed because the regulation supplies the names case-by-case. The crossing's working content is the *form* of the multiplicity, not its specifics.",
   "terms": [
-    { "termId": "sci-dym", "isSubject": true, "prefix": "r" },
-    { "termId": "pri-info" }
+    {
+      "termId": "sci-dym",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "pri-info"
+    }
   ],
   "relationships": [
-    { "from": "sci-dym", "to": "pri-info", "type": "solid" }
+    {
+      "from": "sci-dym",
+      "to": "pri-info",
+      "type": "solid"
+    }
   ]
 }

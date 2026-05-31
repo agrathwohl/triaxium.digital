@@ -1,0 +1,37 @@
+{
+  "id": "v3-p33",
+  "volume": 3,
+  "section": "BK(NM)-9",
+  "page": 33,
+  "subject": "tr-info",
+  "title": "TR.INFO.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Diagram in BK(NM)-9 (Black Notated Music, Level One), on the page where Braxton argues that 'the black composers through the progressional continuance of time have come to be viewed as either lackeys of the western art music continuum, or simply imitators of European classical music. This is not only true for black composers alone, but extends throughout the reception of all non-caucasian composers.' (C)TR-INFO (trans-information) is crossed with T-C-IMP (time continuum implications): the question is what trans-information produces when crossed with time-continuum-implications in a culture where reception itself is conditioned by gradualist categorization. SPT-DY (spiritual dynamics) and AFI (affinity insight) feed the upper-left. (R)AG-CULT-SOLD (the reality of aggregate culture solidification) is the upper-right output. ATTN (attraction) and (P)TH-ALGN (the point of activation of thrust alignment) feed the right side. POL-DY (political dynamics) is a right-output. AF-DY (affinity dynamics) feeds the central convergence. POST (postulation), RE-DOC (redocumentation), and INFO-COMP (information compression) form the lower constituting layer. INFO-TRS (information transition) is the left structural ground. Structural argument: trans-information crossed with time-continuum-implications routes through the (p)thrust-alignment activation point — Braxton's structural claim that black notated music's productive reception requires the *activation* of thrust alignment, not its sustained presence. Without activation, the structure produces redocumentation and information-compression as terminal outputs — exactly the gradualist capture chain.",
+  "terms": [
+    { "termId": "tr-info", "isSubject": true, "prefix": "c" },
+    { "termId": "t-c-imp" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "ag-cult-sold", "prefix": "r" },
+    { "termId": "attn" },
+    { "termId": "th-algn", "prefix": "p" },
+    { "termId": "pol-dym" },
+    { "termId": "afl-dy" },
+    { "termId": "post" },
+    { "termId": "re-doc" },
+    { "termId": "info-comp" },
+    { "termId": "info-trns" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "tr-info", "type": "solid" },
+    { "from": "afi", "to": "ag-cult-sold", "type": "solid" },
+    { "from": "tr-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "attn", "to": "t-c-imp", "type": "solid" },
+    { "from": "th-algn", "to": "pol-dym", "type": "solid" },
+    { "from": "afl-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "post", "type": "solid" },
+    { "from": "post", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "info-comp", "type": "solid" },
+    { "from": "info-trns", "to": "afl-dy", "type": "solid" }
+  ]
+}

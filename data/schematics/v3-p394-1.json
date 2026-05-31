@@ -1,0 +1,36 @@
+{
+  "id": "v3-p394-1",
+  "volume": 3,
+  "section": "JR-16",
+  "page": 394,
+  "subject": "afi-2",
+  "title": "AFI.(2)--------STY.",
+  "type": "crossing",
+  "description": "First of two diagrams in JR-16 (Jazz-Rock). The prose immediately above identifies the structural target: 'Jazz-rock is thus the form that represents the re-entering of the bi-aitional principle as a factor to participate in the forming of a possible composite alternative creative music (or at least jazz-rock in its pure state — if I can use that term — with respect to the unadulterated intentions it affirms, can be viewed in this context).' The crossing diagrams how affinity-insight level-two structurally meets stylization at the jazz-rock-bi-aitional scale: AFI-2 (affinity insight, level two — the form's actual second-degree insight) crossed with STY (stylization — the partner-axis's converting working into stylistic form). AFI-2 sits on the left with the subject-arrow; VT-PLT (vibrational plateau) sits centrally to its right and STY at top-center as the upper bridging hub. AF-DY (affinity dynamics) at upper-right with OP-SD (oppositional side), CULT-AF-B (cultural-affinity base), PART (participation), and MT-INFO (meta-information) anchoring the right margin as the partner-side downward chain. INFO-SOLD (information-soldered) hangs at the lower-left and TRS (transformation) at the bottom-left as the subject-side downward outputs. T-C-IMP (temporal-continuity implication) sits at the bottom-center as the bridging-axis downward terminus. Structural argument: when affinity-insight level-two is crossed with stylization, the upper diagonal VT-PLT → STY → AF-DY → OP-SD → CULT-AF-B → PART → MT-INFO is the *bi-aitional-stylistic chain* — vibrational-plateau routes through stylization into affinity-dynamics, then through oppositional-side and cultural-affinity-base into participation, finally producing meta-information on the partner-side. This is the long working chain that jazz-rock's bi-aitional-principle is supposed to traverse to become composite-alternative-creative-music. The subject's INFO-SOLD → TRS chain is what affinity-insight level-two produces alone — information-soldered into transformation, the form's own working axis without the partner-axis chain. T-C-IMP at the bridging-bottom is what the central VT-PLT → T-C-IMP edge produces. The structural argument: the jazz-rock 'pure state' the prose names is structurally the configuration where AFI-2 holds the VT-PLT diagonal across into STY *and* the right-chain runs without OP-SD's oppositional intervention absorbing the form back into received cultural-affinity-base — the unadulterated intentions live in the diagonal staying open, not in the right-chain's terminal points.",
+  "terms": [
+    { "termId": "afi-2", "isSubject": true },
+    { "termId": "sty" },
+    { "termId": "af-dy" },
+    { "termId": "op-sd" },
+    { "termId": "cult-af-b" },
+    { "termId": "vt-plt" },
+    { "termId": "part" },
+    { "termId": "mt-info" },
+    { "termId": "info-sold" },
+    { "termId": "t-c-imp" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "afi-2", "to": "sty", "type": "solid" },
+    { "from": "afi-2", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "sty", "type": "solid" },
+    { "from": "sty", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "op-sd", "type": "solid" },
+    { "from": "op-sd", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "part", "type": "solid" },
+    { "from": "part", "to": "mt-info", "type": "solid" },
+    { "from": "afi-2", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "trs", "type": "solid" },
+    { "from": "vt-plt", "to": "t-c-imp", "type": "solid" }
+  ]
+}

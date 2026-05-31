@@ -1,0 +1,143 @@
+{
+  "id": "v3-p293-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-47",
+  "page": 293,
+  "subject": "stf",
+  "title": "STF.------ACT.",
+  "type": "hub-spoke",
+  "description": "First of two diagrams in PR.S(RD)II-47. The prose immediately above identifies the structural target: 'If I am correct, we will soon be moving into a period of confusion as to the very nature of what creative music is \u2014 not to mention the potential of creativity as a positive functional factor for transformation.' The crossing diagrams how structural-form structurally meets action at the confusion-of-creative-music scale: STF (structural-formal phenomenon \u2014 the form's actual structural-formal working) crossed with ACT (action \u2014 the partner-axis's working action). STF sits at upper-right with the subject-arrow; T-C-IMP (temporal-continuity implication) and POL-DY (political dynamics) anchor the right margin as the subject-side downward chain. MT-INTR (meta-introduction) and DEF (definition) sit upper-center with PRI-INFO (principle information) at upper-left as the bridging-axis upper chain. CR-INFO-DY (creative-information dynamics) and ALT-C-PROG (alternative-creative progression) sit centrally as the bridging hubs. BIA (bias) and ACT at center-left as the partner-axis position with PROG-CONT (progressional continuance) at center-right. PROJ-DY (projection dynamics) hangs at lower-center with AF-DY (affinity dynamics), POST (postulation), AF-CON (affinity convergence), and ATTN (attention) as the partner-side downward chain. Structural argument: when structural-form is crossed with action, the upper diagonal MT-INTR \u2192 DEF \u2192 PRI-INFO \u2192 BIA \u2192 ACT is the *confusion-route* \u2014 meta-introduction routes through definition into principle-information, then through bias into action on the partner-axis. The confusion the prose names is structurally that BIA intercepts principle-information's translation into action \u2014 without BIA, the chain would close at action directly, but in the confusion-cycle BIA pulls action into a biased form. CR-INFO-DY \u2192 ALT-C-PROG \u2192 PROG-CONT is the bridging route holding creative-information-dynamics into progressional-continuance. The partner-axis downward chain PROJ-DY \u2192 AF-DY \u2192 POST \u2192 AF-CON / ATTN is what action produces alone \u2014 projection-dynamics routes through affinity-dynamics into postulation and finally into affinity-convergence and attention. STF \u2192 T-C-IMP / POL-DY on the right is the subject-side output. The structural argument: the potential of creativity as positive transformation requires holding the PRI-INFO \u2192 CR-INFO-DY \u2192 ALT-C-PROG bridging chain so that structural-form reaches action *without* BIA intercepting; otherwise the form's structural-formal working terminates in the partner-side's attention-as-postulation alone.",
+  "terms": [
+    {
+      "termId": "stf",
+      "isSubject": true
+    },
+    {
+      "termId": "act"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "def"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "bia"
+    },
+    {
+      "termId": "cr-info-dy"
+    },
+    {
+      "termId": "alt-c-prog"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "af-con"
+    },
+    {
+      "termId": "attn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "stf",
+      "to": "act",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "def",
+      "type": "solid"
+    },
+    {
+      "from": "def",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "act",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "cr-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cr-info-dy",
+      "to": "alt-c-prog",
+      "type": "solid"
+    },
+    {
+      "from": "alt-c-prog",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "act",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "af-con",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "attn",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "v3-p168-2",
+  "volume": 3,
+  "section": "EVOL-6",
+  "page": 168,
+  "subject": "afl",
+  "title": "AFL.------(R)MT.INFO.",
+  "type": "crossing",
+  "description": "Second diagram on page 168 (EVOL-6), paired with TR-INFO x RT-ALGN above. The crossing diagrams how affinity-alignment structurally meets reality-of-meta-information at the western-preferential scale: AFL crossed with (R)MT-INFO. AFL sits at right with arrow; MT-INFO at left as partner-axis. IST-F (isolated focus) upper-center, POL-P (political particulars) upper-right, SOC-RT-P (social-reality particular) right. TECH-DY (technological dynamics) center. EXT-FT (extended functionalism), PART (participation), ACC-FT (accumulated functionalism) lower-left. TRS (transformation) lower-center. WO-EXP-PRI (world-exposure principle), RE-DOC (redocumentation) lower-right.",
+  "terms": [
+    {
+      "termId": "afl",
+      "isSubject": true
+    },
+    {
+      "termId": "mt-info",
+      "prefix": "r"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "tech-dy"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "re-doc"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "tech-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tech-dy",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "re-doc",
+      "type": "solid"
+    }
+  ]
+}

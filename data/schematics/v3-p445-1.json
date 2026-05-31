@@ -1,0 +1,96 @@
+{
+  "id": "v3-p445-1",
+  "volume": 3,
+  "section": "TRF(CW)-17",
+  "page": 445,
+  "subject": "part",
+  "title": "(R)PART.------TR.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(CW)-17. The prose below identifies the structural target: 'To gain insight into the implications of creative women in improvised music is to in fact be confronted with the dynamic consequence of bi-aitionalism as well as the essence factor of creativity.' The crossing diagrams how the reality of participation structurally meets transformation at the creative-women bi-aitionalism scale: (R)PART crossed with TR. PART sits at lower-right with the subject-arrow; TR at upper-left as partner-axis. ATTN (attention), MT-INFO (meta-information), PER-DY (perceived dynamics) center. ALT-DEF (alternative definition), ALT-F (alternative form) center-right. POL-DY (political dynamics) left, RE-ST (restructuralism), IST-F (isolated focus) lower-center.",
+  "terms": [
+    {
+      "termId": "part",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "alt-def"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "ist-f"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "part",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "alt-def",
+      "type": "solid"
+    },
+    {
+      "from": "alt-def",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "ist-f",
+      "type": "solid"
+    }
+  ]
+}

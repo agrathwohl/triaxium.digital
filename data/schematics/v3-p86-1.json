@@ -1,0 +1,100 @@
+{
+  "id": "v3-p86-1",
+  "volume": 3,
+  "section": "CS-14",
+  "page": 86,
+  "subject": "ist-s-algn",
+  "title": "IST.S.ALGN.------MT.INFO.",
+  "type": "crossing",
+  "description": "First of two diagrams in CS-14 (Composite Science, section 14). The following prose discusses how 'the affinity adaptation of western science has moved to advance the nature of aspect-essence perception dynamics.' The crossing diagrams how isolated-source alignment structurally meets meta-information at the aspect-essence-perception scale: (C)IST-S-ALGN (central isolated-source alignment) crossed with MT-INFO (meta-information). IST-S-ALGN sits on the left with the subject-arrow; MT-INTR (meta-introduction) at upper-center and (P)RE-DIFF (physical-universe redefinition difference) at upper-right with T-C-IMP (temporal-continuity implication) below as partner-side upper outputs. INFO-DY (information dynamics) at center-right with IF-ST-DY (isolated-focus stable-dynamics) and DYM-F (dynamic form) at lower-right as the partner-side downward chain. EXP-DY (exposure dynamics) sits centrally, SPTC-D (spectacle dictates) at lower-left, MT-INFO-DB (meta-information feedback double-bind) at lower-center. Structural argument: the upper diagonal MT-INTR -> (P)RE-DIFF -> T-C-IMP is the western-science capture route - meta-introduction routes through physical redefinition-difference into temporal-continuity-implication. The form's isolated-source alignment reaches meta-information only when EXP-DY's central bridging hub holds open against the partner-axis's downward chain through INFO-DY -> IF-ST-DY -> DYM-F.",
+  "terms": [
+    {
+      "termId": "ist-s-algn",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "re-dif",
+      "prefix": "p"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "sptc-d"
+    },
+    {
+      "termId": "mt-info-db"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ist-s-algn",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "ist-s-algn",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "re-dif",
+      "type": "solid"
+    },
+    {
+      "from": "re-dif",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "ist-s-algn",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "sptc-d",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "mt-info-db",
+      "type": "solid"
+    }
+  ]
+}

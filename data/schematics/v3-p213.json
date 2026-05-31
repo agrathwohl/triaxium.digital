@@ -1,0 +1,98 @@
+{
+  "id": "v3-p213",
+  "volume": 3,
+  "section": "T(IMP)M-11",
+  "page": 213,
+  "subject": "extn",
+  "title": "EXTN.----PR.TRS.",
+  "type": "crossing",
+  "description": "Diagram in T(IMP)M-11. The prose above identifies the structural target: 'creative music from the black aesthetic has reached the next time cycle for source transfer: that is, the thrust progression of creative music from the black aesthetic is subjected to source transfer every fifteen to twenty years.' The crossing diagrams how extension structurally meets principle-transmission at the source-transfer cycle scale: EXTN crossed with PR-TRS. EXTN sits at lower-center with the subject-arrow; PR-TRS at upper-center as partner-axis. AF-COMP (affinity composite), IST-F (isolated focus) upper-left. ALT-F (alternative form), RES-RT (resulting reality) on the upper-right. AFI-2 (affinity insight level 2) center-left. RT-INT-TR (reality-internal transformation), GRAD (gradualism) lower-right. ACC-DY (accent dynamics) lower-center, INFO-DY (information dynamics) lower-right.",
+  "terms": [
+    {
+      "termId": "extn",
+      "isSubject": true
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "af-comp"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "res-rt"
+    },
+    {
+      "termId": "afi-2"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "grad"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "info-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "extn",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "af-comp",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "pr-trs",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "res-rt",
+      "type": "solid"
+    },
+    {
+      "from": "extn",
+      "to": "afi-2",
+      "type": "solid"
+    },
+    {
+      "from": "extn",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "grad",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "info-dy",
+      "type": "solid"
+    }
+  ]
+}

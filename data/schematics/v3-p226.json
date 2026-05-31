@@ -1,0 +1,106 @@
+{
+  "id": "v3-p226",
+  "volume": 3,
+  "section": "T(IMP)M-24",
+  "page": 226,
+  "subject": "mth",
+  "title": "MTH.------TR.",
+  "type": "crossing",
+  "description": "Diagram in T(IMP)M-24. The prose above identifies the structural target: 'if the functional properties that outline how given creative thrusts are to be actualized are a necessary factor that relates to the vibrational and cosmic realness of that form, then this necessity must mean something - that is, the functional properties of a given functional creative thrust are as they are because they mean something.' The crossing diagrams how method structurally meets transformation: MTH crossed with TR. MTH sits at upper-center with the subject-arrow; TR at lower-center as partner-axis. VT-DY (vibrational dynamics) upper-left, EXPM (expansionism) upper-right. APL-DT (applied dictates) center, TECH-DY (technological dynamics) center-right, WO-UNF (world unification) right. PER-DY (perceived dynamics) left, MT-INFO (meta-information) center-bottom, PART (participation) right. RT-DY (reality dynamics) lower-center, ACC-FT (accumulated functionalism) lower-right.",
+  "terms": [
+    {
+      "termId": "mth",
+      "isSubject": true
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "expm"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "tech-dy"
+    },
+    {
+      "termId": "wo-unf"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "acc-ft"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mth",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "expm",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "tech-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tech-dy",
+      "to": "wo-unf",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "acc-ft",
+      "type": "solid"
+    }
+  ]
+}

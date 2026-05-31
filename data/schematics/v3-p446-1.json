@@ -1,0 +1,98 @@
+{
+  "id": "v3-p446-1",
+  "volume": 3,
+  "section": "TRF(CW)-18",
+  "page": 446,
+  "subject": "bia",
+  "title": "BIA.-----C.INFO.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(CW)-18. The prose above identifies the structural target: 'if the aesthetic lining of black music functions with regard to scientific particulars that are not separate from composite fundamentals, then the creative arena actualized from its particulars (style or form) must reflect this same balance.' The crossing diagrams how bias structurally meets central-information at the bi-aitionalism-balance scale: BIA crossed with C-INFO. BIA sits at left with the subject-arrow; C-INFO at center-bottom as partner-axis. RT-DY (reality dynamics) upper-right, INFO-SOLD (information soldered) center, EXP-COND (expansion condition) right, TRS (transformation) right. EXP-CONT (expansion continuance) center. LANG-DY (language dynamics) left, MT-DEVF (meta-developmental functionalism) lower-left. C-CONT (composite continuance) right. ATTN (attention) lower-center.",
+  "terms": [
+    {
+      "termId": "bia",
+      "isSubject": true
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "info-sold"
+    },
+    {
+      "termId": "exp-cond"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "exp-cont"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "attn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "bia",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "info-sold",
+      "type": "solid"
+    },
+    {
+      "from": "info-sold",
+      "to": "exp-cond",
+      "type": "solid"
+    },
+    {
+      "from": "exp-cond",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "exp-cont",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "attn",
+      "type": "solid"
+    }
+  ]
+}

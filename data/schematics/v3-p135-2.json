@@ -1,0 +1,34 @@
+{
+  "id": "v3-p135-2",
+  "volume": 3,
+  "section": "ALT(FT)II-29",
+  "page": 135,
+  "subject": "wo-exp-pr",
+  "title": "WO.EXP.PR.------DYM.SPT.",
+  "type": "crossing",
+  "description": "Second diagram on page 135 (ALT(FT)II-29), paired with T-SC × INT above. Where the first diagram structurally shows the upper-route through which trans-science reaches observation, this one names what world-exposure-principle meets when dynamic-spirit is the working partner — the principle of how transformational-functionalism's solidification actually materializes in the world: WO-EXP-PR (world-exposure principle — the actual principle by which a form reaches world-exposure) crossed with DYM-SPT (dynamic spirituality — the partner-axis's actual spiritual-dynamic working). WO-EXP-PR sits at the bottom-left with the subject-arrow; DYM-SPT at top-left and CULT-AF-B (cultural-affinity base) at upper-right as the partner-side upper outputs. EXB-H-OR (establishing high order) sits at the left below DYM-SPT. TR-INFO (transformation-information) sits centrally above; INFO-DE(B) (black information-descent) below it and APL-DT (applied dictates) anchoring the upper-right as the bridging-axis upper chain. PROJ-DY (projection dynamics) sits at center-right as the partner-axis position. RE-CONT (recontinuance) sits centrally below with AF-POST (affinity postulation) at lower-center and PRI-INFO (principle information) at the bottom-right as the bridging-axis downward chain. Structural argument: when world-exposure-principle is crossed with dynamic-spirituality, the upper diagonal DYM-SPT → CULT-AF-B is the *spiritual-affinity route* — dynamic-spirituality routes through cultural-affinity-base on the partner-side. EXB-H-OR → WO-EXP-PR is what establishing-high-order produces — the principle entering through high-order establishment. TR-INFO → INFO-DE(B) → APL-DT is the bridging-axis upper chain — transformation-information routes through black-information-descent into applied-dictates. PROJ-DY is the partner-axis's working projection position. RE-CONT → AF-POST → PRI-INFO is the bridging-bottom chain: recontinuance routes through affinity-postulation into principle-information, the form's actual continuance working into postulating-principle. The structural argument: the transformational-functionalism's world-exposure the prior diagram named as the basic-tone-uplift is structurally the WO-EXP-PR → EXB-H-OR upward edge holding *and* the RE-CONT → AF-POST → PRI-INFO bridging-bottom chain producing principle-information on the bridging-terminus — without both, world-exposure routes only into PROJ-DY's partner-axis projection without ever reaching the form's actual recontinuance.",
+  "terms": [
+    { "termId": "wo-exp-pr", "isSubject": true },
+    { "termId": "dym-spt" },
+    { "termId": "cult-af-b" },
+    { "termId": "exb-h-or" },
+    { "termId": "tr-info" },
+    { "termId": "info-de", "suffix": "b" },
+    { "termId": "apl-dt" },
+    { "termId": "proj-dy" },
+    { "termId": "re-cont" },
+    { "termId": "af-post" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pr", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "cult-af-b", "type": "solid" },
+    { "from": "wo-exp-pr", "to": "exb-h-or", "type": "solid" },
+    { "from": "tr-info", "to": "info-de", "type": "solid" },
+    { "from": "info-de", "to": "apl-dt", "type": "solid" },
+    { "from": "info-de", "to": "proj-dy", "type": "solid" },
+    { "from": "wo-exp-pr", "to": "re-cont", "type": "solid" },
+    { "from": "re-cont", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "pri-info", "type": "solid" }
+  ]
+}

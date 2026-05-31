@@ -1,0 +1,122 @@
+{
+  "id": "v3-p472-2",
+  "volume": 3,
+  "section": "TRF(II)-8",
+  "page": 472,
+  "subject": "act-tr",
+  "title": "ACT.TR.------EXPN.",
+  "type": "crossing",
+  "description": "Second diagram on page 472 (TRF(II)-8), paired with EXPN x PROG-CONT above. The crossing diagrams how actual-transformation structurally meets expansionism at the political-and-social-dynamics scale: ACT-TR (actual transformation) crossed with EXPN (expansionism). ACT-TR sits at lower-center with the subject-arrow; EXPN at upper-center as partner-axis. WO-UNF (world unification) upper-left, SPT-GH (spirit-ghost) upper-center, TRS (transformation) upper-right. PROG-CONT (progressional continuance) right. SOC-PR (social-process), PHY-U-C (physical-universe context), SOC-RT-DEV (social-reality development), RT-ALGN (reality alignment) on the left chain. STF (structural-formal) center, C-INFO (central information) right, T-C-IMP (temporal-continuity implication), SG (source-generation) lower-right. Structural argument: act.tr crossed with expn produces transformation via the upper chain SPT-GH/TRS, with progressional-continuance as partner output; the lower-left chain produces social-reality alignment, the right chain feeds central-information and temporal-continuity-implication.",
+  "terms": [
+    {
+      "termId": "act-tr",
+      "isSubject": true
+    },
+    {
+      "termId": "expn"
+    },
+    {
+      "termId": "wo-unf"
+    },
+    {
+      "termId": "spt-gh"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "soc-pr"
+    },
+    {
+      "termId": "phy-u-c"
+    },
+    {
+      "termId": "soc-rt-dev"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "sg"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "act-tr",
+      "to": "expn",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "wo-unf",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "spt-gh",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "act-tr",
+      "to": "soc-pr",
+      "type": "solid"
+    },
+    {
+      "from": "soc-pr",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "soc-rt-dev",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dev",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "act-tr",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "sg",
+      "type": "solid"
+    }
+  ]
+}

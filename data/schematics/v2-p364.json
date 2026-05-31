@@ -5,34 +5,107 @@
   "page": 364,
   "subject": "ist-pt",
   "title": "IST.PT.------MN.DI.",
-  "type": "crossing",
-  "description": "Diagram closing R(AS)CM(II)-8 — the section on transformation as 'making available what is available.' The prose above the diagram identifies the structural target: 'the move to expose composite creativity is a move to positively reshape society — for all people — and this must be the goal of positive transformation.' The crossing diagrams the structural mechanism by which expose-composite-creativity actually meets its political-particular conditions: (C)IST-PT (central isolated-source point — the form's working position when it is making itself available) is crossed with MN-DI (meta-direction — the directional choice the receiving culture's policy makes about which creativities are exposed). IST-PT sits centrally with the subject-arrow; MN-DU (meta-duality) rises above it and POST (postulation) sits at upper-right with OP-SD (oppositional side) below — these are the partner-side's upper outputs, the postulations and oppositions the receiving culture mobilizes. (R)INTR (the reality of introduction) anchors the left margin, with P-PROG (political progression) below it routing down through SOC-RT-DY (social-reality dynamics) and POL-P (political particulars) at the bottom-left as the subject's downward chain. T-C-IMP (temporal-continuity implication) sits centrally below as the bridging hub, with RT-ALGN (reality alignment) at the bottom-center as the bridging terminus. TR-DIF (transformation-difference) sits on the right with RET-AF-TD (return-affinity transformation-dynamics) below as the partner's downward chain. Structural argument: making-available-what-is-available reaches reshape-society only along the diagonal that runs (R)INTR → P-PROG → SOC-RT-DY → POL-P upward back into IST-PT and across to TR-DIF. The subject's downward chain on the left is the route by which introduction routes through social-reality-dynamics into the political-particular conditions for exposure. The partner's MN-DU/POST/OP-SD upper chain is what the receiving culture mobilizes against the subject — duality, postulation, oppositional-side. The diagonal from IST-PT through T-C-IMP into RET-AF-TD at the bottom-right is the only edge through which the form's making-available reaches return-affinity-transformation-dynamics, the actual mechanism of reshape. Without T-C-IMP holding that diagonal, transformation-difference produces only its partner-side outputs, and the exposure-of-composite-creativity the prose names cannot reach 'all people.'",
+  "type": "hub-spoke",
+  "description": "Diagram closing R(AS)CM(II)-8 \u2014 the section on transformation as 'making available what is available.' The prose above the diagram identifies the structural target: 'the move to expose composite creativity is a move to positively reshape society \u2014 for all people \u2014 and this must be the goal of positive transformation.' The crossing diagrams the structural mechanism by which expose-composite-creativity actually meets its political-particular conditions: (C)IST-PT (central isolated-source point \u2014 the form's working position when it is making itself available) is crossed with MN-DI (meta-direction \u2014 the directional choice the receiving culture's policy makes about which creativities are exposed). IST-PT sits centrally with the subject-arrow; MN-DU (meta-duality) rises above it and POST (postulation) sits at upper-right with OP-SD (oppositional side) below \u2014 these are the partner-side's upper outputs, the postulations and oppositions the receiving culture mobilizes. (R)INTR (the reality of introduction) anchors the left margin, with P-PROG (political progression) below it routing down through SOC-RT-DY (social-reality dynamics) and POL-P (political particulars) at the bottom-left as the subject's downward chain. T-C-IMP (temporal-continuity implication) sits centrally below as the bridging hub, with RT-ALGN (reality alignment) at the bottom-center as the bridging terminus. TR-DIF (transformation-difference) sits on the right with RET-AF-TD (return-affinity transformation-dynamics) below as the partner's downward chain. Structural argument: making-available-what-is-available reaches reshape-society only along the diagonal that runs (R)INTR \u2192 P-PROG \u2192 SOC-RT-DY \u2192 POL-P upward back into IST-PT and across to TR-DIF. The subject's downward chain on the left is the route by which introduction routes through social-reality-dynamics into the political-particular conditions for exposure. The partner's MN-DU/POST/OP-SD upper chain is what the receiving culture mobilizes against the subject \u2014 duality, postulation, oppositional-side. The diagonal from IST-PT through T-C-IMP into RET-AF-TD at the bottom-right is the only edge through which the form's making-available reaches return-affinity-transformation-dynamics, the actual mechanism of reshape. Without T-C-IMP holding that diagonal, transformation-difference produces only its partner-side outputs, and the exposure-of-composite-creativity the prose names cannot reach 'all people.'",
   "terms": [
-    { "termId": "ist-pt", "isSubject": true, "prefix": "c" },
-    { "termId": "mn-di" },
-    { "termId": "mn-du" },
-    { "termId": "post" },
-    { "termId": "op-sd" },
-    { "termId": "intr", "prefix": "r" },
-    { "termId": "p-prog" },
-    { "termId": "soc-rt-dy" },
-    { "termId": "pol-p" },
-    { "termId": "t-c-imp" },
-    { "termId": "rt-algn" },
-    { "termId": "tr-dif" },
-    { "termId": "ret-af-td" }
+    {
+      "termId": "ist-pt",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "mn-di"
+    },
+    {
+      "termId": "mn-du"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "op-sd"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "p-prog"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "tr-dif"
+    },
+    {
+      "termId": "ret-af-td"
+    }
   ],
   "relationships": [
-    { "from": "ist-pt", "to": "mn-di", "type": "solid" },
-    { "from": "ist-pt", "to": "mn-du", "type": "solid" },
-    { "from": "mn-du", "to": "post", "type": "solid" },
-    { "from": "post", "to": "op-sd", "type": "solid" },
-    { "from": "intr", "to": "p-prog", "type": "solid" },
-    { "from": "p-prog", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "pol-p", "type": "solid" },
-    { "from": "ist-pt", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "rt-algn", "type": "solid" },
-    { "from": "ist-pt", "to": "tr-dif", "type": "solid" },
-    { "from": "tr-dif", "to": "ret-af-td", "type": "solid" }
+    {
+      "from": "ist-pt",
+      "to": "mn-di",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "mn-du",
+      "type": "solid"
+    },
+    {
+      "from": "mn-du",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "op-sd",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "p-prog",
+      "type": "solid"
+    },
+    {
+      "from": "p-prog",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "tr-dif",
+      "type": "solid"
+    },
+    {
+      "from": "tr-dif",
+      "to": "ret-af-td",
+      "type": "solid"
+    }
   ]
 }

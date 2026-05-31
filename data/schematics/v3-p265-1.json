@@ -1,0 +1,33 @@
+{
+  "id": "v3-p265-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-19",
+  "page": 265,
+  "subject": "th-cont",
+  "title": "TH.CONT.------AF.COMP.",
+  "type": "crossing",
+  "description": "First of two diagrams in PR.S(RD)II-19. The following prose names the structural target: 'The progressional move to apply transfer redefinitions on creative black music can be viewed in the early solidification of the music. In that period, western journalism would focus on the specifics of a given performer as a means to dissect the reality of the composite music. But the nature of how this focus was applied would establish from the beginning a profound insensitivity to the actual music.' The crossing diagrams how thrust-continuance structurally meets affinity-composite at the journalism-dissection-of-composite-music scale: TH-CONT (thrust continuance) crossed with AF-COMP (affinity composite — the partner-axis's compositing of affinity). TH-CONT sits at upper-left with the subject-arrow; (R)PROJ-DY (the reality of projection dynamics) sits centrally as the bridging hub. SG (source-generation) at top-center and COS-P (cosmic-particulars) at upper-right with PRI-INFO (principle information) and INFO-DY (information dynamics) below as the partner-side upper-right chain. EXP-CONT(2) (expansion condition, isolated-focus) and EXP-DY (exposure dynamics) anchor the lower-left as the subject-side downward chain. (R)APL-DT (the reality of applied dictates) sits centrally and AF-COMP at the bottom-right as partner-axis. Structural argument: when thrust-continuance is crossed with affinity-composite, the upper diagonal SG → COS-P → PRI-INFO → INFO-DY is the *journalism-focus chain* — source-generation routes through cosmic-particulars into principle-information and finally into information-dynamics, the route through which western journalism's dissection-focus actually reaches the form's information-dynamics output. (R)PROJ-DY is the bridging hub: the reality of projection-dynamics holds the form's thrust-continuance against the upper-diagonal capture. (R)APL-DT → AF-COMP is the partner-axis's downward chain — the reality of applied dictates routes into affinity-composite. EXP-CONT(2) → EXP-DY is the subject-side downward chain — isolated-focus expansion-condition routes through exposure-dynamics. The structural argument: the transfer-redefinitions journalism applies are structurally produced when SG → COS-P → PRI-INFO → INFO-DY upper diagonal captures thrust-continuance's actual working before (R)PROJ-DY can hold the bridging hub open — the form's reality of projection-dynamics never reaches affinity-composite directly because the upper chain has already converted source-generation into received information-dynamics through cosmic-particulars and principle-information.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true },
+    { "termId": "af-comp" },
+    { "termId": "sg" },
+    { "termId": "cos-p" },
+    { "termId": "proj-dy", "prefix": "r" },
+    { "termId": "pri-info" },
+    { "termId": "info-dy" },
+    { "termId": "apl-dt", "prefix": "r" },
+    { "termId": "exp-cont" },
+    { "termId": "exp-dy" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "af-comp", "type": "solid" },
+    { "from": "th-cont", "to": "proj-dy", "type": "solid" },
+    { "from": "sg", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "info-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "af-comp", "type": "solid" },
+    { "from": "th-cont", "to": "exp-cont", "type": "solid" },
+    { "from": "exp-cont", "to": "exp-dy", "type": "solid" }
+  ]
+}

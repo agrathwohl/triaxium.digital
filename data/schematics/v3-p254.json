@@ -1,0 +1,34 @@
+{
+  "id": "v3-p254",
+  "volume": 3,
+  "section": "PR.S(RD)II-8",
+  "page": 254,
+  "subject": "ist-f-dt",
+  "title": "IST.F.DT.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in PR.S(RD)II-8 (Progressional Significance and Re-Definitions, Level Two), on the page where Braxton argues that 'the science of a given form in black creativity has always followed the vibrational necessity of the invention and not the other way around. All of the extended harmonies practiced today were played in the early forms of the music — with the difference being that the notes were extended because of the vibrational reality of the individual, as opposed to the individual functioning as an extension of the notes.' (C)IST-F-DT (isolated focus dictates) is crossed with PROG-CONT (progressional continuance): the question is what isolated-focus-dictates produces when crossed with progressional-continuance, in the context where black-music science follows vibrational necessity but is documented through western maneuvers that distort the actual reality. CULT-AF-B (culture affinity basis) feeds the upper-right. LANG-CY (language cycle) and (R)INTR (the reality of interpretation) are upper outputs. RT-ALGN (reality alignment) is a central node. MT-INFO (multi-information) and COS-P (cosmic particulars) feed the lower-left. VT-DY (vibrational dynamics) feeds from the right. T-C-IMP (time continuum implications) and C-CONT (composite continuance) form the lower-middle convergence. PROG-CONT (the partner) is the structural endpoint. Structural argument: isolated-focus-dictates crossed with progressional-continuance requires culture-affinity-basis as upstream — Braxton's diagrammatic claim that black-music's progressional continuance is real only when the dictates of isolated focus connect through the culture-affinity-basis chain, not through western documentation-distortion.",
+  "terms": [
+    { "termId": "ist-f-dt", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "cult-af-bs" },
+    { "termId": "lang-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "rt-algn" },
+    { "termId": "mt-info" },
+    { "termId": "cos-p" },
+    { "termId": "vt-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "cult-af-bs", "to": "ist-f-dt", "type": "solid" },
+    { "from": "ist-f-dt", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "intr", "type": "solid" },
+    { "from": "rt-algn", "to": "ist-f-dt", "type": "solid" },
+    { "from": "vt-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "mt-info", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "c-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "c-cont", "type": "solid" }
+  ]
+}

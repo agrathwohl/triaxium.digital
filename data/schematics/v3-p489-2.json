@@ -1,0 +1,119 @@
+{
+  "id": "v3-p489-2",
+  "volume": 3,
+  "section": "TRF(II)-25",
+  "page": 489,
+  "subject": "rotp",
+  "title": "ROTP.------ALT.F.",
+  "type": "crossing",
+  "description": "Second diagram on page 489 (TRF(II)-25), paired with (R)INT x PART above. The crossing diagrams how route-options structurally meet alternative-form at the next-cycle power-sharing scale: ROTP (route option) crossed with ALT-F (alternative form). ROTP sits at left with the subject-arrow; ALT-F at lower-center as partner-axis. POL-CON (political consideration) upper-right, ECO-DY (economic dynamics) upper-center, WO-UNF (world unification) right. CULT-AF-BS (cultural-affinity base) right, EXP-DT (expansion dictates) center, C-INFO (central information) center. AF-DY (affinity dynamics) and INFO-DY (information dynamics) lower-right. TR (transformation), APL-DT (applied dictates), HI-P (high purpose) form the lower chain. Structural argument: when route-option is crossed with alternative-form, the upper diagonal POL-CON -> ECO-DY -> ROTP shows the partner-axis route - political-consideration and economic-dynamics route into route-options, the partner's working chain. The form's actual alternative-form reaches its own working through TR -> APL-DT -> HI-P on the lower chain, with EXP-DT/C-INFO central hubs.",
+  "terms": [
+    {
+      "termId": "rotp",
+      "isSubject": true
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "pol-con"
+    },
+    {
+      "termId": "eco-dy"
+    },
+    {
+      "termId": "wo-unf"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "exp-dt"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "hi-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "rotp",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "eco-dy",
+      "to": "pol-con",
+      "type": "solid"
+    },
+    {
+      "from": "pol-con",
+      "to": "wo-unf",
+      "type": "solid"
+    },
+    {
+      "from": "wo-unf",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "exp-dt",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dt",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "hi-p",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "alt-f",
+      "type": "solid"
+    }
+  ]
+}

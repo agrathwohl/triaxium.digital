@@ -1,0 +1,35 @@
+{
+  "id": "v3-p113-1",
+  "volume": 3,
+  "section": "ALT(FT)II-7",
+  "page": 113,
+  "subject": "aftd",
+  "title": "AF.TD.------MT.INFO.",
+  "type": "crossing",
+  "description": "First of two diagrams in ALT(FT)II-7. The prose immediately above identifies the structural target: 'creative music have already established a significant momentum — with respect to how its affinity dynamics have determined the present course western culture is now pursuing — and as such, this continuum is in an excellent position to accelerate the fundamentals of the next time cycle.' The crossing diagrams how affinity-tendencies structurally meets meta-information: AFTD (affinity tendencies) crossed with MT-INFO (meta-information). AFTD sits centrally with the subject-arrow; PRI-INFO (principle information) at upper-center and ATTN (attention) with VT-PLT (vibrational plateau) at upper-right as the partner-side upper outputs. (P)UTZ (physical-universe utilization) sits at upper-left. T-L (time-line) sits centrally and (R)P-FC (the reality of political focus/functionalism) at center-right as the bridging hubs. SPT-D (spectacle dictates) at the left-center and (R)INTR (the reality of introduction) below as the subject's downward chain. PER-DY (perceived dynamics) and MT-INFO at right-bottom anchor the partner-axis terminus. Structural argument: when affinity-tendencies is crossed with meta-information, the upper diagonal (P)UTZ → PRI-INFO → ATTN → VT-PLT is the *physical-universe-utilization route* — physical-universe-utilization routes through principle-information into attention, finally producing vibrational-plateau on the partner-side. AFTD → T-L is the bridging-axis route: affinity-tendencies routes through time-line into the bridging hub. SPT-D → (R)INTR is the subject's downward chain — spectacle-dictates routes through the reality of introduction. (R)P-FC → PER-DY → MT-INFO is the partner-axis's downward chain: the reality of political-focus routes through perceived-dynamics into meta-information. The structural argument: the acceleration the prose names structurally requires holding the (P)UTZ upper diagonal *and* the AFTD → T-L bridging diagonal both open — affinity-tendencies determine the present-course only when the upper-physical-utilization chain runs to vibrational-plateau without absorbing the bridging-axis's time-line edge.",
+  "terms": [
+    { "termId": "aftd", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "pri-info" },
+    { "termId": "attn" },
+    { "termId": "vt-plt" },
+    { "termId": "utz", "prefix": "p" },
+    { "termId": "t-l" },
+    { "termId": "p-fc", "prefix": "r" },
+    { "termId": "spt-d" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "per-dy" }
+  ],
+  "relationships": [
+    { "from": "aftd", "to": "mt-info", "type": "solid" },
+    { "from": "utz", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "vt-plt", "type": "solid" },
+    { "from": "aftd", "to": "t-l", "type": "solid" },
+    { "from": "t-l", "to": "p-fc", "type": "solid" },
+    { "from": "aftd", "to": "spt-d", "type": "solid" },
+    { "from": "spt-d", "to": "intr", "type": "solid" },
+    { "from": "p-fc", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "mt-info", "type": "solid" }
+  ]
+}

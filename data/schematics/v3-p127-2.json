@@ -1,0 +1,106 @@
+{
+  "id": "v3-p127-2",
+  "volume": 3,
+  "section": "ALT(FT)II-21",
+  "page": 127,
+  "subject": "afl",
+  "title": "AFL.------POL.CON.",
+  "type": "hub-spoke",
+  "description": "Second diagram on page 127 (ALT(FT)II-21), paired with ACT \u00d7 INFO-TRNS above. Where the first diagram structurally shows the routes by which action and information-transition cross under the western-definers' apparatus, this one names what affinity-alignment meets when political-consideration is the working partner: AFL (affinity alignment \u2014 the form's actual affinity orientation) crossed with POL-CON (political consideration \u2014 the partner-axis's political-working that converts affinity-alignment into receivable form). AFL sits centrally with the subject-arrow; SOC-RT-DY (social-reality dynamics) rises above and INFO-FM (information form/medium) sits at upper-right with IST-F (isolated focus) and PART (participation) further right as the partner-side upper chain. POL-P (political particulars) sits centrally as the bridging hub with AGT (agent/agency) to its left and ATTN (attention) on the right margin. POL-CON sits at left as partner-axis. MOT-DY (motion dynamics) hangs at lower-left as the partner-axis downward output. RTD-PRD (rooted-period) sits centrally below as the bridging-axis downward hub with RT-INT-TR (reality-internal transformation) at the bottom as the bridging terminus. Structural argument: when affinity-alignment is crossed with political-consideration, the upper diagonal SOC-RT-DY \u2192 INFO-FM \u2192 IST-F / PART \u2192 ATTN is the *information-medium route* \u2014 social-reality dynamics routes through information-form and isolated-focus participation into attention, the partner-side's converted reception. AGT \u2192 POL-P is the bridging hub: agent/agency holds the political-particulars hub through which the form's affinity-alignment reaches the partner-axis. POL-CON \u2192 MOT-DY is what political-consideration produces alone \u2014 motion-dynamics, the partner's downward terminus. AFL \u2192 RTD-PRD \u2192 RT-INT-TR is the bridging downward chain \u2014 affinity-alignment routes through rooted-period into reality-internal transformation. The structural argument: combat-the-mis-information (from the section's closing prose) requires holding the AGT \u2192 POL-P bridging hub open *and* the RTD-PRD diagonal back into RT-INT-TR \u2014 without both, the upper diagonal's attention-output absorbs affinity-alignment into the partner-axis's information-form while the political-consideration produces only motion-dynamics on its own side.",
+  "terms": [
+    {
+      "termId": "afl",
+      "isSubject": true
+    },
+    {
+      "termId": "pol-con"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "info-fm"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "agt"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "mot-dy"
+    },
+    {
+      "termId": "rtd-prd"
+    },
+    {
+      "termId": "rt-int-tr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl",
+      "to": "pol-con",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "info-fm",
+      "type": "solid"
+    },
+    {
+      "from": "info-fm",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "info-fm",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "agt",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-con",
+      "to": "mot-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "rtd-prd",
+      "type": "solid"
+    },
+    {
+      "from": "rtd-prd",
+      "to": "rt-int-tr",
+      "type": "solid"
+    }
+  ]
+}

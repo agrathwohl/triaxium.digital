@@ -1,0 +1,37 @@
+{
+  "id": "v3-p258-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-12",
+  "page": 258,
+  "subject": "sci-dy",
+  "title": "SCI.DY.------UNF.PI.",
+  "type": "crossing",
+  "description": "Second diagram on page 258 (PR.S(RD)II-12), paired with EXT-DY × SOC-RT-DY above. The crossing diagrams how scientific-dynamics structurally meets unified-physical-implication at the journalism-criticism-of-affinity-interpretation scale the surrounding prose names ('A given observation would find journalists measuring how a particular person functioned with respect to the affinity interpretation that western culture has developed in its own methodology'). SCI-DY (scientific dynamics) crossed with UNF-PI (unified physical-implication). SCI-DY sits on the left with the subject-arrow; TR (transformation) at upper-center and WO-UNF (world-unification) at top-right with MT-INFO (meta-information), BIA (bias), and C-RH (central rhythm) anchoring the right margin as the partner-side upper outputs. SPT-DY (spectacle dynamics) at center-left below SCI-DY. EXB-H-OR (establishing high order) at lower-left and PER-VT-U-FUND (periodic vibrational-universe fundament) below as the subject-side downward chain. EXT-FT (extended functionalism) at right-center as the partner-side downward output. UNF-PI sits centrally at lower-center as partner-axis. PER-PHY-U-FUND (periodic physical-universe fundament) at the bottom-right as the bridging-axis downward terminus. Structural argument: when scientific-dynamics is crossed with unified-physical-implication, the upper diagonal TR → WO-UNF → MT-INFO → BIA → C-RH is the *journalism-criticism chain* — transformation routes through world-unification into meta-information, then through bias into central-rhythm on the partner-side. The chain passes through bias at exactly the position where journalism's measurement of affinity-interpretation operates — central-rhythm gets received through the bias filter. SPT-DY hangs below SCI-DY as the subject's downward output. EXB-H-OR → PER-VT-U-FUND is the subject-side downward chain — establishing-high-order routes through periodic vibrational-universe fundament. UNF-PI → EXT-FT → PER-PHY-U-FUND is the partner-axis's downward chain. The structural argument: journalism's measurement of affinity-interpretation produces 'whether or not a given participation corresponds to an imposed definition of real' precisely because the upper diagonal routes through BIA before reaching C-RH — the form's actual scientific-dynamics gets received only at central-rhythm under the bias filter, and the subject's establishing-high-order downward chain only reaches periodic vibrational-universe-fundament rather than crossing into unified-physical-implication directly. The form's affinity-interpretation is journalistically measured against the receiving culture's bias-filtered central-rhythm, not against the form's working scientific-dynamics.",
+  "terms": [
+    { "termId": "sci-dy", "isSubject": true },
+    { "termId": "unf-pi" },
+    { "termId": "tr" },
+    { "termId": "wo-unf" },
+    { "termId": "mt-info" },
+    { "termId": "bia" },
+    { "termId": "c-rh" },
+    { "termId": "spt-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "ext-ft" },
+    { "termId": "per-phy-u-fund" }
+  ],
+  "relationships": [
+    { "from": "sci-dy", "to": "unf-pi", "type": "solid" },
+    { "from": "sci-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "wo-unf", "type": "solid" },
+    { "from": "wo-unf", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "c-rh", "type": "solid" },
+    { "from": "sci-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "unf-pi", "to": "ext-ft", "type": "solid" },
+    { "from": "unf-pi", "to": "per-phy-u-fund", "type": "solid" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "v3-p113-2",
+  "volume": 3,
+  "section": "ALT(FT)II-7",
+  "page": 113,
+  "subject": "acc-ft",
+  "title": "ACC.FT.------INFO.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 113 (ALT(FT)II-7), paired with AFTD × MT-INFO above. The following prose names the structural target this crossing diagrams: 'the emergence of the multi-instrumentalist-composer is directly related to the realness of new functionalism. To understand this development is to have insight into the progressional continuum of this time zone.' ACC-FT (accelerated functionalism — the form's actual accelerated working) crossed with INFO-DY (information dynamics — the partner-axis's working information-dynamics). ACC-FT sits centrally with the subject-arrow; EXT-FT (extended functionalism) at top-center and INFO-DY at upper-right with T-C-IMP (temporal-continuity implication) and POL-OR (political orientation) below as the partner-side upper-and-right chain. WO-CH (world change) at upper-left as the bridging upper-input. REL-TECH (relational technology) sits centrally as the bridging hub. RT-DY (reality dynamics) on the right with PER-TRS (perceived transition) and PROJ-DY (projection dynamics) below as the partner-side downward chain. TH-CONT-DY (thrust-continuance dynamics) at the bottom-center as the bridging-axis downward terminus. Structural argument: when accelerated-functionalism is crossed with information-dynamics, the upper diagonal EXT-FT → INFO-DY → T-C-IMP → POL-OR is the *extended-to-political route* — extended-functionalism routes through information-dynamics into temporal-continuity-implication and finally into political-orientation, the partner-side's working chain that converts the form's acceleration into received political-orientation. WO-CH → ACC-FT is the bridging upper-input: world-change enters acceleration. REL-TECH → RT-DY → PER-TRS → PROJ-DY is the bridging-and-partner downward chain — relational-technology routes through reality-dynamics into perceived-transition and finally into projection-dynamics. TH-CONT-DY at the bridging-bottom is the form's thrust-continuance dynamics terminus. The structural argument: the multi-instrumentalist-composer the prose names is structurally the configuration where WO-CH → ACC-FT enters the bridging chain *and* REL-TECH holds the central hub against the partner-axis's pull — the form's new-functionalism realness lives in keeping both edges open, otherwise extended-functionalism routes into POL-OR alone on the partner-side and the form's acceleration produces only the political-orientation received-output.",
+  "terms": [
+    { "termId": "acc-ft", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "t-c-imp" },
+    { "termId": "pol-or" },
+    { "termId": "wo-ch" },
+    { "termId": "rel-tech" },
+    { "termId": "rt-dy" },
+    { "termId": "per-trs" },
+    { "termId": "proj-dy" },
+    { "termId": "th-cont-dy" }
+  ],
+  "relationships": [
+    { "from": "acc-ft", "to": "info-dy", "type": "solid" },
+    { "from": "acc-ft", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "pol-or", "type": "solid" },
+    { "from": "wo-ch", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "rel-tech", "type": "solid" },
+    { "from": "rel-tech", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "per-trs", "type": "solid" },
+    { "from": "per-trs", "to": "proj-dy", "type": "solid" },
+    { "from": "acc-ft", "to": "th-cont-dy", "type": "solid" }
+  ]
+}

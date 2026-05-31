@@ -1,0 +1,39 @@
+{
+  "id": "v3-p135-1",
+  "volume": 3,
+  "section": "ALT(FT)II-29",
+  "page": 135,
+  "subject": "t-sc",
+  "title": "T.SC.------INT.",
+  "type": "crossing",
+  "description": "First of two diagrams in ALT(FT)II-29. The prose immediately above identifies the structural target: 'the solidification of transformational functionalism can be viewed as an important step towards uplifting the basic tone level of existence.' The crossing diagrams how trans-science structurally meets intention at the transformational-functionalism scale: T-SC (trans-science — the form's working integration of scientific and trans-rational knowledge) crossed with INT (intention — the partner-axis's actual intentional working). T-SC sits on the left with the subject-arrow; INT sits at top-center with INFO-CON (information conservation), BIA (bias), and OBS (observation) anchoring the upper-right margin as the partner-side upper outputs. C-INFO (central information) and EXP-DY (exposure dynamics) sit at center-right with INT (a second instance of intention, in the diagram's middle) and AFI (affinity insight) further down as the bridging-axis hub. POST (postulation) sits centrally below as the bridging downward hub. FUND-P (fundamental particulars) at lower-left and IF-SPT (isolated-focus spectacle) below POST with PER-DY (perceived dynamics) at center-bottom as the bridging-axis downward chain. TECH-DY (technological dynamics) anchors the bottom-left margin. Structural argument: when trans-science is crossed with intention, the upper diagonal INT → INFO-CON → BIA → OBS is the *intention-to-observation route* — intention routes through information-conservation into bias and finally into observation, the partner-side's working chain that converts trans-science into received observation. C-INFO → EXP-DY → INT (the second instance) → AFI is the bridging upper chain — central-information routes through exposure-dynamics into intention's central instance, finally producing affinity-insight. POST → FUND-P / IF-SPT / PER-DY at the bridging-bottom is what trans-science produces alone — postulation routes through fundamental-particulars into isolated-focus spectacle and perceived-dynamics. TECH-DY at the bottom-left is the subject-side terminus. The structural argument: the transformational-functionalism solidification the prose names is structurally the upper diagonal *and* the bridging C-INFO → EXP-DY → INT chain both holding — without both, trans-science routes only to TECH-DY on the subject-bottom while intention produces observation alone on the partner-side, and the form's working never reaches the AFI bridging-output.",
+  "terms": [
+    { "termId": "t-sc", "isSubject": true },
+    { "termId": "int" },
+    { "termId": "info-con" },
+    { "termId": "bia" },
+    { "termId": "obs" },
+    { "termId": "c-info" },
+    { "termId": "exp-dy" },
+    { "termId": "afi" },
+    { "termId": "post" },
+    { "termId": "if-spt" },
+    { "termId": "per-dy" },
+    { "termId": "fund-p" },
+    { "termId": "tech-dy" }
+  ],
+  "relationships": [
+    { "from": "t-sc", "to": "int", "type": "solid" },
+    { "from": "int", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "obs", "type": "solid" },
+    { "from": "int", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "afi", "type": "solid" },
+    { "from": "t-sc", "to": "post", "type": "solid" },
+    { "from": "post", "to": "fund-p", "type": "solid" },
+    { "from": "post", "to": "if-spt", "type": "solid" },
+    { "from": "if-spt", "to": "per-dy", "type": "solid" },
+    { "from": "t-sc", "to": "tech-dy", "type": "solid" }
+  ]
+}

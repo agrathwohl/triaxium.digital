@@ -1,0 +1,107 @@
+{
+  "id": "v3-p110-1",
+  "volume": 3,
+  "section": "ALT(FT)II-4",
+  "page": 110,
+  "subject": "dym-spt",
+  "title": "DYM.SPT.------IST.F.",
+  "type": "crossing",
+  "description": "First of two diagrams in ALT(FT)II-4. The crossing diagrams how dynamic-spirituality structurally meets isolated-focus at the projectional-continuum scale: DYM-SPT (dynamic spirituality) crossed with IST-F (isolated focus). DYM-SPT sits on the left with the subject-arrow; IST-F at center-right as partner-axis. AF-DY (affinity dynamics) and SF-RZ (self-realization) at upper margin with AFI (affinity insight) on the right. A-PR (applied projection), SOC-RT-DY (social-reality dynamics), DYM-F (dynamic form) on the subject's left chain. R-TM (reality of matrix), LG-DY (linguistic dynamics), LANG-DY (language dynamics) on the bridging-axis. RT-DY (reality dynamics) at center-right. Structural argument: when dynamic-spirituality is crossed with isolated-focus, the upper diagonal AF-DY -> SF-RZ -> AFI is the partner-axis upper route - affinity-dynamics routes through self-realization into affinity-insight. The subject's left chain A-PR -> SOC-RT-DY -> DYM-F is what dynamic-spirituality produces alone. The bridging-axis R-TM -> LG-DY -> LANG-DY carries the form's language working into the partner-axis.",
+  "terms": [
+    {
+      "termId": "dym-spt",
+      "isSubject": true
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "sf-rz"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "a-pr"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "dym-f"
+    },
+    {
+      "termId": "tm",
+      "prefix": "r"
+    },
+    {
+      "termId": "lg-dy"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "rt-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "dym-spt",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "sf-rz",
+      "type": "solid"
+    },
+    {
+      "from": "sf-rz",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
+      "to": "lg-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lg-dy",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "rt-dy",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "v3-p384",
+  "volume": 3,
+  "section": "JR-6",
+  "page": 384,
+  "subject": "stf",
+  "title": "STF.------RT.ALGN.",
+  "type": "network",
+  "description": "Partial-label diagram in JR-6 (Jazz-Rock). The prose immediately above identifies the structural target: 'the emergence of jazz-rock can be looked at as a positive factor for both jazz and rock musicians, yet for different reasons. Because if jazz-rock would be the form that would lead jazz musicians back into national acceptance, it would also be a vehicle to legitimize rock music \u2014 as a serious art form worthy of the critical defining community \u2014 and a form that \u2014 after its transfer shift completion \u2014 functioned in accordance to the dictates of the western defining community as well (thus securing the next arena for spectacle-diversion-transfer progressionalism).' STF (structural-formal phenomenon) crossed with RT-ALGN (reality alignment). STF sits at the title-axis subject; RT-ALGN at upper-center as partner-axis with RT-ALGN labeled below the title. Only four nodes are labeled in the diagram: RT-ALGN at upper-center-left, (R)DOC (the reality of documentation) at upper-center, APP-RDEF (applied redefinitions) at upper-right, and ALT-F (alternative form) at center-right. Five additional internal nodes are unlabeled black dots forming the rest of the branching structure. Structural argument: the partial-label form is structurally meaningful \u2014 the four labeled outputs (RT-ALGN, (R)DOC, APP-RDEF, ALT-F) name the western-defining-community's working channels that jazz-rock's transfer-shift completion enters, while the unlabeled internal junctions stand for the *unspecified* working positions the form passes through on its way to securing the spectacle-diversion-transfer progressionalism the prose names. The diagram structurally claims that the form's structural-formal phenomenon reaches the partner-axis's reality-alignment via four labeled receiving-positions but through an unspecified central tree \u2014 the next arena for spectacle-diversion-transfer is reached only when ALT-F (alternative form) absorbs APP-RDEF (applied redefinitions) and the western definers' community holds the (R)DOC chain open. The form's actual working content at the unlabeled internal nodes never receives names because the western definers do not name them \u2014 they receive the form only at the four labeled outputs.",
+  "terms": [
+    {
+      "termId": "stf",
+      "isSubject": true
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "doc",
+      "prefix": "r"
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "alt-f"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "stf",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "doc",
+      "type": "solid"
+    },
+    {
+      "from": "doc",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "alt-f",
+      "type": "solid"
+    }
+  ]
+}

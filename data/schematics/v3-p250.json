@@ -1,0 +1,114 @@
+{
+  "id": "v3-p250",
+  "volume": 3,
+  "section": "PR.S(RD)II-4",
+  "page": 250,
+  "subject": "af-post",
+  "title": "AF.POST.-----EXT.DY.",
+  "type": "crossing",
+  "description": "Diagram in PR.S(RD)II-4. The prose below identifies the structural target: 'To understand the reality of transformational journalism is to focus on how this phenomenon has come about - and what it means.' The crossing diagrams how affinity-postulation structurally meets extended-dynamics at the transformational-journalism scale: AF-POST crossed with EXT-DY. AF-POST sits at upper-center with the subject-arrow; EXT-DY at lower-center as partner-axis. POST (postulation), ALT-DEF (alternative definition) upper-right. WO-EXP-PRI (world exposure principle) upper-left. PER-DY (perceived dynamics) left, C-INFO (central information) center. VT-PLT (vibrational plateau), TR (transformation) right. LK-IMP (linkage implication) left. PROJ-DY (projection dynamics), METH (method) right. EXT-FT (extended functionalism) lower-center.",
+  "terms": [
+    {
+      "termId": "af-post",
+      "isSubject": true
+    },
+    {
+      "termId": "ext-dy"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "alt-def"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "vt-plt"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "meth"
+    },
+    {
+      "termId": "ext-ft"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "af-post",
+      "to": "ext-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "alt-def",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "af-post",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "af-post",
+      "type": "solid"
+    },
+    {
+      "from": "alt-def",
+      "to": "vt-plt",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "ext-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "meth",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "ext-ft",
+      "type": "solid"
+    }
+  ]
+}

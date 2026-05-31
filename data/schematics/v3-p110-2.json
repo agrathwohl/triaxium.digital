@@ -1,0 +1,90 @@
+{
+  "id": "v3-p110-2",
+  "volume": 3,
+  "section": "ALT(FT)II-4",
+  "page": 110,
+  "subject": "ext-ft",
+  "title": "EXT.FT.------C.CONT.",
+  "type": "crossing",
+  "description": "Second diagram on page 110 (ALT(FT)II-4). The crossing diagrams how extended-functionalism structurally meets composite-continuance at the projectional-strain scale: EXT-FT (extended functionalism) crossed with C-CONT (composite continuance). EXT-FT sits at left; C-CONT at upper-right as partner-axis. AFI-2 (affinity insight, level 2) upper-left, DYM-SPT (dynamic spirituality) upper-center, F (form) upper-center as the upper bridging chain. TECH-DY (technological dynamics) right. VT-DY (vibrational dynamics) lower-left, RT-ALGN (reality alignment) center, MTH (method) lower-center-right as bridging chain. INDIV-DY (individual dynamics) at bottom. Structural argument: when extended-functionalism is crossed with composite-continuance, the upper chain AFI-2 -> DYM-SPT -> F -> C-CONT is the bridging route through which affinity-insight level-two reaches composite-continuance via dynamic-spirituality and form. The form's actual continuance reaches the partner through TECH-DY on the right. The lower chain VT-DY -> RT-ALGN -> MTH carries vibrational-dynamics through reality-alignment into method, the subject's downward output.",
+  "terms": [
+    {
+      "termId": "ext-ft",
+      "isSubject": true
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "afi-2"
+    },
+    {
+      "termId": "dym-spt"
+    },
+    {
+      "termId": "f"
+    },
+    {
+      "termId": "tech-dy"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "mth"
+    },
+    {
+      "termId": "indiv-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ext-ft",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "afi-2",
+      "to": "dym-spt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "f",
+      "type": "solid"
+    },
+    {
+      "from": "f",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "tech-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "indiv-dy",
+      "type": "solid"
+    }
+  ]
+}

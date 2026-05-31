@@ -1,0 +1,107 @@
+{
+  "id": "v3-p167",
+  "volume": 3,
+  "section": "EVOL-5",
+  "page": 167,
+  "subject": "intr",
+  "title": "(R)INTR.------AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in EVOL-5. The prose above identifies the structural target: 'It is for this reason that the interpretation focus of a given initiation must be reviewed and challenged when not correct (which is practically ninety-nine percent of the time).' The crossing diagrams how the reality of introduction structurally meets affinity-dynamics at the interpretation-focus scale: (R)INTR crossed with AF-DY. INTR sits at left with the subject-arrow; AF-DY at center-right as partner-axis. AFL (affinity alignment) upper-center, P-FC (political focus/functionalism) upper-right. ATTN (attention), MT-RT-SIGN (meta-reality signal), INDIV-VT-TD (individual vibrational transformation-dynamics) on the right. INFO-FM (information form-medium) left, RT-DY (reality dynamics) center, LANG-DY (language dynamics) lower-left. APL-DT (applied dictates) lower-right, INFO-DY (information dynamics) lower-center.",
+  "terms": [
+    {
+      "termId": "intr",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "afl"
+    },
+    {
+      "termId": "p-fc"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "mt-rt-sign"
+    },
+    {
+      "termId": "indiv-vt-td"
+    },
+    {
+      "termId": "info-fm"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "info-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "intr",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "mt-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "mt-rt-sign",
+      "to": "indiv-vt-td",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "info-fm",
+      "type": "solid"
+    },
+    {
+      "from": "info-fm",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "info-dy",
+      "type": "solid"
+    }
+  ]
+}

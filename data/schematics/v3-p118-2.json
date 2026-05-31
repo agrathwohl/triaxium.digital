@@ -1,0 +1,98 @@
+{
+  "id": "v3-p118-2",
+  "volume": 3,
+  "section": "ALT(FT)II-12",
+  "page": 118,
+  "subject": "crtf-prog",
+  "title": "CRTF.PROG.------VT.SCI.",
+  "type": "crossing",
+  "description": "Second diagram on page 118 (ALT(FT)II-12), paired with C-ACT x INDIV-TD above. The crossing diagrams how creative-progression structurally meets vibrational-science at the transformational-creative-musician scale the prose names: CRTF-PROG (creative progression) crossed with VT-SCI (vibrational science). CRTF-PROG sits at upper-right with the subject-arrow; VT-SCI at lower-center as partner-axis. AF-POST (affinity postulation) center-left and PRI-INFO (principle information) center as the bridging hubs. APP-DT (applied dictates) right of crtf-prog. RE-CONT (recontinuance) at left and FUND-DY (fundamental dynamics) at lower-left as the subject's leftward chain. REL-TECH (relational technology) center-right with SPT-AW (spectacle-awareness) and C-INFO (central information) anchoring the right margin. EXPN-DT (expansion dictates) at bottom. Structural argument: when creative-progression is crossed with vibrational-science, the central bridging hub AF-POST -> PRI-INFO routes the form's affinity-postulation through principle-information into the partner's working chain. The subject's left chain RE-CONT -> FUND-DY produces recontinuance through fundamental-dynamics. The right chain APP-DT -> REL-TECH -> SPT-AW -> C-INFO carries applied-dictates through relational-technology into central-information.",
+  "terms": [
+    {
+      "termId": "crtf-prog",
+      "isSubject": true
+    },
+    {
+      "termId": "vt-sci"
+    },
+    {
+      "termId": "af-post"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "app-dt"
+    },
+    {
+      "termId": "re-cont"
+    },
+    {
+      "termId": "fund-dy"
+    },
+    {
+      "termId": "rel-tech"
+    },
+    {
+      "termId": "spt-aw"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "expn-dt"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "crtf-prog",
+      "to": "vt-sci",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "crtf-prog",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "fund-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "app-dt",
+      "type": "solid"
+    },
+    {
+      "from": "re-cont",
+      "to": "af-post",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "rel-tech",
+      "type": "solid"
+    },
+    {
+      "from": "rel-tech",
+      "to": "spt-aw",
+      "type": "solid"
+    },
+    {
+      "from": "spt-aw",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "vt-sci",
+      "to": "expn-dt",
+      "type": "solid"
+    }
+  ]
+}

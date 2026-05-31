@@ -1,0 +1,38 @@
+{
+  "id": "v3-p241",
+  "volume": 3,
+  "section": "T(IMP)M-39",
+  "page": 241,
+  "subject": "pri-info",
+  "title": "PRI.INFO.------AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in T(IMP)M-39 (The Teaching of Improvised Music, Level One), on the page where Braxton argues about 'applied definitions' — 'what a given definition used to mean in its source-initiation context, and what the same definition means after its adoption into the throngs of western dynamics. For every aspect of black methodology has had to necessarily be re-aligned to become real to western functionalism.' (C)PRI-INFO (principle information) is crossed with AF-DY (affinity dynamics): the question is what principle-information produces when crossed with affinity-dynamics, in a culture where applied-definitions systematically realign black methodology to western functionalism. IF-ST-DY (infra-structure dynamics) and INFO-DE-B (information degree basis) feed the upper-right. PER-DY (perception dynamics) and INFO-AF-B (information affinity basis) are right-side outputs. LG-DY (logical dynamics) and APL-DY (applied dynamics) form the rightmost cluster. EXP-DY (expansion dynamics) and POST (postulation) feed the lower-left. RT-INT-TR (reality initiative traits), SOC-RT-P (social reality particulars), and ALT-F (alternative functionalism) form the lower convergence. Structural argument: principle-information crossed with affinity-dynamics requires the infra-structure-dynamics → information-degree-basis chain on the upper side, and the reality-initiative-traits → social-reality-particulars → alternative-functionalism chain on the lower side. Braxton's diagrammatic claim: only when both chains are operative does principle-information survive the realignment-to-western-functionalism that applied-definitions imposes.",
+  "terms": [
+    { "termId": "pri-info", "isSubject": true, "prefix": "c" },
+    { "termId": "afl-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "per-dy" },
+    { "termId": "info-af-b" },
+    { "termId": "lg-dy" },
+    { "termId": "apl-dt" },
+    { "termId": "exp-dym" },
+    { "termId": "post" },
+    { "termId": "rt-int-tr" },
+    { "termId": "soc-rt-p" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "pri-info", "to": "afl-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "per-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "afl-dy", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "apl-dt", "type": "solid" },
+    { "from": "exp-dym", "to": "pri-info", "type": "solid" },
+    { "from": "rt-int-tr", "to": "exp-dym", "type": "solid" },
+    { "from": "post", "to": "afl-dy", "type": "solid" },
+    { "from": "soc-rt-p", "to": "post", "type": "solid" },
+    { "from": "alt-f", "to": "afl-dy", "type": "solid" }
+  ]
+}

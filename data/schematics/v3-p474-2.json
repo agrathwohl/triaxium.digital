@@ -1,0 +1,38 @@
+{
+  "id": "v3-p474-2",
+  "volume": 3,
+  "section": "TRF(II)-10",
+  "page": 474,
+  "subject": "p-prog",
+  "title": "P.PROG.------MT.INFO.",
+  "type": "crossing",
+  "description": "Second diagram on page 474 (TRF(II)-10), paired with PER.PHY.U.FUND × WO.EXP.PRI above. The crossing diagrams how political-progression structurally meets meta-information at the multi-factor-cyclic-shift scale: P-PROG (political progression — the actual political-working forward motion) crossed with MT-INFO (meta-information). P-PROG sits at upper-right with the subject-arrow; POL-CON (political consideration) at top-center as the bridging upper hub. TRS (transformation) at upper-left and P-FC (political focus/functionalism) below as the subject-side leftward chain. SOC-RT-P (social-reality particular) at right and RT-DY (reality dynamics) below as the partner-side upper-right chain. RE-DOC (redocumentation) sits centrally with AFL (affinity alignment) and AF-DY (affinity dynamics) below as the bridging-axis central chain. MT-INFO sits at lower-left as partner-axis. LK-IMP (linkage implication) and RE-ST (restructuralism) anchor the bottom-right margin as partner-side downward outputs. PRI-INFO (principle information) sits at the bottom-center as the bridging terminus. Structural argument: when political-progression is crossed with meta-information, the upper diagonal POL-CON → P-PROG → SOC-RT-P → RT-DY is the *political-progression's partner-route* — political-consideration routes through political-progression into social-reality-particular and finally into reality-dynamics. TRS → P-FC is the subject's leftward chain — transformation routes through political-focus. RE-DOC → AFL → AF-DY is the bridging-axis central chain — redocumentation routes through affinity-alignment into affinity-dynamics. LK-IMP → RE-ST is the partner-side downward chain. PRI-INFO at the bridging-bottom is the form's principle-information terminus. The structural argument: the dictates-of-transformation the surrounding prose names ('the movement towards a composite aesthetic is directly connected to the dictates of transformation') are structurally that POL-CON must hold its bridging-upper hub *and* RE-DOC must hold its central hub — only with both holding does political-progression reach meta-information through affinity-dynamics rather than terminating in reality-dynamics on the partner-axis-upper or restructuralism on the partner-axis-lower alone.",
+  "terms": [
+    { "termId": "p-prog", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "pol-con" },
+    { "termId": "trs" },
+    { "termId": "p-fc" },
+    { "termId": "soc-rt-p" },
+    { "termId": "rt-dy" },
+    { "termId": "re-doc" },
+    { "termId": "afl" },
+    { "termId": "af-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "re-st" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "p-prog", "to": "mt-info", "type": "solid" },
+    { "from": "pol-con", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "rt-dy", "type": "solid" },
+    { "from": "trs", "to": "p-fc", "type": "solid" },
+    { "from": "p-prog", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "af-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "re-st", "type": "solid" },
+    { "from": "af-dy", "to": "pri-info", "type": "solid" }
+  ]
+}

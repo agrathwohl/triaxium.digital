@@ -1,0 +1,39 @@
+{
+  "id": "v3-p265-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-19",
+  "page": 265,
+  "subject": "mt-info",
+  "title": "MT.INFO.------V.SY.",
+  "type": "crossing",
+  "description": "Second diagram on page 265 (PR.S(RD)II-19), paired with TH-CONT × AF-COMP above. The crossing diagrams how meta-information structurally meets value-system at the journalism-insensitivity scale the prior diagram named: MT-INFO (meta-information — the western-journalism's information about the form's information) crossed with V-SY (value system — the partner-axis's organized value-system that determines acceptance). MT-INFO sits at upper-left with the subject-arrow; OBS (observation) at top-center and AFL (affinity alignment) at upper-right with INDIV-TD (individual transformation-dynamics) and PER-DY (perceived dynamics) below as the partner-side upper-right chain. PRI-INFO (principle information) sits at left and CULT-INFO-B (cultural-information base) further left as the subject-side leftward chain. DEF (definition) at lower-left as the subject-side downward output. V-SY sits centrally below; ATTN (attention) at lower-right with SPT-DY (spectacle dynamics) and AFI (affinity insight) at the right-bottom margin as the bridging-axis downward chain. RT-INT-TR (reality-internal transformation) at the bottom-center as the bridging terminus. Structural argument: when meta-information is crossed with value-system, the upper diagonal OBS → AFL → INDIV-TD → PER-DY is the *value-system's organizing route* — observation routes through affinity-alignment into individual transformation-dynamics and finally into perceived-dynamics on the partner-side. PRI-INFO → CULT-INFO-B is the subject-side leftward chain — principle-information routes into cultural-information-base. DEF is the subject's downward output (definition). V-SY → ATTN → SPT-DY → AFI is the partner-axis's downward chain — value-system routes through attention into spectacle-dynamics, finally producing affinity-insight on the partner-side. RT-INT-TR at the bridging-bottom is the form's reality-internal transformation terminus. The structural argument: the profound insensitivity to the actual music the prose names is structurally produced when MT-INFO's upper diagonal converts the form's PRI-INFO into AFL on the partner-axis via OBS — value-system absorbs the form's principle-information through observation-and-alignment before CULT-INFO-B can hold the subject-side cultural-affinity base; the partner-axis's downward chain produces affinity-insight on its own terms, while the form's actual reality-internal transformation only reaches the bridging-bottom as RT-INT-TR, never crossing the value-system axis.",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "v-sy" },
+    { "termId": "obs" },
+    { "termId": "afl" },
+    { "termId": "indiv-td" },
+    { "termId": "per-dy" },
+    { "termId": "pri-info" },
+    { "termId": "cult-info-b" },
+    { "termId": "def" },
+    { "termId": "attn" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "rt-int-tr" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "v-sy", "type": "solid" },
+    { "from": "mt-info", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "per-dy", "type": "solid" },
+    { "from": "mt-info", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "def", "type": "solid" },
+    { "from": "v-sy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "v-sy", "to": "rt-int-tr", "type": "solid" }
+  ]
+}

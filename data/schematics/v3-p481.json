@@ -1,0 +1,128 @@
+{
+  "id": "v3-p481",
+  "volume": 3,
+  "section": "TRF(II)-17",
+  "page": 481,
+  "subject": "re-doc",
+  "title": "(R)RE.DOC.-----AF.DY.",
+  "type": "crossing",
+  "description": "Diagram in TRF(II)-17. The prose above identifies the structural target: 'the collective forces of western culture function as a negative factor with regards to the actualness of creativity from every sector of the planet - especially if the creator is not a white man.' The crossing diagrams how reality-of-redocumentation structurally meets affinity-dynamics at the creative-women-evaluation scale: (R)RE-DOC crossed with AF-DY. RE-DOC sits at left with the subject-arrow; AF-DY at center-bottom as partner-axis. C-INFO (central information), MT-INTR (meta-introduction), STF (structural-formal) upper chain. INDIV-TD (individual transformation-dynamics) center, T-C-IMP (temporal-continuity implication) right. SG (source-generation) center. CULT-INFO-DY (cultural-information dynamics), CULT-SOLD (culture-soldered) right. VT-DY (vibrational dynamics), PER-DY (perceived dynamics), TR (transformation) on the lower-left chain. RT-DY (reality dynamics) lower-center.",
+  "terms": [
+    {
+      "termId": "re-doc",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "sg"
+    },
+    {
+      "termId": "cult-info-dy"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "rt-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "re-doc",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "rt-dy",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p500-2",
+  "volume": 3,
+  "section": "TRF(II)-36",
+  "page": 500,
+  "subject": "afi",
+  "title": "AFI.------EXP.INFO.B.",
+  "type": "crossing",
+  "description": "Second diagram on page 500 (TRF(II)-36), paired with SPT-DY × AF-POST above. The crossing diagrams how affinity-insight structurally meets exposure-information-base at the alternative-spiritual-affinity-alignment scale the prior diagram named: AFI (affinity insight) crossed with EXP-INFO-B (exposure-information base — the partner-axis's working base for the form's exposure-information). AFI sits at center-left with the subject-arrow; OP-SD (oppositional side) at top-center and TR (transformation) at upper-right with EXP-INFO-B at center-right as partner-axis. SOC-RT-DY (social-reality dynamics) at upper-left as the subject-side upper input. (R)TM (the reality of the matrix-term) at lower-left and POST (postulation) at the bottom-center with CULT-AF-B (cultural-affinity base) below as the bridging-axis downward chain. IST-S-ALGN (isolated-source alignment) at right of EXP-INFO-B; SPT-DY (spectacle dynamics) and MT-INFO (meta-information) anchor the right margin as the partner-side downward outputs. Structural argument: when affinity-insight is crossed with exposure-information-base, the upper diagonal OP-SD → TR is the *oppositional-transformation route* — oppositional-side routes through transformation on the partner-side upper. SOC-RT-DY → AFI is the bridging upper input — social-reality dynamics enters affinity-insight. EXP-INFO-B → IST-S-ALGN → SPT-DY → MT-INFO is the partner-axis's downward chain — exposure-information-base routes through isolated-source alignment into spectacle-dynamics and finally into meta-information. (R)TM → POST → CULT-AF-B is the bridging-axis downward chain — the reality of the matrix-term routes through postulation into cultural-affinity-base. The structural argument: the actualness-of-change the prose names structurally requires holding SOC-RT-DY → AFI's bridging upper-input *and* the bridging downward chain (R)TM → POST → CULT-AF-B simultaneously — without both, affinity-insight produces only OP-SD on the partner-side (oppositional position without integration) while the partner-axis's downward chain routes exposure-information-base into meta-information as terminal received-form, never reaching the form's actual cultural-affinity-base.",
+  "terms": [
+    { "termId": "afi", "isSubject": true },
+    { "termId": "exp-info-b" },
+    { "termId": "op-sd" },
+    { "termId": "tr" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "post" },
+    { "termId": "cult-af-b" },
+    { "termId": "ist-s-algn" },
+    { "termId": "spt-dy" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "exp-info-b", "type": "solid" },
+    { "from": "afi", "to": "op-sd", "type": "solid" },
+    { "from": "op-sd", "to": "tr", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "afi", "type": "solid" },
+    { "from": "exp-info-b", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "mt-info", "type": "solid" },
+    { "from": "afi", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "post", "type": "solid" },
+    { "from": "post", "to": "cult-af-b", "type": "solid" }
+  ]
+}

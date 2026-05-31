@@ -1,0 +1,107 @@
+{
+  "id": "v3-p459-1",
+  "volume": 3,
+  "section": "TRF(CW)-31",
+  "page": 459,
+  "subject": "mt-info",
+  "title": "MT.INFO.-----C.CONT.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(CW)-31. The prose above identifies the structural target about bebop's meta-reality transcending regionalism. The crossing diagrams how meta-information structurally meets composite-continuance: MT-INFO crossed with C-CONT. MT-INFO sits at left with the subject-arrow; C-CONT at center-bottom as partner-axis. EXT-DY (extended dynamics) upper-center, POL-CONT (political continuance) upper-right. POST (postulation) left. POL-P (political particulars), TR (transformation), PROG-CONT (progressional continuance) center-to-right. APT-DY (apt dynamics), AFI (affinity insight), TRS (transformation), (R)INTR (reality of introduction) lower chain.",
+  "terms": [
+    {
+      "termId": "mt-info",
+      "isSubject": true
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "ext-dy"
+    },
+    {
+      "termId": "pol-cont"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "apt-dy"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mt-info",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "ext-dy",
+      "type": "solid"
+    },
+    {
+      "from": "ext-dy",
+      "to": "pol-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "apt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "intr",
+      "type": "solid"
+    }
+  ]
+}

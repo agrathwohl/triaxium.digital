@@ -1,0 +1,104 @@
+{
+  "id": "v3-p86-2",
+  "volume": 3,
+  "section": "CS-14",
+  "page": 86,
+  "subject": "afi",
+  "title": "AFI.------SCI.DYM.",
+  "type": "crossing",
+  "description": "Second diagram on page 86 (CS-14). The crossing diagrams how affinity-insight structurally meets scientific-dynamism at the western-science-affinity-stance scale the prose names: 'the continuum of western scientific thought is directly based in the affinity stance of western culture - having to do with perception within an existential information focus.' AFI (affinity insight) crossed with SCI.DYM (scientific dynamism). AFI sits at upper-center with the subject-arrow; HI-P (high purpose) upper-left and (R)INT (the reality of intention) at left as the subject-side leftward chain. COS-P (cosmic-particulars) upper-right and APL-DT (applied dictates) at right with POST (postulation) below as partner-side upper outputs. EXP-DY (exposure dynamics) sits centrally. DEC (decision), SCI-DY (scientific dynamism, lowercase variant), BIA (bias), ACC-FT (accumulated functionalism) form the lower chain. Structural argument: when affinity-insight is crossed with scientific-dynamism, the upper diagonal COS-P -> APL-DT -> POST is the western-science capture route - cosmic-particulars route through applied-dictates into postulation, reducing the form's affinity-insight to postulation rather than letting it reach scientific-dynamism through the central EXP-DY hub. The lower chain DEC -> SCI-DY -> BIA -> ACC-FT shows what scientific-dynamism produces when not held in axis-crossing with affinity-insight: decision routes through scientific-dynamism into bias and accumulated-functionalism.",
+  "terms": [
+    {
+      "termId": "afi",
+      "isSubject": true
+    },
+    {
+      "termId": "sci-dy"
+    },
+    {
+      "termId": "hi-p"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "cos-p"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "bia"
+    },
+    {
+      "termId": "acc-ft"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afi",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "hi-p",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "sci-dy",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
+      "to": "acc-ft",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p500-1",
+  "volume": 3,
+  "section": "TRF(II)-36",
+  "page": 500,
+  "subject": "spt-dy",
+  "title": "SPT.DY.------AF.POST.",
+  "type": "crossing",
+  "description": "First of two diagrams in TRF(II)-36. The prose immediately above identifies the structural target: 'The spiritual alignment of a given culture is directly related to the vibrational and dynamic factors which outline how a given time zone is understood. Thus, if the concept of transformation has anything to do with \"actualness\" of change, then this concept must also imply that the composite results of that change be addressed with regards for what they mean on a dynamic (i.e., cosmic-spiritual-practical) level. The solidification of an alternative spiritual affinity alignment is directly related to the concept of transformation.' The crossing diagrams how spiritual-dynamics structurally meets affinity-postulation at the alternative-spiritual-affinity-alignment scale: SPT-DY (spectacle dynamics — Braxton's recurring term for the partner-axis's spectacle-conversion working) crossed with AF-POST (affinity postulation — the form's actual postulating-from-affinity). SPT-DY sits on the left with the subject-arrow; POL-P (political particulars) at upper-center and CN-INFO (continuance-information) at top-right with INFO-FM (information-form-medium) further right as the upper-bridging chain. MT-INTR (meta-introduction) sits centrally with (R)INTR (the reality of introduction) at right as the bridging hub. AF-POST sits at center-right as partner-axis; INFO-CON (information conservation) at the right-bottom as the partner-side downward output. T-C-IMP (temporal-continuity implication) hangs at lower-left and RT-DY (reality dynamics) and DIS-C-CT (disconnect) at center-bottom as the subject-side downward chain. Structural argument: when spectacle-dynamics is crossed with affinity-postulation, the upper diagonal POL-P → CN-INFO → INFO-FM is the *spectacle-converting chain* — political-particulars route through continuance-information into information-form-medium, the partner-side's working channel for converting spectacle into received form. MT-INTR → (R)INTR is the bridging hub: meta-introduction routes through the reality of introduction. SPT-DY → T-C-IMP → RT-DY → DIS-C-CT is the subject-side downward chain — spectacle-dynamics routes through temporal-continuity-implication into reality-dynamics and finally into disconnect (Braxton's recurring suppression terminus). AF-POST → INFO-CON is the partner-axis's downward output. The structural argument: alternative-spiritual-affinity-alignment requires holding the bridging hub MT-INTR → (R)INTR open against the upper diagonal's pull into INFO-FM and against the subject-axis's terminal DIS-C-CT — the form's actual cosmic-spiritual-practical alignment lives in the bridging hub maintaining position, otherwise spectacle-dynamics absorbs affinity-postulation into the partner-axis's information-conservation alone while the subject-axis disconnects.",
+  "terms": [
+    { "termId": "spt-dy", "isSubject": true },
+    { "termId": "af-post" },
+    { "termId": "pol-p" },
+    { "termId": "cn-info" },
+    { "termId": "info-fm" },
+    { "termId": "mt-intr" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "rt-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "dis-c-ct" },
+    { "termId": "info-con" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "af-post", "type": "solid" },
+    { "from": "spt-dy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "info-fm", "type": "solid" },
+    { "from": "spt-dy", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "intr", "type": "solid" },
+    { "from": "af-post", "to": "info-con", "type": "solid" },
+    { "from": "spt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "dis-c-ct", "type": "solid" }
+  ]
+}

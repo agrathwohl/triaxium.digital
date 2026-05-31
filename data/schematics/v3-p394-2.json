@@ -1,0 +1,38 @@
+{
+  "id": "v3-p394-2",
+  "volume": 3,
+  "section": "JR-16",
+  "page": 394,
+  "subject": "afi-2",
+  "title": "AFI(2)--------ATTN.",
+  "type": "crossing",
+  "description": "Second diagram on page 394 (JR-16), paired with AFI-2 × STY above. Where the first diagram structurally diagrams how affinity-insight level-two reaches the partner-axis's meta-information via the bi-aitional-stylistic chain, this one names what AFI-2 meets when attention is the working partner — the question of how jazz-rock's actual second-degree-insight reaches the listener's attention: AFI-2 crossed with ATTN (attention — the partner-axis's actual receiving attention). AFI-2 sits on the right with the subject-arrow; TRS (transformation) sits at top-center and SPT-GH (spirit-ghost) at upper-right as the subject-side upper outputs. SOC-RT-DEVL (social-reality development) at upper-left and SG (source-generation) below as the bridging-axis upper-left chain. STY (stylization) sits centrally; RT-DY (reality dynamics) on the right with WO-UNF (world-unification) and REL-APC (related-apparatus) below as partner-side downward chain. ATTN sits at lower-left as partner-axis. POL-DY (political dynamics) sits below STY at lower-center as the bridging hub. INFO-DOC (information documentation) at the bottom as the bridging-axis downward terminus. Structural argument: when affinity-insight level-two is crossed with attention, the upper diagonal SOC-RT-DEVL → SG → ATTN is the *partner-axis route* — social-reality development routes through source-generation into attention, the receiving-cultural axis. TRS → SPT-GH on the upper-right is what affinity-insight produces alone — transformation routes through spirit-ghost. The central STY hub holds the bridging chain; AFI-2 → RT-DY → WO-UNF / REL-APC routes affinity-insight through reality-dynamics into world-unification or related-apparatus on the partner-right. POL-DY → INFO-DOC at the bridging-bottom is what stylization produces as the form's political-dynamics terminus into information-documentation. The structural argument: the prose's 'bi-aitional principle' (the bi-directional/two-pronged condition) is structurally that AFI-2 must simultaneously route into the partner-axis's attention via SOC-RT-DEVL/SG *and* into the subject's TRS/SPT-GH upper outputs — that's the bi- of bi-aitional. Jazz-rock's pure state requires both directions to hold; otherwise the form collapses to ATTN alone (pop-reception) or SPT-GH alone (vibrational residue without uptake).",
+  "terms": [
+    { "termId": "afi-2", "isSubject": true },
+    { "termId": "attn" },
+    { "termId": "trs" },
+    { "termId": "spt-gh" },
+    { "termId": "soc-rt-devl" },
+    { "termId": "wo-unf" },
+    { "termId": "sg" },
+    { "termId": "sty" },
+    { "termId": "rt-dy" },
+    { "termId": "rel-apc" },
+    { "termId": "pol-dy" },
+    { "termId": "info-doc" }
+  ],
+  "relationships": [
+    { "from": "afi-2", "to": "attn", "type": "solid" },
+    { "from": "afi-2", "to": "spt-gh", "type": "solid" },
+    { "from": "afi-2", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "soc-rt-devl", "type": "solid" },
+    { "from": "soc-rt-devl", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "attn", "type": "solid" },
+    { "from": "afi-2", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "wo-unf", "type": "solid" },
+    { "from": "rt-dy", "to": "rel-apc", "type": "solid" },
+    { "from": "rel-apc", "to": "pol-dy", "type": "solid" },
+    { "from": "attn", "to": "sty", "type": "solid" },
+    { "from": "pol-dy", "to": "info-doc", "type": "solid" }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "v3-p392-2",
+  "volume": 3,
+  "section": "JR-14",
+  "page": 392,
+  "subject": "afl",
+  "title": "AFL.------VT.DY.",
+  "type": "crossing",
+  "description": "Second diagram on page 392 (JR-14). The crossing diagrams how affinity-alignment structurally meets vibrational-dynamics: AFL crossed with VT-DY. AFL sits at left with the subject-arrow; VT-DY at center-right as partner-axis. MT-INFO (meta-information) upper-center, INFO-DY (information dynamics) upper-right, INVT-DT (invitation-dictates) right. TM (matrix), IST-F (isolated focus) right. CULT-AF-BS (cultural-affinity base) lower-left, C-CONT (composite continuance) lower-left. TR (transformation) lower-left, IF-ST-DY (isolated-focus stable-dynamics) lower-center, PER-DY (perceived dynamics) lower-center. Structural argument: the upper chain MT-INFO -> INFO-DY -> INVT-DT routes the form's affinity-alignment through information-dynamics into invitation-dictates. The lower chain CULT-AF-BS -> C-CONT -> TR routes through composite-continuance. The central TM and IST-F hubs route the form into the partner's working chain.",
+  "terms": [
+    {
+      "termId": "afl",
+      "isSubject": true
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "invt-dt"
+    },
+    {
+      "termId": "tm"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "cult-af-bs"
+    },
+    {
+      "termId": "c-cont"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "if-st-dy"
+    },
+    {
+      "termId": "per-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afl",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "invt-dt",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "if-st-dy",
+      "to": "per-dy",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p293-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-47",
+  "page": 293,
+  "subject": "pol-dy",
+  "title": "POL.DY.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Second diagram on page 293 (PR.S(RD)II-47), paired with STF × ACT above. The crossing diagrams how political-dynamics structurally meets progressional-continuance at the western-mis-definition scale that the following prose names: 'the realness of western mis-definitions has so profoundly altered our understanding of creative participation that something must be...' POL-DY (political dynamics — the actual political-working that the western definers' apparatus runs) crossed with PROG-CONT (progressional continuance — the form's actual continuance the apparatus is supposed to receive). POL-DY sits on the left with the subject-arrow; TRS (transformation) at upper-right and RT-DY (reality dynamics) below as the partner-side upper outputs. SOC-RT-DY (social-reality dynamics) sits centrally as the bridging hub; RT-ALGN (reality alignment) at center-right and PROG-CONT below as partner-axis position. INFO-DY (information dynamics) hangs at left and (R)DOC (the reality of documentation) below as the subject-side downward chain. RTD-PRD (rooted-period) sits at the bottom-center and PHY-U-P (physical-universe particulars) with POL-OR (political orientation) at the bottom-right as the bridging-axis downward chain. Structural argument: when political-dynamics is crossed with progressional-continuance, the upper diagonal POL-DY → TRS → RT-DY is the *partner-axis upper route* — political-dynamics routes directly through transformation into reality-dynamics, the western definers' working chain. SOC-RT-DY hub holds the bridging diagonal: social-reality dynamics routes through RT-ALGN into PROG-CONT, the partner-axis's actual progressional-continuance edge. The subject's INFO-DY → (R)DOC chain on the left is what political-dynamics produces alone — information-dynamics routes through the reality of documentation. RTD-PRD → PHY-U-P → POL-OR at the bridging-bottom is the chain producing political-orientation through rooted-period and physical-universe particulars. The structural argument: the western mis-definitions the following prose names are structurally produced when SOC-RT-DY's bridging hub holds the upper diagonal (POL-DY → TRS → RT-DY) at the expense of the bridging downward chain — political-dynamics' actual progressional-continuance gets converted to RT-ALGN reality-alignment instead of routing through PROG-CONT directly; the western-apparatus's mis-definitions live in the upper diagonal's substitution of reality-alignment for actual continuance.",
+  "terms": [
+    { "termId": "pol-dy", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "trs" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "rt-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "info-dy" },
+    { "termId": "doc", "prefix": "r" },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-or" },
+    { "termId": "rtd-prd" }
+  ],
+  "relationships": [
+    { "from": "pol-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "pol-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "rt-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "rtd-prd", "type": "solid" },
+    { "from": "rtd-prd", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-or", "type": "solid" }
+  ]
+}

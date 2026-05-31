@@ -5,13 +5,22 @@
   "page": 460,
   "subject": "proj",
   "title": "PROJ.------PRI.INFO.",
-  "type": "crossing",
-  "description": "Sparse-label diagram closing MP(I)-34 — the section arguing that black creativity has been used 'as a tool to stimulate (western) white culture and disrupt the possibility of world unification.' The prose immediately above identifies the structural target: 'black people cannot afford the luxury of \"artist\" if that concept moves contrary to transformation — and indeed it does.' The crossing names PROJ × PRI-INFO (projection × principle information), the same axes that recur throughout the volume — but unlike most crossings in vol2 this one is depicted with *no internal labels*: only the two crossing-axis terms are named, and the diagram's roughly eleven internal junction points sit as unlabeled black-dot nodes connected in a branching pattern. Structural argument: the unlabeled-leaf form is the structural payload. Where labeled crossings name specific outputs that the form's projection-meets-principle-information actually produces, this diagram withholds the names because the structural claim is exactly the prose's: when black creativity is routed through 'the concept of artist' as the partner-axis converter, the projection's outputs become *whatever* white-culture's principle-information names them — the leaf-labels are supplied case-by-case by the receiving culture, not by the form's own working. The diagram's silence about its leaves is the structural argument: the form's working is real, but the names it gets received under are not. This is the same structural form as the p368-3 SCI.DYM × PRI.INFO diagram — both depict the case where the partner-axis principle-information converts the subject's working into an unspecified branching multiplicity. The diagram is a structural blank check the receiving culture fills in.",
+  "type": "network",
+  "description": "Sparse-label diagram closing MP(I)-34 \u2014 the section arguing that black creativity has been used 'as a tool to stimulate (western) white culture and disrupt the possibility of world unification.' The prose immediately above identifies the structural target: 'black people cannot afford the luxury of \"artist\" if that concept moves contrary to transformation \u2014 and indeed it does.' The crossing names PROJ \u00d7 PRI-INFO (projection \u00d7 principle information), the same axes that recur throughout the volume \u2014 but unlike most crossings in vol2 this one is depicted with *no internal labels*: only the two crossing-axis terms are named, and the diagram's roughly eleven internal junction points sit as unlabeled black-dot nodes connected in a branching pattern. Structural argument: the unlabeled-leaf form is the structural payload. Where labeled crossings name specific outputs that the form's projection-meets-principle-information actually produces, this diagram withholds the names because the structural claim is exactly the prose's: when black creativity is routed through 'the concept of artist' as the partner-axis converter, the projection's outputs become *whatever* white-culture's principle-information names them \u2014 the leaf-labels are supplied case-by-case by the receiving culture, not by the form's own working. The diagram's silence about its leaves is the structural argument: the form's working is real, but the names it gets received under are not. This is the same structural form as the p368-3 SCI.DYM \u00d7 PRI.INFO diagram \u2014 both depict the case where the partner-axis principle-information converts the subject's working into an unspecified branching multiplicity. The diagram is a structural blank check the receiving culture fills in.",
   "terms": [
-    { "termId": "proj", "isSubject": true },
-    { "termId": "pri-info" }
+    {
+      "termId": "proj",
+      "isSubject": true
+    },
+    {
+      "termId": "pri-info"
+    }
   ],
   "relationships": [
-    { "from": "proj", "to": "pri-info", "type": "solid" }
+    {
+      "from": "proj",
+      "to": "pri-info",
+      "type": "solid"
+    }
   ]
 }

@@ -1,0 +1,122 @@
+{
+  "id": "v3-p392-1",
+  "volume": 3,
+  "section": "JR-14",
+  "page": 392,
+  "subject": "post",
+  "title": "POST.------INDIV.AF.TD.",
+  "type": "crossing",
+  "description": "First of two diagrams in JR-14 (Jazz-Rock). The prose below identifies the structural target: 'Charlie Parker's activity established the thrust progression underlying how the affinity insight (1) principle was to be extended... there were other musicians functioning in that same period whose activity was just as significant for what it would pose to the composite affinity-insight content of black music.' The crossing diagrams how postulation structurally meets individual-affinity-transformation-dynamics at the bi-aitional-principle scale: POST crossed with INDIV-AF-TD. POST sits at left with the subject-arrow; INDIV-AF-TD at upper-center as partner-axis. OP-SD (oppositional side) upper-left, CULT-SOLD (culture-soldered) left, SOC-RT (social reality) upper-center, EXP-DY (exposure dynamics) upper-right. RT-ALGN (reality alignment) center-right, PRI-INFO (principle information) center, SPT-DY (spectacle dynamics) center-right. STF (structural-formal), APL-DT (applied dictates) lower-center. AFI (affinity insight) lower-left, C-RH (central rhythm) and TR (transformation) lower-right.",
+  "terms": [
+    {
+      "termId": "post",
+      "isSubject": true
+    },
+    {
+      "termId": "indiv-af-td"
+    },
+    {
+      "termId": "op-sd"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "c-rh"
+    },
+    {
+      "termId": "tr"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "post",
+      "to": "indiv-af-td",
+      "type": "solid"
+    },
+    {
+      "from": "op-sd",
+      "to": "indiv-af-td",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "indiv-af-td",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "indiv-af-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-af-td",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-af-td",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "c-rh",
+      "type": "solid"
+    }
+  ]
+}

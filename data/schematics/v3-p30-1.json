@@ -1,0 +1,119 @@
+{
+  "id": "v3-p30-1",
+  "volume": 3,
+  "section": "BK(NM)-6",
+  "page": 30,
+  "subject": "crtf-prog",
+  "title": "CRTF.PROG.------TR.",
+  "type": "hub-spoke",
+  "description": "First of two diagrams in BK(NM)-6. The prose immediately below identifies the section's structural target: 'By cross-transfer implications of western art music I am referring to how the progressional solidification of the \"actual\" music comes about. For history can be viewed with respect to how the spread of given concepts \u2014 and practices \u2014 were brought about.' The crossing diagrams how creative-progression structurally meets transformation at the cross-transfer-of-progressional-solidification scale: CRTF-PROG (creative progression \u2014 the form's actual progressive working) crossed with TR (transformation \u2014 the partner-axis's working transformation). CRTF-PROG sits centrally with the subject-arrow; IST-F (isolated focus) at upper-center and TR at top-right with TRS (transformation, lowercase) on the right margin as the partner-side upper outputs. PRI-INFO (principle information) sits at upper-left as bridging upper input. POL-DY (political dynamics) sits at center-right with PROG-CONT (progressional continuance) and SOC-RT (social reality) below, and MOT-DY (motion dynamics) at the right margin as the partner-side downward chain. PROJ-DY (projection dynamics) anchors the lower-left and RE-ST (restructuralism) at lower-center as the subject-side downward outputs. EXPN (expansion) sits at the bottom-center and LK-IMP (linkage implication) below as the bridging-axis downward terminus. Structural argument: when creative-progression is crossed with transformation, the upper diagonal IST-F \u2192 TR \u2192 TRS is the *transformation chain* \u2014 isolated-focus routes through transformation into its lowercase aspect. PRI-INFO \u2192 CRTF-PROG is the bridging upper input \u2014 principle-information enters the form's progression. The partner's right-chain POL-DY \u2192 PROG-CONT \u2192 SOC-RT \u2192 MOT-DY converts the form's progression into progressional-continuance, social-reality and motion-dynamics on the partner-side. PROJ-DY \u2192 RE-ST \u2192 EXPN \u2192 LK-IMP is the bridging-bottom chain: projection-dynamics routes through restructuralism into expansion and finally into linkage-implication. The structural argument: the cross-transfer implications the prose names are structurally that the upper diagonal converts the form's principle-information into IST-F's isolated-focus *before* it reaches CRTF-PROG's actual progressive working \u2014 and the partner-axis's right-chain converts the result into MOT-DY's terminal motion-dynamics, the form's progressional working absorbed into the receiving culture's motion. The bridging-bottom RE-ST \u2192 EXPN \u2192 LK-IMP is what creative-progression actually produces \u2014 restructuralism, expansion, and linkage-implication; this is the route by which actual progressional solidification operates rather than being absorbed.",
+  "terms": [
+    {
+      "termId": "crtf-prog",
+      "isSubject": true
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "ist-f"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "mot-dy"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "expn"
+    },
+    {
+      "termId": "lk-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "crtf-prog",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "ist-f",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "crtf-prog",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dy",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "mot-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "expn",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "lk-imp",
+      "type": "solid"
+    }
+  ]
+}

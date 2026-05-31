@@ -1,0 +1,91 @@
+{
+  "id": "v3-p446-2",
+  "volume": 3,
+  "section": "TRF(CW)-18",
+  "page": 446,
+  "subject": "cult-af-bs",
+  "title": "CULT.AF.BS.-----(R)PART.",
+  "type": "crossing",
+  "description": "Second diagram on page 446 (TRF(CW)-18), paired with BIA x C-INFO above. The crossing diagrams how cultural-affinity base structurally meets reality-of-participation at the bi-aitionalism scale: CULT-AF-BS crossed with (R)PART. CULT-AF-BS sits at left with the subject-arrow; (R)PART at center-right as partner-axis. MT-IMP (meta-implication) upper-right, LK-IMP (linkage implication) upper-center. PRI-AF-TD (principle affinity transformation-dynamics) left, AF-DY (affinity dynamics), POL-OR (political orientation) right. LANG-DY (language dynamics) lower-left, OBS (observation) lower-right, IST-S-ALGN (isolated-source alignment) lower-center.",
+  "terms": [
+    {
+      "termId": "cult-af-bs",
+      "isSubject": true
+    },
+    {
+      "termId": "part",
+      "prefix": "r"
+    },
+    {
+      "termId": "mt-imp"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "pri-af-td"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "pol-or"
+    },
+    {
+      "termId": "lang-dy"
+    },
+    {
+      "termId": "obs"
+    },
+    {
+      "termId": "ist-s-algn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-af-bs",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "mt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "pri-af-td",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "pol-or",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
+      "to": "ist-s-algn",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "obs",
+      "type": "solid"
+    }
+  ]
+}

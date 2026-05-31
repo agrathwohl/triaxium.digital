@@ -1,0 +1,114 @@
+{
+  "id": "v3-p473",
+  "volume": 3,
+  "section": "TRF(II)-9",
+  "page": 473,
+  "subject": "per-vt-u-fund",
+  "title": "PER.VT.U.FUND.-----PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in TRF(II)-9. The prose above identifies the structural target: 'I am commenting on a force that, in its normal state, will move to change a given vibrational and physical universe cycle without regard for what we think we understand.' The crossing diagrams how periodic vibrational-universe fundament structurally meets progressional-continuance: PER-VT-U-FUND crossed with PROG-CONT. PER-VT-U-FUND sits at upper-left with the subject-arrow; PROG-CONT at lower-right as partner-axis. INFO-DY (information dynamics), PROJ-DY (projection dynamics), OBS (observation) upper chain. RT-DY (reality dynamics) left. LK-IMP (linkage implication) center. AFI (affinity insight), SPT-DY (spectacle dynamics) right. TRS (transformation) lower-center. SOC-RT-DY (social-reality dynamics) lower-left. INFO-OR (information order), COS-P (cosmic-particulars) lower-right.",
+  "terms": [
+    {
+      "termId": "per-vt-u-fund",
+      "isSubject": true
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "info-dy"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "obs"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "info-or"
+    },
+    {
+      "termId": "cos-p"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "per-vt-u-fund",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "per-vt-u-fund",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "obs",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "per-vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "per-vt-u-fund",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-vt-u-fund",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "info-or",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "cos-p",
+      "type": "solid"
+    }
+  ]
+}

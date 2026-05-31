@@ -1,0 +1,122 @@
+{
+  "id": "v3-p357-1",
+  "volume": 3,
+  "section": "PMBA-21",
+  "page": 357,
+  "subject": "c-cont",
+  "title": "C.CONT.------MT.INFO.",
+  "type": "hub-spoke",
+  "description": "First of two diagrams in PMBA-21 (Popular Music in Black America). The following prose names the structural target: 'There were many other factors related to the spread and dissemination of rock music in the middle to late fifties, and all of these considerations would help define the transfer-shift implications of American popular music.' The crossing diagrams how composite-continuance structurally meets meta-information at the rock-music-spread scale: C-CONT (composite continuance) crossed with MT-INFO (meta-information). C-CONT sits at top-center with the subject-arrow; POL-DY (political dynamics) at upper-left and TR-INFO (transformation-information) at upper-right with P-FC (political focus/functionalism) and SG (source-generation) anchoring the upper-right margin. CULT-SOLD (culture-soldered) sits centrally as the bridging hub; TRS (transformation) at right and VT-PLT (vibrational plateau) and WO-EXP-PRI (world-exposure principle) below as the partner-side downward chain. SOC-RT (social reality) at center-left with UTZ (utilization) and RE-DOC (redocumentation) below as the subject-side downward chain. MT-INFO at the bottom-center as partner-axis with AF-DY (affinity dynamics) below as terminus. Structural argument: when composite-continuance is crossed with meta-information, the upper diagonal POL-DY \u2192 C-CONT \u2192 TR-INFO \u2192 P-FC \u2192 SG is the *political-source-generation route* \u2014 political-dynamics routes through composite-continuance into transformation-information, then through political-focus into source-generation. CULT-SOLD \u2192 TRS \u2192 VT-PLT \u2192 WO-EXP-PRI is the bridging-to-partner chain \u2014 culture-soldered routes through transformation into vibrational-plateau and finally into world-exposure-principle. SOC-RT \u2192 UTZ \u2192 RE-DOC is the subject's downward chain \u2014 social-reality routes through utilization into redocumentation. AF-DY at the partner-axis bottom is the affinity-dynamics terminus. The structural argument: the transfer-shift implications the prose names are structurally produced when the upper diagonal SG arrives at the partner-side as the conversion-output \u2014 composite-continuance's actual working gets re-sourced through political-focus into source-generation under the partner-axis's control, while the form's own working chain SOC-RT \u2192 UTZ \u2192 RE-DOC produces redocumentation as the subject-side terminus. The form's composite-continuance is transferred via the upper-chain's source-generation rather than through the bridging CULT-SOLD's vibrational route \u2014 that is the transfer-shift's structural shape.",
+  "terms": [
+    {
+      "termId": "c-cont",
+      "isSubject": true
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "p-fc"
+    },
+    {
+      "termId": "sg"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "vt-plt"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "utz"
+    },
+    {
+      "termId": "re-doc"
+    },
+    {
+      "termId": "af-dy"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-cont",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dy",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "p-fc",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "vt-plt",
+      "type": "solid"
+    },
+    {
+      "from": "vt-plt",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "utz",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "re-doc",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "af-dy",
+      "type": "solid"
+    }
+  ]
+}

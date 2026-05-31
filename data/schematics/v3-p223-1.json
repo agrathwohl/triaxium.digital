@@ -1,0 +1,38 @@
+{
+  "id": "v3-p223-1",
+  "volume": 3,
+  "section": "T(IMP)M-21",
+  "page": 223,
+  "subject": "stf",
+  "title": "STF.-----PROJ.DY",
+  "type": "crossing",
+  "description": "First of two diagrams in T(IMP)M-21. The following prose names the structural target: 'My reason for commenting on the historical progressions of improvised music from the black aesthetic is to give some understanding as to how once a form has been adopted by the controlling forces of western culture, the meta-reality potential of that form usually retards.' The crossing diagrams how structural-form structurally meets projection-dynamics at the meta-reality-retardation scale: STF (structural-formal phenomenon) crossed with PROJ-DY (projection dynamics — the partner-axis's working projection). STF sits centrally with the subject-arrow; RE-ST (restructuralism) at upper-center and PROJ-DY at upper-right with MOT-DY (motion dynamics) and LG-DY (linguistic dynamics) anchoring the upper-right margin as the partner-side upper outputs. IST-S-ALGN (isolated-source alignment) at upper-left and CULT-INFO-B (cultural-information base) below as the subject-side leftward chain. RT-DY (reality dynamics) at left-center as the subject-side downward output. PRI-INFO (principle information) sits at right-center as the bridging hub. INFO-INTG (information integration) and T-C-IMP (temporal-continuity implication) sit centrally and right as the bridging-axis downward chain. PROG-CONT (progressional continuance) at bottom-center as the bridging-axis terminus. Structural argument: when structural-form is crossed with projection-dynamics, the upper diagonal RE-ST → PROJ-DY → MOT-DY → LG-DY is the *western-cultural projection chain* — restructuralism routes through projection-dynamics into motion-dynamics, finally producing linguistic-dynamics on the partner-side. IST-S-ALGN → CULT-INFO-B → RT-DY is the subject-side leftward-downward chain — isolated-source-alignment routes through cultural-information-base into reality-dynamics. PRI-INFO → INFO-INTG → T-C-IMP → PROG-CONT is the bridging-axis chain — principle-information routes through information-integration into temporal-continuity-implication and finally into progressional-continuance. The structural argument: the meta-reality-potential retardation the prose names is structurally produced when the upper diagonal RE-ST → PROJ-DY → MOT-DY → LG-DY captures structural-form's working content via restructuralism — the form's actual projection-dynamics gets converted into linguistic-dynamics on the partner-side rather than reaching INFO-INTG's central integration through the bridging-axis. The form's meta-reality potential gets retarded by linguistic-dynamics absorbing it into the receiving culture's projection.",
+  "terms": [
+    { "termId": "stf", "isSubject": true },
+    { "termId": "proj-dy" },
+    { "termId": "re-st" },
+    { "termId": "mot-dy" },
+    { "termId": "lg-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "cult-info-b" },
+    { "termId": "rt-dy" },
+    { "termId": "pri-info" },
+    { "termId": "info-intg" },
+    { "termId": "t-c-imp" },
+    { "termId": "prog-cont" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "proj-dy", "type": "solid" },
+    { "from": "stf", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "lg-dy", "type": "solid" },
+    { "from": "stf", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "rt-dy", "type": "solid" },
+    { "from": "stf", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" }
+  ]
+}

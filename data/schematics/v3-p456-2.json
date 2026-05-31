@@ -1,0 +1,123 @@
+{
+  "id": "v3-p456-2",
+  "volume": 3,
+  "section": "TRF(CW)-28",
+  "page": 456,
+  "subject": "wo-mth",
+  "title": "WO.MTH.------C.INFO.",
+  "type": "crossing",
+  "description": "Second diagram on page 456 (TRF(CW)-28), paired with WO-EXP-PRI x VT-PLT above. The crossing diagrams how world-method structurally meets central-information at the post-WWII bi-aitionalism examination scale: WO-MTH (world method) crossed with C-INFO (central information). WO-MTH sits at left with the subject-arrow; C-INFO at upper-center as partner-axis. TR-INFO (transformation-information) upper-left, EXB-G-OR (establishing general order) upper-center as bridging upper chain. AFI (affinity insight) upper-right, SCI-DY (scientific dynamics), EXT-FT (extended functionalism), PART (participation) on the right. POL-DY (political dynamics) left, APL-DT (applied dictates) center. LK-IMP (linkage implication), PRI-INFO (principle information), SPT-DY (spectacle dynamics), INFO-DE(B) (black information descent) on lower chain.",
+  "terms": [
+    {
+      "termId": "wo-mth",
+      "isSubject": true
+    },
+    {
+      "termId": "c-info"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "exb-g-or"
+    },
+    {
+      "termId": "afi"
+    },
+    {
+      "termId": "sci-dy"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "lk-imp"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "info-de",
+      "suffix": "b"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "wo-mth",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "exb-g-or",
+      "type": "solid"
+    },
+    {
+      "from": "exb-g-or",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "sci-dy",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "wo-mth",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "wo-mth",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "wo-mth",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "info-de",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p53-1",
+  "volume": 3,
+  "section": "BK(NM)-29",
+  "page": 53,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------SOC.RT.",
+  "type": "crossing",
+  "description": "First of two diagrams in BK(NM)-29 (Black Notated Music, Level Two). The prose immediately above identifies the structural target: 'the seriousness of creative transformation — not to mention rebuilding. The reality implication of affinity alignment is not a joke. To view these questions is to begin looking at the heart of creativity.' The crossing diagrams how the reality of individual-transformation dynamics structurally meets social-reality at the affinity-alignment-rebuilding scale: (R)INDIV-TD (the reality of individual transformation-dynamics — what an individual's actual transformation-working consists of) crossed with SOC-RT (social reality — the partner-axis's receiving conditions). INDIV-TD sits on the left with the subject-arrow; PHY-U-P (physical-universe particulars) rises above and INFO-DY (information dynamics) sits at upper-right with INFO-DS (information dissemination) below as the partner-side upper chain. SOC-RT sits centrally as partner-axis; PROG-CONT (progressional continuance) anchors the right margin as the partner-side downward output. AF-DY (affinity dynamics) hangs at the lower-left as the subject's downward output; COS-PP (cosmic-particular postulation) sits below INDIV-TD with A-PR (applied projection) and T-C-IMP (temporal-continuity implication) centrally as the bridging chain. (R)ATTN (the reality of attention) sits at lower-center as the bridging terminus. Structural argument: when individual transformation-dynamics is crossed with social-reality, the upper diagonal PHY-U-P → INFO-DY → INFO-DS is the *informational-dissemination route* — physical-universe particulars route through information-dynamics into information-dissemination, the partner-side's working channel for individual-transformation. SOC-RT → PROG-CONT is what social-reality produces alone as progressional-continuance. The subject's AF-DY downward output is what individual-transformation produces without the partner-axis. The central COS-PP → A-PR → T-C-IMP → (R)ATTN bridging chain is the *cosmic-postulation route* — cosmic-particular postulation routes through applied-projection into temporal-continuity-implication, finally producing the reality of attention. The affinity-alignment rebuilding the prose names is structurally this: the bridging chain must hold, or individual-transformation routes only to AF-DY on the subject-left while the partner-axis converts social-reality into progressional-continuance via informational-dissemination — the form's actual cosmic-postulation never reaches the receiving culture's attention.",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "phy-u-p" },
+    { "termId": "info-dy" },
+    { "termId": "info-ds" },
+    { "termId": "af-dy" },
+    { "termId": "cos-pp" },
+    { "termId": "a-pr" },
+    { "termId": "t-c-imp" },
+    { "termId": "attn", "prefix": "r" },
+    { "termId": "prog-cont" }
+  ],
+  "relationships": [
+    { "from": "indiv-td", "to": "soc-rt", "type": "solid" },
+    { "from": "indiv-td", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-ds", "type": "solid" },
+    { "from": "soc-rt", "to": "prog-cont", "type": "solid" },
+    { "from": "indiv-td", "to": "af-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "cos-pp", "type": "solid" },
+    { "from": "cos-pp", "to": "a-pr", "type": "solid" },
+    { "from": "a-pr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "attn", "type": "solid" }
+  ]
+}

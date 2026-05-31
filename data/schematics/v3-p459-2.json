@@ -1,0 +1,115 @@
+{
+  "id": "v3-p459-2",
+  "volume": 3,
+  "section": "TRF(CW)-31",
+  "page": 459,
+  "subject": "alt-f",
+  "title": "ALT.F.------APP.RDEF.",
+  "type": "crossing",
+  "description": "Second diagram on page 459 (TRF(CW)-31). The crossing diagrams how alternative-form structurally meets applied-redefinitions: ALT-F crossed with APP-RDEF. ALT-F sits at lower-center with the subject-arrow; APP-RDEF at upper-center as partner-axis. STF (structural-formal) upper-left, SCI-DY (scientific dynamics) upper-right. CRTF-DEF (creative definition) left, EXT-FT (extended functionalism) right, PRI-INFO (principle information) center-left. (P)POST (physical-universe postulation) center-right. MT-INFO (meta-information) center. MT-DEVF (meta-developmental functionalism) lower-left, PROG-CONT (progressional continuance), POL-CONT (political continuance) lower-right, DOC (documentation) right.",
+  "terms": [
+    {
+      "termId": "alt-f",
+      "isSubject": true
+    },
+    {
+      "termId": "app-rdef"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "sci-dy"
+    },
+    {
+      "termId": "crtf-def"
+    },
+    {
+      "termId": "ext-ft"
+    },
+    {
+      "termId": "pri-info"
+    },
+    {
+      "termId": "post",
+      "prefix": "p"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "mt-devf"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "pol-cont"
+    },
+    {
+      "termId": "doc"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "alt-f",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-def",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "sci-dy",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-devf",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "pol-cont",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "doc",
+      "type": "solid"
+    }
+  ]
+}

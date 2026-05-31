@@ -1,0 +1,38 @@
+{
+  "id": "v3-p469",
+  "volume": 3,
+  "section": "TRF(II)-5",
+  "page": 469,
+  "subject": "tr",
+  "title": "TR.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Diagram in TRF(II)-5 (Transformation, Level Two), on the page where Braxton argues that 'practically every country on the planet utilizes television, the functional utilization of this medium is controlled by only a select group of people who are not necessarily representative of the composite world group' — and that 'the realness of the present physical universe situation cannot be simply dismissed as unimportant — because it is important. The nature of the next transformation might well rest on how profoundly we understand those forces now dictating planet progressions in this time zone.' TR (transformation) is crossed with PROG-CONT (progressional continuance): the question is what transformation requires of progressional continuance in a media-controlled global context. OP-SD (option spread) and PART (participation) feed the upper-left. SOC-RT-P (social reality particulars) is the upper-right output. AF-DY (affinity dynamics) and C-INFO (composite information) feed the central. RT-DY (reality dynamics) and LANG-DY (language dynamics) form right-side outputs. IST-S-ALGN (isolated systematic alignment), INFO-RSOLD (information resolidification), TH-CONT-IMP (thrust continuance implications), and LK-IMP (linkage implications) constitute the lower productive layer. Structural argument: transformation crossed with progressional continuance requires option-spread and participation as foundational upstream — Braxton's structural claim that real transformation (as opposed to media-controlled pseudo-transformation) needs both the optional-range and the participatory dimension. Without option-spread, transformation degenerates into the select-group control he diagnoses.",
+  "terms": [
+    { "termId": "tr", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "op-spd" },
+    { "termId": "part" },
+    { "termId": "soc-rt-p" },
+    { "termId": "afl-dy" },
+    { "termId": "c-info" },
+    { "termId": "rt-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "info-sold" },
+    { "termId": "th-cont-imp" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "op-spd", "to": "tr", "type": "solid" },
+    { "from": "part", "to": "prog-cont", "type": "solid" },
+    { "from": "tr", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "soc-rt-p", "type": "solid" },
+    { "from": "afl-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "c-info", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "th-cont-imp", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "info-sold", "type": "solid" }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "v3-p182",
+  "volume": 3,
+  "section": "EVOL-20",
+  "page": 182,
+  "subject": "intr",
+  "title": "(R)INTR.------POL.SIGN.",
+  "type": "crossing",
+  "description": "Diagram in EVOL-20. The prose immediately above identifies the structural target: 'the progressional continuance of western culture is designed to perpetuate the affinity dynamics of what it perceives to be real to white America... What we are experiencing in this time cycle is no mere case of extended affinity dynamics - but rather, a continuance consciously designed for particular aims.' The crossing diagrams how the reality of introduction structurally meets political signal at the consciously-designed-continuance scale: (R)INTR (the reality of introduction) crossed with POL-SIGN (political signal). INTR sits at upper-center with the subject-arrow; VT-DY (vibrational dynamics) upper-left and INT (intention) upper-right with APL-DT (applied dictates) at right. AF-NT (affinity natural), MOT-DY (motion dynamics), PROG-CONT (progressional continuance) form the left chain. INDIV-TD (individual transformation-dynamics) center; ROTP (route option), SOC-RT-P (social-reality particular), OPT-SD (option-side) on the right. POL-SIGN sits at lower-center as partner-axis with UNF-PI (unified physical-implication) adjacent and CULT-O (cultural other) at lower-left. Structural argument: when reality-of-introduction is crossed with political-signal, the upper diagonal VT-DY -> INT -> APL-DT is the conscious-design route - vibrational-dynamics routes through intention into applied-dictates on the partner-axis upper-right. The lower chain to POL-SIGN through ROTP/SOC-RT-P/OPT-SD shows what political-signal converts the form's introduction into - route-options and social-reality particulars - rather than letting INDIV-TD's individual-transformation-dynamics carry the form's introduction directly.",
+  "terms": [
+    {
+      "termId": "intr",
+      "isSubject": true,
+      "prefix": "r"
+    },
+    {
+      "termId": "pol-sign"
+    },
+    {
+      "termId": "vt-dy"
+    },
+    {
+      "termId": "int"
+    },
+    {
+      "termId": "apl-dt"
+    },
+    {
+      "termId": "af-nt"
+    },
+    {
+      "termId": "mot-dy"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "rotp"
+    },
+    {
+      "termId": "soc-rt-p"
+    },
+    {
+      "termId": "opt-sd"
+    },
+    {
+      "termId": "unf-pi"
+    },
+    {
+      "termId": "cult-o"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "intr",
+      "to": "pol-sign",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "af-nt",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "mot-dy",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "rotp",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "opt-sd",
+      "type": "solid"
+    },
+    {
+      "from": "pol-sign",
+      "to": "unf-pi",
+      "type": "solid"
+    },
+    {
+      "from": "pol-sign",
+      "to": "cult-o",
+      "type": "solid"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "v3-p251-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-5",
+  "page": 251,
+  "subject": "cult-af-b",
+  "title": "CULT.AF.B.------POL.P.",
+  "type": "crossing",
+  "description": "First of two diagrams in PR.S(RD)II-5. The prose below identifies the structural target: 'The distortions that have crept into western analysis can be viewed by understanding the essence premise that dictates its information degrees.' The crossing diagrams how cultural-affinity base structurally meets political-particulars at the western-analysis scale: CULT-AF-B crossed with POL-P. CULT-AF-B sits at lower-right with the subject-arrow; POL-P at upper-right as partner-axis. PROJ-DY (projection dynamics), AF-NT (affinity natural), (R)INTR (reality of introduction) upper-center to upper-right. INFO-F (information form), RTD-PRD (rooted-period) center. T-C-IMP (temporal-continuity implication), WO-EXP-PR (world exposure principle) at left. PROG-CONT (progressional continuance), POL-DY (political dynamics), LK-IMP (linkage implication) at lower-center.",
+  "terms": [
+    {
+      "termId": "cult-af-b",
+      "isSubject": true
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "af-nt"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "info-f"
+    },
+    {
+      "termId": "rtd-prd"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "prog-cont"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "lk-imp"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "cult-af-b",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "af-nt",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "info-f",
+      "to": "rtd-prd",
+      "type": "solid"
+    },
+    {
+      "from": "rtd-prd",
+      "to": "cult-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-b",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-b",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-b",
+      "to": "lk-imp",
+      "type": "solid"
+    }
+  ]
+}

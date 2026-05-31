@@ -1,0 +1,114 @@
+{
+  "id": "v3-p234-2",
+  "volume": 3,
+  "section": "T(IMP)M-32",
+  "page": 234,
+  "subject": "afi",
+  "title": "AFI.------ACC.FT.",
+  "type": "hub-spoke",
+  "description": "Second diagram on page 234 (T(IMP)M-32), paired with AF-POST \u00d7 TRS above. Where the first diagram structurally shows the upper-diagonal route through which affinity-postulation routes into American-umbrella reception, this one names what affinity-insight meets when accelerated-functionalism is the working partner \u2014 the deeper structural mechanism of the 'retardation of sensibilities' the prose names: AFI (affinity insight) crossed with ACC-FT (accelerated functionalism \u2014 the partner-axis's working acceleration). AFI sits on the left with the subject-arrow; SG (source-generation) at upper-center and APP-DT (applied dictates) at upper-right with TR-INFO (transformation-information) below as the partner-side upper outputs. C-RH (central rhythm) sits centrally. SPT-DY (spectacle dynamics) at center-right with RT-DY (reality dynamics) below and PART (participation) and BIA (bias) on the right as the partner-side downward chain. ACC-FT sits at center-left as partner-axis. DEC (decision) hangs at the lower-left and DIS-C-CT (disconnect) sits centrally with RT-ALGN (reality alignment) at the bottom-center as the bridging-axis downward terminus. Structural argument: when affinity-insight is crossed with accelerated-functionalism, the upper diagonal SG \u2192 APP-DT \u2192 TR-INFO is the *applied-dictates route* \u2014 source-generation routes through applied-dictates into transformation-information, the partner-side's working chain that converts AFI's insight into the receiving culture's transformational-information. C-RH \u2192 SPT-DY \u2192 RT-DY \u2192 PART \u2192 BIA is the central-and-right chain \u2014 central-rhythm routes through spectacle-dynamics into reality-dynamics, then through participation into bias, the partner-axis's downward-right working. ACC-FT \u2192 DEC is what accelerated-functionalism produces alone \u2014 decision. DIS-C-CT \u2192 RT-ALGN is the bridging-bottom chain: disconnect routes into reality-alignment. The structural argument: the 'retardation of sensibilities' the prose names is structurally the DIS-C-CT \u2192 RT-ALGN bridging-bottom chain \u2014 affinity-insight's working continuance is disconnected from reality-alignment at exactly the bridging-axis terminus, while the upper diagonal SG \u2192 APP-DT \u2192 TR-INFO continues to route into the partner-side's working transformational-information. The form's actual insight reaches reality-alignment only through disconnect; accelerated-functionalism produces decision without integration \u2014 the working sensibilities are retarded by the structural disconnect at the bridging-terminus.",
+  "terms": [
+    {
+      "termId": "afi",
+      "isSubject": true
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "sg"
+    },
+    {
+      "termId": "app-dt"
+    },
+    {
+      "termId": "c-rh"
+    },
+    {
+      "termId": "tr-info"
+    },
+    {
+      "termId": "spt-dy"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "bia"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "dis-c-ct"
+    },
+    {
+      "termId": "rt-algn"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "afi",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "app-dt",
+      "type": "solid"
+    },
+    {
+      "from": "app-dt",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "c-rh",
+      "type": "solid"
+    },
+    {
+      "from": "c-rh",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "bia",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "dis-c-ct",
+      "type": "solid"
+    },
+    {
+      "from": "dis-c-ct",
+      "to": "rt-algn",
+      "type": "solid"
+    }
+  ]
+}

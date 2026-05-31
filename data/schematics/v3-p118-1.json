@@ -1,0 +1,123 @@
+{
+  "id": "v3-p118-1",
+  "volume": 3,
+  "section": "ALT(FT)II-12",
+  "page": 118,
+  "subject": "c-act",
+  "title": "C.ACT.------INDIV.TD.",
+  "type": "crossing",
+  "description": "First of two diagrams in ALT(FT)II-12. The prose below identifies the structural target: 'The present-day participation dynamics of the transformational creative musician should not be viewed lightly. This development is directly related to the expansion of creative dynamic options for both the individual and the music.' The crossing diagrams how central-activism structurally meets individual-transformation-dynamics: C-ACT crossed with INDIV-TD. C-ACT sits at left with the subject-arrow; INDIV-TD at upper-center as partner-axis. AF-TD (affinity transformation-dynamics) upper-left, CULT-SOLD (culture-soldered) upper-center, EXP-DY (exposure dynamics) upper-right with DEC (decision) and EXB-H-OR (establishing high order) on the right. VT-SY (value system) left, ATTN (attention) center, MT-INFO (meta-information) center, C-FO-ACT (central focused activism) center-bottom, CULT-AF-B (cultural-affinity base) lower-center, GRAD (gradualism) and (R)CN-INFO (reality of continuance-information) at lower-right. Structural argument: the upper chain through CULT-SOLD/EXP-DY routes central-activism into the partner's working chain through individual transformation-dynamics into the decision/establishing-high-order outputs.",
+  "terms": [
+    {
+      "termId": "c-act",
+      "isSubject": true
+    },
+    {
+      "termId": "indiv-td"
+    },
+    {
+      "termId": "af-td"
+    },
+    {
+      "termId": "cult-sold"
+    },
+    {
+      "termId": "exp-dy"
+    },
+    {
+      "termId": "dec"
+    },
+    {
+      "termId": "exb-h-or"
+    },
+    {
+      "termId": "vt-sy"
+    },
+    {
+      "termId": "attn"
+    },
+    {
+      "termId": "mt-info"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "cult-af-b"
+    },
+    {
+      "termId": "grad"
+    },
+    {
+      "termId": "cn-info",
+      "prefix": "r"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "c-act",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "af-td",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "indiv-td",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "exb-h-or",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "vt-sy",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "cult-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "grad",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "cn-info",
+      "type": "solid"
+    }
+  ]
+}

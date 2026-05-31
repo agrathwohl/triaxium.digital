@@ -1,0 +1,40 @@
+{
+  "id": "v3-p257-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-11",
+  "page": 257,
+  "subject": "alt-ft",
+  "title": "ALT.FT.------SPT.GH.",
+  "type": "crossing",
+  "description": "First of two diagrams in PR.S(RD)II-11. The prose immediately above identifies the structural target: 'To understand the reality position of black creativity is to view the significance of \"extended functionalism\" — which is to say, any attempt to accurately comment on the music must imply some real understanding of the \"reality of extended functionalism.\"' The crossing diagrams how alternative-functionalism structurally meets spirit-ghost at the extended-functionalism scale: ALT-FT (alternative functionalism — the actual working alternative-functioning of black-creative music) crossed with SPT-GH (spirit-ghost — the vibrational residual the form carries beyond its received form). ALT-FT sits at the bottom-center with the subject-arrow; INDIV-TD (individual transformation-dynamics) above the subject and TRS (transformation) centrally as the bridging hub. SPT-GH sits at upper-left as partner-axis; MOT-DY (motion dynamics) hangs below SPT-GH on the left margin and ATTN (attention) anchors the lower-left as the partner-side downward chain. POL-DY (political dynamics) at top-center and SOC-RT-DY (social-reality dynamics) at top-right with LG-EXT (linguistic extension) and PART (participation) and INFO-DY (information dynamics) anchoring the right margin as the partner-side upper-and-right chain. PER-DY (perceived dynamics) sits centrally with AF-NT (affinity natural) below as the bridging-side outputs. Structural argument: when alternative-functionalism is crossed with spirit-ghost, the upper diagonal TRS → POL-DY → SOC-RT-DY → LG-EXT → PART → INFO-DY is the *extended-functionalism reception route* — transformation routes through political-dynamics into social-reality dynamics, then through linguistic-extension into participation and finally into information-dynamics. This is the partner-axis route through which the form's working actually reaches the receiving culture's information-channel. The SPT-GH → MOT-DY → ATTN chain on the left is what spirit-ghost produces alone — motion-dynamics into attention, the vibrational residual without the form's working content. INDIV-TD → TRS bridges the subject up into the central hub; TRS → PER-DY → AF-NT routes transformation through perceived-dynamics into affinity-natural. The 'reality of extended functionalism' the prose names is structurally the upper-diagonal *and* the central TRS hub both holding — without both, alternative-functionalism produces only the spirit-ghost left-chain on the partner-side, while the form's actual extended-functionalism reaches participation only through the long right-chain that the receiving culture supplies on its own terms.",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true },
+    { "termId": "spt-gh" },
+    { "termId": "pol-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "trs" },
+    { "termId": "per-dy" },
+    { "termId": "lg-ext" },
+    { "termId": "part" },
+    { "termId": "attn" },
+    { "termId": "indiv-td" },
+    { "termId": "af-nt" },
+    { "termId": "info-dy" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "spt-gh", "type": "solid" },
+    { "from": "alt-ft", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "spt-gh", "type": "solid" },
+    { "from": "trs", "to": "pol-dy", "type": "solid" },
+    { "from": "spt-gh", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "attn", "type": "solid" },
+    { "from": "pol-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "lg-ext", "type": "solid" },
+    { "from": "lg-ext", "to": "part", "type": "solid" },
+    { "from": "part", "to": "info-dy", "type": "solid" },
+    { "from": "trs", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "af-nt", "type": "solid" }
+  ]
+}

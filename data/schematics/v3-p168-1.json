@@ -1,0 +1,115 @@
+{
+  "id": "v3-p168-1",
+  "volume": 3,
+  "section": "EVOL-6",
+  "page": 168,
+  "subject": "tr-info",
+  "title": "TR.INFO.------RT.ALGN.",
+  "type": "crossing",
+  "description": "First of two diagrams in EVOL-6. The prose below identifies the structural target about preferential activity: 'Because in the final analysis, western culture has created a situation where what a person says is as significant as what a person does.' The crossing diagrams how transformation-information meets reality-alignment at the preferential-activity scale: TR-INFO crossed with RT-ALGN. POL-CY (political cycle) upper-center, (R)INTR (reality of introduction) left, TR-INFO upper-right. POST (postulation), PER-DY (perceived dynamics), AF-DY (affinity dynamics) on the right. CRT, CULT-INFO-B (cultural-information base), JR-DY (junior dynamic) center, CR-INFO-DY (creative-information dynamics) right of rt.algn. RT-ALGN center. MT-INTR (meta-introduction) lower-right, TRS (transformation) bottom-center.",
+  "terms": [
+    {
+      "termId": "tr-info",
+      "isSubject": true
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "pol-cy"
+    },
+    {
+      "termId": "intr",
+      "prefix": "r"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "per-dy"
+    },
+    {
+      "termId": "af-dy"
+    },
+    {
+      "termId": "crt"
+    },
+    {
+      "termId": "cult-info-b"
+    },
+    {
+      "termId": "jr-dy"
+    },
+    {
+      "termId": "cr-info-dy"
+    },
+    {
+      "termId": "mt-intr"
+    },
+    {
+      "termId": "trs"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "tr-info",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "pol-cy",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "cr-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crt",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "jr-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "cr-info-dy",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "trs",
+      "type": "solid"
+    }
+  ]
+}
