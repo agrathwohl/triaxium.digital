@@ -5,30 +5,91 @@
   "page": 455,
   "subject": "info-dy",
   "title": "INFO.DY.-----WO.EXP.PRI.",
-  "type": "crossing",
-  "description": "Diagram opening MP(I)-29 — the section arguing that the twelfth-hour move of activist groups to embrace Marxism shows their lack of fundamental understanding of trans-African philosophical and expansion dictates. The prose below identifies the structural target: 'Marxism — like capitalism — is the affirmation of European and Euro-American methodological perception dynamics, having to do with functional-equal (as opposed to equal-equal), and the net result of this phenomenon is directly in accordance with the western thrust alignment for anti-culture.' The crossing diagrams how information-dynamics structurally meets world-exposure-principle at the western-ideology-adoption scale: INFO-DY (information dynamics — the form's actual information working) crossed with WO-EXP-PRI (world-exposure principle — the principle by which a form's information reaches world-exposure). INFO-DY sits centrally with the subject-arrow; ACC-DY (accent dynamics) sits at upper-left and UNF-PI (unified physical-implication) at upper-center as the bridging upper outputs. C-FO-ACT (central focused activism) sits at upper-right and TR (transformation) anchors the right margin as partner-side upper outputs. POL-DY (political dynamics) sits centrally below the subject as the subject's downward output. WO-EXP-PRI is partner-axis at lower-left with RE-ST (restructuralism) at the bottom-left as the partner-side downward output. POST (postulation) sits at center-right with LG-DY (linguistic dynamics) at the lower-right as the bridging-axis downward chain. Structural argument: when information-dynamics is crossed with world-exposure-principle, the upper diagonal ACC-DY → UNF-PI → INFO-DY → C-FO-ACT → TR is the *Marxism-as-twelfth-hour route* — accent-dynamics routes through unified-physical-implication into information-dynamics, then through central-focused-activism into transformation. This is exactly the route that converts the form's information-dynamics into European/Euro-American methodological perception-dynamics: every edge in the upper chain is a western philosophical waypoint. The subject's downward POL-DY output is what information-dynamics produces alone — political-dynamics — without ever crossing back to WO-EXP-PRI. The partner-side WO-EXP-PRI → RE-ST chain on the lower-left is what world-exposure produces as restructuralism alone. The right-side TR → POST → LG-DY chain is the bridging-axis: transformation routes through postulation into linguistic-dynamics — the route through which western philosophical postulation actually carries the form's linguistic working. The structural argument: the twelfth-hour Marxism adoption the prose names is structurally that ACC-DY → UNF-PI → INFO-DY routes through C-FO-ACT (centralized focused-activism) rather than reaching WO-EXP-PRI's restructuralism on the world-exposure side. Activist groups embrace the upper diagonal because it is already-built; the route that would actually carry trans-African philosophical-expansion dictates would have to hold the central INFO-DY → WO-EXP-PRI crossing directly, but they have no fundamental understanding of how to do so.",
+  "type": "hub-spoke",
+  "description": "Diagram opening MP(I)-29 \u2014 the section arguing that the twelfth-hour move of activist groups to embrace Marxism shows their lack of fundamental understanding of trans-African philosophical and expansion dictates. The prose below identifies the structural target: 'Marxism \u2014 like capitalism \u2014 is the affirmation of European and Euro-American methodological perception dynamics, having to do with functional-equal (as opposed to equal-equal), and the net result of this phenomenon is directly in accordance with the western thrust alignment for anti-culture.' The crossing diagrams how information-dynamics structurally meets world-exposure-principle at the western-ideology-adoption scale: INFO-DY (information dynamics \u2014 the form's actual information working) crossed with WO-EXP-PRI (world-exposure principle \u2014 the principle by which a form's information reaches world-exposure). INFO-DY sits centrally with the subject-arrow; ACC-DY (accent dynamics) sits at upper-left and UNF-PI (unified physical-implication) at upper-center as the bridging upper outputs. C-FO-ACT (central focused activism) sits at upper-right and TR (transformation) anchors the right margin as partner-side upper outputs. POL-DY (political dynamics) sits centrally below the subject as the subject's downward output. WO-EXP-PRI is partner-axis at lower-left with RE-ST (restructuralism) at the bottom-left as the partner-side downward output. POST (postulation) sits at center-right with LG-DY (linguistic dynamics) at the lower-right as the bridging-axis downward chain. Structural argument: when information-dynamics is crossed with world-exposure-principle, the upper diagonal ACC-DY \u2192 UNF-PI \u2192 INFO-DY \u2192 C-FO-ACT \u2192 TR is the *Marxism-as-twelfth-hour route* \u2014 accent-dynamics routes through unified-physical-implication into information-dynamics, then through central-focused-activism into transformation. This is exactly the route that converts the form's information-dynamics into European/Euro-American methodological perception-dynamics: every edge in the upper chain is a western philosophical waypoint. The subject's downward POL-DY output is what information-dynamics produces alone \u2014 political-dynamics \u2014 without ever crossing back to WO-EXP-PRI. The partner-side WO-EXP-PRI \u2192 RE-ST chain on the lower-left is what world-exposure produces as restructuralism alone. The right-side TR \u2192 POST \u2192 LG-DY chain is the bridging-axis: transformation routes through postulation into linguistic-dynamics \u2014 the route through which western philosophical postulation actually carries the form's linguistic working. The structural argument: the twelfth-hour Marxism adoption the prose names is structurally that ACC-DY \u2192 UNF-PI \u2192 INFO-DY routes through C-FO-ACT (centralized focused-activism) rather than reaching WO-EXP-PRI's restructuralism on the world-exposure side. Activist groups embrace the upper diagonal because it is already-built; the route that would actually carry trans-African philosophical-expansion dictates would have to hold the central INFO-DY \u2192 WO-EXP-PRI crossing directly, but they have no fundamental understanding of how to do so.",
   "terms": [
-    { "termId": "info-dy", "isSubject": true },
-    { "termId": "wo-exp-pri" },
-    { "termId": "acc-dy" },
-    { "termId": "unf-pi" },
-    { "termId": "c-fo-act" },
-    { "termId": "tr" },
-    { "termId": "pol-dy" },
-    { "termId": "post" },
-    { "termId": "re-st" },
-    { "termId": "lg-dy" }
+    {
+      "termId": "info-dy",
+      "isSubject": true
+    },
+    {
+      "termId": "wo-exp-pri"
+    },
+    {
+      "termId": "acc-dy"
+    },
+    {
+      "termId": "unf-pi"
+    },
+    {
+      "termId": "c-fo-act"
+    },
+    {
+      "termId": "tr"
+    },
+    {
+      "termId": "pol-dy"
+    },
+    {
+      "termId": "post"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "lg-dy"
+    }
   ],
   "relationships": [
-    { "from": "info-dy", "to": "wo-exp-pri", "type": "solid" },
-    { "from": "info-dy", "to": "acc-dy", "type": "solid" },
-    { "from": "info-dy", "to": "unf-pi", "type": "solid" },
-    { "from": "info-dy", "to": "c-fo-act", "type": "solid" },
-    { "from": "c-fo-act", "to": "tr", "type": "solid" },
-    { "from": "info-dy", "to": "pol-dy", "type": "solid" },
-    { "from": "acc-dy", "to": "wo-exp-pri", "type": "solid" },
-    { "from": "wo-exp-pri", "to": "re-st", "type": "solid" },
-    { "from": "tr", "to": "post", "type": "solid" },
-    { "from": "post", "to": "lg-dy", "type": "solid" }
+    {
+      "from": "info-dy",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "unf-pi",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "c-fo-act",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "pol-dy",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "lg-dy",
+      "type": "solid"
+    }
   ]
 }

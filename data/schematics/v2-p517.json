@@ -5,35 +5,111 @@
   "page": 517,
   "subject": "info-doc",
   "title": "INFO.DOC.------ACC.FT.",
-  "type": "crossing",
-  "description": "Diagram closing MP(II)-35 — the section on multi-national corporations as the fastest-developing piece of a greater progressional phenomenon of accelerated western functionalism. The prose immediately above identifies the structural target: 'by solidifying accelerated functionalism in this context, western culture has moved to secure its hold on the total planet. The rise of multi-national corporations is only the fastest development of a much greater progressional phenomenon.' The crossing diagrams how information-documentation structurally meets accumulated-functionalism at the multi-national-corporation scale: INFO-DOC (information documentation — the documented information that supplies the form's working record) crossed with ACC-FT (accumulated functionalism — the receiving partner-axis that converts documentation into accelerated working). The diagram labels the central subject node with two stacked prefixes — (C)INFO-ACC (central information-accumulation) and (R)INT (the reality of intention) — indicating the subject side is the *intersection* of information-accumulation in its central form and intention in its reality form. INFO-DOC sits as title-axis subject; IST-ACT (isolated-source activism) sits at upper-left, RT-DY (reality dynamics) at upper-center, and ACC-FT at upper-right as the partner-axis upper outputs. RT-INT-TR (reality-internal transformation) sits at right with CN-INFO (continuance-information) below as partner-side outputs, and RT-T (reality-thrust) at the lower-right as the partner-side downward terminus. ALT-F (alternative form) sits at the left-center as the subject's leftward output. SOC-RT-DY (social-reality dynamics) hangs at the lower-left with PHY-U-P (physical-universe particulars) at the bottom-left as the subject-side downward chain. POL-P (political particulars) sits at the lower-center and TRS (transformation) at the bottom-right as the bridging-axis downward chain. Structural argument: when information-documentation is crossed with accumulated-functionalism, the upper diagonal IST-ACT → RT-DY → ACC-FT → RT-INT-TR → CN-INFO → RT-T is the *multi-national-corporation route* — isolated-source activism routes through reality-dynamics into accumulated-functionalism, then through reality-internal transformation into continuance-information and finally into reality-thrust. This is the route by which multi-national corporations like ITT/General Motors actually accumulate functionalism — every edge in the chain is a corporate working step that converts the form's information-documentation into the partner's accelerated working. ALT-F → SOC-RT-DY → PHY-U-P on the subject-left is what information-documentation produces on its own — alternative-form routes through social-reality dynamics into physical-universe particulars. POL-P → TRS on the central-bottom is the bridging-axis downward chain: political-particulars routes into transformation. The structural argument: the multi-national-corporation rise the prose names is structurally the partner-axis's upper diagonal running through six edges without ever crossing into the subject's working chain — the third-world functionalism the prose mentions can only reach the form by holding the central subject-node's (C)INFO-ACC × (R)INT intersection open, which the upper diagonal structurally prevents.",
+  "type": "hub-spoke",
+  "description": "Diagram closing MP(II)-35 \u2014 the section on multi-national corporations as the fastest-developing piece of a greater progressional phenomenon of accelerated western functionalism. The prose immediately above identifies the structural target: 'by solidifying accelerated functionalism in this context, western culture has moved to secure its hold on the total planet. The rise of multi-national corporations is only the fastest development of a much greater progressional phenomenon.' The crossing diagrams how information-documentation structurally meets accumulated-functionalism at the multi-national-corporation scale: INFO-DOC (information documentation \u2014 the documented information that supplies the form's working record) crossed with ACC-FT (accumulated functionalism \u2014 the receiving partner-axis that converts documentation into accelerated working). The diagram labels the central subject node with two stacked prefixes \u2014 (C)INFO-ACC (central information-accumulation) and (R)INT (the reality of intention) \u2014 indicating the subject side is the *intersection* of information-accumulation in its central form and intention in its reality form. INFO-DOC sits as title-axis subject; IST-ACT (isolated-source activism) sits at upper-left, RT-DY (reality dynamics) at upper-center, and ACC-FT at upper-right as the partner-axis upper outputs. RT-INT-TR (reality-internal transformation) sits at right with CN-INFO (continuance-information) below as partner-side outputs, and RT-T (reality-thrust) at the lower-right as the partner-side downward terminus. ALT-F (alternative form) sits at the left-center as the subject's leftward output. SOC-RT-DY (social-reality dynamics) hangs at the lower-left with PHY-U-P (physical-universe particulars) at the bottom-left as the subject-side downward chain. POL-P (political particulars) sits at the lower-center and TRS (transformation) at the bottom-right as the bridging-axis downward chain. Structural argument: when information-documentation is crossed with accumulated-functionalism, the upper diagonal IST-ACT \u2192 RT-DY \u2192 ACC-FT \u2192 RT-INT-TR \u2192 CN-INFO \u2192 RT-T is the *multi-national-corporation route* \u2014 isolated-source activism routes through reality-dynamics into accumulated-functionalism, then through reality-internal transformation into continuance-information and finally into reality-thrust. This is the route by which multi-national corporations like ITT/General Motors actually accumulate functionalism \u2014 every edge in the chain is a corporate working step that converts the form's information-documentation into the partner's accelerated working. ALT-F \u2192 SOC-RT-DY \u2192 PHY-U-P on the subject-left is what information-documentation produces on its own \u2014 alternative-form routes through social-reality dynamics into physical-universe particulars. POL-P \u2192 TRS on the central-bottom is the bridging-axis downward chain: political-particulars routes into transformation. The structural argument: the multi-national-corporation rise the prose names is structurally the partner-axis's upper diagonal running through six edges without ever crossing into the subject's working chain \u2014 the third-world functionalism the prose mentions can only reach the form by holding the central subject-node's (C)INFO-ACC \u00d7 (R)INT intersection open, which the upper diagonal structurally prevents.",
   "terms": [
-    { "termId": "info-doc", "isSubject": true },
-    { "termId": "acc-ft" },
-    { "termId": "ist-act" },
-    { "termId": "rt-dy" },
-    { "termId": "rt-int-tr" },
-    { "termId": "cn-info" },
-    { "termId": "alt-f" },
-    { "termId": "int", "prefix": "r" },
-    { "termId": "soc-rt-dy" },
-    { "termId": "pol-p" },
-    { "termId": "rt-t" },
-    { "termId": "trs" },
-    { "termId": "phy-u-p" }
+    {
+      "termId": "info-doc",
+      "isSubject": true
+    },
+    {
+      "termId": "acc-ft"
+    },
+    {
+      "termId": "ist-act"
+    },
+    {
+      "termId": "rt-dy"
+    },
+    {
+      "termId": "rt-int-tr"
+    },
+    {
+      "termId": "cn-info"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "int",
+      "prefix": "r"
+    },
+    {
+      "termId": "soc-rt-dy"
+    },
+    {
+      "termId": "pol-p"
+    },
+    {
+      "termId": "rt-t"
+    },
+    {
+      "termId": "trs"
+    },
+    {
+      "termId": "phy-u-p"
+    }
   ],
   "relationships": [
-    { "from": "info-doc", "to": "acc-ft", "type": "solid" },
-    { "from": "info-doc", "to": "ist-act", "type": "solid" },
-    { "from": "info-doc", "to": "rt-dy", "type": "solid" },
-    { "from": "rt-dy", "to": "acc-ft", "type": "solid" },
-    { "from": "acc-ft", "to": "rt-int-tr", "type": "solid" },
-    { "from": "rt-int-tr", "to": "cn-info", "type": "solid" },
-    { "from": "cn-info", "to": "rt-t", "type": "solid" },
-    { "from": "info-doc", "to": "alt-f", "type": "solid" },
-    { "from": "info-doc", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "phy-u-p", "type": "solid" },
-    { "from": "info-doc", "to": "pol-p", "type": "solid" },
-    { "from": "pol-p", "to": "trs", "type": "solid" }
+    {
+      "from": "info-doc",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "ist-act",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "cn-info",
+      "to": "rt-t",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "phy-u-p",
+      "type": "solid"
+    },
+    {
+      "from": "info-doc",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "trs",
+      "type": "solid"
+    }
   ]
 }

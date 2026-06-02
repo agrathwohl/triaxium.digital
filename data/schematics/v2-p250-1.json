@@ -5,29 +5,88 @@
   "page": 250,
   "subject": "app-rdef",
   "title": "APP.RDEF. -----STF. ------SOC.RT.",
-  "type": "crossing",
-  "description": "Diagram in CMOA(II)-8 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p250. (C)APP-RDEF (the concept of apparent redefinition) is crossed simultaneously with STF (source-transfer functionalism) AND SOC-RT (social reality) — the unusual dual-partner formation indicating Braxton holds three concepts in tension. STF sits at the upper-center between subject and the second partner. SOC-RT anchors the upper-right. CRTF-D (creative-dynamic) hangs on the right output. PROJ-CONT (projectional continuance) sits centrally below STF. AFTF (affinity-tendency functionalism) anchors the lower-center. ALT-F (alternative functionalism) and PR-TRS (principal transference) form the lower-right cluster. (R)POST (the reality of postulation) feeds into the subject from below-left via a *dashed* edge to LANG-DY (language dynamics) — conditional. Structural argument: apparent-redefinition-as-concept simultaneously crossed with source-transfer-functionalism and social-reality is mediated by projectional-continuance as central lower hub. The dual-partner formation is the structural claim that European reception of black creative music functioned via two simultaneous partners — source-transfer-functionalism (the cultural transmission mechanism) and social-reality (the lived European condition). The dashed edge between reality-postulation and language-dynamics registers that real postulation has only conditional link to language-dynamics — exposing the diagnostic that European reception expressed real postulation about the music only when the language to articulate that postulation actually obtained. Without language-dynamics, the crossing produces only apparent-redefinition rather than productive source-transfer.",
+  "type": "triple-crossing",
+  "description": "Diagram in CMOA(II)-8 (Creative Music Outside of America, Level One \u2014 France/Italy/Northern Europe/Japan), first of two on book p250. (C)APP-RDEF (the concept of apparent redefinition) is crossed simultaneously with STF (source-transfer functionalism) AND SOC-RT (social reality) \u2014 the unusual dual-partner formation indicating Braxton holds three concepts in tension. STF sits at the upper-center between subject and the second partner. SOC-RT anchors the upper-right. CRTF-D (creative-dynamic) hangs on the right output. PROJ-CONT (projectional continuance) sits centrally below STF. AFTF (affinity-tendency functionalism) anchors the lower-center. ALT-F (alternative functionalism) and PR-TRS (principal transference) form the lower-right cluster. (R)POST (the reality of postulation) feeds into the subject from below-left via a *dashed* edge to LANG-DY (language dynamics) \u2014 conditional. Structural argument: apparent-redefinition-as-concept simultaneously crossed with source-transfer-functionalism and social-reality is mediated by projectional-continuance as central lower hub. The dual-partner formation is the structural claim that European reception of black creative music functioned via two simultaneous partners \u2014 source-transfer-functionalism (the cultural transmission mechanism) and social-reality (the lived European condition). The dashed edge between reality-postulation and language-dynamics registers that real postulation has only conditional link to language-dynamics \u2014 exposing the diagnostic that European reception expressed real postulation about the music only when the language to articulate that postulation actually obtained. Without language-dynamics, the crossing produces only apparent-redefinition rather than productive source-transfer.",
   "terms": [
-    { "termId": "app-rdef", "isSubject": true, "prefix": "c" },
-    { "termId": "stf" },
-    { "termId": "soc-rt" },
-    { "termId": "crtf-d" },
-    { "termId": "proj-cont" },
-    { "termId": "aftf" },
-    { "termId": "alt-f" },
-    { "termId": "pr-trs" },
-    { "termId": "post", "prefix": "r" },
-    { "termId": "lang-dy" }
+    {
+      "termId": "app-rdef",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "stf"
+    },
+    {
+      "termId": "soc-rt"
+    },
+    {
+      "termId": "crtf-d"
+    },
+    {
+      "termId": "proj-cont"
+    },
+    {
+      "termId": "aftf"
+    },
+    {
+      "termId": "alt-f"
+    },
+    {
+      "termId": "pr-trs"
+    },
+    {
+      "termId": "post",
+      "prefix": "r"
+    },
+    {
+      "termId": "lang-dy"
+    }
   ],
   "relationships": [
-    { "from": "app-rdef", "to": "stf", "type": "solid" },
-    { "from": "stf", "to": "soc-rt", "type": "solid" },
-    { "from": "soc-rt", "to": "crtf-d", "type": "solid" },
-    { "from": "stf", "to": "proj-cont", "type": "solid" },
-    { "from": "proj-cont", "to": "aftf", "type": "solid" },
-    { "from": "soc-rt", "to": "alt-f", "type": "solid" },
-    { "from": "alt-f", "to": "pr-trs", "type": "solid" },
-    { "from": "post", "to": "lang-dy", "type": "dashed" },
-    { "from": "lang-dy", "to": "app-rdef", "type": "solid" }
+    {
+      "from": "app-rdef",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "crtf-d",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "proj-cont",
+      "type": "solid"
+    },
+    {
+      "from": "proj-cont",
+      "to": "aftf",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "pr-trs",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "lang-dy",
+      "type": "dashed"
+    },
+    {
+      "from": "lang-dy",
+      "to": "app-rdef",
+      "type": "solid"
+    }
   ]
 }

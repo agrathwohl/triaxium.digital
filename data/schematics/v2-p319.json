@@ -5,31 +5,97 @@
   "page": 319,
   "subject": "lang-dy",
   "title": "LANG.DY.------RT.ALGN.",
-  "type": "crossing",
-  "description": "Diagram in R(AS)CM(I)-3 (Reality Aspect of Creative Music, Level One), on the page where Braxton argues that jazz journalism's two basic positions — '(1) bebop is no different from what already took place in western art music — which is to say, classical commentary is valid because this form is understood, and (2) the solidification of this form (bebop) implies a profound separation from the composite continuum of black creative music' — both positions are wrong, and were united only in their being wrong. (C)LANG-DY (language dynamics) is crossed with RT-ALGN (reality alignment): the question is what language-dynamics produces when crossed with reality-alignment in a culture where the defining/critical community itself routes through linguistic confusion. MT-INFO-DB (multi-informational degree basis) feeds the upper section. PROJ-DY (projectional dynamics) and (P)INTR (the point of activation of interpretation) feed from the left. (R)DIFF (the reality of differentiation, *probably* re-dif redefinitions in the glossary) and AF-DY (affinity dynamics) form lower constituting nodes. T-C-IMP (time continuum implications) is the central convergence with PART (participation) below. RE-ST (restructuralism) and CUL-AF-B (culture affinity basis) are right-side outputs. Structural argument: language-dynamics crossed with reality-alignment requires multi-informational-degree-basis as upstream, and the point-of-activation prefix on interpretation marks Braxton's structural claim that real interpretation must be activated — passive critical commentary doesn't count. Restructuralism is reached only via the time-continuum convergence.",
+  "type": "hub-spoke",
+  "description": "Diagram in R(AS)CM(I)-3 (Reality Aspect of Creative Music, Level One), on the page where Braxton argues that jazz journalism's two basic positions \u2014 '(1) bebop is no different from what already took place in western art music \u2014 which is to say, classical commentary is valid because this form is understood, and (2) the solidification of this form (bebop) implies a profound separation from the composite continuum of black creative music' \u2014 both positions are wrong, and were united only in their being wrong. (C)LANG-DY (language dynamics) is crossed with RT-ALGN (reality alignment): the question is what language-dynamics produces when crossed with reality-alignment in a culture where the defining/critical community itself routes through linguistic confusion. MT-INFO-DB (multi-informational degree basis) feeds the upper section. PROJ-DY (projectional dynamics) and (P)INTR (the point of activation of interpretation) feed from the left. (R)DIFF (the reality of differentiation, *probably* re-dif redefinitions in the glossary) and AF-DY (affinity dynamics) form lower constituting nodes. T-C-IMP (time continuum implications) is the central convergence with PART (participation) below. RE-ST (restructuralism) and CUL-AF-B (culture affinity basis) are right-side outputs. Structural argument: language-dynamics crossed with reality-alignment requires multi-informational-degree-basis as upstream, and the point-of-activation prefix on interpretation marks Braxton's structural claim that real interpretation must be activated \u2014 passive critical commentary doesn't count. Restructuralism is reached only via the time-continuum convergence.",
   "terms": [
-    { "termId": "lang-dy", "isSubject": true, "prefix": "c" },
-    { "termId": "rt-algn" },
-    { "termId": "mt-if-db" },
-    { "termId": "proj-dy" },
-    { "termId": "intr", "prefix": "p" },
-    { "termId": "re-dif", "prefix": "r" },
-    { "termId": "afl-dy" },
-    { "termId": "t-c-imp" },
-    { "termId": "part" },
-    { "termId": "re-st" },
-    { "termId": "cult-af-bs" }
+    {
+      "termId": "lang-dy",
+      "isSubject": true,
+      "prefix": "c"
+    },
+    {
+      "termId": "rt-algn"
+    },
+    {
+      "termId": "mt-if-db"
+    },
+    {
+      "termId": "proj-dy"
+    },
+    {
+      "termId": "intr",
+      "prefix": "p"
+    },
+    {
+      "termId": "re-dif",
+      "prefix": "r"
+    },
+    {
+      "termId": "afl-dy"
+    },
+    {
+      "termId": "t-c-imp"
+    },
+    {
+      "termId": "part"
+    },
+    {
+      "termId": "re-st"
+    },
+    {
+      "termId": "cult-af-bs"
+    }
   ],
   "relationships": [
-    { "from": "mt-if-db", "to": "lang-dy", "type": "solid" },
-    { "from": "lang-dy", "to": "rt-algn", "type": "solid" },
-    { "from": "proj-dy", "to": "lang-dy", "type": "solid" },
-    { "from": "intr", "to": "lang-dy", "type": "solid" },
-    { "from": "re-dif", "to": "afl-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "lang-dy", "type": "solid" },
-    { "from": "lang-dy", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "part", "type": "solid" },
-    { "from": "t-c-imp", "to": "re-st", "type": "solid" },
-    { "from": "re-st", "to": "cult-af-bs", "type": "solid" }
+    {
+      "from": "mt-if-db",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "re-dif",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "cult-af-bs",
+      "type": "solid"
+    }
   ]
 }
