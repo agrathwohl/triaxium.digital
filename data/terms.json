@@ -722,7 +722,7 @@
   {
     "id": "indiv-td",
     "abbreviation": "INDIV-TD",
-    "expansion": "(or \tindividual tendencies (the reality of",
+    "expansion": "individual tendencies (the reality of or concept of )",
     "category": "reality",
     "volume": 1,
     "definition": ""
@@ -802,7 +802,7 @@
   {
     "id": "info-fm",
     "abbreviation": "INFO-FM",
-    "expansion": "(or FR) \tinformation forum",
+    "expansion": "information forum",
     "category": "information",
     "volume": 1,
     "definition": ""
