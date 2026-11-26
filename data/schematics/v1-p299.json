@@ -1,0 +1,37 @@
+{
+  "id": "v1-p299",
+  "volume": 1,
+  "section": "WI-15",
+  "page": 299,
+  "subject": "pol-dy",
+  "title": "POL.DY.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 299 (WI-15). POL-DY (political dynamics) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: INFO-RT (information reality), IF-ST-DY (infra-structure dynamics) and R-TM. From INFO-RT: IST-F-ACT. From IF-ST-DY: V-SY (value system). From R-TM: APP-RDEF (applied redefinitions). From V-SY: VT-ATT (vibrational attitude). From APP-RDEF: ACC-DY (accelerated dynamics). From ACC-DY: CN-INFO (controlled information) and PROG-SIGN (progressional significance).",
+  "terms": [
+    { "termId": "pol-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "info-rt" },
+    { "termId": "ist-f-act" },
+    { "termId": "if-st-dy" },
+    { "termId": "v-sy" },
+    { "termId": "vt-att" },
+    { "termId": "r-tm" },
+    { "termId": "app-rdef" },
+    { "termId": "acc-dy" },
+    { "termId": "cn-info" },
+    { "termId": "prog-sign" }
+  ],
+  "relationships": [
+    { "from": "pol-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "pol-dy", "to": "info-rt", "type": "solid" },
+    { "from": "info-rt", "to": "ist-f-act", "type": "solid" },
+    { "from": "pol-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "v-sy", "type": "solid" },
+    { "from": "v-sy", "to": "vt-att", "type": "solid" },
+    { "from": "pol-dy", "to": "r-tm", "type": "solid" },
+    { "from": "r-tm", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "cn-info", "type": "solid" },
+    { "from": "acc-dy", "to": "prog-sign", "type": "solid" }
+  ]
+}

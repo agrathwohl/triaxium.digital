@@ -1,0 +1,29 @@
+{
+  "id": "v1-p159",
+  "volume": 1,
+  "section": "UPB(II)-21",
+  "page": 159,
+  "subject": "int",
+  "title": "(R)INT.------CULT.INFO.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 159 (UPB(II)-21). INT (intention) is the subject, with the (R) prefix, \"the reality of\"; CULT-INFO-F (culture information focus) is the partner. The line from the subject runs to RT-OP (reality options), with the (C) prefix, \"the concept of\", at a bend, and from there to CULT-INFO-F. From RT-OP: ACT-T (actual terms). INFO-DE (information degrees) is on a dashed line from ACT-T. From CULT-INFO-F: EXP-DY (expansion dynamics) and AFI (affinity insight). From AFI: ACT-TR (actual transformation), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "int", "isSubject": true, "prefix": "r" },
+    { "termId": "cult-info-f" },
+    { "termId": "rt-op", "prefix": "c" },
+    { "termId": "act-t" },
+    { "termId": "info-de" },
+    { "termId": "exp-dy" },
+    { "termId": "afi" },
+    { "termId": "act-tr", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "int", "to": "rt-op", "type": "solid" },
+    { "from": "rt-op", "to": "cult-info-f", "type": "solid" },
+    { "from": "rt-op", "to": "act-t", "type": "solid" },
+    { "from": "act-t", "to": "info-de", "type": "dashed" },
+    { "from": "cult-info-f", "to": "exp-dy", "type": "solid" },
+    { "from": "cult-info-f", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "act-tr", "type": "solid" }
+  ]
+}

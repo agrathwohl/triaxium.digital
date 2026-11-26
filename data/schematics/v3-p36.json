@@ -1,0 +1,41 @@
+{
+  "id": "v3-p36",
+  "volume": 3,
+  "section": "BK(NM)-12",
+  "page": 36,
+  "subject": "attn",
+  "title": "ATTN.------INFO.PROJ.",
+  "type": "crossing",
+  "description": "Chart on book p. 36 (BK(NM)-12). ATTN (attraction) is the subject; INFO-PROJ (information projection) is the partner. From the subject: PROG-CONT (progressional continuance), AFL (affinity alignment) and ALT-FT (alternative functionalism). From PROG-CONT: SOC-RT-P (social reality particulars). From SOC-RT-P: INTR (interpretation), with the (R) prefix, \"the reality of\". From INTR: RT-INT-TR (reality initiative traits). From AFL: VT-DY (vibrational dynamics). From VT-DY: VT-ATT (vibrational attitude) and V-SY (value system). From V-SY: PART (participation). From ALT-FT: HI-P (high purpose) and INFO-F (information focus).",
+  "terms": [
+    { "termId": "attn", "isSubject": true },
+    { "termId": "info-proj" },
+    { "termId": "prog-cont" },
+    { "termId": "soc-rt-p" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "rt-int-tr" },
+    { "termId": "afl" },
+    { "termId": "vt-dy" },
+    { "termId": "vt-att" },
+    { "termId": "v-sy" },
+    { "termId": "part" },
+    { "termId": "alt-ft" },
+    { "termId": "hi-p" },
+    { "termId": "info-f" }
+  ],
+  "relationships": [
+    { "from": "attn", "to": "info-proj", "type": "solid" },
+    { "from": "attn", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "rt-int-tr", "type": "solid" },
+    { "from": "attn", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "vt-att", "type": "solid" },
+    { "from": "vt-dy", "to": "v-sy", "type": "solid" },
+    { "from": "v-sy", "to": "part", "type": "solid" },
+    { "from": "attn", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "hi-p", "type": "solid" },
+    { "from": "alt-ft", "to": "info-f", "type": "solid" }
+  ]
+}

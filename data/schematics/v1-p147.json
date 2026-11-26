@@ -1,0 +1,35 @@
+{
+  "id": "v1-p147",
+  "volume": 1,
+  "section": "UPB(II)-9",
+  "page": 147,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 147 (UPB(II)-9). WO-EXP-PRI (world expansion principle) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. From the subject: TR-INFO (trans-information) and TRS (transition). From TR-INFO: SPT-DYM (spiritual dynamics). From TRS: ALT-C-PROG, CULT-SOLD (culture solidification) and MT-INFO (multi-information). From CULT-SOLD: AFL (affinity alignment). From AFL: PART (participation). From MT-INFO: ATTN (attraction). The page text speaks of the actualness of \"affinity alignment\".",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "tr-info" },
+    { "termId": "spt-dym" },
+    { "termId": "trs" },
+    { "termId": "alt-c-prog" },
+    { "termId": "cult-sold" },
+    { "termId": "afl" },
+    { "termId": "part" },
+    { "termId": "mt-info" },
+    { "termId": "attn" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "prog-cont", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "spt-dym", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "alt-c-prog", "type": "solid" },
+    { "from": "trs", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "part", "type": "solid" },
+    { "from": "trs", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "attn", "type": "solid" }
+  ]
+}

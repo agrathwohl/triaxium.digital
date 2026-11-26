@@ -1,0 +1,37 @@
+{
+  "id": "v1-p214",
+  "volume": 1,
+  "section": "WAC-12",
+  "page": 214,
+  "subject": "dym-f",
+  "title": "DYM.F.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 214 (WAC-12). DYM-F (dynamic functionalism) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. From the subject: EXP-DY (expansion dynamics) and SOC-RT (social reality). From EXP-DY: MT-INFO (multi-information). From MT-INFO: C-INFO (composite information) and POST (postulation), with the (R) prefix, \"the reality of\". From SOC-RT: POL-DY (political dynamics). From POL-DY: TR (transformation). From TR: UNF-PI (unification (positively intended)) and VT-ATT (vibrational attitude). From VT-ATT: AFL (affinity alignment).",
+  "terms": [
+    { "termId": "dym-f", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "exp-dy" },
+    { "termId": "mt-info" },
+    { "termId": "c-info" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "pol-dy" },
+    { "termId": "tr" },
+    { "termId": "unf-pi" },
+    { "termId": "vt-att" },
+    { "termId": "afl" }
+  ],
+  "relationships": [
+    { "from": "dym-f", "to": "prog-cont", "type": "solid" },
+    { "from": "dym-f", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "c-info", "type": "solid" },
+    { "from": "mt-info", "to": "post", "type": "solid" },
+    { "from": "dym-f", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "unf-pi", "type": "solid" },
+    { "from": "tr", "to": "vt-att", "type": "solid" },
+    { "from": "vt-att", "to": "afl", "type": "solid" }
+  ]
+}

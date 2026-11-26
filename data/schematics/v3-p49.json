@@ -1,0 +1,39 @@
+{
+  "id": "v3-p49",
+  "volume": 3,
+  "section": "BK(NM)-25",
+  "page": 49,
+  "subject": "af-comp",
+  "title": "A.F.COMP.------POL.SIGN.",
+  "type": "crossing",
+  "description": "Chart on book p. 49 (BK(NM)-25). AF-COMP (affinity compression) (the title writes A.F.COMP.) is the subject; POL-SIGN (political significance) is the partner. From the subject: POL-P (political policies), TRS (transition) and SOC-RT-DT (social reality dictates). From POL-P: IST-F-ACT. From IST-F-ACT: SOC-RT-P (social reality particulars). From TRS: CN-INFO (controlled information). From CN-INFO: RE-DOC (redocumentation). From RE-DOC: JR-DYM (journalism dynamics). From SOC-RT-DT: INFO-DY. From INFO-DY: INFO-F-DT. From INFO-F-DT: INT (intention), with the (R) prefix, \"the reality of\". The page text below the chart begins \"The social-reality dictates of creative black music\".",
+  "terms": [
+    { "termId": "af-comp", "isSubject": true },
+    { "termId": "pol-sign" },
+    { "termId": "pol-p" },
+    { "termId": "ist-f-act" },
+    { "termId": "soc-rt-p" },
+    { "termId": "trs" },
+    { "termId": "cn-info" },
+    { "termId": "re-doc" },
+    { "termId": "jr-dym" },
+    { "termId": "soc-rt-dt" },
+    { "termId": "info-dy" },
+    { "termId": "info-f-dt" },
+    { "termId": "int", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "af-comp", "to": "pol-sign", "type": "solid" },
+    { "from": "af-comp", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "ist-f-act", "type": "solid" },
+    { "from": "ist-f-act", "to": "soc-rt-p", "type": "solid" },
+    { "from": "af-comp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "jr-dym", "type": "solid" },
+    { "from": "af-comp", "to": "soc-rt-dt", "type": "solid" },
+    { "from": "soc-rt-dt", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-f-dt", "type": "solid" },
+    { "from": "info-f-dt", "to": "int", "type": "solid" }
+  ]
+}

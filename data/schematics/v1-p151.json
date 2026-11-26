@@ -1,0 +1,35 @@
+{
+  "id": "v1-p151",
+  "volume": 1,
+  "section": "UPB(II)-13",
+  "page": 151,
+  "subject": "act-tr",
+  "title": "ACT.TR.------COSP.",
+  "type": "crossing",
+  "description": "Chart on book p. 151 (UPB(II)-13). ACT-TR (actual transformation) is the subject, with the (C) prefix, \"the concept of\"; COS-P (cosmic particulars) (the title writes COSP) is the partner. SPI-AN is on a dashed line from the subject. From SPI-AN: AFI (affinity insight). RE-ST (restructuralism) is on a dashed line from AFI. PHY-U-C (physical universe context) is on a dashed line from COS-P. From PHY-U-C: PROG-CONT (progressional continuance) and POL-DYM (political dynamics). SOC-RT-P (social reality particulars) is on a dashed line from POL-DYM. From POL-DYM: POL-CON (political consciousness). From POL-CON: RT-DY (reality dynamics).",
+  "terms": [
+    { "termId": "act-tr", "isSubject": true, "prefix": "c" },
+    { "termId": "cos-p" },
+    { "termId": "spi-an" },
+    { "termId": "afi" },
+    { "termId": "re-st" },
+    { "termId": "phy-u-c" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dym" },
+    { "termId": "soc-rt-p" },
+    { "termId": "pol-con" },
+    { "termId": "rt-dy" }
+  ],
+  "relationships": [
+    { "from": "act-tr", "to": "cos-p", "type": "solid" },
+    { "from": "act-tr", "to": "spi-an", "type": "dashed" },
+    { "from": "spi-an", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "re-st", "type": "dashed" },
+    { "from": "cos-p", "to": "phy-u-c", "type": "dashed" },
+    { "from": "phy-u-c", "to": "prog-cont", "type": "solid" },
+    { "from": "phy-u-c", "to": "pol-dym", "type": "solid" },
+    { "from": "pol-dym", "to": "soc-rt-p", "type": "dashed" },
+    { "from": "pol-dym", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "rt-dy", "type": "solid" }
+  ]
+}

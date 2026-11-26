@@ -1,0 +1,35 @@
+{
+  "id": "v1-p241",
+  "volume": 1,
+  "section": "WAC-39",
+  "page": 241,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.------CRTF.PROG.",
+  "type": "crossing",
+  "description": "Chart on book p. 241 (WAC-39). RT-ALGN (reality alignment) is the subject, with the (C) prefix, \"the concept of\"; CRTF-PROG (cross-transfer progressionalism) is the partner. From the subject: DEC (decentralization) and INFO-DY. From DEC: AF-DY (affinity dynamics). From AF-DY: PART (participation). From PART: ALT-F (alternative functionalism). From INFO-DY: AF-TD (affinity tendencies). From AF-TD: MT-INFO (multi-information). From MT-INFO: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\" and EXT-DY (extended dynamics).",
+  "terms": [
+    { "termId": "rt-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "crtf-prog" },
+    { "termId": "dec" },
+    { "termId": "af-dy" },
+    { "termId": "part" },
+    { "termId": "alt-f" },
+    { "termId": "info-dy" },
+    { "termId": "af-td" },
+    { "termId": "mt-info" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "ext-dy" }
+  ],
+  "relationships": [
+    { "from": "rt-algn", "to": "crtf-prog", "type": "solid" },
+    { "from": "rt-algn", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "alt-f", "type": "solid" },
+    { "from": "rt-algn", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "tm", "type": "solid" },
+    { "from": "mt-info", "to": "ext-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v1-p110",
+  "volume": 1,
+  "section": "T(AF)M-14",
+  "page": 110,
+  "subject": "info-algn",
+  "title": "INFO.ALGN.------ACC.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 110 (T(AF)M-14). INFO-ALGN (information alignment) is the subject, with the (C) prefix, \"the concept of\"; ACC-DY (accelerated dynamics) is the partner. From the subject: OP-SPD (option spread), TRS (transition) and MT-INFO (multi-information). From TRS: S-ST (source shift (progressionalism) manipulation). From S-ST: T-C-IMP (time continuum implications). From MT-INFO: C-CONT (composite continuance). RT-ALGN (reality alignment) is on a dotted line from MT-INFO. From C-CONT: OBS (observation) and INFO-DY. From INFO-DY: CRIF-D. From CRIF-D: RE-ST (restructuralism).",
+  "terms": [
+    { "termId": "info-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "acc-dy" },
+    { "termId": "op-spd" },
+    { "termId": "trs" },
+    { "termId": "s-st" },
+    { "termId": "t-c-imp" },
+    { "termId": "mt-info" },
+    { "termId": "c-cont" },
+    { "termId": "obs" },
+    { "termId": "info-dy" },
+    { "termId": "crif-d" },
+    { "termId": "re-st" },
+    { "termId": "rt-algn" }
+  ],
+  "relationships": [
+    { "from": "info-algn", "to": "acc-dy", "type": "solid" },
+    { "from": "info-algn", "to": "op-spd", "type": "solid" },
+    { "from": "info-algn", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "s-st", "type": "solid" },
+    { "from": "s-st", "to": "t-c-imp", "type": "solid" },
+    { "from": "info-algn", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "obs", "type": "solid" },
+    { "from": "c-cont", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "crif-d", "type": "solid" },
+    { "from": "crif-d", "to": "re-st", "type": "solid" },
+    { "from": "mt-info", "to": "rt-algn", "type": "dashed" }
+  ]
+}

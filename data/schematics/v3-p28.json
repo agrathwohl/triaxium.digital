@@ -1,0 +1,37 @@
+{
+  "id": "v3-p28",
+  "volume": 3,
+  "section": "BK(NM)-4",
+  "page": 28,
+  "subject": "ist-s-algn",
+  "title": "IST.S.ALGN.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 28 (BK(NM)-4). IST-S-ALGN (isolated systematic alignment) is the subject, with the (C) prefix, \"the concept of\"; C-INFO (composite information) is the partner. From the subject: MT-INTR (multiple interpretation) and EXT-F (extended functionalism). From MT-INTR: TRS (transition) and INFO-DY. From INFO-DY: POL-DY (political dynamics). From POL-DY: PRI-INFO-TD and P-PROG (particular progressionalism). From P-PROG: T-C-IMP (time continuum implications). From T-C-IMP: IST-F (isolated focus). From EXT-F: INT (intention), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "ist-s-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "c-info" },
+    { "termId": "mt-intr" },
+    { "termId": "trs" },
+    { "termId": "info-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "pri-info-td" },
+    { "termId": "p-prog" },
+    { "termId": "t-c-imp" },
+    { "termId": "ist-f" },
+    { "termId": "ext-f" },
+    { "termId": "int", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "ist-s-algn", "to": "c-info", "type": "solid" },
+    { "from": "ist-s-algn", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "trs", "type": "solid" },
+    { "from": "mt-intr", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "pri-info-td", "type": "solid" },
+    { "from": "pol-dy", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "ist-f", "type": "solid" },
+    { "from": "ist-s-algn", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "int", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v1-p390",
+  "volume": 1,
+  "section": "NYM-24",
+  "page": 390,
+  "subject": "sty",
+  "title": "STY.------WO.EXT.PRI.",
+  "type": "crossing",
+  "description": "Chart on book p. 390 (NYM-24). STY (style) is the subject, with the (C) prefix, \"the concept of\"; WO-EXT-PRI is the partner. From the subject: SPT-DY (spiritual dynamics) and MT-IF-DB (multi-informational degree basis). From SPT-DY: PART (participation). From MT-IF-DB: PROG-CONT (progressional continuance). From PROG-CONT: AFTD (affinity tendencies). From AFTD: PHY-U-P (physical universe particular). From PHY-U-P: SOC-RT (social reality). From SOC-RT: AF-NT (affinity nature).",
+  "terms": [
+    { "termId": "sty", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-ext-pri" },
+    { "termId": "spt-dy" },
+    { "termId": "part" },
+    { "termId": "mt-if-db" },
+    { "termId": "prog-cont" },
+    { "termId": "aftd" },
+    { "termId": "phy-u-p" },
+    { "termId": "soc-rt" },
+    { "termId": "af-nt" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "wo-ext-pri", "type": "solid" },
+    { "from": "sty", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "part", "type": "solid" },
+    { "from": "sty", "to": "mt-if-db", "type": "solid" },
+    { "from": "mt-if-db", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "af-nt", "type": "solid" }
+  ]
+}

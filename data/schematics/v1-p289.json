@@ -1,0 +1,35 @@
+{
+  "id": "v1-p289",
+  "volume": 1,
+  "section": "WI-5",
+  "page": 289,
+  "subject": "info-trns",
+  "title": "INFO.TRNS.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 289 (WI-5). INFO-TRNS (information transference) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. From the subject: AF-CON (affinity convergence). From AF-CON: PHY-U-P (physical universe particular) and DYM-F (dynamic functionalism). From PHY-U-P: AF-DT (affinity dictates) and AGT (agreement). From DYM-F: C-CONT (composite continuance). From AGT: POST (postulation). From C-CONT: INT (intention). From INT: IND-DY-RT. AGT has the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "info-trns", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "af-con" },
+    { "termId": "phy-u-p" },
+    { "termId": "af-dt" },
+    { "termId": "agt", "prefix": "r" },
+    { "termId": "post" },
+    { "termId": "dym-f" },
+    { "termId": "c-cont" },
+    { "termId": "int" },
+    { "termId": "ind-dy-rt" }
+  ],
+  "relationships": [
+    { "from": "info-trns", "to": "prog-cont", "type": "solid" },
+    { "from": "info-trns", "to": "af-con", "type": "solid" },
+    { "from": "af-con", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "af-dt", "type": "solid" },
+    { "from": "phy-u-p", "to": "agt", "type": "solid" },
+    { "from": "agt", "to": "post", "type": "solid" },
+    { "from": "af-con", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "int", "type": "solid" },
+    { "from": "int", "to": "ind-dy-rt", "type": "solid" }
+  ]
+}

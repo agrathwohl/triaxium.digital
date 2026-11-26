@@ -1,0 +1,35 @@
+{
+  "id": "v1-p125",
+  "volume": 1,
+  "section": "T(AF)M-29",
+  "page": 125,
+  "subject": "c-cont",
+  "title": "C.CONT.------PHY.U.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 125 (T(AF)M-29). C-CONT (composite continuance) is the subject; PHY-U-P (physical universe particular) is the partner. POL-P (political policies) is typed above the main line with no dot and is read as the label of the junction where the ALT-F line leaves it, so the main line runs from the subject to POL-P and from POL-P to PHY-U-P. From POL-P: ALT-F (alternative functionalism). From ALT-F: INFO-DE (information degrees). From INFO-DE: BIA (bi-aitional) and ALT-ACT (alternative activism). From BIA: PROG-SIGN (progressional significance). From ALT-ACT: PROG-EXT-F (progressional extended functionalism). From PROG-EXT-F: AF-DY (affinity dynamics). From AF-DY: AFN (affinity negation).",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-p" },
+    { "termId": "alt-f" },
+    { "termId": "info-de" },
+    { "termId": "bia" },
+    { "termId": "prog-sign" },
+    { "termId": "alt-act" },
+    { "termId": "prog-ext-f" },
+    { "termId": "af-dy" },
+    { "termId": "afn" }
+  ],
+  "relationships": [
+    { "from": "c-cont", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "phy-u-p", "type": "solid" },
+    { "from": "pol-p", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "info-de", "type": "solid" },
+    { "from": "info-de", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "prog-sign", "type": "solid" },
+    { "from": "info-de", "to": "alt-act", "type": "solid" },
+    { "from": "alt-act", "to": "prog-ext-f", "type": "solid" },
+    { "from": "prog-ext-f", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "afn", "type": "solid" }
+  ]
+}

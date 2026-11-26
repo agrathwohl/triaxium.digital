@@ -1,0 +1,39 @@
+{
+  "id": "v1-p114",
+  "volume": 1,
+  "section": "T(AF)M-18",
+  "page": 114,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------LANG.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 114 (T(AF)M-18). LK-IMP (linkage implications) is the subject, with the (C) prefix, \"the concept of\"; LANG-DY (language dynamics) is the partner. From the subject: EXPN, INDIV-TD (individual tendencies), with the (R) prefix, \"the reality of\", PRI-INFO (principle information) and AF-CON (affinity convergence). From EXPN: AFTF (affinity transfer). From AFTF: a second LANG-DY (language dynamics). From PRI-INFO: MT-INTR (multiple interpretation). From MT-INTR: EXP-DY (expansion dynamics) and COS-D (cosmic dictates). From COS-D: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: T-C-IMP (time continuum implications).",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true, "prefix": "c" },
+    { "termId": "lang-dy" },
+    { "termId": "expn" },
+    { "termId": "aftf" },
+    { "termId": "lang-dy-2" },
+    { "termId": "indiv-td", "prefix": "r" },
+    { "termId": "pri-info" },
+    { "termId": "mt-intr" },
+    { "termId": "exp-dy" },
+    { "termId": "cos-d" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "af-con" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "lang-dy", "type": "solid" },
+    { "from": "lk-imp", "to": "expn", "type": "solid" },
+    { "from": "expn", "to": "aftf", "type": "solid" },
+    { "from": "aftf", "to": "lang-dy-2", "type": "solid" },
+    { "from": "lk-imp", "to": "indiv-td", "type": "solid" },
+    { "from": "lk-imp", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "exp-dy", "type": "solid" },
+    { "from": "mt-intr", "to": "cos-d", "type": "solid" },
+    { "from": "cos-d", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "af-con", "type": "solid" }
+  ]
+}

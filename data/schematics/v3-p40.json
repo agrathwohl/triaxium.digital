@@ -1,0 +1,31 @@
+{
+  "id": "v3-p40",
+  "volume": 3,
+  "section": "BK(NM)-16",
+  "page": 40,
+  "subject": "v-sy",
+  "title": "V.SY.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 40 (BK(NM)-16). V-SY (value system) is the subject; TR (transformation) is the partner. From the subject: C-INFO (composite information) and EXP-DYM (expansion dynamics). From C-INFO: LK-IMP (linkage implications). From LK-IMP: VT-DY (vibrational dynamics). From EXP-DYM: MT-INFO-DB and IF-ST-DY (infra-structure dynamics). From IF-ST-DY: INFO-AF-B (information affinity basis).",
+  "terms": [
+    { "termId": "v-sy", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "c-info" },
+    { "termId": "lk-imp" },
+    { "termId": "vt-dy" },
+    { "termId": "exp-dym" },
+    { "termId": "mt-info-db" },
+    { "termId": "if-st-dy" },
+    { "termId": "info-af-b" }
+  ],
+  "relationships": [
+    { "from": "v-sy", "to": "tr", "type": "solid" },
+    { "from": "v-sy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "vt-dy", "type": "solid" },
+    { "from": "v-sy", "to": "exp-dym", "type": "solid" },
+    { "from": "exp-dym", "to": "mt-info-db", "type": "solid" },
+    { "from": "exp-dym", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-af-b", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v1-p157",
+  "volume": 1,
+  "section": "UPB(II)-19",
+  "page": 157,
+  "subject": "ext-f",
+  "title": "EXT.F.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 157 (UPB(II)-19). EXT-F (extended functionalism) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: MT-INFO (multi-information), VT-DY (vibrational dynamics) and TRS (transition). From MT-INFO: POL-SIGN (political significance) and LK-IMP (linkage implications). From LK-IMP: PART (participation), with the (R) prefix, \"the reality of\". From PART: TH-AF-ALGN (thrust affinity alignment). From TH-AF-ALGN: AFI-1 (affinity insight—first degree). From VT-DY: OP-SD (option spread). From TRS: INFO-DY.",
+  "terms": [
+    { "termId": "ext-f", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "mt-info" },
+    { "termId": "pol-sign" },
+    { "termId": "lk-imp" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "th-af-algn" },
+    { "termId": "afi-1" },
+    { "termId": "vt-dy" },
+    { "termId": "op-sd" },
+    { "termId": "trs" },
+    { "termId": "info-dy" }
+  ],
+  "relationships": [
+    { "from": "ext-f", "to": "soc-rt", "type": "solid" },
+    { "from": "ext-f", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "pol-sign", "type": "solid" },
+    { "from": "mt-info", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "part", "type": "solid" },
+    { "from": "part", "to": "th-af-algn", "type": "solid" },
+    { "from": "th-af-algn", "to": "afi-1", "type": "solid" },
+    { "from": "ext-f", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "op-sd", "type": "solid" },
+    { "from": "ext-f", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "info-dy", "type": "solid" }
+  ]
+}

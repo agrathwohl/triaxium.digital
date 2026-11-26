@@ -1,0 +1,37 @@
+{
+  "id": "v1-p414",
+  "volume": 1,
+  "section": "MID-W-8",
+  "page": 414,
+  "subject": "rt-op",
+  "title": "RT.OP.------INFO.AF.B.",
+  "type": "crossing",
+  "description": "Chart on book p. 414 (MID-W-8). RT-OP (reality options) is the subject; INFO-AF-B (information affinity basis) is the partner. From the subject: IST-F (isolated focus), SOC-RT-INT (social reality interpretation), LANG-DY (language dynamics) and ALT-D (alternative definitions). From IST-F: HI-P (high purpose). From SOC-RT-INT: CN-INFO (controlled information). From ALT-D: AFL-DY (affinity dynamics). From HI-P: TRS (transition). From AFL-DY: MT-INFO (multi-information). From MT-INFO: ATTC (attachment).",
+  "terms": [
+    { "termId": "rt-op", "isSubject": true },
+    { "termId": "info-af-b" },
+    { "termId": "ist-f" },
+    { "termId": "hi-p" },
+    { "termId": "trs" },
+    { "termId": "soc-rt-int" },
+    { "termId": "cn-info" },
+    { "termId": "lang-dy" },
+    { "termId": "alt-d" },
+    { "termId": "afl-dy" },
+    { "termId": "mt-info" },
+    { "termId": "attc" }
+  ],
+  "relationships": [
+    { "from": "rt-op", "to": "info-af-b", "type": "solid" },
+    { "from": "rt-op", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "hi-p", "type": "solid" },
+    { "from": "hi-p", "to": "trs", "type": "solid" },
+    { "from": "rt-op", "to": "soc-rt-int", "type": "solid" },
+    { "from": "soc-rt-int", "to": "cn-info", "type": "solid" },
+    { "from": "rt-op", "to": "lang-dy", "type": "solid" },
+    { "from": "rt-op", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "attc", "type": "solid" }
+  ]
+}

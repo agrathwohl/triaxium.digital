@@ -1,0 +1,33 @@
+{
+  "id": "v1-p112",
+  "volume": 1,
+  "section": "T(AF)M-16",
+  "page": 112,
+  "subject": "info-doc",
+  "title": "INFO.DOC.------TR.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 112 (T(AF)M-16). INFO-DOC (information documentation) is the subject, with the (C) prefix, \"the concept of\"; TR-INFO (trans-information) is the partner. From the subject: PROG-CONT (progressional continuance), T-C-IMP (time continuum implications) and TRS (transition). From T-C-IMP: PHY-U-P (physical universe particular). From PHY-U-P: AF-DY (affinity dynamics) and POL-DY (political dynamics). From AF-DY: ATTN (attraction), with the (R) prefix, \"the reality of\". From ATTN: AF-TD (affinity tendencies), with the (C) prefix, \"the concept of\".",
+  "terms": [
+    { "termId": "info-doc", "isSubject": true, "prefix": "c" },
+    { "termId": "tr-info" },
+    { "termId": "prog-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "phy-u-p" },
+    { "termId": "af-dy" },
+    { "termId": "attn", "prefix": "r" },
+    { "termId": "af-td", "prefix": "c" },
+    { "termId": "pol-dy" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "info-doc", "to": "tr-info", "type": "solid" },
+    { "from": "info-doc", "to": "prog-cont", "type": "solid" },
+    { "from": "info-doc", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "af-td", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-dy", "type": "solid" },
+    { "from": "info-doc", "to": "trs", "type": "solid" }
+  ]
+}

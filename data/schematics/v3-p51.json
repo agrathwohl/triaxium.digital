@@ -1,0 +1,35 @@
+{
+  "id": "v3-p51",
+  "volume": 3,
+  "section": "BK(NM)-27",
+  "page": 51,
+  "subject": "dymspt",
+  "title": "DYM.SPT.------ALT.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 51 (BK(NM)-27). DYMSPT (the title writes DYM.SPT.) is the subject; ALT-F (alternative functionalism) is the partner. From the subject: PROG-CONT (progressional continuance), INFO-DY and EXP-DY (expansion dynamics). From PROG-CONT: APP-RDEF (applied redefinitions). From INFO-DY: ALT-D (alternative definitions) and TM (terminology—or terms of a definition). From ALT-D: AF-COMP (affinity compression). From TM: AFI (affinity insight). From EXP-DY: WO-METH.",
+  "terms": [
+    { "termId": "dymspt", "isSubject": true },
+    { "termId": "alt-f" },
+    { "termId": "prog-cont" },
+    { "termId": "app-rdef" },
+    { "termId": "info-dy" },
+    { "termId": "alt-d" },
+    { "termId": "af-comp" },
+    { "termId": "tm" },
+    { "termId": "afi" },
+    { "termId": "exp-dy" },
+    { "termId": "wo-meth" }
+  ],
+  "relationships": [
+    { "from": "dymspt", "to": "alt-f", "type": "solid" },
+    { "from": "dymspt", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "app-rdef", "type": "solid" },
+    { "from": "dymspt", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "af-comp", "type": "solid" },
+    { "from": "info-dy", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "afi", "type": "solid" },
+    { "from": "dymspt", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "wo-meth", "type": "solid" }
+  ]
+}

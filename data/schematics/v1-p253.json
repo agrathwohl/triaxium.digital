@@ -1,0 +1,29 @@
+{
+  "id": "v1-p253",
+  "volume": 1,
+  "section": "CMBA-9",
+  "page": 253,
+  "subject": "af-dy",
+  "title": "(R)AF.DY.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 253 (CMBA-9). AF-DY (affinity dynamics) is the subject, with the (R) prefix, \"the reality of\"; C-CONT (composite continuance) is the partner. From the subject: EXP-DY (expansion dynamics), EXT-FT (extended functionalism), PROG-EXT-F (progressional extended functionalism) and IST-F (isolated focus), with the (R) prefix, \"the reality of\". From IST-F: POST (postulation), with the (C) prefix, \"the concept of\". From POST: PROJ-DYM (projectional dynamics).",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "c-cont" },
+    { "termId": "exp-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "prog-ext-f" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "post", "prefix": "c" },
+    { "termId": "proj-dym" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "c-cont", "type": "solid" },
+    { "from": "af-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "af-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "af-dy", "to": "prog-ext-f", "type": "solid" },
+    { "from": "af-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "post", "type": "solid" },
+    { "from": "post", "to": "proj-dym", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p35",
+  "volume": 3,
+  "section": "BK(NM)-11",
+  "page": 35,
+  "subject": "tr-def",
+  "title": "TR.DEF.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Chart on book p. 35 (BK(NM)-11). TR-DEF (trans-definition) is the subject, with the (C) prefix, \"the concept of\"; T-C-IMP (time continuum implications) is the partner. From the subject: A-PR (all-purpose) and COS-P (cosmic particulars). From A-PR: UNI-PI. From COS-P: PER-VT-U-FUND (perceived vibrational universe fundamental) and PER-PHY-U-FUND (perceived physical universe fundamental). From PER-VT-U-FUND: DYM-SPT (dynamic spiritualism). From DYM-SPT: AFI (affinity insight). From PER-PHY-U-FUND: SCI-DYM (scientific dynamics). From SCI-DYM: IST-F (isolated focus), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "tr-def", "isSubject": true, "prefix": "c" },
+    { "termId": "t-c-imp" },
+    { "termId": "a-pr" },
+    { "termId": "uni-pi" },
+    { "termId": "cos-p" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "dym-spt" },
+    { "termId": "afi" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "sci-dym" },
+    { "termId": "ist-f", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "tr-def", "to": "t-c-imp", "type": "solid" },
+    { "from": "tr-def", "to": "a-pr", "type": "solid" },
+    { "from": "a-pr", "to": "uni-pi", "type": "solid" },
+    { "from": "tr-def", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "afi", "type": "solid" },
+    { "from": "cos-p", "to": "per-phy-u-fund", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "ist-f", "type": "solid" }
+  ]
+}

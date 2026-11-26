@@ -1,0 +1,35 @@
+{
+  "id": "v1-p108-2",
+  "volume": 1,
+  "section": "T(AF)M-12",
+  "page": 108,
+  "subject": "tf-sh",
+  "title": "TF.SH.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 108 (T(AF)M-12). TF-SH (transfer shifts) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. From the subject: LK-IMP (linkage implications) and PER-PHY-U-FUND (perceived physical universe fundamental). From LK-IMP: LANG-DY (language dynamics) and RE-DIFF. From LANG-DY: MTA-RT-SIGN (meta-reality significance). From RE-DIFF: TRS (transition). From TRS: POL-CON (political consciousness). From PER-PHY-U-FUND: RE-ST (restructuralism). From RE-ST: LANG-DYM (language dynamics).",
+  "terms": [
+    { "termId": "tf-sh", "isSubject": true, "prefix": "c" },
+    { "termId": "prog-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "lang-dy" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "re-diff" },
+    { "termId": "trs" },
+    { "termId": "pol-con" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "re-st" },
+    { "termId": "lang-dym" }
+  ],
+  "relationships": [
+    { "from": "tf-sh", "to": "prog-cont", "type": "solid" },
+    { "from": "tf-sh", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "lk-imp", "to": "re-diff", "type": "solid" },
+    { "from": "re-diff", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "pol-con", "type": "solid" },
+    { "from": "tf-sh", "to": "per-phy-u-fund", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "lang-dym", "type": "solid" }
+  ]
+}

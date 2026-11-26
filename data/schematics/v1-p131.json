@@ -1,0 +1,37 @@
+{
+  "id": "v1-p131",
+  "volume": 1,
+  "section": "T(AF)M-35",
+  "page": 131,
+  "subject": "af-post",
+  "title": "AF.POST.------ALT.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 131 (T(AF)M-35). AF-POST (affinity postulation) is the subject; ALT-F (alternative functionalism) is the partner. From the subject: ALT-C-PG (alternative composite progressionalism) and LK-IMP (linkage implications). From ALT-C-PG: AF-CON (affinity convergence). From LK-IMP: C-CONT (composite continuance) and WO-MTH (world methodology). From C-CONT: POL-DY (political dynamics) and DYM-SPT (dynamic spiritualism). From POL-DY: PHY-U-P (physical universe particular). From WO-MTH: DYM-F (dynamic functionalism). From DYM-F: VT-S (vibrational science). The page text speaks of \"what alternative functionalism means in the essence lining of black invention\".",
+  "terms": [
+    { "termId": "af-post", "isSubject": true },
+    { "termId": "alt-f" },
+    { "termId": "alt-c-pg" },
+    { "termId": "af-con" },
+    { "termId": "lk-imp" },
+    { "termId": "c-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "dym-spt" },
+    { "termId": "wo-mth" },
+    { "termId": "dym-f" },
+    { "termId": "vt-s" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "alt-f", "type": "solid" },
+    { "from": "af-post", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "af-con", "type": "solid" },
+    { "from": "af-post", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "c-cont", "to": "dym-spt", "type": "solid" },
+    { "from": "lk-imp", "to": "wo-mth", "type": "solid" },
+    { "from": "wo-mth", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "vt-s", "type": "solid" }
+  ]
+}

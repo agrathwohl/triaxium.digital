@@ -1,0 +1,37 @@
+{
+  "id": "v1-p221",
+  "volume": 1,
+  "section": "WAC-19",
+  "page": 221,
+  "subject": "sty",
+  "title": "STY.------LANG.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 221 (WAC-19). STY (style) is the subject, with the (C) prefix, \"the concept of\"; LANG-DY (language dynamics) is the partner. From the subject: POST (postulation) and AF-NT (affinity nature). From POST: CULT-AF-B (culture affinity basis). From CULT-AF-B: INFO-DOC (information documentation). From AF-NT: ATTN (attraction), T-C-IMP (time continuum implications) and TM (terminology—or terms of a definition). From T-C-IMP: RE-ST (restructuralism). From TM: INDIV-TD (individual tendencies). From INDIV-TD: IF-SPT (infra-spirituality).",
+  "terms": [
+    { "termId": "sty", "isSubject": true, "prefix": "c" },
+    { "termId": "lang-dy" },
+    { "termId": "post" },
+    { "termId": "cult-af-b" },
+    { "termId": "info-doc" },
+    { "termId": "af-nt" },
+    { "termId": "attn" },
+    { "termId": "t-c-imp" },
+    { "termId": "re-st" },
+    { "termId": "tm" },
+    { "termId": "indiv-td" },
+    { "termId": "if-spt" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "lang-dy", "type": "solid" },
+    { "from": "sty", "to": "post", "type": "solid" },
+    { "from": "post", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "info-doc", "type": "solid" },
+    { "from": "sty", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "attn", "type": "solid" },
+    { "from": "af-nt", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "re-st", "type": "solid" },
+    { "from": "af-nt", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "if-spt", "type": "solid" }
+  ]
+}

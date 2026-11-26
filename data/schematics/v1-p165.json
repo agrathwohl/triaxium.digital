@@ -1,0 +1,37 @@
+{
+  "id": "v1-p165",
+  "volume": 1,
+  "section": "UPB(II)-27",
+  "page": 165,
+  "subject": "s-proj",
+  "title": "S.PROJ.------MTH.",
+  "type": "crossing",
+  "description": "Chart on book p. 165 (UPB(II)-27). S-PROJ (source projection) is the subject; MTH (methodology) is the partner. From the subject: ALT-F (alternative functionalism), AFL (affinity alignment) and IST-S-ALGN (isolated systematic alignment). From ALT-F: TR-INFO (trans-information). From TR-INFO: T-C-IMP (time continuum implications). From AFL: FUND-DYM (fundamental dynamics). From IST-S-ALGN: CRTF-PROG (cross-transfer progressionalism) and SCI-DYM (scientific dynamics). From CRTF-PROG: MTH-2 (methodology, a second MTH label). From SCI-DYM: AF-NT (affinity nature). The page text speaks of \"the dynamic implication of composite methodology\".",
+  "terms": [
+    { "termId": "s-proj", "isSubject": true },
+    { "termId": "mth" },
+    { "termId": "alt-f" },
+    { "termId": "tr-info" },
+    { "termId": "t-c-imp" },
+    { "termId": "afl" },
+    { "termId": "fund-dym" },
+    { "termId": "ist-s-algn" },
+    { "termId": "crtf-prog" },
+    { "termId": "mth-2" },
+    { "termId": "sci-dym" },
+    { "termId": "af-nt" }
+  ],
+  "relationships": [
+    { "from": "s-proj", "to": "mth", "type": "solid" },
+    { "from": "s-proj", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "s-proj", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "fund-dym", "type": "solid" },
+    { "from": "s-proj", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "crtf-prog", "type": "solid" },
+    { "from": "crtf-prog", "to": "mth-2", "type": "solid" },
+    { "from": "ist-s-algn", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "af-nt", "type": "solid" }
+  ]
+}

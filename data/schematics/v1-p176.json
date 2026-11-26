@@ -1,0 +1,31 @@
+{
+  "id": "v1-p176",
+  "volume": 1,
+  "section": "UPB(II)-38",
+  "page": 176,
+  "subject": "per-phy-u-fund",
+  "title": "(R)PER.PHY.U.FUND.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 176 (UPB(II)-38). PER-PHY-U-FUND (perceived physical universe fundamental) is the subject, with the (R) prefix, \"the reality of\"; PRI-INFO (principle information) is the partner. From the subject: RT-INT-TR (reality initiative traits) and WO-EXT-PRI. From RT-INT-TR: SCI-DYM (scientific dynamics) and PHY-U-P (physical universe particular). From SCI-DYM: P-FC (particular focus). From WO-EXT-PRI: EXT-FT (extended functionalism). From EXT-FT: FUND-DYM (fundamental dynamics).",
+  "terms": [
+    { "termId": "per-phy-u-fund", "isSubject": true, "prefix": "r" },
+    { "termId": "pri-info" },
+    { "termId": "rt-int-tr" },
+    { "termId": "sci-dym" },
+    { "termId": "p-fc" },
+    { "termId": "phy-u-p" },
+    { "termId": "wo-ext-pri" },
+    { "termId": "ext-ft" },
+    { "termId": "fund-dym" }
+  ],
+  "relationships": [
+    { "from": "per-phy-u-fund", "to": "pri-info", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "p-fc", "type": "solid" },
+    { "from": "rt-int-tr", "to": "phy-u-p", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "wo-ext-pri", "type": "solid" },
+    { "from": "wo-ext-pri", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "fund-dym", "type": "solid" }
+  ]
+}

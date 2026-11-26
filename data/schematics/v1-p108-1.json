@@ -1,0 +1,31 @@
+{
+  "id": "v1-p108-1",
+  "volume": 1,
+  "section": "T(AF)M-12",
+  "page": 108,
+  "subject": "attn",
+  "title": "(R)ATTN.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 108 (T(AF)M-12). ATTN (attraction) is the subject, with the (R) prefix, \"the reality of\"; C-CONT (composite continuance) is the partner. From the subject: PROG-CONT (progressional continuance) and DEF (definition), with the (R) prefix. From DEF: EXT-DY (extended dynamics). From EXT-DY: INFO-AF-B (information affinity basis) and PHY-U-P (physical universe particular). From INFO-AF-B: PROJ-DY (projectional dynamics). PART (participation), with the (R) prefix, is on a dotted line from INFO-AF-B.",
+  "terms": [
+    { "termId": "attn", "isSubject": true, "prefix": "r" },
+    { "termId": "c-cont" },
+    { "termId": "prog-cont" },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "ext-dy" },
+    { "termId": "info-af-b" },
+    { "termId": "proj-dy" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "phy-u-p" }
+  ],
+  "relationships": [
+    { "from": "attn", "to": "c-cont", "type": "solid" },
+    { "from": "attn", "to": "prog-cont", "type": "solid" },
+    { "from": "attn", "to": "def", "type": "solid" },
+    { "from": "def", "to": "ext-dy", "type": "solid" },
+    { "from": "ext-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "proj-dy", "type": "solid" },
+    { "from": "info-af-b", "to": "part", "type": "dashed" },
+    { "from": "ext-dy", "to": "phy-u-p", "type": "solid" }
+  ]
+}

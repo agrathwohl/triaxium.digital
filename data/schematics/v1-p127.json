@@ -1,0 +1,35 @@
+{
+  "id": "v1-p127",
+  "volume": 1,
+  "section": "T(AF)M-31",
+  "page": 127,
+  "subject": "af-con",
+  "title": "AF.CON.------WO.EXT.PRIN.",
+  "type": "crossing",
+  "description": "Chart on book p. 127 (T(AF)M-31). AF-CON (affinity convergence) is the subject, with the (C) prefix, \"the concept of\"; WO-EXT-PRIN is the partner. From the subject: TR-INFO (trans-information), TR (transformation) and POL-DY (political dynamics). From POL-DY: C-F-ACT. From C-F-ACT: MT-INFO (multi-information). From MT-INFO: ATTC (attachment), with the (R) prefix, \"the reality of\". From ATTC: SOC-RT (social reality). From SOC-RT: C-CULT-AT (composite culture attitude). From C-CULT-AT: ACC-DY (accelerated dynamics).",
+  "terms": [
+    { "termId": "af-con", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-ext-prin" },
+    { "termId": "tr-info" },
+    { "termId": "tr" },
+    { "termId": "pol-dy" },
+    { "termId": "c-f-act" },
+    { "termId": "mt-info" },
+    { "termId": "attc", "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "c-cult-at" },
+    { "termId": "acc-dy" }
+  ],
+  "relationships": [
+    { "from": "af-con", "to": "wo-ext-prin", "type": "solid" },
+    { "from": "af-con", "to": "tr-info", "type": "solid" },
+    { "from": "af-con", "to": "tr", "type": "solid" },
+    { "from": "af-con", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "c-f-act", "type": "solid" },
+    { "from": "c-f-act", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "attc", "type": "solid" },
+    { "from": "attc", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "c-cult-at", "type": "solid" },
+    { "from": "c-cult-at", "to": "acc-dy", "type": "solid" }
+  ]
+}

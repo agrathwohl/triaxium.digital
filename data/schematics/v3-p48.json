@@ -1,0 +1,37 @@
+{
+  "id": "v3-p48",
+  "volume": 3,
+  "section": "BK(NM)-24",
+  "page": 48,
+  "subject": "alt-ft",
+  "title": "ALT.FT.------EXP.INFO.B.",
+  "type": "crossing",
+  "description": "Chart on book p. 48 (BK(NM)-24). ALT-FT (alternative functionalism) is the subject; EXP-INFO-B (expansion information basis) is the partner. From the subject: EXT-FT (extended functionalism), LG-DY (logical dynamics) and TRS (transition). From EXT-FT: MT-RT-SIGN. From MT-RT-SIGN: VT-SCI and P-FC (particular focus), with the (R) prefix, \"the reality of\". From LG-DY: RE-ST (restructuralism). From RE-ST: TR (transformation). From TRS: PROG-CONT (progressional continuance). From PROG-CONT: SOC-RT-DY (social reality dynamics).",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true },
+    { "termId": "exp-info-b" },
+    { "termId": "ext-ft" },
+    { "termId": "mt-rt-sign" },
+    { "termId": "vt-sci" },
+    { "termId": "p-fc", "prefix": "r" },
+    { "termId": "lg-dy" },
+    { "termId": "re-st" },
+    { "termId": "tr" },
+    { "termId": "trs" },
+    { "termId": "prog-cont" },
+    { "termId": "soc-rt-dy" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "exp-info-b", "type": "solid" },
+    { "from": "alt-ft", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "mt-rt-sign", "type": "solid" },
+    { "from": "mt-rt-sign", "to": "vt-sci", "type": "solid" },
+    { "from": "mt-rt-sign", "to": "p-fc", "type": "solid" },
+    { "from": "alt-ft", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "tr", "type": "solid" },
+    { "from": "alt-ft", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "soc-rt-dy", "type": "solid" }
+  ]
+}

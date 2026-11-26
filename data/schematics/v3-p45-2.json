@@ -1,0 +1,31 @@
+{
+  "id": "v3-p45-2",
+  "volume": 3,
+  "section": "BK(NM)-21",
+  "page": 45,
+  "subject": "bscf",
+  "title": "(R)BSCF.------VT.DY.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 45 (BK(NM)-21). BSCF (basic science) is the subject, with the (R) prefix, \"the reality of\"; VT-DY (vibrational dynamics) is the partner. From the subject: RT-IMP (reality implications). From RT-IMP: INFO-DE (information degrees), with the (R) prefix, \"the reality of\". From INFO-DE: PROJ-DY (projectional dynamics). From PROJ-DY: C-INFO (composite information). From C-INFO: T-C-INP and INTR (interpretation), with the (R) prefix, \"the reality of\". From T-C-INP: LK-IMP (linkage implications).",
+  "terms": [
+    { "termId": "bscf", "isSubject": true, "prefix": "r" },
+    { "termId": "vt-dy" },
+    { "termId": "rt-imp" },
+    { "termId": "info-de", "prefix": "r" },
+    { "termId": "proj-dy" },
+    { "termId": "c-info" },
+    { "termId": "t-c-inp" },
+    { "termId": "lk-imp" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "bscf", "to": "vt-dy", "type": "solid" },
+    { "from": "bscf", "to": "rt-imp", "type": "solid" },
+    { "from": "rt-imp", "to": "info-de", "type": "solid" },
+    { "from": "info-de", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "t-c-inp", "type": "solid" },
+    { "from": "t-c-inp", "to": "lk-imp", "type": "solid" },
+    { "from": "c-info", "to": "intr", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v1-p117",
+  "volume": 1,
+  "section": "T(AF)M-21",
+  "page": 117,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------EXT.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 117 (T(AF)M-21). INDIV-TD (individual tendencies) is the subject, with the (R) prefix, \"the reality of\"; EXT-F (extended functionalism) is the partner. From the subject: AFL (affinity alignment) and ATTN (attraction). From AFL: P-FC (particular focus). LK-IMP (linkage implications) is typed below ATTN at the same dot. From ATTN: INFO-F (information focus), with the (R) prefix, \"the reality of\", and INFO-ALGN (information alignment). From INFO-F: VT-DY (vibrational dynamics). From VT-DY: PART (participation). From INFO-ALGN: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: LANG-DY (language dynamics).",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "ext-f" },
+    { "termId": "afl" },
+    { "termId": "p-fc" },
+    { "termId": "attn" },
+    { "termId": "lk-imp" },
+    { "termId": "info-f", "prefix": "r" },
+    { "termId": "vt-dy" },
+    { "termId": "part" },
+    { "termId": "info-algn" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "indiv-td", "to": "ext-f", "type": "solid" },
+    { "from": "indiv-td", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "p-fc", "type": "solid" },
+    { "from": "indiv-td", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "lk-imp", "type": "solid" },
+    { "from": "attn", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "part", "type": "solid" },
+    { "from": "attn", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "lang-dy", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v1-p277",
+  "volume": 1,
+  "section": "CMBA-33",
+  "page": 277,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------BIA.",
+  "type": "crossing",
+  "description": "Chart on book p. 277 (CMBA-33). LK-IMP (linkage implications) is the subject, with the (C) prefix, \"the concept of\"; BIA (bi-aitional) is the partner. From the subject: T-C-IMP (time continuum implications) and EXT-CONT. From T-C-IMP: ALT-F (alternative functionalism). From EXT-CONT: EXT-DY (extended dynamics). From ALT-F: AF-COMP (affinity compression). From EXT-DY: IF-ST-DY (infra-structure dynamics). From AF-COMP: DYM-SEP (dynamic separation). From IF-ST-DY: IST-P. From DYM-SEP: INTL (intellectualism). From INTL: MT-DEVF (multiple diversification). INTL has the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true, "prefix": "c" },
+    { "termId": "bia" },
+    { "termId": "t-c-imp" },
+    { "termId": "alt-f" },
+    { "termId": "af-comp" },
+    { "termId": "dym-sep" },
+    { "termId": "intl", "prefix": "p" },
+    { "termId": "mt-devf" },
+    { "termId": "ext-cont" },
+    { "termId": "ext-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "ist-p" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "bia", "type": "solid" },
+    { "from": "lk-imp", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "af-comp", "type": "solid" },
+    { "from": "af-comp", "to": "dym-sep", "type": "solid" },
+    { "from": "dym-sep", "to": "intl", "type": "solid" },
+    { "from": "intl", "to": "mt-devf", "type": "solid" },
+    { "from": "lk-imp", "to": "ext-cont", "type": "solid" },
+    { "from": "ext-cont", "to": "ext-dy", "type": "solid" },
+    { "from": "ext-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "ist-p", "type": "solid" }
+  ]
+}

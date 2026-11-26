@@ -1,0 +1,39 @@
+{
+  "id": "v1-p220",
+  "volume": 1,
+  "section": "WAC-18",
+  "page": 220,
+  "subject": "rt-dy",
+  "title": "RT.DY.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 220 (WAC-18). RT-DY (reality dynamics) is the subject; TR (transformation) is the partner. From the subject: OP-SPD (option spread), ALT-F (alternative functionalism) and UNI-PI. From OP-SPD: PROG-EXT-FT (progressional extended functionalism). From ALT-F: RE-ST (restructuralism). From UNI-PI: C-INFO (composite information) and PROG-CONT (progressional continuance). From C-INFO: AF-CON (affinity convergence). From AF-CON: ACC-DY (accelerated dynamics). From PROG-CONT: IST-F (isolated focus). From IST-F: MT-INFO (multi-information).",
+  "terms": [
+    { "termId": "rt-dy", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "op-spd" },
+    { "termId": "prog-ext-ft" },
+    { "termId": "alt-f" },
+    { "termId": "re-st" },
+    { "termId": "uni-pi" },
+    { "termId": "c-info" },
+    { "termId": "af-con" },
+    { "termId": "acc-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "ist-f" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "rt-dy", "to": "tr", "type": "solid" },
+    { "from": "rt-dy", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "prog-ext-ft", "type": "solid" },
+    { "from": "rt-dy", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "re-st", "type": "solid" },
+    { "from": "rt-dy", "to": "uni-pi", "type": "solid" },
+    { "from": "uni-pi", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "af-con", "type": "solid" },
+    { "from": "af-con", "to": "acc-dy", "type": "solid" },
+    { "from": "uni-pi", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "mt-info", "type": "solid" }
+  ]
+}

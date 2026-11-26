@@ -1,0 +1,31 @@
+{
+  "id": "v1-p417",
+  "volume": 1,
+  "section": "MID-W-11",
+  "page": 417,
+  "subject": "info-af-b",
+  "title": "(R)INFO.AF.B.------AFN.",
+  "type": "crossing",
+  "description": "Chart on book p. 417 (MID-W-11). INFO-AF-B (information affinity basis) is the subject, with the (R) prefix, \"the reality of\"; AFN (affinity negation) is the partner. The main line runs from the subject to POL-CON (political consciousness), where it bends, and on to AFN. From AFN: CULT-INFO-F (culture information focus) and ALT-D (alternative definitions). From CULT-INFO-F: IST-F (isolated focus). From ALT-D: APP-RDEF (applied redefinitions). From IST-F: PROJ (projection). From PROJ: R-INTR. IST-F has the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "info-af-b", "isSubject": true, "prefix": "r" },
+    { "termId": "afn" },
+    { "termId": "pol-con" },
+    { "termId": "cult-info-f" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "proj" },
+    { "termId": "r-intr" },
+    { "termId": "alt-d" },
+    { "termId": "app-rdef" }
+  ],
+  "relationships": [
+    { "from": "info-af-b", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "cult-info-f", "type": "solid" },
+    { "from": "cult-info-f", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "proj", "type": "solid" },
+    { "from": "proj", "to": "r-intr", "type": "solid" },
+    { "from": "afn", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "app-rdef", "type": "solid" }
+  ]
+}

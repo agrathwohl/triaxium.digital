@@ -1,0 +1,33 @@
+{
+  "id": "v1-p259",
+  "volume": 1,
+  "section": "CMBA-15",
+  "page": 259,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 259 (CMBA-15). PROJ-DY (projectional dynamics) is the subject; SOC-RT-DY (social reality dynamics) is the partner. From the subject: MT-INFO (multi-information) and INFO-AF-B (information affinity basis). From MT-INFO: S-SH and C-CONT (composite continuance). From INFO-AF-B: LANG-DY (language dynamics). From C-CONT: BIA (bi-aitional) and CRTF-D (cross-transfer definitions). From BIA: SPT-DY (spiritual dynamics).",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mt-info" },
+    { "termId": "s-sh" },
+    { "termId": "c-cont" },
+    { "termId": "bia" },
+    { "termId": "spt-dy" },
+    { "termId": "crtf-d" },
+    { "termId": "info-af-b" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "s-sh", "type": "solid" },
+    { "from": "mt-info", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "spt-dy", "type": "solid" },
+    { "from": "c-cont", "to": "crtf-d", "type": "solid" },
+    { "from": "proj-dy", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "lang-dy", "type": "solid" }
+  ]
+}

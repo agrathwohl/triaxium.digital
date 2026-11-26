@@ -1,0 +1,33 @@
+{
+  "id": "v1-p255",
+  "volume": 1,
+  "section": "CMBA-11",
+  "page": 255,
+  "subject": "dym-f",
+  "title": "DYM.F.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 255 (CMBA-11). DYM-F (dynamic functionalism) is the subject, with the (C) prefix, \"the concept of\"; TR (transformation) is the partner. From the subject: RE-ST (restructuralism), EXP-INFO-B (expansion information basis) and LK-IMP (linkage implications). From RE-ST: LANG-DY (language dynamics). From EXP-INFO-B: INFO-CON (information convergence). From LK-IMP: MT-INFO (multi-information). From MT-INFO: OP-SPD (option spread) and POL-DY (political dynamics).",
+  "terms": [
+    { "termId": "dym-f", "isSubject": true, "prefix": "c" },
+    { "termId": "tr" },
+    { "termId": "re-st" },
+    { "termId": "lang-dy" },
+    { "termId": "exp-info-b" },
+    { "termId": "info-con" },
+    { "termId": "lk-imp" },
+    { "termId": "mt-info" },
+    { "termId": "op-spd" },
+    { "termId": "pol-dy" }
+  ],
+  "relationships": [
+    { "from": "dym-f", "to": "tr", "type": "solid" },
+    { "from": "dym-f", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "lang-dy", "type": "solid" },
+    { "from": "dym-f", "to": "exp-info-b", "type": "solid" },
+    { "from": "exp-info-b", "to": "info-con", "type": "solid" },
+    { "from": "dym-f", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "op-spd", "type": "solid" },
+    { "from": "mt-info", "to": "pol-dy", "type": "solid" }
+  ]
+}

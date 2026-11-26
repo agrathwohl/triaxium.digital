@@ -1,0 +1,33 @@
+{
+  "id": "v3-p45-1",
+  "volume": 3,
+  "section": "BK(NM)-21",
+  "page": 45,
+  "subject": "afi",
+  "title": "(R)AFI.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 45 (BK(NM)-21). AFI (affinity insight) is the subject, with the (R) prefix, \"the reality of\"; C-INFO (composite information) is the partner. From the subject: AF-DY (affinity dynamics) and EXT-DYM (extended dynamics). From EXT-DYM: BIA (bi-aitional). From BIA: COS-P (cosmic particulars) and ALT-F (alternative functionalism). From COS-P: PHY-U-P (physical universe particular) and INFO-PROJ (information projection). From INFO-PROJ: INFO-ALGN (information alignment).",
+  "terms": [
+    { "termId": "afi", "isSubject": true, "prefix": "r" },
+    { "termId": "c-info" },
+    { "termId": "af-dy" },
+    { "termId": "ext-dym" },
+    { "termId": "bia" },
+    { "termId": "cos-p" },
+    { "termId": "phy-u-p" },
+    { "termId": "info-proj" },
+    { "termId": "info-algn" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "afi", "to": "c-info", "type": "solid" },
+    { "from": "afi", "to": "af-dy", "type": "solid" },
+    { "from": "afi", "to": "ext-dym", "type": "solid" },
+    { "from": "ext-dym", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "phy-u-p", "type": "solid" },
+    { "from": "cos-p", "to": "info-proj", "type": "solid" },
+    { "from": "info-proj", "to": "info-algn", "type": "solid" },
+    { "from": "bia", "to": "alt-f", "type": "solid" }
+  ]
+}

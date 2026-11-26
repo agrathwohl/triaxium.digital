@@ -1,0 +1,31 @@
+{
+  "id": "v1-p126",
+  "volume": 1,
+  "section": "T(AF)M-30",
+  "page": 126,
+  "subject": "alt-f",
+  "title": "(R)ALT.F.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 126 (T(AF)M-30). ALT-F (alternative functionalism) is the subject, with the (R) prefix, \"the reality of\"; PROG-CONT (progressional continuance) is the partner. The main line bends at a junction labelled CULT-INFO-DY (culture information dynamics), which has no dot of its own, so the path runs from the subject to CULT-INFO-DY and from there to PROG-CONT. AFTF (affinity transfer) is on a dotted line from CULT-INFO-DY. From CULT-INFO-DY: INFO-DE-B (information degrees). VT-IMP (vibrational implications) is on a dotted line from PROG-CONT. From VT-IMP: ALT-C. From ALT-C: RT-ALIN and RE-DIF (redefinitions), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "alt-f", "isSubject": true, "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "cult-info-dy" },
+    { "termId": "aftf" },
+    { "termId": "info-de-b" },
+    { "termId": "vt-imp" },
+    { "termId": "alt-c" },
+    { "termId": "rt-alin" },
+    { "termId": "re-dif", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "alt-f", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "cult-info-dy", "to": "aftf", "type": "dashed" },
+    { "from": "cult-info-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "prog-cont", "to": "vt-imp", "type": "dashed" },
+    { "from": "vt-imp", "to": "alt-c", "type": "solid" },
+    { "from": "alt-c", "to": "rt-alin", "type": "solid" },
+    { "from": "alt-c", "to": "re-dif", "type": "solid" }
+  ]
+}

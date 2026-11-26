@@ -1,0 +1,33 @@
+{
+  "id": "v1-p123",
+  "volume": 1,
+  "section": "T(AF)M-27",
+  "page": 123,
+  "subject": "rt-int-tr",
+  "title": "RT.INT.TR.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 123 (T(AF)M-27). RT-INT-TR (reality initiative traits) is the subject; PROG-CONT (progressional continuance) is the partner. From the subject: PROJ-DYM (projectional dynamics), PRI-VT-TD (principle vibrational tendencies) and T-C-IMP (time continuum implications). From PRI-VT-TD: RE-DIFF. From T-C-IMP: TR-INFO (trans-information) and TRS (transition). From TRS: AFTD (affinity tendencies). From AFTD: S-ST (source shift (progressionalism) manipulation).",
+  "terms": [
+    { "termId": "rt-int-tr", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "proj-dym" },
+    { "termId": "pri-vt-td" },
+    { "termId": "re-diff" },
+    { "termId": "t-c-imp" },
+    { "termId": "tr-info" },
+    { "termId": "trs" },
+    { "termId": "aftd" },
+    { "termId": "s-st" }
+  ],
+  "relationships": [
+    { "from": "rt-int-tr", "to": "prog-cont", "type": "solid" },
+    { "from": "rt-int-tr", "to": "proj-dym", "type": "solid" },
+    { "from": "rt-int-tr", "to": "pri-vt-td", "type": "solid" },
+    { "from": "pri-vt-td", "to": "re-diff", "type": "solid" },
+    { "from": "rt-int-tr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "tr-info", "type": "solid" },
+    { "from": "t-c-imp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "s-st", "type": "solid" }
+  ]
+}

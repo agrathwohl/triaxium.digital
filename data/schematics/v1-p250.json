@@ -1,0 +1,35 @@
+{
+  "id": "v1-p250",
+  "volume": 1,
+  "section": "CMBA-6",
+  "page": 250,
+  "subject": "sty",
+  "title": "STY.------RT.INT.TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 250 (CMBA-6). STY (style) is the subject, with the (C) prefix, \"the concept of\"; RT-INT-TR (reality initiative traits) is the partner. From the subject: AFL-DY (affinity dynamics) and VT-ATT (vibrational attitude). From AFL-DY: V-SY (value system) and POST (postulation). From POST: T-P (time presence) and RC (race). From RC: COS-P (cosmic particulars). From VT-ATT: PART (participation). From PART: TRS (transition).",
+  "terms": [
+    { "termId": "sty", "isSubject": true, "prefix": "c" },
+    { "termId": "rt-int-tr" },
+    { "termId": "afl-dy" },
+    { "termId": "v-sy" },
+    { "termId": "post" },
+    { "termId": "t-p" },
+    { "termId": "rc" },
+    { "termId": "cos-p" },
+    { "termId": "vt-att" },
+    { "termId": "part" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "rt-int-tr", "type": "solid" },
+    { "from": "sty", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "v-sy", "type": "solid" },
+    { "from": "afl-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "t-p", "type": "solid" },
+    { "from": "post", "to": "rc", "type": "solid" },
+    { "from": "rc", "to": "cos-p", "type": "solid" },
+    { "from": "sty", "to": "vt-att", "type": "solid" },
+    { "from": "vt-att", "to": "part", "type": "solid" },
+    { "from": "part", "to": "trs", "type": "solid" }
+  ]
+}

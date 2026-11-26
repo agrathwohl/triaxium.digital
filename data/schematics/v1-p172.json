@@ -1,0 +1,33 @@
+{
+  "id": "v1-p172",
+  "volume": 1,
+  "section": "UPB(II)-34",
+  "page": 172,
+  "subject": "sci-dym",
+  "title": "(R)SCI.DYM.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 172 (UPB(II)-34). SCI-DYM (scientific dynamics) is the subject, with the (R) prefix, \"the reality of\"; SOC-RT (social reality) is the partner. From the subject: PROG-CONT (progressional continuance) and C-CONT (composite continuance). From PROG-CONT: ALT-F (alternative functionalism). From ALT-F: TRS (transition). From C-CONT: MT-INFO (multi-information). From MT-INFO: TR-INFO (trans-information). From TR-INFO: AF-POST (affinity postulation). From AF-POST: SPT-DYM (spiritual dynamics).",
+  "terms": [
+    { "termId": "sci-dym", "isSubject": true, "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "prog-cont" },
+    { "termId": "alt-f" },
+    { "termId": "trs" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "tr-info" },
+    { "termId": "af-post" },
+    { "termId": "spt-dym" }
+  ],
+  "relationships": [
+    { "from": "sci-dym", "to": "soc-rt", "type": "solid" },
+    { "from": "sci-dym", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "trs", "type": "solid" },
+    { "from": "sci-dym", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "spt-dym", "type": "solid" }
+  ]
+}

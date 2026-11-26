@@ -1,0 +1,33 @@
+{
+  "id": "v1-p206",
+  "volume": 1,
+  "section": "WAC-4",
+  "page": 206,
+  "subject": "af-dy",
+  "title": "AF.DY.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 206 (WAC-4). AF-DY (affinity dynamics) is the subject, with the (C) prefix, \"the concept of\"; C-INFO (composite information) is the partner. From the subject: CULT-INFO-DY (culture information dynamics). From CULT-INFO-DY: INDIV-TD (individual tendencies), with the (C) prefix, \"the concept of\" and MT-INFO (multi-information). From MT-INFO: AFI (affinity insight), ALT-D (alternative definitions) and ACT-T (actual terms). ATTN (attraction), with the (R) prefix, \"the reality of\" is on a dotted line from MT-INFO. From ALT-D: AFL (affinity alignment).",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "c-info" },
+    { "termId": "cult-info-dy" },
+    { "termId": "indiv-td", "prefix": "c" },
+    { "termId": "mt-info" },
+    { "termId": "afi" },
+    { "termId": "alt-d" },
+    { "termId": "afl" },
+    { "termId": "act-t" },
+    { "termId": "attn", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "c-info", "type": "solid" },
+    { "from": "af-dy", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "cult-info-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "afi", "type": "solid" },
+    { "from": "mt-info", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "afl", "type": "solid" },
+    { "from": "mt-info", "to": "act-t", "type": "solid" },
+    { "from": "mt-info", "to": "attn", "type": "dashed" }
+  ]
+}

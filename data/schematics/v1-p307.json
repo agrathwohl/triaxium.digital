@@ -1,0 +1,39 @@
+{
+  "id": "v1-p307",
+  "volume": 1,
+  "section": "WI-23",
+  "page": 307,
+  "subject": "re-st",
+  "title": "(R)RE.DEF.------IST.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 307 (WI-23). RE-ST (restructuralism) is the subject (the arrow points to RE-ST; the title begins with (R)RE.DEF.); IST-F (isolated focus) is the partner. The line from the subject runs down to the CRTF-PROG line and on to the line from RE-DEF to IST-F. From the subject: TR-DEF (trans-definition), CRTF-PROG (cross-transfer progressionalism), RE-DEF (redefinitions), EXP-DY (expansion dynamics) and T-C-IMP (time continuum implications). From CRTF-PROG: TRS (transition). From EXP-DY: AFI-2 (affinity insight—second degree). From T-C-IMP: STF (source transfer). From AFI-2: ACC-DY (accelerated dynamics). From STF: ACC-F (accelerated functionalism). From ACC-F: WO-EXP-PRI (world expansion principle). RE-DEF has the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "re-st", "isSubject": true },
+    { "termId": "ist-f" },
+    { "termId": "tr-def" },
+    { "termId": "crtf-prog" },
+    { "termId": "trs" },
+    { "termId": "re-def", "prefix": "r" },
+    { "termId": "exp-dy" },
+    { "termId": "afi-2" },
+    { "termId": "acc-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "stf" },
+    { "termId": "acc-f" },
+    { "termId": "wo-exp-pri" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "ist-f", "type": "solid" },
+    { "from": "re-st", "to": "tr-def", "type": "solid" },
+    { "from": "re-st", "to": "crtf-prog", "type": "solid" },
+    { "from": "crtf-prog", "to": "trs", "type": "solid" },
+    { "from": "re-st", "to": "re-def", "type": "solid" },
+    { "from": "re-st", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "acc-dy", "type": "solid" },
+    { "from": "re-st", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "acc-f", "type": "solid" },
+    { "from": "acc-f", "to": "wo-exp-pri", "type": "solid" }
+  ]
+}

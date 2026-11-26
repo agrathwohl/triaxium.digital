@@ -1,0 +1,39 @@
+{
+  "id": "v3-p27",
+  "volume": 3,
+  "section": "BK(NM)-3",
+  "page": 27,
+  "subject": "af-dy",
+  "title": "AF.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 27 (BK(NM)-3). AF-DY (affinity dynamics) is the subject; MT-INFO (multi-information) is the partner. From the subject: PROJ-DY (projectional dynamics), POL-CON (political consciousness) and ALT-FT (alternative functionalism). From PROJ-DY: IF-ST-DY (infra-structure dynamics) and AF-TD (affinity tendencies). From AF-TD: OBN, with the (R) prefix, \"the reality of\". From POL-CON: SOC-RT-DY (social reality dynamics) and ACC-FT (accelerated functionalism). From ACC-FT: DEC (decentralization). From DEC: CULT-COLD. From ALT-FT: EXP-DT (expansion dictates).",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "proj-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "af-td" },
+    { "termId": "obn", "prefix": "r" },
+    { "termId": "pol-con" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "acc-ft" },
+    { "termId": "dec" },
+    { "termId": "cult-cold" },
+    { "termId": "alt-ft" },
+    { "termId": "exp-dt" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "mt-info", "type": "solid" },
+    { "from": "af-dy", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "obn", "type": "solid" },
+    { "from": "af-dy", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "pol-con", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "cult-cold", "type": "solid" },
+    { "from": "af-dy", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "exp-dt", "type": "solid" }
+  ]
+}

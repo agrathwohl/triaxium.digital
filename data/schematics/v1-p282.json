@@ -1,0 +1,35 @@
+{
+  "id": "v1-p282",
+  "volume": 1,
+  "section": "CMBA-38",
+  "page": 282,
+  "subject": "c-cont",
+  "title": "C.CONT.------SOC.RT.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 282 (CMBA-38). C-CONT (composite continuance) is the subject; SOC-RT-P (social reality particulars) is the partner. From the subject: PROG-SIGN (progressional significance), RT-IMP (reality implications), AFL (affinity alignment) and POL-P (political policies). From PROG-SIGN: PROJ-DY (projectional dynamics) and INFO-ALGN (information alignment). From RT-IMP: TH-CONT (thrust continuance). From AFL: IST-S-ALGN (isolated systematic alignment). From POL-P: TR (transformation).",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true },
+    { "termId": "soc-rt-p" },
+    { "termId": "prog-sign" },
+    { "termId": "proj-dy" },
+    { "termId": "info-algn" },
+    { "termId": "rt-imp" },
+    { "termId": "th-cont" },
+    { "termId": "afl" },
+    { "termId": "ist-s-algn" },
+    { "termId": "pol-p" },
+    { "termId": "tr" }
+  ],
+  "relationships": [
+    { "from": "c-cont", "to": "soc-rt-p", "type": "solid" },
+    { "from": "c-cont", "to": "prog-sign", "type": "solid" },
+    { "from": "prog-sign", "to": "proj-dy", "type": "solid" },
+    { "from": "prog-sign", "to": "info-algn", "type": "solid" },
+    { "from": "c-cont", "to": "rt-imp", "type": "solid" },
+    { "from": "rt-imp", "to": "th-cont", "type": "solid" },
+    { "from": "c-cont", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "ist-s-algn", "type": "solid" },
+    { "from": "c-cont", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "tr", "type": "solid" }
+  ]
+}

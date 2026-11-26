@@ -1,0 +1,35 @@
+{
+  "id": "v1-p208",
+  "volume": 1,
+  "section": "WAC-6",
+  "page": 208,
+  "subject": "mt-info",
+  "title": "MT.INFO.------PR.TRS.",
+  "type": "crossing",
+  "description": "Chart on book p. 208 (WAC-6). MT-INFO (multi-information) is the subject; PR-TRS is the partner. From the subject: PROG-CONT (progressional continuance), CULT-AF-B (culture affinity basis) and INFO-COMP (information compression). From PROG-CONT: RT-ALGN (reality alignment). From RT-ALGN: SOC-RT-DY (social reality dynamics), another CULT-AF-B (culture affinity basis) and RE-ST (restructuralism). From INFO-COMP: AFN (affinity negation). From AFN: DIFF, with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "pr-trs" },
+    { "termId": "prog-cont" },
+    { "termId": "rt-algn" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "cult-af-b" },
+    { "termId": "re-st" },
+    { "termId": "cult-af-b-2" },
+    { "termId": "info-comp" },
+    { "termId": "afn" },
+    { "termId": "diff", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "pr-trs", "type": "solid" },
+    { "from": "mt-info", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "rt-algn", "to": "cult-af-b", "type": "solid" },
+    { "from": "rt-algn", "to": "re-st", "type": "solid" },
+    { "from": "mt-info", "to": "cult-af-b-2", "type": "solid" },
+    { "from": "mt-info", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "diff", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v1-p416",
+  "volume": 1,
+  "section": "MID-W-10",
+  "page": 416,
+  "subject": "sty",
+  "title": "(R)STY.------PHY.U.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 416 (MID-W-10). STY (style) is the subject, with the (R) prefix, \"the reality of\"; PHY-U-P (physical universe particular) is the partner. From the subject: MT-INFO (multi-information), C-CONT (composite continuance) and CULT-AF-BS (culture affinity basis). From MT-INFO: C-FO-ACT (composite focused activism). From C-CONT: STF (source transfer). From CULT-AF-BS: EXP-DYM (expansion dynamics). From EXP-DYM: INDIV-TD (individual tendencies) and POL-DYM (political dynamics). From INDIV-TD: POST (postulation).",
+  "terms": [
+    { "termId": "sty", "isSubject": true, "prefix": "r" },
+    { "termId": "phy-u-p" },
+    { "termId": "mt-info" },
+    { "termId": "c-fo-act" },
+    { "termId": "c-cont" },
+    { "termId": "stf" },
+    { "termId": "cult-af-bs" },
+    { "termId": "exp-dym" },
+    { "termId": "indiv-td" },
+    { "termId": "post" },
+    { "termId": "pol-dym" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "phy-u-p", "type": "solid" },
+    { "from": "sty", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "c-fo-act", "type": "solid" },
+    { "from": "sty", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "stf", "type": "solid" },
+    { "from": "sty", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "exp-dym", "type": "solid" },
+    { "from": "exp-dym", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "post", "type": "solid" },
+    { "from": "exp-dym", "to": "pol-dym", "type": "solid" }
+  ]
+}

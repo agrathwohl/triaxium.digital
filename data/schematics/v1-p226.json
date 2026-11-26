@@ -1,0 +1,35 @@
+{
+  "id": "v1-p226",
+  "volume": 1,
+  "section": "WAC-24",
+  "page": 226,
+  "subject": "th-cont",
+  "title": "TH.CONT.------EXP.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 226 (WAC-24). TH-CONT (thrust continuance) is the subject, with the (C) prefix, \"the concept of\"; EXP-DY (expansion dynamics) is the partner. From the subject: RT-ALGN (reality alignment) and MT-INFO (multi-information). From RT-ALGN: SOC-RT-DY (social reality dynamics). From MT-INFO: LANG (language) and POL-P (political policies). From LANG: AFL (affinity alignment). From POL-P: RE-DOC (redocumentation) and EXT-F (extended functionalism). From EXT-F: DEC (decentralization).",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "exp-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mt-info" },
+    { "termId": "lang" },
+    { "termId": "afl" },
+    { "termId": "pol-p" },
+    { "termId": "re-doc" },
+    { "termId": "ext-f" },
+    { "termId": "dec" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "exp-dy", "type": "solid" },
+    { "from": "th-cont", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "th-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "lang", "type": "solid" },
+    { "from": "lang", "to": "afl", "type": "solid" },
+    { "from": "mt-info", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "re-doc", "type": "solid" },
+    { "from": "pol-p", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "dec", "type": "solid" }
+  ]
+}
