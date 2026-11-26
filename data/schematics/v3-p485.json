@@ -1,0 +1,37 @@
+{
+  "id": "v3-p485",
+  "volume": 3,
+  "section": "TRF(II)-21",
+  "page": 485,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------POL.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 485 (TRF(II)-21). WO-EXP-PRI (world expansion principle) is the subject; POL-DY (political dynamics) is the partner. From the subject: STF (source transfer), INFO-SOLD (information solidification) and TRS (transition). From STF: EXP-CONT-1 (expansion condition (composite focus)). From EXP-CONT-1: C-RH (composite research). From INFO-SOLD: C-CONT (composite continuance) and TH-CONT-IMP. From TH-CONT-IMP: BIA (bi-aitional). From TRS: P-PROG (particular progressionalism). From P-PROG: ECO-DY (economic dynamics).",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true },
+    { "termId": "pol-dy" },
+    { "termId": "stf" },
+    { "termId": "exp-cont-1" },
+    { "termId": "c-rh" },
+    { "termId": "info-sold" },
+    { "termId": "c-cont" },
+    { "termId": "th-cont-imp" },
+    { "termId": "bia" },
+    { "termId": "trs" },
+    { "termId": "p-prog" },
+    { "termId": "eco-dy" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "pol-dy", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont-1", "to": "c-rh", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "c-cont", "type": "solid" },
+    { "from": "info-sold", "to": "th-cont-imp", "type": "solid" },
+    { "from": "th-cont-imp", "to": "bia", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "eco-dy", "type": "solid" }
+  ]
+}

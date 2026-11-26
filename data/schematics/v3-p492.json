@@ -1,0 +1,41 @@
+{
+  "id": "v3-p492",
+  "volume": 3,
+  "section": "TRF(II)-28",
+  "page": 492,
+  "subject": "wo-exp-dy",
+  "title": "WO.EXP.DY.------VT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 492 (TRF(II)-28). WO-EXP-DY is the subject; VT-DY (vibrational dynamics) is the partner. From the subject: C-CONT (composite continuance), AFI (affinity insight) and TRS (transition). From C-CONT: STF (source transfer). From STF: INFO-SOLD (information solidification). From INFO-SOLD: RE-CONT (recontinuance). From AFI: SPT-DY (spiritual dynamics). From SPT-DY: POST (postulation). From POST: COS-P (cosmic particulars). From TRS: RT-DY (reality dynamics). From RT-DY: SOC-RT-P (social reality particulars). From SOC-RT-P: ALT-FT (alternative functionalism).",
+  "terms": [
+    { "termId": "wo-exp-dy", "isSubject": true },
+    { "termId": "vt-dy" },
+    { "termId": "c-cont" },
+    { "termId": "stf" },
+    { "termId": "info-sold" },
+    { "termId": "re-cont" },
+    { "termId": "afi" },
+    { "termId": "spt-dy" },
+    { "termId": "post" },
+    { "termId": "cos-p" },
+    { "termId": "trs" },
+    { "termId": "rt-dy" },
+    { "termId": "soc-rt-p" },
+    { "termId": "alt-ft" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "wo-exp-dy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "re-cont", "type": "solid" },
+    { "from": "wo-exp-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "cos-p", "type": "solid" },
+    { "from": "wo-exp-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "alt-ft", "type": "solid" }
+  ]
+}

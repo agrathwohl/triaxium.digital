@@ -1,0 +1,39 @@
+{
+  "id": "v3-p470",
+  "volume": 3,
+  "section": "TRF(II)-6",
+  "page": 470,
+  "subject": "tr",
+  "title": "TR.------EXT.FT.",
+  "type": "crossing",
+  "description": "Chart on book p. 470 (TRF(II)-6). TR (transformation) is the subject; EXT-FT (extended functionalism) is the partner. From the subject: VT-DY (vibrational dynamics), SOC-RT (social reality) and POST (postulation). From VT-DY: CULT-AF-BS (culture affinity basis). From CULT-AF-BS: PRI-INFO (principle information). From PRI-INFO: RE-CONT (recontinuance). From SOC-RT: RT-INT-TR (reality initiative traits). From RT-INT-TR: REL-TECH (relevant technology). From REL-TECH: SPT-AW (spiritual awareness). From POST: MOT-DY. From MOT-DY: INFT-DT.",
+  "terms": [
+    { "termId": "tr", "isSubject": true },
+    { "termId": "ext-ft" },
+    { "termId": "vt-dy" },
+    { "termId": "cult-af-bs" },
+    { "termId": "pri-info" },
+    { "termId": "re-cont" },
+    { "termId": "soc-rt" },
+    { "termId": "rt-int-tr" },
+    { "termId": "rel-tech" },
+    { "termId": "spt-aw" },
+    { "termId": "post" },
+    { "termId": "mot-dy" },
+    { "termId": "inft-dt" }
+  ],
+  "relationships": [
+    { "from": "tr", "to": "ext-ft", "type": "solid" },
+    { "from": "tr", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "re-cont", "type": "solid" },
+    { "from": "tr", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "rel-tech", "type": "solid" },
+    { "from": "rel-tech", "to": "spt-aw", "type": "solid" },
+    { "from": "tr", "to": "post", "type": "solid" },
+    { "from": "post", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "inft-dt", "type": "solid" }
+  ]
+}

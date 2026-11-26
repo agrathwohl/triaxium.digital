@@ -1,0 +1,43 @@
+{
+  "id": "v3-p476",
+  "volume": 3,
+  "section": "TRF(II)-12",
+  "page": 476,
+  "subject": "dis-c-ct",
+  "title": "DIS.C.CT.------EXP.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 476 (TRF(II)-12). DIS-C-CT (disintegration of a culture’s center) is the subject; EXP-DY (expansion dynamics) is the partner. From the subject: ALT-FT (alternative functionalism), MT-INFO (multi-information) and DE-SPT. From ALT-FT: LG-EXT (logical extension). From LG-EXT: STF (source transfer). From MT-INFO: MT-DEVF (multiple diversification) and MD-DY (media dynamics). From MT-DEVF: LANG-DY (language dynamics). From LANG-DY: STY (style). From DE-SPT: EXTN-OB (existential observation). From EXTN-OB: PART (participation) and INFO-DY. From INFO-DY: IST-S-ALGN (isolated systematic alignment).",
+  "terms": [
+    { "termId": "dis-c-ct", "isSubject": true },
+    { "termId": "exp-dy" },
+    { "termId": "alt-ft" },
+    { "termId": "lg-ext" },
+    { "termId": "stf" },
+    { "termId": "mt-info" },
+    { "termId": "mt-devf" },
+    { "termId": "lang-dy" },
+    { "termId": "sty" },
+    { "termId": "md-dy" },
+    { "termId": "de-spt" },
+    { "termId": "extn-ob" },
+    { "termId": "part" },
+    { "termId": "info-dy" },
+    { "termId": "ist-s-algn" }
+  ],
+  "relationships": [
+    { "from": "dis-c-ct", "to": "exp-dy", "type": "solid" },
+    { "from": "dis-c-ct", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "lg-ext", "type": "solid" },
+    { "from": "lg-ext", "to": "stf", "type": "solid" },
+    { "from": "dis-c-ct", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "mt-devf", "type": "solid" },
+    { "from": "mt-devf", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "sty", "type": "solid" },
+    { "from": "mt-info", "to": "md-dy", "type": "solid" },
+    { "from": "dis-c-ct", "to": "de-spt", "type": "solid" },
+    { "from": "de-spt", "to": "extn-ob", "type": "solid" },
+    { "from": "extn-ob", "to": "part", "type": "solid" },
+    { "from": "extn-ob", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-s-algn", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p477",
+  "volume": 3,
+  "section": "TRF(II)-13",
+  "page": 477,
+  "subject": "cult-af-bs",
+  "title": "CULT.AF.BS.------AFL.",
+  "type": "crossing",
+  "description": "Chart on book p. 477 (TRF(II)-13). CULT-AF-BS (culture affinity basis) is the subject; AFL (affinity alignment) is the partner. From the subject: RT-INT-TR (reality initiative traits), T-C-IMP (time continuum implications) and SPT-DY (spiritual dynamics). From RT-INT-TR: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: EXP-DT (expansion dictates). From T-C-IMP: PROG-CONT (progressional continuance). From PROG-CONT: VT-DY (vibrational dynamics). From SPT-DY: PER-DY (perception dynamics). From PER-DY: MOT-DY. From MOT-DY: POST (postulation).",
+  "terms": [
+    { "termId": "cult-af-bs", "isSubject": true },
+    { "termId": "afl" },
+    { "termId": "rt-int-tr" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "exp-dt" },
+    { "termId": "t-c-imp" },
+    { "termId": "prog-cont" },
+    { "termId": "vt-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "per-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "post" }
+  ],
+  "relationships": [
+    { "from": "cult-af-bs", "to": "afl", "type": "solid" },
+    { "from": "cult-af-bs", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "exp-dt", "type": "solid" },
+    { "from": "cult-af-bs", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "vt-dy", "type": "solid" },
+    { "from": "cult-af-bs", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "post", "type": "solid" }
+  ]
+}

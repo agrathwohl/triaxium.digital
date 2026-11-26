@@ -1,0 +1,43 @@
+{
+  "id": "v3-p490",
+  "volume": 3,
+  "section": "TRF(II)-26",
+  "page": 490,
+  "subject": "mot-dy",
+  "title": "MOT.DY.------OBS.",
+  "type": "crossing",
+  "description": "Chart on book p. 490 (TRF(II)-26). MOT-DY is the subject; OBS (observation) is the partner. From the subject: PART (participation), INFO-DY and INTR (interpretation). From PART: TR (transformation). From TR: C-HM (composite humanity). From C-HM: DYM-SPT (dynamic spiritualism). From INFO-DY: MT-INTR (multiple interpretation). From MT-INTR: POL-DY (political dynamics). From POL-DY: SOC-RT-DY (social reality dynamics). From INTR: INFO-COMP (information compression) and AF-DY (affinity dynamics). From AF-DY: RE-ST (restructuralism). From RE-ST: EXP-DY (expansion dynamics).",
+  "terms": [
+    { "termId": "mot-dy", "isSubject": true },
+    { "termId": "obs" },
+    { "termId": "part" },
+    { "termId": "tr" },
+    { "termId": "c-hm" },
+    { "termId": "dym-spt" },
+    { "termId": "info-dy" },
+    { "termId": "mt-intr" },
+    { "termId": "pol-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "intr" },
+    { "termId": "info-comp" },
+    { "termId": "af-dy" },
+    { "termId": "re-st" },
+    { "termId": "exp-dy" }
+  ],
+  "relationships": [
+    { "from": "mot-dy", "to": "obs", "type": "solid" },
+    { "from": "mot-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-hm", "type": "solid" },
+    { "from": "c-hm", "to": "dym-spt", "type": "solid" },
+    { "from": "mot-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "info-comp", "type": "solid" },
+    { "from": "intr", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "exp-dy", "type": "solid" }
+  ]
+}

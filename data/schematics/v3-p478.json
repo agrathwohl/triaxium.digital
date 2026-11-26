@@ -1,0 +1,39 @@
+{
+  "id": "v3-p478",
+  "volume": 3,
+  "section": "TRF(II)-14",
+  "page": 478,
+  "subject": "alt-c-pg",
+  "title": "ALT.C.PG.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 478 (TRF(II)-14). ALT-C-PG (alternative composite progressionalism) is the subject; SOC-RT-DY (social reality dynamics) is the partner. From the subject: WO-UNF (world unification), TR-INFO (trans-information) and EXP-CONT-1 (expansion condition (composite focus)). From WO-UNF: ECO-DYM (economic dynamics). From ECO-DYM: INT (intention). From TR-INFO: MT-INTR (multiple interpretation). From MT-INTR: INFO-SOLD (information solidification). From INFO-SOLD: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From EXP-CONT-1: EXT-FT (extended functionalism). From EXT-FT: RES-RT (responsibility ratio) and SCI-DY (scientific dynamics).",
+  "terms": [
+    { "termId": "alt-c-pg", "isSubject": true },
+    { "termId": "soc-rt-dy" },
+    { "termId": "wo-unf" },
+    { "termId": "eco-dym" },
+    { "termId": "int" },
+    { "termId": "tr-info" },
+    { "termId": "mt-intr" },
+    { "termId": "info-sold" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "exp-cont-1" },
+    { "termId": "ext-ft" },
+    { "termId": "res-rt" },
+    { "termId": "sci-dy" }
+  ],
+  "relationships": [
+    { "from": "alt-c-pg", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "alt-c-pg", "to": "wo-unf", "type": "solid" },
+    { "from": "wo-unf", "to": "eco-dym", "type": "solid" },
+    { "from": "eco-dym", "to": "int", "type": "solid" },
+    { "from": "alt-c-pg", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "tm", "type": "solid" },
+    { "from": "alt-c-pg", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont-1", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "res-rt", "type": "solid" },
+    { "from": "ext-ft", "to": "sci-dy", "type": "solid" }
+  ]
+}

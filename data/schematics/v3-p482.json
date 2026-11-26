@@ -1,0 +1,41 @@
+{
+  "id": "v3-p482",
+  "volume": 3,
+  "section": "TRF(II)-18",
+  "page": 482,
+  "subject": "intr",
+  "title": "(R)INTR.------TRS.",
+  "type": "crossing",
+  "description": "Chart on book p. 482 (TRF(II)-18). INTR (interpretation) is the subject, with the (R) prefix, \"the reality of\"; TRS (transition) is the partner. From the subject: AF-NT (affinity nature) and EXPN. From AF-NT: OBS (observation). From OBS: PART (participation). From PART: AF-DY (affinity dynamics). From EXPN: INFO-CON (information convergence). From INFO-CON: POL-DY (political dynamics). From POL-DY: RT-INT-TR (reality initiative traits). From TRS: TR (transformation). From TR: T-C-IMP (time continuum implications) and COS-P (cosmic particulars). From T-C-IMP: RE-ST (restructuralism).",
+  "terms": [
+    { "termId": "intr", "isSubject": true, "prefix": "r" },
+    { "termId": "trs" },
+    { "termId": "af-nt" },
+    { "termId": "obs" },
+    { "termId": "part" },
+    { "termId": "af-dy" },
+    { "termId": "expn" },
+    { "termId": "info-con" },
+    { "termId": "pol-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "tr" },
+    { "termId": "t-c-imp" },
+    { "termId": "re-st" },
+    { "termId": "cos-p" }
+  ],
+  "relationships": [
+    { "from": "intr", "to": "trs", "type": "solid" },
+    { "from": "intr", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "part", "type": "solid" },
+    { "from": "part", "to": "af-dy", "type": "solid" },
+    { "from": "intr", "to": "expn", "type": "solid" },
+    { "from": "expn", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "rt-int-tr", "type": "solid" },
+    { "from": "trs", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "re-st", "type": "solid" },
+    { "from": "tr", "to": "cos-p", "type": "solid" }
+  ]
+}
