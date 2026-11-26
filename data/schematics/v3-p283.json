@@ -1,0 +1,35 @@
+{
+  "id": "v3-p283",
+  "volume": 3,
+  "section": "PR.S(RD)II-37",
+  "page": 283,
+  "subject": "c-cont",
+  "title": "(R)C.CONT.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 283 (PR.S(RD)II-37). C-CONT (composite continuance) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: TH-CONT (thrust continuance), WO-EXP-PRI (world expansion principle) and TRS (transition). From TH-CONT: COS-P (cosmic particulars). From WO-EXP-PRI: PROG-CONT (progressional continuance). From PROG-CONT: PHI-U-P. From TRS: CULT-SOLD (culture solidification). From CULT-SOLD: POL-DY (political dynamics). From POL-DY: PER-DY (perception dynamics).",
+  "terms": [
+    { "termId": "c-cont", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "th-cont" },
+    { "termId": "cos-p" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "prog-cont" },
+    { "termId": "phi-u-p" },
+    { "termId": "trs" },
+    { "termId": "cult-sold" },
+    { "termId": "pol-dy" },
+    { "termId": "per-dy" }
+  ],
+  "relationships": [
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "c-cont", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "cos-p", "type": "solid" },
+    { "from": "c-cont", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "phi-u-p", "type": "solid" },
+    { "from": "c-cont", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "per-dy", "type": "solid" }
+  ]
+}

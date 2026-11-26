@@ -1,0 +1,35 @@
+{
+  "id": "v3-p354",
+  "volume": 3,
+  "section": "PMBA-18",
+  "page": 354,
+  "subject": "vt-dy",
+  "title": "(R)VT.DY.------V.SY.",
+  "type": "crossing",
+  "description": "Chart on book p. 354 (PMBA-18). VT-DY (vibrational dynamics) is the subject, with the (R) prefix, \"the reality of\"; V-SY (value system) is the partner. From the subject: COS-P (cosmic particulars), POL-DY (political dynamics) and TR (transformation). From COS-P: T-C-IMP (time continuum implications). From POL-DY: IF-ST-DY (infra-structure dynamics). From IF-ST-DY: INFO-DE-B (information degrees). From TR: AFI (affinity insight) and EXPM (expansionism). From EXPM: MOT-DY. The label IST-S-ALGN (isolated systematic alignment) is drawn below the POL-DY dot with no dot or line of its own.",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "v-sy" },
+    { "termId": "cos-p" },
+    { "termId": "t-c-imp" },
+    { "termId": "pol-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "tr" },
+    { "termId": "afi" },
+    { "termId": "expm" },
+    { "termId": "mot-dy" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "v-sy", "type": "solid" },
+    { "from": "vt-dy", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
+    { "from": "vt-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "vt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "afi", "type": "solid" },
+    { "from": "tr", "to": "expm", "type": "solid" },
+    { "from": "expm", "to": "mot-dy", "type": "solid" }
+  ]
+}

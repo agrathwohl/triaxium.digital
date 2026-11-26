@@ -1,0 +1,35 @@
+{
+  "id": "v3-p342",
+  "volume": 3,
+  "section": "PMBA-6",
+  "page": 342,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------MTH.",
+  "type": "crossing",
+  "description": "Chart on book p. 342 (PMBA-6). PROG-CONT (progressional continuance) is the subject; MTH (methodology) is the partner. From the subject: TH-CONT (thrust continuance), AFI (affinity insight) and SCI-DY (scientific dynamics). From TH-CONT: PRI-INFO (principle information). From PRI-INFO: PROJ-DY (projectional dynamics). From PROJ-DY: LK-IMP (linkage implications). From AFI: EXP-CONT-1 (expansion condition (composite focus)). From EXP-CONT-1: AF-POST (affinity postulation). From SCI-DY: TECH-DY (technological dynamics). A short line from the TECH-DY line ends in a dot with no label. The page text says: \"The progressional continuance of black creative music in the forties can clearly be looked at as dynamic in every sense of the word.\"",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "mth" },
+    { "termId": "th-cont" },
+    { "termId": "pri-info" },
+    { "termId": "proj-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "afi" },
+    { "termId": "exp-cont-1" },
+    { "termId": "af-post" },
+    { "termId": "sci-dy" },
+    { "termId": "tech-dy" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "mth", "type": "solid" },
+    { "from": "prog-cont", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "prog-cont", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont-1", "to": "af-post", "type": "solid" },
+    { "from": "prog-cont", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "tech-dy", "type": "solid" }
+  ]
+}

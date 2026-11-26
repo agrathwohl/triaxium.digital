@@ -1,0 +1,37 @@
+{
+  "id": "v3-p174",
+  "volume": 3,
+  "section": "EVOL-12",
+  "page": 174,
+  "subject": "if-st-dy",
+  "title": "IF.ST.DY.------AF.DT.",
+  "type": "crossing",
+  "description": "Chart on book p. 174 (EVOL-12). IF-ST-DY (infra-structure dynamics) is the subject; AF-DT (affinity dictates) is the partner. From the subject: PER-DY (perception dynamics), TR (transformation) and SPT-DY (spiritual dynamics). From PER-DY: POST (postulation). From TR: C-INFO (composite information). From C-INFO: COS-P (cosmic particulars) and MT-INTR (multiple interpretation). From SPT-DY: AFI (affinity insight) and EXT-FT (extended functionalism). From AFI: PART (participation).",
+  "terms": [
+    { "termId": "if-st-dy", "isSubject": true },
+    { "termId": "af-dt" },
+    { "termId": "per-dy" },
+    { "termId": "post" },
+    { "termId": "tr" },
+    { "termId": "c-info" },
+    { "termId": "cos-p" },
+    { "termId": "mt-intr" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "part" },
+    { "termId": "ext-ft" }
+  ],
+  "relationships": [
+    { "from": "if-st-dy", "to": "af-dt", "type": "solid" },
+    { "from": "if-st-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "post", "type": "solid" },
+    { "from": "if-st-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "cos-p", "type": "solid" },
+    { "from": "c-info", "to": "mt-intr", "type": "solid" },
+    { "from": "if-st-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "part", "type": "solid" },
+    { "from": "spt-dy", "to": "ext-ft", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p175",
+  "volume": 3,
+  "section": "EVOL-13",
+  "page": 175,
+  "subject": "p-fc",
+  "title": "P.FC.------POL.CON.",
+  "type": "crossing",
+  "description": "Chart on book p. 175 (EVOL-13). P-FC (particular focus) is the subject; POL-CON (political consciousness) is the partner. From the subject: SPT-DY (spiritual dynamics), TR (transformation) and INDIV-TD (individual tendencies). From SPT-DY: VT-DY (vibrational dynamics). From VT-DY: V-SY (value system). From TR: C-CONT (composite continuance). From C-CONT: EXP-CONT-1 (expansion condition (composite focus)). From INDIV-TD: PER-DY (perception dynamics). From PER-DY: INFO-DE-B (information degrees). From INFO-DE-B: INTR (interpretation), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "p-fc", "isSubject": true },
+    { "termId": "pol-con" },
+    { "termId": "spt-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "v-sy" },
+    { "termId": "tr" },
+    { "termId": "c-cont" },
+    { "termId": "exp-cont-1" },
+    { "termId": "indiv-td" },
+    { "termId": "per-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "p-fc", "to": "pol-con", "type": "solid" },
+    { "from": "p-fc", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "v-sy", "type": "solid" },
+    { "from": "p-fc", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "exp-cont-1", "type": "solid" },
+    { "from": "p-fc", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "intr", "type": "solid" }
+  ]
+}

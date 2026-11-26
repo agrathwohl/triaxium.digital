@@ -1,0 +1,35 @@
+{
+  "id": "v3-p116-2",
+  "volume": 3,
+  "section": "ALT(FT)II-10",
+  "page": 116,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------AF.DY.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 116 (ALT(FT)II-10). PROJ-DY (projectional dynamics) is the subject; AF-DY (affinity dynamics) is the partner. From the subject: INFO-DY, RT-INT-TR (reality initiative traits) and T-C-IMP (time continuum implications). From INFO-DY: VT-TD (vibrational tendencies). From VT-TD: APL-DT (application dictates). From APL-DT: MOT-DY. From RT-INT-TR: PART (participation). From T-C-IMP: COS-P (cosmic particulars). From COS-P: OBS (observation), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "af-dy" },
+    { "termId": "info-dy" },
+    { "termId": "vt-td" },
+    { "termId": "apl-dt" },
+    { "termId": "mot-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "part" },
+    { "termId": "t-c-imp" },
+    { "termId": "cos-p" },
+    { "termId": "obs", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "af-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "vt-td", "type": "solid" },
+    { "from": "vt-td", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "mot-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "part", "type": "solid" },
+    { "from": "proj-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "obs", "type": "solid" }
+  ]
+}

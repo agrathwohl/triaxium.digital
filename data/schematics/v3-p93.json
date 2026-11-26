@@ -1,0 +1,37 @@
+{
+  "id": "v3-p93",
+  "volume": 3,
+  "section": "CS-21",
+  "page": 93,
+  "subject": "dym-spt",
+  "title": "DYM.SPT.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 93 (CS-21). DYM-SPT (dynamic spiritualism) is the subject; TR (transformation) is the partner. From the subject: IND-DY and SOC-RT (social reality). From IND-DY: POST (postulation). From POST: SF-RZ (self-realization). From SOC-RT: DEC (decentralization) and PHY-U-P (physical universe particular). From DEC: ALT-F (alternative functionalism). From ALT-F: BSCF (basic science), with the (R) prefix, \"the reality of\". From PHY-U-P: EXP-DY (expansion dynamics). From EXP-DY: PART (participation).",
+  "terms": [
+    { "termId": "dym-spt", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "ind-dy" },
+    { "termId": "post" },
+    { "termId": "sf-rz" },
+    { "termId": "soc-rt" },
+    { "termId": "dec" },
+    { "termId": "alt-f" },
+    { "termId": "bscf", "prefix": "r" },
+    { "termId": "phy-u-p" },
+    { "termId": "exp-dy" },
+    { "termId": "part" }
+  ],
+  "relationships": [
+    { "from": "dym-spt", "to": "tr", "type": "solid" },
+    { "from": "dym-spt", "to": "ind-dy", "type": "solid" },
+    { "from": "ind-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "sf-rz", "type": "solid" },
+    { "from": "dym-spt", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "bscf", "type": "solid" },
+    { "from": "soc-rt", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "part", "type": "solid" }
+  ]
+}

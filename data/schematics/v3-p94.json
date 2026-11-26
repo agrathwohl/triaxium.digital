@@ -1,0 +1,35 @@
+{
+  "id": "v3-p94",
+  "volume": 3,
+  "section": "CS-22",
+  "page": 94,
+  "subject": "af-dy",
+  "title": "AF.DY.------EXP.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 94 (CS-22). AF-DY (affinity dynamics) is the subject; EXP-DY (expansion dynamics) is the partner. From the subject: INFO, POL-P (political policies) and POST (postulation). From INFO: PROJ-DY (projectional dynamics). From PROJ-DY: ROTP (responsibility of the position). From POL-P: OP-SPD (option spread). From OP-SPD: CULT-SOLD (culture solidification). From POST: RE-DOC (redocumentation). From RE-DOC: MOT-DY.",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true },
+    { "termId": "exp-dy" },
+    { "termId": "info" },
+    { "termId": "proj-dy" },
+    { "termId": "rotp" },
+    { "termId": "pol-p" },
+    { "termId": "op-spd" },
+    { "termId": "cult-sold" },
+    { "termId": "post" },
+    { "termId": "re-doc" },
+    { "termId": "mot-dy" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "af-dy", "to": "info", "type": "solid" },
+    { "from": "info", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "rotp", "type": "solid" },
+    { "from": "af-dy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "cult-sold", "type": "solid" },
+    { "from": "af-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "mot-dy", "type": "solid" }
+  ]
+}

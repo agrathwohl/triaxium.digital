@@ -1,0 +1,33 @@
+{
+  "id": "v1-p63-2",
+  "volume": 1,
+  "section": "WAM-5",
+  "page": 63,
+  "subject": "post",
+  "title": "POST.------AFL.DY.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 63 (WAM-5). POST (postulation) is the subject, with the (C) prefix, \"the concept of\"; AFL-DY (affinity dynamics) is the partner. From the subject: AFI (affinity insight) and MT-INFO (multi-information). From AFI: ATTC (attachment). From ATTC: INDIV-TD (individual tendencies). From MT-INFO: CRFT-D and STF (source transfer). From CRFT-D: PROG-CONT (progressional continuance). From PROG-CONT: VT-DY (vibrational dynamics).",
+  "terms": [
+    { "termId": "post", "isSubject": true, "prefix": "c" },
+    { "termId": "afl-dy" },
+    { "termId": "afi" },
+    { "termId": "attc" },
+    { "termId": "indiv-td" },
+    { "termId": "mt-info" },
+    { "termId": "crft-d" },
+    { "termId": "prog-cont" },
+    { "termId": "vt-dy" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "post", "to": "afl-dy", "type": "solid" },
+    { "from": "post", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "attc", "type": "solid" },
+    { "from": "attc", "to": "indiv-td", "type": "solid" },
+    { "from": "post", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "crft-d", "type": "solid" },
+    { "from": "crft-d", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "vt-dy", "type": "solid" },
+    { "from": "mt-info", "to": "stf", "type": "solid" }
+  ]
+}

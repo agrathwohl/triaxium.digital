@@ -1,0 +1,35 @@
+{
+  "id": "v3-p301",
+  "volume": 3,
+  "section": "PR.S(RD)II-55",
+  "page": 301,
+  "subject": "mn-di",
+  "title": "MN.DI.------AF.COMP.",
+  "type": "crossing",
+  "description": "Chart on book p. 301 (PR.S(RD)II-55). MN-DI (mono-dimensional) is the subject; AF-COMP (affinity compression) is the partner. From the subject: LG-DY (logical dynamics), CULT-SOLD (culture solidification) and PER-DY (perception dynamics). From LG-DY: INFO-ALGN (information alignment) and IST-F-DT (isolated focus dictates). From IST-F-DT: LANG-DY (language dynamics). From PER-DY: EXTN-D (existential definition). From EXTN-D: INTL (intellectualism). From INTL: IST-F (isolated focus).",
+  "terms": [
+    { "termId": "mn-di", "isSubject": true },
+    { "termId": "af-comp" },
+    { "termId": "lg-dy" },
+    { "termId": "info-algn" },
+    { "termId": "ist-f-dt" },
+    { "termId": "lang-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "per-dy" },
+    { "termId": "extn-d" },
+    { "termId": "intl" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "mn-di", "to": "af-comp", "type": "solid" },
+    { "from": "mn-di", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "info-algn", "type": "solid" },
+    { "from": "lg-dy", "to": "ist-f-dt", "type": "solid" },
+    { "from": "ist-f-dt", "to": "lang-dy", "type": "solid" },
+    { "from": "mn-di", "to": "cult-sold", "type": "solid" },
+    { "from": "mn-di", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "extn-d", "type": "solid" },
+    { "from": "extn-d", "to": "intl", "type": "solid" },
+    { "from": "intl", "to": "ist-f", "type": "solid" }
+  ]
+}

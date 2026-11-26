@@ -1,0 +1,33 @@
+{
+  "id": "v3-p286-3",
+  "volume": 3,
+  "section": "PR.S(RD)II-40",
+  "page": 286,
+  "subject": "cult-info-dy",
+  "title": "CULT.INFO.DY------OP.SD.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 286 (PR.S(RD)II-40). CULT-INFO-DY (culture information dynamics) is the subject; OP-SD (option spread) is the partner. From the subject: AF-DY (affinity dynamics), MT-INFO (multi-information) and TR (transformation). From AF-DY: LANG-DY (language dynamics). From LANG-DY: VT-DY (vibrational dynamics). From MT-INFO: INFO-DE-B (information degrees) and INFO-FM (information forum), with the (R) prefix, \"the reality of\". From INFO-DE-B: IST-F (isolated focus).",
+  "terms": [
+    { "termId": "cult-info-dy", "isSubject": true },
+    { "termId": "op-sd" },
+    { "termId": "af-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "mt-info" },
+    { "termId": "info-de-b" },
+    { "termId": "ist-f" },
+    { "termId": "info-fm", "prefix": "r" },
+    { "termId": "tr" }
+  ],
+  "relationships": [
+    { "from": "cult-info-dy", "to": "op-sd", "type": "solid" },
+    { "from": "cult-info-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "ist-f", "type": "solid" },
+    { "from": "mt-info", "to": "info-fm", "type": "solid" },
+    { "from": "cult-info-dy", "to": "tr", "type": "solid" }
+  ]
+}

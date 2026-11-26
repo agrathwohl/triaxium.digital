@@ -1,0 +1,37 @@
+{
+  "id": "v3-p116-1",
+  "volume": 3,
+  "section": "ALT(FT)II-10",
+  "page": 116,
+  "subject": "th-cont",
+  "title": "TH.CONT.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 116 (ALT(FT)II-10). TH-CONT (thrust continuance) is the subject; MT-INFO (multi-information), the partner in the title, is not drawn as a label, and the line from the subject's dot runs to VT-TD (vibrational tendencies). From the subject: BIA (bi-aitional), PROG-CONT (progressional continuance) and OBS (observation), with the (R) prefix, \"the reality of\". From BIA: INFO-DY. From INFO-DY: P-FC (particular focus), with the (R) prefix, \"the reality of\". From PROG-CONT: COS-P (cosmic particulars). From COS-P: STF (source transfer). From STF: CULT-INFO-B (culture information basis). From OBS: TRS (transition). From TRS: INTR (interpretation).",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true },
+    { "termId": "vt-td" },
+    { "termId": "bia" },
+    { "termId": "info-dy" },
+    { "termId": "p-fc", "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "cos-p" },
+    { "termId": "stf" },
+    { "termId": "cult-info-b" },
+    { "termId": "obs", "prefix": "r" },
+    { "termId": "trs" },
+    { "termId": "intr" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "vt-td", "type": "solid" },
+    { "from": "th-cont", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "p-fc", "type": "solid" },
+    { "from": "th-cont", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "cult-info-b", "type": "solid" },
+    { "from": "th-cont", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "intr", "type": "solid" }
+  ]
+}

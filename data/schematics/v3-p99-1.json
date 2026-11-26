@@ -1,0 +1,31 @@
+{
+  "id": "v3-p99-1",
+  "volume": 3,
+  "section": "CS-27",
+  "page": 99,
+  "subject": "wo-mth",
+  "title": "WO.MTH.------MT.INTR.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 99 (CS-27). WO-MTH (world methodology) is the subject; MT-INTR (multiple interpretation) is the partner. From the subject: BIA (bi-aitional), POL-CON (political consciousness) and EXT-FT (extended functionalism). From BIA: C-FO-ACT (composite focused activism). From POL-CON: SOC-RT-P (social reality particulars). From EXT-FT: SCI-DY (scientific dynamics). From SCI-DY: AFI (affinity insight). Two line ends in the chart carry a dot but no label.",
+  "terms": [
+    { "termId": "wo-mth", "isSubject": true },
+    { "termId": "mt-intr" },
+    { "termId": "bia" },
+    { "termId": "c-fo-act" },
+    { "termId": "pol-con" },
+    { "termId": "soc-rt-p" },
+    { "termId": "ext-ft" },
+    { "termId": "sci-dy" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "wo-mth", "to": "mt-intr", "type": "solid" },
+    { "from": "wo-mth", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "c-fo-act", "type": "solid" },
+    { "from": "wo-mth", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "soc-rt-p", "type": "solid" },
+    { "from": "wo-mth", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "afi", "type": "solid" }
+  ]
+}

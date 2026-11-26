@@ -1,0 +1,39 @@
+{
+  "id": "v3-p166",
+  "volume": 3,
+  "section": "EVOL-4",
+  "page": 166,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 166 (EVOL-4). WO-EXP-PRI (world expansion principle) is the subject; C-INFO (composite information) is the partner. From the subject: TRS (transition), TR (transformation) and PROG-CONT (progressional continuance). From TRS: VT-DY (vibrational dynamics) and INFO-INTG (information integration). From INFO-INTG: RE-DEF (redefinitions), with the (P) prefix, \"point of idea completion\". From TR: COS-P (cosmic particulars). From COS-P: C-CONT (composite continuance). From PROG-CONT: LK-IMP (linkage implications) and SOC-RT-DY (social reality dynamics). From SOC-RT-DY: RE-DOC (redocumentation).",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true },
+    { "termId": "c-info" },
+    { "termId": "trs" },
+    { "termId": "vt-dy" },
+    { "termId": "info-intg" },
+    { "termId": "re-def", "prefix": "p" },
+    { "termId": "tr" },
+    { "termId": "cos-p" },
+    { "termId": "c-cont" },
+    { "termId": "prog-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "re-doc" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "c-info", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "vt-dy", "type": "solid" },
+    { "from": "trs", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "re-def", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "c-cont", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "lk-imp", "type": "solid" },
+    { "from": "prog-cont", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "re-doc", "type": "solid" }
+  ]
+}

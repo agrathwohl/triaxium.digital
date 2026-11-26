@@ -1,0 +1,33 @@
+{
+  "id": "v3-p277",
+  "volume": 3,
+  "section": "PR.S(RD)II-31",
+  "page": 277,
+  "subject": "re-st",
+  "title": "(R)RE.ST.------AF.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 277 (PR.S(RD)II-31). RE-ST (restructuralism) is the subject, with the (R) prefix, \"the reality of\"; AF-DY (affinity dynamics) is the partner. From the subject: VT-PLAT, TR-INFO (trans-information) and SOC-RT (social reality). From VT-PLAT: MOT-DY. From MOT-DY: AFI (affinity insight). From TR-INFO: PROJ-DY (projectional dynamics). From PROJ-DY: BIA (bi-aitional). From SOC-RT: ALT-F (alternative functionalism). The text above the chart says: \"The reality of affinity dynamics is directly related to the multi-use of redefinitions.\"",
+  "terms": [
+    { "termId": "re-st", "isSubject": true, "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "vt-plat" },
+    { "termId": "mot-dy" },
+    { "termId": "afi" },
+    { "termId": "tr-info" },
+    { "termId": "proj-dy" },
+    { "termId": "bia" },
+    { "termId": "soc-rt" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "af-dy", "type": "solid" },
+    { "from": "re-st", "to": "vt-plat", "type": "solid" },
+    { "from": "vt-plat", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "afi", "type": "solid" },
+    { "from": "re-st", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "bia", "type": "solid" },
+    { "from": "re-st", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "alt-f", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p196",
+  "volume": 3,
+  "section": "EVOL-34",
+  "page": 196,
+  "subject": "info-dy",
+  "title": "INFO.DY.------COS.AGN.",
+  "type": "crossing",
+  "description": "Chart on book p. 196 (EVOL-34). INFO-DY is the subject; COS-AGN (cosmic assignment) is the partner. From the subject: VT-DY (vibrational dynamics), POLDY and RT-OP (reality options). From VT-DY: AF-TD (affinity tendencies). From AF-TD: PHY-U-C (physical universe context). From POLDY: C-CONT (composite continuance). From C-CONT: PROG-TF-C (progressional transfer cycles). From PROG-TF-C: RE-CONT (recontinuance). From RT-OP: SOC-RT-DEVL.",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "cos-agn" },
+    { "termId": "vt-dy" },
+    { "termId": "af-td" },
+    { "termId": "phy-u-c" },
+    { "termId": "poldy" },
+    { "termId": "c-cont" },
+    { "termId": "prog-tf-c" },
+    { "termId": "re-cont" },
+    { "termId": "rt-op" },
+    { "termId": "soc-rt-devl" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "cos-agn", "type": "solid" },
+    { "from": "info-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "phy-u-c", "type": "solid" },
+    { "from": "info-dy", "to": "poldy", "type": "solid" },
+    { "from": "poldy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "prog-tf-c", "type": "solid" },
+    { "from": "prog-tf-c", "to": "re-cont", "type": "solid" },
+    { "from": "info-dy", "to": "rt-op", "type": "solid" },
+    { "from": "rt-op", "to": "soc-rt-devl", "type": "solid" }
+  ]
+}

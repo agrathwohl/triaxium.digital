@@ -1,0 +1,35 @@
+{
+  "id": "v3-p122",
+  "volume": 3,
+  "section": "ALT(FT)II-16",
+  "page": 122,
+  "subject": "t-c-imp",
+  "title": "T.C.IMP.------DYM.FT.",
+  "type": "crossing",
+  "description": "Chart on book p. 122 (ALT(FT)II-16). T-C-IMP (time continuum implications) is the subject; DYM-FT (dynamic functionalism) is the partner. From the subject: INFO-DY, TRS (transition) and EXPM (expansionism). From INFO-DY: RE-DOC (redocumentation). From RE-DOC: STF (source transfer). From TRS: AF-DY (affinity dynamics). From AF-DY: RE-ST (restructuralism). From EXPM: DEC (decentralization). From DEC: FUND-DY (fundamental dynamics).",
+  "terms": [
+    { "termId": "t-c-imp", "isSubject": true },
+    { "termId": "dym-ft" },
+    { "termId": "info-dy" },
+    { "termId": "re-doc" },
+    { "termId": "stf" },
+    { "termId": "trs" },
+    { "termId": "af-dy" },
+    { "termId": "re-st" },
+    { "termId": "expm" },
+    { "termId": "dec" },
+    { "termId": "fund-dy" }
+  ],
+  "relationships": [
+    { "from": "t-c-imp", "to": "dym-ft", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "stf", "type": "solid" },
+    { "from": "t-c-imp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "re-st", "type": "solid" },
+    { "from": "t-c-imp", "to": "expm", "type": "solid" },
+    { "from": "expm", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "fund-dy", "type": "solid" }
+  ]
+}

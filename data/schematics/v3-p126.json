@@ -1,0 +1,37 @@
+{
+  "id": "v3-p126",
+  "volume": 3,
+  "section": "ALT(FT)II-20",
+  "page": 126,
+  "subject": "bscf",
+  "title": "BSCF.------EXT.F.------INFO.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 126 (ALT(FT)II-20). BSCF (basic science) is the subject; EXT-F (extended functionalism) is the partner, and the title names a third code, INFO-DY, whose line starts at the partner's dot. From the subject: TECH-DY (technological dynamics), MT-INFO (multi-information) and ALT-FT (alternative functionalism). From TECH-DY: ACC-FT (accelerated functionalism). From MT-INFO: a line to a dot with no label. From ALT-FT: DIS-C-CT (disintegration of a culture’s center). From EXT-F: INFO-DY. From INFO-DY: SPT-DY (spiritual dynamics) and C-INFO (composite information). From C-INFO: BIA (bi-aitional). From BIA: C-RH (composite research).",
+  "terms": [
+    { "termId": "bscf", "isSubject": true },
+    { "termId": "ext-f" },
+    { "termId": "tech-dy" },
+    { "termId": "acc-ft" },
+    { "termId": "mt-info" },
+    { "termId": "alt-ft" },
+    { "termId": "dis-c-ct" },
+    { "termId": "info-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "c-info" },
+    { "termId": "bia" },
+    { "termId": "c-rh" }
+  ],
+  "relationships": [
+    { "from": "bscf", "to": "ext-f", "type": "solid" },
+    { "from": "bscf", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "acc-ft", "type": "solid" },
+    { "from": "bscf", "to": "mt-info", "type": "solid" },
+    { "from": "bscf", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "dis-c-ct", "type": "solid" },
+    { "from": "ext-f", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "c-rh", "type": "solid" }
+  ]
+}

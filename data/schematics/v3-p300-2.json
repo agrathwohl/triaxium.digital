@@ -1,0 +1,43 @@
+{
+  "id": "v3-p300-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-54",
+  "page": 300,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------LG.DY.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 300 (PR.S(RD)II-54). LK-IMP (linkage implications) is the subject; LG-DY (logical dynamics) is the partner. From the subject: TR (transformation), PROJ-DY (projectional dynamics) and C-CONT (composite continuance). From TR: T-C-IMP (time continuum implications). From T-C-IMP: WO-EXP-PRI (world expansion principle). From WO-EXP-PRI: TRS (transition). From PROJ-DY: AF-NT (affinity nature). From AF-NT: ATTN (attraction) and COS-DT. From C-CONT: MT-INFO (multi-information) and TH-CONT (thrust continuance). From MT-INFO: UPB (underlying philosophical basis). From TH-CONT: BIA (bi-aitional).",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true },
+    { "termId": "lg-dy" },
+    { "termId": "tr" },
+    { "termId": "t-c-imp" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "trs" },
+    { "termId": "proj-dy" },
+    { "termId": "af-nt" },
+    { "termId": "attn" },
+    { "termId": "cos-dt" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "upb" },
+    { "termId": "th-cont" },
+    { "termId": "bia" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "lg-dy", "type": "solid" },
+    { "from": "lk-imp", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "trs", "type": "solid" },
+    { "from": "lk-imp", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "attn", "type": "solid" },
+    { "from": "af-nt", "to": "cos-dt", "type": "solid" },
+    { "from": "lk-imp", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "upb", "type": "solid" },
+    { "from": "c-cont", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "bia", "type": "solid" }
+  ]
+}

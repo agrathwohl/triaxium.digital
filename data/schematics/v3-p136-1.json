@@ -1,0 +1,39 @@
+{
+  "id": "v3-p136-1",
+  "volume": 3,
+  "section": "ALT(FT)II-30",
+  "page": 136,
+  "subject": "tr",
+  "title": "TR.------INFO.DY.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 136 (ALT(FT)II-30). TR (transformation) is the subject; INFO-DY is the partner. From the subject: RT-ALGN (reality alignment), C-INFO (composite information) and AF-DT (affinity dictates). From RT-ALGN: POL-DY (political dynamics). From POL-DY: PART (participation). From PART: DOC (documentation), with the (R) prefix, \"the reality of\". From DOC: CULT-INFO-F (culture information focus). From C-INFO: IST-F (isolated focus). From IST-F: MOT-DY. From AF-DT: AFI (affinity insight). From AFI: INT (intention).",
+  "terms": [
+    { "termId": "tr", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "pol-dy" },
+    { "termId": "part" },
+    { "termId": "doc", "prefix": "r" },
+    { "termId": "cult-info-f" },
+    { "termId": "c-info" },
+    { "termId": "ist-f" },
+    { "termId": "mot-dy" },
+    { "termId": "af-dt" },
+    { "termId": "afi" },
+    { "termId": "int" }
+  ],
+  "relationships": [
+    { "from": "tr", "to": "info-dy", "type": "solid" },
+    { "from": "tr", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "cult-info-f", "type": "solid" },
+    { "from": "tr", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "mot-dy", "type": "solid" },
+    { "from": "tr", "to": "af-dt", "type": "solid" },
+    { "from": "af-dt", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "int", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p341",
+  "volume": 3,
+  "section": "PMBA-5",
+  "page": 341,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------RT.ALGN.",
+  "type": "crossing",
+  "description": "Chart on book p. 341 (PMBA-5). PROJ-DY (projectional dynamics) is the subject; RT-ALGN (reality alignment) is the partner. From the subject: TR (transformation), CULT-AF-BS (culture affinity basis) and CULT-INFO-DY (culture information dynamics). From TR: SPT-DY (spiritual dynamics) and EXP-DT (expansion dictates). From CULT-AF-BS: VT-DY (vibrational dynamics). From VT-DY: INDIV-TD (individual tendencies). From CULT-INFO-DY: EXT-FT (extended functionalism). From EXT-FT: OBS (observation). The page text says: \"To understand the vibrational dynamics of this change is to view the significance of the fifties\".",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "rt-algn" },
+    { "termId": "tr" },
+    { "termId": "spt-dy" },
+    { "termId": "exp-dt" },
+    { "termId": "cult-af-bs" },
+    { "termId": "vt-dy" },
+    { "termId": "indiv-td" },
+    { "termId": "cult-info-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "obs" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "proj-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "spt-dy", "type": "solid" },
+    { "from": "tr", "to": "exp-dt", "type": "solid" },
+    { "from": "proj-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "proj-dy", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "obs", "type": "solid" }
+  ]
+}

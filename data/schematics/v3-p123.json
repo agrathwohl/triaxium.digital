@@ -1,0 +1,37 @@
+{
+  "id": "v3-p123",
+  "volume": 3,
+  "section": "ALT(FT)II-17",
+  "page": 123,
+  "subject": "cult-af-b",
+  "title": "CULT.AF.B.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Chart on book p. 123 (ALT(FT)II-17). CULT-AF-B (culture affinity basis) is the subject; WO-EXP-PRI (world expansion principle) is the partner. From the subject: TR (transformation), INDIV-TD (individual tendencies) and POL-DY (political dynamics). From TR: MT-INFO (multi-information). From MT-INFO: IST-S-ALGN (isolated systematic alignment) and IF-SPT (infra-spirituality). From IF-SPT: IST-F (isolated focus), whose line starts on a line from IF-SPT that ends at a dot with no label. From INDIV-TD: INFO-AF-B (information affinity basis). From POL-DY: UNF-PI (unification (positively intended)). From UNF-PI: EXP-CONT-2 (expansion condition (isolated focus)).",
+  "terms": [
+    { "termId": "cult-af-b", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "tr" },
+    { "termId": "mt-info" },
+    { "termId": "ist-s-algn" },
+    { "termId": "if-spt" },
+    { "termId": "ist-f" },
+    { "termId": "indiv-td" },
+    { "termId": "info-af-b" },
+    { "termId": "pol-dy" },
+    { "termId": "unf-pi" },
+    { "termId": "exp-cont-2" }
+  ],
+  "relationships": [
+    { "from": "cult-af-b", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "cult-af-b", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "ist-s-algn", "type": "solid" },
+    { "from": "mt-info", "to": "if-spt", "type": "solid" },
+    { "from": "if-spt", "to": "ist-f", "type": "solid" },
+    { "from": "cult-af-b", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "info-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "unf-pi", "type": "solid" },
+    { "from": "unf-pi", "to": "exp-cont-2", "type": "solid" }
+  ]
+}

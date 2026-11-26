@@ -1,0 +1,37 @@
+{
+  "id": "v1-p67-1",
+  "volume": 1,
+  "section": "WAM-9",
+  "page": 67,
+  "subject": "af-post",
+  "title": "AF.POST.------PHY.U.P.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 67 (WAM-9). The chart has no arrow; AF-POST (affinity postulation), the first title code, is the subject, with the (C) prefix, \"the concept of\"; PHY-U-P (physical universe particular) is the partner. From the subject: TF, INFO-DY and POL-DY (political dynamics). From TF: VT-DY (vibrational dynamics). From VT-DY: WO-EXP-PRI (world expansion principle). From INFO-DY: ALT-D (alternative definitions). From ALT-D: APP-RDEF (applied redefinitions). From POL-DY: ACC-FT (accelerated functionalism). From ACC-FT: C-FO-ACT (composite focused activism). From C-FO-ACT: IST-F (isolated focus).",
+  "terms": [
+    { "termId": "af-post", "isSubject": true, "prefix": "c" },
+    { "termId": "phy-u-p" },
+    { "termId": "tf" },
+    { "termId": "vt-dy" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "info-dy" },
+    { "termId": "alt-d" },
+    { "termId": "app-rdef" },
+    { "termId": "pol-dy" },
+    { "termId": "acc-ft" },
+    { "termId": "c-fo-act" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "phy-u-p", "type": "solid" },
+    { "from": "af-post", "to": "tf", "type": "solid" },
+    { "from": "tf", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "af-post", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "alt-d", "type": "solid" },
+    { "from": "alt-d", "to": "app-rdef", "type": "solid" },
+    { "from": "af-post", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "c-fo-act", "type": "solid" },
+    { "from": "c-fo-act", "to": "ist-f", "type": "solid" }
+  ]
+}

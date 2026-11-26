@@ -1,0 +1,39 @@
+{
+  "id": "v3-p172",
+  "volume": 3,
+  "section": "EVOL-10",
+  "page": 172,
+  "subject": "part",
+  "title": "EXTN.OB------PART.",
+  "type": "crossing",
+  "description": "Chart on book p. 172 (EVOL-10). PART (participation) is the subject; the other title code, EXTN-OB (existential observation), is not drawn as a label, and the main line runs from the subject to PER-DY (perception dynamics). From the subject: INFO-DEBS, POL-DY (political dynamics) and AF-DT (affinity dictates). From INFO-DEBS: LG-DY (logical dynamics). From LG-DY: INTL (intellectualism), with the (R) prefix, \"the reality of\". From POL-DY: INT (intention), with the (R) prefix, \"the reality of\". From INT: SOC-RT-DY (social reality dynamics). From AF-DT: INFO-RT (information reality). From INFO-RT: PHY-U-FUND (physical universe fundamental) and TR (transformation). From TR: MT-INTR (multiple interpretation).",
+  "terms": [
+    { "termId": "part", "isSubject": true },
+    { "termId": "per-dy" },
+    { "termId": "info-debs" },
+    { "termId": "lg-dy" },
+    { "termId": "intl", "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "af-dt" },
+    { "termId": "info-rt" },
+    { "termId": "phy-u-fund" },
+    { "termId": "tr" },
+    { "termId": "mt-intr" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "per-dy", "type": "solid" },
+    { "from": "part", "to": "info-debs", "type": "solid" },
+    { "from": "info-debs", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "intl", "type": "solid" },
+    { "from": "part", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "int", "type": "solid" },
+    { "from": "int", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "part", "to": "af-dt", "type": "solid" },
+    { "from": "af-dt", "to": "info-rt", "type": "solid" },
+    { "from": "info-rt", "to": "phy-u-fund", "type": "solid" },
+    { "from": "info-rt", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "mt-intr", "type": "solid" }
+  ]
+}

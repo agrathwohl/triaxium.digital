@@ -1,0 +1,39 @@
+{
+  "id": "v3-p136-2",
+  "volume": 3,
+  "section": "ALT(FT)II-30",
+  "page": 136,
+  "subject": "soc-rt-dy",
+  "title": "SOC.RT.DY.------TR.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 136 (ALT(FT)II-30). SOC-RT-DY (social reality dynamics) is the subject; TR (transformation) is the partner. From the subject: DYM-SPT (dynamic spiritualism), RE-ST (restructuralism) and EXB-H-OR (establishing high order). From DYM-SPT: VT-DY (vibrational dynamics). From VT-DY: RIT-DY (ritual dynamics). From RE-ST: PER-PHY-U-FUND (perceived physical universe fundamental). From PER-PHY-U-FUND: LK-IMP (linkage implications). From LK-IMP: LG-DY (logical dynamics). From EXB-H-OR: CULT-INFO-DY (culture information dynamics) and SF-RZ (self-realization). From CULT-INFO-DY: C-ACT (composite activism).",
+  "terms": [
+    { "termId": "soc-rt-dy", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "dym-spt" },
+    { "termId": "vt-dy" },
+    { "termId": "rit-dy" },
+    { "termId": "re-st" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "lk-imp" },
+    { "termId": "lg-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "cult-info-dy" },
+    { "termId": "c-act" },
+    { "termId": "sf-rz" }
+  ],
+  "relationships": [
+    { "from": "soc-rt-dy", "to": "tr", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "rit-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "per-phy-u-fund", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "lg-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "c-act", "type": "solid" },
+    { "from": "exb-h-or", "to": "sf-rz", "type": "solid" }
+  ]
+}

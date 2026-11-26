@@ -1,0 +1,35 @@
+{
+  "id": "v3-p286-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-40",
+  "page": 286,
+  "subject": "doc",
+  "title": "(R)DOC.------TRS.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 286 (PR.S(RD)II-40). DOC (documentation) is the subject, with the (R) prefix, \"the reality of\"; TRS (transition) is the partner. From the subject: COS-P (cosmic particulars), EXP-DY (expansion dynamics) and ROTP (responsibility of the position). From COS-P: TH-CONT (thrust continuance). From TH-CONT: RE-CONT (recontinuance). From EXP-DY: EXP-CONT-2 (expansion condition (isolated focus)). From EXP-CONT-2: INDIV-TD (individual tendencies). From ROTP: C-CONT (composite continuance). From C-CONT: MT-INFO-DB.",
+  "terms": [
+    { "termId": "doc", "isSubject": true, "prefix": "r" },
+    { "termId": "trs" },
+    { "termId": "cos-p" },
+    { "termId": "th-cont" },
+    { "termId": "re-cont" },
+    { "termId": "exp-dy" },
+    { "termId": "exp-cont-2" },
+    { "termId": "indiv-td" },
+    { "termId": "rotp" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info-db" }
+  ],
+  "relationships": [
+    { "from": "doc", "to": "trs", "type": "solid" },
+    { "from": "doc", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "re-cont", "type": "solid" },
+    { "from": "doc", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "exp-cont-2", "type": "solid" },
+    { "from": "exp-cont-2", "to": "indiv-td", "type": "solid" },
+    { "from": "doc", "to": "rotp", "type": "solid" },
+    { "from": "rotp", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info-db", "type": "solid" }
+  ]
+}

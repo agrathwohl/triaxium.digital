@@ -1,0 +1,37 @@
+{
+  "id": "v3-p195",
+  "volume": 3,
+  "section": "EVOL-33",
+  "page": 195,
+  "subject": "mt-info",
+  "title": "MT.INFO.------COS.DT.",
+  "type": "crossing",
+  "description": "Chart on book p. 195 (EVOL-33). MT-INFO (multi-information) is the subject; COS-DT is the partner. From the subject: INFO-INTG (information integration), EXT-FT (extended functionalism) and T-C-IMP (time continuum implications). From INFO-INTG: MT-RT-SIGN and IST-S-ALGN (isolated systematic alignment). From IST-S-ALGN: CULT-INFO-B (culture information basis). From EXT-FT: LG-DY (logical dynamics). From LG-DY: METH. From T-C-IMP: RT-DY (reality dynamics). From RT-DY: LK-IMP (linkage implications).",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "cos-dt" },
+    { "termId": "info-intg" },
+    { "termId": "mt-rt-sign" },
+    { "termId": "ist-s-algn" },
+    { "termId": "cult-info-b" },
+    { "termId": "ext-ft" },
+    { "termId": "lg-dy" },
+    { "termId": "meth" },
+    { "termId": "t-c-imp" },
+    { "termId": "rt-dy" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "cos-dt", "type": "solid" },
+    { "from": "mt-info", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "mt-rt-sign", "type": "solid" },
+    { "from": "info-intg", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "cult-info-b", "type": "solid" },
+    { "from": "mt-info", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "meth", "type": "solid" },
+    { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "lk-imp", "type": "solid" }
+  ]
+}

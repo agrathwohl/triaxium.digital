@@ -1,0 +1,35 @@
+{
+  "id": "v3-p132",
+  "volume": 3,
+  "section": "ALT(FT)II-26",
+  "page": 132,
+  "subject": "res-rt",
+  "title": "RES.RT.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 132 (ALT(FT)II-26). RES-RT (responsibility ratio) is the subject; MT-INFO (multi-information) is the partner. From the subject: APP-DT, TRS (transition) and INFO-TRNS (information transference). From APP-DT: TECH-DY (technological dynamics). From TECH-DY: REL-APC (relevant application). From TRS: DYM-SPT (dynamic spiritualism). From DYM-SPT: C-HM (composite humanity). From INFO-TRNS: CULT-AF-TBS. From CULT-AF-TBS: MOT-DY.",
+  "terms": [
+    { "termId": "res-rt", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "app-dt" },
+    { "termId": "tech-dy" },
+    { "termId": "rel-apc" },
+    { "termId": "trs" },
+    { "termId": "dym-spt" },
+    { "termId": "c-hm" },
+    { "termId": "info-trns" },
+    { "termId": "cult-af-tbs" },
+    { "termId": "mot-dy" }
+  ],
+  "relationships": [
+    { "from": "res-rt", "to": "mt-info", "type": "solid" },
+    { "from": "res-rt", "to": "app-dt", "type": "solid" },
+    { "from": "app-dt", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "rel-apc", "type": "solid" },
+    { "from": "res-rt", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "c-hm", "type": "solid" },
+    { "from": "res-rt", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "cult-af-tbs", "type": "solid" },
+    { "from": "cult-af-tbs", "to": "mot-dy", "type": "solid" }
+  ]
+}

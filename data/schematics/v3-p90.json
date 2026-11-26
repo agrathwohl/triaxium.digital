@@ -1,0 +1,35 @@
+{
+  "id": "v3-p90",
+  "volume": 3,
+  "section": "CS-18",
+  "page": 90,
+  "subject": "alt-d",
+  "title": "ALT.D.------ALT.F.------TRS.",
+  "type": "crossing",
+  "description": "Chart on book p. 90 (CS-18). ALT-D (alternative definitions) is the subject, with the (C) prefix, \"the concept of\"; the second title code, ALT-F (alternative functionalism), is not drawn as a label, and the main line runs to TRS (transition), the third title code. From the subject: DYM-F (dynamic functionalism), AFI-2 (affinity insight—second degree), EXP-DYM (expansion dynamics), AF-DY (affinity dynamics) and CRTF-D (cross-transfer definitions); AFI-2 and EXP-DYM carry the (R) prefix, \"the reality of\". From AFI-2: CULT-INFO-B (culture information basis). From AF-DY: INT (intention). From INT: INFO-F (information focus), with the (R) prefix. LANG-DY (language dynamics) is on a dotted line from INT.",
+  "terms": [
+    { "termId": "alt-d", "isSubject": true, "prefix": "c" },
+    { "termId": "trs" },
+    { "termId": "dym-f" },
+    { "termId": "afi-2", "prefix": "r" },
+    { "termId": "cult-info-b" },
+    { "termId": "exp-dym", "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "int" },
+    { "termId": "lang-dy" },
+    { "termId": "info-f", "prefix": "r" },
+    { "termId": "crtf-d" }
+  ],
+  "relationships": [
+    { "from": "alt-d", "to": "trs", "type": "solid" },
+    { "from": "alt-d", "to": "dym-f", "type": "solid" },
+    { "from": "alt-d", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "cult-info-b", "type": "solid" },
+    { "from": "alt-d", "to": "exp-dym", "type": "solid" },
+    { "from": "alt-d", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "int", "type": "solid" },
+    { "from": "int", "to": "lang-dy", "type": "dashed" },
+    { "from": "int", "to": "info-f", "type": "solid" },
+    { "from": "alt-d", "to": "crtf-d", "type": "solid" }
+  ]
+}

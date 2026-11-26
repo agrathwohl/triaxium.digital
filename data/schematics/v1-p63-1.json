@@ -1,0 +1,33 @@
+{
+  "id": "v1-p63-1",
+  "volume": 1,
+  "section": "WAM-5",
+  "page": 63,
+  "subject": "tr-info",
+  "title": "TR.INFO.------ACT.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 63 (WAM-5). TR-INFO (trans-information) is the subject, with the (C) prefix, \"the concept of\"; ACT (activism) is the partner. From the subject: SPT-DY (spiritual dynamics) and ACC-FT (accelerated functionalism). From SPT-DY: MOT-DYM. From ACC-FT: POL-DY (political dynamics) and MT-INFO (multi-information). From POL-DY: DEC (decentralization). From DEC: EXP-DYM (expansion dynamics). From MT-INFO: FUND-DYM (fundamental dynamics).",
+  "terms": [
+    { "termId": "tr-info", "isSubject": true, "prefix": "c" },
+    { "termId": "act" },
+    { "termId": "spt-dy" },
+    { "termId": "mot-dym" },
+    { "termId": "acc-ft" },
+    { "termId": "pol-dy" },
+    { "termId": "dec" },
+    { "termId": "exp-dym" },
+    { "termId": "mt-info" },
+    { "termId": "fund-dym" }
+  ],
+  "relationships": [
+    { "from": "tr-info", "to": "act", "type": "solid" },
+    { "from": "tr-info", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "mot-dym", "type": "solid" },
+    { "from": "tr-info", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "exp-dym", "type": "solid" },
+    { "from": "acc-ft", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "fund-dym", "type": "solid" }
+  ]
+}

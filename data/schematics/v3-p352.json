@@ -1,0 +1,39 @@
+{
+  "id": "v3-p352",
+  "volume": 3,
+  "section": "PMBA-16",
+  "page": 352,
+  "subject": "tf-sh",
+  "title": "TF.SH.------CULT.INFO.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 352 (PMBA-16). TF-SH (transfer shifts) is the subject; CULT-INFO-F (culture information focus) is the partner. From the subject: PROJ-DY (projectional dynamics), MT-INFO (multi-information) and C-CONT (composite continuance). From PROJ-DY: BIA (bi-aitional) and ATTN (attraction). From ATTN: IF-SPT (infra-spirituality). From MT-INFO: LK-IMP (linkage implications) and IF-ST-DY (infra-structure dynamics). From C-CONT: ALT-FT (alternative functionalism). From ALT-FT: GRAD (gradualism). From GRAD: LANG-DY (language dynamics). A line from the IF-ST-DY line ends in a dot with no label.",
+  "terms": [
+    { "termId": "tf-sh", "isSubject": true },
+    { "termId": "cult-info-f" },
+    { "termId": "proj-dy" },
+    { "termId": "bia" },
+    { "termId": "attn" },
+    { "termId": "if-spt" },
+    { "termId": "mt-info" },
+    { "termId": "lk-imp" },
+    { "termId": "if-st-dy" },
+    { "termId": "c-cont" },
+    { "termId": "alt-ft" },
+    { "termId": "grad" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "tf-sh", "to": "cult-info-f", "type": "solid" },
+    { "from": "tf-sh", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "bia", "type": "solid" },
+    { "from": "proj-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "if-spt", "type": "solid" },
+    { "from": "tf-sh", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "lk-imp", "type": "solid" },
+    { "from": "mt-info", "to": "if-st-dy", "type": "solid" },
+    { "from": "tf-sh", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "lang-dy", "type": "solid" }
+  ]
+}

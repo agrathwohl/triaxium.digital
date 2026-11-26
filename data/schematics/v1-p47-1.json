@@ -1,0 +1,35 @@
+{
+  "id": "v1-p47-1",
+  "volume": 1,
+  "section": "WM-23",
+  "page": 47,
+  "subject": "c-info",
+  "title": "C.INFO.------INFO.AF.B.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 47 (WM-23). C-INFO (composite information) is the subject; INFO-AF-B (information affinity basis) is the partner, whose label sits at the point on the subject's line where the long line to LANG branches off; the subject's line continues past it to AF-DY. From INFO-AF-B: AF-DY (affinity dynamics) and LANG (language). From AF-DY: EXT-F (extended functionalism). From EXT-F: MT-INFO (multi-information). From LANG: PHY-U-P (physical universe particular) and PART (participation), with the (DT) prefix. From PART: ST, with the (R) prefix, \"the reality of\"; INFO-DE (information degrees) is on a dotted line from PART. From INFO-DE: RT-ALGN (reality alignment).",
+  "terms": [
+    { "termId": "c-info", "isSubject": true },
+    { "termId": "info-af-b" },
+    { "termId": "af-dy" },
+    { "termId": "ext-f" },
+    { "termId": "mt-info" },
+    { "termId": "lang" },
+    { "termId": "phy-u-p" },
+    { "termId": "part", "prefix": "dt" },
+    { "termId": "st", "prefix": "r" },
+    { "termId": "info-de" },
+    { "termId": "rt-algn" }
+  ],
+  "relationships": [
+    { "from": "c-info", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "mt-info", "type": "solid" },
+    { "from": "info-af-b", "to": "lang", "type": "solid" },
+    { "from": "lang", "to": "phy-u-p", "type": "solid" },
+    { "from": "lang", "to": "part", "type": "solid" },
+    { "from": "part", "to": "st", "type": "solid" },
+    { "from": "part", "to": "info-de", "type": "dashed" },
+    { "from": "info-de", "to": "rt-algn", "type": "solid" }
+  ]
+}

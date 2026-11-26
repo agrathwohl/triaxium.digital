@@ -1,0 +1,35 @@
+{
+  "id": "v3-p183",
+  "volume": 3,
+  "section": "EVOL-21",
+  "page": 183,
+  "subject": "re-def",
+  "title": "RE.DEF.------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 183 (EVOL-21). RE-DEF (redefinitions) is the subject; SOC-RT-DY (social reality dynamics) is the partner. From the subject: CULT-INFO-B (culture information basis), SPT-DY (spiritual dynamics) and VT-ALGN. From CULT-INFO-B: DOC (documentation) and INFO-DE-B (information degrees). From INFO-DE-B: IST-F (isolated focus) and RT-INT-TR (reality initiative traits). From SPT-DY: AFI (affinity insight). From VT-ALGN: PER-DY (perception dynamics).",
+  "terms": [
+    { "termId": "re-def", "isSubject": true },
+    { "termId": "soc-rt-dy" },
+    { "termId": "cult-info-b" },
+    { "termId": "doc" },
+    { "termId": "info-de-b" },
+    { "termId": "ist-f" },
+    { "termId": "rt-int-tr" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "vt-algn" },
+    { "termId": "per-dy" }
+  ],
+  "relationships": [
+    { "from": "re-def", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "re-def", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "doc", "type": "solid" },
+    { "from": "cult-info-b", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "ist-f", "type": "solid" },
+    { "from": "info-de-b", "to": "rt-int-tr", "type": "solid" },
+    { "from": "re-def", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "re-def", "to": "vt-algn", "type": "solid" },
+    { "from": "vt-algn", "to": "per-dy", "type": "solid" }
+  ]
+}

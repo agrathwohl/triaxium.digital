@@ -1,0 +1,37 @@
+{
+  "id": "v3-p274",
+  "volume": 3,
+  "section": "PR.S(RD)II-28",
+  "page": 274,
+  "subject": "attn",
+  "title": "(R)ATTN.------AFI.",
+  "type": "crossing",
+  "description": "Chart on book p. 274 (PR.S(RD)II-28). ATTN (attraction) is the subject, with the (R) prefix, \"the reality of\"; AFI (affinity insight) is the partner. From the subject: AF-DY (affinity dynamics), MT-INFO (multi-information) and ALT-FT (alternative functionalism). From AF-DY: VT-DY (vibrational dynamics). From VT-DY: AGT (agreement). From MT-INFO: INFO-F (information focus). From INFO-F: DEF (definition), with the (R) prefix, \"the reality of\". From ALT-FT: ACT (activism). From ACT: POL-CON (political consciousness). From POL-CON: EXT-FT (extended functionalism).",
+  "terms": [
+    { "termId": "attn", "isSubject": true, "prefix": "r" },
+    { "termId": "afi" },
+    { "termId": "af-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "agt" },
+    { "termId": "mt-info" },
+    { "termId": "info-f" },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "alt-ft" },
+    { "termId": "act" },
+    { "termId": "pol-con" },
+    { "termId": "ext-ft" }
+  ],
+  "relationships": [
+    { "from": "attn", "to": "afi", "type": "solid" },
+    { "from": "attn", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "agt", "type": "solid" },
+    { "from": "attn", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "def", "type": "solid" },
+    { "from": "attn", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "act", "type": "solid" },
+    { "from": "act", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "ext-ft", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p180",
+  "volume": 3,
+  "section": "EVOL-18",
+  "page": 180,
+  "subject": "mt-info",
+  "title": "MT.INFO.------C.ACT.",
+  "type": "crossing",
+  "description": "Chart on book p. 180 (EVOL-18). MT-INFO (multi-information) is the subject; C-ACT (composite activism) is the partner. From the subject: PROG-CONT (progressional continuance), TR (transformation) and INFO-DY. From PROG-CONT: POL-DY (political dynamics). From POL-DY: POL-P (political policies). From TR: SPT-DY (spiritual dynamics). From SPT-DY: AF-DY (affinity dynamics). From INFO-DY: MT-INTR (multiple interpretation) and PER-DY (perception dynamics). From PER-DY: ATTN (attraction). The page text speaks of \"the progressional continuance of western culture\".",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "c-act" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "pol-p" },
+    { "termId": "tr" },
+    { "termId": "spt-dy" },
+    { "termId": "af-dy" },
+    { "termId": "info-dy" },
+    { "termId": "mt-intr" },
+    { "termId": "per-dy" },
+    { "termId": "attn" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "c-act", "type": "solid" },
+    { "from": "mt-info", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "pol-p", "type": "solid" },
+    { "from": "mt-info", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "mt-info", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "mt-intr", "type": "solid" },
+    { "from": "info-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "attn", "type": "solid" }
+  ]
+}

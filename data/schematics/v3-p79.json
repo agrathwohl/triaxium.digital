@@ -1,0 +1,37 @@
+{
+  "id": "v3-p79",
+  "volume": 3,
+  "section": "CS-7",
+  "page": 79,
+  "subject": "extn",
+  "title": "EXTN.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 79 (CS-7). EXTN (existentialism) is the subject; PROG-CONT (progressional continuance) is the partner. From the subject: PRO-TF-C and DYM-F (dynamic functionalism). From PRO-TF-C: T-C-IMP (time continuum implications). From DYM-F: MT-INFO (multi-information) and PHY-U-P (physical universe particular). From MT-INFO: INTR (interpretation), with the (R) prefix, \"the reality of\". From INTR: POST (postulation) and PROJ-DY (projectional dynamics). From PHY-U-P: POL-DY (political dynamics). From POL-DY: PRI-INT.",
+  "terms": [
+    { "termId": "extn", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "pro-tf-c" },
+    { "termId": "t-c-imp" },
+    { "termId": "dym-f" },
+    { "termId": "mt-info" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "post" },
+    { "termId": "proj-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-dy" },
+    { "termId": "pri-int" }
+  ],
+  "relationships": [
+    { "from": "extn", "to": "prog-cont", "type": "solid" },
+    { "from": "extn", "to": "pro-tf-c", "type": "solid" },
+    { "from": "pro-tf-c", "to": "t-c-imp", "type": "solid" },
+    { "from": "extn", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "post", "type": "solid" },
+    { "from": "intr", "to": "proj-dy", "type": "solid" },
+    { "from": "dym-f", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "pri-int", "type": "solid" }
+  ]
+}

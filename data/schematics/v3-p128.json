@@ -1,0 +1,35 @@
+{
+  "id": "v3-p128",
+  "volume": 3,
+  "section": "ALT(FT)II-22",
+  "page": 128,
+  "subject": "re-st",
+  "title": "RE.ST.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 128 (ALT(FT)II-22). RE-ST (restructuralism) is the subject; TR (transformation) is the partner. The arrow points to an unlabeled dot at the left end of the main line; RE-ST is taken from the title. From the subject: INFO-DY, PROG-CONT (progressional continuance) and T-C-IMP (time continuum implications). From INFO-DY: CRTF-PROG (cross-transfer progressionalism). From PROG-CONT: POL-DY (political dynamics). From POL-DY: ACT-T (actual terms). From T-C-IMP: a second INFO-DY label. From the second INFO-DY: STF (source transfer). From STF: RE-DIF (redefinitions), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "re-st", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "info-dy" },
+    { "termId": "crtf-prog" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "act-t" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-dy-2" },
+    { "termId": "stf" },
+    { "termId": "re-dif", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "tr", "type": "solid" },
+    { "from": "re-st", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "crtf-prog", "type": "solid" },
+    { "from": "re-st", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "act-t", "type": "solid" },
+    { "from": "re-st", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-dy-2", "type": "solid" },
+    { "from": "info-dy-2", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "re-dif", "type": "solid" }
+  ]
+}

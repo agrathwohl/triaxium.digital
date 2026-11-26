@@ -1,0 +1,33 @@
+{
+  "id": "v3-p191",
+  "volume": 3,
+  "section": "EVOL-29",
+  "page": 191,
+  "subject": "extn",
+  "title": "EXTN.------PART.",
+  "type": "crossing",
+  "description": "Chart on book p. 191 (EVOL-29). EXTN (existentialism) is the subject, with the (C) prefix, \"the concept of\"; PART (participation) is the partner. From the subject: MO-DI and DYM-F (dynamic functionalism). From MO-DI: PROG-DY and IST-F-ACT. From DYM-F: RE-ST (restructuralism) and P-PROG (particular progressionalism). From RE-ST: RT-ALGN (reality alignment). From P-PROG: SOC-RT-P (social reality particulars).",
+  "terms": [
+    { "termId": "extn", "isSubject": true, "prefix": "c" },
+    { "termId": "part" },
+    { "termId": "mo-di" },
+    { "termId": "prog-dy" },
+    { "termId": "ist-f-act" },
+    { "termId": "dym-f" },
+    { "termId": "re-st" },
+    { "termId": "rt-algn" },
+    { "termId": "p-prog" },
+    { "termId": "soc-rt-p" }
+  ],
+  "relationships": [
+    { "from": "extn", "to": "part", "type": "solid" },
+    { "from": "extn", "to": "mo-di", "type": "solid" },
+    { "from": "mo-di", "to": "prog-dy", "type": "solid" },
+    { "from": "mo-di", "to": "ist-f-act", "type": "solid" },
+    { "from": "extn", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "rt-algn", "type": "solid" },
+    { "from": "dym-f", "to": "p-prog", "type": "solid" },
+    { "from": "p-prog", "to": "soc-rt-p", "type": "solid" }
+  ]
+}

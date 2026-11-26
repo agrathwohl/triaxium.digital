@@ -1,0 +1,31 @@
+{
+  "id": "v3-p189",
+  "volume": 3,
+  "section": "EVOL-27",
+  "page": 189,
+  "subject": "asp-es",
+  "title": "ASP.------TH.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 189 (EVOL-27). ASP-ES (aspect essence) (the title writes ASP) is the subject; TH-CONT (thrust continuance) is the partner. From the subject: SOC-RT (social reality). From SOC-RT: EXT-F (extended functionalism) and DEC (decentralization). From EXT-F: LANG-DY (language dynamics) and INFO-DS (information dissemination). From INFO-DS: IST-F-AT (isolated focus activism). From DEC: MPT (manipulation), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "asp-es", "isSubject": true },
+    { "termId": "th-cont" },
+    { "termId": "soc-rt" },
+    { "termId": "ext-f" },
+    { "termId": "lang-dy" },
+    { "termId": "info-ds" },
+    { "termId": "ist-f-at" },
+    { "termId": "dec" },
+    { "termId": "mpt", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "asp-es", "to": "th-cont", "type": "solid" },
+    { "from": "asp-es", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "lang-dy", "type": "solid" },
+    { "from": "ext-f", "to": "info-ds", "type": "solid" },
+    { "from": "info-ds", "to": "ist-f-at", "type": "solid" },
+    { "from": "soc-rt", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "mpt", "type": "solid" }
+  ]
+}

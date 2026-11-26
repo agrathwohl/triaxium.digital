@@ -1,0 +1,35 @@
+{
+  "id": "v3-p141",
+  "volume": 3,
+  "section": "ALT(FT)II-35",
+  "page": 141,
+  "subject": "soc-rt-fy",
+  "title": "SOC.RT.DY.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 141 (ALT(FT)II-35). SOC-RT-FY (the title writes SOC-RT-DY) is the subject; TR (transformation) is the partner. From the subject: POL-CON (political consciousness), EXPM (expansionism) and INFO-DY. From POL-CON: ACT (activism). From ACT: RT-DT. From EXPM: CULT-AF-BS (culture affinity basis). From INFO-DY: INFO-FM (information forum) and DOC (documentation), with the (R) prefix, \"the reality of\". From INFO-FM: INTR (interpretation), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "soc-rt-fy", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "pol-con" },
+    { "termId": "act" },
+    { "termId": "rt-dt" },
+    { "termId": "expm" },
+    { "termId": "cult-af-bs" },
+    { "termId": "info-dy" },
+    { "termId": "info-fm" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "doc", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "soc-rt-fy", "to": "tr", "type": "solid" },
+    { "from": "soc-rt-fy", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "act", "type": "solid" },
+    { "from": "act", "to": "rt-dt", "type": "solid" },
+    { "from": "soc-rt-fy", "to": "expm", "type": "solid" },
+    { "from": "expm", "to": "cult-af-bs", "type": "solid" },
+    { "from": "soc-rt-fy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-fm", "type": "solid" },
+    { "from": "info-fm", "to": "intr", "type": "solid" },
+    { "from": "info-dy", "to": "doc", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p101",
+  "volume": 3,
+  "section": "CS-29",
+  "page": 101,
+  "subject": "alt-ft",
+  "title": "ALT.FT.------AFI.",
+  "type": "crossing",
+  "description": "Chart on book p. 101 (CS-29). ALT-FT (alternative functionalism) is the subject; AFI (affinity insight) is the partner. From the subject: TRS (transition), RT-DY (reality dynamics), COS-P (cosmic particulars) and POST (postulation). From TRS: EXP-DY (expansion dynamics). From EXP-DY: TECH-DY (technological dynamics). From RT-DY: INTR (interpretation), with the (R) prefix, \"the reality of\". From INTR: JR-DY (journalism dynamics). From COS-P: ATTN (attraction). From POST: SPT-DY (spiritual dynamics). The label POST has no dot of its own; it sits on the line to SPT-DY.",
+  "terms": [
+    { "termId": "alt-ft", "isSubject": true },
+    { "termId": "afi" },
+    { "termId": "trs" },
+    { "termId": "exp-dy" },
+    { "termId": "tech-dy" },
+    { "termId": "rt-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "jr-dy" },
+    { "termId": "cos-p" },
+    { "termId": "attn" },
+    { "termId": "post" },
+    { "termId": "spt-dy" }
+  ],
+  "relationships": [
+    { "from": "alt-ft", "to": "afi", "type": "solid" },
+    { "from": "alt-ft", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "tech-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "jr-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "attn", "type": "solid" },
+    { "from": "alt-ft", "to": "post", "type": "solid" },
+    { "from": "post", "to": "spt-dy", "type": "solid" }
+  ]
+}

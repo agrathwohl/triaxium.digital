@@ -1,0 +1,37 @@
+{
+  "id": "v3-p304",
+  "volume": 3,
+  "section": "PR.S(RD)II-58",
+  "page": 304,
+  "subject": "intr",
+  "title": "INTR.------MOT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 304 (PR.S(RD)II-58). INTR (interpretation) is the subject; MOT-DY is the partner. From the subject: SOC-RT-DY (social reality dynamics), INFO-ALGN (information alignment) and POL-DY (political dynamics). From SOC-RT-DY: RT-INT-TR (reality initiative traits). From INFO-ALGN: VT-DY (vibrational dynamics) and PRI-INFO (principle information). From PRI-INFO: SPT-DY (spiritual dynamics). From SPT-DY: AFI (affinity insight). From POL-DY: T-C-IMP (time continuum implications). From T-C-IMP: LG-EXT (logical extension).",
+  "terms": [
+    { "termId": "intr", "isSubject": true },
+    { "termId": "mot-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "info-algn" },
+    { "termId": "vt-dy" },
+    { "termId": "pri-info" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "pol-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "lg-ext" }
+  ],
+  "relationships": [
+    { "from": "intr", "to": "mot-dy", "type": "solid" },
+    { "from": "intr", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "rt-int-tr", "type": "solid" },
+    { "from": "intr", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "vt-dy", "type": "solid" },
+    { "from": "info-algn", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "intr", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "lg-ext", "type": "solid" }
+  ]
+}

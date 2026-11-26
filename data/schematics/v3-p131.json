@@ -1,0 +1,39 @@
+{
+  "id": "v3-p131",
+  "volume": 3,
+  "section": "ALT(FT)II-25",
+  "page": 131,
+  "subject": "cos-d",
+  "title": "COS.D.------PART.",
+  "type": "crossing",
+  "description": "Chart on book p. 131 (ALT(FT)II-25). COS-D (cosmic dictates) is the subject; PART (participation) is the partner. From the subject: AFI (affinity insight), TR (transformation) and SPT-DY (spiritual dynamics). From AFI: INFO-DY. From INFO-DY: IF-ST-DY (infra-structure dynamics) and ATTN (attraction). From ATTN: AF-NT (affinity nature). From TR: EXP-CONT-1 (expansion condition (composite focus)). From SPT-DY: APL-DY. From APL-DY: EXB-H-OR (establishing high order). From EXB-H-OR: RIT-DY (ritual dynamics).",
+  "terms": [
+    { "termId": "cos-d", "isSubject": true },
+    { "termId": "part" },
+    { "termId": "afi" },
+    { "termId": "info-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "attn" },
+    { "termId": "af-nt" },
+    { "termId": "tr" },
+    { "termId": "exp-cont-1" },
+    { "termId": "spt-dy" },
+    { "termId": "apl-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "rit-dy" }
+  ],
+  "relationships": [
+    { "from": "cos-d", "to": "part", "type": "solid" },
+    { "from": "cos-d", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "info-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "af-nt", "type": "solid" },
+    { "from": "cos-d", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "exp-cont-1", "type": "solid" },
+    { "from": "cos-d", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "apl-dy", "type": "solid" },
+    { "from": "apl-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "rit-dy", "type": "solid" }
+  ]
+}

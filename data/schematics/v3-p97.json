@@ -1,0 +1,33 @@
+{
+  "id": "v3-p97",
+  "volume": 3,
+  "section": "CS-25",
+  "page": 97,
+  "subject": "lg-dy",
+  "title": "LG.DY.------EXT.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 97 (CS-25). LG-DY (logical dynamics) is the subject, with the (C) prefix, \"the concept of\"; EXT-F (extended functionalism) is the partner. From the subject: PROG-TF-C (progressional transfer cycles) and LANG-DY (language dynamics). From PROG-TF-C: INDIV-DY-TD (individual tendencies). From LANG-DY: MT-IMP (multi-implications). From MT-IMP: MTH (methodology) and PHY-U-C (physical universe context). From MTH: POST (postulation), with the (R) prefix, \"the reality of\". From PHY-U-C: POL-P (political policies).",
+  "terms": [
+    { "termId": "lg-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "ext-f" },
+    { "termId": "prog-tf-c" },
+    { "termId": "indiv-dy-td" },
+    { "termId": "lang-dy" },
+    { "termId": "mt-imp" },
+    { "termId": "mth" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "phy-u-c" },
+    { "termId": "pol-p" }
+  ],
+  "relationships": [
+    { "from": "lg-dy", "to": "ext-f", "type": "solid" },
+    { "from": "lg-dy", "to": "prog-tf-c", "type": "solid" },
+    { "from": "prog-tf-c", "to": "indiv-dy-td", "type": "solid" },
+    { "from": "lg-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "mt-imp", "type": "solid" },
+    { "from": "mt-imp", "to": "mth", "type": "solid" },
+    { "from": "mth", "to": "post", "type": "solid" },
+    { "from": "mt-imp", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "pol-p", "type": "solid" }
+  ]
+}

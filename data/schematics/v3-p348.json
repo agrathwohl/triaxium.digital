@@ -1,0 +1,37 @@
+{
+  "id": "v3-p348",
+  "volume": 3,
+  "section": "PMBA-12",
+  "page": 348,
+  "subject": "cult-info-f",
+  "title": "CULT.INFO.F.------(R)INTR.",
+  "type": "crossing",
+  "description": "Chart on book p. 348 (PMBA-12). CULT-INFO-F (culture information focus) is the subject; INTR (interpretation) is the partner, with the (R) prefix, \"the reality of\". From the subject: PROG-CONT (progressional continuance), EXP-DY (expansion dynamics) and SPT-DY (spiritual dynamics). From PROG-CONT: POL-DY (political dynamics). From POL-DY: DOC (documentation). From EXP-DY: SG (source initiation). From SG: PROJ-DY (projectional dynamics). From SPT-DY: CULT-AF-BS (culture affinity basis) and AF-DY (affinity dynamics). From AF-DY: AFI (affinity insight).",
+  "terms": [
+    { "termId": "cult-info-f", "isSubject": true },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "doc" },
+    { "termId": "exp-dy" },
+    { "termId": "sg" },
+    { "termId": "proj-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "cult-af-bs" },
+    { "termId": "af-dy" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "cult-info-f", "to": "intr", "type": "solid" },
+    { "from": "cult-info-f", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "doc", "type": "solid" },
+    { "from": "cult-info-f", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "proj-dy", "type": "solid" },
+    { "from": "cult-info-f", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "spt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "afi", "type": "solid" }
+  ]
+}

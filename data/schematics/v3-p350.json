@@ -1,0 +1,39 @@
+{
+  "id": "v3-p350",
+  "volume": 3,
+  "section": "PMBA-14",
+  "page": 350,
+  "subject": "pri-vt-td",
+  "title": "PRI.VT.TD.------MOT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 350 (PMBA-14). PRI-VT-TD (principle vibrational tendencies) is the subject; MOT-DY is the partner. From the subject: TR (transformation), ATTN (attraction) and INFO-DY. From TR: PART (participation). From PART: EXP-DY (expansion dynamics). From ATTN: AFI (affinity insight). From AFI: COS-P (cosmic particulars). From COS-P: WO-EXP-PRI (world expansion principle). From WO-EXP-PRI: SF-RZ (self-realization). From INFO-DY: IST-F (isolated focus), with the (R) prefix, \"the reality of\". From IST-F: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "pri-vt-td", "isSubject": true },
+    { "termId": "mot-dy" },
+    { "termId": "tr" },
+    { "termId": "part" },
+    { "termId": "exp-dy" },
+    { "termId": "attn" },
+    { "termId": "afi" },
+    { "termId": "cos-p" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "sf-rz" },
+    { "termId": "info-dy" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "pri-vt-td", "to": "mot-dy", "type": "solid" },
+    { "from": "pri-vt-td", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "part", "type": "solid" },
+    { "from": "part", "to": "exp-dy", "type": "solid" },
+    { "from": "pri-vt-td", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "sf-rz", "type": "solid" },
+    { "from": "pri-vt-td", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "apl-dt", "type": "solid" }
+  ]
+}

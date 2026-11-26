@@ -1,0 +1,33 @@
+{
+  "id": "v3-p87",
+  "volume": 3,
+  "section": "CS-15",
+  "page": 87,
+  "subject": "sci-dym",
+  "title": "(R)SCI.DYM.------POL.ST.",
+  "type": "crossing",
+  "description": "Chart on book p. 87 (CS-15). SCI-DYM (scientific dynamics) is the subject, with the (R) prefix, \"the reality of\"; POL-ST (political state) is the partner. From the subject: PART (participation) and INFO-DE-B (information degrees). From PART: SOC-RT (social reality). From SOC-RT: POL-P (political policies). From POL-P: AF-NT (affinity nature). From INFO-DE-B: IST-S-ALGN (isolated systematic alignment). From IST-S-ALGN: VT-PLT (vibrational platform). From VT-PLT: IST-F (isolated focus).",
+  "terms": [
+    { "termId": "sci-dym", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-st" },
+    { "termId": "part" },
+    { "termId": "soc-rt" },
+    { "termId": "pol-p" },
+    { "termId": "af-nt" },
+    { "termId": "info-de-b" },
+    { "termId": "ist-s-algn" },
+    { "termId": "vt-plt" },
+    { "termId": "ist-f" }
+  ],
+  "relationships": [
+    { "from": "sci-dym", "to": "pol-st", "type": "solid" },
+    { "from": "sci-dym", "to": "part", "type": "solid" },
+    { "from": "part", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "af-nt", "type": "solid" },
+    { "from": "sci-dym", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "ist-f", "type": "solid" }
+  ]
+}

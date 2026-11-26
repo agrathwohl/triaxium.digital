@@ -1,0 +1,43 @@
+{
+  "id": "v3-p171",
+  "volume": 3,
+  "section": "EVOL-9",
+  "page": 171,
+  "subject": "jr-dym",
+  "title": "JR.DYM.------POL.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 171 (EVOL-9). JR-DYM (journalism dynamics) is the subject; POL-P (political policies) is the partner. From the subject: EXP-DY (expansion dynamics), SOC-RT (social reality) and SPT-DY (spiritual dynamics). From EXP-DY: EXP-CONT-1 (expansion condition (composite focus)). From EXP-CONT-1: INFO-FM (information forum). From SOC-RT: CN-INFO (controlled information). From CN-INFO: INTR (interpretation), with the (R) prefix, \"the reality of\". From INTR: RE-DOC (redocumentation). From SPT-DY: C-CULT-AT (composite culture attitude). From C-CULT-AT: C-INFO (composite information) and AF-NT (affinity nature). From C-INFO: H-PR. From AF-NT: INFO-TRNS (information transference), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "jr-dym", "isSubject": true },
+    { "termId": "pol-p" },
+    { "termId": "exp-dy" },
+    { "termId": "exp-cont-1" },
+    { "termId": "info-fm" },
+    { "termId": "soc-rt" },
+    { "termId": "cn-info" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "re-doc" },
+    { "termId": "spt-dy" },
+    { "termId": "c-cult-at" },
+    { "termId": "c-info" },
+    { "termId": "h-pr" },
+    { "termId": "af-nt" },
+    { "termId": "info-trns", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "jr-dym", "to": "pol-p", "type": "solid" },
+    { "from": "jr-dym", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont-1", "to": "info-fm", "type": "solid" },
+    { "from": "jr-dym", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "re-doc", "type": "solid" },
+    { "from": "jr-dym", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "c-cult-at", "type": "solid" },
+    { "from": "c-cult-at", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "h-pr", "type": "solid" },
+    { "from": "c-cult-at", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "info-trns", "type": "solid" }
+  ]
+}

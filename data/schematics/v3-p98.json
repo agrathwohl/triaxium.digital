@@ -1,0 +1,35 @@
+{
+  "id": "v3-p98",
+  "volume": 3,
+  "section": "CS-26",
+  "page": 98,
+  "subject": "af-td",
+  "title": "AF.TD.------V.SY.",
+  "type": "crossing",
+  "description": "Chart on book p. 98 (CS-26). AF-TD (affinity tendencies) is the subject; V-SY (value system) is the partner. From the subject: POL-DY (political dynamics), INDIV-TD (individual tendencies) and APL-DT (application dictates). From POL-DY: POL-P (political policies), with the (R) prefix, \"the reality of\". From INDIV-TD: T-C-IMP (time continuum implications). From T-C-IMP: SOC-RT-P (social reality particulars). From SOC-RT-P: PART (participation). From APL-DT: RT-INT-TR (reality initiative traits). From RT-INT-TR: SPT-DY (spiritual dynamics).",
+  "terms": [
+    { "termId": "af-td", "isSubject": true },
+    { "termId": "v-sy" },
+    { "termId": "pol-dy" },
+    { "termId": "pol-p", "prefix": "r" },
+    { "termId": "indiv-td" },
+    { "termId": "t-c-imp" },
+    { "termId": "soc-rt-p" },
+    { "termId": "part" },
+    { "termId": "apl-dt" },
+    { "termId": "rt-int-tr" },
+    { "termId": "spt-dy" }
+  ],
+  "relationships": [
+    { "from": "af-td", "to": "v-sy", "type": "solid" },
+    { "from": "af-td", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "pol-p", "type": "solid" },
+    { "from": "af-td", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "part", "type": "solid" },
+    { "from": "af-td", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "spt-dy", "type": "solid" }
+  ]
+}

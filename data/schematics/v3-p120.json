@@ -1,0 +1,37 @@
+{
+  "id": "v3-p120",
+  "volume": 3,
+  "section": "ALT(FT)II-14",
+  "page": 120,
+  "subject": "hi-p",
+  "title": "HI.P.------IF.ST.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 120 (ALT(FT)II-14). HI-P (high purpose) is the subject; IF-ST-DY (infra-structure dynamics) is the partner. From the subject: POL-DY (political dynamics), ALT-FT (alternative functionalism) and INFO-DE-B (information degrees). From POL-DY: PART (participation). From PART: RT-DY (reality dynamics). From ALT-FT: TR (transformation). From TR: C-HM (composite humanity). From INFO-DE-B: SPT-DY (spiritual dynamics). From SPT-DY: RT-DY-2 (reality dynamics, the second rt.dy. label). From RT-DY-2: APL-DY.",
+  "terms": [
+    { "termId": "hi-p", "isSubject": true },
+    { "termId": "if-st-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "part" },
+    { "termId": "rt-dy" },
+    { "termId": "alt-ft" },
+    { "termId": "tr" },
+    { "termId": "c-hm" },
+    { "termId": "info-de-b" },
+    { "termId": "spt-dy" },
+    { "termId": "rt-dy-2" },
+    { "termId": "apl-dy" }
+  ],
+  "relationships": [
+    { "from": "hi-p", "to": "if-st-dy", "type": "solid" },
+    { "from": "hi-p", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "rt-dy", "type": "solid" },
+    { "from": "hi-p", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-hm", "type": "solid" },
+    { "from": "hi-p", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "rt-dy-2", "type": "solid" },
+    { "from": "rt-dy-2", "to": "apl-dy", "type": "solid" }
+  ]
+}

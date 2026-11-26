@@ -1,0 +1,37 @@
+{
+  "id": "v1-p47-2",
+  "volume": 1,
+  "section": "WM-23",
+  "page": 47,
+  "subject": "lk-imp",
+  "title": "LK.IMP.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 47 (WM-23). LK-IMP (linkage implications) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. The straight main line from the subject to C-CONT has a junction labeled WO-EXP-PRI (world expansion principle). From the subject: WO-EXP-PRI. From WO-EXP-PRI: the partner C-CONT and PRI-INFO (principle information). From PRI-INFO: TH-CONT (thrust continuance), ACC-DY (accelerated dynamics) and MT-INFO (multi-information). From TH-CONT: DYM-F (dynamic functionalism). From DYM-F: PR-TRS. From PR-TRS: SOC-RT (social reality). From MT-INFO: VT-DY (vibrational dynamics). From VT-DY: AF-DY (affinity dynamics).",
+  "terms": [
+    { "termId": "lk-imp", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "pri-info" },
+    { "termId": "th-cont" },
+    { "termId": "dym-f" },
+    { "termId": "pr-trs" },
+    { "termId": "soc-rt" },
+    { "termId": "acc-dy" },
+    { "termId": "mt-info" },
+    { "termId": "vt-dy" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "lk-imp", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "c-cont", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "pr-trs", "type": "solid" },
+    { "from": "pr-trs", "to": "soc-rt", "type": "solid" },
+    { "from": "pri-info", "to": "acc-dy", "type": "solid" },
+    { "from": "pri-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-dy", "type": "solid" }
+  ]
+}

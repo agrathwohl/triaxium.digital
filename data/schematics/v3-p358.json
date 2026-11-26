@@ -1,0 +1,37 @@
+{
+  "id": "v3-p358",
+  "volume": 3,
+  "section": "PMBA-22",
+  "page": 358,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.------CULT.INFO.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 358 (PMBA-22). RT-ALGN (reality alignment) is the subject; CULT-INFO-F (culture information focus) is the partner. From the subject: TR (transformation), C-CONT (composite continuance) and VT-DY (vibrational dynamics). From TR: C-INFO (composite information). From C-INFO: INFO-INTG (information integration). From C-CONT: EXP-DY (expansion dynamics). From EXP-DY: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: PART (participation). From VT-DY: CULT-AF-BS (culture affinity basis). From CULT-AF-BS: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "rt-algn", "isSubject": true },
+    { "termId": "cult-info-f" },
+    { "termId": "tr" },
+    { "termId": "c-info" },
+    { "termId": "info-intg" },
+    { "termId": "c-cont" },
+    { "termId": "exp-dy" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "part" },
+    { "termId": "vt-dy" },
+    { "termId": "cult-af-bs" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "rt-algn", "to": "cult-info-f", "type": "solid" },
+    { "from": "rt-algn", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "info-intg", "type": "solid" },
+    { "from": "rt-algn", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "part", "type": "solid" },
+    { "from": "rt-algn", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "apl-dt", "type": "solid" }
+  ]
+}

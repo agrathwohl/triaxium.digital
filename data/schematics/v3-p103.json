@@ -1,0 +1,39 @@
+{
+  "id": "v3-p103",
+  "volume": 3,
+  "section": "CS-31",
+  "page": 103,
+  "subject": "ext-ft",
+  "title": "EXT.FT.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 103 (CS-31). EXT-FT (extended functionalism) is the subject; C-CONT (composite continuance) is the partner. From the subject: SCI-DY (scientific dynamics), EXB-H-OR (establishing high order) and RT-INT-TR (reality initiative traits). From SCI-DY: CULT-SOLD (culture solidification). From CULT-SOLD: IST-PT (isolated particulars). From IST-PT: SOC-PR (social programs), with the (C) prefix, \"the concept of\", written after the label. From EXB-H-OR: AFI (affinity insight). From AFI: VT-DY (vibrational dynamics). From RT-INT-TR: MT-INFO (multi-information). From MT-INFO: POL-P (political policies). From POL-P: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "ext-ft", "isSubject": true },
+    { "termId": "c-cont" },
+    { "termId": "sci-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "ist-pt" },
+    { "termId": "soc-pr", "prefix": "c" },
+    { "termId": "exb-h-or" },
+    { "termId": "afi" },
+    { "termId": "vt-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "mt-info" },
+    { "termId": "pol-p" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "ext-ft", "to": "c-cont", "type": "solid" },
+    { "from": "ext-ft", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "ist-pt", "type": "solid" },
+    { "from": "ist-pt", "to": "soc-pr", "type": "solid" },
+    { "from": "ext-ft", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "vt-dy", "type": "solid" },
+    { "from": "ext-ft", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "apl-dt", "type": "solid" }
+  ]
+}

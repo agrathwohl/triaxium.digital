@@ -1,0 +1,35 @@
+{
+  "id": "v3-p300-3",
+  "volume": 3,
+  "section": "PR.S(RD)II-54",
+  "page": 300,
+  "subject": "lang",
+  "title": "(R)LANG.------POL.P.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 300 (PR.S(RD)II-54). LANG (language) is the subject, with the (R) prefix, \"the reality of\"; POL-P (political policies) is the partner. From the subject: CULT-INFO-DT, AF-DY (affinity dynamics) and TRS (transition). From CULT-INFO-DT: INFO-DE-B (information degrees). From INFO-DE-B: INFO-F (information focus). From AF-DY: C-INFO (composite information). From C-INFO: PER-DY (perception dynamics). From TRS: VT-DY (vibrational dynamics). From VT-DY: EXP-DY (expansion dynamics).",
+  "terms": [
+    { "termId": "lang", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-p" },
+    { "termId": "cult-info-dt" },
+    { "termId": "info-de-b" },
+    { "termId": "info-f" },
+    { "termId": "af-dy" },
+    { "termId": "c-info" },
+    { "termId": "per-dy" },
+    { "termId": "trs" },
+    { "termId": "vt-dy" },
+    { "termId": "exp-dy" }
+  ],
+  "relationships": [
+    { "from": "lang", "to": "pol-p", "type": "solid" },
+    { "from": "lang", "to": "cult-info-dt", "type": "solid" },
+    { "from": "cult-info-dt", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "info-f", "type": "solid" },
+    { "from": "lang", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "per-dy", "type": "solid" },
+    { "from": "lang", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "exp-dy", "type": "solid" }
+  ]
+}

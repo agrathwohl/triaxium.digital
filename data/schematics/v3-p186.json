@@ -1,0 +1,33 @@
+{
+  "id": "v3-p186",
+  "volume": 3,
+  "section": "EVOL-24",
+  "page": 186,
+  "subject": "afn",
+  "title": "AFN.------ASP.ES.",
+  "type": "crossing",
+  "description": "Chart on book p. 186 (EVOL-24). AFN (affinity negation) is the subject, with the (C) prefix, \"the concept of\"; ASP-ES (aspect essence) is the partner. From the subject: AFL (affinity alignment). INT (intention), with the (R) prefix, \"the reality of\", is on a dotted line from the subject. From AFL: TRS (transition), with the (P) prefix, \"point of idea completion\". From TRS: TF-SH (transfer shifts), with the (C) prefix, \"the concept of\", PHY-U-C (physical universe context), INDIV-TD (individual tendencies) and POL-P (political policies), with the (P-AT) prefix, \"point of activation\". POL-SIGN (political significance) is on a dotted line from TRS.",
+  "terms": [
+    { "termId": "afn", "isSubject": true, "prefix": "c" },
+    { "termId": "asp-es" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "afl" },
+    { "termId": "trs", "prefix": "p" },
+    { "termId": "pol-sign" },
+    { "termId": "tf-sh", "prefix": "c" },
+    { "termId": "phy-u-c" },
+    { "termId": "indiv-td" },
+    { "termId": "pol-p", "prefix": "p-at" }
+  ],
+  "relationships": [
+    { "from": "afn", "to": "asp-es", "type": "solid" },
+    { "from": "afn", "to": "int", "type": "dashed" },
+    { "from": "afn", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "pol-sign", "type": "dashed" },
+    { "from": "trs", "to": "tf-sh", "type": "solid" },
+    { "from": "trs", "to": "phy-u-c", "type": "solid" },
+    { "from": "trs", "to": "indiv-td", "type": "solid" },
+    { "from": "trs", "to": "pol-p", "type": "solid" }
+  ]
+}

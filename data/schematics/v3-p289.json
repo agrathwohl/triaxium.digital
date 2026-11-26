@@ -1,0 +1,39 @@
+{
+  "id": "v3-p289",
+  "volume": 3,
+  "section": "PR.S(RD)II-43",
+  "page": 289,
+  "subject": "app-rdef",
+  "title": "APP.RDEF.------IST.S.ALGN.",
+  "type": "crossing",
+  "description": "Chart on book p. 289 (PR.S(RD)II-43). APP-RDEF (applied redefinitions) is the subject; IST-S-ALGN (isolated systematic alignment) is the partner. From the subject: IF-ST-DY (infra-structure dynamics), CULT-INFO-BS (culture information basis) and C-CONT (composite continuance). From IF-ST-DY: INFO-DE-B (information degrees). From INFO-DE-B: COS-DT. From CULT-INFO-BS: RT-DY (reality dynamics). From RT-DY: SOC-RT-P (social reality particulars). From SOC-RT-P: EXP-DY (expansion dynamics). From C-CONT: TR-INFO (trans-information). From TR-INFO: RE-ST (restructuralism). From RE-ST: PRI-INFO (principle information).",
+  "terms": [
+    { "termId": "app-rdef", "isSubject": true },
+    { "termId": "ist-s-algn" },
+    { "termId": "if-st-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "cos-dt" },
+    { "termId": "cult-info-bs" },
+    { "termId": "rt-dy" },
+    { "termId": "soc-rt-p" },
+    { "termId": "exp-dy" },
+    { "termId": "c-cont" },
+    { "termId": "tr-info" },
+    { "termId": "re-st" },
+    { "termId": "pri-info" }
+  ],
+  "relationships": [
+    { "from": "app-rdef", "to": "ist-s-algn", "type": "solid" },
+    { "from": "app-rdef", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "cos-dt", "type": "solid" },
+    { "from": "app-rdef", "to": "cult-info-bs", "type": "solid" },
+    { "from": "cult-info-bs", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "exp-dy", "type": "solid" },
+    { "from": "app-rdef", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "pri-info", "type": "solid" }
+  ]
+}

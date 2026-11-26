@@ -1,0 +1,37 @@
+{
+  "id": "v3-p286-2",
+  "volume": 3,
+  "section": "PR.S(RD)II-40",
+  "page": 286,
+  "subject": "de-sptl",
+  "title": "DE.SPTL.------ALT.FT.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 286 (PR.S(RD)II-40). DE-SPTL (despiritualization) is the subject; ALT-FT (alternative functionalism) is the partner. From the subject: INFO-DY, EXP-CONT-2 (expansion condition (isolated focus)) and EXTN-OB (existential observation). From INFO-DY: BSCI. From BSCI: IF-ST-DY (infra-structure dynamics) and METH. From EXP-CONT-2: INDIV-TD (individual tendencies). From EXTN-OB: PART (participation). From PART: INFO-COMP (information compression) and PER-PHY-U-FUND (perceived physical universe fundamental).",
+  "terms": [
+    { "termId": "de-sptl", "isSubject": true },
+    { "termId": "alt-ft" },
+    { "termId": "info-dy" },
+    { "termId": "bsci" },
+    { "termId": "if-st-dy" },
+    { "termId": "meth" },
+    { "termId": "exp-cont-2" },
+    { "termId": "indiv-td" },
+    { "termId": "extn-ob" },
+    { "termId": "part" },
+    { "termId": "info-comp" },
+    { "termId": "per-phy-u-fund" }
+  ],
+  "relationships": [
+    { "from": "de-sptl", "to": "alt-ft", "type": "solid" },
+    { "from": "de-sptl", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "bsci", "type": "solid" },
+    { "from": "bsci", "to": "if-st-dy", "type": "solid" },
+    { "from": "bsci", "to": "meth", "type": "solid" },
+    { "from": "de-sptl", "to": "exp-cont-2", "type": "solid" },
+    { "from": "exp-cont-2", "to": "indiv-td", "type": "solid" },
+    { "from": "de-sptl", "to": "extn-ob", "type": "solid" },
+    { "from": "extn-ob", "to": "part", "type": "solid" },
+    { "from": "part", "to": "info-comp", "type": "solid" },
+    { "from": "part", "to": "per-phy-u-fund", "type": "solid" }
+  ]
+}

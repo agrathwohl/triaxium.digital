@@ -1,0 +1,35 @@
+{
+  "id": "v1-p62",
+  "volume": 1,
+  "section": "WAM-4",
+  "page": 62,
+  "subject": "post",
+  "title": "(untitled)",
+  "type": "crossing",
+  "description": "Chart on book p. 62 (WAM-4). POST (postulation) is the subject, with the (R) prefix, \"the reality of\" (the chart has no arrow); the chart has no title; its main line runs to PROG-CONT (progressional continuance). From the subject: CUL-DY and POL-DY (political dynamics). From CUL-DY: PER-VT-U-FUND (perceived vibrational universe fundamental). From PER-VT-U-FUND: DY. From DY: DEF (definition) and STY (style). From POL-DY: MT-IF-DB (multi-informational degree basis) and AFY-DY. From AFY-DY: JR-DYM (journalism dynamics).",
+  "terms": [
+    { "termId": "post", "isSubject": true, "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "cul-dy" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "dy" },
+    { "termId": "def" },
+    { "termId": "sty" },
+    { "termId": "pol-dy" },
+    { "termId": "mt-if-db" },
+    { "termId": "afy-dy" },
+    { "termId": "jr-dym" }
+  ],
+  "relationships": [
+    { "from": "post", "to": "prog-cont", "type": "solid" },
+    { "from": "post", "to": "cul-dy", "type": "solid" },
+    { "from": "cul-dy", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "dy", "type": "solid" },
+    { "from": "dy", "to": "def", "type": "solid" },
+    { "from": "dy", "to": "sty", "type": "solid" },
+    { "from": "post", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "mt-if-db", "type": "solid" },
+    { "from": "pol-dy", "to": "afy-dy", "type": "solid" },
+    { "from": "afy-dy", "to": "jr-dym", "type": "solid" }
+  ]
+}

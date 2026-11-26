@@ -1,0 +1,37 @@
+{
+  "id": "v3-p99-2",
+  "volume": 3,
+  "section": "CS-27",
+  "page": 99,
+  "subject": "hi-p",
+  "title": "EXP.DY.------HI.P.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 99 (CS-27). HI-P (high purpose) is the subject; EXP-DY (expansion dynamics) is the partner. From the subject: FUND-DYM (fundamental dynamics), UNF-PI (unification (positively intended)) and SOC-RT (social reality); FUND-DYM carries the (R) prefix, \"the reality of\". From FUND-DYM: TRS (transition). From TRS: SOC-RT-P (social reality particulars). From SOC-RT-P: MOT-DY. From UNF-PI: EXB-H-OR (establishing high order). From EXB-H-OR: SPT-DT. From SOC-RT: C-INFO (composite information). From C-INFO: DYM-SPT (dynamic spiritualism).",
+  "terms": [
+    { "termId": "hi-p", "isSubject": true },
+    { "termId": "exp-dy" },
+    { "termId": "fund-dym", "prefix": "r" },
+    { "termId": "trs" },
+    { "termId": "soc-rt-p" },
+    { "termId": "mot-dy" },
+    { "termId": "unf-pi" },
+    { "termId": "exb-h-or" },
+    { "termId": "spt-dt" },
+    { "termId": "soc-rt" },
+    { "termId": "c-info" },
+    { "termId": "dym-spt" }
+  ],
+  "relationships": [
+    { "from": "hi-p", "to": "exp-dy", "type": "solid" },
+    { "from": "hi-p", "to": "fund-dym", "type": "solid" },
+    { "from": "fund-dym", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "mot-dy", "type": "solid" },
+    { "from": "hi-p", "to": "unf-pi", "type": "solid" },
+    { "from": "unf-pi", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "spt-dt", "type": "solid" },
+    { "from": "hi-p", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "dym-spt", "type": "solid" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v3-p308",
+  "volume": 3,
+  "section": "PR.S(RD)II-62",
+  "page": 308,
+  "subject": "lang-dy",
+  "title": "LANG.DY.------STF.",
+  "type": "crossing",
+  "description": "Chart on book p. 308 (PR.S(RD)II-62). LANG-DY (language dynamics) is the subject; STF (source transfer) is the partner. From the subject: AFI (affinity insight), EXP-DY (expansion dynamics) and MT-INFO (multi-information). From AFI: AF-POST (affinity postulation). From AF-POST: PRI-INFO (principle information). From EXP-DY: TH-CONT (thrust continuance). From TH-CONT: RT-ALGN (reality alignment) and SCI-DY (scientific dynamics). From SCI-DY: ALT-F (alternative functionalism). From MT-INFO: P-FC (particular focus). From P-FC: STY (style). A short line from the PRI-INFO line ends in a dot with no label.",
+  "terms": [
+    { "termId": "lang-dy", "isSubject": true },
+    { "termId": "stf" },
+    { "termId": "afi" },
+    { "termId": "af-post" },
+    { "termId": "pri-info" },
+    { "termId": "exp-dy" },
+    { "termId": "th-cont" },
+    { "termId": "rt-algn" },
+    { "termId": "sci-dy" },
+    { "termId": "alt-f" },
+    { "termId": "mt-info" },
+    { "termId": "p-fc" },
+    { "termId": "sty" }
+  ],
+  "relationships": [
+    { "from": "lang-dy", "to": "stf", "type": "solid" },
+    { "from": "lang-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "pri-info", "type": "solid" },
+    { "from": "lang-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "rt-algn", "type": "solid" },
+    { "from": "th-cont", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "alt-f", "type": "solid" },
+    { "from": "lang-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "p-fc", "type": "solid" },
+    { "from": "p-fc", "to": "sty", "type": "solid" }
+  ]
+}

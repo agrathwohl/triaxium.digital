@@ -1,0 +1,41 @@
+{
+  "id": "v1-p47-3",
+  "volume": 1,
+  "section": "WM-23",
+  "page": 47,
+  "subject": "rt-algn",
+  "title": "RT.ALGN.------WO.EXP.PRIN.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 47 (WM-23). RT-ALGN (reality alignment) is the subject, with the (C) prefix, \"the concept of\"; WO-EXP-PRIN is the partner. From the subject: EXP-DY (expansion dynamics) and VT-PLT (vibrational platform). From EXP-DY: LANG-DY (language dynamics), IST-F-ACT and TR (transformation). From LANG-DY: LK-IMP (linkage implications) and LG-DY (logical dynamics). From IST-F-ACT: V-SY (value system). From V-SY: INT (intention), with the (R) prefix, \"the reality of\". From TR: PROG-CONT (progressional continuance). From VT-PLT: INFO-DY. From INFO-DY: C-CONT (composite continuance).",
+  "terms": [
+    { "termId": "rt-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "wo-exp-prin" },
+    { "termId": "exp-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "lg-dy" },
+    { "termId": "ist-f-act" },
+    { "termId": "v-sy" },
+    { "termId": "int", "prefix": "r" },
+    { "termId": "tr" },
+    { "termId": "prog-cont" },
+    { "termId": "vt-plt" },
+    { "termId": "info-dy" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "rt-algn", "to": "wo-exp-prin", "type": "solid" },
+    { "from": "rt-algn", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lang-dy", "to": "lg-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "ist-f-act", "type": "solid" },
+    { "from": "ist-f-act", "to": "v-sy", "type": "solid" },
+    { "from": "v-sy", "to": "int", "type": "solid" },
+    { "from": "exp-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "prog-cont", "type": "solid" },
+    { "from": "rt-algn", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-cont", "type": "solid" }
+  ]
+}

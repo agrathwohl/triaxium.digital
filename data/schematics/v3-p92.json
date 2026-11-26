@@ -1,0 +1,37 @@
+{
+  "id": "v3-p92",
+  "volume": 3,
+  "section": "CS-20",
+  "page": 92,
+  "subject": "bia",
+  "title": "BIA.------EXT.FT.",
+  "type": "crossing",
+  "description": "Chart on book p. 92 (CS-20). BIA (bi-aitional) is the subject; EXT-FT (extended functionalism) is the partner. From the subject: INFO-DY, TR (transformation) and SOC-RT-DY (social reality dynamics). From INFO-DY: INFO-SO-D, with the (P) prefix, \"point of idea completion\", and AF-NT (affinity nature). From AF-NT: AGT (agreement). From AGT: IST-F (isolated focus), with the (R) prefix, \"the reality of\". From TR: RT-DY (reality dynamics). From RT-DY: PROG-CONT (progressional continuance). From SOC-RT-DY: MULT-DEVF.",
+  "terms": [
+    { "termId": "bia", "isSubject": true },
+    { "termId": "ext-ft" },
+    { "termId": "info-dy" },
+    { "termId": "info-so-d", "prefix": "p" },
+    { "termId": "af-nt" },
+    { "termId": "agt" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "tr" },
+    { "termId": "rt-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mult-devf" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "ext-ft", "type": "solid" },
+    { "from": "bia", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "info-so-d", "type": "solid" },
+    { "from": "info-dy", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "agt", "type": "solid" },
+    { "from": "agt", "to": "ist-f", "type": "solid" },
+    { "from": "bia", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "bia", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "mult-devf", "type": "solid" }
+  ]
+}

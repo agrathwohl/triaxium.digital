@@ -1,0 +1,37 @@
+{
+  "id": "v3-p300-1",
+  "volume": 3,
+  "section": "PR.S(RD)II-54",
+  "page": 300,
+  "subject": "ist-f",
+  "title": "IST.F.------JR.DYN.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 300 (PR.S(RD)II-54). IST-F (isolated focus) is the subject; JR-DYM (journalism dynamics) is the partner (the title writes JR.DYN.). From the subject: INFO-COMP (information compression), VT-DY (vibrational dynamics), SOC-RT-DT (social reality dictates) and TRS (transition). From INFO-COMP: CN-INFO (controlled information). From VT-DY: SPT-DY (spiritual dynamics). From SPT-DY: V-SY (value system). From SOC-RT-DT: PART (participation). From TRS: DE-SPTL (despiritualization). From DE-SPTL: DIS-C-CT (disintegration of a culture’s center).",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true },
+    { "termId": "jr-dym" },
+    { "termId": "info-comp" },
+    { "termId": "cn-info" },
+    { "termId": "vt-dy" },
+    { "termId": "spt-dy" },
+    { "termId": "v-sy" },
+    { "termId": "soc-rt-dt" },
+    { "termId": "part" },
+    { "termId": "trs" },
+    { "termId": "de-sptl" },
+    { "termId": "dis-c-ct" }
+  ],
+  "relationships": [
+    { "from": "ist-f", "to": "jr-dym", "type": "solid" },
+    { "from": "ist-f", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "cn-info", "type": "solid" },
+    { "from": "ist-f", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "v-sy", "type": "solid" },
+    { "from": "ist-f", "to": "soc-rt-dt", "type": "solid" },
+    { "from": "soc-rt-dt", "to": "part", "type": "solid" },
+    { "from": "ist-f", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "de-sptl", "type": "solid" },
+    { "from": "de-sptl", "to": "dis-c-ct", "type": "solid" }
+  ]
+}

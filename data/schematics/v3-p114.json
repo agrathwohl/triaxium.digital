@@ -1,0 +1,39 @@
+{
+  "id": "v3-p114",
+  "volume": 3,
+  "section": "ALT(FT)II-8",
+  "page": 114,
+  "subject": "ext-dy",
+  "title": "EXT.DY.------AFI.",
+  "type": "crossing",
+  "description": "Chart on book p. 114 (ALT(FT)II-8). EXT-DY (extended dynamics) is the subject; AFI (affinity insight) is the partner. From the subject: SOC-RT-DY (social reality dynamics), ACT (activism) and H-PR. From SOC-RT-DY: AFI-2 (affinity insight—second degree). From AFI-2: INFO-DE (information degrees). From INFO-DE: MT-DEVF (multiple diversification). From ACT: INFO-DY. From INFO-DY: C-RH (composite research). From C-RH: INFO-INTG (information integration). From INFO-INTG: ALT-FT (alternative functionalism). From H-PR: OBS (observation).",
+  "terms": [
+    { "termId": "ext-dy", "isSubject": true },
+    { "termId": "afi" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "afi-2" },
+    { "termId": "info-de" },
+    { "termId": "mt-devf" },
+    { "termId": "act" },
+    { "termId": "info-dy" },
+    { "termId": "c-rh" },
+    { "termId": "info-intg" },
+    { "termId": "alt-ft" },
+    { "termId": "h-pr" },
+    { "termId": "obs" }
+  ],
+  "relationships": [
+    { "from": "ext-dy", "to": "afi", "type": "solid" },
+    { "from": "ext-dy", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "info-de", "type": "solid" },
+    { "from": "info-de", "to": "mt-devf", "type": "solid" },
+    { "from": "ext-dy", "to": "act", "type": "solid" },
+    { "from": "act", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-rh", "type": "solid" },
+    { "from": "c-rh", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "alt-ft", "type": "solid" },
+    { "from": "ext-dy", "to": "h-pr", "type": "solid" },
+    { "from": "h-pr", "to": "obs", "type": "solid" }
+  ]
+}

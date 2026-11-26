@@ -1,0 +1,37 @@
+{
+  "id": "v3-p170",
+  "volume": 3,
+  "section": "EVOL-8",
+  "page": 170,
+  "subject": "ist-f",
+  "title": "IST.F.------EXT.FT.",
+  "type": "crossing",
+  "description": "Chart on book p. 170 (EVOL-8). IST-F (isolated focus) is the subject; EXT-FT (extended functionalism) is the partner. From the subject: POST (postulation), BIA (bi-aitional) and TRS (transition). From POST: CULT-INFO-B (culture information basis). From CULT-INFO-B: INTR (interpretation), with the (R) prefix, \"the reality of\". From INTR: APP-RDEF (applied redefinitions). From BIA: SPT-DY (spiritual dynamics) and C-CONT (composite continuance). From SPT-DY: AFI (affinity insight). From TRS: C-RH (composite research).",
+  "terms": [
+    { "termId": "ist-f", "isSubject": true },
+    { "termId": "ext-ft" },
+    { "termId": "post" },
+    { "termId": "cult-info-b" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "app-rdef" },
+    { "termId": "bia" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "c-cont" },
+    { "termId": "trs" },
+    { "termId": "c-rh" }
+  ],
+  "relationships": [
+    { "from": "ist-f", "to": "ext-ft", "type": "solid" },
+    { "from": "ist-f", "to": "post", "type": "solid" },
+    { "from": "post", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "app-rdef", "type": "solid" },
+    { "from": "ist-f", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "bia", "to": "c-cont", "type": "solid" },
+    { "from": "ist-f", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "c-rh", "type": "solid" }
+  ]
+}

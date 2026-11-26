@@ -1,0 +1,33 @@
+{
+  "id": "v1-p67-2",
+  "volume": 1,
+  "section": "WAM-9",
+  "page": 67,
+  "subject": "cult-info-b",
+  "title": "(C)CULT.INFO.B.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 67 (WAM-9). The chart has no arrow; CULT-INFO-B (culture information basis), the first title code, is the subject, with the (C) prefix, \"the concept of\"; PRI-INFO (principle information) is the partner. From the subject: STF (source transfer) and MT-INFO (multi-information); LANG-DY (language dynamics) is on a dotted line from the subject. From LANG-DY: RE-INT-TR. From STF: PROG-CONT (progressional continuance); RE-ST (restructuralism) is on a dotted line from STF. From RE-ST: POL-DY (political dynamics). EXP-DY (expansion dynamics) is on a dotted line from PROG-CONT.",
+  "terms": [
+    { "termId": "cult-info-b", "isSubject": true, "prefix": "c" },
+    { "termId": "pri-info" },
+    { "termId": "lang-dy" },
+    { "termId": "re-int-tr" },
+    { "termId": "stf" },
+    { "termId": "re-st" },
+    { "termId": "pol-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "exp-dy" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "cult-info-b", "to": "pri-info", "type": "solid" },
+    { "from": "cult-info-b", "to": "lang-dy", "type": "dashed" },
+    { "from": "lang-dy", "to": "re-int-tr", "type": "solid" },
+    { "from": "cult-info-b", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "re-st", "type": "dashed" },
+    { "from": "re-st", "to": "pol-dy", "type": "solid" },
+    { "from": "stf", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "exp-dy", "type": "dashed" },
+    { "from": "cult-info-b", "to": "mt-info", "type": "solid" }
+  ]
+}

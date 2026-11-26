@@ -1,0 +1,31 @@
+{
+  "id": "v3-p111",
+  "volume": 3,
+  "section": "ALT(FT)II-5",
+  "page": 111,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------COS.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 111 (ALT(FT)II-5). INDIV-TD (individual tendencies) is the subject, with the (R) prefix, \"the reality of\"; COS-P (cosmic particulars) is the partner. From the subject: C-INFO (composite information) and AFL (affinity alignment). From C-INFO: C-CONT (composite continuance). From C-CONT: SOC-RT (social reality). From SOC-RT: CUL-INFO-DY. From AFL: AFL-DY (affinity dynamics). From AFL-DY: INFO-AF-B (information affinity basis).",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "cos-p" },
+    { "termId": "c-info" },
+    { "termId": "c-cont" },
+    { "termId": "soc-rt" },
+    { "termId": "cul-info-dy" },
+    { "termId": "afl" },
+    { "termId": "afl-dy" },
+    { "termId": "info-af-b" }
+  ],
+  "relationships": [
+    { "from": "indiv-td", "to": "cos-p", "type": "solid" },
+    { "from": "indiv-td", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "cul-info-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "info-af-b", "type": "solid" }
+  ]
+}
