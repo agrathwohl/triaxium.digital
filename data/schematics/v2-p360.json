@@ -1,0 +1,17 @@
+{
+  "id": "v2-p360",
+  "volume": 2,
+  "section": "R(AS)CM(II)-4",
+  "page": 360,
+  "subject": "indiv-td",
+  "title": "(R)INDIV.TD.------COS.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 360 (R(AS)CM(II)-4). The title names INDIV-TD (individual tendencies), with the (R) prefix, \"the reality of\", and COS-P (cosmic particulars). The drawing has lines and dots but no labels and no arrow, so the record has only the two title codes: INDIV-TD as the subject and COS-P as the partner.",
+  "terms": [
+    { "termId": "indiv-td", "isSubject": true, "prefix": "r" },
+    { "termId": "cos-p" }
+  ],
+  "relationships": [
+    { "from": "indiv-td", "to": "cos-p", "type": "solid" }
+  ]
+}

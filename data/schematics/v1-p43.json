@@ -1,0 +1,31 @@
+{
+  "id": "v1-p43",
+  "volume": 1,
+  "section": "WM-19",
+  "page": 43,
+  "subject": "post",
+  "title": "(untitled)",
+  "type": "crossing",
+  "description": "Chart on book p. 43 (WM-19). POST (postulation) is the subject, with the (C) prefix, \"the concept of\"; the chart has no title; its main line runs to VT-DY (vibrational dynamics). From the subject: WO-UNF (world unification). PROG-CONT (progressional continuance) and AF-DY (affinity dynamics) are on dotted lines from WO-UNF. From PROG-CONT: POL-DYM (political dynamics). TR (transformation) is on a dotted line from POL-DYM. RIT-DY (ritual dynamics) is on a dotted line from TR. STY (style) is on a dotted line from AF-DY.",
+  "terms": [
+    { "termId": "post", "isSubject": true, "prefix": "c" },
+    { "termId": "vt-dy" },
+    { "termId": "wo-unf" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dym" },
+    { "termId": "tr" },
+    { "termId": "rit-dy" },
+    { "termId": "af-dy" },
+    { "termId": "sty" }
+  ],
+  "relationships": [
+    { "from": "post", "to": "vt-dy", "type": "solid" },
+    { "from": "post", "to": "wo-unf", "type": "solid" },
+    { "from": "wo-unf", "to": "prog-cont", "type": "dashed" },
+    { "from": "prog-cont", "to": "pol-dym", "type": "solid" },
+    { "from": "pol-dym", "to": "tr", "type": "dashed" },
+    { "from": "tr", "to": "rit-dy", "type": "dashed" },
+    { "from": "wo-unf", "to": "af-dy", "type": "dashed" },
+    { "from": "af-dy", "to": "sty", "type": "dashed" }
+  ]
+}

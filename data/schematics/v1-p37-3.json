@@ -1,0 +1,35 @@
+{
+  "id": "v1-p37-3",
+  "volume": 1,
+  "section": "WM-13",
+  "page": 37,
+  "subject": "ext-f",
+  "title": "(R)EXT.F.------AF.DY.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 37 (WM-13). EXT-F (extended functionalism) is the subject, with the (R) prefix, \"the reality of\"; AF-DY (affinity dynamics) is the partner. From the subject: CULT-INFO-DY (culture information dynamics), AFTD (affinity tendencies), DY-SPI and POST (postulation), with the (R) prefix, \"the reality of\". From CULT-INFO-DY: PROG-CONT (progressional continuance) and AFL (affinity alignment). From AFL: RT-T. From POST: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: PROG-SIGN (progressional significance).",
+  "terms": [
+    { "termId": "ext-f", "isSubject": true, "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "cult-info-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "afl" },
+    { "termId": "rt-t" },
+    { "termId": "aftd" },
+    { "termId": "dy-spi" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "prog-sign" }
+  ],
+  "relationships": [
+    { "from": "ext-f", "to": "af-dy", "type": "solid" },
+    { "from": "ext-f", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "cult-info-dy", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "rt-t", "type": "solid" },
+    { "from": "ext-f", "to": "aftd", "type": "solid" },
+    { "from": "ext-f", "to": "dy-spi", "type": "solid" },
+    { "from": "ext-f", "to": "post", "type": "solid" },
+    { "from": "post", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "prog-sign", "type": "solid" }
+  ]
+}

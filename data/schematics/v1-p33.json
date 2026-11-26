@@ -1,0 +1,37 @@
+{
+  "id": "v1-p33",
+  "volume": 1,
+  "section": "WM-9",
+  "page": 33,
+  "subject": "wo-exp-pri",
+  "title": "WO.EXP.PRI.------PRI.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 33 (WM-9). WO-EXP-PRI (world expansion principle) is the subject, with the (R) prefix, \"the reality of\"; PRI-INFO (principle information) is the partner. From the subject: UNI-PI, TR (transformation) and AFI (affinity insight). From TR: LK-IMP (linkage implications). From LK-IMP: AFL (affinity alignment). From AFI: MOT-DY, SPT-DY (spiritual dynamics) and RIT-DY (ritual dynamics). From MOT-DY: CULT-SOLD (culture solidification). From CULT-SOLD: AGT (agreement). The page text speaks of \"the concept of affinity alignment\" and of the \"reality of principle information\".",
+  "terms": [
+    { "termId": "wo-exp-pri", "isSubject": true, "prefix": "r" },
+    { "termId": "pri-info" },
+    { "termId": "uni-pi" },
+    { "termId": "tr" },
+    { "termId": "lk-imp" },
+    { "termId": "afl" },
+    { "termId": "afi" },
+    { "termId": "mot-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "agt" },
+    { "termId": "spt-dy" },
+    { "termId": "rit-dy" }
+  ],
+  "relationships": [
+    { "from": "wo-exp-pri", "to": "pri-info", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "uni-pi", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "afl", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "agt", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "afi", "to": "rit-dy", "type": "solid" }
+  ]
+}

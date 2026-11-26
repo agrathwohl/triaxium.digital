@@ -1,0 +1,29 @@
+{
+  "id": "v2-p330",
+  "volume": 2,
+  "section": "R(AS)CM(I)-14",
+  "page": 330,
+  "subject": "info-intr",
+  "title": "INFO.INTR.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Chart on book p. 330 (R(AS)CM(I)-14). INFO-INTR (information interpretation) is the subject; WO-EXP-PRI (world expansion principle) is the partner. From the subject: AFI (affinity insight) and VT-DY (vibrational dynamics). From AFI: DYM-SPT (dynamic spiritualism). From DYM-SPT: H-PR and C-INFO (composite information). From C-INFO: EXT-DYM (extended dynamics).",
+  "terms": [
+    { "termId": "info-intr", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "afi" },
+    { "termId": "dym-spt" },
+    { "termId": "h-pr" },
+    { "termId": "c-info" },
+    { "termId": "ext-dym" },
+    { "termId": "vt-dy" }
+  ],
+  "relationships": [
+    { "from": "info-intr", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "info-intr", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "h-pr", "type": "solid" },
+    { "from": "dym-spt", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "ext-dym", "type": "solid" },
+    { "from": "info-intr", "to": "vt-dy", "type": "solid" }
+  ]
+}

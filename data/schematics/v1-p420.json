@@ -1,0 +1,39 @@
+{
+  "id": "v1-p420",
+  "volume": 1,
+  "section": "MID-W-14",
+  "page": 420,
+  "subject": "info-ds",
+  "title": "(R)INFO.DS.------AFL.",
+  "type": "crossing",
+  "description": "Chart on book p. 420 (MID-W-14). INFO-DS (information dissemination) is the subject, with the (R) prefix, \"the reality of\"; AFL (affinity alignment) is the partner. From the subject: APP-RDEF (applied redefinitions, with the (P) prefix, \"point of idea completion\"), INFO-DY and PROG-CONT (progressional continuance). From APP-RDEF: POL-P (political policies). From INFO-DY: PHY-U-P (physical universe particular). From PHY-U-P: POL-DY (political dynamics). From PROG-CONT: PART (participation, with the (R) prefix, \"the reality of\") and RT-DY (reality dynamics). From RT-DY: INTR (interpretation, with the (R) prefix, \"the reality of\") and OP-SD (option spread). From OP-SD: INFO-TRNS (information transference).",
+  "terms": [
+    { "termId": "info-ds", "isSubject": true, "prefix": "r" },
+    { "termId": "afl" },
+    { "termId": "app-rdef", "prefix": "p" },
+    { "termId": "pol-p" },
+    { "termId": "info-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "rt-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "op-sd" },
+    { "termId": "info-trns" }
+  ],
+  "relationships": [
+    { "from": "info-ds", "to": "afl", "type": "solid" },
+    { "from": "info-ds", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "pol-p", "type": "solid" },
+    { "from": "info-ds", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-dy", "type": "solid" },
+    { "from": "info-ds", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "part", "type": "solid" },
+    { "from": "prog-cont", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "intr", "type": "solid" },
+    { "from": "rt-dy", "to": "op-sd", "type": "solid" },
+    { "from": "op-sd", "to": "info-trns", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v2-p376",
+  "volume": 2,
+  "section": "R(AS)CM(II)-20",
+  "page": 376,
+  "subject": "info-dy",
+  "title": "INFO.DY.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 376 (R(AS)CM(II)-20). INFO-DY is the subject; SOC-RT (social reality) is the partner. From the subject: RT-ALGN (reality alignment), T-C-IMP (time continuum implications) and POL-P (political policies). From RT-ALGN: RT-INT-TR (reality initiative traits). From RT-INT-TR: AF-DY (affinity dynamics). From T-C-IMP: RE-ST (restructuralism). From POL-P: P-FC (particular focus), with the (R) prefix, \"the reality of\". From P-FC: POL-SIGN (political significance).",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "rt-algn" },
+    { "termId": "rt-int-tr" },
+    { "termId": "af-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "re-st" },
+    { "termId": "pol-p" },
+    { "termId": "p-fc", "prefix": "r" },
+    { "termId": "pol-sign" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "info-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "af-dy", "type": "solid" },
+    { "from": "info-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "re-st", "type": "solid" },
+    { "from": "info-dy", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "p-fc", "type": "solid" },
+    { "from": "p-fc", "to": "pol-sign", "type": "solid" }
+  ]
+}

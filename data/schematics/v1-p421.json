@@ -1,0 +1,37 @@
+{
+  "id": "v1-p421",
+  "volume": 1,
+  "section": "MID-W-15",
+  "page": 421,
+  "subject": "rt-dy",
+  "title": "RT.DY.------SOC.RT.INT.",
+  "type": "crossing",
+  "description": "Chart on book p. 421 (MID-W-15). RT-DY (reality dynamics) is the subject; SOC-RT-INT (social reality interpretation) is the partner. From the subject: VT-PLT (vibrational platform) and POL-DY (political dynamics). From VT-PLT: LANG-DY (language dynamics). From LANG-DY: ACT (activism). From ACT: PROG-CONT (progressional continuance). From POL-DY: MOT-DY. From MOT-DY: T-L (time lag), V-SY (value system) and AFTD (affinity tendencies). From T-L: RE-DOC (redocumentation), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "rt-dy", "isSubject": true },
+    { "termId": "soc-rt-int" },
+    { "termId": "vt-plt" },
+    { "termId": "lang-dy" },
+    { "termId": "act" },
+    { "termId": "prog-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "t-l" },
+    { "termId": "re-doc", "prefix": "p" },
+    { "termId": "v-sy" },
+    { "termId": "aftd" }
+  ],
+  "relationships": [
+    { "from": "rt-dy", "to": "soc-rt-int", "type": "solid" },
+    { "from": "rt-dy", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "act", "type": "solid" },
+    { "from": "act", "to": "prog-cont", "type": "solid" },
+    { "from": "rt-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "t-l", "type": "solid" },
+    { "from": "t-l", "to": "re-doc", "type": "solid" },
+    { "from": "mot-dy", "to": "v-sy", "type": "solid" },
+    { "from": "mot-dy", "to": "aftd", "type": "solid" }
+  ]
+}

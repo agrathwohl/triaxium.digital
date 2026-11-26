@@ -1,0 +1,37 @@
+{
+  "id": "v1-p446",
+  "volume": 1,
+  "section": "EXT.F(II)-8",
+  "page": 446,
+  "subject": "re-doc",
+  "title": "RE.DOC.------POL.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 446 (EXT.F(II)-8). RE-DOC (redocumentation) is the subject; POL-DY (political dynamics) is the partner in the title but is not drawn as a label; the line from the subject's dot runs to PROG-CONT. From the subject: PROG-CONT (progressional continuance), S-ST (source shift (progressionalism) manipulation), VT-PLT (vibrational platform) and COS-P (cosmic particulars). From S-ST: TR-INFO (trans-information). From VT-PLT: MT-TFS-AT (multi-transfer shift activity) and EXT-F (extended functionalism). From EXT-F: INFO-DS (information dissemination). From COS-P: PHY-U-C (physical universe context). From PHY-U-C: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: MOT-DY. The page text speaks of \"The basic vibrational platform of the seventies\".",
+  "terms": [
+    { "termId": "re-doc", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "s-st" },
+    { "termId": "tr-info" },
+    { "termId": "vt-plt" },
+    { "termId": "mt-tfs-at" },
+    { "termId": "ext-f" },
+    { "termId": "info-ds" },
+    { "termId": "cos-p" },
+    { "termId": "phy-u-c" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "mot-dy" }
+  ],
+  "relationships": [
+    { "from": "re-doc", "to": "prog-cont", "type": "solid" },
+    { "from": "re-doc", "to": "s-st", "type": "solid" },
+    { "from": "s-st", "to": "tr-info", "type": "solid" },
+    { "from": "re-doc", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "mt-tfs-at", "type": "solid" },
+    { "from": "vt-plt", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "info-ds", "type": "solid" },
+    { "from": "re-doc", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "mot-dy", "type": "solid" }
+  ]
+}

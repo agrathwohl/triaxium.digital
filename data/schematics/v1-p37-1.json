@@ -1,0 +1,33 @@
+{
+  "id": "v1-p37-1",
+  "volume": 1,
+  "section": "WM-13",
+  "page": 37,
+  "subject": "th-cont",
+  "title": "TH.CONT.------MF.IF.DF.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 37 (WM-13). TH-CONT (thrust continuance) is the subject, with the (C) prefix, \"the concept of\"; MF-IF-DB is the partner (the title writes MF.IF.DF.). From the subject: CULT-INFO-DY (culture information dynamics) and MTA-RT (meta-reality). From CULT-INFO-DY: DEF (definition), with the (R) prefix, \"the reality of\". From DEF: POL-ST (political state). From POL-ST: PROJ-DY (projectional dynamics) and PR-INT (primary intention). From PROJ-DY: AFL (affinity alignment). MTA-IMP (meta-implications) is on a dotted line from MF-IF-DB.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "mf-if-db" },
+    { "termId": "cult-info-dy" },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "pol-st" },
+    { "termId": "proj-dy" },
+    { "termId": "afl" },
+    { "termId": "pr-int" },
+    { "termId": "mta-rt" },
+    { "termId": "mta-imp" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "mf-if-db", "type": "solid" },
+    { "from": "th-cont", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "def", "type": "solid" },
+    { "from": "def", "to": "pol-st", "type": "solid" },
+    { "from": "pol-st", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "afl", "type": "solid" },
+    { "from": "pol-st", "to": "pr-int", "type": "solid" },
+    { "from": "th-cont", "to": "mta-rt", "type": "solid" },
+    { "from": "mf-if-db", "to": "mta-imp", "type": "dashed" }
+  ]
+}

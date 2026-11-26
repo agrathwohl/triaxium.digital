@@ -1,0 +1,35 @@
+{
+  "id": "v2-p522",
+  "volume": 2,
+  "section": "MP(II)-40",
+  "page": 522,
+  "subject": "exp-dy",
+  "title": "EXP.DY.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Chart on book p. 522 (MP(II)-40). EXP-DY (expansion dynamics) is the subject; T-C-IMP (time continuum implications) is the partner. From the subject: SPT-GH (spiritual growth), SCI-DYM (scientific dynamics) and TRS (transition). From SPT-GH: AFI (affinity insight). From AFI: RIT-DY (ritual dynamics). From SCI-DYM: VT-POST (vibrational postulation). From VT-POST: T-SC (theoretical science). From TRS: TR-DEF (trans-definition). From TR-DEF: CULT-AF-B (culture affinity basis).",
+  "terms": [
+    { "termId": "exp-dy", "isSubject": true },
+    { "termId": "t-c-imp" },
+    { "termId": "spt-gh" },
+    { "termId": "afi" },
+    { "termId": "rit-dy" },
+    { "termId": "sci-dym" },
+    { "termId": "vt-post" },
+    { "termId": "t-sc" },
+    { "termId": "trs" },
+    { "termId": "tr-def" },
+    { "termId": "cult-af-b" }
+  ],
+  "relationships": [
+    { "from": "exp-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "exp-dy", "to": "spt-gh", "type": "solid" },
+    { "from": "spt-gh", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "rit-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "vt-post", "type": "solid" },
+    { "from": "vt-post", "to": "t-sc", "type": "solid" },
+    { "from": "exp-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "tr-def", "type": "solid" },
+    { "from": "tr-def", "to": "cult-af-b", "type": "solid" }
+  ]
+}

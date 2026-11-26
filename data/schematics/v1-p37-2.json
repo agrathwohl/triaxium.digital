@@ -1,0 +1,35 @@
+{
+  "id": "v1-p37-2",
+  "volume": 1,
+  "section": "WM-13",
+  "page": 37,
+  "subject": "exp-info-b",
+  "title": "EXP.INFO.P.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 37 (WM-13). EXP-INFO-B (expansion information basis) is the subject, with the (C) prefix, \"the concept of\" (the title writes EXP.INFO.P.); MT-INFO (multi-information) is the partner. From the subject: AF-DY (affinity dynamics) and INFO-TRNS (information transference). From AF-DY: DYM-SPI. From DYM-SPI: HI-P (high purpose) and TRS (transition). From HI-P: LANG-DY (language dynamics). From LANG-DY: ALT-F (alternative functionalism). From ALT-F: SOC-RT-DY (social reality dynamics). From TRS: ACC-DY (accelerated dynamics).",
+  "terms": [
+    { "termId": "exp-info-b", "isSubject": true, "prefix": "c" },
+    { "termId": "mt-info" },
+    { "termId": "af-dy" },
+    { "termId": "dym-spi" },
+    { "termId": "hi-p" },
+    { "termId": "lang-dy" },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "trs" },
+    { "termId": "acc-dy" },
+    { "termId": "info-trns" }
+  ],
+  "relationships": [
+    { "from": "exp-info-b", "to": "mt-info", "type": "solid" },
+    { "from": "exp-info-b", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "dym-spi", "type": "solid" },
+    { "from": "dym-spi", "to": "hi-p", "type": "solid" },
+    { "from": "hi-p", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "dym-spi", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "acc-dy", "type": "solid" },
+    { "from": "exp-info-b", "to": "info-trns", "type": "solid" }
+  ]
+}
