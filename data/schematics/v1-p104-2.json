@@ -1,0 +1,37 @@
+{
+  "id": "v1-p104-2",
+  "volume": 1,
+  "section": "T(AF)M-8",
+  "page": 104,
+  "subject": "info-trns",
+  "title": "INFO.TRNS.------ALT.C.PROG.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 104 (T(AF)M-8). INFO-TRNS (information transference) is the subject, with the (C) prefix, \"the concept of\"; ALT-C-PROG is the partner. From the subject: SOC-RT-DY (social reality dynamics) and IF-ST-DY (infra-structure dynamics). From SOC-RT-DY: PROG-CONT (progressional continuance). From PROG-CONT: LK-IMP (linkage implications). From LK-IMP: V-SY (value system) and APP-RDEF (applied redefinitions). From APP-RDEF: APP-RDEF-2 (applied redefinitions) and LG-DY (logical dynamics). From IF-ST-DY: INFO-CY. From INFO-CY: AFI (affinity insight).",
+  "terms": [
+    { "termId": "info-trns", "isSubject": true, "prefix": "c" },
+    { "termId": "alt-c-prog" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "v-sy" },
+    { "termId": "app-rdef" },
+    { "termId": "app-rdef-2" },
+    { "termId": "lg-dy" },
+    { "termId": "if-st-dy" },
+    { "termId": "info-cy" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "info-trns", "to": "alt-c-prog", "type": "solid" },
+    { "from": "info-trns", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "v-sy", "type": "solid" },
+    { "from": "lk-imp", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "app-rdef-2", "type": "solid" },
+    { "from": "app-rdef", "to": "lg-dy", "type": "solid" },
+    { "from": "info-trns", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "info-cy", "type": "solid" },
+    { "from": "info-cy", "to": "afi", "type": "solid" }
+  ]
+}

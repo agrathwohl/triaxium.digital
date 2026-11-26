@@ -1,0 +1,39 @@
+{
+  "id": "v2-p33",
+  "volume": 2,
+  "section": "SD(SY)-11",
+  "page": 33,
+  "subject": "info-af-b",
+  "title": "INFO.AF.B.------INFO.CON.",
+  "type": "crossing",
+  "description": "Chart on book p. 33 (SD(SY)-11). INFO-AF-B (information affinity basis) is the subject, with the (C) prefix, \"the concept of\"; INFO-CON (information convergence) is the partner. From the subject: TH-CONT-DYM (thrust continuance dynamics), T-V-IMP and IST-S-ALGN (isolated systematic alignment). From T-V-IMP: TRS (transition). From IST-S-ALGN: RE-DIFF, with the (P) prefix, \"point of idea completion\". From RE-DIFF: POL-DY (political dynamics). From POL-DY: SPTC-D (spectacle diversion) and RT-ALGN (reality alignment). From RT-ALGN: RT-OP (reality options). From RT-OP: ALT-F (alternative functionalism). From ALT-F: SOC-RT (social reality).",
+  "terms": [
+    { "termId": "info-af-b", "isSubject": true, "prefix": "c" },
+    { "termId": "info-con" },
+    { "termId": "th-cont-dym" },
+    { "termId": "t-v-imp" },
+    { "termId": "trs" },
+    { "termId": "ist-s-algn" },
+    { "termId": "re-diff", "prefix": "p" },
+    { "termId": "pol-dy" },
+    { "termId": "sptc-d" },
+    { "termId": "rt-algn" },
+    { "termId": "rt-op" },
+    { "termId": "alt-f" },
+    { "termId": "soc-rt" }
+  ],
+  "relationships": [
+    { "from": "info-af-b", "to": "info-con", "type": "solid" },
+    { "from": "info-af-b", "to": "th-cont-dym", "type": "solid" },
+    { "from": "info-af-b", "to": "t-v-imp", "type": "solid" },
+    { "from": "t-v-imp", "to": "trs", "type": "solid" },
+    { "from": "info-af-b", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "re-diff", "type": "solid" },
+    { "from": "re-diff", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "sptc-d", "type": "solid" },
+    { "from": "pol-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "rt-op", "type": "solid" },
+    { "from": "rt-op", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "soc-rt", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v1-p94",
+  "volume": 1,
+  "section": "WAM-36",
+  "page": 94,
+  "subject": "th-cont",
+  "title": "TH.CONT.------(R)PRO.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 94 (WAM-36). TH-CONT (thrust continuance) is the subject, with the (C) prefix, \"the concept of\"; PRO-DY is the partner, with the (R) prefix, \"the reality of\". From the subject: INDIV-T. From INDIV-T: AFI (affinity insight). From AFI: AFL-DY (affinity dynamics) and EXT-F (extended functionalism). From EXT-F: ISF-F, with the (R) prefix, \"the reality of\", INFO-AF-B (information affinity basis) and C-FO-ACT (composite focused activism). MT-INFO (multi-information) is on a dotted line from EXT-F.",
+  "terms": [
+    { "termId": "th-cont", "isSubject": true, "prefix": "c" },
+    { "termId": "pro-dy", "prefix": "r" },
+    { "termId": "indiv-t" },
+    { "termId": "afi" },
+    { "termId": "afl-dy" },
+    { "termId": "ext-f" },
+    { "termId": "isf-f", "prefix": "r" },
+    { "termId": "info-af-b" },
+    { "termId": "c-fo-act" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "th-cont", "to": "pro-dy", "type": "solid" },
+    { "from": "th-cont", "to": "indiv-t", "type": "solid" },
+    { "from": "indiv-t", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "afl-dy", "type": "solid" },
+    { "from": "afi", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "isf-f", "type": "solid" },
+    { "from": "ext-f", "to": "info-af-b", "type": "solid" },
+    { "from": "ext-f", "to": "c-fo-act", "type": "solid" },
+    { "from": "ext-f", "to": "mt-info", "type": "dashed" }
+  ]
+}

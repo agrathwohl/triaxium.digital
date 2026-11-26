@@ -1,0 +1,35 @@
+{
+  "id": "v3-p231-3",
+  "volume": 3,
+  "section": "T(IMP)M-29",
+  "page": 231,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------SPT.DY.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 231 (T(IMP)M-29). PROG-CONT (progressional continuance) is the subject; SPT-DY (spiritual dynamics) is the partner. From the subject: RT-ALGN (reality alignment), INDIV-TD (individual tendencies) and INFO-SOLD (information solidification). From RT-ALGN: SOC-RT-DY (social reality dynamics). From SOC-RT-DY: UPB (underlying philosophical basis). From INDIV-TD: AF-POST (affinity postulation). From AF-POST: V-SY (value system). From INFO-SOLD: VT-PLT (vibrational platform). From VT-PLT: INTR (interpretation, with the (R) prefix, \"the reality of\").",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "spt-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "upb" },
+    { "termId": "indiv-td" },
+    { "termId": "af-post" },
+    { "termId": "v-sy" },
+    { "termId": "info-sold" },
+    { "termId": "vt-plt" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "spt-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "upb", "type": "solid" },
+    { "from": "prog-cont", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "v-sy", "type": "solid" },
+    { "from": "prog-cont", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "intr", "type": "solid" }
+  ]
+}

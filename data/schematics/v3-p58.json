@@ -1,0 +1,37 @@
+{
+  "id": "v3-p58",
+  "volume": 3,
+  "section": "BK(NM)-34",
+  "page": 58,
+  "subject": "sci-dym",
+  "title": "SCI.DYM.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Chart on book p. 58 (BK(NM)-34). SCI-DYM (scientific dynamics) is the subject; WO-EXP-PRI (world expansion principle) is the partner. From the subject: EXT-FT (extended functionalism), INDIV-DY (individual dynamics) and ACC-FT (accelerated functionalism). From EXT-FT: TECH-DY (technological dynamics). From TECH-DY: APL-DY. From APL-DY: AF-NT (affinity nature). From INDIV-DY: MOT-DY and REL-TECH (relevant technology). From ACC-FT: T-C-IMP (time continuum implications). From T-C-IMP: SOC-RT-P (social reality particulars).",
+  "terms": [
+    { "termId": "sci-dym", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "ext-ft" },
+    { "termId": "tech-dy" },
+    { "termId": "apl-dy" },
+    { "termId": "af-nt" },
+    { "termId": "indiv-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "rel-tech" },
+    { "termId": "acc-ft" },
+    { "termId": "t-c-imp" },
+    { "termId": "soc-rt-p" }
+  ],
+  "relationships": [
+    { "from": "sci-dym", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "sci-dym", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "apl-dy", "type": "solid" },
+    { "from": "apl-dy", "to": "af-nt", "type": "solid" },
+    { "from": "sci-dym", "to": "indiv-dy", "type": "solid" },
+    { "from": "indiv-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "indiv-dy", "to": "rel-tech", "type": "solid" },
+    { "from": "sci-dym", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "soc-rt-p", "type": "solid" }
+  ]
+}

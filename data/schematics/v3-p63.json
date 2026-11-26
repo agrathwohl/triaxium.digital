@@ -1,0 +1,35 @@
+{
+  "id": "v3-p63",
+  "volume": 3,
+  "section": "BK(NM)-39",
+  "page": 63,
+  "subject": "dym-ft",
+  "title": "DYM.FT.------ACC.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 63 (BK(NM)-39). DYM-FT (dynamic functionalism) is the subject; ACC-DY (accelerated dynamics) is the partner. From the subject: TRS (transition), SPT-DY (spiritual dynamics) and PART (participation). From TRS: EXP-DY (expansion dynamics). From EXP-DY: C-INFO (composite information). From C-INFO: CULT-AF-B (culture affinity basis). From SPT-DY: RIT-DT. From RIT-DT: ALT-FT (alternative functionalism). From PART: INFO-SOLD (information solidification).",
+  "terms": [
+    { "termId": "dym-ft", "isSubject": true },
+    { "termId": "acc-dy" },
+    { "termId": "trs" },
+    { "termId": "exp-dy" },
+    { "termId": "c-info" },
+    { "termId": "cult-af-b" },
+    { "termId": "spt-dy" },
+    { "termId": "rit-dt" },
+    { "termId": "alt-ft" },
+    { "termId": "part" },
+    { "termId": "info-sold" }
+  ],
+  "relationships": [
+    { "from": "dym-ft", "to": "acc-dy", "type": "solid" },
+    { "from": "dym-ft", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "cult-af-b", "type": "solid" },
+    { "from": "dym-ft", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "rit-dt", "type": "solid" },
+    { "from": "rit-dt", "to": "alt-ft", "type": "solid" },
+    { "from": "dym-ft", "to": "part", "type": "solid" },
+    { "from": "part", "to": "info-sold", "type": "solid" }
+  ]
+}

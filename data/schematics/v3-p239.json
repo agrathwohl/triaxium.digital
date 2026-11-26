@@ -1,0 +1,35 @@
+{
+  "id": "v3-p239",
+  "volume": 3,
+  "section": "T(IMP)M-37",
+  "page": 239,
+  "subject": "hi-p",
+  "title": "HI.P.------(R)INTR.",
+  "type": "crossing",
+  "description": "Chart on book p. 239 (T(IMP)M-37). HI-P (high purpose) is the subject; INTR (interpretation) is the partner, with the (R) prefix, \"the reality of\". From the subject: SOC-RT-DY (social reality dynamics), SPT-DY (spiritual dynamics) and TR (transformation). From SOC-RT-DY: INFO-TRNS (information transference). From SPT-DY: AFI (affinity insight). From AFI: SF-RZ (self-realization). From SF-RZ: MOT-DY. From TR: C-INFO (composite information). From C-INFO: C-CONT (composite continuance).",
+  "terms": [
+    { "termId": "hi-p", "isSubject": true },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "info-trns" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "sf-rz" },
+    { "termId": "mot-dy" },
+    { "termId": "tr" },
+    { "termId": "c-info" },
+    { "termId": "c-cont" }
+  ],
+  "relationships": [
+    { "from": "hi-p", "to": "intr", "type": "solid" },
+    { "from": "hi-p", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "info-trns", "type": "solid" },
+    { "from": "hi-p", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "sf-rz", "type": "solid" },
+    { "from": "sf-rz", "to": "mot-dy", "type": "solid" },
+    { "from": "hi-p", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "c-cont", "type": "solid" }
+  ]
+}

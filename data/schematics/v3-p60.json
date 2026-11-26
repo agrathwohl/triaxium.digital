@@ -1,0 +1,33 @@
+{
+  "id": "v3-p60",
+  "volume": 3,
+  "section": "BK(NM)-36",
+  "page": 60,
+  "subject": "re-doc",
+  "title": "RE.DOC.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 60 (BK(NM)-36). RE-DOC (redocumentation) is the subject, with the (C) prefix, \"the concept of\"; C-INFO (composite information) is the partner. From the subject: INT (intention) and MT-INFO (multi-information). From INT: IST-F (isolated focus). From MT-INFO: MT-INFO-2 (a second multi-information label) and POL-DY (political dynamics). From MT-INFO-2: AFL-DY (affinity dynamics). From AFL-DY: INDIV-TD (individual tendencies). From POL-DY: CULT-AF-B (culture affinity basis).",
+  "terms": [
+    { "termId": "re-doc", "isSubject": true, "prefix": "c" },
+    { "termId": "c-info" },
+    { "termId": "int" },
+    { "termId": "ist-f" },
+    { "termId": "mt-info" },
+    { "termId": "mt-info-2" },
+    { "termId": "afl-dy" },
+    { "termId": "indiv-td" },
+    { "termId": "pol-dy" },
+    { "termId": "cult-af-b" }
+  ],
+  "relationships": [
+    { "from": "re-doc", "to": "c-info", "type": "solid" },
+    { "from": "re-doc", "to": "int", "type": "solid" },
+    { "from": "int", "to": "ist-f", "type": "solid" },
+    { "from": "re-doc", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "mt-info-2", "type": "solid" },
+    { "from": "mt-info-2", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "mt-info", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "cult-af-b", "type": "solid" }
+  ]
+}

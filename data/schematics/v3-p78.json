@@ -1,0 +1,31 @@
+{
+  "id": "v3-p78",
+  "volume": 3,
+  "section": "CS-6",
+  "page": 78,
+  "subject": "asp-es",
+  "title": "(R)ASP.ES.------P.PROG.",
+  "type": "crossing",
+  "description": "Chart on book p. 78 (CS-6). ASP-ES (aspect essence) is the subject, with the (R) prefix, \"the reality of\"; P-PROG (particular progressionalism) is the partner. From the subject: AFN (affinity negation). From AFN: INFO-ALGN (information alignment). From INFO-ALGN: IST-F (isolated focus), with the (R) prefix, \"the reality of\", and INTR (interpretation), with the (R) prefix. From IST-F: APP-RDEF (applied redefinitions), with the (P) prefix, \"point of idea completion\". From APP-RDEF: GRAD (gradualism), with the (C) prefix, \"the concept of\". From GRAD: POL-DYM (political dynamics).",
+  "terms": [
+    { "termId": "asp-es", "isSubject": true, "prefix": "r" },
+    { "termId": "p-prog" },
+    { "termId": "afn" },
+    { "termId": "info-algn" },
+    { "termId": "ist-f", "prefix": "r" },
+    { "termId": "app-rdef", "prefix": "p" },
+    { "termId": "grad", "prefix": "c" },
+    { "termId": "pol-dym" },
+    { "termId": "intr", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "asp-es", "to": "p-prog", "type": "solid" },
+    { "from": "asp-es", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "grad", "type": "solid" },
+    { "from": "grad", "to": "pol-dym", "type": "solid" },
+    { "from": "info-algn", "to": "intr", "type": "solid" }
+  ]
+}

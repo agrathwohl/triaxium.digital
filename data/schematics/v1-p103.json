@@ -1,0 +1,33 @@
+{
+  "id": "v1-p103",
+  "volume": 1,
+  "section": "T(AF)M-7",
+  "page": 103,
+  "subject": "afl-dy",
+  "title": "AFL.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 103 (T(AF)M-7). AFL-DY (affinity dynamics) is the subject; MT-INFO (multi-information) is the partner. From the subject: AFI-2 (affinity insight—second degree) and ALT-C-PG (alternative composite progressionalism). From AFI-2: SOC-RT (social reality). From SOC-RT: APP-RDEF (applied redefinitions) and ALT-F (alternative functionalism). From MT-INFO: TH-CONT (thrust continuance), with the (P) prefix, \"point of idea completion\". From TH-CONT: T-C-IMP (time continuum implications). AFI-1 (affinity insight—first degree) is on a dotted line from TH-CONT.",
+  "terms": [
+    { "termId": "afl-dy", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "afi-2" },
+    { "termId": "soc-rt" },
+    { "termId": "app-rdef" },
+    { "termId": "alt-f" },
+    { "termId": "alt-c-pg" },
+    { "termId": "th-cont", "prefix": "p" },
+    { "termId": "t-c-imp" },
+    { "termId": "afi-1" }
+  ],
+  "relationships": [
+    { "from": "afl-dy", "to": "mt-info", "type": "solid" },
+    { "from": "afl-dy", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "app-rdef", "type": "solid" },
+    { "from": "soc-rt", "to": "alt-f", "type": "solid" },
+    { "from": "afl-dy", "to": "alt-c-pg", "type": "solid" },
+    { "from": "mt-info", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "th-cont", "to": "afi-1", "type": "dashed" }
+  ]
+}

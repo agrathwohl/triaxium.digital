@@ -1,0 +1,41 @@
+{
+  "id": "v3-p236",
+  "volume": 3,
+  "section": "T(IMP)M-34",
+  "page": 236,
+  "subject": "def",
+  "title": "(R)DEF.------POL.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 236 (T(IMP)M-34). DEF (definition) is the subject, with the (R) prefix, \"the reality of\"; POL-DY (political dynamics) is the partner. From the subject: VT-DY (vibrational dynamics), INDIV-VT-TD and PART (participation). From VT-DY: AFI (affinity insight). From AFI: MOT-DY. From INDIV-VT-TD: IST-F-ACT and SOC-RT-P (social reality particulars). From SOC-RT-P: INFO-ALGN (information alignment). From INFO-ALGN: CULT-INFO-B (culture information basis). From CULT-INFO-B: MD-DY (media dynamics). From PART: OPT-SD and CULT-O (culture order).",
+  "terms": [
+    { "termId": "def", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "afi" },
+    { "termId": "mot-dy" },
+    { "termId": "indiv-vt-td" },
+    { "termId": "ist-f-act" },
+    { "termId": "soc-rt-p" },
+    { "termId": "info-algn" },
+    { "termId": "cult-info-b" },
+    { "termId": "md-dy" },
+    { "termId": "part" },
+    { "termId": "opt-sd" },
+    { "termId": "cult-o" }
+  ],
+  "relationships": [
+    { "from": "def", "to": "pol-dy", "type": "solid" },
+    { "from": "def", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "mot-dy", "type": "solid" },
+    { "from": "def", "to": "indiv-vt-td", "type": "solid" },
+    { "from": "indiv-vt-td", "to": "ist-f-act", "type": "solid" },
+    { "from": "indiv-vt-td", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "md-dy", "type": "solid" },
+    { "from": "def", "to": "part", "type": "solid" },
+    { "from": "part", "to": "opt-sd", "type": "solid" },
+    { "from": "part", "to": "cult-o", "type": "solid" }
+  ]
+}

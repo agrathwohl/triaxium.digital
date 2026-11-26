@@ -1,0 +1,37 @@
+{
+  "id": "v3-p77",
+  "volume": 3,
+  "section": "CS-5",
+  "page": 77,
+  "subject": "vt-dym",
+  "title": "VT.DYM.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 77 (CS-5). VT-DYM (vibrational dynamics) is the subject; SOC-RT (social reality) is the partner. From the subject: TF, ALT-FT (alternative functionalism) and CULT-INFO-DY (culture information dynamics). From TF: UPI-PI. From UPI-PI: C-CONT (composite continuance). From ALT-FT: SPT-DY (spiritual dynamics). From SPT-DY: MOT-DY. From MOT-DY: POST (postulation), with the (R) prefix, \"the reality of\". From CULT-INFO-DY: MT-INFO-DB. From MT-INFO-DB: AFI (affinity insight).",
+  "terms": [
+    { "termId": "vt-dym", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "tf" },
+    { "termId": "upi-pi" },
+    { "termId": "c-cont" },
+    { "termId": "alt-ft" },
+    { "termId": "spt-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "cult-info-dy" },
+    { "termId": "mt-info-db" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "vt-dym", "to": "soc-rt", "type": "solid" },
+    { "from": "vt-dym", "to": "tf", "type": "solid" },
+    { "from": "tf", "to": "upi-pi", "type": "solid" },
+    { "from": "upi-pi", "to": "c-cont", "type": "solid" },
+    { "from": "vt-dym", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "post", "type": "solid" },
+    { "from": "vt-dym", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "mt-info-db", "type": "solid" },
+    { "from": "mt-info-db", "to": "afi", "type": "solid" }
+  ]
+}

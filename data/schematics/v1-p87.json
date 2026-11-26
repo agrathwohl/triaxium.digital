@@ -1,0 +1,37 @@
+{
+  "id": "v1-p87",
+  "volume": 1,
+  "section": "WAM-29",
+  "page": 87,
+  "subject": "exp-info-b",
+  "title": "EXP.INFO.B.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 87 (WAM-29). EXP-INFO-B (expansion information basis) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: PART (participation), with the (R) prefix, \"the reality of\". From PART: AF-DY (affinity dynamics). From AF-DY: MTA-RT-SIGN (meta-reality significance) and MT-INFO-DB. RT-T is on a dotted line from AF-DY. From RT-T: RE-ST (restructuralism). From RE-ST: PR-TR and TF-SH (transfer shifts), with the (C) prefix, \"the concept of\". From TF-SH: T-C-IMP (time continuum implications). From T-C-IMP: VT-U-PT (vibrational universe particulars). The paragraph above the chart begins: \"The time-continuum implications of a given projection are another factor related to the path classical music was to take\".",
+  "terms": [
+    { "termId": "exp-info-b", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "part", "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "mt-info-db" },
+    { "termId": "rt-t" },
+    { "termId": "re-st" },
+    { "termId": "pr-tr" },
+    { "termId": "tf-sh", "prefix": "c" },
+    { "termId": "t-c-imp" },
+    { "termId": "vt-u-pt" }
+  ],
+  "relationships": [
+    { "from": "exp-info-b", "to": "soc-rt", "type": "solid" },
+    { "from": "exp-info-b", "to": "part", "type": "solid" },
+    { "from": "part", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "af-dy", "to": "mt-info-db", "type": "solid" },
+    { "from": "af-dy", "to": "rt-t", "type": "dashed" },
+    { "from": "rt-t", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "pr-tr", "type": "solid" },
+    { "from": "re-st", "to": "tf-sh", "type": "solid" },
+    { "from": "tf-sh", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "vt-u-pt", "type": "solid" }
+  ]
+}

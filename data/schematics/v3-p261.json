@@ -1,0 +1,33 @@
+{
+  "id": "v3-p261",
+  "volume": 3,
+  "section": "PR.S(RD)II-15",
+  "page": 261,
+  "subject": "intr",
+  "title": "(R)INTR.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Chart on book p. 261 (PR.S(RD)II-15). INTR (interpretation) is the subject, with the (R) prefix, \"the reality of\"; T-C-IMP (time continuum implications) is the partner. From the subject: POL-CON (political consciousness), VT-DY (vibrational dynamics) and SCI-DY (scientific dynamics). From POL-CON: RT-ALGN (reality alignment). From VT-DY: AF-DY (affinity dynamics) and COS-P (cosmic particulars). From SCI-DY: IST-S-ALGN (isolated systematic alignment) and BIA (bi-aitional).",
+  "terms": [
+    { "termId": "intr", "isSubject": true, "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "pol-con" },
+    { "termId": "rt-algn" },
+    { "termId": "vt-dy" },
+    { "termId": "af-dy" },
+    { "termId": "cos-p" },
+    { "termId": "sci-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "bia" }
+  ],
+  "relationships": [
+    { "from": "intr", "to": "t-c-imp", "type": "solid" },
+    { "from": "intr", "to": "pol-con", "type": "solid" },
+    { "from": "pol-con", "to": "rt-algn", "type": "solid" },
+    { "from": "intr", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "cos-p", "type": "solid" },
+    { "from": "intr", "to": "sci-dy", "type": "solid" },
+    { "from": "sci-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "sci-dy", "to": "bia", "type": "solid" }
+  ]
+}

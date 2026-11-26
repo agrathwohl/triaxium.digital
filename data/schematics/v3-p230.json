@@ -1,0 +1,33 @@
+{
+  "id": "v3-p230",
+  "volume": 3,
+  "section": "T(IMP)M-28",
+  "page": 230,
+  "subject": "acc-dy",
+  "title": "ACC.DY.------INDIV.TD.",
+  "type": "crossing",
+  "description": "Chart on book p. 230 (T(IMP)M-28). ACC-DY (accelerated dynamics) is the subject; INDIV-TD (individual tendencies) is the partner. From the subject: SPT-DY (spiritual dynamics), TRS (transition) and CULT-INFO-RT. From SPT-DY: BIA (bi-aitional). From BIA: MT-INFO (multi-information). From MT-INFO: IST-F (isolated focus). From TRS: SOC-RT-DY (social reality dynamics). From CULT-INFO-RT: DEF (definition, with the (R) prefix, \"the reality of\").",
+  "terms": [
+    { "termId": "acc-dy", "isSubject": true },
+    { "termId": "indiv-td" },
+    { "termId": "spt-dy" },
+    { "termId": "bia" },
+    { "termId": "mt-info" },
+    { "termId": "ist-f" },
+    { "termId": "trs" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "cult-info-rt" },
+    { "termId": "def", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "acc-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "acc-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "ist-f", "type": "solid" },
+    { "from": "acc-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "cult-info-rt", "type": "solid" },
+    { "from": "cult-info-rt", "to": "def", "type": "solid" }
+  ]
+}

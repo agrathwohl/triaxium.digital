@@ -1,0 +1,31 @@
+{
+  "id": "v3-p231-2",
+  "volume": 3,
+  "section": "T(IMP)M-29",
+  "page": 231,
+  "subject": "rc",
+  "title": "RC.------TR.DEF.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 231 (T(IMP)M-29). RC (race) is the subject; TR-DEF (trans-definition) is the partner. From the subject: AF-DY (affinity dynamics) and T-C-IMP (time continuum implications). From AF-DY: V-SY (value system) and INT (intention). From INT: VT-IMP (vibrational implications). From T-C-IMP: APP-RDEF (applied redefinitions). From APP-RDEF: PHY-U-P (physical universe particular).",
+  "terms": [
+    { "termId": "rc", "isSubject": true },
+    { "termId": "tr-def" },
+    { "termId": "af-dy" },
+    { "termId": "v-sy" },
+    { "termId": "int" },
+    { "termId": "vt-imp" },
+    { "termId": "t-c-imp" },
+    { "termId": "app-rdef" },
+    { "termId": "phy-u-p" }
+  ],
+  "relationships": [
+    { "from": "rc", "to": "tr-def", "type": "solid" },
+    { "from": "rc", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "v-sy", "type": "solid" },
+    { "from": "af-dy", "to": "int", "type": "solid" },
+    { "from": "int", "to": "vt-imp", "type": "solid" },
+    { "from": "rc", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "phy-u-p", "type": "solid" }
+  ]
+}

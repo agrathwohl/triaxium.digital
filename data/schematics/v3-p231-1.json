@@ -1,0 +1,39 @@
+{
+  "id": "v3-p231-1",
+  "volume": 3,
+  "section": "T(IMP)M-29",
+  "page": 231,
+  "subject": "attn",
+  "title": "ATTN.------AFI.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 231 (T(IMP)M-29). ATTN (attraction) is the subject; AFI (affinity insight) is the partner. From the subject: COS-P (cosmic particulars), INDIV-DY-TD (individual tendencies) and VT-DY (vibrational dynamics). From COS-P: SF-RZ (self-realization) and PER-VT-U-FUND (perceived vibrational universe fundamental). From SF-RZ: SPT-GH (spiritual growth). From INDIV-DY-TD: ACT (activism). From ACT: EXP-DY (expansion dynamics). From VT-DY: UTZ (utilization). From UTZ: HI-P (high purpose). From HI-P: WO-UNF (world unification).",
+  "terms": [
+    { "termId": "attn", "isSubject": true },
+    { "termId": "afi" },
+    { "termId": "cos-p" },
+    { "termId": "sf-rz" },
+    { "termId": "spt-gh" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "indiv-dy-td" },
+    { "termId": "act" },
+    { "termId": "exp-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "utz" },
+    { "termId": "hi-p" },
+    { "termId": "wo-unf" }
+  ],
+  "relationships": [
+    { "from": "attn", "to": "afi", "type": "solid" },
+    { "from": "attn", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "sf-rz", "type": "solid" },
+    { "from": "sf-rz", "to": "spt-gh", "type": "solid" },
+    { "from": "cos-p", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "attn", "to": "indiv-dy-td", "type": "solid" },
+    { "from": "indiv-dy-td", "to": "act", "type": "solid" },
+    { "from": "act", "to": "exp-dy", "type": "solid" },
+    { "from": "attn", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "utz", "type": "solid" },
+    { "from": "utz", "to": "hi-p", "type": "solid" },
+    { "from": "hi-p", "to": "wo-unf", "type": "solid" }
+  ]
+}

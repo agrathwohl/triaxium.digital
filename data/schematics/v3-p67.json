@@ -1,0 +1,35 @@
+{
+  "id": "v3-p67",
+  "volume": 3,
+  "section": "BK(NM)-43",
+  "page": 67,
+  "subject": "grad",
+  "title": "GRAD.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 67 (BK(NM)-43). GRAD (gradualism) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. From the subject: TRS (transition) and T-C-IMP (time continuum implications). From TRS: RT-ALGN (reality alignment), RT-INF-TR and INFO-CON (information convergence). From RT-ALGN: POL-DYM (political dynamics). From INFO-CON: RE-ST (restructuralism). From T-C-IMP: COS-P (cosmic particulars). From COS-P: VT-DY (vibrational dynamics).",
+  "terms": [
+    { "termId": "grad", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "trs" },
+    { "termId": "rt-algn" },
+    { "termId": "pol-dym" },
+    { "termId": "rt-inf-tr" },
+    { "termId": "info-con" },
+    { "termId": "re-st" },
+    { "termId": "t-c-imp" },
+    { "termId": "cos-p" },
+    { "termId": "vt-dy" }
+  ],
+  "relationships": [
+    { "from": "grad", "to": "c-cont", "type": "solid" },
+    { "from": "grad", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "pol-dym", "type": "solid" },
+    { "from": "trs", "to": "rt-inf-tr", "type": "solid" },
+    { "from": "trs", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "re-st", "type": "solid" },
+    { "from": "grad", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "vt-dy", "type": "solid" }
+  ]
+}

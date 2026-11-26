@@ -1,0 +1,41 @@
+{
+  "id": "v2-p296",
+  "volume": 2,
+  "section": "CMOA(II)-54",
+  "page": 296,
+  "subject": "info-doc",
+  "title": "(R)INFO.DOC.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 296 (CMOA(II)-54). INFO-DOC (information documentation) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: INFO-COMP (information compression), AFL (affinity alignment) and SOC-RT (social reality). From INFO-COMP: IST-F (isolated focus). From AFL: EXT-DY (extended dynamics). From EXT-DY: MT-INFO-DB and ALT-F (alternative functionalism). From ALT-F: LANG-DY (language dynamics). From SOC-RT: IST-ACT (isolated activism), POL-DY (political dynamics) and PHY-U-C (physical universe context). From POL-DY: APP-DEF.",
+  "terms": [
+    { "termId": "info-doc", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "info-comp" },
+    { "termId": "ist-f" },
+    { "termId": "afl" },
+    { "termId": "ext-dy" },
+    { "termId": "mt-info-db" },
+    { "termId": "alt-f" },
+    { "termId": "lang-dy" },
+    { "termId": "soc-rt" },
+    { "termId": "ist-act" },
+    { "termId": "pol-dy" },
+    { "termId": "app-def" },
+    { "termId": "phy-u-c" }
+  ],
+  "relationships": [
+    { "from": "info-doc", "to": "mt-info", "type": "solid" },
+    { "from": "info-doc", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "ist-f", "type": "solid" },
+    { "from": "info-doc", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "ext-dy", "type": "solid" },
+    { "from": "ext-dy", "to": "mt-info-db", "type": "solid" },
+    { "from": "ext-dy", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "lang-dy", "type": "solid" },
+    { "from": "info-doc", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "ist-act", "type": "solid" },
+    { "from": "soc-rt", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "app-def", "type": "solid" },
+    { "from": "soc-rt", "to": "phy-u-c", "type": "solid" }
+  ]
+}

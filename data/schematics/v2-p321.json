@@ -1,0 +1,29 @@
+{
+  "id": "v2-p321",
+  "volume": 2,
+  "section": "R(AS)CM(I)-5",
+  "page": 321,
+  "subject": "p-fc",
+  "title": "(R)P.FC.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 321 (R(AS)CM(I)-5). P-FC (particular focus) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: LANG-DY (language dynamics) and AF-NT (affinity nature). From LANG-DY: INTR (interpretation), with the (R) prefix, \"the reality of\". From AF-NT: VT-PLT (vibrational platform). From VT-PLT: RH-CONT-DY. From RH-CONT-DY: IST-S-ALGN (isolated systematic alignment).",
+  "terms": [
+    { "termId": "p-fc", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "lang-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "af-nt" },
+    { "termId": "vt-plt" },
+    { "termId": "rh-cont-dy" },
+    { "termId": "ist-s-algn" }
+  ],
+  "relationships": [
+    { "from": "p-fc", "to": "mt-info", "type": "solid" },
+    { "from": "p-fc", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "intr", "type": "solid" },
+    { "from": "p-fc", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "rh-cont-dy", "type": "solid" },
+    { "from": "rh-cont-dy", "to": "ist-s-algn", "type": "solid" }
+  ]
+}

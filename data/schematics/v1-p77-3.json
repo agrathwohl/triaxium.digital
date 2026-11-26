@@ -1,0 +1,35 @@
+{
+  "id": "v1-p77-3",
+  "volume": 1,
+  "section": "WAM-19",
+  "page": 77,
+  "subject": "info-af-b",
+  "title": "INFO.AF.B.------IST.F.ACT.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 77 (WAM-19). INFO-AF-B (information affinity basis) is the subject, with the (C) prefix, \"the concept of\"; IST-F-ACT is the partner. From the subject: SOC-RT (social reality) and INFO-COMP (information compression), with the (R) prefix, \"the reality of\". From SOC-RT: PHY-U-P (physical universe particular). From PHY-U-P: RT-OP (reality options). From RT-OP: RT-INT-TR (reality initiative traits). From INFO-COMP: AF-DY (affinity dynamics). From AF-DY: LANG-DY (language dynamics). From LANG-DY: ASP-ES (aspect essence). From ASP-ES: IST-F (isolated focus), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "info-af-b", "isSubject": true, "prefix": "c" },
+    { "termId": "ist-f-act" },
+    { "termId": "soc-rt" },
+    { "termId": "phy-u-p" },
+    { "termId": "rt-op" },
+    { "termId": "rt-int-tr" },
+    { "termId": "info-comp", "prefix": "r" },
+    { "termId": "af-dy" },
+    { "termId": "lang-dy" },
+    { "termId": "asp-es" },
+    { "termId": "ist-f", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "info-af-b", "to": "ist-f-act", "type": "solid" },
+    { "from": "info-af-b", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "rt-op", "type": "solid" },
+    { "from": "rt-op", "to": "rt-int-tr", "type": "solid" },
+    { "from": "info-af-b", "to": "info-comp", "type": "solid" },
+    { "from": "info-comp", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "asp-es", "type": "solid" },
+    { "from": "asp-es", "to": "ist-f", "type": "solid" }
+  ]
+}

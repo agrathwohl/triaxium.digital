@@ -1,0 +1,17 @@
+{
+  "id": "v1-p104-1",
+  "volume": 1,
+  "section": "T(AF)M-8",
+  "page": 104,
+  "subject": "tr-info",
+  "title": "TR.INFO.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 104 (T(AF)M-8). The title names TR-INFO (trans-information) and T-C-IMP (time continuum implications). The drawing has lines and dots but no labels and no arrow, so the record has only the two title codes: TR-INFO as the subject and T-C-IMP as the partner.",
+  "terms": [
+    { "termId": "tr-info", "isSubject": true },
+    { "termId": "t-c-imp" }
+  ],
+  "relationships": [
+    { "from": "tr-info", "to": "t-c-imp", "type": "solid" }
+  ]
+}

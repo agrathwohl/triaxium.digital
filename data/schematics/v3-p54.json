@@ -1,0 +1,37 @@
+{
+  "id": "v3-p54",
+  "volume": 3,
+  "section": "BK(NM)-30",
+  "page": 54,
+  "subject": "st-rz",
+  "title": "SF.RZ.------AFL.",
+  "type": "crossing",
+  "description": "Chart on book p. 54 (BK(NM)-30). ST-RZ (the title writes SF.RZ.) is the subject; AFL (affinity alignment) is the partner. From the subject: PART (participation), ACT (activism) and TRS (transition). From PART: AF-DY (affinity dynamics). From AF-DY: INDIV-AF-TD and INFO-DE-B (information degrees). From ACT: MOT-DY. From TRS: PROJ-DY (projectional dynamics) and CULT-AF-B (culture affinity basis). From PROJ-DY: AFI (affinity insight).",
+  "terms": [
+    { "termId": "st-rz", "isSubject": true },
+    { "termId": "afl" },
+    { "termId": "part" },
+    { "termId": "af-dy" },
+    { "termId": "indiv-af-td" },
+    { "termId": "info-de-b" },
+    { "termId": "act" },
+    { "termId": "mot-dy" },
+    { "termId": "trs" },
+    { "termId": "proj-dy" },
+    { "termId": "afi" },
+    { "termId": "cult-af-b" }
+  ],
+  "relationships": [
+    { "from": "st-rz", "to": "afl", "type": "solid" },
+    { "from": "st-rz", "to": "part", "type": "solid" },
+    { "from": "part", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "indiv-af-td", "type": "solid" },
+    { "from": "af-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "st-rz", "to": "act", "type": "solid" },
+    { "from": "act", "to": "mot-dy", "type": "solid" },
+    { "from": "st-rz", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "afi", "type": "solid" },
+    { "from": "trs", "to": "cult-af-b", "type": "solid" }
+  ]
+}

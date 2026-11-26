@@ -1,0 +1,35 @@
+{
+  "id": "v2-p30-2",
+  "volume": 2,
+  "section": "SD(SY)-8",
+  "page": 30,
+  "subject": "def",
+  "title": "(R)DIFF.------AFL.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 30 (SD(SY)-8). The chart has no arrow, so the first code of the title is the subject: DEF (definition) (the title writes DIFF), with the (R) prefix, \"the reality of\"; AFL (affinity alignment) is the partner. From the subject: AGT (agreement). From AGT: AF-DT (affinity dictates). From AF-DT: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\"; POST (postulation), with the (R) prefix, \"the reality of\"; OBS (observation); and EXT-DY (extended dynamics). From EXT-DY: IST-F (isolated focus). From IST-F: MTA-IMP (meta-implications) and LANG-DY (language dynamics). The page text speaks of \"the present affinity alignment of creativity and information dynamics\".",
+  "terms": [
+    { "termId": "def", "isSubject": true, "prefix": "r" },
+    { "termId": "afl" },
+    { "termId": "agt" },
+    { "termId": "af-dt" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "post", "prefix": "r" },
+    { "termId": "obs" },
+    { "termId": "ext-dy" },
+    { "termId": "ist-f" },
+    { "termId": "mta-imp" },
+    { "termId": "lang-dy" }
+  ],
+  "relationships": [
+    { "from": "def", "to": "afl", "type": "solid" },
+    { "from": "def", "to": "agt", "type": "solid" },
+    { "from": "agt", "to": "af-dt", "type": "solid" },
+    { "from": "af-dt", "to": "tm", "type": "solid" },
+    { "from": "af-dt", "to": "post", "type": "solid" },
+    { "from": "af-dt", "to": "obs", "type": "solid" },
+    { "from": "af-dt", "to": "ext-dy", "type": "solid" },
+    { "from": "ext-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "mta-imp", "type": "solid" },
+    { "from": "ist-f", "to": "lang-dy", "type": "solid" }
+  ]
+}

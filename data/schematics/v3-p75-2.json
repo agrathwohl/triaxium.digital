@@ -1,0 +1,37 @@
+{
+  "id": "v3-p75-2",
+  "volume": 3,
+  "section": "CS-3",
+  "page": 75,
+  "subject": "bscf",
+  "title": "BSCF.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 75 (CS-3). BSCF (basic science) is the subject; WO-EXP-PRI (world expansion principle) is the partner. From the subject: RT-DY (reality dynamics), MT-INFO (multi-information) and AFI (affinity insight). From RT-DY: ACT-T (actual terms) and SOC-RT-DEVL. From SOC-RT-DEVL: ALT-FT (alternative functionalism). From MT-INFO: INFO-DE-B (information degrees). From AFI: TR (transformation) and SPT-DY (spiritual dynamics). From SPT-DY: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "bscf", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "rt-dy" },
+    { "termId": "act-t" },
+    { "termId": "soc-rt-devl" },
+    { "termId": "alt-ft" },
+    { "termId": "mt-info" },
+    { "termId": "info-de-b" },
+    { "termId": "afi" },
+    { "termId": "tr" },
+    { "termId": "spt-dy" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "bscf", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "bscf", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "act-t", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-devl", "type": "solid" },
+    { "from": "soc-rt-devl", "to": "alt-ft", "type": "solid" },
+    { "from": "bscf", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-de-b", "type": "solid" },
+    { "from": "bscf", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "tr", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "apl-dt", "type": "solid" }
+  ]
+}

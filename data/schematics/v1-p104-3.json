@@ -1,0 +1,31 @@
+{
+  "id": "v1-p104-3",
+  "volume": 1,
+  "section": "T(AF)M-8",
+  "page": 104,
+  "subject": "lang-dy",
+  "title": "LANG.DY.------PRO.TF.C.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 104 (T(AF)M-8). LANG-DY (language dynamics) is the subject, with the (C) prefix, \"the concept of\"; PRO-TF-C is the partner. From the subject: PHY-U-P (physical universe particular) and AF-DT (affinity dictates). From PHY-U-P: STY (style), with the (D) prefix, \"the dynamics of\". From AF-DT: ACC-F (accelerated functionalism). From ACC-F: AGT (agreement), with the (R) prefix, \"the reality of\", and TRS (transition). From AGT: EXT-F (extended functionalism).",
+  "terms": [
+    { "termId": "lang-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "pro-tf-c" },
+    { "termId": "phy-u-p" },
+    { "termId": "sty", "prefix": "d" },
+    { "termId": "af-dt" },
+    { "termId": "acc-f" },
+    { "termId": "agt", "prefix": "r" },
+    { "termId": "ext-f" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "lang-dy", "to": "pro-tf-c", "type": "solid" },
+    { "from": "lang-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "sty", "type": "solid" },
+    { "from": "lang-dy", "to": "af-dt", "type": "solid" },
+    { "from": "af-dt", "to": "acc-f", "type": "solid" },
+    { "from": "acc-f", "to": "agt", "type": "solid" },
+    { "from": "agt", "to": "ext-f", "type": "solid" },
+    { "from": "acc-f", "to": "trs", "type": "solid" }
+  ]
+}

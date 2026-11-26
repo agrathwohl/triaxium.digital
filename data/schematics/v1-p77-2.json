@@ -1,0 +1,37 @@
+{
+  "id": "v1-p77-2",
+  "volume": 1,
+  "section": "WAM-19",
+  "page": 77,
+  "subject": "if-st-dy",
+  "title": "IF.ST.DY.------MTA.IMP.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 77 (WAM-19). IF-ST-DY (infra-structure dynamics) is the subject, with the (C) prefix, \"the concept of\"; MTA-IMP (meta-implications), also with the (C) prefix, is the partner. From the subject: MT-INFO (multi-information). From MT-INFO: AF-TD (affinity tendencies), DYM-SPI and CULT-INFO-F (culture information focus). From AF-TD: PART (participation) and CULT-SOLD (culture solidification), with the (P) prefix, \"point of idea completion\". From DYM-SPI: LK-IMP (linkage implications). PROG-CONT (progressional continuance) is on a dotted line from DYM-SPI. From PROG-CONT: EXP-CONT (expansion condition). JR-DY (journalism dynamics) is on a dotted line from CULT-INFO-F.",
+  "terms": [
+    { "termId": "if-st-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "mta-imp", "prefix": "c" },
+    { "termId": "mt-info" },
+    { "termId": "af-td" },
+    { "termId": "part" },
+    { "termId": "cult-sold", "prefix": "p" },
+    { "termId": "dym-spi" },
+    { "termId": "lk-imp" },
+    { "termId": "prog-cont" },
+    { "termId": "exp-cont" },
+    { "termId": "cult-info-f" },
+    { "termId": "jr-dy" }
+  ],
+  "relationships": [
+    { "from": "if-st-dy", "to": "mta-imp", "type": "solid" },
+    { "from": "if-st-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "part", "type": "solid" },
+    { "from": "af-td", "to": "cult-sold", "type": "solid" },
+    { "from": "mt-info", "to": "dym-spi", "type": "solid" },
+    { "from": "dym-spi", "to": "lk-imp", "type": "solid" },
+    { "from": "dym-spi", "to": "prog-cont", "type": "dashed" },
+    { "from": "prog-cont", "to": "exp-cont", "type": "solid" },
+    { "from": "mt-info", "to": "cult-info-f", "type": "solid" },
+    { "from": "cult-info-f", "to": "jr-dy", "type": "dashed" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v2-p291",
+  "volume": 2,
+  "section": "CMOA(II)-49",
+  "page": 291,
+  "subject": "pri-af-td",
+  "title": "PRI.AF.TD.------C.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 291 (CMOA(II)-49). PRI-AF-TD (primary affinity tendencies) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. From the subject: COS-P (cosmic particulars). From COS-P: A-PR (all-purpose) and SPT-DY (spiritual dynamics). From A-PR: ATTN (attraction). From SPT-DY: PHY-U-P (physical universe particular), AF-DY (affinity dynamics) and COS-D (cosmic dictates). From AF-DY: MT-INFO (multi-information). From MT-INFO: EXP-DY (expansion dynamics). From COS-D: TR (transformation).",
+  "terms": [
+    { "termId": "pri-af-td", "isSubject": true, "prefix": "c" },
+    { "termId": "c-cont" },
+    { "termId": "cos-p" },
+    { "termId": "a-pr" },
+    { "termId": "attn" },
+    { "termId": "spt-dy" },
+    { "termId": "phy-u-p" },
+    { "termId": "af-dy" },
+    { "termId": "mt-info" },
+    { "termId": "exp-dy" },
+    { "termId": "cos-d" },
+    { "termId": "tr" }
+  ],
+  "relationships": [
+    { "from": "pri-af-td", "to": "c-cont", "type": "solid" },
+    { "from": "pri-af-td", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "a-pr", "type": "solid" },
+    { "from": "a-pr", "to": "attn", "type": "solid" },
+    { "from": "cos-p", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "phy-u-p", "type": "solid" },
+    { "from": "spt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "exp-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "cos-d", "type": "solid" },
+    { "from": "cos-d", "to": "tr", "type": "solid" }
+  ]
+}

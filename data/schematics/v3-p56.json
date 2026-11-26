@@ -1,0 +1,33 @@
+{
+  "id": "v3-p56",
+  "volume": 3,
+  "section": "BK(NM)-32",
+  "page": 56,
+  "subject": "sty",
+  "title": "STF.------DEF.",
+  "type": "crossing",
+  "description": "Chart on book p. 56 (BK(NM)-32). STY (style) is the subject; DEF (definition) is the partner. The title's first code, STF (source transfer), is drawn at the lower end of the straight line whose upper end is DEF. From the subject: LANG-DY (language dynamics). From LANG-DY: PROJ-DY (projectional dynamics). From PROJ-DY: T-C-IMP (time continuum implications). From T-C-IMP: DEF and STF. From DEF: ACC-DYM (accelerated dynamics). From ACC-DYM: SOC-RT-DY (social reality dynamics) and APP-RDEF (applied redefinitions). From SOC-RT-DY: AFL-DY (affinity dynamics).",
+  "terms": [
+    { "termId": "sty", "isSubject": true },
+    { "termId": "def" },
+    { "termId": "lang-dy" },
+    { "termId": "proj-dy" },
+    { "termId": "t-c-imp" },
+    { "termId": "stf" },
+    { "termId": "acc-dym" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "afl-dy" },
+    { "termId": "app-rdef" }
+  ],
+  "relationships": [
+    { "from": "sty", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "def", "type": "solid" },
+    { "from": "t-c-imp", "to": "stf", "type": "solid" },
+    { "from": "def", "to": "acc-dym", "type": "solid" },
+    { "from": "acc-dym", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "afl-dy", "type": "solid" },
+    { "from": "acc-dym", "to": "app-rdef", "type": "solid" }
+  ]
+}

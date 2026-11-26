@@ -1,0 +1,37 @@
+{
+  "id": "v3-p271",
+  "volume": 3,
+  "section": "PR.S(RD)II-25",
+  "page": 271,
+  "subject": "alt-c-prog",
+  "title": "ALT.C.PROG.------TRS.",
+  "type": "crossing",
+  "description": "Chart on book p. 271 (PR.S(RD)II-25). ALT-C-PROG is the subject; TRS (transition) is the partner. From the subject: SOC-RT (social reality), APT-DY and INFO-DY. From SOC-RT: EXPM-CONT-1 and PART (participation). From PART: EXPN-CONT. From APT-DY: AF-DY (affinity dynamics). From AF-DY: AF-POST (affinity postulation). From INFO-DY: MT-INFO-DB. From MT-INFO-DB: CULT-INFO-B (culture information basis).",
+  "terms": [
+    { "termId": "alt-c-prog", "isSubject": true },
+    { "termId": "trs" },
+    { "termId": "soc-rt" },
+    { "termId": "expm-cont-1" },
+    { "termId": "part" },
+    { "termId": "expn-cont" },
+    { "termId": "apt-dy" },
+    { "termId": "af-dy" },
+    { "termId": "af-post" },
+    { "termId": "info-dy" },
+    { "termId": "mt-info-db" },
+    { "termId": "cult-info-b" }
+  ],
+  "relationships": [
+    { "from": "alt-c-prog", "to": "trs", "type": "solid" },
+    { "from": "alt-c-prog", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "expm-cont-1", "type": "solid" },
+    { "from": "soc-rt", "to": "part", "type": "solid" },
+    { "from": "part", "to": "expn-cont", "type": "solid" },
+    { "from": "alt-c-prog", "to": "apt-dy", "type": "solid" },
+    { "from": "apt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "af-post", "type": "solid" },
+    { "from": "alt-c-prog", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "mt-info-db", "type": "solid" },
+    { "from": "mt-info-db", "to": "cult-info-b", "type": "solid" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "v2-p30-1",
+  "volume": 2,
+  "section": "SD(SY)-8",
+  "page": 30,
+  "subject": "cult-info-fo",
+  "title": "CULT.INFO.F.------AF.DY.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 30 (SD(SY)-8). The chart has no arrow, so the first code of the title is the subject: CULT-INFO-FO (the title writes CULT-INFO-F), with the (C) prefix, \"the concept of\"; AF-DY (affinity dynamics) is the partner. From the subject: COS-P (cosmic particulars). From COS-P: DIFF, with the (R) prefix, \"the reality of\", and MTA-RT-SIGN (meta-reality significance). From DIFF: INFO-INTR (information interpretation) and PRI-INFO (principle information); a line from DIFF's line ends at a dot with no label, and INFO-INTR branches from that line. From MTA-RT-SIGN: PROJ-DY (projectional dynamics). ACT (activism), with the (P) prefix, \"point of idea completion\", is on a dashed line from PROJ-DY.",
+  "terms": [
+    { "termId": "cult-info-fo", "isSubject": true, "prefix": "c" },
+    { "termId": "af-dy" },
+    { "termId": "cos-p" },
+    { "termId": "diff", "prefix": "r" },
+    { "termId": "info-intr" },
+    { "termId": "pri-info" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "proj-dy" },
+    { "termId": "act", "prefix": "p" }
+  ],
+  "relationships": [
+    { "from": "cult-info-fo", "to": "af-dy", "type": "solid" },
+    { "from": "cult-info-fo", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "diff", "type": "solid" },
+    { "from": "diff", "to": "info-intr", "type": "solid" },
+    { "from": "diff", "to": "pri-info", "type": "solid" },
+    { "from": "cos-p", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "act", "type": "dashed" }
+  ]
+}

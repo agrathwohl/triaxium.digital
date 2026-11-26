@@ -1,0 +1,37 @@
+{
+  "id": "v3-p228",
+  "volume": 3,
+  "section": "T(IMP)M-26",
+  "page": 228,
+  "subject": "af-td",
+  "title": "AF.TD.------POST.",
+  "type": "crossing",
+  "description": "Chart on book p. 228 (T(IMP)M-26). AF-TD (affinity tendencies) is the subject; POST (postulation) is the partner. From the subject: SOC-RT-DY (social reality dynamics), ALT-FT (alternative functionalism) and INFO-DY. From SOC-RT-DY: RT-ALGN (reality alignment). From ALT-FT: ALT-ACT (alternative activism). From ALT-ACT: CRTF-PROG (cross-transfer progressionalism). From INFO-DY: CULT-AF-B (culture affinity basis) and ATTN (attraction). From CULT-AF-B: MD-DY (media dynamics). From ATTN: ASP-ES (aspect essence). A further line from the RT-ALGN line ends at a dot with no label.",
+  "terms": [
+    { "termId": "af-td", "isSubject": true },
+    { "termId": "post" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "rt-algn" },
+    { "termId": "alt-ft" },
+    { "termId": "alt-act" },
+    { "termId": "crtf-prog" },
+    { "termId": "info-dy" },
+    { "termId": "cult-af-b" },
+    { "termId": "md-dy" },
+    { "termId": "attn" },
+    { "termId": "asp-es" }
+  ],
+  "relationships": [
+    { "from": "af-td", "to": "post", "type": "solid" },
+    { "from": "af-td", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "rt-algn", "type": "solid" },
+    { "from": "af-td", "to": "alt-ft", "type": "solid" },
+    { "from": "alt-ft", "to": "alt-act", "type": "solid" },
+    { "from": "alt-act", "to": "crtf-prog", "type": "solid" },
+    { "from": "af-td", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "md-dy", "type": "solid" },
+    { "from": "info-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "asp-es", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v2-p327",
+  "volume": 2,
+  "section": "R(AS)CM(I)-11",
+  "page": 327,
+  "subject": "app-redef",
+  "title": "S.PROJ.------APP.RDEF.",
+  "type": "crossing",
+  "description": "Chart on book p. 327 (R(AS)CM(I)-11). The arrow points to APP-REDEF (the title writes APP-RDEF), the second code of the title, so it is the subject; S-PROJ (source projection) is the partner. From the subject: INT (intention) and TR-DIFF. From INT: PHY-U-P (physical universe particular). From PHY-U-P: POL-DY (political dynamics). From TR-DIFF: COS-D (cosmic dictates). From COS-D: SCC-RT and a second TR-DIFF label (TR-DIFF-2). From SCC-RT: ALT-F (alternative functionalism). From TR-DIFF-2: TR (transformation).",
+  "terms": [
+    { "termId": "app-redef", "isSubject": true },
+    { "termId": "s-proj" },
+    { "termId": "int" },
+    { "termId": "phy-u-p" },
+    { "termId": "pol-dy" },
+    { "termId": "tr-diff" },
+    { "termId": "cos-d" },
+    { "termId": "scc-rt" },
+    { "termId": "alt-f" },
+    { "termId": "tr-diff-2" },
+    { "termId": "tr" }
+  ],
+  "relationships": [
+    { "from": "app-redef", "to": "s-proj", "type": "solid" },
+    { "from": "app-redef", "to": "int", "type": "solid" },
+    { "from": "int", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "pol-dy", "type": "solid" },
+    { "from": "app-redef", "to": "tr-diff", "type": "solid" },
+    { "from": "tr-diff", "to": "cos-d", "type": "solid" },
+    { "from": "cos-d", "to": "scc-rt", "type": "solid" },
+    { "from": "scc-rt", "to": "alt-f", "type": "solid" },
+    { "from": "cos-d", "to": "tr-diff-2", "type": "solid" },
+    { "from": "tr-diff-2", "to": "tr", "type": "solid" }
+  ]
+}

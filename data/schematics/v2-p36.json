@@ -1,0 +1,35 @@
+{
+  "id": "v2-p36",
+  "volume": 2,
+  "section": "SD(SY)-14",
+  "page": 36,
+  "subject": "info-algn",
+  "title": "INFO.ALGN.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 36 (SD(SY)-14). INFO-ALGN (information alignment) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: AFN (affinity negation) and ALT-F (alternative functionalism). From ALT-F: AFI-2 (affinity insight—second degree) and PROG-EXT-FT (progressional extended functionalism). From AFI-2: ALT-ACT (alternative activism), ATT (attitude) and APP-RDEF (applied redefinitions), with the (P) prefix, \"point of idea completion\". From PROG-EXT-FT: PROJ-DY (projectional dynamics) and ALT-D (alternative definitions).",
+  "terms": [
+    { "termId": "info-algn", "isSubject": true, "prefix": "c" },
+    { "termId": "soc-rt" },
+    { "termId": "afn" },
+    { "termId": "alt-f" },
+    { "termId": "afi-2" },
+    { "termId": "alt-act" },
+    { "termId": "att" },
+    { "termId": "app-rdef", "prefix": "p" },
+    { "termId": "prog-ext-ft" },
+    { "termId": "proj-dy" },
+    { "termId": "alt-d" }
+  ],
+  "relationships": [
+    { "from": "info-algn", "to": "soc-rt", "type": "solid" },
+    { "from": "info-algn", "to": "afn", "type": "solid" },
+    { "from": "info-algn", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "alt-act", "type": "solid" },
+    { "from": "afi-2", "to": "att", "type": "solid" },
+    { "from": "afi-2", "to": "app-rdef", "type": "solid" },
+    { "from": "alt-f", "to": "prog-ext-ft", "type": "solid" },
+    { "from": "prog-ext-ft", "to": "proj-dy", "type": "solid" },
+    { "from": "prog-ext-ft", "to": "alt-d", "type": "solid" }
+  ]
+}

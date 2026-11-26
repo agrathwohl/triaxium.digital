@@ -1,0 +1,33 @@
+{
+  "id": "v2-p37",
+  "volume": 2,
+  "section": "SD(SY)-15",
+  "page": 37,
+  "subject": "p-fc",
+  "title": "(R)P.FC.------AFI.",
+  "type": "crossing",
+  "description": "Chart on book p. 37 (SD(SY)-15). P-FC (particular focus) is the subject, with the (R) prefix, \"the reality of\"; AFI (affinity insight) is the partner. From the subject: DYM-SPT (dynamic spiritualism) and TR (transformation). From DYM-SPT: EXT-FT (extended functionalism). From EXT-FT: FUND-DYM (fundamental dynamics). From TR: WO-EXP-P and UNF-PI (unification (positively intended)). From WO-EXP-P: VT-IMP (vibrational implications). From VT-IMP: C-CONT (composite continuance). The page text speaks of \"the vibrational implications of progressionalism\".",
+  "terms": [
+    { "termId": "p-fc", "isSubject": true, "prefix": "r" },
+    { "termId": "afi" },
+    { "termId": "dym-spt" },
+    { "termId": "ext-ft" },
+    { "termId": "fund-dym" },
+    { "termId": "tr" },
+    { "termId": "wo-exp-p" },
+    { "termId": "vt-imp" },
+    { "termId": "c-cont" },
+    { "termId": "unf-pi" }
+  ],
+  "relationships": [
+    { "from": "p-fc", "to": "afi", "type": "solid" },
+    { "from": "p-fc", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "fund-dym", "type": "solid" },
+    { "from": "p-fc", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "wo-exp-p", "type": "solid" },
+    { "from": "wo-exp-p", "to": "vt-imp", "type": "solid" },
+    { "from": "vt-imp", "to": "c-cont", "type": "solid" },
+    { "from": "tr", "to": "unf-pi", "type": "solid" }
+  ]
+}

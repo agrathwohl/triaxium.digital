@@ -1,0 +1,37 @@
+{
+  "id": "v3-p253",
+  "volume": 3,
+  "section": "PR.S(RD)II-7",
+  "page": 253,
+  "subject": "stf",
+  "title": "STF.------(R)DEF.",
+  "type": "crossing",
+  "description": "Chart on book p. 253 (PR.S(RD)II-7). STF (source transfer) is the subject; DEF (definition) is the partner, with the (R) prefix, \"the reality of\". From the subject: T-C-IMP (time continuum implications), COS-P (cosmic particulars) and C-CONT (composite continuance). From T-C-IMP: INFO-SOLD (information solidification). From COS-P: TRS (transition). From TRS: RT-ALGN (reality alignment) and PROG-CONT (progressional continuance). From C-CONT: MT-INFO (multi-information). From MT-INFO: CULT-AF-BS (culture affinity basis). From CULT-AF-BS: PER-DY (perception dynamics).",
+  "terms": [
+    { "termId": "stf", "isSubject": true },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-sold" },
+    { "termId": "cos-p" },
+    { "termId": "trs" },
+    { "termId": "rt-algn" },
+    { "termId": "prog-cont" },
+    { "termId": "c-cont" },
+    { "termId": "mt-info" },
+    { "termId": "cult-af-bs" },
+    { "termId": "per-dy" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "def", "type": "solid" },
+    { "from": "stf", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-sold", "type": "solid" },
+    { "from": "stf", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "rt-algn", "type": "solid" },
+    { "from": "trs", "to": "prog-cont", "type": "solid" },
+    { "from": "stf", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "per-dy", "type": "solid" }
+  ]
+}

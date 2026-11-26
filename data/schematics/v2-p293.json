@@ -1,0 +1,31 @@
+{
+  "id": "v2-p293",
+  "volume": 2,
+  "section": "CMOA(II)-51",
+  "page": 293,
+  "subject": "rt-dy",
+  "title": "RT.DY.------POL.SIGN.",
+  "type": "crossing",
+  "description": "Chart on book p. 293 (CMOA(II)-51). RT-DY (reality dynamics) is the subject, with the (C) prefix, \"the concept of\"; POL-SIGN (political significance) is the partner. From the subject: a second RT-DY label (RT-DY-2). From RT-DY-2: PROJ-DY (projectional dynamics). The line continues from the POL-SIGN dot to SOC-RT-P (social reality particulars), and from there through the APP-RDEF (applied redefinitions) dot to STF (source transfer). From SOC-RT-P: EXPM (expansionism). From APP-RDEF: IST-S-ALGN (isolated systematic alignment), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "rt-dy", "isSubject": true, "prefix": "c" },
+    { "termId": "pol-sign" },
+    { "termId": "rt-dy-2" },
+    { "termId": "proj-dy" },
+    { "termId": "soc-rt-p" },
+    { "termId": "expm" },
+    { "termId": "app-rdef" },
+    { "termId": "ist-s-algn", "prefix": "p" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "rt-dy", "to": "pol-sign", "type": "solid" },
+    { "from": "rt-dy", "to": "rt-dy-2", "type": "solid" },
+    { "from": "rt-dy-2", "to": "proj-dy", "type": "solid" },
+    { "from": "pol-sign", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "expm", "type": "solid" },
+    { "from": "soc-rt-p", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "ist-s-algn", "type": "solid" },
+    { "from": "app-rdef", "to": "stf", "type": "solid" }
+  ]
+}

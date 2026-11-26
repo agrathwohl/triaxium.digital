@@ -1,0 +1,33 @@
+{
+  "id": "v1-p77-1",
+  "volume": 1,
+  "section": "WAM-19",
+  "page": 77,
+  "subject": "cult-info-fo",
+  "title": "(R)CULT.INFO.B.------T.C.IMP.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 77 (WAM-19). CULT-INFO-FO (the title writes CULT.INFO.B.) is the subject, with the (R) prefix, \"the reality of\"; T-C-IMP (time continuum implications) is the partner. From the subject: PROG-CONT (progressional continuance) and INFO-CON (information convergence), with the (C) prefix, \"the concept of\". From INFO-CON: RE-ST (restructuralism). CULT-AF-B (culture affinity basis) is on a dotted line from INFO-CON. From RE-ST: ACC-DY (accelerated dynamics) and AF-TF. From ACC-DY: MT-INFO (multi-information). From AF-TF: CULT-TF-S, with the (C) prefix, \"the concept of\".",
+  "terms": [
+    { "termId": "cult-info-fo", "isSubject": true, "prefix": "r" },
+    { "termId": "t-c-imp" },
+    { "termId": "prog-cont" },
+    { "termId": "info-con", "prefix": "c" },
+    { "termId": "re-st" },
+    { "termId": "acc-dy" },
+    { "termId": "mt-info" },
+    { "termId": "af-tf" },
+    { "termId": "cult-tf-s", "prefix": "c" },
+    { "termId": "cult-af-b" }
+  ],
+  "relationships": [
+    { "from": "cult-info-fo", "to": "t-c-imp", "type": "solid" },
+    { "from": "cult-info-fo", "to": "prog-cont", "type": "solid" },
+    { "from": "cult-info-fo", "to": "info-con", "type": "solid" },
+    { "from": "info-con", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "acc-dy", "type": "solid" },
+    { "from": "acc-dy", "to": "mt-info", "type": "solid" },
+    { "from": "re-st", "to": "af-tf", "type": "solid" },
+    { "from": "af-tf", "to": "cult-tf-s", "type": "solid" },
+    { "from": "info-con", "to": "cult-af-b", "type": "dashed" }
+  ]
+}

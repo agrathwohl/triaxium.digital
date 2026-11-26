@@ -1,0 +1,33 @@
+{
+  "id": "v3-p75-1",
+  "volume": 3,
+  "section": "CS-3",
+  "page": 75,
+  "subject": "bscf",
+  "title": "BSCF.------TH.CONT.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 75 (CS-3). BSCF (basic science) is the subject; TH-CONT (thrust continuance) is the partner. From the subject: LK-IMP (linkage implications) and DYM-F (dynamic functionalism). From DYM-F: EXT-F (extended functionalism). From EXT-F: CULT-INFO-DY (culture information dynamics), EXP-DYM (expansion dynamics) and PROJ-CONT (projectional continuance). From EXP-DYM: IST-S-A-GN. From IST-S-A-GN: DEF (definition), with the (P) prefix, \"point of idea completion\".",
+  "terms": [
+    { "termId": "bscf", "isSubject": true },
+    { "termId": "th-cont" },
+    { "termId": "lk-imp" },
+    { "termId": "dym-f" },
+    { "termId": "ext-f" },
+    { "termId": "cult-info-dy" },
+    { "termId": "exp-dym" },
+    { "termId": "ist-s-a-gn" },
+    { "termId": "def", "prefix": "p" },
+    { "termId": "proj-cont" }
+  ],
+  "relationships": [
+    { "from": "bscf", "to": "th-cont", "type": "solid" },
+    { "from": "bscf", "to": "lk-imp", "type": "solid" },
+    { "from": "bscf", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "cult-info-dy", "type": "solid" },
+    { "from": "ext-f", "to": "exp-dym", "type": "solid" },
+    { "from": "exp-dym", "to": "ist-s-a-gn", "type": "solid" },
+    { "from": "ist-s-a-gn", "to": "def", "type": "solid" },
+    { "from": "ext-f", "to": "proj-cont", "type": "solid" }
+  ]
+}
