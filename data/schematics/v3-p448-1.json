@@ -1,0 +1,37 @@
+{
+  "id": "v3-p448-1",
+  "volume": 3,
+  "section": "TRF(CW)-20",
+  "page": 448,
+  "subject": "aftd",
+  "title": "AFTD.------ACC.DY.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 448 (TRF(CW)-20). AFTD (affinity tendencies) is the subject; ACC-DY (accelerated dynamics) is the partner. From the subject: INFO-CY, PART (participation) and ALT-F (alternative functionalism). From INFO-CY: IF-ST-DY (infra-structure dynamics). From IF-ST-DY: INTR (interpretation), with the (R) prefix, \"the reality of\". From PART: POL-DY (political dynamics). From POL-DY: EXT-CONT-2. From ALT-F: C-INFO (composite information). From C-INFO: ATTN (attraction). From ATTN: APP-DT.",
+  "terms": [
+    { "termId": "aftd", "isSubject": true },
+    { "termId": "acc-dy" },
+    { "termId": "info-cy" },
+    { "termId": "if-st-dy" },
+    { "termId": "intr", "prefix": "r" },
+    { "termId": "part" },
+    { "termId": "pol-dy" },
+    { "termId": "ext-cont-2" },
+    { "termId": "alt-f" },
+    { "termId": "c-info" },
+    { "termId": "attn" },
+    { "termId": "app-dt" }
+  ],
+  "relationships": [
+    { "from": "aftd", "to": "acc-dy", "type": "solid" },
+    { "from": "aftd", "to": "info-cy", "type": "solid" },
+    { "from": "info-cy", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "intr", "type": "solid" },
+    { "from": "aftd", "to": "part", "type": "solid" },
+    { "from": "part", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "ext-cont-2", "type": "solid" },
+    { "from": "aftd", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "app-dt", "type": "solid" }
+  ]
+}

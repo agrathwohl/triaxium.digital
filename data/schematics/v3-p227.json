@@ -1,0 +1,39 @@
+{
+  "id": "v3-p227",
+  "volume": 3,
+  "section": "T(IMP)M-25",
+  "page": 227,
+  "subject": "sci-dy",
+  "title": "(R)SCI.DY.------AFI.",
+  "type": "crossing",
+  "description": "Chart on book p. 227 (T(IMP)M-25). SCI-DY (scientific dynamics) is the subject, with the (R) prefix, \"the reality of\"; AFI (affinity insight) is the partner. From the subject: COS-P (cosmic particulars), POL-DY (political dynamics) and POST (postulation). From COS-P: PROG-CONT (progressional continuance), with the (R) prefix, \"the reality of\", and INFO-SOLD (information solidification). From INFO-SOLD: RE-CONT (recontinuance). From POL-DY: ROTP (responsibility of the position) and WO-EXP-PRI (world expansion principle). From ROTP: EXT-FT (extended functionalism). From POST: C-INFO (composite information). From C-INFO: LK-IMP (linkage implications).",
+  "terms": [
+    { "termId": "sci-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "afi" },
+    { "termId": "cos-p" },
+    { "termId": "prog-cont", "prefix": "r" },
+    { "termId": "info-sold" },
+    { "termId": "re-cont" },
+    { "termId": "pol-dy" },
+    { "termId": "rotp" },
+    { "termId": "ext-ft" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "post" },
+    { "termId": "c-info" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "sci-dy", "to": "afi", "type": "solid" },
+    { "from": "sci-dy", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "prog-cont", "type": "solid" },
+    { "from": "cos-p", "to": "info-sold", "type": "solid" },
+    { "from": "info-sold", "to": "re-cont", "type": "solid" },
+    { "from": "sci-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "rotp", "type": "solid" },
+    { "from": "rotp", "to": "ext-ft", "type": "solid" },
+    { "from": "pol-dy", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "sci-dy", "to": "post", "type": "solid" },
+    { "from": "post", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "lk-imp", "type": "solid" }
+  ]
+}

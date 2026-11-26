@@ -1,0 +1,43 @@
+{
+  "id": "v3-p440",
+  "volume": 3,
+  "section": "TRF(CW)-12",
+  "page": 440,
+  "subject": "bia",
+  "title": "BIA.------TR.",
+  "type": "crossing",
+  "description": "Chart on book p. 440 (TRF(CW)-12). BIA (bi-aitional) is the subject; TR (transformation) is the partner. From the subject: APPL-DT, SPT-DY (spiritual dynamics) and INFO-DY. From APPL-DT: PROG-CONT (progressional continuance) and POL-DY (political dynamics). From PROG-CONT: PART (participation). From POL-DY: CULT-INFO-BS (culture information basis). From CULT-INFO-BS: ATTN (attraction). From SPT-DY: TH-CONT (thrust continuance). From TH-CONT: MT-INTR (multiple interpretation). From INFO-DY: IST-F (isolated focus) and MT-INF. From MT-INF: PROJ-DY (projectional dynamics).",
+  "terms": [
+    { "termId": "bia", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "appl-dt" },
+    { "termId": "prog-cont" },
+    { "termId": "part" },
+    { "termId": "pol-dy" },
+    { "termId": "cult-info-bs" },
+    { "termId": "attn" },
+    { "termId": "spt-dy" },
+    { "termId": "th-cont" },
+    { "termId": "mt-intr" },
+    { "termId": "info-dy" },
+    { "termId": "ist-f" },
+    { "termId": "mt-inf" },
+    { "termId": "proj-dy" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "tr", "type": "solid" },
+    { "from": "bia", "to": "appl-dt", "type": "solid" },
+    { "from": "appl-dt", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "part", "type": "solid" },
+    { "from": "appl-dt", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "cult-info-bs", "type": "solid" },
+    { "from": "cult-info-bs", "to": "attn", "type": "solid" },
+    { "from": "bia", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "mt-intr", "type": "solid" },
+    { "from": "bia", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-f", "type": "solid" },
+    { "from": "info-dy", "to": "mt-inf", "type": "solid" },
+    { "from": "mt-inf", "to": "proj-dy", "type": "solid" }
+  ]
+}

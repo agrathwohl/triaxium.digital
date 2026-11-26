@@ -1,0 +1,37 @@
+{
+  "id": "v3-p215",
+  "volume": 3,
+  "section": "T(IMP)M-13",
+  "page": 215,
+  "subject": "intr",
+  "title": "(R)INTR.------INFO.F.",
+  "type": "crossing",
+  "description": "Chart on book p. 215 (T(IMP)M-13). INTR (interpretation) is the subject, with the (R) prefix, \"the reality of\"; INFO-F (information focus) is the partner. From the subject: INFO-DY, TRS (transition) and AF-DY (affinity dynamics). From INFO-DY: CULT-INFO-B (culture information basis) and IST-F (isolated focus). From CULT-INFO-B: CN-INFO (controlled information). From TRS: MT-INFO (multi-information). From AF-DY: AF-NT (affinity nature). From AF-NT: CULT-AF-B (culture affinity basis) and PER-DY (perception dynamics).",
+  "terms": [
+    { "termId": "intr", "isSubject": true, "prefix": "r" },
+    { "termId": "info-f" },
+    { "termId": "info-dy" },
+    { "termId": "cult-info-b" },
+    { "termId": "cn-info" },
+    { "termId": "ist-f" },
+    { "termId": "trs" },
+    { "termId": "mt-info" },
+    { "termId": "af-dy" },
+    { "termId": "af-nt" },
+    { "termId": "cult-af-b" },
+    { "termId": "per-dy" }
+  ],
+  "relationships": [
+    { "from": "intr", "to": "info-f", "type": "solid" },
+    { "from": "intr", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "cn-info", "type": "solid" },
+    { "from": "info-dy", "to": "ist-f", "type": "solid" },
+    { "from": "intr", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "mt-info", "type": "solid" },
+    { "from": "intr", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "cult-af-b", "type": "solid" },
+    { "from": "af-nt", "to": "per-dy", "type": "solid" }
+  ]
+}

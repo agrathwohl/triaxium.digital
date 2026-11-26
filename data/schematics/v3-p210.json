@@ -1,0 +1,37 @@
+{
+  "id": "v3-p210",
+  "volume": 3,
+  "section": "T(IMP)M-8",
+  "page": 210,
+  "subject": "mt-info",
+  "title": "MT.INFO------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 210 (T(IMP)M-8). MT-INFO (multi-information) is the subject; SOC-RT (social reality) is the partner. From the subject: EXP-DT (expansion dictates), INFO-FR (information forum) and FUND-DY (fundamental dynamics). From EXP-DT: SG (source initiation). From SG: DEF (definition), with the (P) prefix, \"point of idea completion\". From INFO-FR: MD-DY (media dynamics). From MD-DY: ROTP (responsibility of the position). From ROTP: JR-DY (journalism dynamics). From FUND-DY: PER-PHY-U-FUND (perceived physical universe fundamental). From PER-PHY-U-FUND: UTZ (utilization).",
+  "terms": [
+    { "termId": "mt-info", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "exp-dt" },
+    { "termId": "sg" },
+    { "termId": "def", "prefix": "p" },
+    { "termId": "info-fr" },
+    { "termId": "md-dy" },
+    { "termId": "rotp" },
+    { "termId": "jr-dy" },
+    { "termId": "fund-dy" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "utz" }
+  ],
+  "relationships": [
+    { "from": "mt-info", "to": "soc-rt", "type": "solid" },
+    { "from": "mt-info", "to": "exp-dt", "type": "solid" },
+    { "from": "exp-dt", "to": "sg", "type": "solid" },
+    { "from": "sg", "to": "def", "type": "solid" },
+    { "from": "mt-info", "to": "info-fr", "type": "solid" },
+    { "from": "info-fr", "to": "md-dy", "type": "solid" },
+    { "from": "md-dy", "to": "rotp", "type": "solid" },
+    { "from": "rotp", "to": "jr-dy", "type": "solid" },
+    { "from": "mt-info", "to": "fund-dy", "type": "solid" },
+    { "from": "fund-dy", "to": "per-phy-u-fund", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "utz", "type": "solid" }
+  ]
+}

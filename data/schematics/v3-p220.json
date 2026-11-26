@@ -1,0 +1,27 @@
+{
+  "id": "v3-p220",
+  "volume": 3,
+  "section": "T(IMP)M-18",
+  "page": 220,
+  "subject": "prin-info",
+  "title": "(R)PRI.INFO.------AFI.------COS.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 220 (T(IMP)M-18). PRIN-INFO (the title writes PRI.INFO.) is the subject, with the (R) prefix, \"the reality of\"; AFI (affinity insight) is the partner. The line from the subject bends at AFI and runs on to COS-P (cosmic particulars), the third code of the title. From COS-P: CULT-INFO-FO. From CULT-INFO-FO: PHY-U-C (physical universe context). RT-INT-TR (reality initiative traits) is on a dotted line from CULT-INFO-FO. From RT-INT-TR: INTR (interpretation). CULT-INFO-FO and INTR both have the (PO) prefix, \"point of\".",
+  "terms": [
+    { "termId": "prin-info", "isSubject": true, "prefix": "r" },
+    { "termId": "afi" },
+    { "termId": "cos-p" },
+    { "termId": "cult-info-fo", "prefix": "po" },
+    { "termId": "phy-u-c" },
+    { "termId": "rt-int-tr" },
+    { "termId": "intr", "prefix": "po" }
+  ],
+  "relationships": [
+    { "from": "prin-info", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "cult-info-fo", "type": "solid" },
+    { "from": "cult-info-fo", "to": "phy-u-c", "type": "solid" },
+    { "from": "cult-info-fo", "to": "rt-int-tr", "type": "dashed" },
+    { "from": "rt-int-tr", "to": "intr", "type": "solid" }
+  ]
+}

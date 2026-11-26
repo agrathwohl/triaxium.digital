@@ -1,0 +1,39 @@
+{
+  "id": "v3-p439-1",
+  "volume": 3,
+  "section": "TRF(CW)-11",
+  "page": 439,
+  "subject": "af-dy",
+  "title": "AF.DY.------POST.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 439 (TRF(CW)-11). AF-DY (affinity dynamics) is the subject; POST (postulation) is the partner. From the subject: INDIV-TD (individual tendencies), MT-INFO (multi-information) and PER-DY (perception dynamics). From INDIV-TD: EXP-DY (expansion dynamics) and ATTN (attraction). From ATTN: PART (participation). From MT-INFO: INFO-DE-B (information degrees) and C-CONT (composite continuance). From PER-DY: AFI (affinity insight). From AFI: SPT-DY (spiritual dynamics). From SPT-DY: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "af-dy", "isSubject": true },
+    { "termId": "post" },
+    { "termId": "indiv-td" },
+    { "termId": "exp-dy" },
+    { "termId": "attn" },
+    { "termId": "part" },
+    { "termId": "mt-info" },
+    { "termId": "info-de-b" },
+    { "termId": "c-cont" },
+    { "termId": "per-dy" },
+    { "termId": "afi" },
+    { "termId": "spt-dy" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "af-dy", "to": "post", "type": "solid" },
+    { "from": "af-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "exp-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "part", "type": "solid" },
+    { "from": "af-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "info-de-b", "type": "solid" },
+    { "from": "mt-info", "to": "c-cont", "type": "solid" },
+    { "from": "af-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "apl-dt", "type": "solid" }
+  ]
+}

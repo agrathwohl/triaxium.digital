@@ -1,0 +1,41 @@
+{
+  "id": "v3-p439-2",
+  "volume": 3,
+  "section": "TRF(CW)-11",
+  "page": 439,
+  "subject": "a-pr",
+  "title": "A.PR.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 439 (TRF(CW)-11). A-PR (all-purpose) is the subject; PROG-CONT (progressional continuance) is the partner. From the subject: IF-SPT (infra-spirituality), VT-DY (vibrational dynamics) and TR (transformation). From IF-SPT: PROJ-DY (projectional dynamics) and MOT-DY. From VT-DY: RT-DY (reality dynamics). From RT-DY: REL-APC (relevant application) and SOC-RT-P (social reality particulars). From SOC-RT-P: OBS (observation). From TR: INFO-TRNS (information transference). From INFO-TRNS: LK-IMP (linkage implications) and HI-P (high purpose).",
+  "terms": [
+    { "termId": "a-pr", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "if-spt" },
+    { "termId": "proj-dy" },
+    { "termId": "mot-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "rt-dy" },
+    { "termId": "rel-apc" },
+    { "termId": "soc-rt-p" },
+    { "termId": "obs" },
+    { "termId": "tr" },
+    { "termId": "info-trns" },
+    { "termId": "lk-imp" },
+    { "termId": "hi-p" }
+  ],
+  "relationships": [
+    { "from": "a-pr", "to": "prog-cont", "type": "solid" },
+    { "from": "a-pr", "to": "if-spt", "type": "solid" },
+    { "from": "if-spt", "to": "proj-dy", "type": "solid" },
+    { "from": "if-spt", "to": "mot-dy", "type": "solid" },
+    { "from": "a-pr", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "rel-apc", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "obs", "type": "solid" },
+    { "from": "a-pr", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "lk-imp", "type": "solid" },
+    { "from": "info-trns", "to": "hi-p", "type": "solid" }
+  ]
+}

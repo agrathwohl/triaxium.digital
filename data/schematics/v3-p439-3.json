@@ -1,0 +1,35 @@
+{
+  "id": "v3-p439-3",
+  "volume": 3,
+  "section": "TRF(CW)-11",
+  "page": 439,
+  "subject": "spt-dy",
+  "title": "SPT.DY.------PART.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 439 (TRF(CW)-11). SPT-DY (spiritual dynamics) is the subject; PART (participation) is the partner. From the subject: RT-DY (reality dynamics), MOT-DY and TRS (transition). From RT-DY: BIA (bi-aitional). From MOT-DY: C-CONT (composite continuance). From C-CONT: C-RN. From TRS: AF-POST (affinity postulation). From AF-POST: DEF (definition), with the (R) prefix, \"the reality of\", and AFI (affinity insight).",
+  "terms": [
+    { "termId": "spt-dy", "isSubject": true },
+    { "termId": "part" },
+    { "termId": "rt-dy" },
+    { "termId": "bia" },
+    { "termId": "mot-dy" },
+    { "termId": "c-cont" },
+    { "termId": "c-rn" },
+    { "termId": "trs" },
+    { "termId": "af-post" },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "part", "type": "solid" },
+    { "from": "spt-dy", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "bia", "type": "solid" },
+    { "from": "spt-dy", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "c-rn", "type": "solid" },
+    { "from": "spt-dy", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "def", "type": "solid" },
+    { "from": "af-post", "to": "afi", "type": "solid" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "v3-p206",
+  "volume": 3,
+  "section": "T(IMP)M-4",
+  "page": 206,
+  "subject": "app-rdef",
+  "title": "(P)APP.RDEF.------INFO.F.D.",
+  "type": "crossing",
+  "description": "Chart on book p. 206 (T(IMP)M-4). APP-RDEF (applied redefinitions) is the subject, with the (P) prefix, \"point of idea completion\"; INFO-F-D (information focus distortion) is the partner. From the subject: PRI-INT, with the (R) prefix, \"the reality of\", and INDIV-DY-RT (individual dynamic reality). PHY-U-C (physical universe context) is on a dotted line from the subject. From PRI-INT: SOC-RT-DY (social reality dynamics). From INDIV-DY-RT: MT-INFO-DB. From MT-INFO-DB: MTA-RT-SIGN (meta-reality significance). From MTA-RT-SIGN: a second SOC-RT-DY (social reality dynamics) and PART (participation), with the (R) prefix, \"the reality of\".",
+  "terms": [
+    { "termId": "app-rdef", "isSubject": true, "prefix": "p" },
+    { "termId": "info-f-d" },
+    { "termId": "pri-int", "prefix": "r" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "phy-u-c" },
+    { "termId": "indiv-dy-rt" },
+    { "termId": "mt-info-db" },
+    { "termId": "mta-rt-sign" },
+    { "termId": "soc-rt-dy-2" },
+    { "termId": "part", "prefix": "r" }
+  ],
+  "relationships": [
+    { "from": "app-rdef", "to": "info-f-d", "type": "solid" },
+    { "from": "app-rdef", "to": "pri-int", "type": "solid" },
+    { "from": "pri-int", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "app-rdef", "to": "phy-u-c", "type": "dashed" },
+    { "from": "app-rdef", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "indiv-dy-rt", "to": "mt-info-db", "type": "solid" },
+    { "from": "mt-info-db", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "soc-rt-dy-2", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "part", "type": "solid" }
+  ]
+}

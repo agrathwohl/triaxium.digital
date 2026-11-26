@@ -1,0 +1,33 @@
+{
+  "id": "v3-p222",
+  "volume": 3,
+  "section": "T(IMP)M-20",
+  "page": 222,
+  "subject": "re-doc",
+  "title": "(R)RE.DOC.------POL.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 222 (T(IMP)M-20). RE-DOC (redocumentation) is the subject, with the (R) prefix, \"the reality of\"; POL-DY (political dynamics) is the partner. From the subject: CN-INFO (controlled information) and TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From CN-INFO: EXT-CONT. From EXT-CONT: CULT-INFO-DY (culture information dynamics). From TM: PRIN-INFO and PROG-CONT (progressional continuance). From PRIN-INFO: PROJ-DY (projectional dynamics). From PROG-CONT: TRS (transition).",
+  "terms": [
+    { "termId": "re-doc", "isSubject": true, "prefix": "r" },
+    { "termId": "pol-dy" },
+    { "termId": "cn-info" },
+    { "termId": "ext-cont" },
+    { "termId": "cult-info-dy" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "prin-info" },
+    { "termId": "proj-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "re-doc", "to": "pol-dy", "type": "solid" },
+    { "from": "re-doc", "to": "cn-info", "type": "solid" },
+    { "from": "cn-info", "to": "ext-cont", "type": "solid" },
+    { "from": "ext-cont", "to": "cult-info-dy", "type": "solid" },
+    { "from": "re-doc", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "prin-info", "type": "solid" },
+    { "from": "prin-info", "to": "proj-dy", "type": "solid" },
+    { "from": "tm", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" }
+  ]
+}

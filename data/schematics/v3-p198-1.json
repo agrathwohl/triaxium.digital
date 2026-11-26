@@ -1,0 +1,35 @@
+{
+  "id": "v3-p198-1",
+  "volume": 3,
+  "section": "EVOL-36",
+  "page": 198,
+  "subject": "dym-ft",
+  "title": "DYM.FT.------HI.P.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 198 (EVOL-36). DYM-FT (dynamic functionalism) is the subject; HI-P (high purpose) is the partner. From the subject: PROG-CONT (progressional continuance), POL-DY (political dynamics) and TRS (transition). From PROG-CONT: T-C-IMP (time continuum implications) and EXP-INFO-B (expansion information basis). From EXP-INFO-B: IST-F (isolated focus). From POL-DY: EXB-H-OR (establishing high order). From EXB-H-OR: POL-P (political policies). From TRS: TR-INFO (trans-information).",
+  "terms": [
+    { "termId": "dym-ft", "isSubject": true },
+    { "termId": "hi-p" },
+    { "termId": "prog-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "exp-info-b" },
+    { "termId": "ist-f" },
+    { "termId": "pol-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "pol-p" },
+    { "termId": "trs" },
+    { "termId": "tr-info" }
+  ],
+  "relationships": [
+    { "from": "dym-ft", "to": "hi-p", "type": "solid" },
+    { "from": "dym-ft", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "prog-cont", "to": "exp-info-b", "type": "solid" },
+    { "from": "exp-info-b", "to": "ist-f", "type": "solid" },
+    { "from": "dym-ft", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "pol-p", "type": "solid" },
+    { "from": "dym-ft", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "tr-info", "type": "solid" }
+  ]
+}

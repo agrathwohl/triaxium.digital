@@ -1,0 +1,43 @@
+{
+  "id": "v3-p198-2",
+  "volume": 3,
+  "section": "EVOL-36",
+  "page": 198,
+  "subject": "exp-dy",
+  "title": "EXT.DY.------TR.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 198 (EVOL-36). EXP-DY (expansion dynamics) is the subject (the title writes EXT.DY.); TR (transformation) is the partner. From the subject: C-INFO (composite information), SPT-DY (spiritual dynamics) and EXT-FT (extended functionalism). From C-INFO: MT-INFO (multi-information). From MT-INFO: MT-INTR (multiple interpretation). From SPT-DY: AF-DY (affinity dynamics). From AF-DY: VT-PLT (vibrational platform). From VT-PLT: POST (postulation). From POST: WO-UNF (world unification). From EXT-FT: TR-INFO (trans-information) and TECH-DY (technological dynamics). From TR-INFO: SCI-DY (scientific dynamics). From TECH-DY: UTZ (utilization).",
+  "terms": [
+    { "termId": "exp-dy", "isSubject": true },
+    { "termId": "tr" },
+    { "termId": "c-info" },
+    { "termId": "mt-info" },
+    { "termId": "mt-intr" },
+    { "termId": "spt-dy" },
+    { "termId": "af-dy" },
+    { "termId": "vt-plt" },
+    { "termId": "post" },
+    { "termId": "wo-unf" },
+    { "termId": "ext-ft" },
+    { "termId": "tr-info" },
+    { "termId": "sci-dy" },
+    { "termId": "tech-dy" },
+    { "termId": "utz" }
+  ],
+  "relationships": [
+    { "from": "exp-dy", "to": "tr", "type": "solid" },
+    { "from": "exp-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "mt-intr", "type": "solid" },
+    { "from": "exp-dy", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "post", "type": "solid" },
+    { "from": "post", "to": "wo-unf", "type": "solid" },
+    { "from": "exp-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "sci-dy", "type": "solid" },
+    { "from": "ext-ft", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "utz", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p198-3",
+  "volume": 3,
+  "section": "EVOL-36",
+  "page": 198,
+  "subject": "spt-dy",
+  "title": "SPT.DY.------SOC.RT.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 198 (EVOL-36). SPT-DY (spiritual dynamics) is the subject; SOC-RT (social reality) is the partner. From the subject: AF-POST (affinity postulation) and TR (transformation). From SOC-RT: APL-DT (application dictates). From APL-DT: POL-P (political policies). From POL-P: PER-DY (perception dynamics). From AF-POST: EXP-DY (expansion dynamics) and ATTN (attraction). From ATTN: AFI (affinity insight). From TR: BIA (bi-aitional). From BIA: MT-INFO (multi-information).",
+  "terms": [
+    { "termId": "spt-dy", "isSubject": true },
+    { "termId": "soc-rt" },
+    { "termId": "apl-dt" },
+    { "termId": "pol-p" },
+    { "termId": "per-dy" },
+    { "termId": "af-post" },
+    { "termId": "exp-dy" },
+    { "termId": "attn" },
+    { "termId": "afi" },
+    { "termId": "tr" },
+    { "termId": "bia" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "spt-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "per-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "exp-dy", "type": "solid" },
+    { "from": "af-post", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "afi", "type": "solid" },
+    { "from": "spt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "mt-info", "type": "solid" }
+  ]
+}

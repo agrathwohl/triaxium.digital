@@ -1,0 +1,37 @@
+{
+  "id": "v3-p218",
+  "volume": 3,
+  "section": "T(IMP)M-16",
+  "page": 218,
+  "subject": "vt-dy",
+  "title": "VT.DY.------APP.RDEF.",
+  "type": "crossing",
+  "description": "Chart on book p. 218 (T(IMP)M-16). VT-DY (vibrational dynamics) is the subject; APP-RDEF (applied redefinitions) is the partner. From the subject: SOC-RT (social reality), T-C-IMP (time continuum implications) and COS-P (cosmic particulars). From SOC-RT: POL-P (political policies). From POL-P: a second VT-DY (vibrational dynamics). From T-C-IMP: PROJ-CONT (projectional continuance). From PROJ-CONT: AF-NT (affinity nature) and TR-INFO (trans-information). From COS-P: PER-VT-U-FUND (perceived vibrational universe fundamental). From PER-VT-U-FUND: AF-DY (affinity dynamics).",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true },
+    { "termId": "app-rdef" },
+    { "termId": "soc-rt" },
+    { "termId": "pol-p" },
+    { "termId": "vt-dy-2" },
+    { "termId": "t-c-imp" },
+    { "termId": "proj-cont" },
+    { "termId": "af-nt" },
+    { "termId": "tr-info" },
+    { "termId": "cos-p" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "app-rdef", "type": "solid" },
+    { "from": "vt-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "vt-dy-2", "type": "solid" },
+    { "from": "vt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "proj-cont", "type": "solid" },
+    { "from": "proj-cont", "to": "af-nt", "type": "solid" },
+    { "from": "proj-cont", "to": "tr-info", "type": "solid" },
+    { "from": "vt-dy", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "af-dy", "type": "solid" }
+  ]
+}

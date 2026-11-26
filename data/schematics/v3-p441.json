@@ -1,0 +1,37 @@
+{
+  "id": "v3-p441",
+  "volume": 3,
+  "section": "TRF(CW)-13",
+  "page": 441,
+  "subject": "info-dy",
+  "title": "(R)INFO.DY.------EXP.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 441 (TRF(CW)-13). INFO-DY is the subject, with the (R) prefix, \"the reality of\"; EXP-DY (expansion dynamics) is the partner. From the subject: PER-PHY-U-FUND (perceived physical universe fundamental), C-CONT (composite continuance) and T-C-IMP (time continuum implications). From PER-PHY-U-FUND: SOC-RT-DY (social reality dynamics). From C-CONT: C-RH (composite research). From C-RH: CULT-AF-BS (culture affinity basis). From CULT-AF-BS: AFI (affinity insight). From AFI: EXB-H-OR (establishing high order). From T-C-IMP: STF (source transfer). From STF: LK-IMP (linkage implications).",
+  "terms": [
+    { "termId": "info-dy", "isSubject": true, "prefix": "r" },
+    { "termId": "exp-dy" },
+    { "termId": "per-phy-u-fund" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "c-cont" },
+    { "termId": "c-rh" },
+    { "termId": "cult-af-bs" },
+    { "termId": "afi" },
+    { "termId": "exb-h-or" },
+    { "termId": "t-c-imp" },
+    { "termId": "stf" },
+    { "termId": "lk-imp" }
+  ],
+  "relationships": [
+    { "from": "info-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "info-dy", "to": "per-phy-u-fund", "type": "solid" },
+    { "from": "per-phy-u-fund", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "c-rh", "type": "solid" },
+    { "from": "c-rh", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "exb-h-or", "type": "solid" },
+    { "from": "info-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "lk-imp", "type": "solid" }
+  ]
+}

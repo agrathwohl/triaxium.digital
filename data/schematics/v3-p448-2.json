@@ -1,0 +1,35 @@
+{
+  "id": "v3-p448-2",
+  "volume": 3,
+  "section": "TRF(CW)-20",
+  "page": 448,
+  "subject": "sf-rz",
+  "title": "SF.RZ.------EXP.INFO.B.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 448 (TRF(CW)-20). SF-RZ (self-realization) is the subject; EXP-INFO-B (expansion information basis) is the partner. From the subject: TR (transformation), AF-DY (affinity dynamics) and PART (participation). From TR: PRI-INFO (principle information). From PRI-INFO: EXB-H-OR (establishing high order). From AF-DY: VT-DY (vibrational dynamics). From PART: RT-DY (reality dynamics). From RT-DY: OP-SD (option spread). From OP-SD: SOC-RT-P (social reality particulars).",
+  "terms": [
+    { "termId": "sf-rz", "isSubject": true },
+    { "termId": "exp-info-b" },
+    { "termId": "tr" },
+    { "termId": "pri-info" },
+    { "termId": "exb-h-or" },
+    { "termId": "af-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "part" },
+    { "termId": "rt-dy" },
+    { "termId": "op-sd" },
+    { "termId": "soc-rt-p" }
+  ],
+  "relationships": [
+    { "from": "sf-rz", "to": "exp-info-b", "type": "solid" },
+    { "from": "sf-rz", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "exb-h-or", "type": "solid" },
+    { "from": "sf-rz", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "sf-rz", "to": "part", "type": "solid" },
+    { "from": "part", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "op-sd", "type": "solid" },
+    { "from": "op-sd", "to": "soc-rt-p", "type": "solid" }
+  ]
+}

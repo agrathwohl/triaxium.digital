@@ -1,0 +1,37 @@
+{
+  "id": "v3-p447",
+  "volume": 3,
+  "section": "TRF(CW)-19",
+  "page": 447,
+  "subject": "af-post",
+  "title": "AF.POST.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 447 (TRF(CW)-19). AF-POST (affinity postulation) is the subject; MT-INFO (multi-information) is the partner. From the subject: APL-DT (application dictates), TR (transformation) and VT-DY (vibrational dynamics). From APL-DT: HI-P (high purpose). From HI-P: SPT-DY (spiritual dynamics). From SPT-DY: APL-DT-2 (application dictates, a second APL-DT label). From TR: UNF-PI (unification (positively intended)). From UNF-PI: RT-INT-TR (reality initiative traits). From RT-INT-TR: REL-APC (relevant application). From VT-DY: RE-ST (restructuralism).",
+  "terms": [
+    { "termId": "af-post", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "apl-dt" },
+    { "termId": "hi-p" },
+    { "termId": "spt-dy" },
+    { "termId": "apl-dt-2" },
+    { "termId": "tr" },
+    { "termId": "unf-pi" },
+    { "termId": "rt-int-tr" },
+    { "termId": "rel-apc" },
+    { "termId": "vt-dy" },
+    { "termId": "re-st" }
+  ],
+  "relationships": [
+    { "from": "af-post", "to": "mt-info", "type": "solid" },
+    { "from": "af-post", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "hi-p", "type": "solid" },
+    { "from": "hi-p", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "apl-dt-2", "type": "solid" },
+    { "from": "af-post", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "unf-pi", "type": "solid" },
+    { "from": "unf-pi", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "rel-apc", "type": "solid" },
+    { "from": "af-post", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "re-st", "type": "solid" }
+  ]
+}

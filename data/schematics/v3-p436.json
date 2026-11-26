@@ -1,0 +1,33 @@
+{
+  "id": "v3-p436",
+  "volume": 3,
+  "section": "TRF(CW)-8",
+  "page": 436,
+  "subject": "bia",
+  "title": "BIA.------INFO.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 436 (TRF(CW)-8). BIA (bi-aitional) is the subject; INFO-DY is the partner. From the subject: AFI-2 (affinity insight—second degree), C-CONT (composite continuance) and AFI-1 (affinity insight (1)). From AFI-2: ALT-FT (alternative functionalism). From C-CONT: WO-EXP-PRI (world expansion principle) and C-INFO (composite information). From AFI-1: SPT-DY (spiritual dynamics). From SPT-DY: RT-DY (reality dynamics). The text on the same page speaks of \"creative music of the affinity insight (1) principle\".",
+  "terms": [
+    { "termId": "bia", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "afi-2" },
+    { "termId": "alt-ft" },
+    { "termId": "c-cont" },
+    { "termId": "wo-exp-pri" },
+    { "termId": "c-info" },
+    { "termId": "afi-1" },
+    { "termId": "spt-dy" },
+    { "termId": "rt-dy" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "info-dy", "type": "solid" },
+    { "from": "bia", "to": "afi-2", "type": "solid" },
+    { "from": "afi-2", "to": "alt-ft", "type": "solid" },
+    { "from": "bia", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "c-cont", "to": "c-info", "type": "solid" },
+    { "from": "bia", "to": "afi-1", "type": "solid" },
+    { "from": "afi-1", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "rt-dy", "type": "solid" }
+  ]
+}

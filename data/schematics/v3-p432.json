@@ -1,0 +1,37 @@
+{
+  "id": "v3-p432",
+  "volume": 3,
+  "section": "TRF(CW)-4",
+  "page": 432,
+  "subject": "rt-dy",
+  "title": "RT.DY.------POL.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 432 (TRF(CW)-4). RT-DY (reality dynamics) is the subject; POL-P (political policies) is the partner. From the subject: VT-DY (vibrational dynamics), INFO-ALGN (information alignment) and EXP-CONT-1 (expansion condition (composite focus)). From VT-DY: CULT-AF-BS (culture affinity basis). From CULT-AF-BS: STY (style). From INFO-ALGN: INFO-TRNS (information transference). From INFO-TRNS: IST-F (isolated focus) and SPT-DY (spiritual dynamics). From EXP-CONT-1: TRS (transition). From TRS: MT-INFO (multi-information).",
+  "terms": [
+    { "termId": "rt-dy", "isSubject": true },
+    { "termId": "pol-p" },
+    { "termId": "vt-dy" },
+    { "termId": "cult-af-bs" },
+    { "termId": "sty" },
+    { "termId": "info-algn" },
+    { "termId": "info-trns" },
+    { "termId": "ist-f" },
+    { "termId": "spt-dy" },
+    { "termId": "exp-cont-1" },
+    { "termId": "trs" },
+    { "termId": "mt-info" }
+  ],
+  "relationships": [
+    { "from": "rt-dy", "to": "pol-p", "type": "solid" },
+    { "from": "rt-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "sty", "type": "solid" },
+    { "from": "rt-dy", "to": "info-algn", "type": "solid" },
+    { "from": "info-algn", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "ist-f", "type": "solid" },
+    { "from": "info-trns", "to": "spt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "exp-cont-1", "type": "solid" },
+    { "from": "exp-cont-1", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "mt-info", "type": "solid" }
+  ]
+}
