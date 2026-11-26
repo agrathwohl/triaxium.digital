@@ -6,7 +6,7 @@
   "subject": "intr",
   "title": "(R)INTR.------AF.DY.",
   "type": "crossing",
-  "description": "Diagram in EVOL-5. The prose above identifies the structural target: 'It is for this reason that the interpretation focus of a given initiation must be reviewed and challenged when not correct (which is practically ninety-nine percent of the time).' The crossing diagrams how the reality of introduction structurally meets affinity-dynamics at the interpretation-focus scale: (R)INTR crossed with AF-DY. INTR sits at left with the subject-arrow; AF-DY at center-right as partner-axis. AFL (affinity alignment) upper-center, P-FC (particular focus) upper-right. ATTN (attraction), MT-RT-SIGN (meta-reality signal), INDIV-VT-TD (individual vibrational transformation-dynamics) on the right. INFO-FM (information forum) left, RT-DY (reality dynamics) center, LANG-DY (language dynamics) lower-left. APL-DT (application dictates) lower-right, INFO-DY (information dynamics) lower-center.",
+  "description": "Diagram in EVOL-5. The prose above identifies the structural target: 'It is for this reason that the interpretation focus of a given initiation must be reviewed and challenged when not correct (which is practically ninety-nine percent of the time).' The crossing diagrams how the reality of interpretation structurally meets affinity-dynamics at the interpretation-focus scale: (R)INTR crossed with AF-DY. INTR sits at left with the subject-arrow; AF-DY at center-right as partner-axis. AFL (affinity alignment) upper-center, P-FC (particular focus) upper-right. ATTN (attraction), MT-RT-SIGN (meta-reality significance), INDIV-VT-TD (individual vibrational tendencies) on the right. INFO-FM (information forum) left, RT-DY (reality dynamics) center, LANG-DY (language dynamics) lower-left. APL-DT (application dictates) lower-right, INFO-DY (information dynamics) lower-center.",
   "terms": [
     {
       "termId": "intr",
@@ -59,48 +59,48 @@
       "type": "solid"
     },
     {
-      "from": "afl",
-      "to": "p-fc",
-      "type": "solid"
-    },
-    {
-      "from": "af-dy",
-      "to": "attn",
-      "type": "solid"
-    },
-    {
-      "from": "af-dy",
-      "to": "mt-rt-sign",
-      "type": "solid"
-    },
-    {
       "from": "mt-rt-sign",
       "to": "indiv-vt-td",
       "type": "solid"
     },
     {
-      "from": "intr",
-      "to": "info-fm",
+      "from": "afl",
+      "to": "attn",
       "type": "solid"
     },
     {
-      "from": "info-fm",
+      "from": "attn",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
       "to": "rt-dy",
       "type": "solid"
     },
     {
       "from": "rt-dy",
+      "to": "info-fm",
+      "type": "solid"
+    },
+    {
+      "from": "info-fm",
       "to": "lang-dy",
       "type": "solid"
     },
     {
-      "from": "af-dy",
+      "from": "intr",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
       "to": "apl-dt",
       "type": "solid"
     },
     {
-      "from": "af-dy",
-      "to": "info-dy",
+      "from": "apl-dt",
+      "to": "mt-rt-sign",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "ist-pt",
   "title": "IST.PT.------INFO.DS.",
   "type": "crossing",
-  "description": "Diagram in WAC-14, on the page where Braxton argues that 'no real understanding of transitional western art music can take place unless the composite reality of its extension is taken into account' — and where Varèse appears as the first to call for electronic instruments, Partch as the cornerstone-of-transformational-pedagogy figure. (C)IST-PT (isolated particulars) is crossed with INFO-DS (information dissemination): the diagram poses what isolated-particulars (Varèse's electronic instruments, Partch's invented apparatus, etc.) actually do when they enter the dissemination apparatus of a culture. IST-PT branches to ALT-D (alternative definitions) → APP-RDEF (applied redefinitions) and ALT-D → AFN (affinity negation); to ACC-FT (accelerated functionalism); to INFO-DS (the crossing); and to IST-F-AT (isolated focus activism). DYM-F (dynamic functionalism) feeds IST-PT and also outputs to CRTF-D (cross-transfer definitions). AF-COMP (affinity compression) → MN-DI (mono-dimensional). Structural argument: isolated particulars produced as creative initiations (Partch's instruments, etc.) are routed through alternative-definitions, which split into applied-redefinitions *and* affinity-negation — a forked outcome that captures Braxton's structural worry: even radical isolated particulars get either applied as redefinitions or rejected as affinity-negations. The dynamic-functionalism feed produces cross-transfer definitions as a side output, the very mechanism that Braxton identifies elsewhere as the western redocumentation device.",
+  "description": "Diagram in WAC-14, one page after the passage where Varèse appears as the first to call for electronic instruments. In WAC-22 Braxton argues that 'no real understanding of transitional western art music can take place unless the composite reality of its extension is taken into account.' (C)IST-PT (isolated particulars) is crossed with INFO-DS (information dissemination): the diagram poses what isolated-particulars (Varèse's electronic instruments, etc.) actually do when they enter the dissemination apparatus of a culture. Besides the main line to INFO-DS, three branches leave the subject. ALT-D (alternative definitions) carries AFN (affinity negation), which branches to APP-RDEF (applied redefinitions) and ACC-F (accelerated functionalism). DYM-F (dynamic functionalism) carries CRTF-D (cross-transfer definitions). AF-COMP (affinity compression) carries MN-DI (mono-dimensional) → IST-F-ACT (isolated focus activism).",
   "terms": [
     {
       "termId": "ist-pt",
@@ -29,7 +29,7 @@
       "termId": "acc-ft"
     },
     {
-      "termId": "ist-f-at"
+      "termId": "ist-f-act"
     },
     {
       "termId": "af-comp"
@@ -51,7 +51,7 @@
       "type": "solid"
     },
     {
-      "from": "alt-d",
+      "from": "afn",
       "to": "app-rdef",
       "type": "solid"
     },
@@ -61,7 +61,7 @@
       "type": "solid"
     },
     {
-      "from": "ist-pt",
+      "from": "afn",
       "to": "acc-ft",
       "type": "solid"
     },
@@ -71,8 +71,8 @@
       "type": "solid"
     },
     {
-      "from": "ist-pt",
-      "to": "ist-f-at",
+      "from": "mn-di",
+      "to": "ist-f-act",
       "type": "solid"
     },
     {
@@ -81,13 +81,18 @@
       "type": "solid"
     },
     {
-      "from": "dym-f",
-      "to": "ist-pt",
+      "from": "ist-pt",
+      "to": "dym-f",
       "type": "solid"
     },
     {
       "from": "dym-f",
       "to": "crtf-d",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "af-comp",
       "type": "solid"
     }
   ]

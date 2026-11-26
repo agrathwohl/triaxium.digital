@@ -6,7 +6,7 @@
   "subject": "dym-spt",
   "title": "DYM.SPT.------IST.F.",
   "type": "crossing",
-  "description": "First of two diagrams in ALT(FT)II-4. The crossing diagrams how dynamic-spiritualism structurally meets isolated-focus at the projectional-continuum scale: DYM-SPT (dynamic spiritualism) crossed with IST-F (isolated focus). DYM-SPT sits on the left with the subject-arrow; IST-F at center-right as partner-axis. AF-DY (affinity dynamics) and SF-RZ (self-realization) at upper margin with AFI (affinity insight) on the right. A-PR (all-purpose), SOC-RT-DY (social-reality dynamics), DYM-F (dynamic functionalism) on the subject's left chain. R-TM (reality of matrix), LG-DY (logical dynamics), LANG-DY (language dynamics) on the bridging-axis. RT-DY (reality dynamics) at center-right. Structural argument: when dynamic-spiritualism is crossed with isolated-focus, the upper diagonal AF-DY -> SF-RZ -> AFI is the partner-axis upper route - affinity-dynamics routes through self-realization into affinity-insight. The subject's left chain A-PR -> SOC-RT-DY -> DYM-F is what dynamic-spiritualism produces alone. The bridging-axis R-TM -> LG-DY -> LANG-DY carries the form's language working into the partner-axis.",
+  "description": "First of two diagrams in ALT(FT)II-4. The crossing diagrams how dynamic-spiritualism structurally meets isolated-focus at the projectional-continuum scale: DYM-SPT (dynamic spiritualism) crossed with IST-F (isolated focus). DYM-SPT sits on the left with the subject-arrow; IST-F at center-right as partner-axis. AF-DY (affinity dynamics) and SF-RZ (self-realization) at upper margin with AFI (affinity insight) on the right. A-PR (all-purpose), SOC-RT-DY (social-reality dynamics), DYM-F (dynamic functionalism) at lower left. R-TM, LG-DY (logical dynamics), LANG-DY (language dynamics) along the bottom. RT-DY (reality dynamics) at center-right. Structural argument: when dynamic-spiritualism is crossed with isolated-focus, the upper branch runs from the main line to AF-DY, and AFI branches from the AF-DY line, with SF-RZ and RT-DY branching from AFI - affinity-dynamics routes into affinity-insight. A vertical line drops from the main line to R-TM; the chain DYM-F -> SOC-RT-DY -> A-PR hangs from it. LANG-DY branches from the main line, with LG-DY branching from the LANG-DY line.",
   "terms": [
     {
       "termId": "dym-spt",
@@ -34,8 +34,7 @@
       "termId": "dym-f"
     },
     {
-      "termId": "tm",
-      "prefix": "r"
+      "termId": "r-tm"
     },
     {
       "termId": "lg-dy"
@@ -59,48 +58,48 @@
       "type": "solid"
     },
     {
-      "from": "af-dy",
-      "to": "sf-rz",
+      "from": "dym-spt",
+      "to": "r-tm",
       "type": "solid"
     },
     {
-      "from": "sf-rz",
+      "from": "af-dy",
       "to": "afi",
       "type": "solid"
     },
     {
-      "from": "dym-spt",
-      "to": "a-pr",
+      "from": "afi",
+      "to": "sf-rz",
       "type": "solid"
     },
     {
-      "from": "a-pr",
+      "from": "afi",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "r-tm",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
       "to": "soc-rt-dy",
       "type": "solid"
     },
     {
       "from": "soc-rt-dy",
-      "to": "dym-f",
+      "to": "a-pr",
       "type": "solid"
     },
     {
       "from": "dym-spt",
-      "to": "tm",
-      "type": "solid"
-    },
-    {
-      "from": "tm",
-      "to": "lg-dy",
-      "type": "solid"
-    },
-    {
-      "from": "lg-dy",
       "to": "lang-dy",
       "type": "solid"
     },
     {
-      "from": "ist-f",
-      "to": "rt-dy",
+      "from": "lang-dy",
+      "to": "lg-dy",
       "type": "solid"
     }
   ]

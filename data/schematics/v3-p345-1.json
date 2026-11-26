@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "(R)STF.------SOC.RT.",
   "type": "crossing",
-  "description": "First of two diagrams in PMBA-9 (Popular Music in Black America). The prose immediately above identifies the structural target: 'The emergence of rock and roll would signal the nature of the next transfer cycle in western culture, and on a physical universe level, this phenomenon would manifest itself in the cross-transfer shift of black popular music. Thus, the attraction this form would have in the white community would serve as the strongest factor to solidify moves towards real alternative options (with regard to life thrust).' The crossing diagrams how the reality of structural-form structurally meets social-reality at the rock-and-roll transfer-cycle scale: (R)STF (the reality of source transfer) crossed with SOC-RT (social reality — the partner-axis's receiving cultural conditions). STF sits on the left with the subject-arrow; APP-RDEF (applied redefinitions) at top-center and EXP-DY (exposure dynamics) at upper-right with POL-SIGN (political significance) and PER-DY (perception dynamics) below as the partner-side upper outputs. SOC-RT sits at right as partner-axis with OBS (observation) below as the partner-side downward output. POL-DY (political dynamics) sits at the upper-left as the subject's upper output. ALT-FT (alternative functionalism) hangs at the lower-left as the subject's downward output. PRI-INFO (principle information) sits centrally with MD-DY (media dynamics), INFO-DY (information dynamics), and CULT-INFO-BS (cultural-information base) below as the bridging-axis downward chain. Structural argument: when structural-form is crossed with social-reality, the upper diagonal APP-RDEF → EXP-DY → SOC-RT is the *transfer-cycle route* — applied-redefinitions route through exposure-dynamics into social-reality, the partner-axis's working chain that converts black popular music's structural-form into the white community's cross-transfer reception. POL-SIGN → PER-DY → OBS is what the partner-side produces as political-significance-perceived-observation. The subject's POL-DY upward and ALT-FT downward outputs are what structural-form produces alone. The central PRI-INFO → MD-DY → INFO-DY → CULT-INFO-BS chain is the *medium route* — principle-information routes through media-dynamics into information-dynamics and finally into cultural-information base. Structural argument: the cross-transfer shift the prose names is structurally that the upper APP-RDEF → EXP-DY → SOC-RT diagonal already-runs in the white community while the subject's central PRI-INFO chain converts the form's principle-information through the medium-route's accumulated working — the rock-and-roll form thus reaches social-reality only on terms the partner-axis has pre-conditioned.",
+  "description": "First of two diagrams in PMBA-9 (Popular Music from the Black Aesthetic). The prose immediately above identifies the structural target: 'The emergence of rock and roll would signal the nature of the next transfer cycle in western culture, and on a physical universe level, this phenomenon would manifest itself in the cross-transfer shift of black popular music. Thus, the attraction this form would have in the white community would serve as the strongest factor to solidify moves towards real alternative options (with regard to life thrust).' The crossing diagrams how the reality of source-transfer structurally meets social-reality at the rock-and-roll transfer-cycle scale: (R)STF (the reality of source transfer) crossed with SOC-RT (social reality — the partner-axis's receiving cultural conditions). STF sits on the left with the subject-arrow; APP-RDEF (applied redefinitions) at top-center branches from POL-DY's line, POL-SIGN (political significance) from APP-RDEF's line, and EXP-DY (expansion dynamics) at the top from POL-SIGN's line. SOC-RT sits at right as partner-axis. PER-DY (perception dynamics) branches from the main line at right; PRI-INFO (principle information) drops from PER-DY's line, OBS (observation) branches from PRI-INFO's line, and INFO-DY (information dynamics) from OBS's line. POL-DY (political dynamics) sits at the upper-left as the subject's upper output. ALT-FT (alternative functionalism) hangs at the lower-left as the subject's downward output, with CULT-INFO-BS (culture information basis) branching from ALT-FT's line and MD-DY (media dynamics) from CULT-INFO-BS's line. The subject's POL-DY upward and ALT-FT downward outputs are what source-transfer produces alone.",
   "terms": [
     { "termId": "stf", "isSubject": true, "prefix": "r" },
     { "termId": "soc-rt" },
@@ -25,16 +25,15 @@
   "relationships": [
     { "from": "stf", "to": "soc-rt", "type": "solid" },
     { "from": "stf", "to": "pol-dy", "type": "solid" },
-    { "from": "stf", "to": "app-rdef", "type": "solid" },
-    { "from": "app-rdef", "to": "exp-dy", "type": "solid" },
-    { "from": "exp-dy", "to": "soc-rt", "type": "solid" },
+    { "from": "pol-dy", "to": "app-rdef", "type": "solid" },
+    { "from": "pol-sign", "to": "exp-dy", "type": "solid" },
     { "from": "app-rdef", "to": "pol-sign", "type": "solid" },
-    { "from": "soc-rt", "to": "per-dy", "type": "solid" },
-    { "from": "per-dy", "to": "obs", "type": "solid" },
+    { "from": "stf", "to": "per-dy", "type": "solid" },
+    { "from": "pri-info", "to": "obs", "type": "solid" },
     { "from": "stf", "to": "alt-ft", "type": "solid" },
-    { "from": "stf", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "md-dy", "type": "solid" },
-    { "from": "md-dy", "to": "info-dy", "type": "solid" },
-    { "from": "info-dy", "to": "cult-info-bs", "type": "solid" }
+    { "from": "per-dy", "to": "pri-info", "type": "solid" },
+    { "from": "cult-info-bs", "to": "md-dy", "type": "solid" },
+    { "from": "obs", "to": "info-dy", "type": "solid" },
+    { "from": "alt-ft", "to": "cult-info-bs", "type": "solid" }
   ]
 }

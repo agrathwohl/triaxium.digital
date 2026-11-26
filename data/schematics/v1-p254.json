@@ -6,15 +6,12 @@
   "subject": "mth",
   "title": "(R)MTH.------AF.DY.",
   "type": "crossing",
-  "description": "Diagram in CMBA-10. (R)MTH (the reality of methodology) is crossed with AFL-DY (affinity dynamics): the question is what *real* methodology — not just the concept — looks like when crossed with the affinity dynamics of post-Coleman/Taylor black creativity. Note the title abbreviates as AF.DY but the actual termId is AFL-DY (affinity dynamics, not just 'affinity'). MTH is fed by IST-PT (isolated particulars) and LANG-DY (language dynamics), and SOC-RT-DEVF (social reality diversification) feeds MTH directly. IST-PT is itself fed by IF-ST-DY (infra-structure dynamics) and VT-DY (vibrational dynamics). MT-DEVF (multiple diversification) outputs to RT-DY (reality dynamics) and EXT-FT (extended functionalism). LANG-DY also feeds PROG-CONT (progressional continuance) → ACC-FT (accelerated functionalism). Structural argument: real methodology requires *three* distinct upstream constituents — isolated particulars (themselves produced by infrastructure dynamics convergent with vibrational dynamics), language dynamics, and social reality diversification. Multi-diversification as a parallel structure produces reality dynamics and extended functionalism. The progressional-continuance → accelerated-functionalism sub-chain runs separately. The diagram captures Braxton's structural claim about the post-Coleman/Taylor methodological turn: it required infrastructure-vibrational-grounded isolated particulars, language reorganization, and social-reality diversification together — not any single intervention.",
+  "description": "Diagram in CMBA-10. (R)MTH (the reality of methodology) is crossed with AFL-DY (affinity dynamics): the question is what *real* methodology — not just the concept — looks like when crossed with the affinity dynamics of post-Coleman/Taylor black creativity. Note the title abbreviates as AF.DY, but no AF.DY label appears in the drawing: the arrowed label is drawn (c)MTH, and its main line runs to SOC-RT-DEVF (social reality diversification). MTH branches to VT-DY (vibrational dynamics) → IF-ST-DY (infra-structure dynamics), and to EXT-FT (extended functionalism). EXT-FT branches to MT-DEVF (multiple diversification) → RT-DY (reality dynamics), and to ACC-FT (accelerated functionalism) → PROG-CONT (progressional continuance) → IST-PT (isolated particulars) → LANG-DY (language dynamics).",
   "terms": [
     {
       "termId": "mth",
       "isSubject": true,
-      "prefix": "r"
-    },
-    {
-      "termId": "afl-dy"
+      "prefix": "c"
     },
     {
       "termId": "if-st-dy"
@@ -49,18 +46,8 @@
   ],
   "relationships": [
     {
-      "from": "if-st-dy",
-      "to": "ist-pt",
-      "type": "solid"
-    },
-    {
-      "from": "vt-dy",
-      "to": "ist-pt",
-      "type": "solid"
-    },
-    {
-      "from": "soc-rt-devf",
-      "to": "mth",
+      "from": "mth",
+      "to": "soc-rt-devf",
       "type": "solid"
     },
     {
@@ -69,28 +56,43 @@
       "type": "solid"
     },
     {
-      "from": "mt-devf",
-      "to": "ext-ft",
+      "from": "ext-ft",
+      "to": "mt-devf",
       "type": "solid"
     },
     {
-      "from": "ist-pt",
-      "to": "mth",
-      "type": "solid"
-    },
-    {
-      "from": "lang-dy",
-      "to": "mth",
-      "type": "solid"
-    },
-    {
-      "from": "lang-dy",
+      "from": "acc-ft",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "prog-cont",
+      "from": "mth",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
       "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "prog-cont",
+      "to": "ist-pt",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "lang-dy",
       "type": "solid"
     }
   ]

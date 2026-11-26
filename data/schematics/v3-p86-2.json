@@ -4,9 +4,9 @@
   "section": "CS-14",
   "page": 86,
   "subject": "afi",
-  "title": "AFI.------SCI.DYM.",
+  "title": "AFI. -----SCI.DYM.",
   "type": "crossing",
-  "description": "Second diagram on page 86 (CS-14). The crossing diagrams how affinity-insight structurally meets scientific-dynamics at the western-science-affinity-stance scale the prose names: 'the continuum of western scientific thought is directly based in the affinity stance of western culture - having to do with perception within an existential information focus.' AFI (affinity insight) crossed with SCI.DYM (scientific dynamics). AFI sits at upper-center with the subject-arrow; HI-P (high purpose) upper-left and (R)INT (the reality of intention) at left as the subject-side leftward chain. COS-P (cosmic-particulars) upper-right and APL-DT (application dictates) at right with POST (postulation) below as partner-side upper outputs. EXP-DY (exposure dynamics) sits centrally. DEC (decentralization), SCI-DY (scientific dynamics, lowercase variant), BIA (bi-aitional), ACC-FT (accelerated functionalism) form the lower chain. Structural argument: when affinity-insight is crossed with scientific-dynamics, the upper diagonal COS-P -> APL-DT -> POST is the western-science capture route - cosmic-particulars route through application-dictates into postulation, reducing the form's affinity-insight to postulation rather than letting it reach scientific-dynamics through the central EXP-DY hub. The lower chain DEC -> SCI-DY -> BIA -> ACC-FT shows what scientific-dynamics produces when not held in axis-crossing with affinity-insight: decentralization routes through scientific-dynamics into bi-aitional and accelerated-functionalism.",
+  "description": "Second diagram on page 86 (CS-14). The crossing diagrams how affinity-insight structurally meets scientific-dynamics at the western-science-affinity-stance scale the prose names: 'the continuum of western scientific thought is directly based in the affinity stance of western culture - having to do with perception within an existential information focus.' AFI (affinity insight) crossed with SCI.DYM (scientific dynamics). AFI sits at upper-center with the subject-arrow; HI-P (high purpose) upper-left and (R)INT (the reality of intention) at left as the subject-side leftward chain, with DEC (decentralization) branching from INT. POST (postulation) branches from the main line to the right, with COS-P (cosmic-particulars) branching from POST and APL-DT (application dictates) from COS-P. ACC-FT (accelerated functionalism) branches down from the main line, with BIA (bi-aitional) branching from ACC-FT and EXP-DY (expansion dynamics) from BIA. SCI-DY (scientific dynamics) ends the main line at lower-left.",
   "terms": [
     {
       "termId": "afi",
@@ -61,43 +61,38 @@
       "type": "solid"
     },
     {
-      "from": "afi",
-      "to": "cos-p",
-      "type": "solid"
-    },
-    {
       "from": "cos-p",
       "to": "apl-dt",
       "type": "solid"
     },
     {
-      "from": "apl-dt",
+      "from": "afi",
       "to": "post",
       "type": "solid"
     },
     {
-      "from": "afi",
-      "to": "exp-dy",
+      "from": "post",
+      "to": "cos-p",
       "type": "solid"
     },
     {
-      "from": "exp-dy",
+      "from": "int",
       "to": "dec",
       "type": "solid"
     },
     {
-      "from": "exp-dy",
-      "to": "sci-dy",
+      "from": "afi",
+      "to": "acc-ft",
       "type": "solid"
     },
     {
-      "from": "sci-dy",
+      "from": "acc-ft",
       "to": "bia",
       "type": "solid"
     },
     {
       "from": "bia",
-      "to": "acc-ft",
+      "to": "exp-dy",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "afn",
   "title": "AFN.------TH.CONT.",
   "type": "crossing",
-  "description": "Diagram in NYM-15, on the page where Braxton argues that 'the realness of disunification must be viewed as a factor that has lessened the impact—and potential—of everything it touches' regarding the creative musicians' community of the sixties. (C)AFN (affinity negation) is crossed with TH-CONT (thrust continuance). The structural pairing is sharp: affinity negation (the rejection of an alignment) is crossed with thrust continuance (the continuing momentum of a creative line). AFN → CUL-TF-S (cultural transfer shifts) → APP-RDEF (applied redefinitions). APP-RDEF → C-CONT (composite continuance) and APP-RDEF → TH-CONT (the crossing). CUL-TF-S also → (C)STF (the concept of source transfer). (R)ATTN (real attraction) → AFN. (C)GRAD (concept of gradualism) has a *dashed* edge to APP-RDEF — a conditional connection. AFTF (affinity transfer) → POST (postulation), with PART (participation) → POST *dashed*. Structural argument: affinity negation is fed by real attraction (counterintuitively — but Braxton's claim is that real attraction sometimes manifests as negation of inadequate alignments). Affinity negation produces cultural transfer shifts → applied redefinitions, which fans into composite continuance and thrust continuance. The dashed edge from gradualism to applied redefinitions registers gradualism's conditional capture of the redefinition process — this is exactly the structural worry Braxton names. The dashed edge from participation to postulation marks that participation only conditionally produces postulation, with affinity transfer being the more reliable route to postulation.",
+  "description": "Diagram in NYM-15, on the page where Braxton argues that 'the realness of disunification must be viewed as a factor that has lessened the impact—and potential—of everything it touches' regarding the creative musicians' community of the sixties. (C)AFN (affinity negation) is crossed with TH-CONT (thrust continuance). The structural pairing is sharp: affinity negation (the rejection of an alignment) is crossed with thrust continuance (the continuing momentum of a creative line). The path from the subject bends at CUL-TF-S (cultural transfer shifts): AFN → CUL-TF-S → TH-CONT (the crossing). (R)ATTN (real attraction) hangs from the first stretch. From the second stretch hang (C)STF (the concept of source transfer), APP-RDEF (applied redefinitions), C-CONT (composite continuance) and, by a *dashed* line, (C)GRAD (concept of gradualism). From the GRAD line, AFTF (affinity transfer) → POST (postulation), with PART (participation) joined to the POST line by a *dashed* line. In Braxton's legend a dotted line amplifies some aspect of the main concept it is connected to.",
   "terms": [
     {
       "termId": "afn",
@@ -54,44 +54,49 @@
       "type": "solid"
     },
     {
-      "from": "cul-tf-s",
-      "to": "app-rdef",
-      "type": "solid"
-    },
-    {
-      "from": "app-rdef",
-      "to": "c-cont",
-      "type": "solid"
-    },
-    {
-      "from": "app-rdef",
-      "to": "th-cont",
-      "type": "solid"
-    },
-    {
-      "from": "cul-tf-s",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "attn",
-      "to": "afn",
-      "type": "solid"
-    },
-    {
-      "from": "grad",
-      "to": "app-rdef",
-      "type": "dashed"
-    },
-    {
       "from": "aftf",
       "to": "post",
       "type": "solid"
     },
     {
-      "from": "part",
-      "to": "post",
+      "from": "post",
+      "to": "part",
       "type": "dashed"
+    },
+    {
+      "from": "cul-tf-s",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "cul-tf-s",
+      "to": "th-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont",
+      "to": "grad",
+      "type": "dashed"
+    },
+    {
+      "from": "grad",
+      "to": "aftf",
+      "type": "solid"
     }
   ]
 }

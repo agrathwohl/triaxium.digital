@@ -1,12 +1,12 @@
 {
   "id": "v2-p107",
   "volume": 2,
-  "section": "AF(D)-35",
+  "section": "(AF)D-35",
   "page": 107,
   "subject": "vt-u-pt",
   "title": "VT.U.PT.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-35 (Affinity Dynamics, Level One) opening Braxton's section on dis-unification: 'the most basic resultant that has developed through information compression has been the multi-levels of dis-unification between people (regardless of nationality or affinity nature) — and as a result, non-functionalism.' (C)VT-U-PT (the concept of vibrational universe particulars) is crossed with C-CONT (composite continuance): the question is what vibrational-universe-particulars produces when crossed with composite-continuance — under conditions where dis-unification has produced non-functionalism. HI-P (high purpose), PROJ-DY (projectional dynamics), and C-CONT cluster in the upper register. MT-INFO (multi-information) and PRI-INFO (principle information) anchor the upper-right output. COS-P (cosmic particulars) and WO-EXP-PRI (world expansion principle) feed in from the lower-left. IF-ST-DY (infra-structure dynamics) sits centrally. MTA-RT-SIGN (meta-reality significance) hangs on the lower-right margin. T-C-IMP (time continuum implications) anchors the lower-center. Structural argument: vibrational-universe-particulars crossed with composite-continuance is mediated by infra-structure-dynamics — exposing Braxton's structural diagnostic that under dis-unification, even the most fundamental vibrational orientation gets routed through *style-dynamics* rather than substance. The doubled upstreams (cosmic-particulars plus world-expansion-principle on one side, time-continuum-implications on the other) are what hold the crossing together — when those fail, composite-continuance collapses into multi-information-as-data without meta-reality-significance, which is exactly the non-functionalism Braxton describes.",
+  "description": "Diagram in AF(D)-35 (Affinity Dynamics, Level One) opening Braxton's section on dis-unification: 'the most basic resultant that has developed through information compression has been the multi-levels of dis-unification between people (regardless of nationality or affinity nature) — and as a result, non-functionalism.' (C)VT-U-PT (the concept of vibrational universe particulars) is crossed with C-CONT (composite continuance): the question is what vibrational-universe-particulars produces when crossed with composite-continuance — under conditions where dis-unification has produced non-functionalism. PROJ-DY (projectional dynamics) branches from the main line and carries HI-P (high purpose). MT-INFO (multi-information) also branches from the main line and carries two chains: WO-EXP-PRI (world expansion principle) to COS-P (cosmic particulars) to T-C-IMP (time continuum implications), and IF-ST-DY (infra-structure dynamics) to MTA-RT-SIGN (meta-reality significance) to PRI-INFO (principle information).",
   "terms": [
     { "termId": "vt-u-pt", "isSubject": true, "prefix": "c" },
     { "termId": "c-cont" },
@@ -22,14 +22,14 @@
   ],
   "relationships": [
     { "from": "vt-u-pt", "to": "c-cont", "type": "solid" },
-    { "from": "hi-p", "to": "c-cont", "type": "solid" },
-    { "from": "proj-dy", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "mt-info", "type": "solid" },
-    { "from": "c-cont", "to": "pri-info", "type": "solid" },
-    { "from": "cos-p", "to": "vt-u-pt", "type": "solid" },
-    { "from": "wo-exp-pri", "to": "if-st-dy", "type": "solid" },
-    { "from": "vt-u-pt", "to": "if-st-dy", "type": "solid" },
     { "from": "if-st-dy", "to": "mta-rt-sign", "type": "solid" },
-    { "from": "t-c-imp", "to": "if-st-dy", "type": "solid" }
+    { "from": "vt-u-pt", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "hi-p", "type": "solid" },
+    { "from": "vt-u-pt", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
+    { "from": "mt-info", "to": "if-st-dy", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "pri-info", "type": "solid" }
   ]
 }

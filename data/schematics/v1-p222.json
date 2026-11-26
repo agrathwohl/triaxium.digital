@@ -6,7 +6,7 @@
   "subject": "tf-sh",
   "title": "(R)TF.SH.------WO.EXP.PRI.",
   "type": "crossing",
-  "description": "Diagram in WAC-20, the page where Braxton argues that western art music's progression after Schoenberg must be viewed via two information lines: (1) the 'isolated reality expansion' through its own continuum (source initiation), and (2) 'the collective inter-relationship of world information lines as a factor relevant for dynamic extension' (source transfer). (R)TF-SH — the *reality* of transfer shift — is crossed with WO-EXP-PRI (world expansion principle): the question is what real transfer shift looks like when crossed with the world-expansion principle, the structural pairing the section's prose has been building toward. Three upstream feeds converge: IST-F-AT (isolated focus activism) → EXP-DYM (expansion dynamics) → TF-SH; ALT-C-PG (alternative composite progressionalism) → TF-SH; INFO-DOC (information documentation) → TF-SH; and MTH (methodology) → TF-SH. TF-SH outputs to WO-EXP-PRI (the crossing) → AFL (affinity alignment), and to PROJ-DY (projectional dynamics) → PROG-CONT (progressional continuance). Structural argument: real transfer shift is fed by *four* upstream constituents — isolated-focus activism producing expansion dynamics, alternative composite progressionalism, information documentation, and methodology — meaning Braxton sees source-transfer as requiring all four kinds of upstream pressure to be 'real' rather than nominal. Once activated, it produces both world-expansion-principle → affinity-alignment and projectional-dynamics → progressional-continuance — i.e., it grounds *both* the world-cosmic and the cultural-progressional layers.",
+  "description": "Diagram in WAC-20, the page where Braxton discusses the cross-transfer dynamics of western extension in the early 1900s. (R)TF-SH — the *reality* of transfer shift — is crossed with WO-EXP-PRI (world expansion principle): the question is what real transfer shift looks like when crossed with the world-expansion principle. Two branches leave the main line. ALT-C-PG (alternative composite progressionalism) → EXP-DYM (expansion dynamics) → INFO-DE (information degrees), with INFO-DE branching to MTH (methodology) and to IST-F-AT (isolated focus activism). PROJ-DY (projectional dynamics) → AFL (affinity alignment) → PROG-CONT (progressional continuance).",
   "terms": [
     {
       "termId": "tf-sh",
@@ -29,7 +29,7 @@
       "termId": "afl"
     },
     {
-      "termId": "info-doc"
+      "termId": "info-de"
     },
     {
       "termId": "mth"
@@ -43,18 +43,8 @@
   ],
   "relationships": [
     {
-      "from": "ist-f-at",
-      "to": "exp-dym",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dym",
-      "to": "tf-sh",
-      "type": "solid"
-    },
-    {
-      "from": "alt-c-pg",
-      "to": "tf-sh",
+      "from": "tf-sh",
+      "to": "alt-c-pg",
       "type": "solid"
     },
     {
@@ -63,27 +53,37 @@
       "type": "solid"
     },
     {
-      "from": "wo-exp-pri",
-      "to": "afl",
-      "type": "solid"
-    },
-    {
-      "from": "info-doc",
-      "to": "tf-sh",
-      "type": "solid"
-    },
-    {
-      "from": "mth",
-      "to": "tf-sh",
-      "type": "solid"
-    },
-    {
       "from": "tf-sh",
       "to": "proj-dy",
       "type": "solid"
     },
     {
+      "from": "alt-c-pg",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "info-de",
+      "type": "solid"
+    },
+    {
+      "from": "info-de",
+      "to": "mth",
+      "type": "solid"
+    },
+    {
+      "from": "info-de",
+      "to": "ist-f-at",
+      "type": "solid"
+    },
+    {
       "from": "proj-dy",
+      "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
       "to": "prog-cont",
       "type": "solid"
     }

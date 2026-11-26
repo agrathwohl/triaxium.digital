@@ -6,7 +6,7 @@
   "subject": "c-fo-act",
   "title": "C.FO.ACT.------TR.",
   "type": "tree",
-  "description": "Diagram in EXT.F(II)-10. Note this is a *tree* diagram (not crossing) — structurally distinct: a sparse, focused structure compared to the dense crossings throughout the section. C-FO-ACT (composite focused activism) is the trunk, with branches: → PHY-U-C (physical universe context) → DYM-F (dynamic functionalism); → (R)INT (the reality of intention) → TR (transformation); ← (R)PART (the reality of participation feeding C-FO-ACT, the only inverse direction). Structural argument: composite focused activism produces, through its primary branches, *only two* downstream lines — physical-universe-context-into-dynamic-functionalism, and the-reality-of-intention-into-transformation. The reality of participation is the only upstream feed. The diagram is starkly sparse compared to the crossing-diagram complexity dominating EXT.F(II): it is Braxton's structural specification that composite focused activism, when it actually works, is *minimal* — it requires only real participation as input, and produces only the dynamic-functionalism path and the transformation path as outputs. Read against the section: this is the tree-form diagram of what the AACM-style movements have demonstrated structurally — that composite focused activism's productive form is uncluttered, requiring only real participation upstream and producing only two downstream chains, with transformation reachable through real intention as the singular productive route.",
+  "description": "Diagram in EXT.F(II)-10. Note this is a *tree* diagram (not crossing) — structurally distinct: a sparse, focused structure compared to the dense crossings throughout the section. C-FO-ACT (composite focused activism) is the trunk, running through (R)INT (the reality of intention) to TR (transformation). Two lines leave the stretch between C-FO-ACT and (R)INT and so branch from (R)INT: PHY-U-C (physical universe context) → DYM-F (dynamic functionalism), and (R)PART (the reality of participation).",
   "terms": [
     {
       "termId": "c-fo-act",
@@ -32,11 +32,6 @@
   ],
   "relationships": [
     {
-      "from": "c-fo-act",
-      "to": "phy-u-c",
-      "type": "solid"
-    },
-    {
       "from": "phy-u-c",
       "to": "dym-f",
       "type": "solid"
@@ -52,8 +47,13 @@
       "type": "solid"
     },
     {
-      "from": "part",
-      "to": "c-fo-act",
+      "from": "int",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "part",
       "type": "solid"
     }
   ]

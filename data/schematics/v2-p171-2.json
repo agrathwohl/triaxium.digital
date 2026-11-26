@@ -6,7 +6,7 @@
   "subject": "ist-s-algn",
   "title": "(R)IST.S.ALGN.------INFO.CON.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-27, second of two on book p171, paired with v2-p171-1. Continues the procedure argument by crossing a new subject (isolated systematic alignment) against information-convergence. (R)IST-S-ALGN (the reality of isolated systematic alignment) is crossed with INFO-CON (information convergence): the question is what isolated-systematic-alignment produces in its actual instantiation when crossed with information-convergence — the (R) prefix marking that real isolated-systematic-alignment is the only resource against information-convergence's pull. SPT-DY (spiritual dynamics) and PRI-INFO (principle information) form the upper-right cluster. EXTN-D (existential definition) sits between subject and partner. AFN (affinity negation) anchors the upper-right margin. (P)VT-PLT (point-of-activation vibrational platform) hangs on the right output. INFO-CON itself is partner. AFI(1) (affinity insight, first-order) sits below the central axis. AF-DY (affinity dynamics) anchors the lower-left. PR-TR (principal transformation) sits centrally between the lower nodes. EXT-DY (extended dynamics) anchors the lower-right margin. Structural argument: isolated-systematic-alignment-as-real crossed with information-convergence is mediated by existential-definition as central hub. The (p) prefix on VT-PLT is load-bearing — vibrational-platform here functions at point-of-activation (it triggers when actuated, not as sustained operation). The diagram exposes Braxton's structural diagnostic: information-convergence is a real force, but isolated-systematic-alignment-as-real produces (through existential-definition) the affinity-insight-first-order output that constitutes resistance — and that resistance is sustained by affinity-dynamics, principal-transformation, and extended-dynamics as lower upstreams.",
+  "description": "Diagram in SR(TRS)II-27, second of two on book p171, paired with v2-p171-1. Continues the procedure argument by crossing a new subject (isolated systematic alignment) against information-convergence. (R)IST-S-ALGN (the reality of isolated systematic alignment) is crossed with INFO-CON (information convergence): the question is what isolated-systematic-alignment produces in its actual instantiation when crossed with information-convergence — the (R) prefix marking that real isolated-systematic-alignment is the only resource against information-convergence's pull. SPT-DY (spiritual dynamics) branches from the main line and carries AFN (affinity negation), which carries PRI-INFO (principle information) and (P)VT-PLT (vibrational platform, at the point of idea completion); EXTN-D (existential definition) branches from the (P)VT-PLT line. INFO-CON itself is partner. AF-DY (affinity dynamics) also branches from the main line; AFI(1) (affinity insight—first degree) branches from AF-DY, PR-TR from AFI(1), and EXT-DY (extended dynamics) from PR-TR.",
   "terms": [
     { "termId": "ist-s-algn", "isSubject": true, "prefix": "r" },
     { "termId": "info-con" },
@@ -22,14 +22,14 @@
   ],
   "relationships": [
     { "from": "ist-s-algn", "to": "spt-dy", "type": "solid" },
-    { "from": "spt-dy", "to": "pri-info", "type": "solid" },
-    { "from": "ist-s-algn", "to": "extn-d", "type": "solid" },
-    { "from": "extn-d", "to": "info-con", "type": "solid" },
-    { "from": "extn-d", "to": "afn", "type": "solid" },
-    { "from": "info-con", "to": "vt-plt", "type": "solid" },
-    { "from": "ist-s-algn", "to": "afi1", "type": "solid" },
     { "from": "af-dy", "to": "afi1", "type": "solid" },
     { "from": "afi1", "to": "pr-tr", "type": "solid" },
-    { "from": "pr-tr", "to": "ext-dy", "type": "solid" }
+    { "from": "pr-tr", "to": "ext-dy", "type": "solid" },
+    { "from": "ist-s-algn", "to": "info-con", "type": "solid" },
+    { "from": "spt-dy", "to": "afn", "type": "solid" },
+    { "from": "afn", "to": "pri-info", "type": "solid" },
+    { "from": "afn", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "extn-d", "type": "solid" },
+    { "from": "ist-s-algn", "to": "af-dy", "type": "solid" }
   ]
 }

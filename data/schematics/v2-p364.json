@@ -6,15 +6,12 @@
   "subject": "ist-pt",
   "title": "IST.PT.------MN.DI.",
   "type": "hub-spoke",
-  "description": "Diagram closing R(AS)CM(II)-8 \u2014 the section on transformation as 'making available what is available.' The prose above the diagram identifies the structural target: 'the move to expose composite creativity is a move to positively reshape society \u2014 for all people \u2014 and this must be the goal of positive transformation.' The crossing diagrams the structural mechanism by which expose-composite-creativity actually meets its political-particular conditions: (C)IST-PT (the concept of isolated particulars) is crossed with MN-DI (mono-dimensional). IST-PT sits centrally with the subject-arrow; MN-DU (meta-duality) rises above it and POST (postulation) sits at upper-right with OP-SD (oppositional side) below \u2014 these are the partner-side's upper outputs, the postulations and oppositions the receiving culture mobilizes. (R)INTR (the reality of interpretation) anchors the left margin, with P-PROG (particular progressionalism) below it routing down through SOC-RT-DY (social-reality dynamics) and POL-P (political policies) at the bottom-left as the subject's downward chain. T-C-IMP (time continuum implications) sits centrally below as the bridging hub, with RT-ALGN (reality alignment) at the bottom-center as the bridging terminus. TR-DIF (transformation-difference) sits on the right with RET-AF-TD (retrograde affinity tendencies) below as the partner's downward chain. Structural argument: making-available-what-is-available reaches reshape-society only along the diagonal that runs (R)INTR \u2192 P-PROG \u2192 SOC-RT-DY \u2192 POL-P upward back into IST-PT and across to TR-DIF. The subject's downward chain on the left is the route by which interpretation routes through social-reality-dynamics into the political-particular conditions for exposure. The partner's MN-DU/POST/OP-SD upper chain is what the receiving culture mobilizes against the subject \u2014 duality, postulation, oppositional-side. The diagonal from IST-PT through T-C-IMP into RET-AF-TD at the bottom-right is the only edge through which the form's making-available reaches retrograde-affinity-tendencies, the actual mechanism of reshape. Without T-C-IMP holding that diagonal, transformation-difference produces only its partner-side outputs, and the exposure-of-composite-creativity the prose names cannot reach 'all people.'",
+  "description": "Diagram closing R(AS)CM(II)-8 \u2014 the section on transformation as 'making available what is available.' The prose above the diagram identifies the structural target: 'the move to expose composite creativity is a move to positively reshape society \u2014 for all people \u2014 and this must be the goal of positive transformation.' The crossing diagrams the structural mechanism by which expose-composite-creativity actually meets its political-particular conditions: (C)IST-PT (the concept of isolated particulars) is crossed with MN-DI (mono-dimensional). No label MN-DI is drawn; the main line runs from IST-PT, at the right with the subject-arrow, up to a label drawn MN-DU. OP-SD (option spread) branches from the main line, and POST (postulation) from OP-SD. (R)INTR (the reality of interpretation) branches from the main line and runs to the left; SOC-RT-DY (social-reality dynamics) branches from it, P-PROG (particular progressionalism) from SOC-RT-DY, and POL-P (political policies) from P-PROG. T-C-IMP (time continuum implications) also branches from the INTR line; RT-ALGN (reality alignment) and TR-DIF (trans-definition) branch from T-C-IMP, and RET-AF-TD (retrograde affinity tendencies) from RT-ALGN.",
   "terms": [
     {
       "termId": "ist-pt",
       "isSubject": true,
       "prefix": "c"
-    },
-    {
-      "termId": "mn-di"
     },
     {
       "termId": "mn-du"
@@ -54,42 +51,17 @@
   "relationships": [
     {
       "from": "ist-pt",
-      "to": "mn-di",
-      "type": "solid"
-    },
-    {
-      "from": "ist-pt",
       "to": "mn-du",
       "type": "solid"
     },
     {
-      "from": "mn-du",
+      "from": "op-sd",
       "to": "post",
       "type": "solid"
     },
     {
-      "from": "post",
-      "to": "op-sd",
-      "type": "solid"
-    },
-    {
-      "from": "intr",
-      "to": "p-prog",
-      "type": "solid"
-    },
-    {
-      "from": "p-prog",
-      "to": "soc-rt-dy",
-      "type": "solid"
-    },
-    {
       "from": "soc-rt-dy",
-      "to": "pol-p",
-      "type": "solid"
-    },
-    {
-      "from": "ist-pt",
-      "to": "t-c-imp",
+      "to": "p-prog",
       "type": "solid"
     },
     {
@@ -99,11 +71,36 @@
     },
     {
       "from": "ist-pt",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "ist-pt",
+      "to": "op-sd",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "p-prog",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
       "to": "tr-dif",
       "type": "solid"
     },
     {
-      "from": "tr-dif",
+      "from": "rt-algn",
       "to": "ret-af-td",
       "type": "solid"
     }

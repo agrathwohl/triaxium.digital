@@ -6,7 +6,7 @@
   "subject": "c-cont",
   "title": "C.CONT.------MT.INFO.",
   "type": "hub-spoke",
-  "description": "First of two diagrams in PMBA-21 (Popular Music in Black America). The following prose names the structural target: 'There were many other factors related to the spread and dissemination of rock music in the middle to late fifties, and all of these considerations would help define the transfer-shift implications of American popular music.' The crossing diagrams how composite-continuance structurally meets multi-information at the rock-music-spread scale: C-CONT (composite continuance) crossed with MT-INFO (multi-information). C-CONT sits at top-center with the subject-arrow; POL-DY (political dynamics) at upper-left and TR-INFO (trans-information) at upper-right with P-FC (particular focus) and SG (source-generation) anchoring the upper-right margin. CULT-SOLD (culture solidification) sits centrally as the bridging hub; TRS (transition) at right and VT-PLT (vibrational platform) and WO-EXP-PRI (world expansion principle) below as the partner-side downward chain. SOC-RT (social reality) at center-left with UTZ (utilization) and RE-DOC (redocumentation) below as the subject-side downward chain. MT-INFO at the bottom-center as partner-axis with AF-DY (affinity dynamics) below as terminus. Structural argument: when composite-continuance is crossed with multi-information, the upper diagonal POL-DY \u2192 C-CONT \u2192 TR-INFO \u2192 P-FC \u2192 SG is the *political-source-generation route* \u2014 political-dynamics routes through composite-continuance into trans-information, then through political-focus into source-generation. CULT-SOLD \u2192 TRS \u2192 VT-PLT \u2192 WO-EXP-PRI is the bridging-to-partner chain \u2014 culture-solidification routes through transition into vibrational-platform and finally into world-expansion-principle. SOC-RT \u2192 UTZ \u2192 RE-DOC is the subject's downward chain \u2014 social-reality routes through utilization into redocumentation. AF-DY at the partner-axis bottom is the affinity-dynamics terminus. The structural argument: the transfer-shift implications the prose names are structurally produced when the upper diagonal SG arrives at the partner-side as the conversion-output \u2014 composite-continuance's actual working gets re-sourced through political-focus into source-generation under the partner-axis's control, while the form's own working chain SOC-RT \u2192 UTZ \u2192 RE-DOC produces redocumentation as the subject-side terminus. The form's composite-continuance is transferred via the upper-chain's source-generation rather than through the bridging CULT-SOLD's vibrational route \u2014 that is the transfer-shift's structural shape.",
+  "description": "First of two diagrams in PMBA-21 (Popular Music from the Black Aesthetic). The following prose names the structural target: 'There were many other factors related to the spread and dissemination of rock music in the middle to late fifties, and all of these considerations would help define the transfer-shift implications of American popular music.' The crossing diagrams how composite-continuance structurally meets multi-information at the rock-music-spread scale: C-CONT (composite continuance) crossed with MT-INFO (multi-information). C-CONT sits at top-center with the subject-arrow; POL-DY (political dynamics) at upper-left and TR-INFO (trans-information) at upper-right with P-FC (particular focus) and SG (source initiation) anchoring the upper-right margin. Three branches leave the main line. TRS (transition) at right carries TR-INFO, from whose line SG branches, with P-FC off SG's line. SOC-RT (social reality) at center-left carries POL-DY, with CULT-SOLD (culture solidification) off POL-DY's line, and RE-DOC (redocumentation), with UTZ (utilization) off RE-DOC's line. VT-PLT (vibrational platform) at right carries WO-EXP-PRI (world expansion principle), with AF-DY (affinity dynamics) off WO-EXP-PRI's line. MT-INFO sits at the bottom-center as partner-axis.",
   "terms": [
     {
       "termId": "c-cont",
@@ -59,37 +59,37 @@
       "type": "solid"
     },
     {
-      "from": "pol-dy",
-      "to": "c-cont",
-      "type": "solid"
-    },
-    {
-      "from": "c-cont",
-      "to": "tr-info",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "p-fc",
-      "type": "solid"
-    },
-    {
-      "from": "p-fc",
-      "to": "sg",
-      "type": "solid"
-    },
-    {
-      "from": "c-cont",
-      "to": "cult-sold",
-      "type": "solid"
-    },
-    {
-      "from": "cult-sold",
-      "to": "trs",
+      "from": "soc-rt",
+      "to": "pol-dy",
       "type": "solid"
     },
     {
       "from": "trs",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dy",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
       "to": "vt-plt",
       "type": "solid"
     },
@@ -104,7 +104,7 @@
       "type": "solid"
     },
     {
-      "from": "soc-rt",
+      "from": "re-doc",
       "to": "utz",
       "type": "solid"
     },
@@ -114,7 +114,7 @@
       "type": "solid"
     },
     {
-      "from": "mt-info",
+      "from": "wo-exp-pri",
       "to": "af-dy",
       "type": "solid"
     }

@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "CMBA-4",
   "page": 248,
-  "subject": "sg",
+  "subject": "si",
   "title": "SG.------HI.P.",
   "type": "crossing",
-  "description": "Diagram in CMBA-4, paired with v1-p248-1. (C)SI (source initiation, conceptually) is crossed with HI-P (high purpose). The diagram poses what source initiation requires of high purpose to actually function — situated against Braxton's claim that black creativity's source-initiation 'completely solidify[ed] its own methodology' through 'natural continuance of affinity dynamics.' SI fans into three primary branches: HI-P (the crossing partner), DYM-SPT (dynamic spiritualism) → COS-P (cosmic particulars), and SPT-DY (spiritual dynamics) → DYM-F (dynamic functionalism) and SPT-DY → C-ACT (composite activism). HI-P then branches to INT (intention), EXT-FT (extended functionalism), and BIA (bi-aitional). COS-P also branches to INT, creating a convergence point. Structural argument: source initiation produces high purpose, dynamic spiritualism, and spiritual dynamics as parallel outputs, with intention as a downstream convergence point fed by both high purpose and cosmic particulars. The diagram thus diagrams Braxton's structural claim that source initiation in black creativity is not a single line — it requires high purpose for its 'spiritual overview' (extended functionalism, bi-aitional dual-principle integration), dynamic spiritualism for its cosmic grounding, and spiritual dynamics for its actualization as composite activism. The intention node is where high-purpose-derived intent and cosmic-particular-derived intent converge.",
+  "description": "Diagram in CMBA-4, paired with v1-p248-1. (C)SI (source initiation, conceptually) is crossed with HI-P (high purpose). The diagram poses what source initiation requires of high purpose to actually function — situated against Braxton's claim that black creativity's source-initiation 'completely solidify[ed] its own methodology' through 'natural continuance of affinity dynamics.' SI fans into three primary branches: HI-P (the crossing), INT (intention), and COS-P (cosmic particulars). INT → SPT-DY (spiritual dynamics) → BIA (bi-aitional), which branches to EXT-FT (extended functionalism) and C-ACT (composite activism). COS-P branches to DYM-F (dynamic functionalism) → a second BIA, and to DYM-SPT (dynamic spiritualism) → a second INT.",
   "terms": [
     {
       "termId": "si",
@@ -39,6 +39,12 @@
     },
     {
       "termId": "c-act"
+    },
+    {
+      "termId": "int-2"
+    },
+    {
+      "termId": "bia-2"
     }
   ],
   "relationships": [
@@ -48,48 +54,53 @@
       "type": "solid"
     },
     {
-      "from": "hi-p",
-      "to": "int",
-      "type": "solid"
-    },
-    {
-      "from": "hi-p",
-      "to": "ext-ft",
-      "type": "solid"
-    },
-    {
-      "from": "hi-p",
-      "to": "bia",
-      "type": "solid"
-    },
-    {
-      "from": "si",
+      "from": "cos-p",
       "to": "dym-spt",
       "type": "solid"
     },
     {
-      "from": "dym-spt",
-      "to": "cos-p",
+      "from": "si",
+      "to": "int",
       "type": "solid"
     },
     {
-      "from": "si",
+      "from": "int",
       "to": "spt-dy",
       "type": "solid"
     },
     {
       "from": "spt-dy",
-      "to": "dym-f",
+      "to": "bia",
       "type": "solid"
     },
     {
-      "from": "spt-dy",
+      "from": "bia",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "bia",
       "to": "c-act",
       "type": "solid"
     },
     {
+      "from": "si",
+      "to": "cos-p",
+      "type": "solid"
+    },
+    {
       "from": "cos-p",
-      "to": "int",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "bia-2",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "int-2",
       "type": "solid"
     }
   ]

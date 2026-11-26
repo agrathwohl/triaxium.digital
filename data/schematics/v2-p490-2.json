@@ -6,11 +6,11 @@
   "subject": "sci-dym",
   "title": "SCI.DYM.------PROJ.DY.",
   "type": "crossing",
-  "description": "Diagram in MP(II)-8, second of two on book p490, paired with v2-p490-1. (C)SCI-DYM (scientific dynamics) is crossed with PROJ-DY (projectional dynamics): the question is what scientific-dynamics produces when crossed with projectional-dynamics in the context of state-broadcast cultural politics where the broadcasting apparatus doesn't comprehend its own material. INFO-DY (information dynamics) and ACC-FT (accelerated functionalism) form the upper-right cluster with METH (methodology). AFL (affinity alignment) and INDIV-TD (individual tendencies) feed from the left. PER-TR (perceived transformation) and MT-INFO (multi-information) form lower constituting nodes. AFI (affinity insight), CULT-INFO-B (culture information basis), and C-INFO (composite information) cluster in the lower-right. PART (participation) and PROJ-DY (the partner) form the central output structure. Structural argument: scientific-dynamics crossed with projectional-dynamics requires individual-tendencies and affinity-alignment as foundational upstreams. The diagram makes Braxton's structural claim that scientific projection (even state-broadcast scientific projection) only becomes culturally productive when grounded in individual tendencies and affinity alignment — without those, it remains uncomprehended apparatus.",
+  "description": "Diagram in MP(II)-8, second of two on book p490, paired with v2-p490-1. SCI-DYM (scientific dynamics) is crossed with PROJ-DY (projectional dynamics): the question is what scientific-dynamics produces when crossed with projectional-dynamics in the context of state-broadcast cultural politics where the broadcasting apparatus doesn't comprehend its own material. INFO-DY (information dynamics) and ACC-FT (accelerated functionalism) form the upper-right cluster with METH (methodology). AFI (affinity insight) branches from the main line down to the left; INDIV-TD (individual tendencies) branches from the AFI line, AFL (affinity alignment) and MT-INFO (multi-information) both branch from the INDIV-TD line, and PER-TR (perceived transformation) branches from the MT-INFO line. A vertical drops from the main line through PART (participation) to C-INFO (composite information), and CULT-INFO-B (culture information basis) branches from it at PART; the main line ends at PROJ-DY.",
   "terms": [
-    { "termId": "sci-dym", "isSubject": true, "prefix": "c" },
+    { "termId": "sci-dym", "isSubject": true },
     { "termId": "proj-dy" },
-    { "termId": "info-doc" },
+    { "termId": "info-dy" },
     { "termId": "acc-ft" },
     { "termId": "mth" },
     { "termId": "afl" },
@@ -24,15 +24,16 @@
   ],
   "relationships": [
     { "from": "sci-dym", "to": "proj-dy", "type": "solid" },
-    { "from": "sci-dym", "to": "info-doc", "type": "solid" },
-    { "from": "info-doc", "to": "acc-ft", "type": "solid" },
+    { "from": "sci-dym", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "acc-ft", "type": "solid" },
     { "from": "acc-ft", "to": "mth", "type": "solid" },
-    { "from": "afl", "to": "sci-dym", "type": "solid" },
-    { "from": "indiv-td", "to": "sci-dym", "type": "solid" },
-    { "from": "per-tr", "to": "part", "type": "solid" },
-    { "from": "mt-info", "to": "part", "type": "solid" },
-    { "from": "part", "to": "proj-dy", "type": "solid" },
-    { "from": "afi", "to": "cult-info-b", "type": "solid" },
-    { "from": "cult-info-b", "to": "c-info", "type": "solid" }
+    { "from": "sci-dym", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "afl", "type": "solid" },
+    { "from": "indiv-td", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "per-tr", "type": "solid" },
+    { "from": "sci-dym", "to": "part", "type": "solid" },
+    { "from": "part", "to": "c-info", "type": "solid" },
+    { "from": "part", "to": "cult-info-b", "type": "solid" }
   ]
 }

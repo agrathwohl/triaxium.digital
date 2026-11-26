@@ -6,7 +6,7 @@
   "subject": "cult-info-b",
   "title": "CULT.INFO.B.------SOC.RT.DY.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-29 (Aspect Essence / Perception Dynamics, Level One), first of two on book p141, paired with v2-p141-2. Accompanies Braxton's developing concept of unification: 'the concept of unification has to do with an expanded awareness of what is happening on this planet — in this experience (life) — during this particular time period.' (C)CULT-INFO-B (the concept of culture-information basis) is crossed with SOC-RT-DY (social-reality dynamics): the question is what culture-information-basis produces when crossed with social-reality-dynamics — culture-information-basis being the substrate Braxton wants unification to operate over. TRS (transition) and RT-OP (reality options) form the upper-right output. EXP-DY (experimental dynamics) anchors the right margin. PROG-SIGN (progressional significance) feeds in from below-left. PHY-U-P (physical universe particulars) anchors the lower-left. SOC-RT-DY itself sits centrally. TF-SH (transfer shift) hangs on the lower-right. (D)PART (the determining of participation) sits on the lower-center via a *dashed* edge to INFO-AF-B (information-affinity basis). Structural argument: culture-information-basis crossed with social-reality-dynamics is fed by progressional-significance plus physical-universe-particulars as lower upstreams, producing transition and reality-options as upper outputs and transfer-shift as marginal output. The (d) prefix on PART is unusual and load-bearing — participation here is functioning as a *determining* relation (determines the ___ of its ___), and its link to information-affinity-basis is dashed (conditional). The diagram exposes Braxton's structural commitment for unification: it must be built on culture-information-basis as conceptual substrate, with reality-options and transition as outputs, but the link from determining-participation to information-affinity-basis must be *worked* — it does not obtain automatically.",
+  "description": "Diagram in AE(PD)-29 (Aspect Essence / Perception Dynamics, Level One), first of two on book p141, paired with v2-p141-2. Accompanies Braxton's developing concept of unification: 'the concept of unification has to do with an expanded awareness of what is happening on this planet — in this experience (life) — during this particular time period.' (C)CULT-INFO-B (the concept of culture-information basis) is crossed with SOC-RT-DY (social-reality dynamics): the question is what culture-information-basis produces when crossed with social-reality-dynamics. TRS (transition) and RT-OP (reality options) form the upper-right output. EXP-DY (expansion dynamics), branching from the TRS line, anchors the right margin and carries RT-OP and TF-SH. PROG-SIGN (progressional significance) hangs from the PHY-U-P line at the lower left. PHY-U-P (physical universe particulars) anchors the lower-left. SOC-RT-DY itself sits centrally. TF-SH (transfer shift) hangs on the lower-right. (D)PART (the dynamics of participation) hangs from the main line on the lower left; PHY-U-P branches from its line, and a *dashed* line runs from it to INFO-AF-B (information-affinity basis).",
   "terms": [
     { "termId": "cult-info-b", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt-dy" },
@@ -21,13 +21,13 @@
   ],
   "relationships": [
     { "from": "cult-info-b", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "rt-op", "type": "solid" },
-    { "from": "rt-op", "to": "exp-dy", "type": "solid" },
     { "from": "cult-info-b", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "prog-sign", "to": "cult-info-b", "type": "solid" },
-    { "from": "phy-u-p", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "tf-sh", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "part", "type": "solid" },
-    { "from": "part", "to": "info-af-b", "type": "dashed" }
+    { "from": "part", "to": "info-af-b", "type": "dashed" },
+    { "from": "trs", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "rt-op", "type": "solid" },
+    { "from": "exp-dy", "to": "tf-sh", "type": "solid" },
+    { "from": "cult-info-b", "to": "part", "type": "solid" },
+    { "from": "part", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "prog-sign", "type": "solid" }
   ]
 }

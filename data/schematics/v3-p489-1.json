@@ -6,7 +6,7 @@
   "subject": "int",
   "title": "(R)INT.------PART.",
   "type": "crossing",
-  "description": "First of two diagrams in TRF(II)-25. The prose above the diagrams identifies the structural target: 'Transformation in this context will address itself to the nature of power flows... For the next cycle, people must learn how to share space on the physical universe level without trying to destroy each other.' The crossing diagrams how the reality of intention structurally meets participation at the power-sharing scale: (R)INT (reality of intention) crossed with PART (participation). INT sits at left with the subject-arrow; PART at upper-right as partner-axis. SPT-DY (spiritual dynamics) upper-left, IF-ST-DY (infra-structure dynamics) upper-center, P-FC (particular focus) upper-right with INFO-DY (information dynamics) and (R)INTR (reality of interpretation) further right. C-INFO (composite information) center; LK-IMP (linkage implication), DOC (documentation), POST (postulation), AFI (affinity insight) form the lower chain. Structural argument: the upper chain SPT-DY -> IF-ST-DY -> PART -> P-FC -> INFO-DY -> (R)INTR is the partner-axis route through which participation reaches reality-of-interpretation. The form's intention reaches participation only when C-INFO holds the central hub - otherwise the chain absorbs intention into the partner-side's downward chain through documentation and postulation.",
+  "description": "First of two diagrams in TRF(II)-25. The prose above the diagrams identifies the structural target: 'Transformation in this context will address itself to the nature of power flows... For the next cycle, people must learn how to share space on the physical universe level without trying to destroy each other.' The crossing diagrams how the reality of intention structurally meets participation at the power-sharing scale: (R)INT (reality of intention) crossed with PART (participation). INT sits at left with the subject-arrow; PART at upper-right as partner-axis. SPT-DY (spiritual dynamics) upper-left, IF-ST-DY (infra-structure dynamics) upper-center, P-FC (particular focus) upper-right with INFO-DY (information dynamics) and (R)INTR (reality of interpretation) further right. SPT-DY branches from the main line and carries IF-ST-DY. (R)INTR runs right from the main line and carries INFO-DY, from which P-FC rises, and DOC (documentation), which drops to the lower right. AFI (affinity insight) drops from the main line and carries POST (postulation), which carries C-INFO (composite information), which carries LK-IMP (linkage implications).",
   "terms": [
     {
       "termId": "int",
@@ -55,58 +55,53 @@
       "type": "solid"
     },
     {
-      "from": "spt-dy",
-      "to": "int",
-      "type": "solid"
-    },
-    {
-      "from": "int",
-      "to": "if-st-dy",
-      "type": "solid"
-    },
-    {
-      "from": "if-st-dy",
-      "to": "part",
-      "type": "solid"
-    },
-    {
-      "from": "part",
-      "to": "p-fc",
-      "type": "solid"
-    },
-    {
-      "from": "p-fc",
-      "to": "info-dy",
-      "type": "solid"
-    },
-    {
-      "from": "info-dy",
-      "to": "intr",
-      "type": "solid"
-    },
-    {
-      "from": "int",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
       "from": "c-info",
       "to": "lk-imp",
       "type": "solid"
     },
     {
-      "from": "lk-imp",
-      "to": "doc",
-      "type": "solid"
-    },
-    {
-      "from": "lk-imp",
-      "to": "post",
+      "from": "int",
+      "to": "afi",
       "type": "solid"
     },
     {
       "from": "int",
-      "to": "afi",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
+      "to": "if-st-dy",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "p-fc",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "doc",
+      "type": "solid"
+    },
+    {
+      "from": "afi",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "post",
+      "to": "c-info",
       "type": "solid"
     }
   ]

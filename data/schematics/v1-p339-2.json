@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------CRTF.PROG.",
   "type": "crossing",
-  "description": "Diagram in PCC-23, paired with v1-p339-1. (C)MT-INFO (multi-information) is crossed with CRTF-PROG (cross-transfer progressionalism): the question is what multi-information becomes when its progression is *cross-transfer* rather than source-initiation. MT-INFO → T-C-IMP (time continuum implications) → CRTF-PROG (the crossing). COS-P (cosmic particulars) → MT-INFO; VT-DY (vibrational dynamics) → MT-INFO; RE-ST (restructuralism) → MT-INFO. MT-INFO → LK-IMP (linkage implications). VT-DY also → SOC-RT-DY (social reality dynamics) in a parallel sub-chain. AFL-DY (affinity dynamics) → TR-INFO (trans-information) and AFL-DY → INFO-DS (information dissemination) — a third sibling sub-chain. Structural argument: multi-information is over-determined upstream — fed by cosmic particulars, vibrational dynamics, and restructuralism (three independent feeds). It produces both linkage implications and (via time-continuum implications) cross-transfer progressionalism. The vibrational-dynamics → social-reality-dynamics sub-chain runs in parallel, and the affinity-dynamics → trans-information/information-dissemination sub-chain runs separately — meaning the diagram shows *three structurally parallel paths* through which music's vibrational and affinity reality propagates into culture. Cross-transfer progressionalism is reachable only via the time-continuum implications route, not directly from any of the three constituting feeds. Read against the section: this is Braxton's structural specification of why Young/Riley/Reich/Glass's eastern source-transfer is consequential — it operates at the cross-transfer-progressionalism node downstream of multi-information's full constitution.",
+  "description": "Diagram in PCC-23, paired with v1-p339-1. (C)MT-INFO (multi-information) is crossed with CRTF-PROG (cross-transfer progressionalism): the question is what multi-information becomes when its progression is *cross-transfer* rather than source-initiation. MT-INFO → CRTF-PROG (the crossing). Three lines branch from the main line. The first runs to T-C-IMP (time continuum implications) and continues as a chain: T-C-IMP → COS-P (cosmic particulars) → VT-DY (vibrational dynamics) → SOC-RT-DY (social reality dynamics). The second runs to TR-INFO (trans-information), from which RE-ST (restructuralism) branches. The third runs to LK-IMP (linkage implications) and continues LK-IMP → INFO-DS (information dissemination) → AFL-DY (affinity dynamics).",
   "terms": [
     { "termId": "mt-info", "isSubject": true, "prefix": "c" },
     { "termId": "t-c-imp" },
@@ -22,13 +22,14 @@
   ],
   "relationships": [
     { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "crtf-prog", "type": "solid" },
-    { "from": "cos-p", "to": "mt-info", "type": "solid" },
     { "from": "mt-info", "to": "lk-imp", "type": "solid" },
-    { "from": "vt-dy", "to": "mt-info", "type": "solid" },
     { "from": "vt-dy", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "re-st", "to": "mt-info", "type": "solid" },
-    { "from": "afl-dy", "to": "tr-info", "type": "solid" },
-    { "from": "afl-dy", "to": "info-ds", "type": "solid" }
+    { "from": "info-ds", "to": "afl-dy", "type": "solid" },
+    { "from": "mt-info", "to": "crtf-prog", "type": "solid" },
+    { "from": "t-c-imp", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "vt-dy", "type": "solid" },
+    { "from": "mt-info", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "re-st", "type": "solid" },
+    { "from": "lk-imp", "to": "info-ds", "type": "solid" }
   ]
 }

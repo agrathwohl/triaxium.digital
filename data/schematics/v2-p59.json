@@ -6,7 +6,7 @@
   "subject": "tr-def",
   "title": "TR.DEF.------CULT.SOLD.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-37, where Braxton defines a spectacle-diversion sequence as determined by '(1) the time cycle of a given situation, (2) the vibrational cycle (and how this consideration is manifested in a given physical universe situation), (3) the social reality cycle of a given culture, and finally (4) the political particulars of a given culture.' (C)TR-DEF (trans-definition — Braxton's term for the move to redefine concepts across cultural transfer) is crossed with CULT-SOLD (culture solidification): the question is what trans-definition does to culture solidification when spectacle-diversion is operative. CULT-AF-B (culture affinity basis) feeds the subject. The crossing produces a fan of outputs through CULT-SOLD: C-CONT (composite continuance), MT-INFO (multi-information), LK-IMP (linkage implications), INDIV-TD (individual tendencies), RT-INT-TR (reality initiative traits), and POST (postulation). IF-ST-DY (infra-structure dynamics) feeds the lower part of the diagram. Structural argument: trans-definition's path through culture-solidification is over-determined — six parallel outputs constitute the spectacle-cycle's entire cultural footprint. The diagram exposes how 'blending' (Braxton's term for the spectacle blending in with whatever substance is being absorbed) creates an apparatus where culture-solidification absorbs every other dimension.",
+  "description": "Diagram in SD(SY)-37, where Braxton defines a spectacle-diversion sequence as determined by '(1) the time cycle of a given situation, (2) the vibrational cycle (and how this consideration is manifested in a given physical universe situation), (3) the social reality cycle of a given culture, and finally (4) the political particulars of a given culture.' (C)TR-DEF (trans-definition) is crossed with CULT-SOLD (culture solidification): the question is what trans-definition does to culture solidification when spectacle-diversion is operative. Above the main line, C-CONT (composite continuance) branches from the subject and leads to LK-IMP (linkage implications) and on to MT-INFO (multi-information). Below it, CULT-AF-B (culture affinity basis) branches from the subject and leads to IF-ST-DY (infra-structure dynamics), then to INDIV-TD (individual tendencies), POST (postulation), and RT-INT-TR (reality initiative traits).",
   "terms": [
     { "termId": "tr-def", "isSubject": true, "prefix": "c" },
     { "termId": "cult-sold" },
@@ -20,14 +20,14 @@
     { "termId": "if-st-dy" }
   ],
   "relationships": [
-    { "from": "cult-af-bs", "to": "tr-def", "type": "solid" },
+    { "from": "tr-def", "to": "cult-af-bs", "type": "solid" },
     { "from": "tr-def", "to": "cult-sold", "type": "solid" },
-    { "from": "cult-sold", "to": "c-cont", "type": "solid" },
-    { "from": "cult-sold", "to": "mt-info", "type": "solid" },
-    { "from": "cult-sold", "to": "lk-imp", "type": "solid" },
-    { "from": "cult-sold", "to": "indiv-td", "type": "solid" },
-    { "from": "cult-sold", "to": "rt-int-tr", "type": "solid" },
-    { "from": "cult-sold", "to": "post", "type": "solid" },
-    { "from": "if-st-dy", "to": "cult-sold", "type": "solid" }
+    { "from": "tr-def", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "cult-af-bs", "to": "if-st-dy", "type": "solid" },
+    { "from": "if-st-dy", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "post", "type": "solid" },
+    { "from": "post", "to": "rt-int-tr", "type": "solid" }
   ]
 }

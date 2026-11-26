@@ -6,7 +6,7 @@
   "subject": "crtf-prog",
   "title": "CRTF.PROG.------POL.P.",
   "type": "crossing",
-  "description": "First of two diagrams in T(IMP)M-33. The crossing diagrams how creative-progression structurally meets political-particulars at the western-defining-fixation scale the following prose names: 'improvised music has now been fixed in a formulated phrase to the degree that western words can be applied to its functionalism.' CRTF-PROG crossed with POL-P. CRTF-PROG sits at lower-center with the subject-arrow; POL-P at upper-center as partner-axis. REL-APC (relevant application), MO-DY (motion dynamics), MT-INTR (multiple interpretation), T-C-IMP (time continuum implications), C-INFO (composite information), SOC-RT-P (social-reality particular), POL-OR (political order) form the upper-right chain. SOC-RT-DEVT (social-reality developmental), CULT-SOLD (culture solidification), PER-DY (perception dynamics) center. ECO-DY (economic dynamics), PHY-U-C (physical-universe context) lower-left.",
+  "description": "First of two diagrams in T(IMP)M-33. The crossing diagrams how cross-transfer progressionalism structurally meets political policies at the western-defining-fixation scale the following prose names: 'improvised music has now been fixed in a formulated phrase to the degree that western words can be applied to its functionalism.' CRTF-PROG crossed with POL-P. CRTF-PROG sits at lower-center with the subject-arrow; POL-P at upper-center as partner-axis. From the main line, C-INFO (composite information) branches to the upper right; it carries PER-DY (perception dynamics) and MT-INTR (multiple interpretation), which carries T-C-IMP (time continuum implications) and MO-DY. ECO-DY (economic dynamics) branches to the right and carries SOC-RT-P (social reality particular), which carries POL-OR (political order). PHY-U-C (physical universe context) branches to the lower left and carries CULT-SOLD (culture solidification), which carries REL-APC (relevant application), which carries SOC-RT-DEVT (social reality development).",
   "terms": [
     {
       "termId": "crtf-prog",
@@ -59,33 +59,8 @@
       "type": "solid"
     },
     {
-      "from": "pol-p",
-      "to": "rel-apc",
-      "type": "solid"
-    },
-    {
-      "from": "pol-p",
-      "to": "mo-dy",
-      "type": "solid"
-    },
-    {
-      "from": "mo-dy",
-      "to": "mt-intr",
-      "type": "solid"
-    },
-    {
       "from": "mt-intr",
       "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
-      "from": "c-info",
-      "to": "soc-rt-p",
       "type": "solid"
     },
     {
@@ -94,23 +69,53 @@
       "type": "solid"
     },
     {
-      "from": "soc-rt-devt",
+      "from": "crtf-prog",
+      "to": "phy-u-c",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "mo-dy",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "crtf-prog",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "eco-dy",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
       "to": "cult-sold",
       "type": "solid"
     },
     {
       "from": "cult-sold",
-      "to": "per-dy",
+      "to": "rel-apc",
       "type": "solid"
     },
     {
-      "from": "per-dy",
-      "to": "eco-dy",
-      "type": "solid"
-    },
-    {
-      "from": "crtf-prog",
-      "to": "phy-u-c",
+      "from": "rel-apc",
+      "to": "soc-rt-devt",
       "type": "solid"
     }
   ]

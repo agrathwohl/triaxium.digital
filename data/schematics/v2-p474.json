@@ -6,7 +6,7 @@
   "subject": "ist-pt",
   "title": "IST.PT.------POL.DY.",
   "type": "crossing",
-  "description": "Diagram in MP(I)-48 (Music and Politics, Level One), on the page where Braxton argues that 'contemporary western art music has become an esoteric extension shielded by the protective cloud of static intellectualism and highbrow social reality (with correct adjectives spoken in the most correct English — as only educated gentlemen would understand)' — and that this is true even though there have been courageous people fighting against the system. (C)IST-PT (isolated particulars) is crossed with POL-DY (political dynamics): the question is what isolated-particulars produces when crossed with political-dynamics in a culture where western art music has chosen elitist isolation as a political position. POL-DY (the partner) and MT-DEVF (multiple diversification) form upper structure. (R)INFO-TRNS (the reality of information transference) is the right-side output. AFI (affinity insight) and MT-INFO (multi-information) feed from below. PART (participation), MOT-DY (motivation dynamics), and PROG-SIGN (progressional significance) form the lower constituting layer. Structural argument: isolated-particulars crossed with political-dynamics produces multiple-diversification and the reality of information-transference — but Braxton's diagrammatic claim is that the western-art-music apparatus has chosen isolated-particulars *as a political position*, making the political-dynamics crossing a self-referential structure that reinforces rather than challenges the isolation.",
+  "description": "Diagram in MP(I)-48 (Music and Politics, Level One), on the page where Braxton argues that 'contemporary western art music has become an esoteric extension shielded by the protective cloud of static intellectualism and highbrow social reality (with correct adjectives spoken in the most correct English — as only educated gentlemen would understand)' — and that this is true even though there have been courageous people fighting against the system. (C)IST-PT (isolated particulars) is crossed with POL-DY (political dynamics): the question is what isolated-particulars produces when crossed with political-dynamics in a culture where western art music has chosen elitist isolation as a political position. POL-DY (the partner) sits at the upper end of the main line. (R)INFO-TRNS (the reality of information transference) branches right from the main line, with MT-DEVF (multiple diversification) rising from INFO-TRNS's line and MOT-DY dropping from it. PART (participation) branches left from the MOT-DY line; PROG-SIGN (progressional significance) drops from PART's line; MT-INFO (multi-information) branches left from PROG-SIGN's line; and AFI (affinity insight) rises from MT-INFO's line, with a further unlabeled branch off AFI's line. Structural argument: isolated-particulars crossed with political-dynamics produces multiple-diversification and the reality of information-transference — but if the western-art-music apparatus has chosen isolated-particulars *as a political position*, that makes the political-dynamics crossing a self-referential structure that reinforces rather than challenges the isolation.",
   "terms": [
     { "termId": "ist-pt", "isSubject": true, "prefix": "c" },
     { "termId": "pol-dym" },
@@ -15,18 +15,17 @@
     { "termId": "afi" },
     { "termId": "mt-info" },
     { "termId": "part" },
-    { "termId": "mdt-dy" },
+    { "termId": "mot-dy" },
     { "termId": "prog-sign" }
   ],
   "relationships": [
     { "from": "ist-pt", "to": "pol-dym", "type": "solid" },
-    { "from": "pol-dym", "to": "mt-devf", "type": "solid" },
-    { "from": "mt-devf", "to": "info-trns", "type": "solid" },
     { "from": "ist-pt", "to": "info-trns", "type": "solid" },
-    { "from": "afi", "to": "ist-pt", "type": "solid" },
-    { "from": "mt-info", "to": "part", "type": "solid" },
-    { "from": "part", "to": "ist-pt", "type": "solid" },
-    { "from": "part", "to": "mdt-dy", "type": "solid" },
-    { "from": "prog-sign", "to": "part", "type": "solid" }
+    { "from": "info-trns", "to": "mt-devf", "type": "solid" },
+    { "from": "info-trns", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "prog-sign", "type": "solid" },
+    { "from": "prog-sign", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "afi", "type": "solid" }
   ]
 }

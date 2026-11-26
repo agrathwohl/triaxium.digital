@@ -6,7 +6,7 @@
   "subject": "grad",
   "title": "GRAD.------RT.ALGN.",
   "type": "crossing",
-  "description": "Second diagram on page 235 (T(IMP)M-33). The crossing diagrams how gradualism structurally meets reality-alignment at the western-fixation scale: GRAD crossed with RT-ALGN. GRAD sits at left with the subject-arrow; RT-ALGN at right as partner-axis. CN-INFO (controlled information) upper-center, CULT-INFO-B (culture information basis) upper-right, INFO-TRNS (information transference) upper-right. (R)INTR (reality of interpretation) center. AFN (affinity negation), APL-DT (application dictates) right. PROG-CONT (progressional continuance), CULT-AF-DT (cultural-affinity dictates), CULT-COD (cultural code) form the lower-left chain. POL-P (political policies) right. Structural argument: gradualism reaches reality-alignment through the central (R)INTR hub; the upper chain CN-INFO -> CULT-INFO-B -> INFO-TRNS routes the form into cultural-information-transference; lower chain PROG-CONT -> CULT-AF-DT -> CULT-COD routes through cultural-code.",
+  "description": "Second diagram on page 235 (T(IMP)M-33). The crossing diagrams how gradualism structurally meets reality-alignment at the western-fixation scale: GRAD crossed with RT-ALGN. GRAD sits at left with the subject-arrow; RT-ALGN at right as partner-axis. INFO-TRNS (information transference) branches upward from the main line and carries CULT-INFO-B (culture information basis), which carries R-INTR, which carries CN-INFO (controlled information). AFN (affinity negation) branches to the right and carries POL-P (political policies), which carries APL-DT (application dictates). CULT-COD drops from the main line and carries PROG-CONT (progressional continuance), which carries CULT-AF-DT.",
   "terms": [
     {
       "termId": "grad",
@@ -25,8 +25,7 @@
       "termId": "info-trns"
     },
     {
-      "termId": "intr",
-      "prefix": "r"
+      "termId": "r-intr"
     },
     {
       "termId": "afn"
@@ -54,48 +53,53 @@
       "type": "solid"
     },
     {
-      "from": "cn-info",
-      "to": "intr",
-      "type": "solid"
-    },
-    {
-      "from": "intr",
-      "to": "cult-info-b",
-      "type": "solid"
-    },
-    {
-      "from": "cult-info-b",
-      "to": "info-trns",
-      "type": "solid"
-    },
-    {
-      "from": "info-trns",
-      "to": "afn",
-      "type": "solid"
-    },
-    {
-      "from": "afn",
-      "to": "apl-dt",
-      "type": "solid"
-    },
-    {
-      "from": "grad",
-      "to": "prog-cont",
-      "type": "solid"
-    },
-    {
       "from": "prog-cont",
       "to": "cult-af-dt",
       "type": "solid"
     },
     {
-      "from": "cult-af-dt",
+      "from": "grad",
+      "to": "info-trns",
+      "type": "solid"
+    },
+    {
+      "from": "info-trns",
+      "to": "cult-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "r-intr",
+      "type": "solid"
+    },
+    {
+      "from": "r-intr",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "afn",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "apl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "grad",
       "to": "cult-cod",
       "type": "solid"
     },
     {
-      "from": "rt-algn",
-      "to": "pol-p",
+      "from": "cult-cod",
+      "to": "prog-cont",
       "type": "solid"
     }
   ]

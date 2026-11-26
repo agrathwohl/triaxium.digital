@@ -6,7 +6,7 @@
   "subject": "c-info",
   "title": "C.INFO.------PROJ.DY.",
   "type": "crossing",
-  "description": "Diagram in the White Improvisor section (WI-7), where Braxton argues that 'the educational route of the white improvisor must be viewed on several different levels' and that the university 'mirrors the information position of western culture' rather than the essence umbrella of black creativity. C-INFO (composite information) is crossed with PROJ-DY (projectional dynamics): the question is what composite information becomes when its projectional dynamics route through institutional pedagogy rather than community-experience. PROJ-DY → C-INFO; MT-IF-DB (multi-informational degree basis) feeds both C-INFO and INFO-F (information focus); (P)ATTN (the *point of activation* of attraction) → INFO-F. SOC-RT-DY (social reality dynamics) → (C)PART (the concept of participation) → PROG-EXT-FT (progressional extended functionalism). C-INFO outputs to INFO-DOC (information documentation) → TH-CONT (thrust continuance). Structural argument: composite information is fed by both projectional dynamics and the multi-informational degree basis (the latter also producing information focus, with attraction's point-of-activation contributing). Information documentation produces thrust continuance only after composite information passes through it. The social-reality-dynamics → concept-of-participation chain runs in parallel, producing progressional extended functionalism — a separate downstream output. The diagram thus diagrams the white improvisor's distinctive informational landscape: composite information arrives via degree-basis pedagogy and projectional dynamics, while participation is conceptual (the (c) prefix marking it as concept-grade rather than embodied), routed through social-reality-dynamics into progressional extension.",
+  "description": "Diagram in the White Improvisor section (WI-7), where Braxton argues that 'the educational route of the white improvisor must be viewed on several different levels' and that the university 'mirrors the information position of western culture' rather than the essence umbrella of black creativity. C-INFO (composite information) is crossed with PROJ-DY (projectional dynamics): the question is what composite information becomes when its projectional dynamics route through institutional pedagogy rather than community-experience. C-INFO → PROJ-DY (the crossing). C-INFO also branches to MT-IF-DB (multi-informational degree basis) → INFO-DE (information degrees) → INFO-F (information focus) → (P)ATTN (the point of idea completion of attraction). A third branch leads to PROG-EXT-FT (progressional extended functionalism), which branches to TH-CONT (thrust continuance) and to (C)PART (the concept of participation) → SOC-RT-DY (social reality dynamics). The diagram thus diagrams the white improvisor's distinctive informational landscape: participation is conceptual (the (c) prefix marking it as concept-grade rather than embodied).",
   "terms": [
     {
       "termId": "c-info",
@@ -29,7 +29,7 @@
       "termId": "info-f"
     },
     {
-      "termId": "info-doc"
+      "termId": "info-de"
     },
     {
       "termId": "th-cont"
@@ -44,43 +44,48 @@
   ],
   "relationships": [
     {
-      "from": "proj-dy",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
-      "from": "mt-if-db",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
-      "from": "mt-if-db",
-      "to": "info-f",
-      "type": "solid"
-    },
-    {
-      "from": "attn",
-      "to": "info-f",
-      "type": "solid"
-    },
-    {
-      "from": "soc-rt-dy",
-      "to": "part",
+      "from": "c-info",
+      "to": "proj-dy",
       "type": "solid"
     },
     {
       "from": "c-info",
-      "to": "info-doc",
+      "to": "mt-if-db",
       "type": "solid"
     },
     {
-      "from": "info-doc",
-      "to": "th-cont",
+      "from": "info-f",
+      "to": "attn",
       "type": "solid"
     },
     {
       "from": "part",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "prog-ext-ft",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "mt-if-db",
+      "to": "info-de",
+      "type": "solid"
+    },
+    {
+      "from": "info-de",
+      "to": "info-f",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
       "to": "prog-ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "prog-ext-ft",
+      "to": "th-cont",
       "type": "solid"
     }
   ]

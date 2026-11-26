@@ -6,7 +6,7 @@
   "subject": "c-act",
   "title": "C.ACT.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-4, paired with v1-p142-1 on the same page. C-ACT (composite activism) is crossed with MT-INFO (multi-information): the question is what activism — the actual *doing* — has to do with multi-information, in a section where Braxton names creativity itself as 'doing as a means to celebrate and affirm the vibrational forces that dictate living.' C-CONT (composite continuance) feeds C-ACT, which then outputs to MT-INFO and LK-IMP (linkage implications). MT-INFO branches four ways: a *dashed* edge to TRS (transition) — registering that the link from multi-information to transition is conditional, mediated; a solid edge to CULT-INFO-DY (culture information dynamics) → PROG-CONT (progressional continuance); to EXT-FT (extended functionalism) → SOC-RT-P (social reality particulars); and to EXP-DYM (expansion dynamics). Structural argument: composite activism's path to multi-information is direct, but multi-information's path to transition is *conditional* — only the indirect routes through culture-information-dynamics, extended functionalism, and expansion dynamics are guaranteed. This stages Braxton's claim that 'doing' produces multi-information that becomes culturally consequential through the slower channels of culture-information-dynamics and extended functionalism, not through any direct fast-line to transition.",
+  "description": "Diagram in UPB(II)-4, paired with v1-p142-1 on the same page. C-ACT (composite activism) is crossed with MT-INFO (multi-information): the question is what activism — the actual *doing* — has to do with multi-information, in a section where Braxton names creativity itself as '“doing” as a means to celebrate and “affirm” the vibrational forces that dictate “living”.' Besides the main line to MT-INFO, C-ACT branches to C-CONT (composite continuance), LK-IMP (linkage implications), and EXT-FT (extended functionalism). EXT-FT branches to EXP-DYM (expansion dynamics) and to CULT-INFO-DY (culture information dynamics); CULT-INFO-DY branches by a *dashed* line to TRS (transition) — a dotted line amplifies some aspect of the concept it is connected to — and by a solid line to PROG-CONT (progressional continuance) → SOC-RT-P (social reality particulars). Structural argument: composite activism's path to multi-information is direct, but its path to transition is indirect — through extended functionalism and culture-information-dynamics, with the last step drawn dashed.",
   "terms": [
     {
       "termId": "c-act",
@@ -42,11 +42,6 @@
   ],
   "relationships": [
     {
-      "from": "c-cont",
-      "to": "c-act",
-      "type": "solid"
-    },
-    {
       "from": "c-act",
       "to": "mt-info",
       "type": "solid"
@@ -57,33 +52,38 @@
       "type": "solid"
     },
     {
-      "from": "mt-info",
-      "to": "trs",
-      "type": "dashed"
-    },
-    {
-      "from": "mt-info",
-      "to": "cult-info-dy",
-      "type": "solid"
-    },
-    {
       "from": "cult-info-dy",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "mt-info",
+      "from": "c-act",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
       "to": "ext-ft",
       "type": "solid"
     },
     {
       "from": "ext-ft",
-      "to": "soc-rt-p",
+      "to": "exp-dym",
       "type": "solid"
     },
     {
-      "from": "mt-info",
-      "to": "exp-dym",
+      "from": "ext-ft",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "trs",
+      "type": "dashed"
+    },
+    {
+      "from": "prog-cont",
+      "to": "soc-rt-p",
       "type": "solid"
     }
   ]

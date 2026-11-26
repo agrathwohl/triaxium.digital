@@ -6,7 +6,7 @@
   "subject": "phy-u-fund",
   "title": "PHY.U.FUND.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-17 (Spectacle-Diversion Syndrome, Level One), opening Braxton's elaboration of 'the spectacle-diversion sequence of American progressionalism — involving what this phenomenon has posed for western affinity dynamics and expansion as well as creativity.' (C)PHY-U-FUND (physical universe fundamental) is crossed with C-CONT (composite continuance): the question is what the physical universe fundamental requires to produce composite continuance, when the culture's actual generative apparatus is spectacle-diversion. SPT-DYM (spectacle dynamics), S-PROJ (source projection), and PRI-INFO (principle information) feed the subject. The crossing routes through RT-INT-TR (reality initiative traits) as a central hub, with SCI-DYM (scientific dynamics) and ACT-T (actual terms) as parallel inputs. C-CONT outputs to MT-INFO (multi-information). RE-ST (restructuralism) is a peripheral output. Structural argument: the physical-universe fundamental's path to composite continuance is mediated through reality-initiative-traits — Braxton's structural claim that culture continues only when initiative traits are actually generated, not merely simulated through spectacle. The presence of spectacle-dynamics as an upstream feed of the subject (rather than as a parallel resistance) registers Braxton's diagnostic: the spectacle-diversion syndrome is already constitutive of how western culture perceives its physical-universe ground.",
+  "description": "Diagram in SD(SY)-17 (Spectacle-Diversion Syndrome, Level One), opening Braxton's elaboration of 'the spectacle-diversion sequence of American progressionalism — involving what this phenomenon has posed for western affinity dynamics and expansion as well as creativity.' (C)PHY-U-FUND (physical universe fundamental) is crossed with C-CONT (composite continuance): the question is what the physical universe fundamental requires to produce composite continuance, when the culture's actual generative apparatus is spectacle-diversion. SPT-DYM (spiritual dynamics) branches from the main line and opens into S-PROJ (source projection). PRI-INFO (principle information) branches from the main line and opens into RE-ST (restructuralism) → RT-INT-TR (reality initiative traits). MT-INFO (multi-information) branches from the main line and opens into SCI-DYM (scientific dynamics) → ACT-T (actual terms).",
   "terms": [
     { "termId": "phy-u-fund", "isSubject": true, "prefix": "c" },
     { "termId": "c-cont" },
@@ -20,14 +20,14 @@
     { "termId": "re-st" }
   ],
   "relationships": [
-    { "from": "spt-dym", "to": "phy-u-fund", "type": "solid" },
-    { "from": "s-proj", "to": "phy-u-fund", "type": "solid" },
-    { "from": "pri-info", "to": "phy-u-fund", "type": "solid" },
-    { "from": "phy-u-fund", "to": "rt-int-tr", "type": "solid" },
-    { "from": "sci-dym", "to": "rt-int-tr", "type": "solid" },
-    { "from": "act-t", "to": "rt-int-tr", "type": "solid" },
-    { "from": "rt-int-tr", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "mt-info", "type": "solid" },
-    { "from": "rt-int-tr", "to": "re-st", "type": "solid" }
+    { "from": "phy-u-fund", "to": "c-cont", "type": "solid" },
+    { "from": "phy-u-fund", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "s-proj", "type": "solid" },
+    { "from": "phy-u-fund", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "rt-int-tr", "type": "solid" },
+    { "from": "phy-u-fund", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "sci-dym", "type": "solid" },
+    { "from": "sci-dym", "to": "act-t", "type": "solid" }
   ]
 }

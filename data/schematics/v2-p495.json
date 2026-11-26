@@ -6,7 +6,7 @@
   "subject": "t-c-imp",
   "title": "T.C.IMP.------EXP.DY.",
   "type": "crossing",
-  "description": "Diagram opening MP(II)-13 (the U.S.A. subsection on the changing position of the United States as a world power). The prose immediately above the diagram identifies the structural target: 'it is important to examine aspects of world culture with emphasis on progressional continuance and political reality — and political transition.' The crossing diagrams how time-continuum-implications structurally meets exposure-dynamics at the world-power-position scale: T-C-IMP (time continuum implications) crossed with EXP-DY (exposure dynamics — the actual exposure dynamics by which world-power-position registers). T-C-IMP sits on the left with the subject-arrow; TR (transformation) sits at upper-left and UNF-PI (unification (positively intended)) at top-center with POST (postulation) at the upper-right as the upper bridging chain. C-CONT (composite continuance) sits centrally as the bridging hub; BSCI (basic-source-continuance-information) and FUND-DY (fundamental dynamics) anchor the right margin as partner-side downward outputs. EXP-DY is partner-axis at center-right with OBS (observation) below as partner-side downward output. PRI-INFO (principle information) sits at center-bottom as bridging-downward hub, with MT-IF-DB (multi-informational degree basis, written 'mt.if.db.') below and DEC (decentralization) at the bottom as the bridging-axis terminus. Structural argument: when time-continuum-implications is crossed with exposure-dynamics, the upper diagonal TR → UNF-PI → POST is the *world-power postulation route* — transformation routes through unification (positively intended) into postulation, the route that gives America its post-WWII bulwark-status. POST → BSCI → FUND-DY is what postulation produces on the partner-side as fundamental working — basic-source-continuance routes into fundamental-dynamics. UNF-PI → C-CONT → EXP-DY is the central diagonal that supplies exposure-dynamics with composite-continuance. The subject's PRI-INFO → MT-IF-DB → DEC chain is the *feedback-double-bind decentralization route* the prose names as the political-transition's structural problem: principle-information routes through meta-information-feedback double-bind into decentralization, the political-transition decentralization made under the structural constraint of the meta-feedback the changing world-power-position generates. EXP-DY → OBS terminates the partner-axis on observation alone. The structural argument: when the upper diagonal stays held by post-WWII unification (positively intended), the partner-side BSCI/FUND-DY chain runs, and the world recognizes America's exposure-dynamics — but the changing position the prose names is structurally that UNF-PI no longer holds the diagonal, and PRI-INFO → MT-IF-DB → DEC becomes the only route the political-transition can find.",
+  "description": "Diagram opening MP(II)-13 (the U.S.A. subsection on the changing position of the United States as a world power). The prose immediately above the diagram identifies the structural target: 'it is important to examine aspects of world culture with emphasis on progressional continuance and political reality — and political transition.' The crossing diagrams how time-continuum-implications structurally meets expansion-dynamics at the world-power-position scale: T-C-IMP (time continuum implications) crossed with EXP-DY (expansion dynamics — the actual expansion dynamics by which world-power-position registers). T-C-IMP sits on the left with the subject-arrow; TR rises from the main line at upper-left, UNF-PI (unification (positively intended)) branches from the TR line at top-center, and C-CONT (composite continuance) branches from the UNF-PI line. EXP-DY is the partner at the end of the main line at center-right. OBS (observation) branches from the main line down to the right; BSCI branches from the OBS line, and POST (postulation) and FUND-DY (fundamental dynamics) both branch from the BSCI line on the right margin. DEC (decentralization) drops from the main line to the bottom; MT-IF-DB (multi-informational degree basis, written 'mt.if.db.') branches from the DEC line, and PRI-INFO (principle information) from the MT-IF-DB line.",
   "terms": [
     { "termId": "t-c-imp", "isSubject": true },
     { "termId": "exp-dy" },
@@ -25,14 +25,13 @@
     { "from": "t-c-imp", "to": "exp-dy", "type": "solid" },
     { "from": "t-c-imp", "to": "tr", "type": "solid" },
     { "from": "tr", "to": "unf-pi", "type": "solid" },
-    { "from": "unf-pi", "to": "post", "type": "solid" },
     { "from": "unf-pi", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "exp-dy", "type": "solid" },
-    { "from": "post", "to": "bsci", "type": "solid" },
     { "from": "bsci", "to": "fund-dy", "type": "solid" },
-    { "from": "exp-dy", "to": "obs", "type": "solid" },
-    { "from": "t-c-imp", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "mt-if-db", "type": "solid" },
-    { "from": "pri-info", "to": "dec", "type": "solid" }
+    { "from": "t-c-imp", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "bsci", "type": "solid" },
+    { "from": "bsci", "to": "post", "type": "solid" },
+    { "from": "t-c-imp", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "mt-if-db", "type": "solid" },
+    { "from": "mt-if-db", "to": "pri-info", "type": "solid" }
   ]
 }

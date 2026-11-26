@@ -6,7 +6,7 @@
   "subject": "wo-mth",
   "title": "WO.MTH.------C.INFO.",
   "type": "crossing",
-  "description": "Second diagram on page 456 (TRF(CW)-28), paired with WO-EXP-PRI x VT-PLT above. The crossing diagrams how world-methodology structurally meets composite-information at the post-WWII bi-aitionalism examination scale: WO-MTH (world methodology) crossed with C-INFO (composite information). WO-MTH sits at left with the subject-arrow; C-INFO at upper-center as partner-axis. TR-INFO (trans-information) upper-left, EXB-G-OR (establishing general order) upper-center as bridging upper chain. AFI (affinity insight) upper-right, SCI-DY (scientific dynamics), EXT-FT (extended functionalism), PART (participation) on the right. POL-DY (political dynamics) left, APL-DT (application dictates) center. LK-IMP (linkage implication), PRI-INFO (principle information), SPT-DY (spiritual dynamics), INFO-DE(B) (black information descent) on lower chain.",
+  "description": "Second diagram on page 456 (TRF(CW)-28), paired with WO-EXP-PRI x VT-PLT above. The crossing diagrams how world-methodology structurally meets composite-information at the post-WWII bi-aitionalism examination scale: WO-MTH (world methodology) crossed with C-INFO (composite information). WO-MTH sits at left with the subject-arrow; C-INFO at upper-center as partner-axis. TR-INFO (trans-information) upper-left, EXB-G-OR upper-center: EXB-G-OR branches from the main line and carries TR-INFO, from which POL-DY branches. AFI (affinity insight) upper-right, SCI-DY (scientific dynamics), EXT-FT (extended functionalism), PART (participation) on the right. POL-DY (political dynamics) left, APL-DT (application dictates) center. SPT-DY (spiritual dynamics) drops from the main line; PRI-INFO (principle information) branches from it and carries LK-IMP (linkage implications), and INFO-DE(B) (information degrees) branches from it and carries APL-DT.",
   "terms": [
     {
       "termId": "wo-mth",
@@ -49,8 +49,7 @@
       "termId": "spt-dy"
     },
     {
-      "termId": "info-de",
-      "suffix": "b"
+      "termId": "info-de-b"
     }
   ],
   "relationships": [
@@ -60,28 +59,8 @@
       "type": "solid"
     },
     {
-      "from": "tr-info",
-      "to": "exb-g-or",
-      "type": "solid"
-    },
-    {
-      "from": "exb-g-or",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
-      "from": "c-info",
-      "to": "afi",
-      "type": "solid"
-    },
-    {
       "from": "afi",
       "to": "sci-dy",
-      "type": "solid"
-    },
-    {
-      "from": "sci-dy",
-      "to": "ext-ft",
       "type": "solid"
     },
     {
@@ -90,33 +69,53 @@
       "type": "solid"
     },
     {
+      "from": "spt-dy",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
       "from": "wo-mth",
+      "to": "exb-g-or",
+      "type": "solid"
+    },
+    {
+      "from": "exb-g-or",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
       "to": "pol-dy",
       "type": "solid"
     },
     {
       "from": "wo-mth",
-      "to": "apl-dt",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "afi",
       "type": "solid"
     },
     {
       "from": "wo-mth",
-      "to": "lk-imp",
-      "type": "solid"
-    },
-    {
-      "from": "lk-imp",
-      "to": "pri-info",
-      "type": "solid"
-    },
-    {
-      "from": "lk-imp",
       "to": "spt-dy",
       "type": "solid"
     },
     {
       "from": "spt-dy",
-      "to": "info-de",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "apl-dt",
       "type": "solid"
     }
   ]

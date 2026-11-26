@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------T.C.IMP.------INF.AFB.",
   "type": "triple-crossing",
-  "description": "First of three diagrams on page 368 (R(AS)CM(II)-12) — a triple-crossing that diagrams how multi-information meets time-continuum-implications meets information affinity basis in the structural form of cultural-information regulation. (C)MT-INFO (the concept of multi-information) is crossed with T-C-IMP (time continuum implications) which is in turn crossed with INFO-AF-B (information affinity basis). MT-INFO sits on the left with the subject-arrow; TH-CONT-DYM (thrust-continuance dynamism) hangs below as the subject's downward output. T-C-IMP is the middle axis; PROJ-CONT (projectional continuance) drops below T-C-IMP as the bridging-axis downward output, with EXT-DYM (extended dynamics) connected by a *dashed* edge — load-bearing conditional. INFO-AF-B sits at upper-right as partner-axis terminus. Structural argument: the triple-axis shows the three-step route by which multi-information actually reaches information-affinity-basis — multi-information routes through time-continuum-implications which routes through information-affinity-basis. The dashed edge T-C-IMP → EXT-DYM is the load-bearing conditional: extended-dynamics arrives only conditionally, only when time-continuum-implications can actually hold the extension open. Without that dashed edge holding, the triple-crossing collapses to MT-INFO → T-C-IMP → INFO-AF-B alone, and TH-CONT-DYM / PROJ-CONT on the lower axis stay subject-side and bridging-side outputs that never reach the partner's affinity-base. The receiving culture's multi-information then receives temporal-continuity without the extended dynamics — exactly the regulation-via-narrow-information the surrounding prose names.",
+  "description": "First of three diagrams on page 368 (R(AS)CM(II)-12) — a triple-crossing that diagrams how multi-information meets time-continuum-implications meets information affinity basis in the structural form of cultural-information regulation. (C)MT-INFO (the concept of multi-information) is crossed with T-C-IMP (time continuum implications) which is in turn crossed with INFO-AF-B (information affinity basis). MT-INFO sits on the left with the subject-arrow; TH-CONT-DYM (thrust continuance dynamics) hangs below from the stretch between MT-INFO and T-C-IMP. T-C-IMP is the middle axis; PROJ-CONT (projectional continuance) drops below T-C-IMP as the bridging-axis downward output, with EXT-DYM (extended dynamics) connected to T-C-IMP by a *dashed* line that amplifies some aspect of T-C-IMP. INFO-AF-B sits at upper-right as partner-axis terminus. Structural argument: the triple-axis shows the three-step route by which multi-information actually reaches information-affinity-basis — multi-information routes through time-continuum-implications which routes through information-affinity-basis.",
   "terms": [
     { "termId": "mt-info", "isSubject": true, "prefix": "c" },
     { "termId": "t-c-imp" },
@@ -18,8 +18,8 @@
   "relationships": [
     { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
     { "from": "t-c-imp", "to": "info-af-b", "type": "solid" },
-    { "from": "mt-info", "to": "th-cont-dym", "type": "solid" },
     { "from": "t-c-imp", "to": "proj-cont", "type": "solid" },
-    { "from": "t-c-imp", "to": "ext-dym", "type": "dashed" }
+    { "from": "t-c-imp", "to": "ext-dym", "type": "dashed" },
+    { "from": "t-c-imp", "to": "th-cont-dym", "type": "solid" }
   ]
 }

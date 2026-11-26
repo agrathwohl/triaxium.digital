@@ -6,7 +6,7 @@
   "subject": "afi",
   "title": "AFI.------EXP.INFO.B.",
   "type": "crossing",
-  "description": "Second diagram on page 500 (TRF(II)-36), paired with SPT-DY × AF-POST above. The crossing diagrams how affinity-insight structurally meets expansion-information-basis at the alternative-spiritual-affinity-alignment scale the prior diagram named: AFI (affinity insight) crossed with EXP-INFO-B (expansion information basis). AFI sits at center-left with the subject-arrow; OP-SD (oppositional side) at top-center and TR (transformation) at upper-right with EXP-INFO-B at center-right as partner-axis. SOC-RT-DY (social-reality dynamics) at upper-left as the subject-side upper input. (R)TM (the reality of terminology) at lower-left and POST (postulation) at the bottom-center with CULT-AF-B (cultural-affinity base) below as the bridging-axis downward chain. IST-S-ALGN (isolated systematic alignment) at right of EXP-INFO-B; SPT-DY (spiritual dynamics) and MT-INFO (multi-information) anchor the right margin as the partner-side downward outputs. Structural argument: when affinity-insight is crossed with expansion-information-basis, the upper diagonal OP-SD → TR is the *oppositional-transformation route* — oppositional-side routes through transformation on the partner-side upper. SOC-RT-DY → AFI is the bridging upper input — social-reality dynamics enters affinity-insight. EXP-INFO-B → IST-S-ALGN → SPT-DY → MT-INFO is the partner-axis's downward chain — expansion-information-basis routes through isolated systematic alignment into spiritual-dynamics and finally into multi-information. (R)TM → POST → CULT-AF-B is the bridging-axis downward chain — the reality of terminology routes through postulation into cultural-affinity-base. The structural argument: the actualness-of-change the prose names structurally requires holding SOC-RT-DY → AFI's bridging upper-input *and* the bridging downward chain (R)TM → POST → CULT-AF-B simultaneously — without both, affinity-insight produces only OP-SD on the partner-side (oppositional position without integration) while the partner-axis's downward chain routes expansion-information-basis into multi-information as terminal received-form, never reaching the form's actual cultural-affinity-base.",
+  "description": "Second diagram on page 500 (TRF(II)-36), paired with SPT-DY × AF-POST above. The crossing diagrams how affinity-insight structurally meets expansion-information-basis at the alternative-spiritual-affinity-alignment scale the prior diagram named: AFI (affinity insight) crossed with EXP-INFO-B (expansion information basis). AFI sits at center-left with the subject-arrow; EXP-INFO-B sits at center-right as partner-axis. TR (transformation) rises from the main line to the upper right and carries OP-SD (option spread), which carries SOC-RT-DY (social-reality dynamics). SPT-DY (spiritual dynamics) drops from the main line to the lower right and carries IST-S-ALGN (isolated systematic alignment), which carries MT-INFO (multi-information). (R)TM (the reality of terminology, or terms of a definition) drops from the main line to the lower left and carries CULT-AF-B (culture affinity basis), which carries POST (postulation).",
   "terms": [
     { "termId": "afi", "isSubject": true },
     { "termId": "exp-info-b" },
@@ -22,14 +22,14 @@
   ],
   "relationships": [
     { "from": "afi", "to": "exp-info-b", "type": "solid" },
-    { "from": "afi", "to": "op-sd", "type": "solid" },
-    { "from": "op-sd", "to": "tr", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "afi", "type": "solid" },
-    { "from": "exp-info-b", "to": "ist-s-algn", "type": "solid" },
-    { "from": "ist-s-algn", "to": "spt-dy", "type": "solid" },
-    { "from": "spt-dy", "to": "mt-info", "type": "solid" },
     { "from": "afi", "to": "tm", "type": "solid" },
-    { "from": "tm", "to": "post", "type": "solid" },
-    { "from": "post", "to": "cult-af-b", "type": "solid" }
+    { "from": "afi", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "op-sd", "type": "solid" },
+    { "from": "op-sd", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "mt-info", "type": "solid" },
+    { "from": "tm", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "post", "type": "solid" }
   ]
 }

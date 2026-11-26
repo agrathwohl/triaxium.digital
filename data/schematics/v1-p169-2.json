@@ -4,12 +4,12 @@
   "section": "UPB(II)-31",
   "page": 169,
   "subject": "vt-u-p",
-  "title": "(R)VT.U.P.------POL.DY.",
+  "title": "(R)VT.U.P.------pol.dy.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-31, the second of three on book p169. (R)VT-U-PT — the reality of vibrational universe particulars — is crossed with POL-DYM (political dynamics). Two upstream feeds: PROG-CONT (progressional continuance) → VT-U-PT, and WO-EXP-PRI (world expansion principle) → VT-U-PT. The subject outputs to POL-DYM (the crossing) and to AFL-DY (affinity dynamics). POL-DYM → LANG-DY (language dynamics); LANG-DY then branches to MTA-RT-SIGN (meta-reality significance) and INFO-DE-B (a diagram-only term, likely 'information determination basis') → PRI-AF-TO (primary affinity tendencies). AFL-DY → PROJ-DY (projectional dynamics). Structural argument: the reality of vibrational universe particulars (i.e., what the vibrational ground actually consists of in particular form) is fed by progressional continuance *and* world expansion principle — Braxton's two macro-historical engines — and outputs the politico-cultural domain through political dynamics, with language dynamics as the transmission layer that produces both meta-reality significance *and* the determination basis that grounds primary affinity tendencies. The parallel affinity-dynamics → projectional-dynamics output is the non-political channel. The diagram thus stages how reality's vibrational particulars become culturally legible: through political dynamics into language, with affinity/projection running as a separate independent track.",
+  "description": "Diagram in UPB(II)-31, the second of three on book p169. (R)VT-U-P — the reality of vibrational universe particulars — is crossed with POL-DY (political dynamics). Besides the main line to POL-DY, three branches leave the subject. PROG-CONT (progressional continuance) carries WO-EXP-PRI (world expansion principle). PROJ-DY (projectional dynamics) carries AFL-DY (affinity dynamics). LANG-DY (language dynamics) carries INFO-DE-B (information degree basis) → MTA-RT-SIGN (meta-reality significance) → PRI-AF-TD (primary affinity tendencies).",
   "terms": [
     {
-      "termId": "vt-u-pt",
+      "termId": "vt-u-p",
       "isSubject": true,
       "prefix": "r"
     },
@@ -43,32 +43,32 @@
   ],
   "relationships": [
     {
+      "from": "vt-u-p",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
       "from": "prog-cont",
-      "to": "vt-u-pt",
+      "to": "wo-exp-pri",
       "type": "solid"
     },
     {
-      "from": "wo-exp-pri",
-      "to": "vt-u-pt",
-      "type": "solid"
-    },
-    {
-      "from": "vt-u-pt",
+      "from": "vt-u-p",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "pol-dym",
+      "from": "vt-u-p",
       "to": "lang-dy",
       "type": "solid"
     },
     {
-      "from": "vt-u-pt",
+      "from": "proj-dy",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "lang-dy",
+      "from": "info-de-b",
       "to": "mta-rt-sign",
       "type": "solid"
     },
@@ -78,12 +78,12 @@
       "type": "solid"
     },
     {
-      "from": "info-de-b",
+      "from": "mta-rt-sign",
       "to": "pri-af-to",
       "type": "solid"
     },
     {
-      "from": "afl-dy",
+      "from": "vt-u-p",
       "to": "proj-dy",
       "type": "solid"
     }

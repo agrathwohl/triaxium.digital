@@ -1,12 +1,12 @@
 {
   "id": "v2-p89",
   "volume": 2,
-  "section": "AF(D)-17",
+  "section": "(AF)D-17",
   "page": 89,
   "subject": "info-algn",
-  "title": "INFO.ALGN.------STF. / PRO.CONT.",
+  "title": "INFO.ALGN.------STF.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-17 (Affinity Dynamics, Level One) accompanying Braxton's structural claim that 'transfer shifts is an integral factor coupled to how the spread of information has come about. Hopefully an awareness of transferred composite information (from culture to culture) can better help us to deal with the affinity-dynamic implications surrounding principle-information routes.' (C)INFO-ALGN (the concept of information alignment) is crossed simultaneously with STF (source transfer) AND PRO-CONT (progressional continuance) — the unusual dual-partner formation indicating Braxton is holding three concepts in mutual tension. (P)APP-RDEF (point-of-activation applied redefinitions) hangs on the upper-right output. PROJ-DY (projectional dynamics) anchors the right margin. RT-DY (reality dynamics) feeds into the subject from below. POL-P (political policies) sits centrally. (R)ATTN (reality of attraction) anchors the right output. T-C-IMP (time continuum implications) and TR-DEF (trans-definition) cluster on the lower-right. CUL-INFO-B (culture-information basis), SOC-RT-DY (social-reality dynamics), and (C)AF-TD (concept of affinity-tendency) form the lower upstream chain. Structural argument: this dual-partner crossing is Braxton's structural statement that no single partner suffices for information-alignment — source-transfer (the *how* of transfer) and progressional-continuance (the *temporal sustenance* of transfer) must both be crossed against alignment for the full picture. The (p) prefix on APP-RDEF registers that applied-redefinitions is a *trigger event* in this configuration; the (r) prefix on ATTN registers that attraction here must be *actually obtaining*, not merely conceptual.",
+  "description": "Diagram in AF(D)-17 (Affinity Dynamics, Level One) accompanying Braxton's structural claim that 'transfer shifts is an integral factor coupled to how the spread of information has come about. Hopefully an awareness of transferred composite information (from culture to culture) can better help us to deal with the affinity-dynamic implications surrounding principle-information routes.' (C)INFO-ALGN (the concept of information alignment) is crossed with STF (source transfer). Two lines leave the main line. (P)APP-RDEF (applied redefinitions, at its point of idea completion) rises from it and carries PRO-CONT (progressional continuance). (R)ATTN (the reality of attraction) branches downward and carries PROJ-DY (projectional dynamics) and (C)AF-TD (the concept of affinity tendencies); (C)AF-TD carries T-C-IMP (time continuum implications), which leads to TR-DEF (trans-definition), and CUL-INFO-B (culture-information basis), which carries SOC-RT-DY (social-reality dynamics) and POL-P (political policies); RT-DY (reality dynamics) hangs from POL-P. The (r) prefix on ATTN registers that attraction here must be *actually obtaining*, not merely conceptual.",
   "terms": [
     { "termId": "info-algn", "isSubject": true, "prefix": "c" },
     { "termId": "stf" },
@@ -24,16 +24,16 @@
   ],
   "relationships": [
     { "from": "info-algn", "to": "stf", "type": "solid" },
-    { "from": "info-algn", "to": "prog-cont", "type": "solid" },
-    { "from": "stf", "to": "app-rdef", "type": "solid" },
-    { "from": "stf", "to": "proj-dy", "type": "solid" },
-    { "from": "rt-dy", "to": "info-algn", "type": "solid" },
-    { "from": "info-algn", "to": "pol-p", "type": "solid" },
-    { "from": "pol-p", "to": "attn", "type": "solid" },
-    { "from": "pol-p", "to": "t-c-imp", "type": "solid" },
     { "from": "t-c-imp", "to": "tr-def", "type": "solid" },
     { "from": "cul-info-b", "to": "pol-p", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "af-td", "type": "solid" },
-    { "from": "af-td", "to": "pol-p", "type": "solid" }
+    { "from": "info-algn", "to": "app-rdef", "type": "solid" },
+    { "from": "app-rdef", "to": "prog-cont", "type": "solid" },
+    { "from": "info-algn", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "proj-dy", "type": "solid" },
+    { "from": "attn", "to": "af-td", "type": "solid" },
+    { "from": "af-td", "to": "t-c-imp", "type": "solid" },
+    { "from": "af-td", "to": "cul-info-b", "type": "solid" },
+    { "from": "cul-info-b", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "pol-p", "to": "rt-dy", "type": "solid" }
   ]
 }

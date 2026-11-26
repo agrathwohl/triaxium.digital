@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "WAC-27",
   "page": 229,
-  "subject": "exp-dy",
+  "subject": "exp-dym",
   "title": "EXP.DY.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in WAC-27, the first of three on book p229. EXP-DYM (expansion dynamics) is crossed with SOC-RT (social reality). Embedded in the Euro-American discussion where Braxton argues that 'the dynamic solidification of Euro-American western art music must be viewed with respect to what it posed for the western affinity insight principle' — i.e., when European-trained composers in America had no traditional basis to draw from, expansion dynamics had to find a different route through social reality. Two upstream feeds: SPT-DY (spiritual dynamics) → HI-P (high purpose) → EXP-DYM, and ACC-FT (accelerated functionalism) → EXP-DYM. EXP-DYM outputs to SOC-RT (the crossing), INFO-DS (information dissemination), POL-DYM (political dynamics), and PROG-CONT (progressional continuance). (C)DEF (the concept of definition) feeds INFO-DS, and INFO-DS → AFL-DT (affinity dictates). Structural argument: expansion dynamics is constituted by spiritual-dynamics-via-high-purpose plus accelerated functionalism — *requiring* a spiritual-purpose component that western culture, per Braxton, has structurally lost. Its outputs (social reality, information dissemination, political dynamics, progressional continuance) constitute the entire field of cultural reception. The (c)definition→information-dissemination→affinity-dictates side chain shows how *concepts of definition* (Braxton's diagram-coded conceptual reading) feed dissemination only by producing affinity dictates downstream — not by producing expansion dynamics directly.",
+  "description": "Diagram in WAC-27, the first of three on book p229. EXP-DYM (expansion dynamics) is crossed with SOC-RT (social reality). Embedded in the Euro-American discussion. EXP-DYM outputs to SOC-RT (the crossing), POL-DYM (political dynamics), PROG-CONT (progressional continuance), and ACC-FT (accelerated functionalism). ACC-FT branches to HI-P (high purpose) → SPT-DY (spiritual dynamics) and to INFO-DS (information dissemination); INFO-DS branches to AFL-DT (affinity dictates) and (C)DEF (the concept of definition).",
   "terms": [
     {
       "termId": "exp-dym",
@@ -43,18 +43,13 @@
   ],
   "relationships": [
     {
-      "from": "spt-dy",
-      "to": "hi-p",
-      "type": "solid"
-    },
-    {
       "from": "hi-p",
-      "to": "exp-dym",
+      "to": "spt-dy",
       "type": "solid"
     },
     {
-      "from": "acc-ft",
-      "to": "exp-dym",
+      "from": "exp-dym",
+      "to": "acc-ft",
       "type": "solid"
     },
     {
@@ -63,13 +58,8 @@
       "type": "solid"
     },
     {
-      "from": "exp-dym",
-      "to": "info-ds",
-      "type": "solid"
-    },
-    {
-      "from": "def",
-      "to": "info-ds",
+      "from": "info-ds",
+      "to": "def",
       "type": "solid"
     },
     {
@@ -85,6 +75,16 @@
     {
       "from": "info-ds",
       "to": "afl-dt",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "hi-p",
+      "type": "solid"
+    },
+    {
+      "from": "acc-ft",
+      "to": "info-ds",
       "type": "solid"
     }
   ]

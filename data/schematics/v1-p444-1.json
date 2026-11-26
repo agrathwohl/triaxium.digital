@@ -6,10 +6,10 @@
   "subject": "pri-info-td",
   "title": "(R)PRI.INFO.TD.------TRS.",
   "type": "crossing",
-  "description": "Diagram in the Extended Functionalism (II) section (EXT.F(II)-6), opening Braxton's argument about creative music's seventies trajectory and decentralization. (R)PRI-VT-TD (the reality of principle vibrational tendencies) is crossed with TRS (transition). The diagram poses what real principle vibrational tendencies look like when crossed with transition in the seventies' integrated context — where the AACM, post-Ayler, and St. Louis movements are converging. ALT-D (alternative definitions) → PRI-VT-TD; POL-DYM (political dynamics) → PRI-VT-TD. CR-INFO-DY (circular information dynamics) → TRS; ALT-F (alternative functionalism) → TRS. ALT-F also branches to CRTF-D (cross-transfer definitions) → ACC-DY (accelerated dynamics), to PROG-CONT (progressional continuance), and to LANG (language). Structural argument: real principle vibrational tendencies are fed by both alternative definitions and political dynamics — meaning the seventies integration required both definitional reframing *and* political-dynamics work. Transition is fed by circular information dynamics (the recursive flow of meaning) and alternative functionalism. Alternative functionalism then fans into four sibling outputs: cross-transfer definitions (which produces accelerated dynamics), progressional continuance, language, and transition itself. The diagram thus diagrams the integrated structural conditions of the seventies: real principle vibrational tendencies and transition are co-active, with alternative functionalism as the central productive node — but alternative functionalism's four-fold output (definitional, dynamic, progressional, linguistic) means the seventies decentralization is structurally fragile, requiring all four lines to remain active.",
+  "description": "Diagram in the Extended Functionalism (II) section (EXT.F(II)-6), opening Braxton's argument about creative music's seventies trajectory and decentralization. (R)PRI-INFO-TD (the reality of principle information tendencies) is crossed with TRS (transition). The diagram poses what real principle information tendencies look like when crossed with transition in the seventies' context — where, per the prose, the AACM's separateness from the New York post-Ayler thrust bears on the concept of decentralization. POL-DY (political dynamics) branches from the main line and opens into CR-INFO-DY (circular information dynamics) → ALT-D (alternative definitions). CRTF-D (cross-transfer definitions) branches from the main line and opens into PROG-CONT (progressional continuance) and ALT-F (alternative functionalism); ALT-F opens into ACC-DY (accelerated dynamics) → LANG (language).",
   "terms": [
     {
-      "termId": "pri-vt-td",
+      "termId": "pri-info-td",
       "isSubject": true,
       "prefix": "r"
     },
@@ -43,42 +43,47 @@
   ],
   "relationships": [
     {
-      "from": "alt-d",
-      "to": "pri-vt-td",
+      "from": "pri-info-td",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info-td",
+      "to": "pol-dym",
       "type": "solid"
     },
     {
       "from": "pol-dym",
-      "to": "pri-vt-td",
+      "to": "cr-info-dy",
       "type": "solid"
     },
     {
       "from": "cr-info-dy",
-      "to": "trs",
+      "to": "alt-d",
       "type": "solid"
     },
     {
-      "from": "alt-f",
-      "to": "trs",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
+      "from": "pri-info-td",
       "to": "crtf-d",
       "type": "solid"
     },
     {
       "from": "crtf-d",
-      "to": "acc-dy",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
       "to": "prog-cont",
       "type": "solid"
     },
     {
+      "from": "crtf-d",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
       "from": "alt-f",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
       "to": "lang",
       "type": "solid"
     }

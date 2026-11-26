@@ -6,7 +6,7 @@
   "subject": "info-af-b",
   "title": "INFO.AF.B.------CR.INFO.DY.",
   "type": "network",
-  "description": "Diagram in SR(TRS)II-35, second of two on book p179. (C)INFO-AF-B (information affinity basis) is the subject in a multi-hub network with no single dominant center. Nodes include STF (source transfer), MT-INFO (multi-information), CRT-F-D (criticism factor dynamics), APP-RDEF (applied redefinitions), C-CONT (composite continuance), CUL-TF-S (cultural transfer shifts), ALT-F (alternative functionalism), CULT-AF-B (culture affinity basis), CR-INFO-DY (circular information dynamics), LANG-DY (language dynamics), COS-D (cosmic dictates). Multiple cross-connections form a network of mutual constitution rather than a single hierarchical structure. Structural argument: information affinity basis sits in a network where the constituting forces (criticism factor dynamics, applied redefinitions, cultural transfer shifts, circular information dynamics, language dynamics) all mutually shape each other — exposing Braxton's diagnostic that western information affinity basis is structurally networked, not hierarchical, which is precisely why the curation apparatus is so resistant to single-point challenges. To shift one node requires shifting the entire mutual-constitution layer.",
+  "description": "Diagram in SR(TRS)II-35, second of two on book p179. (C)INFO-AF-B (information affinity basis) is the subject. The main line runs from the subject to C-CONT (composite continuance). CRTF-D (cross-transfer definitions) and CR-INFO-DY (circular information dynamics) branch from the main line. CRTF-D carries APP-RDEF (applied redefinitions) and STF (source transfer); MT-INFO (multi-information) branches from STF, COS-D (cosmic dictates) from MT-INFO, ALT-F (alternative functionalism) from COS-D, and LANG-DY (language dynamics) from ALT-F. CR-INFO-DY carries CUL-TF-S (cultural transfer shifts) and CULT-AF-B (culture affinity basis).",
   "terms": [
     { "termId": "info-af-b", "isSubject": true, "prefix": "c" },
     { "termId": "cr-info-dy" },
@@ -22,17 +22,16 @@
     { "termId": "cos-d" }
   ],
   "relationships": [
-    { "from": "stf", "to": "info-af-b", "type": "solid" },
-    { "from": "mt-info", "to": "crtf-d", "type": "solid" },
-    { "from": "crtf-d", "to": "info-af-b", "type": "solid" },
-    { "from": "info-af-b", "to": "app-rdef", "type": "solid" },
-    { "from": "app-rdef", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "cul-tf-s", "type": "solid" },
-    { "from": "cul-tf-s", "to": "cr-info-dy", "type": "solid" },
-    { "from": "alt-f", "to": "info-af-b", "type": "solid" },
-    { "from": "cult-af-bs", "to": "info-af-b", "type": "solid" },
     { "from": "info-af-b", "to": "cr-info-dy", "type": "solid" },
-    { "from": "lang-dy", "to": "cult-af-bs", "type": "solid" },
-    { "from": "cos-d", "to": "lang-dy", "type": "solid" }
+    { "from": "info-af-b", "to": "c-cont", "type": "solid" },
+    { "from": "info-af-b", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "app-rdef", "type": "solid" },
+    { "from": "crtf-d", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "cos-d", "type": "solid" },
+    { "from": "cos-d", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "lang-dy", "type": "solid" },
+    { "from": "cr-info-dy", "to": "cul-tf-s", "type": "solid" },
+    { "from": "cr-info-dy", "to": "cult-af-bs", "type": "solid" }
   ]
 }

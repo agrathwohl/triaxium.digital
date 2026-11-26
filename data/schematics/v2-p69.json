@@ -6,7 +6,7 @@
   "subject": "app-rdef",
   "title": "APP.RDEF.------P.PROG.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-47 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's diagnostic that 'all of the signs for real change have solidified and the question now is which way will events take us … the most basic factor to induce the need for positive change is the awareness of extended information.' (C)APP-RDEF (the concept of applied redefinitions) is crossed with P-PROG (particular progressionalism): the question is what applied-redefinitions produces when crossed with particular-progressionalism — when the late-seventies progressional weight is 'isolating the dynamics of composite perception.' POL-P (political policies) feeds into P-PROG from above. CRTF-D (cross-transfer definitions) sits between subject and partner on the upper register. IST-F (isolated focus) anchors the upper-right margin. P-PROG itself is centrally crossed. W-DY (world dynamics) connects to INFO-AF-B (information-affinity basis) via a *dashed* edge — the only mediated/conditional relation in the diagram, marking Braxton's caution that world-dynamics' link to information-affinity-basis is uncertain. RT-ALGN (reality alignment) feeds upward into P-PROG from the lower-left. CUL-INFO-F (culture-information functionalism) anchors the lower-center via another dashed edge. Structural argument: applied-redefinitions crossed with particular-progressionalism is the diagnostic for the late-seventies situation — applied-redefinitions is what the dominant culture offers as 'change,' while particular-progressionalism is what actually obtains. The diagram's two dashed edges (W-DY→INFO-AF-B and P-PROG→CUL-INFO-F) are load-bearing: they expose that the link between progression and culture-information is mediated, conditional — exactly the gap that 'extended information awareness' must close to enable real change.",
+  "description": "Diagram in SD(SY)-47 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's diagnostic that 'all of the signs for real change have solidified and the question now is which way will events take us … the most basic factor to induce the need for positive change is the awareness of extended information.' (C)APP-RDEF (the concept of applied redefinitions) is crossed with P-PROG (particular progressionalism): the question is what applied-redefinitions produces when crossed with particular-progressionalism — when the late-seventies progressional weight is 'isolating the dynamics of composite perception.' POL-P (political policies) and RT-ALGN (reality alignment) branch from the main line. From RT-ALGN a long line runs to W-DY, which carries CRTF-D (cross-transfer definitions), leading on to IST-F (isolated focus), and a *dashed* line to CUL-INFO-F (culture information focus) that amplifies some aspect of W-DY. IST-F in turn has a dashed line to INFO-AF-B (information affinity basis) that amplifies some aspect of it. Structural argument: applied-redefinitions crossed with particular-progressionalism is the diagnostic for the late-seventies situation — applied-redefinitions is what the dominant culture offers as 'change,' while particular-progressionalism is what actually obtains.",
   "terms": [
     { "termId": "app-rdef", "isSubject": true, "prefix": "c" },
     { "termId": "p-prog" },
@@ -19,13 +19,13 @@
     { "termId": "cul-info-f" }
   ],
   "relationships": [
-    { "from": "pol-p", "to": "p-prog", "type": "solid" },
-    { "from": "app-rdef", "to": "crtf-d", "type": "solid" },
     { "from": "crtf-d", "to": "ist-f", "type": "solid" },
     { "from": "app-rdef", "to": "p-prog", "type": "solid" },
-    { "from": "p-prog", "to": "w-dy", "type": "solid" },
-    { "from": "w-dy", "to": "info-af-b", "type": "dashed" },
-    { "from": "rt-algn", "to": "p-prog", "type": "solid" },
-    { "from": "p-prog", "to": "cul-info-f", "type": "dashed" }
+    { "from": "app-rdef", "to": "pol-p", "type": "solid" },
+    { "from": "app-rdef", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "w-dy", "type": "solid" },
+    { "from": "w-dy", "to": "cul-info-f", "type": "dashed" },
+    { "from": "w-dy", "to": "crtf-d", "type": "solid" },
+    { "from": "ist-f", "to": "info-af-b", "type": "dashed" }
   ]
 }

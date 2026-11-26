@@ -6,7 +6,7 @@
   "subject": "vt-u-pt",
   "title": "VT.U.PT.-----INFO.DE.B.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-41 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the first condition that any alternative initiation must pass is the condition posed by media' — media being the operational form of the western information-principles gatekeeping. (C)VT-U-PT (the concept of vibrational universe particulars) is crossed with INFO-DE-B (information-descent basis): the question is what vibrational-universe-particulars produces when crossed with information-descent-basis, given that media defines the descent conditions any alternative must pass through. INFO-DE-B sits at the top with TR-INFO (trans-information) and A-PR (all-purpose) on the right output. ATTN (attraction) sits below INFO-DE-B as central hub. SPT-DYM (spectacle dynamics) feeds upward into the upper-right cluster. MT-INFO (multi-information) hangs on the right margin. AFL-DY (affinity dynamics) feeds into the subject from below-left. CULT-AF-BS (culture-affinity basis) and CULT-INFO-DY (culture-information dynamics) form the lower-right output chain. Structural argument: vibrational-universe-particulars crossed with information-descent-basis is mediated through attraction as the central hub — a Braxtonian diagnostic about media specifically. Attraction is the descent-mechanism; spectacle-dynamics is the upstream that activates it. The diagram exposes that any 'alternative initiation' which thinks it can bypass the attraction hub is naive: media gates information-descent precisely by capturing attraction, and the productive outputs (trans-information, all-purpose, multi-information, culture-affinity-basis, culture-information-dynamics) all route through that gate.",
+  "description": "Diagram in SD(SY)-41 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the first condition that any alternative initiation must pass is the condition posed by media' — media being the operational form of the western information-principles gatekeeping. (C)VT-U-PT (the concept of vibrational universe particulars) is crossed with INFO-DE-B (information degree basis): the question is what vibrational-universe-particulars produces when crossed with information-degree-basis, given that media defines the conditions any alternative must pass through. TR-INFO (trans-information) branches from the main line and leads to A-PR (all-purpose), then to MT-INFO (multi-information) and SPT-DYM (spiritual dynamics). AFL-DY (affinity dynamics) also branches from the main line and leads to ATTN (attraction), then to CULT-AF-BS (culture affinity basis) and CULT-INFO-DY (culture information dynamics).",
   "terms": [
     { "termId": "vt-u-pt", "isSubject": true, "prefix": "c" },
     { "termId": "info-de-b" },
@@ -21,14 +21,13 @@
   ],
   "relationships": [
     { "from": "vt-u-pt", "to": "info-de-b", "type": "solid" },
-    { "from": "info-de-b", "to": "tr-info", "type": "solid" },
-    { "from": "info-de-b", "to": "a-pr", "type": "solid" },
-    { "from": "vt-u-pt", "to": "attn", "type": "solid" },
-    { "from": "attn", "to": "info-de-b", "type": "solid" },
-    { "from": "spt-dym", "to": "info-de-b", "type": "solid" },
     { "from": "a-pr", "to": "mt-info", "type": "solid" },
-    { "from": "afl-dy", "to": "vt-u-pt", "type": "solid" },
-    { "from": "afl-dy", "to": "cult-af-bs", "type": "solid" },
-    { "from": "cult-af-bs", "to": "cult-info-dy", "type": "solid" }
+    { "from": "vt-u-pt", "to": "afl-dy", "type": "solid" },
+    { "from": "cult-af-bs", "to": "cult-info-dy", "type": "solid" },
+    { "from": "vt-u-pt", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "a-pr", "type": "solid" },
+    { "from": "mt-info", "to": "spt-dym", "type": "solid" },
+    { "from": "afl-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "cult-af-bs", "type": "solid" }
   ]
 }

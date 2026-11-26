@@ -6,7 +6,7 @@
   "subject": "re-st",
   "title": "RE.ST.------PRIN.INFO.",
   "type": "crossing",
-  "description": "Diagram in CMBA-19, embedded in Braxton's argument about Coltrane's late-fifties activity and the move into source-transfer extension via modal forms. (C)RE-ST (restructuralism) is crossed with PRI-INFO (principle information): the question is what restructuralism does to principle information in a context where modal forms (Davis, Coltrane) are reorganizing what counts as primary informational ground. UNF-PI (unification, positively intended) → INT (intention) → PRI-INFO. PRI-INFO branches to SOC-RT-DY (social reality dynamics) and MT-INFO (multi-information). A separate chain: CN-INFO (controlled information) → AF-COMP (affinity compression) → RE-ST, with CULT-AF-BS (culture affinity basis) also feeding AF-COMP. Another sub-chain: INTR (interpretation) → IST-F-AT (isolated focus activism) → RE-ST. Structural argument: restructuralism is fed by *three* parallel upstreams — affinity compression (which is itself fed by both controlled information and culture affinity basis — i.e., the existing constraints), and isolated focus activism (fed by interpretation). Principle information has its own independent constituting line through unification-positively-intended → intention. The diagram thus stages Braxton's structural claim that restructuralism in 1960s black creativity is over-determined by both *constraints* (controlled information, culture affinity basis) and *interpretive activism*, while principle information is constituted independently — meaning the crossing of restructuralism with principle information is a meeting of two distinct constituting structures, not a derivation.",
+  "description": "Diagram in CMBA-19, embedded in Braxton's argument about Coltrane's late-fifties activity and the move into source-transfer extension via modal forms. (C)RE-ST (restructuralism) is crossed with PRI-INFO (principle information): the question is what restructuralism does to principle information in a context where modal forms are reorganizing what counts as primary informational ground. RE-ST branches to INT (intention), which carries UNF-PI (unification positively intended/world unification) and CN-INFO (controlled information) → AF-COMP (affinity compression). RE-ST also branches to SOC-RT-DY (social reality dynamics), which carries IST-F-AT (isolated focus activism) → INTR (interpretation), and CULT-AF-BS (culture affinity basis) → MT-INFO (multi-information) → a second AF-COMP.",
   "terms": [
     {
       "termId": "re-st",
@@ -42,12 +42,15 @@
     },
     {
       "termId": "intr"
+    },
+    {
+      "termId": "af-comp-2"
     }
   ],
   "relationships": [
     {
-      "from": "unf-pi",
-      "to": "int",
+      "from": "int",
+      "to": "unf-pi",
       "type": "solid"
     },
     {
@@ -56,38 +59,48 @@
       "type": "solid"
     },
     {
-      "from": "af-comp",
-      "to": "re-st",
+      "from": "ist-f-at",
+      "to": "intr",
       "type": "solid"
     },
     {
-      "from": "int",
+      "from": "re-st",
       "to": "pri-info",
       "type": "solid"
     },
     {
-      "from": "pri-info",
+      "from": "re-st",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "int",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
       "to": "soc-rt-dy",
       "type": "solid"
     },
     {
-      "from": "pri-info",
-      "to": "mt-info",
+      "from": "soc-rt-dy",
+      "to": "ist-f-at",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-dy",
+      "to": "cult-af-bs",
       "type": "solid"
     },
     {
       "from": "cult-af-bs",
-      "to": "af-comp",
+      "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "ist-f-at",
-      "to": "re-st",
-      "type": "solid"
-    },
-    {
-      "from": "intr",
-      "to": "ist-f-at",
+      "from": "mt-info",
+      "to": "af-comp-2",
       "type": "solid"
     }
   ]

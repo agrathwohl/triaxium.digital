@@ -6,7 +6,7 @@
   "subject": "rt-int-tr",
   "title": "RT.INT.TR.------TRS.",
   "type": "crossing",
-  "description": "Diagram in NYM-19, on the page where Braxton argues that 'the post-Ayler movement, by benefit of its perceived relationship with western and/or American alternative functionalism, would solidify its composite identity as a thrust that corresponded to the new dictates of the sixties.' (C)RT-INT-TR (reality initiative traits) is crossed with TRS (transition). CULT-INFO-B (culture information basis) → RT-INT-TR; INDIV-DY (individual dynamics) → RT-INT-TR. LG-DISA (logical dissolution) → TRS; TRS → POST (postulation) → AFTD (affinity tendencies). ACC-FT (accelerated functionalism) → POST in parallel. IF-ST-DY (infra-structure dynamics) → JR-DYM (journalism dynamics) → LK-IMP (linkage implications). AFTD → LK-IMP. Structural argument: reality initiative traits are constituted by both culture information basis and individual dynamics — meaning the post-Ayler musicians' reality-initiative is fed by both culture-wide informational ground *and* personal individual dynamics. Transition is fed by logical dissolution (the breakdown of received logic) and produces postulation, which is over-fed by accelerated functionalism. Postulation produces affinity tendencies, which converge with journalism-dynamics (fed by infra-structure-dynamics) at linkage implications. The diagram thus stages the diagnostic Braxton names in NYM-19: the post-Ayler movement's reality-initiative-traits crossed with transition produces postulation as the productive node, but linkage implications — the connection to broader cultural significance — only forms when affinity tendencies converge with the journalism-dynamics chain. Journalism dynamics is the structural mechanism by which the music gets *recognized*, and recognition only happens at the linkage-implications convergence.",
+  "description": "Diagram in NYM-19. (C)RT-INT-TR (reality initiative traits) is crossed with TRS (transition). Besides the main line to TRS (the crossing), lines run from the subject to LG-DISA (logical dissolution), POST (postulation) and AFTD (affinity tendencies). LG-DISA → CULT-INFO-B (culture information basis). From AFTD branch ACC-FT (accelerated functionalism) → INDIV-DY (individual dynamics), and IF-ST-DY (infra-structure dynamics) → JR-DYM (journalism dynamics) → LK-IMP (linkage implications).",
   "terms": [
     { "termId": "rt-int-tr", "isSubject": true, "prefix": "c" },
     { "termId": "lg-disa" },
@@ -21,14 +21,15 @@
     { "termId": "lk-imp" }
   ],
   "relationships": [
-    { "from": "cult-info-b", "to": "rt-int-tr", "type": "solid" },
-    { "from": "indiv-dy", "to": "rt-int-tr", "type": "solid" },
-    { "from": "lg-disa", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "post", "type": "solid" },
-    { "from": "post", "to": "aftd", "type": "solid" },
-    { "from": "acc-ft", "to": "post", "type": "solid" },
     { "from": "if-st-dy", "to": "jr-dym", "type": "solid" },
     { "from": "jr-dym", "to": "lk-imp", "type": "solid" },
-    { "from": "aftd", "to": "lk-imp", "type": "solid" }
+    { "from": "rt-int-tr", "to": "trs", "type": "solid" },
+    { "from": "rt-int-tr", "to": "lg-disa", "type": "solid" },
+    { "from": "lg-disa", "to": "cult-info-b", "type": "solid" },
+    { "from": "rt-int-tr", "to": "post", "type": "solid" },
+    { "from": "rt-int-tr", "to": "aftd", "type": "solid" },
+    { "from": "aftd", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "indiv-dy", "type": "solid" },
+    { "from": "aftd", "to": "if-st-dy", "type": "solid" }
   ]
 }

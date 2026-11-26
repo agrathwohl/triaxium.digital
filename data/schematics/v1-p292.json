@@ -6,7 +6,7 @@
   "subject": "crtf-d",
   "title": "CRTF.D.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-8. (C)CRTF-D (cross-transfer definitions) is crossed with MT-INFO (multi-information). The (c) on cross-transfer-definitions is critical: this is the *concept* of cross-transfer definitions — the institutional mechanism by which a piece of source-initiated music gets re-defined when it transfers across cultural lines. The diagram poses what multi-information looks like when crossed with that conceptual mechanism. CRTF-D → MT-INFO (the crossing) and CRTF-D → EXT-DYM (extended dynamics). MT-INFO branches to ALT-D (alternative definitions) and (R)INT (the reality of intention). (R)INT then forks into AFN (affinity negation) and APP-RDEF (applied redefinitions). EXT-DYM branches to AFTF (affinity transfer) and ALT-C-PG (alternative composite progressionalism). Structural argument: when cross-transfer definitions cross multi-information, the *real intention* of the original music becomes available for two opposite outcomes — affinity negation (rejection-as-foreign) or applied redefinition (institutional capture). The extended-dynamics output produces affinity transfer and alternative composite progressionalism — two more constrained outcomes. The diagram thus diagrams the white-improvisor section's diagnostic claim: a piece of music routed through cross-transfer definitions does not arrive intact; the route through reality-of-intention bifurcates into rejection or applied-redefinition, exactly the two outcomes Braxton names as the ways black creativity has been processed by the white interpretive apparatus.",
+  "description": "Diagram in WI-8. (C)CRTF-D (cross-transfer definitions) is crossed with MT-INFO (multi-information). The (c) on cross-transfer-definitions is critical: this is the *concept* of cross-transfer definitions — the institutional mechanism by which a piece of source-initiated music gets re-defined when it transfers across cultural lines. The diagram poses what multi-information looks like when crossed with that conceptual mechanism. CRTF-D → MT-INFO (the crossing) and CRTF-D → (R)INT (the reality of intention). (R)INT branches to ALT-D (alternative definitions) and EXT-DYM (extended dynamics). EXT-DYM branches to APP-RDEF (applied redefinitions), which forks into AFN (affinity negation) and AFTF (affinity transfer), and to ALT-C-PG (alternative composite progressionalism).",
   "terms": [
     {
       "termId": "crtf-d",
@@ -46,38 +46,38 @@
       "type": "solid"
     },
     {
-      "from": "mt-info",
-      "to": "alt-d",
+      "from": "ext-dym",
+      "to": "alt-c-pg",
       "type": "solid"
     },
     {
-      "from": "mt-info",
+      "from": "crtf-d",
       "to": "int",
       "type": "solid"
     },
     {
       "from": "int",
-      "to": "afn",
+      "to": "alt-d",
       "type": "solid"
     },
     {
       "from": "int",
-      "to": "app-rdef",
-      "type": "solid"
-    },
-    {
-      "from": "crtf-d",
       "to": "ext-dym",
       "type": "solid"
     },
     {
       "from": "ext-dym",
-      "to": "aftf",
+      "to": "app-rdef",
       "type": "solid"
     },
     {
-      "from": "ext-dym",
-      "to": "alt-c-pg",
+      "from": "app-rdef",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "aftf",
       "type": "solid"
     }
   ]

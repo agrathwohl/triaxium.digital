@@ -6,7 +6,7 @@
   "subject": "alt-d",
   "title": "(R)ALT.D.------TH.CONT.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-44, on the page where Braxton diagnoses that 'the realness of a decreased information scan can tell us not only what has happened to composite dynamics (composite culture dynamics) but also what this means when viewed with respect to individual dynamic options.' (R)ALT-D (the reality of alternative definitions) is crossed with TH-CONT (thrust continuance): the question is what real alternative definitions produce when crossed with thrust-continuance, in a culture where the information scan has been decreased. AFI (affinity insight), ALT-C-PROG (alternative composite progressionalism), and (C)S-ST (the concept of source-shift manipulation) form the upper cluster. (C)INDIV-TD (the concept of individual tendencies) feeds the central. COM-INFO (composite information) and SOC-RT-DY (social reality dynamics) are right-side outputs, with a *dashed* edge marking the conditional reach to social-reality-dynamics. (R)DEF (the reality of definition), DYM-F (dynamic functionalism), AF (affinity), and INFO-DE (information degrees) constitute the lower structural ground. Structural argument: real alternative-definitions crossed with thrust-continuance routes through composite-information into social-reality-dynamics *conditionally* (the dashed edge), registering Braxton's structural claim that even real alternative definitions don't automatically translate to social-reality-dynamics — the conditionality is the diagnosis of decreased information scan.",
+  "description": "Diagram in SD(SY)-44, on the page where Braxton diagnoses that 'the realness of a decreased information scan can tell us not only what has happened to composite dynamics (composite culture dynamics) but also what this means when viewed with respect to individual dynamic options.' (R)ALT-D (the reality of alternative definitions) is crossed with TH-CONT (thrust continuance): the question is what real alternative definitions produce when crossed with thrust-continuance, in a culture where the information scan has been decreased. From TH-CONT the path bends down to INFO-DE (information degrees) and runs on to COM-INFO (composite information). The lines on that last stretch belong to COM-INFO: AFI (affinity insight), which leads to ALT-C-PROG (alternative composite progressionalism) and on to (C)INDIV-TD (the concept of individual tendencies); (R)DEF (the reality of definition), whose *dashed* line to DYM-F (dynamic functionalism) amplifies some aspect of it; AF (affinity); and SOC-RT-DY (social reality dynamics), whose dashed line to (C)S-ST (the concept of source shift—progressionalism—manipulation) amplifies some aspect of it.",
   "terms": [
     { "termId": "alt-d", "isSubject": true, "prefix": "r" },
     { "termId": "th-cont" },
@@ -24,13 +24,14 @@
   "relationships": [
     { "from": "alt-d", "to": "th-cont", "type": "solid" },
     { "from": "afi", "to": "alt-c-pg", "type": "solid" },
-    { "from": "alt-c-pg", "to": "s-st", "type": "solid" },
-    { "from": "indiv-td", "to": "th-cont", "type": "solid" },
-    { "from": "th-cont", "to": "c-info", "type": "solid" },
-    { "from": "c-info", "to": "soc-rt-dy", "type": "dashed" },
-    { "from": "def", "to": "alt-d", "type": "solid" },
-    { "from": "dym-f", "to": "afl", "type": "solid" },
-    { "from": "afl", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "info-de-b", "to": "th-cont", "type": "solid" }
+    { "from": "c-info", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "th-cont", "to": "info-de-b", "type": "solid" },
+    { "from": "info-de-b", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "def", "type": "solid" },
+    { "from": "def", "to": "dym-f", "type": "dashed" },
+    { "from": "c-info", "to": "afi", "type": "solid" },
+    { "from": "alt-c-pg", "to": "indiv-td", "type": "solid" },
+    { "from": "c-info", "to": "afl", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "s-st", "type": "dashed" }
   ]
 }

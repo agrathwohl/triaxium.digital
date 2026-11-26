@@ -6,7 +6,7 @@
   "subject": "alt-f",
   "title": "ALT.F.------APP.RDEF.",
   "type": "crossing",
-  "description": "Second diagram on page 459 (TRF(CW)-31). The crossing diagrams how alternative-form structurally meets applied-redefinitions: ALT-F crossed with APP-RDEF. ALT-F sits at lower-center with the subject-arrow; APP-RDEF at upper-center as partner-axis. STF (source transfer) upper-left, SCI-DY (scientific dynamics) upper-right. CRTF-DEF (creative definition) left, EXT-FT (extended functionalism) right, PRI-INFO (principle information) center-left. (P)POST (physical-universe postulation) center-right. MT-INFO (multi-information) center. MT-DEVF (multiple diversification) lower-left, PROG-CONT (progressional continuance), POL-CONT (political continuance) lower-right, DOC (documentation) right.",
+  "description": "Second diagram on page 459 (TRF(CW)-31). The crossing diagrams how alternative functionalism structurally meets applied-redefinitions: ALT-F crossed with APP-RDEF. ALT-F sits at lower-center with the subject-arrow; APP-RDEF at upper-center as partner-axis. STF (source transfer) upper-left, SCI-DY (scientific dynamics) upper-right. CRTF-DEF (cross-transfer definitions) left, EXT-FT (extended functionalism) right, PRI-INFO (principle information) center-left. (P)POST (point of idea completion, postulation) center-right. MT-INFO (multi-information) center. MT-DEVF (multiple diversification) lower-left, PROG-CONT (progressional continuance), POL-CONT (political continuance) lower-right, DOC (documentation) right.",
   "terms": [
     {
       "termId": "alt-f",
@@ -57,43 +57,8 @@
       "type": "solid"
     },
     {
-      "from": "stf",
-      "to": "app-rdef",
-      "type": "solid"
-    },
-    {
-      "from": "app-rdef",
-      "to": "sci-dy",
-      "type": "solid"
-    },
-    {
-      "from": "crtf-def",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
       "from": "sci-dy",
       "to": "ext-ft",
-      "type": "solid"
-    },
-    {
-      "from": "pri-info",
-      "to": "app-rdef",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
-      "from": "mt-devf",
-      "to": "alt-f",
       "type": "solid"
     },
     {
@@ -107,7 +72,42 @@
       "type": "solid"
     },
     {
+      "from": "alt-f",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "crtf-def",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "sci-dy",
+      "type": "solid"
+    },
+    {
       "from": "ext-ft",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "pol-cont",
       "to": "doc",
       "type": "solid"
     }

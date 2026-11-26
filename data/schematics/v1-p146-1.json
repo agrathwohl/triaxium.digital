@@ -6,7 +6,7 @@
   "subject": "s-proj",
   "title": "S.PROJ.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-8, on the page where Braxton states 'the reality of creativity is related to the vibrationaltory particulars of a given projection — which is to say, creativity corresponds to the cosmic secrets of what a given projection potentially is about.' S-PROJ (source projection) is crossed with MT-INFO (multi-information): the question is how projection from cosmic source ends up as multi-information. S-PROJ branches to MTH (methodology) → DYM-F (dynamic functionalism), and to MT-INFO (the crossing). MT-INFO then branches to PRI-INFO (principle information) and PHY-U-FUND (physical universe fundamental). DYM-F also outputs to PHY-U-FUND. PHY-U-FUND fans into SPT-DY (spiritual dynamics), COS-P (cosmic particulars), and from COS-P → AFL (affinity alignment). Structural argument: source projection is the upstream of two parallel chains — the methodology→dynamic-functionalism chain and the multi-information chain — and they reconverge at the physical universe fundamental, which is itself the hub from which spiritual dynamics, cosmic particulars, and affinity alignment fan out. The diagram makes Braxton's UPB(II) claim concrete: the physical universe fundamental is where source projection becomes available simultaneously to spirituality, cosmos, and culture.",
+  "description": "Diagram in UPB(II)-8, one page after the passage where Braxton states 'the reality of creativity is related to the vibrationaltory particulars of a given projection — which is to say, creativity corresponds to the cosmic secrets of what a given projection potentially is about.' S-PROJ (source projection) is crossed with MT-INFO (multi-information): the question is how projection from cosmic source ends up as multi-information. Besides the main line to MT-INFO, one branch leaves the subject: PRIN-INFO (principle information) → COS-P (cosmic particulars). COS-P carries two lines: one to VT-U-FUND (vibrational universe fundamental) → SPT-DYM (spiritual dynamics) → AFL (affinity alignment), the other to PHY-U-FUND (physical universe fundamental) → DYM-F (dynamic functionalism) → METH.",
   "terms": [
     {
       "termId": "s-proj",
@@ -16,7 +16,7 @@
       "termId": "mt-info"
     },
     {
-      "termId": "pri-info"
+      "termId": "prin-info"
     },
     {
       "termId": "dym-f"
@@ -25,13 +25,13 @@
       "termId": "phy-u-fund"
     },
     {
-      "termId": "mth"
+      "termId": "meth"
     },
     {
       "termId": "spt-dy"
     },
     {
-      "termId": "phy-u-fund"
+      "termId": "vt-u-fund"
     },
     {
       "termId": "cos-p"
@@ -48,42 +48,42 @@
     },
     {
       "from": "s-proj",
-      "to": "mth",
+      "to": "prin-info",
       "type": "solid"
     },
     {
-      "from": "mth",
-      "to": "dym-f",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "pri-info",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "phy-u-fund",
-      "type": "solid"
-    },
-    {
-      "from": "phy-u-fund",
-      "to": "spt-dy",
-      "type": "solid"
-    },
-    {
-      "from": "dym-f",
-      "to": "phy-u-fund",
-      "type": "solid"
-    },
-    {
-      "from": "phy-u-fund",
+      "from": "prin-info",
       "to": "cos-p",
       "type": "solid"
     },
     {
       "from": "cos-p",
+      "to": "vt-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "vt-u-fund",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "spt-dy",
       "to": "afl",
+      "type": "solid"
+    },
+    {
+      "from": "cos-p",
+      "to": "phy-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-fund",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "meth",
       "type": "solid"
     }
   ]

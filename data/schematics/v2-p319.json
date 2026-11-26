@@ -6,7 +6,7 @@
   "subject": "lang-dy",
   "title": "LANG.DY.------RT.ALGN.",
   "type": "hub-spoke",
-  "description": "Diagram in R(AS)CM(I)-3 (Reality Aspect of Creative Music, Level One), on the page where Braxton argues that jazz journalism's two basic positions \u2014 '(1) bebop is no different from what already took place in western art music \u2014 which is to say, classical commentary is valid because this form is understood, and (2) the solidification of this form (bebop) implies a profound separation from the composite continuum of black creative music' \u2014 both positions are wrong, and were united only in their being wrong. (C)LANG-DY (language dynamics) is crossed with RT-ALGN (reality alignment): the question is what language-dynamics produces when crossed with reality-alignment in a culture where the defining/critical community itself routes through linguistic confusion. MT-INFO-DB (multi-informational degree basis) feeds the upper section. PROJ-DY (projectional dynamics) and (P)INTR (the point of activation of interpretation) feed from the left. (R)DIFF (the reality of differentiation, *probably* re-dif redefinitions in the glossary) and AF-DY (affinity dynamics) form lower constituting nodes. T-C-IMP (time continuum implications) is the central convergence with PART (participation) below. RE-ST (restructuralism) and CUL-AF-B (culture affinity basis) are right-side outputs. Structural argument: language-dynamics crossed with reality-alignment requires multi-informational-degree-basis as upstream, and the point-of-activation prefix on interpretation marks Braxton's structural claim that real interpretation must be activated \u2014 passive critical commentary doesn't count. Restructuralism is reached only via the time-continuum convergence.",
+  "description": "Diagram in R(AS)CM(I)-3 (Reality Aspect of Creative Music, Level One), on the page where Braxton argues that jazz journalism's two basic positions \u2014 '(1) bebop is no different from what already took place in western art music \u2014 which is to say, classical commentary is valid because this form is understood, and (2) the solidification of this form (bebop) implies a profound separation from the composite continuum of black creative music' \u2014 both positions are wrong, and were united only in their being wrong. (C)LANG-DY (language dynamics) is crossed with RT-ALGN (reality alignment): the question is what language-dynamics produces when crossed with reality-alignment in a culture where the defining/critical community itself routes through linguistic confusion. MT-INFO-DB (multi-informational degree basis) branches from the main line, and (R)DIFF branches from MT-INFO-DB. From (R)DIFF branch PROJ-DY (projectional dynamics), which carries (P)INTR (the point of idea completion of interpretation), and PART (participation), which carries AF-DY (affinity dynamics). T-C-IMP (time continuum implications) branches from the main line; RE-ST (restructuralism) branches from T-C-IMP, and CUL-AF-B (culture affinity basis) branches from RE-ST.",
   "terms": [
     {
       "termId": "lang-dy",
@@ -27,7 +27,7 @@
       "prefix": "p"
     },
     {
-      "termId": "re-dif",
+      "termId": "diff",
       "prefix": "r"
     },
     {
@@ -48,8 +48,8 @@
   ],
   "relationships": [
     {
-      "from": "mt-if-db",
-      "to": "lang-dy",
+      "from": "lang-dy",
+      "to": "mt-if-db",
       "type": "solid"
     },
     {
@@ -58,33 +58,8 @@
       "type": "solid"
     },
     {
-      "from": "proj-dy",
-      "to": "lang-dy",
-      "type": "solid"
-    },
-    {
-      "from": "intr",
-      "to": "lang-dy",
-      "type": "solid"
-    },
-    {
-      "from": "re-dif",
-      "to": "afl-dy",
-      "type": "solid"
-    },
-    {
-      "from": "afl-dy",
-      "to": "lang-dy",
-      "type": "solid"
-    },
-    {
       "from": "lang-dy",
       "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "part",
       "type": "solid"
     },
     {
@@ -95,6 +70,31 @@
     {
       "from": "re-st",
       "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "mt-if-db",
+      "to": "diff",
+      "type": "solid"
+    },
+    {
+      "from": "diff",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "diff",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "afl-dy",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "info-ds",
   "title": "INFO.DS.-----C.CONT.",
   "type": "crossing",
-  "description": "Second diagram on page 289, sitting between the closing fragment of CMOA(II)-47 and the start of CMOA(II)-48 (the 'adaptation cycle of creative music'). Where the first diagram on this page sets up the inversion the principle-exposure cycle produces, this one diagrams the next sequence: INFO-DS (information dissemination — how a thrust alignment actually spreads) crossed with C-CONT (composite continuance — whether the form persists through that spread). (C)INFO-DS is subject in the upper-left with the subject-arrow; C-CONT is the partner-center beside it. From C-CONT, MT-INFO (multi-information) rises up-right and feeds INFO-INTR (information interpretation) at the upper right margin, with TRS (transition) anchoring the right side. PROJ-DY (projectional dynamics) sits centrally below C-CONT and drops to CRTF-D (cross-transfer definitions), which fans into ALT-F (alternative functionalism) on the lower-left of the partner side and SOC-RT-DY (social-reality dynamics) on the lower-right. On the subject side, GRAD (gradualism) descends from INFO-DS to SOC-RT (social reality) at lower-left and to T-C-IMP (time continuum implications) at bottom-center. The structural argument the prose on the facing page makes (CMOA(II)-48): dissemination produces composite-continuance only when each of the cycle's stages — exposure, imitation, stylism, restructuralism — is allowed to actually run. The diagram shows why: the diagonal that pulls MT-INFO down through the partner-side into T-C-IMP (the X-cross with GRAD rising back up) is exactly the temporal mechanism that converts dissemination into continuance. Without that diagonal — without gradualism meeting multi-information on the partner-axis — projectional-dynamics produces only cross-transfer-definitions outputs (alt-f, soc-rt-dy) that do not feed back into the subject's continuance chain, and the form arrives without continuing.",
+  "description": "Second diagram on page 289, sitting between the closing fragment of CMOA(II)-47 and the start of CMOA(II)-48 (the 'adaptation cycle of creative music'). Where the first diagram on this page sets up the inversion the principle-exposure cycle produces, this one diagrams the next sequence: INFO-DS (information dissemination — how a thrust alignment actually spreads) crossed with C-CONT (composite continuance — whether the form persists through that spread). (C)INFO-DS is subject in the upper-left with the subject-arrow; C-CONT is the partner-center beside it. From C-CONT's dot, PROJ-DY (projectional dynamics) runs down to the right; MT-INFO (multi-information) rises up-right from the PROJ-DY line, and TRS (transition) runs from MT-INFO to anchor the right side, with INFO-INTR (information interpretation) rising from the TRS line at the upper right margin. CRTF-D (cross-transfer definitions) drops from the TRS line and fans into ALT-F (alternative functionalism) on the lower-left of the partner side and SOC-RT-DY (social-reality dynamics) on the lower-right. On the subject side, SOC-RT (social reality) drops from the main line at lower-left, T-C-IMP (time continuum implications) branches from SOC-RT to the bottom-center, and GRAD (gradualism) branches from T-C-IMP.",
   "terms": [
     { "termId": "info-ds", "isSubject": true, "prefix": "c" },
     { "termId": "c-cont" },
@@ -23,17 +23,15 @@
   ],
   "relationships": [
     { "from": "info-ds", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "mt-info", "type": "solid" },
-    { "from": "mt-info", "to": "info-intr", "type": "solid" },
-    { "from": "info-intr", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "info-intr", "type": "solid" },
     { "from": "c-cont", "to": "proj-dy", "type": "solid" },
-    { "from": "proj-dy", "to": "crtf-d", "type": "solid" },
     { "from": "crtf-d", "to": "alt-f", "type": "solid" },
     { "from": "crtf-d", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "info-ds", "to": "grad", "type": "solid" },
-    { "from": "grad", "to": "soc-rt", "type": "solid" },
-    { "from": "grad", "to": "t-c-imp", "type": "solid" },
-    { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
-    { "from": "trs", "to": "soc-rt-dy", "type": "solid" }
+    { "from": "t-c-imp", "to": "grad", "type": "solid" },
+    { "from": "info-ds", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "t-c-imp", "type": "solid" },
+    { "from": "proj-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "crtf-d", "type": "solid" }
   ]
 }

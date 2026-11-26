@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "NYM-6",
   "page": 372,
-  "subject": "pol-dy",
+  "subject": "pol-dym",
   "title": "POL.DY.------PRO.TF.C.",
   "type": "crossing",
-  "description": "Diagram in NYM-6, on the page where Braxton begins his analysis of New York City as commercial necessity and political environment for post-Ayler creativity. (C)POL-DYM (political dynamics) is crossed with PROG-TF-C (progressional transfer cycles). The diagram poses what political dynamics looks like in the New York-specific environment where 'the eastern intellectual music-defining community' constitutes a controlling bloc affecting all creativity. POL-P (political policies) → POL-DYM; SOC-RT-P (social reality particulars) → POL-DYM; PROG-TF-C → POL-DYM (the crossing). PROG-TF-C → LANG-DY (language dynamics) → RT-INT-TR (reality initiative traits) → RE-ST (restructuralism). S-ST (source shift, progressionalism manipulation) → RE-ST as parallel feed. RE-ST → (R)RT-IMP (the reality of reality implications) → MDT-DY (motivation dynamics). Structural argument: political dynamics is fed by three independent upstreams (political policies, social reality particulars, progressional transfer cycles), and the productive chain runs through progressional transfer cycles into language dynamics into reality initiative traits into restructuralism, with source-shift-manipulation as a parallel feed into restructuralism. Restructuralism then produces real reality-implications and motivation dynamics. The diagram thus diagrams Braxton's diagnostic claim about NYC's structural environment: progressional transfer cycles (cross-cultural and cross-temporal flows of music) are the structural mechanism by which language dynamics becomes the carrier of reality-initiative-traits, and restructuralism arrives only after this politically-mediated linguistic processing.",
+  "description": "Diagram in NYM-6, on the page where Braxton begins his analysis of New York City as commercial necessity and political environment for post-Ayler creativity. (C)POL-DYM (political dynamics) is crossed with PROG-TF-C (progressional transfer cycles). The diagram poses what political dynamics looks like in the New York-specific environment. Besides the main line to PROG-TF-C (the crossing), two lines leave the subject. SOC-RT-P (social reality particulars) → POL-P (political policies). (R)TM (the reality of terminology—or terms of a definition) → RE-ST (restructuralism) → MOT-DY → RT-INT-TR (reality initiative traits) → LANG-DY (language dynamics) → S-ST (source shift, progressionalism manipulation).",
   "terms": [
     {
       "termId": "pol-dym",
@@ -35,57 +35,57 @@
       "termId": "rt-int-tr"
     },
     {
-      "termId": "rt-imp",
+      "termId": "tm",
       "prefix": "r"
     },
     {
-      "termId": "mdt-dy"
+      "termId": "mot-dy"
     }
   ],
   "relationships": [
     {
-      "from": "pol-p",
-      "to": "pol-dym",
+      "from": "pol-dym",
+      "to": "soc-rt-p",
       "type": "solid"
     },
     {
-      "from": "soc-rt-p",
-      "to": "pol-dym",
-      "type": "solid"
-    },
-    {
-      "from": "prog-tf-c",
-      "to": "pol-dym",
-      "type": "solid"
-    },
-    {
-      "from": "prog-tf-c",
-      "to": "lang-dy",
-      "type": "solid"
-    },
-    {
-      "from": "lang-dy",
-      "to": "rt-int-tr",
-      "type": "solid"
-    },
-    {
-      "from": "s-st",
-      "to": "re-st",
+      "from": "pol-dym",
+      "to": "prog-tf-c",
       "type": "solid"
     },
     {
       "from": "rt-int-tr",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tm",
       "to": "re-st",
       "type": "solid"
     },
     {
-      "from": "re-st",
-      "to": "rt-imp",
+      "from": "soc-rt-p",
+      "to": "pol-p",
       "type": "solid"
     },
     {
-      "from": "rt-imp",
-      "to": "mdt-dy",
+      "from": "pol-dym",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "mot-dy",
+      "type": "solid"
+    },
+    {
+      "from": "mot-dy",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "s-st",
       "type": "solid"
     }
   ]

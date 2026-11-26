@@ -6,7 +6,7 @@
   "subject": "sty",
   "title": "(R)STY.------PROG.CONT.",
   "type": "crossing",
-  "description": "Second diagram on page 281 (PR.S(RD)II-35), paired with (R)STY x PROJ-DY above. The crossing diagrams the same retrograde-affinity-tendency at the progressional-continuance scale: (R)STY crossed with PROG-CONT. STY sits at left with the subject-arrow; PROG-CONT at center-right as partner-axis. RE-DOC (redocumentation), C-CONT (composite continuance), PER-PHY-U-FUND (perceived physical universe fundamental) upper chain. APP-RDEF (applied redefinitions), AF-DY (affinity dynamics) right. TR (transformation), STF (source transfer), SG (source-generation) left. TR-INFO (trans-information), CULT-AF-B (cultural-affinity base), AF-TD (affinity transformation-dynamics) lower center. PART (participation) lower-right.",
+  "description": "Second diagram on page 281 (PR.S(RD)II-35), paired with (R)STY x PROJ-DY above. The crossing diagrams the same retrograde-affinity-tendency at the progressional-continuance scale: (R)STY crossed with PROG-CONT. STY sits at left with the subject-arrow; PROG-CONT at center-right as partner-axis. C-CONT (composite continuance) branches up to the right from the main line and carries RE-DOC (redocumentation) and PER-PHY-U-FUND (perceived physical universe fundamental). TR (transformation) branches down to the left and carries SG (source initiation), which carries STF (source transfer). TR-INFO (trans-information) branches down to the right and carries APP-RDEF (applied redefinitions), which carries CULT-AF-B (culture affinity basis), which carries AF-TD (affinity tendencies) and AF-DY (affinity dynamics), which carries PART (participation).",
   "terms": [
     {
       "termId": "sty",
@@ -60,28 +60,8 @@
       "type": "solid"
     },
     {
-      "from": "sty",
-      "to": "re-doc",
-      "type": "solid"
-    },
-    {
-      "from": "re-doc",
-      "to": "c-cont",
-      "type": "solid"
-    },
-    {
       "from": "c-cont",
       "to": "per-phy-u-fund",
-      "type": "solid"
-    },
-    {
-      "from": "prog-cont",
-      "to": "app-rdef",
-      "type": "solid"
-    },
-    {
-      "from": "app-rdef",
-      "to": "af-dy",
       "type": "solid"
     },
     {
@@ -90,32 +70,52 @@
       "type": "solid"
     },
     {
-      "from": "tr",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "sg",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "tr-info",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "cult-af-b",
-      "type": "solid"
-    },
-    {
       "from": "cult-af-b",
       "to": "af-td",
       "type": "solid"
     },
     {
-      "from": "prog-cont",
+      "from": "sty",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
+      "to": "re-doc",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "sty",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "app-rdef",
+      "type": "solid"
+    },
+    {
+      "from": "app-rdef",
+      "to": "cult-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-b",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
       "to": "part",
       "type": "solid"
     }

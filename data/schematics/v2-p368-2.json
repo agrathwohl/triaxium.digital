@@ -6,7 +6,7 @@
   "subject": "per-vt-u-fund",
   "title": "PER.VT.U.FUND.------PROG.CONT.",
   "type": "crossing",
-  "description": "Second diagram on page 368 (R(AS)CM(II)-12). The crossing diagrams how the central perceived-vibrational-universe-fundamental structurally meets progressional-continuance through the composite-information bridging hub: (C)PER-VT-U-FUND (the concept of perceived vibrational universe fundamental) crossed with PROG-CONT (progressional continuance). PER-VT-U-FUND sits on the left with the subject-arrow; AFI (affinity insight) hangs at upper-left as the subject-side upper output. C-INFO (composite information) sits centrally as the bridging hub; PROJ-DYM (projection dynamism) rises above the hub, SOC-RT-DY (social-reality dynamics) drops to the lower-left as the bridging-side downward output, with PHY-U-P (physical-universe particulars) at bottom-center and POL-DYM (political dynamics) at bottom-right, and MT-INFO (multi-information) at right-center. PROG-CONT sits at upper-right as partner-axis with TRS (transition) on the right margin as partner-side downward output. Structural argument: when perceived-vibrational-universe-fundamental is crossed with progressional-continuance, the central C-INFO hub is what carries the form's actual vibrational ground into the partner-axis. C-INFO → PROJ-DYM at the top is the upward route — composite-information routes into projection-dynamism, the partner-side's working projection. The downward chain C-INFO → SOC-RT-DY / PHY-U-P / POL-DYM is the partner-side's downward outputs: social-reality-dynamics, physical-universe particulars, and political-dynamics all routed through the central hub. C-INFO → MT-INFO at the right is the partner-axis's multi-information output. The diagram's structural argument is that PROG-CONT → TRS on the partner-axis right side reaches the form only through the C-INFO hub — without the hub holding all six edges, progressional-continuance produces transition on the partner-side alone, without the subject's vibrational-fundament carrying the projection through projection-dynamism's working axis.",
+  "description": "Second diagram on page 368 (R(AS)CM(II)-12). The crossing diagrams how the concept of perceived-vibrational-universe-fundamental structurally meets progressional-continuance: (C)PER-VT-U-FUND (the concept of perceived vibrational universe fundamental) crossed with PROG-CONT (progressional continuance). PER-VT-U-FUND sits on the left with the subject-arrow; PROJ-DYM (projectional dynamics) rises from the main line, and AFI (affinity insight) branches from PROJ-DYM at upper-left. TRS (transition) branches from the main line; PHY-U-P (physical-universe particulars) hangs from TRS and carries two lines: one to C-INFO (composite information), from which SOC-RT-DY (social-reality dynamics) drops, and one to MT-INFO (multi-information), from which POL-DYM (political dynamics) drops. PROG-CONT sits at upper-right as partner-axis.",
   "terms": [
     { "termId": "per-vt-u-fund", "isSubject": true, "prefix": "c" },
     { "termId": "prog-cont" },
@@ -21,13 +21,13 @@
   ],
   "relationships": [
     { "from": "per-vt-u-fund", "to": "prog-cont", "type": "solid" },
-    { "from": "per-vt-u-fund", "to": "afi", "type": "solid" },
-    { "from": "per-vt-u-fund", "to": "c-info", "type": "solid" },
-    { "from": "c-info", "to": "proj-dym", "type": "solid" },
     { "from": "c-info", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "c-info", "to": "phy-u-p", "type": "solid" },
-    { "from": "phy-u-p", "to": "pol-dym", "type": "solid" },
-    { "from": "c-info", "to": "mt-info", "type": "solid" },
-    { "from": "prog-cont", "to": "trs", "type": "solid" }
+    { "from": "phy-u-p", "to": "c-info", "type": "solid" },
+    { "from": "proj-dym", "to": "afi", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "proj-dym", "type": "solid" },
+    { "from": "mt-info", "to": "pol-dym", "type": "solid" },
+    { "from": "phy-u-p", "to": "mt-info", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "phy-u-p", "type": "solid" }
   ]
 }

@@ -6,7 +6,7 @@
   "subject": "mth",
   "title": "MTH.------EXT.F.",
   "type": "crossing",
-  "description": "Diagram in MID-W-29, on the page where Braxton catalogs the seven specific AACM contributors (Muhal Richard Abrams, Leo Smith, Art Ensemble of Chicago, Leroy Jenkins, George Lewis, Air, Roscoe Mitchell). (C)MTH (the concept of methodology) is crossed with EXT-FT (extended functionalism). The diagram poses how methodology — as a concept in development — is structurally linked with the extended functionalism the AACM has been building. INDIV-TD (individual tendencies), AFL-DY (affinity dynamics), MTH (the subject), and VT-S (vibrational science) all → RE-ST (restructuralism) — meaning restructuralism is over-determined by *four* parallel upstreams. RE-ST → ACC-DY (accelerated dynamics). EXT-FT → PROG-CONT (progressional continuance) → TRS (transition). LANG-DY (language dynamics) → AF-POST (affinity postulation) → MTA-IMP (meta-implications). Structural argument: methodology and extended functionalism, when crossed, produce two parallel productive chains. The first runs through restructuralism (which is over-fed by individual tendencies, affinity dynamics, methodology, and vibrational science) into accelerated dynamics. The second runs through progressional continuance into transition. The third sub-chain (language dynamics → affinity postulation → meta-implications) is structurally separate. The diagram thus diagrams what makes the AACM's seven cited musicians collectively significant: their restructuralist work is over-determined by four kinds of upstream pressure (individual tendencies, affinity dynamics, methodology, vibrational science) — meaning any single kind of contribution alone would not constitute restructuralism. The collective achievement is the convergence of all four feeds.",
+  "description": "Diagram in MID-W-29, just before the West Coast subsection. (C)MTH (the concept of methodology) is crossed with EXT-FT (extended functionalism). The diagram poses how methodology — as a concept in development — is structurally linked with extended functionalism. AFL-DY (affinity dynamics) branches from the main line and opens into INDIV-TD (individual tendencies). PROG-CONT (progressional continuance) branches from the main line and opens into TRS (transition). ACC-DY (accelerated dynamics) branches from the main line and opens into AF-POST (affinity postulation) → VT-S (vibrational science), which opens into RE-ST (restructuralism) and LANG-DY (language dynamics) → MTA-IMP (meta-implications).",
   "terms": [
     {
       "termId": "mth",
@@ -49,33 +49,43 @@
   ],
   "relationships": [
     {
-      "from": "indiv-td",
-      "to": "re-st",
-      "type": "solid"
-    },
-    {
-      "from": "afl-dy",
-      "to": "re-st",
-      "type": "solid"
-    },
-    {
-      "from": "mth",
-      "to": "re-st",
-      "type": "solid"
-    },
-    {
-      "from": "ext-ft",
-      "to": "prog-cont",
-      "type": "solid"
-    },
-    {
       "from": "prog-cont",
       "to": "trs",
       "type": "solid"
     },
     {
-      "from": "re-st",
+      "from": "mth",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
       "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "acc-dy",
+      "to": "af-post",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "vt-s",
       "type": "solid"
     },
     {
@@ -84,13 +94,13 @@
       "type": "solid"
     },
     {
-      "from": "af-post",
-      "to": "mta-imp",
+      "from": "vt-s",
+      "to": "lang-dy",
       "type": "solid"
     },
     {
       "from": "lang-dy",
-      "to": "af-post",
+      "to": "mta-imp",
       "type": "solid"
     }
   ]

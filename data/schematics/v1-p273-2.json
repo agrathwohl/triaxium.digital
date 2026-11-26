@@ -6,7 +6,7 @@
   "subject": "proj-dy",
   "title": "(R)PROJ.DY.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in CMBA-29, the second on book p273, closing the section. (R)PROJ-DY — the reality of projectional dynamics — is crossed with MT-INFO (multi-information). The diagram uses three prefixed nodes — (R)INFO-INTR (the reality of information interpretation), (C)POST (the concept of postulation), (R)PART (the reality of participation) — staging the structural question of whether real projectional dynamics actually delivers transformation when multi-information is its crossing partner. MT-INFO → PROJ-DY (the subject). (C)POST is fed by SOC-RT (social reality), and POST outputs to PROJ-DY, T-C-IMP (time continuum implications), and DYM-F (dynamic functionalism). T-C-IMP → MTA-RT-SIGN (meta-reality significance). (R)INFO-INTR → (R)PART, and (R)PART → MTA-RT-SIGN. Structural argument: real projectional dynamics is fed by both multi-information *and* the concept of postulation, with postulation itself fed by social reality and reaching dynamic functionalism, time-continuum implications, and projectional dynamics in parallel. The reality of information interpretation produces the reality of participation, which converges with time-continuum implications at meta-reality significance — the only convergence point in the diagram. The diagram thus closes the section by diagramming how meta-reality significance — the cosmic-scale meaning Braxton has been arguing for throughout — is achieved structurally: through the parallel routes of postulation→time-continuum and information-interpretation→participation, meeting only at meta-reality significance and nowhere else.",
+  "description": "Diagram in CMBA-29, the second on book p273. (R)PROJ-DY — the reality of projectional dynamics — is crossed with MT-INFO (multi-information). The diagram uses three prefixed nodes — (R)INFO-INTR (the reality of information interpretation), (C)POST (the concept of postulation), (R)PART (the reality of participation) — staging the structural question of whether real projectional dynamics actually delivers transformation when multi-information is its crossing partner. PROJ-DY → MT-INFO (the crossing). PROJ-DY also branches to SOC-RT (social reality), which leads to DYM-F (dynamic functionalism), and to T-C-IMP (time continuum implications), which branches to (C)POST and (R)INFO-INTR. (R)INFO-INTR leads to MT-RT-SIGN, which branches to (R)PART.",
   "terms": [
     {
       "termId": "proj-dy",
@@ -32,7 +32,7 @@
       "termId": "t-c-imp"
     },
     {
-      "termId": "mta-rt-sign"
+      "termId": "mt-rt-sign"
     },
     {
       "termId": "soc-rt"
@@ -43,43 +43,43 @@
   ],
   "relationships": [
     {
-      "from": "mt-info",
-      "to": "proj-dy",
+      "from": "proj-dy",
+      "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "info-intr",
+      "from": "t-c-imp",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "mt-rt-sign",
       "to": "part",
       "type": "solid"
     },
     {
-      "from": "post",
-      "to": "proj-dy",
+      "from": "proj-dy",
+      "to": "soc-rt",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "soc-rt",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
       "to": "t-c-imp",
       "type": "solid"
     },
     {
       "from": "t-c-imp",
-      "to": "mta-rt-sign",
+      "to": "info-intr",
       "type": "solid"
     },
     {
-      "from": "part",
-      "to": "mta-rt-sign",
-      "type": "solid"
-    },
-    {
-      "from": "soc-rt",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "post",
-      "to": "dym-f",
+      "from": "info-intr",
+      "to": "mt-rt-sign",
       "type": "solid"
     }
   ]

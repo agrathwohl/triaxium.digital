@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.------PRI.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-26, the first of two on book p310. (C)STF (source transfer) is crossed with PRI-INFO (principle information). The diagram poses what source transfer requires when crossed with principle information — the question the WI section has been building toward: under what conditions can source transfer carry principle information without distortion? STF → PRI-INFO (the crossing) → T-C-IMP (time continuum implications) → POL-DYM (political dynamics) → TM (terminology of a definition). STF → AFL-DY (affinity dynamics); AFL-DY branches to MT-INFO (multi-information) → AF-CON (affinity convergence) and MT-INFO → LK-IMP (linkage implications); AFL-DY → CULT-SOLD (culture solidification); AFL-DY → IST-F (isolated focus) → RE-ST (restructuralism). Structural argument: source transfer has two parallel productive lines — principle-information → time-continuum → political-dynamics → terminology (a chain that ends in *naming*), and affinity-dynamics → multi-information/culture-solidification/isolated-focus (chains that produce affinity convergence, linkage implications, and restructuralism). Critically, real source-transfer of principle information leads to terminology — which Braxton has named as the western device for capturing alternative work. The second arm, through affinity dynamics, produces restructuralism via isolated focus — the route that *preserves* the source. The diagram thus diagrams the choice point: source transfer can either route into political-terminology or into isolated-focus-restructuralism, but not both. The white improvisor's structural problem is that the institutional pull is toward the first route.",
+  "description": "Diagram in WI-26, the first of two on book p310. (C)STF (source transfer) is crossed with PRI-INFO (principle information). The diagram poses what source transfer requires when crossed with principle information. STF → PRI-INFO (the crossing). STF also branches to T-C-IMP (time continuum implications) → AFL-DY (affinity dynamics) → LK-IMP (linkage implications); LK-IMP branches to MT-INFO (multi-information) and to AF-CON (affinity convergence) → POL-DYM (political dynamics) → TM (terminology—or terms of a definition). A third branch runs STF → CULT-SOLD (culture solidification) → RE-ST (restructuralism) → IST-F (isolated focus).",
   "terms": [
     { "termId": "stf", "isSubject": true, "prefix": "c" },
     { "termId": "pri-info" },
@@ -23,15 +23,15 @@
   ],
   "relationships": [
     { "from": "stf", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "pol-dym", "type": "solid" },
     { "from": "pol-dym", "to": "tm", "type": "solid" },
-    { "from": "mt-info", "to": "af-con", "type": "solid" },
-    { "from": "stf", "to": "afl-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "mt-info", "type": "solid" },
-    { "from": "mt-info", "to": "lk-imp", "type": "solid" },
-    { "from": "afl-dy", "to": "cult-sold", "type": "solid" },
-    { "from": "afl-dy", "to": "ist-f", "type": "solid" },
-    { "from": "ist-f", "to": "re-st", "type": "solid" }
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "re-st", "to": "ist-f", "type": "solid" },
+    { "from": "stf", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "re-st", "type": "solid" },
+    { "from": "stf", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "afl-dy", "type": "solid" },
+    { "from": "afl-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "af-con", "type": "solid" },
+    { "from": "af-con", "to": "pol-dym", "type": "solid" }
   ]
 }

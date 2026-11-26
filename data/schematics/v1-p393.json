@@ -6,7 +6,7 @@
   "subject": "lg-dy",
   "title": "LG.DY.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in NYM-27. (C)LG-DY (logical dynamics) is crossed with MT-INFO (multi-information). The diagram poses what logical dynamics looks like when crossed with multi-information — a pairing that interrogates how western 'logic' processes a music whose primary information is non-logical. MT-INFO → LG-DY (the crossing); AFL (affinity alignment) → LG-DY; PR-INT (primary intention) → LG-DY. A parallel chain: C-CONT (composite continuance) → PROJ-DY (projectional dynamics), which branches to EXT-DYM (extended dynamics) and PRI-AF-TO (primary affinity tendencies) → P-FC (particular focus) → AFTD (affinity tendencies). PR-INT also → PART (participation) → PHY-U-P (physical universe particular). Structural argument: logical dynamics, when crossed with multi-information, is over-determined upstream — fed by multi-information itself, by affinity alignment, *and* by primary intention. But notice: there is no edge from logical dynamics *outward* in the diagram. Logical dynamics is a terminal node — it absorbs three upstreams and produces no outputs. The parallel composite-continuance → projectional-dynamics chain runs entirely separately, fanning into extended dynamics and primary affinity tendencies → particular focus → affinity tendencies. Primary intention also forks into participation → physical universe particular. The diagram thus stages Braxton's diagnostic claim: when multi-information is filtered through western logical dynamics, the *productive* outputs (extended dynamics, affinity tendencies, physical-universe-grounded participation) come not from logical dynamics but from the parallel composite-continuance and primary-intention chains. Logic absorbs the music; it does not transmit it.",
+  "description": "Diagram in NYM-27. (C)LG-DY (logical dynamics) is crossed with MT-INFO (multi-information). The diagram poses what logical dynamics looks like when crossed with multi-information. Besides the main line to MT-INFO (the crossing), two lines leave the subject. AFL (affinity alignment) → PHY-U-P (physical universe particular) → PART (participation) → PR-INT (primary intention). PRI-AF-TO (primary affinity tendencies) branches to EXT-CONT(2) → EXT-DYM (extended dynamics), and to PROJ-DY (projectional dynamics) → P-FC (particular focus) → AFTD (affinity tendencies).",
   "terms": [
     {
       "termId": "lg-dy",
@@ -21,9 +21,6 @@
     },
     {
       "termId": "pr-int"
-    },
-    {
-      "termId": "c-cont"
     },
     {
       "termId": "proj-dy"
@@ -45,42 +42,25 @@
     },
     {
       "termId": "aftd"
+    },
+    {
+      "termId": "ext-cont-2"
     }
   ],
   "relationships": [
     {
-      "from": "mt-info",
-      "to": "lg-dy",
+      "from": "lg-dy",
+      "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "afl",
-      "to": "lg-dy",
-      "type": "solid"
-    },
-    {
-      "from": "pr-int",
-      "to": "lg-dy",
-      "type": "solid"
-    },
-    {
-      "from": "c-cont",
-      "to": "proj-dy",
-      "type": "solid"
-    },
-    {
-      "from": "proj-dy",
-      "to": "ext-dym",
-      "type": "solid"
-    },
-    {
-      "from": "proj-dy",
-      "to": "pri-af-to",
+      "from": "lg-dy",
+      "to": "afl",
       "type": "solid"
     },
     {
       "from": "pri-af-to",
-      "to": "p-fc",
+      "to": "proj-dy",
       "type": "solid"
     },
     {
@@ -89,13 +69,38 @@
       "type": "solid"
     },
     {
+      "from": "phy-u-p",
+      "to": "part",
+      "type": "solid"
+    },
+    {
       "from": "part",
+      "to": "pr-int",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
       "to": "phy-u-p",
       "type": "solid"
     },
     {
-      "from": "pr-int",
-      "to": "part",
+      "from": "lg-dy",
+      "to": "pri-af-to",
+      "type": "solid"
+    },
+    {
+      "from": "pri-af-to",
+      "to": "ext-cont-2",
+      "type": "solid"
+    },
+    {
+      "from": "ext-cont-2",
+      "to": "ext-dym",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "p-fc",
       "type": "solid"
     }
   ]

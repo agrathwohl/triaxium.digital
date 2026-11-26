@@ -6,7 +6,7 @@
   "subject": "mth",
   "title": "(R)MTH.------AF.DY.",
   "type": "crossing",
-  "description": "Diagram in WAM-27, the page where Braxton argues that 'investigation in the annals of the western position is directly related to the nature of affinity alignment' and that western culture's projection of investigation 'is not designed for unification but rather for what is interesting.' (R)MTH — the reality of methodology — is crossed with AFL-DY (affinity dynamics): the diagram poses that what counts as 'method' is conditional on the affinity-dynamics regime that authorizes it. The composition routes through CULT-INFO-DY (culture information dynamics) as a structural hub: TR (transformation) → ROTP (responsibility of the position) → MTH → CULT-INFO-DY, and MT-IMP (multi-implications) → CULT-INFO-DY. From CULT-INFO-DY four chains fan out: → AFL-DY → DYM-F (dynamic functionalism) → SOC-RT-P (social reality particulars); → TRS (transition) → PART (participation) → POL-DYM (political dynamics); → C-FO-ACT (composite focused activism) → C-ACT (composite activism). The structural claim: the reality of methodology, when crossed with affinity-dynamics, becomes inseparable from culture-information dynamics — and from there flows into the political domain via participation/transition rather than through direct method-political linkage. Western methodology, on this reading, is *politically constituted* through the affinity-dynamics chain, not innocently methodological.",
+  "description": "Diagram in WAM-27, the page where Braxton argues that 'investigation in the annals of the western position is directly related to the nature of affinity alignment' and, in the sentence that runs onto the next page, that western culture's projection of investigation 'is not designed for unification but rather for what is interesting.' (R)MTH — the reality of methodology — is crossed with AFL-DY (affinity dynamics): the diagram poses that what counts as 'method' is conditional on the affinity-dynamics regime that authorizes it. Besides the main line to AFL-DY, three chains fan out from MTH: → MT-IMP (multi-implications) → TR (transformation) → ROTP (responsibility of the position); → DYM-F (dynamic functionalism) → TRS (transition) → SOC-RT-P (social reality particulars) → PART (participation); → C-FO-ACT (composite focused activism) → CULT-INFO-DY (culture information dynamics) → POL-DYM (political dynamics) → C-ACT (composite activism). The structural claim: the reality of methodology, when crossed with affinity-dynamics, flows into the political domain through composite focused activism and culture-information dynamics rather than through direct method-political linkage. Western methodology, on this reading, is *politically constituted* through that chain, not innocently methodological.",
   "terms": [
     {
       "termId": "mth",
@@ -57,58 +57,58 @@
       "type": "solid"
     },
     {
-      "from": "rotp",
-      "to": "mth",
-      "type": "solid"
-    },
-    {
       "from": "mth",
-      "to": "cult-info-dy",
-      "type": "solid"
-    },
-    {
-      "from": "mt-imp",
-      "to": "cult-info-dy",
-      "type": "solid"
-    },
-    {
-      "from": "cult-info-dy",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "afl-dy",
+      "from": "mth",
+      "to": "mt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "mt-imp",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
       "to": "dym-f",
       "type": "solid"
     },
     {
       "from": "dym-f",
-      "to": "soc-rt-p",
-      "type": "solid"
-    },
-    {
-      "from": "cult-info-dy",
       "to": "trs",
       "type": "solid"
     },
     {
-      "from": "cult-info-dy",
+      "from": "trs",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt-p",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
       "to": "c-fo-act",
       "type": "solid"
     },
     {
       "from": "c-fo-act",
-      "to": "c-act",
+      "to": "cult-info-dy",
       "type": "solid"
     },
     {
-      "from": "trs",
-      "to": "part",
-      "type": "solid"
-    },
-    {
-      "from": "part",
+      "from": "cult-info-dy",
       "to": "pol-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "c-act",
       "type": "solid"
     }
   ]

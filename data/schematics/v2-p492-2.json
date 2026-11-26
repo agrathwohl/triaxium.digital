@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------CRTF.PROG.",
   "type": "crossing",
-  "description": "Second diagram on page 492 (MP(II)-10). The crossing diagrams how multi-information structurally meets cross-transfer-progressionalism: MT-INFO (multi-information) crossed with CRTF-PROG (cross-transfer progressionalism). MT-INFO sits on the right with the subject-arrow; T-C-IMP (time continuum implications) rises above and AF-TF (affinity transfer) at the upper-right with SI (source initiation) on the right margin as the subject-side upper outputs. PROJ-DY (projectional dynamics) and ATTN (attraction) hang on the right as the subject's downward chain. SOC-RT-DY (social-reality dynamics) sits at the left margin with RE-DOC (redocumentation) at the lower-left as partner-side leftward outputs. APP-RDEF (applied redefinitions) sits centrally as the bridging hub, with PROG-CONT (progressional continuance) and (R)INTR (the reality of interpretation) below at the bottom-center as the bridging-axis downward chain. Structural argument: when multi-information is crossed with cross-transfer-progressionalism, the upper diagonal T-C-IMP → AF-TF → SI is the *source-initiation route* — time-continuum-implications routes through affinity-transfer into source-initiation, the subject's own forward chain. The downward right chain PROJ-DY → ATTN is what multi-information produces alone — projectional-dynamics into attraction. The partner-side SOC-RT-DY → RE-DOC chain on the left is what cross-transfer-progressionalism's working ground reaches when isolated from the subject — social-reality-dynamics into redocumentation. The central APP-RDEF → PROG-CONT → INTR bridging chain is what carries multi-information into actual cross-transfer-progressionalism: applied-redefinitions hold the central hub open so progressional-continuance routes through interpretation (R-prefixed = the reality of interpretation). The structural argument is that multi-information reaches cross-transfer-progressionalism only when APP-RDEF holds all three central edges; otherwise the subject's right-side chain terminates at ATTN and the partner-side terminates at RE-DOC, with no edge crossing.",
+  "description": "Second diagram on page 492 (MP(II)-10). The crossing diagrams how multi-information structurally meets cross-transfer-progressionalism: MT-INFO (multi-information) crossed with CRTF-PROG (cross-transfer progressionalism). MT-INFO sits on the right with the subject-arrow; T-C-IMP (time continuum implications) rises from the main line, AF-TF (affinity transfer) branches from it to the upper-right, and SI (source initiation) branches from the AF-TF line on the right margin. (R)INTR (the reality of interpretation) runs down from the main line; PROJ-DY (projectional dynamics) branches from the INTR line to the right, and ATTN (attraction) from the PROJ-DY line. PROG-CONT (progressional continuance) runs down from the main line toward its left end; RE-DOC (redocumentation) and APP-RDEF (applied redefinitions) branch from the PROG-CONT line, and SOC-RT-DY (social reality dynamics) branches from the RE-DOC line at the left margin. Structural argument: when multi-information is crossed with cross-transfer-progressionalism, the upper diagonal T-C-IMP → AF-TF → SI is the *source-initiation route* — time-continuum-implications routes through affinity-transfer into source-initiation, the subject's own forward chain.",
   "terms": [
     { "termId": "mt-info", "isSubject": true },
     { "termId": "crtf-prog" },
@@ -26,11 +26,12 @@
     { "from": "mt-info", "to": "t-c-imp", "type": "solid" },
     { "from": "t-c-imp", "to": "af-tf", "type": "solid" },
     { "from": "af-tf", "to": "si", "type": "solid" },
-    { "from": "mt-info", "to": "proj-dy", "type": "solid" },
-    { "from": "mt-info", "to": "attn", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "app-rdef", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "re-doc", "type": "solid" },
-    { "from": "re-doc", "to": "prog-cont", "type": "solid" },
-    { "from": "app-rdef", "to": "intr", "type": "solid" }
+    { "from": "mt-info", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "attn", "type": "solid" },
+    { "from": "mt-info", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "re-doc", "type": "solid" },
+    { "from": "re-doc", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "app-rdef", "type": "solid" }
   ]
 }

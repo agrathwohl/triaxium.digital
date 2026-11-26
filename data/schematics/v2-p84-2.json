@@ -1,12 +1,12 @@
 {
   "id": "v2-p84-2",
   "volume": 2,
-  "section": "AF(D)-12",
+  "section": "(AF)D-12",
   "page": 84,
   "subject": "c-info",
   "title": "C.INFO.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-12 (Affinity Dynamics, Level One), second of two on book p84, paired with v2-p84-1. Continues the transfer-cycles argument: 'it is important to view the many culture groups which have been on the planet as a means to understand the route of a given information thrust.' (C)C-INFO (the concept of composite information) is crossed with PROG-CONT (progressional continuance): the question is what composite-information produces when crossed with progressional-continuance — given that 'every cultural group has, on one level or another, utilized some (or every) aspect of principle information.' (R)TH-CONT (the reality of thrust continuance) sits between subject and partner. SOC-RT (social reality) anchors the upper-right output. PROG-CONT itself is the central crossing axis. (C)MT-INFO (the concept of multi-information) hangs on the right margin. EXT-F (extended functionalism) feeds in from the lower-left. T-C-IMP (time continuum implications) anchors the lower-left. CULT-INFO-DY (culture-information dynamics) sits below the crossing line. AFD (affinity-determinative) and (R)INT (the reality of intention) form the lower-center. BIA (bi-aitional) hangs on the right output. (R)PART (the reality of participation) anchors the lower-right margin. Structural argument: composite-information crossed with progressional-continuance is mediated through the reality-of-thrust-continuance as central hub. The multiple (c) and (r) prefixes distributed across the nodes registers Braxton's careful distinction between *concept-of* and *reality-of* — composite-information is taken conceptually (we are still analyzing the design), but thrust-continuance and participation are taken in their realized forms (these must actually obtain for transfer-cycles to read truly). The diagram exposes that culture-information-dynamics is fed *upward* from affinity-determinative plus reality-intention, but flows *outward* to bi-aitional — a structural diagnostic of how composite-information becomes filtered into bi-aitional through the very same hub that should produce progressional-continuance.",
+  "description": "Diagram in AF(D)-12 (Affinity Dynamics, Level One), second of two on book p84, paired with v2-p84-1. Continues the transfer-cycles argument: 'It then is important to view the many culture groups which have been on the planet as a means to understand the route of a given information thrust.' (C)C-INFO (the concept of composite information) is crossed with PROG-CONT (progressional continuance): the question is what composite-information produces when crossed with progressional-continuance — given that 'every cultural group has, on one level or another, utilized some (or every) aspect of principle information.' (R)TH-CONT (the reality of thrust continuance) sits between subject and partner. T-C-IMP (time continuum implications) drops from the stretch between the subject and (R)TH-CONT and carries (R)INT (the reality of intention). From the stretch toward the partner, SOC-RT (social reality) rises and CULT-INFO-DY (culture-information dynamics) drops; CULT-INFO-DY carries EXT-F (extended functionalism) and (C)MT-INFO (the concept of multi-information), which leads to BIA (bi-aitional). From BIA a bent line runs through AFD, at the bend, to (R)PART (the reality of participation). Structural argument: composite-information crossed with progressional-continuance is mediated through the reality-of-thrust-continuance. The multiple (c) and (r) prefixes distributed across the nodes registers Braxton's careful distinction between *concept-of* and *reality-of* — composite-information is taken conceptually (we are still analyzing the design), but thrust-continuance and participation are taken in their realized forms (these must actually obtain for transfer-cycles to read truly).",
   "terms": [
     { "termId": "c-info", "isSubject": true, "prefix": "c" },
     { "termId": "prog-cont" },
@@ -17,22 +17,21 @@
     { "termId": "t-c-imp" },
     { "termId": "cult-info-dy" },
     { "termId": "afd" },
-    { "termId": "intr", "prefix": "r" },
+    { "termId": "int", "prefix": "r" },
     { "termId": "bia" },
     { "termId": "part", "prefix": "r" }
   ],
   "relationships": [
     { "from": "c-info", "to": "th-cont", "type": "solid" },
-    { "from": "th-cont", "to": "soc-rt", "type": "solid" },
     { "from": "th-cont", "to": "prog-cont", "type": "solid" },
-    { "from": "c-info", "to": "prog-cont", "type": "solid" },
-    { "from": "prog-cont", "to": "mt-info", "type": "solid" },
-    { "from": "ext-f", "to": "c-info", "type": "solid" },
-    { "from": "t-c-imp", "to": "ext-f", "type": "solid" },
     { "from": "prog-cont", "to": "cult-info-dy", "type": "solid" },
-    { "from": "afd", "to": "cult-info-dy", "type": "solid" },
-    { "from": "intr", "to": "cult-info-dy", "type": "solid" },
-    { "from": "cult-info-dy", "to": "bia", "type": "solid" },
-    { "from": "bia", "to": "part", "type": "solid" }
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "int", "type": "solid" },
+    { "from": "prog-cont", "to": "soc-rt", "type": "solid" },
+    { "from": "cult-info-dy", "to": "ext-f", "type": "solid" },
+    { "from": "cult-info-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "afd", "type": "solid" },
+    { "from": "afd", "to": "part", "type": "solid" }
   ]
 }

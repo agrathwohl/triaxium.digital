@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.------ACT.",
   "type": "hub-spoke",
-  "description": "First of two diagrams in PR.S(RD)II-47. The prose immediately above identifies the structural target: 'If I am correct, we will soon be moving into a period of confusion as to the very nature of what creative music is \u2014 not to mention the potential of creativity as a positive functional factor for transformation.' The crossing diagrams how structural-form structurally meets activism at the confusion-of-creative-music scale: STF (source transfer) crossed with ACT (activism). STF sits at upper-right with the subject-arrow; T-C-IMP (time continuum implications) and POL-DY (political dynamics) anchor the right margin as the subject-side downward chain. MT-INTR (multiple interpretation) and DEF (definition) sit upper-center with PRI-INFO (principle information) at upper-left as the bridging-axis upper chain. CR-INFO-DY (circular information dynamics) and ALT-C-PROG (alternative-creative progression) sit centrally as the bridging hubs. BIA (bi-aitional) and ACT at center-left as the partner-axis position with PROG-CONT (progressional continuance) at center-right. PROJ-DY (projectional dynamics) hangs at lower-center with AF-DY (affinity dynamics), POST (postulation), AF-CON (affinity convergence), and ATTN (attraction) as the partner-side downward chain. Structural argument: when structural-form is crossed with activism, the upper diagonal MT-INTR \u2192 DEF \u2192 PRI-INFO \u2192 BIA \u2192 ACT is the *confusion-route* \u2014 multiple-interpretation routes through definition into principle-information, then through bi-aitional into activism on the partner-axis. The confusion the prose names is structurally that BIA intercepts principle-information's translation into activism \u2014 without BIA, the chain would close at activism directly, but in the confusion-cycle BIA intercepts activism. CR-INFO-DY \u2192 ALT-C-PROG \u2192 PROG-CONT is the bridging route holding circular-information-dynamics into progressional-continuance. The partner-axis downward chain PROJ-DY \u2192 AF-DY \u2192 POST \u2192 AF-CON / ATTN is what activism produces alone \u2014 projectional-dynamics routes through affinity-dynamics into postulation and finally into affinity-convergence and attraction. STF \u2192 T-C-IMP / POL-DY on the right is the subject-side output. The structural argument: the potential of creativity as positive transformation requires holding the PRI-INFO \u2192 CR-INFO-DY \u2192 ALT-C-PROG bridging chain so that structural-form reaches activism *without* BIA intercepting; otherwise the form's structural-formal working terminates in the partner-side's attention-as-postulation alone.",
+  "description": "First of two diagrams in PR.S(RD)II-47. The prose immediately above identifies the structural target: 'If I am correct, we will soon be moving into a period of confusion as to the very nature of what creative music is \u2014 not to mention the potential of creativity as a positive functional factor for transformation.' The crossing diagrams how source-transfer structurally meets activism at the confusion-of-creative-music scale: STF (source transfer) crossed with ACT (activism). STF sits at upper-right with the subject-arrow, and its main line runs down-left to ACT at center-left. Three branches leave the main line. PRI-INFO (principle information) at upper-left carries MT-INTR (multiple interpretation), with DEF (definition) off MT-INTR's line, and BIA (bi-aitional) at center-left. PROG-CONT (progressional continuance) at center-right carries ALT-C-PROG, with CR-INFO-DY (circular information dynamics) off ALT-C-PROG's line, and T-C-IMP (time continuum implications), with POL-DY (political dynamics) off T-C-IMP's line at the right margin. PROJ-DY (projectional dynamics) hangs at lower-center and carries AF-DY (affinity dynamics); ATTN (attraction) runs from AF-DY's line, AF-CON (affinity convergence) from ATTN's line, and POST (postulation) from AF-CON's line.",
   "terms": [
     {
       "termId": "stf",
@@ -65,17 +65,17 @@
       "type": "solid"
     },
     {
-      "from": "stf",
+      "from": "prog-cont",
       "to": "t-c-imp",
       "type": "solid"
     },
     {
-      "from": "stf",
+      "from": "t-c-imp",
       "to": "pol-dy",
       "type": "solid"
     },
     {
-      "from": "stf",
+      "from": "pri-info",
       "to": "mt-intr",
       "type": "solid"
     },
@@ -85,7 +85,7 @@
       "type": "solid"
     },
     {
-      "from": "def",
+      "from": "stf",
       "to": "pri-info",
       "type": "solid"
     },
@@ -95,27 +95,22 @@
       "type": "solid"
     },
     {
-      "from": "bia",
-      "to": "act",
-      "type": "solid"
-    },
-    {
-      "from": "act",
+      "from": "alt-c-prog",
       "to": "cr-info-dy",
       "type": "solid"
     },
     {
-      "from": "cr-info-dy",
+      "from": "prog-cont",
       "to": "alt-c-prog",
       "type": "solid"
     },
     {
-      "from": "alt-c-prog",
+      "from": "stf",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "act",
+      "from": "stf",
       "to": "proj-dy",
       "type": "solid"
     },
@@ -125,17 +120,17 @@
       "type": "solid"
     },
     {
-      "from": "af-dy",
+      "from": "af-con",
       "to": "post",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "attn",
       "to": "af-con",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "af-dy",
       "to": "attn",
       "type": "solid"
     }

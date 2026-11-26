@@ -1,12 +1,12 @@
 {
   "id": "v2-p81-2",
   "volume": 2,
-  "section": "AF(D)-9",
+  "section": "(AF)D-9",
   "page": 81,
   "subject": "info-dy",
   "title": "INFO.DY.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-9 (Affinity Dynamics, Level One), second of two on book p81, paired with v2-p81-1. Continues the same argument: that affinity-dynamics operates as a structural layer beneath race-thinking, and that information-dynamics must be read multidimensionally. INFO-DY (information dynamics) is crossed with C-CONT (composite continuance): the question is what information-dynamics produces when crossed with composite-continuance — given that 'every projectional thrust of knowledge must take into account its affinity dynamics.' C-CONT sits at the top with MT-INFO (multi-information) on the upper-right output. INFO-PROJ (information projection) anchors the right margin. IST-FT (interior-source fundamentals) feeds into INFO-DY from the left. AF-DY (affinity dynamics) sits between subject and partner as central hub. ALT-C-PG (alternative composite progressionalism) anchors the lower-left. SOC-RT-INT (social reality interpretation) feeds upward into AF-DY from below. (P)STF (point-of-activation source transfer) hangs on the right via a *dashed* edge — the only conditional relation in the diagram, marking that source-transfer is here functioning at a *trigger* level rather than as sustained operation. PROG-EXT-F (progressional extended functionalism) anchors the lower-right via the dashed line from (P)STF. Structural argument: information-dynamics crossed with composite-continuance is mediated by affinity-dynamics as the central hub — the same hub as in v2-p81-1, registering Braxton's structural commitment that affinity-dynamics is *the* organizing layer. The (p) prefix and dashed edge on STF together expose that source-transfer becomes operative as a trigger, not a sustained drive, and the consequent route to progressional-extended-functionalism is conditional rather than guaranteed.",
+  "description": "Diagram in AF(D)-9 (Affinity Dynamics, Level One), second of two on book p81, paired with v2-p81-1. Continues the same argument: that affinity-dynamics operates as a structural layer beneath race-thinking, and that information-dynamics must be read multidimensionally. INFO-DY (information dynamics) is crossed with C-CONT (composite continuance): the question is what information-dynamics produces when crossed with composite-continuance — given that 'every projectional thrust of knowledge must take into account its affinity dynamics.' AF-DY (affinity dynamics) branches from the main line and carries three lines: IST-FT (isolated focus); INFO-PROJ (information projection), which carries MT-INFO (multi-information) and, by the chart's only *dashed* line, PROG-EXT-F (progressional extended functionalism); and ALT-C-PG (alternative composite progressionalism), which leads to SOC-RT-INT (social reality interpretation). (P)STF (source transfer at its point of idea completion) hangs from the dashed PROG-EXT-F line by a solid line. In Braxton's legend a dotted line amplifies some aspect of the main concept it is connected to.",
   "terms": [
     { "termId": "info-dy", "isSubject": true },
     { "termId": "c-cont" },
@@ -21,13 +21,13 @@
   ],
   "relationships": [
     { "from": "info-dy", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "mt-info", "type": "solid" },
-    { "from": "c-cont", "to": "info-proj", "type": "solid" },
-    { "from": "ist-ft", "to": "info-dy", "type": "solid" },
     { "from": "info-dy", "to": "af-dy", "type": "solid" },
-    { "from": "alt-c-pg", "to": "af-dy", "type": "solid" },
-    { "from": "soc-rt-int", "to": "af-dy", "type": "solid" },
-    { "from": "af-dy", "to": "stf", "type": "dashed" },
-    { "from": "stf", "to": "prog-ext-f", "type": "dashed" }
+    { "from": "af-dy", "to": "ist-ft", "type": "solid" },
+    { "from": "af-dy", "to": "info-proj", "type": "solid" },
+    { "from": "info-proj", "to": "mt-info", "type": "solid" },
+    { "from": "info-proj", "to": "prog-ext-f", "type": "dashed" },
+    { "from": "prog-ext-f", "to": "stf", "type": "solid" },
+    { "from": "af-dy", "to": "alt-c-pg", "type": "solid" },
+    { "from": "alt-c-pg", "to": "soc-rt-int", "type": "solid" }
   ]
 }

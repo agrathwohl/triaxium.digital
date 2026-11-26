@@ -6,7 +6,7 @@
   "subject": "afl",
   "title": "AFL.------VT.DY.",
   "type": "crossing",
-  "description": "Second diagram on page 392 (JR-14). The crossing diagrams how affinity-alignment structurally meets vibrational-dynamics: AFL crossed with VT-DY. AFL sits at left with the subject-arrow; VT-DY at center-right as partner-axis. MT-INFO (multi-information) upper-center, INFO-DY (information dynamics) upper-right, INVT-DT (investigation dictates) right. TM (terminology), IST-F (isolated focus) right. CULT-AF-BS (culture affinity basis) lower-left, C-CONT (composite continuance) lower-left. TR (transformation) lower-left, IF-ST-DY (infra-structure dynamics) lower-center, PER-DY (perception dynamics) lower-center. Structural argument: the upper chain MT-INFO -> INFO-DY -> INVT-DT routes the form's affinity-alignment through information-dynamics into investigation-dictates. The lower chain CULT-AF-BS -> C-CONT -> TR routes through composite-continuance. The central TM and IST-F hubs route the form into the partner's working chain.",
+  "description": "Second diagram on page 392 (JR-14). The crossing diagrams how affinity-alignment structurally meets vibrational-dynamics: AFL crossed with VT-DY. AFL sits at left with the subject-arrow; VT-DY at center-right as partner-axis. MT-INFO (multi-information) upper-center, INFO-DY (information dynamics) upper-right, INVT-DT (investigation dictates) right. TM (terminology\u2014or terms of a definition), IST-F (isolated focus) right. CULT-AF-BS (culture affinity basis) lower-left, C-CONT (composite continuance) lower-left. TR (transformation) lower-left, IF-ST-DY (infra-structure dynamics) lower-center, PER-DY (perception dynamics) lower-center. Structural argument: the upper chain MT-INFO -> INFO-DY -> TM -> INVT-DT -> IST-F routes the form's affinity-alignment through information-dynamics into investigation-dictates. The lower-left chain CULT-AF-BS -> PER-DY -> IF-ST-DY and the TR line, which carries C-CONT, branch separately from the main line.",
   "terms": [
     {
       "termId": "afl",
@@ -63,17 +63,17 @@
       "type": "solid"
     },
     {
-      "from": "info-dy",
+      "from": "tm",
       "to": "invt-dt",
       "type": "solid"
     },
     {
-      "from": "afl",
+      "from": "info-dy",
       "to": "tm",
       "type": "solid"
     },
     {
-      "from": "tm",
+      "from": "invt-dt",
       "to": "ist-f",
       "type": "solid"
     },
@@ -83,22 +83,22 @@
       "type": "solid"
     },
     {
-      "from": "cult-af-bs",
+      "from": "tr",
       "to": "c-cont",
       "type": "solid"
     },
     {
-      "from": "c-cont",
+      "from": "afl",
       "to": "tr",
       "type": "solid"
     },
     {
-      "from": "vt-dy",
+      "from": "per-dy",
       "to": "if-st-dy",
       "type": "solid"
     },
     {
-      "from": "if-st-dy",
+      "from": "cult-af-bs",
       "to": "per-dy",
       "type": "solid"
     }

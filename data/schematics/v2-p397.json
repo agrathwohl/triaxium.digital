@@ -6,7 +6,7 @@
   "subject": "t-c-imp",
   "title": "T.C.IMP.------RT.DY.",
   "type": "crossing",
-  "description": "Diagram opening R(AS)CM(II)-41 — the section identifying the middle-sixties as the primary time-junction that dictated how alternative-recording's spread could be utilized (Strata East, Jazz Composer's Orchestra). The prose below identifies the structural target: 'the middle sixties as a primary time junction that dictated how the spread of alternative recording could be utilized and made successful.' The crossing diagrams how time-continuum-implications structurally meets reality-dynamics at the alternative-recording time-junction scale: T-C-IMP (time continuum implications) crossed with RT-DY (reality dynamics — the actual reality-dynamics conditions an alternative-recording effort must meet). T-C-IMP sits on the left with the subject-arrow; EXP-DY (exposure dynamics) sits at top-center and INFO-DY (information dynamics) at upper-right with CULT-AF-B (cultural-affinity base) at the right margin as the upper bridging chain. PER-TR (perceived transformation) sits centrally above RT-DY as the bridging hub. RT-DY is partner-axis at center-right; AFTD (affinity tendencies) at the right with MOT-DY (motion dynamics) below as partner-side downward outputs. TRS (transition) sits centrally below; PROG-CONT (progressional continuance) and POL-P (political policies) anchor the lower-left and lower-center as the subject-side downward chain. Structural argument: when time-continuum-implications is crossed with reality-dynamics, the upper diagonal EXP-DY → INFO-DY → CULT-AF-B is the *time-junction route* — exposure-dynamics routes through information-dynamics into cultural-affinity-base, the route through which the middle-sixties primary time-junction reached actual recording-projects. PER-TR → RT-DY is the bridging diagonal that converts the time-junction's perceived-transformation into reality-dynamics; without that diagonal, alternative-recording's time-junction remains an implication rather than reality-conditions. The partner-side AFTD → MOT-DY is what reality-dynamics produces alone — affinity-tendencies into motion-dynamics, the working chain that recording-companies supply. The subject's TRS → PROG-CONT / POL-P chain is what time-continuum-implications produces alone — transition routes through progressional-continuance into political-policies. The Strata East / Jazz Composer's Orchestra success the prose names is structurally that the upper diagonal *and* the PER-TR bridging diagonal held simultaneously, letting the time-junction's exposure-dynamics actually reach the partner's reality-dynamics through both routes; without both, alternative-recording remains an implication rather than the working solidified-company the prose names.",
+  "description": "Diagram opening R(AS)CM(II)-41 — the section identifying the middle-sixties as the primary time-junction that dictated how alternative-recording's spread could be utilized (Strata East, Jazz Composer's Orchestra). The prose below identifies the structural target: 'the middle sixties as a primary time junction that dictated how the spread of alternative recording could be utilized and made successful.' The crossing diagrams how time-continuum-implications structurally meets reality-dynamics at the alternative-recording time-junction scale: T-C-IMP (time continuum implications) crossed with RT-DY (reality dynamics — the actual reality-dynamics conditions an alternative-recording effort must meet). T-C-IMP sits on the left with the subject-arrow, and its main line runs down-right to RT-DY. Three lines leave the main line: one rises up-right to EXP-DY (expansion dynamics), with PER-TR (perceived transformation) and CULT-AF-B (culture affinity basis) branching from it and INFO-DY (information dynamics) branching in turn from CULT-AF-B; one runs down-left to PROG-CONT (progressional continuance), with TRS (transition) branching from it; and a vertical drops to POL-P (political policies), with MOT-DY branching from it and AFTD (affinity tendencies) branching in turn from MOT-DY.",
   "terms": [
     { "termId": "t-c-imp", "isSubject": true },
     { "termId": "rt-dy" },
@@ -23,14 +23,13 @@
   "relationships": [
     { "from": "t-c-imp", "to": "rt-dy", "type": "solid" },
     { "from": "t-c-imp", "to": "exp-dy", "type": "solid" },
-    { "from": "exp-dy", "to": "info-dy", "type": "solid" },
-    { "from": "info-dy", "to": "cult-af-b", "type": "solid" },
-    { "from": "t-c-imp", "to": "per-tr", "type": "solid" },
-    { "from": "per-tr", "to": "rt-dy", "type": "solid" },
-    { "from": "rt-dy", "to": "aftd", "type": "solid" },
-    { "from": "aftd", "to": "mot-dy", "type": "solid" },
-    { "from": "t-c-imp", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "prog-cont", "type": "solid" },
-    { "from": "trs", "to": "pol-p", "type": "solid" }
+    { "from": "exp-dy", "to": "per-tr", "type": "solid" },
+    { "from": "exp-dy", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "info-dy", "type": "solid" },
+    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" },
+    { "from": "t-c-imp", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "aftd", "type": "solid" }
   ]
 }

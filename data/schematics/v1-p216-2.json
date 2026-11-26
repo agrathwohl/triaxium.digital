@@ -6,7 +6,7 @@
   "subject": "re-st",
   "title": "RE.ST.------TRS.",
   "type": "crossing",
-  "description": "Diagram in WAC-14, paired with v1-p216-1. (C)RE-ST (restructuralism — Braxton's term he prefers over 'innovation') is crossed with TRS (transition). The diagram poses what restructuralism's relationship to transition actually requires structurally — situated against Braxton's WAC-6 claim that he 'uses the word [restructuralism] instead of innovation since innovation does not semantically give enough emphasis on the progressive route of a given information readaptation.' Three upstream feeds converge on RE-ST: PROG-CONT (progressional continuance), TRS (the crossing partner), and IST-S-ALGN (isolated systematic alignment); INDIV-TD (individual tendencies, fed in turn by AFI affinity insight) also feeds RE-ST. RE-ST outputs to ALT-ACT (alternative activism) → SPT-DY (spiritual dynamics). A separate chain runs INFO-AF-B (information affinity basis) → AFTF (affinity transfer) and → INTR (interpretation). Structural argument: restructuralism is over-determined upstream (progressional continuance, transition, isolated systematic alignment, and affinity-insight-grounded individual tendencies all feed it), and its productive output is alternative activism leading to spiritual dynamics — the very channel Braxton names as the missing hinge in post-Wagnerian western culture. The information-affinity-basis chain runs in parallel, producing affinity-transfer and interpretation as separate outputs, neither directly involved in restructuralism's transition relation.",
+  "description": "Diagram in WAC-14, paired with v1-p216-1. (C)RE-ST (restructuralism — Braxton's term he prefers over 'innovation') is crossed with TRS (transition). The diagram poses what restructuralism's relationship to transition actually requires structurally — situated against Braxton's WAC-6 remark that restructuralism 'is the word I use instead of innovation since innovation does not semantically give enough emphasis on the progressive route of a given information readaptation.' Besides the main line to TRS, two branches leave the subject: PROG-CONT (progressional continuance) and ALT-ACT (alternative activism). ALT-ACT carries INFO-AF-B (information affinity basis) and AFI (affinity insight). INFO-AF-B branches to IST-S-ALGN (isolated systematic alignment) and to INTR (interpretation) → AFTF (affinity transfer). AFI branches to INDIV-TD (individual tendencies) and SPT-DY (spiritual dynamics).",
   "terms": [
     { "termId": "re-st", "isSubject": true, "prefix": "c" },
     { "termId": "trs" },
@@ -21,14 +21,15 @@
     { "termId": "afi" }
   ],
   "relationships": [
-    { "from": "prog-cont", "to": "re-st", "type": "solid" },
-    { "from": "trs", "to": "re-st", "type": "solid" },
-    { "from": "ist-s-algn", "to": "re-st", "type": "solid" },
-    { "from": "info-af-b", "to": "aftf", "type": "solid" },
+    { "from": "re-st", "to": "prog-cont", "type": "solid" },
+    { "from": "re-st", "to": "trs", "type": "solid" },
+    { "from": "info-af-b", "to": "ist-s-algn", "type": "solid" },
+    { "from": "intr", "to": "aftf", "type": "solid" },
     { "from": "info-af-b", "to": "intr", "type": "solid" },
     { "from": "re-st", "to": "alt-act", "type": "solid" },
-    { "from": "alt-act", "to": "spt-dy", "type": "solid" },
-    { "from": "indiv-td", "to": "re-st", "type": "solid" },
-    { "from": "afi", "to": "indiv-td", "type": "solid" }
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "alt-act", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "indiv-td", "type": "solid" },
+    { "from": "alt-act", "to": "info-af-b", "type": "solid" }
   ]
 }

@@ -6,7 +6,7 @@
   "subject": "c-info",
   "title": "C.INFO.------SOC.RT.DY.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-22 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim: 'the achievements in world culture can provide some basis for viewing this cycle as a cycle — which is to say, a point in time and nothing more.' (C)C-INFO (the concept of composite information) is crossed with SOC-RT-DY (social-reality dynamics): the question is what composite-information produces when crossed with social-reality-dynamics — composite-information being the deeper field of world-cultural achievement against which the late-seventies cycle should be measured. (R)TM (reality of terminology) and (R)OBS (reality of observation) form the upper-right cluster. COS-P (cosmic particulars) feeds into the subject from the lower-left. VT-DY (vibrational dynamics) sits between subject and partner. INFO-DY (information dynamics) sits below. PROG-CONT (progressional continuance) and PART (participation) anchor the lower-right output via a *dashed* edge — the conditional link between progressional-continuance and participation is load-bearing. Structural argument: composite-information crossed with social-reality-dynamics is mediated by vibrational-dynamics as central hub, with cosmic-particulars as foundational upstream and reality-of-terminology plus reality-of-observation as upper outputs. The dashed PROG-CONT→PART edge is Braxton's structural diagnostic: even when composite-information is properly held and vibrational-dynamics functions as hub, the link from progressional-continuance to actual participation remains conditional. Real participation requires more than information and hub-function — it requires that the conditional edge be actually held by living people, which is exactly what 'a point in time' framing risks losing.",
+  "description": "Diagram in SR(TRS)II-22 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim: 'the achievements in world culture can provide some basis for viewing this cycle as a cycle — which is to say, a point in time and nothing more.' (C)C-INFO (the concept of composite information) is crossed with SOC-RT-DY (social-reality dynamics): the question is what composite-information produces when crossed with social-reality-dynamics — composite-information being the deeper field of world-cultural achievement against which this cycle should be measured. COS-P (cosmic particulars) and VT-DY (vibrational dynamics) branch from the main line. VT-DY carries (R)TM (the reality of terminology, or terms of a definition) and PROG-CONT (progressional continuance). PROG-CONT carries INFO-DY (information dynamics) and (R)OBS (the reality of observation), and a *dashed* line from (R)OBS to PART (participation) amplifies some aspect of (R)OBS.",
   "terms": [
     { "termId": "c-info", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt-dy" },
@@ -20,12 +20,12 @@
   ],
   "relationships": [
     { "from": "c-info", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "tm", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "obs", "type": "solid" },
-    { "from": "cos-p", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "cos-p", "type": "solid" },
     { "from": "c-info", "to": "vt-dy", "type": "solid" },
-    { "from": "vt-dy", "to": "info-dy", "type": "solid" },
     { "from": "vt-dy", "to": "prog-cont", "type": "solid" },
-    { "from": "prog-cont", "to": "part", "type": "dashed" }
+    { "from": "vt-dy", "to": "tm", "type": "solid" },
+    { "from": "prog-cont", "to": "info-dy", "type": "solid" },
+    { "from": "prog-cont", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "part", "type": "dashed" }
   ]
 }

@@ -6,7 +6,7 @@
   "subject": "wo-exp-pri",
   "title": "WO.EXP.PRI.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-27. (C)WO-EXP-PRI (world expansion principle) is crossed with MT-INFO (multi-information). The diagram is structurally distinctive: it has *two disjoint sub-diagrams* connected only via the conceptual crossing. WO-EXP-PRI is fed by ALT-F (alternative functionalism), ACC-DY (accelerated dynamics), and STF (source transfer) — three independent feeds. The crossing partner side runs MT-INFO → C-CONT (composite continuance), with COS-D (cosmic dictates) also → C-CONT. A separate sub-diagram: SI (source initiation) → SOC-RT (social reality), INDIV-DY (individual dynamics) → SOC-RT, INFO-DE-B → SI, and COS-D → SI (the only cross-connection between the two halves, via cosmic dictates). Structural argument: world-expansion-principle and multi-information are crossed but their downstreams are *parallel and largely independent* — the WO-EXP-PRI side requires alternative functionalism, accelerated dynamics, and source transfer; the MT-INFO side requires composite continuance fed by cosmic dictates. The third sub-structure (SI fed by COS-D and INFO-DE-B, producing SOC-RT with individual-dynamics) shows source-initiation operating in parallel without direct connection to either crossing partner. The diagram thus diagrams the WI section's structural diagnosis: the world-expansion-principle and multi-information can be nominally crossed without their downstreams actually meeting, with cosmic-dictates as the only structural bridge. This is the white improvisor's institutional position — nominal participation in the crossing, but downstream chains running in parallel rather than convergent.",
+  "description": "Diagram in WI-27. (C)WO-EXP-PRI (world expansion principle) is crossed with MT-INFO (multi-information). Two lines branch from the main line. The first runs to STF (source transfer); ALT-F (alternative functionalism) branches from STF, and ACC-DY (accelerated dynamics) branches from ALT-F. The second runs to C-CONT (composite continuance) and continues as a single chain: C-CONT → SI (source initiation) → COS-D (cosmic dictates) → INFO-DE-B → SOC-RT (social reality) → INDIV-DY (individual dynamics).",
   "terms": [
     {
       "termId": "wo-exp-pri",
@@ -46,48 +46,53 @@
   ],
   "relationships": [
     {
-      "from": "alt-f",
-      "to": "wo-exp-pri",
+      "from": "wo-exp-pri",
+      "to": "stf",
       "type": "solid"
     },
     {
-      "from": "acc-dy",
-      "to": "wo-exp-pri",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "wo-exp-pri",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "c-cont",
-      "type": "solid"
-    },
-    {
-      "from": "cos-d",
-      "to": "c-cont",
+      "from": "soc-rt",
+      "to": "indiv-dy",
       "type": "solid"
     },
     {
       "from": "si",
-      "to": "soc-rt",
+      "to": "cos-d",
       "type": "solid"
     },
     {
-      "from": "indiv-dy",
-      "to": "soc-rt",
+      "from": "wo-exp-pri",
+      "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "info-de-b",
+      "from": "stf",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "c-cont",
       "to": "si",
       "type": "solid"
     },
     {
       "from": "cos-d",
-      "to": "si",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "soc-rt",
       "type": "solid"
     }
   ]

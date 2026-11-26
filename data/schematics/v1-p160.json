@@ -6,7 +6,7 @@
   "subject": "rt-algn",
   "title": "RT.ALGN.------VT.DY.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-22, on the page where Braxton argues that 'the universal actualness of creativity is a factor that must be dealt with if we are to truly understand this consideration' and that 'we are left with no awareness about the composite thrust of world creativity — and this is unfortunate.' (C)RT-ALGN (reality alignment) is crossed with VT-DY (vibrational dynamics): the question is what reality alignment looks like when crossed with vibrational dynamics from the universal-philosophical perspective (rather than the cultural-particular perspective of v1-p377's NYM-11 reading). Three upstream feeds converge on RT-ALGN: PHY-U-C (physical universe context), PROG-SIGN (progressional significance), and RT-IMP (reality implications), with RT-IMP also feeding VT-DY directly. RT-ALGN outputs to LANG-DY (language dynamics), TRS (transition), SOC-RT-DY (social reality dynamics), and POL-DYM (political dynamics). POL-DYM solid-links to IST-PT (isolated particulars); SOC-RT-DY solid-links to INFO-OR (information order); PROG-SIGN also bears on T-C-IMP (time continuum implications). Structural argument: reality alignment crossed with vibrational dynamics fans into four parallel cultural-political channels (language, transition, social-reality, political-dynamics), each terminating at its own structural element. The diagram makes Braxton's universal-philosophical claim structural: reality alignment as a vibrational phenomenon does not have a privileged single output — it constitutes the cultural-political field in its entirety.",
+  "description": "Diagram in UPB(II)-22, directly after the passage where Braxton argues that 'the universal actualness of creativity is a factor that must be dealt with if we are to truly understand this consideration' and that many of us are 'left with no awareness about the composite thrust of world creativity — and this is unfortunate.' (C)RT-ALGN (reality alignment) is crossed with VT-DY (vibrational dynamics): the question is what reality alignment looks like when crossed with vibrational dynamics from the universal-philosophical perspective (rather than the cultural-particular perspective of v1-p377's NYM-11 reading). Besides the main line to VT-DY, two branches leave RT-ALGN. PROG-SIGN (progressional significance) carries PHY-U-C (physical universe context) → RT-IMP (reality implications), and T-C-IMP (time continuum implications) → TRS (transition). SOC-RT-DY (social reality dynamics) carries POL-DY (political dynamics), which branches to LANG-DY (language dynamics) and to INFO-DY (information dynamics) → IST-P.",
   "terms": [
     {
       "termId": "rt-algn",
@@ -38,10 +38,10 @@
       "termId": "pol-dym"
     },
     {
-      "termId": "ist-pt"
+      "termId": "ist-p"
     },
     {
-      "termId": "info-or"
+      "termId": "info-dy"
     },
     {
       "termId": "trs"
@@ -49,27 +49,27 @@
   ],
   "relationships": [
     {
-      "from": "phy-u-c",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
       "from": "prog-sign",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "rt-imp",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "rt-imp",
-      "to": "vt-dy",
+      "to": "phy-u-c",
       "type": "solid"
     },
     {
       "from": "rt-algn",
+      "to": "prog-sign",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "rt-imp",
+      "type": "solid"
+    },
+    {
+      "from": "rt-algn",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
       "to": "lang-dy",
       "type": "solid"
     },
@@ -79,7 +79,7 @@
       "type": "solid"
     },
     {
-      "from": "rt-algn",
+      "from": "t-c-imp",
       "to": "trs",
       "type": "solid"
     },
@@ -89,18 +89,18 @@
       "type": "solid"
     },
     {
-      "from": "rt-algn",
+      "from": "soc-rt-dy",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "pol-dym",
-      "to": "ist-pt",
+      "from": "info-dy",
+      "to": "ist-p",
       "type": "solid"
     },
     {
-      "from": "soc-rt-dy",
-      "to": "info-or",
+      "from": "pol-dym",
+      "to": "info-dy",
       "type": "solid"
     }
   ]

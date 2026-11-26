@@ -6,7 +6,7 @@
   "subject": "rt-int-tr",
   "title": "RT.INT.TR.------POL.P.",
   "type": "crossing",
-  "description": "Diagram in WI-19, the section where Braxton introduces the 'grand trade-off' — the concept that western expansionism solidified an attitude where black people are 'natural improvisors' but not great thinkers, and where 'the dynamic implications of the white improvisor have never really been dealt with because this juncture was one of the sacrificed categories.' RT-INT-TR (reality initiative traits) is crossed with POL-P (political policies). Five upstream feeds converge on a central hub AF-COMP (affinity compression): T-C-IMP (time continuum implications), INFO-TRNS (information transference), POL-P (the crossing partner), RT-INT-TR (the subject), INFO-DOC (information documentation), and CN-INFO (controlled information). AF-COMP outputs to DEF (definition), and INFO-DE-B → DEF in parallel. INFO-DOC also outputs to AGT (agreement). Structural argument: this is a hub-and-spoke diagram with affinity compression as the structural pivot. *Six* upstream feeds (including the subject and crossing partner) all converge on affinity compression, which then produces definition. The diagram makes Braxton's 'grand trade-off' diagnostic structural: when reality initiative traits and political policies meet under the institutionalized convergence of time-continuum, information-transference, information-documentation, and controlled-information, the result is *compression* of affinity — the squeezing of multiple competing affinity claims into single official definitions. Information-documentation's separate output to agreement registers how the apparatus *names* its compressed definitions as consensus.",
+  "description": "Diagram in WI-19, the section where Braxton introduces the 'grand trade-off'. RT-INT-TR (reality initiative traits) is crossed with POL-P (political policies). Further branches from the main line lead to T-C-IMP (time continuum implications) → INFO-TRNS (information transference), to INFO-DOC (information documentation), and to DEF (definition). DEF branches to INFO-DE-B (information degree basis) and CN-INFO (controlled information); CN-INFO → AF-COMP (affinity compression) → AGT (agreement).",
   "terms": [
     { "termId": "rt-int-tr", "isSubject": true },
     { "termId": "t-c-imp" },
@@ -20,14 +20,14 @@
     { "termId": "agt" }
   ],
   "relationships": [
-    { "from": "t-c-imp", "to": "af-comp", "type": "solid" },
-    { "from": "info-trns", "to": "af-comp", "type": "solid" },
-    { "from": "pol-p", "to": "af-comp", "type": "solid" },
-    { "from": "info-de-b", "to": "def", "type": "solid" },
-    { "from": "rt-int-tr", "to": "af-comp", "type": "solid" },
-    { "from": "af-comp", "to": "def", "type": "solid" },
-    { "from": "info-doc", "to": "af-comp", "type": "solid" },
+    { "from": "def", "to": "info-de-b", "type": "solid" },
     { "from": "cn-info", "to": "af-comp", "type": "solid" },
-    { "from": "info-doc", "to": "agt", "type": "solid" }
+    { "from": "rt-int-tr", "to": "pol-p", "type": "solid" },
+    { "from": "rt-int-tr", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-trns", "type": "solid" },
+    { "from": "rt-int-tr", "to": "def", "type": "solid" },
+    { "from": "def", "to": "cn-info", "type": "solid" },
+    { "from": "af-comp", "to": "agt", "type": "solid" },
+    { "from": "rt-int-tr", "to": "info-doc", "type": "solid" }
   ]
 }

@@ -6,12 +6,12 @@
   "subject": "ist-f-dt",
   "title": "IST.F.DT.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in PR.S(RD)II-8 (Progressional Significance and Re-Definitions, Level Two), on the page where Braxton argues that 'the science of a given form in black creativity has always followed the vibrational necessity of the invention and not the other way around. All of the extended harmonies practiced today were played in the early forms of the music — with the difference being that the notes were extended because of the vibrational reality of the individual, as opposed to the individual functioning as an extension of the notes.' (C)IST-F-DT (isolated focus dictates) is crossed with PROG-CONT (progressional continuance): the question is what isolated-focus-dictates produces when crossed with progressional-continuance, in the context where black-music science follows vibrational necessity but is documented through western maneuvers that distort the actual reality. CULT-AF-B (culture affinity basis) feeds the upper-right. LANG-CY (language cycle) and (R)INTR (the reality of interpretation) are upper outputs. RT-ALGN (reality alignment) is a central node. MT-INFO (multi-information) and COS-P (cosmic particulars) feed the lower-left. VT-DY (vibrational dynamics) feeds from the right. T-C-IMP (time continuum implications) and C-CONT (composite continuance) form the lower-middle convergence. PROG-CONT (the partner) is the structural endpoint. Structural argument: isolated-focus-dictates crossed with progressional-continuance requires culture-affinity-basis as upstream — Braxton's diagrammatic claim that black-music's progressional continuance is real only when the dictates of isolated focus connect through the culture-affinity-basis chain, not through western documentation-distortion.",
+  "description": "Diagram in PR.S(RD)II-8, on the page where Braxton argues that 'the science of a given form in black creativity has always followed the vibrational necessity of the invention and not the other way around. All of the extended harmonies practiced today were played in the early forms of the music — with the difference being that the notes were extended because of the vibrational reality of the individual, as opposed to the individual functioning as an extension of the notes.' IST-F-DT (isolated focus dictates) is crossed with PROG-CONT (progressional continuance): the question is what isolated-focus-dictates produces when crossed with progressional-continuance, in the context where black-music science follows vibrational necessity but is documented through western maneuvers that distort the actual reality. RT-ALGN (reality alignment) branches right from the main line and carries CULT-AF-B (culture affinity basis), which carries (R)INTR (the reality of interpretation), which carries LANG-CY. VT-DY (vibrational dynamics) branches right from the main line. C-CONT (composite continuance) branches down from the main line and carries T-C-IMP (time continuum implications), which carries MT-INFO (multi-information), which carries COS-P (cosmic particulars). PROG-CONT, the partner, is the structural endpoint.",
   "terms": [
-    { "termId": "ist-f-dt", "isSubject": true, "prefix": "c" },
+    { "termId": "ist-f-dt", "isSubject": true },
     { "termId": "prog-cont" },
     { "termId": "cult-af-bs" },
-    { "termId": "lang-dy" },
+    { "termId": "lang-cy" },
     { "termId": "intr", "prefix": "r" },
     { "termId": "rt-algn" },
     { "termId": "mt-info" },
@@ -21,14 +21,15 @@
     { "termId": "c-cont" }
   ],
   "relationships": [
-    { "from": "cult-af-bs", "to": "ist-f-dt", "type": "solid" },
-    { "from": "ist-f-dt", "to": "lang-dy", "type": "solid" },
-    { "from": "lang-dy", "to": "intr", "type": "solid" },
-    { "from": "rt-algn", "to": "ist-f-dt", "type": "solid" },
-    { "from": "vt-dy", "to": "rt-algn", "type": "solid" },
     { "from": "mt-info", "to": "cos-p", "type": "solid" },
-    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "c-cont", "type": "solid" },
-    { "from": "prog-cont", "to": "c-cont", "type": "solid" }
+    { "from": "ist-f-dt", "to": "prog-cont", "type": "solid" },
+    { "from": "ist-f-dt", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "cult-af-bs", "type": "solid" },
+    { "from": "cult-af-bs", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "lang-cy", "type": "solid" },
+    { "from": "ist-f-dt", "to": "vt-dy", "type": "solid" },
+    { "from": "ist-f-dt", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "mt-info", "type": "solid" }
   ]
 }

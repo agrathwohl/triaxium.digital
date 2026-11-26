@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------ TRS.",
   "type": "hub-spoke",
-  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One \u2014 Britain/Germany/Holland), first of two on book p219. Accompanies Braxton's structural turn: 'it becomes more a question of musicians celebrating their creativity in accordance with the vibrational dictates of their environment as well as their own cultural and vibrational pull.' MT-INFO (multi-information) is crossed with TRS (transition): the question is what multi-information produces when crossed with transition \u2014 under conditions where each European musician is celebrating both environment and personal vibration. C-INFO (composite information) and PHY-U-FUND (physical universe fundamental) form the upper-center cluster. LANG-DY (language dynamics) feeds in from the upper-left. TRS itself is the partner. TR-INFO (trans-information) sits between subject and partner on the left. PART (participation) sits below the subject. P-PROG (particular progressionalism) anchors the right output. CULT-SOLD (culture solidification) hangs on the lower-right. PRI-INFO (principle information) anchors the bottom-center. Structural argument: multi-information crossed with transition is fed by composite-information and physical-universe-fundamental from above and by language-dynamics from below-left. The lower output cluster (participation, principle-information, culture-solidification, particular-progressionalism) registers the productive structure of European creativity: when multi-information genuinely crosses with transition, the productive output is *participation rooted in principle-information* that produces culture-solidification and particular-progressionalism. The diagram is Braxton's structural case for why European creativity has a chance to make a real contribution \u2014 the upstream tests (composite-information, physical-universe-fundamental, language-dynamics) ground the crossing in actual conditions.",
+  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One \u2014 Britain/Germany/Holland), first of two on book p219. Accompanies Braxton's structural turn: 'it becomes more a question of musicians celebrating their creativity in accordance with the vibrational dictates of their environment as well as their own cultural and vibrational pull.' MT-INFO (multi-information) is crossed with TRS (transition): the question is what multi-information produces when crossed with transition \u2014 under conditions where each European musician is celebrating both environment and personal vibration. A vertical from the main line rises to PHY-U-FUND (physical universe fundamental); from it a horizontal runs left to LANG-DY (language dynamics), which carries C-INFO (composite information) above and TR-INFO (trans-information) on the lower-left. TRS itself is the partner. P-PROG (particular progressionalism) anchors the right output, branching from the main line. CULT-SOLD (culture solidification) hangs on the lower-right from P-PROG. PART (participation) hangs from CULT-SOLD, and PRI-INFO (principle information) from PART at the bottom-center. The lower output cluster (participation, principle-information, culture-solidification, particular-progressionalism) registers the productive structure of European creativity: when multi-information genuinely crosses with transition, the productive output is particular-progressionalism, which carries culture-solidification, participation and principle-information in a single chain.",
   "terms": [
     {
       "termId": "mt-info",
@@ -42,38 +42,13 @@
   ],
   "relationships": [
     {
-      "from": "c-info",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
-      "from": "phy-u-fund",
-      "to": "trs",
-      "type": "solid"
-    },
-    {
       "from": "lang-dy",
       "to": "tr-info",
       "type": "solid"
     },
     {
-      "from": "tr-info",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
       "from": "mt-info",
       "to": "trs",
-      "type": "solid"
-    },
-    {
-      "from": "trs",
-      "to": "p-prog",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "part",
       "type": "solid"
     },
     {
@@ -84,6 +59,31 @@
     {
       "from": "p-prog",
       "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "phy-u-fund",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-fund",
+      "to": "lang-dy",
+      "type": "solid"
+    },
+    {
+      "from": "lang-dy",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "p-prog",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "part",
       "type": "solid"
     }
   ]

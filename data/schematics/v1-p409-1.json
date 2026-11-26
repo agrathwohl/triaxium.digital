@@ -6,7 +6,7 @@
   "subject": "cult-info-b",
   "title": "(R)CULT.INFO.B.------AF.DY.",
   "type": "crossing",
-  "description": "Diagram in The Midwest (and West Coast) Continuum section (MID-W-3), the first of two on book p409. (R)CULT-INFO-B (the reality of culture information basis) is crossed with AFL-DY (affinity dynamics, marked with the (dt) prefix — Braxton's CODE for 'determines the ____ of its ____', meaning affinity dynamics here is functioning as a *determining* relation rather than a relational one). The diagram poses what real culture-information-basis crossed with the determining role of affinity dynamics looks like for a midwest creative community whose 'physical universe situation' (per the section's prose) gives more time for actual research than New York's market-driven environment. CULT-INFO-B → (DT)AFL-DY (the crossing) → MT-INFO (multi-information) → PART (participation). (R)TM (real terminology) → AFL-DY and (R)TM → INFO-DS (information dissemination) → C-INFO (composite information) → POL-DYM (political dynamics) → (R)INT (real intention). PROG-SIGN (progressional significance) → AFL-DY. AFL-DY → INFO-RT (information reality) *dashed*. Structural argument: the determining-role of affinity dynamics is over-fed by *four* upstreams (the subject, real terminology, progressional significance, and indirectly via the information-dissemination chain), and produces multi-information and (conditionally) information reality. The midwest's structural advantage Braxton names — more research time, less market pressure — registers diagrammatically as the determining function of affinity dynamics actually being able to do its work, rather than being short-circuited by political dynamics' direct demands.",
+  "description": "Diagram in The Midwest (and West Coast) Continuum section (MID-W-3), the first of two on book p409. (R)CULT-INFO-B (the reality of culture information basis) is crossed with AFL-DY (affinity dynamics, marked with the (dt) prefix — Braxton's CODE for 'determines the ____ of its ____', meaning affinity dynamics here is functioning as a *determining* relation rather than a relational one). The diagram poses what real culture-information-basis crossed with the determining role of affinity dynamics looks like for a midwest creative community. INFO-DS (information dissemination) branches from the main line and opens into (R)TM (real terminology—or terms of a definition) and MT-INFO (multi-information); MT-INFO opens into C-INFO (composite information) → POL-DYM (political dynamics) → (R)INT (real intention). PROG-SIGN (progressional significance) branches from the main line. A dotted line runs from AFL-DY to INFO-RT (information reality), which opens into PART (participation).",
   "terms": [
     {
       "termId": "cult-info-b",
@@ -54,21 +54,6 @@
       "type": "solid"
     },
     {
-      "from": "tm",
-      "to": "afl-dy",
-      "type": "solid"
-    },
-    {
-      "from": "tm",
-      "to": "info-ds",
-      "type": "solid"
-    },
-    {
-      "from": "info-ds",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
       "from": "c-info",
       "to": "pol-dym",
       "type": "solid"
@@ -80,23 +65,38 @@
     },
     {
       "from": "afl-dy",
+      "to": "info-rt",
+      "type": "dashed"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
+      "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
       "to": "mt-info",
       "type": "solid"
     },
     {
       "from": "mt-info",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-b",
+      "to": "prog-sign",
+      "type": "solid"
+    },
+    {
+      "from": "info-rt",
       "to": "part",
       "type": "solid"
-    },
-    {
-      "from": "prog-sign",
-      "to": "afl-dy",
-      "type": "solid"
-    },
-    {
-      "from": "afl-dy",
-      "to": "info-rt",
-      "type": "dashed"
     }
   ]
 }

@@ -6,15 +6,12 @@
   "subject": "stf",
   "title": "STF.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in WAM-32, paired with v1-p90-1, on the page where Braxton describes the post-Webern/post-Cageian juncture as connected to 'the source-transfer junction of world creativity' — i.e., as a moment where western art music becomes available for genuine cross-aesthetic transfer because its own composite alignment has dissolved. (C)STF (source transfer) is crossed with PROG-CONT (progressional continuance): the diagram poses how source transfer would actually be constituted if it were to flow into progressional continuance rather than terminate as private composer-experiment. STF is fed by PROJ-CONT (projectional continuance), TR-INFO (trans-information) → C-FO-ACT (composite focused activism), and SPT-DY (spiritual dynamics). STF outputs to AFTD (affinity tendencies) → INFO-F (information focus), and laterally to ATTN (attraction). SPT-DY also branches into DYM-F (dynamic functionalism) and RIT-DY (ritual dynamics). The structural claim: source transfer in its working form requires *spiritual dynamics* as an upstream input, with that spiritual layer simultaneously producing dynamic functionalism and ritual dynamics — exactly the conditions Braxton identifies in the WM section as world-cultural and absent from western practice. The diagram thus stages the *prerequisites* the post-Cage juncture would have to meet to actually transfer into world creativity rather than merely register as serial-music technique.",
+  "description": "Diagram in WAM-32, paired with v1-p90-1, after Braxton describes serial music (on the preceding page) as connected to 'the source-transfer junction of world creativity' — i.e., as a moment where western art music becomes available for genuine cross-aesthetic transfer because its own composite alignment has dissolved. (C)STF (source transfer) is crossed with PROG-CONT (progressional continuance): the diagram poses how source transfer would actually be constituted if it were to flow into progressional continuance rather than terminate as private composer-experiment. The main line runs from STF to the label drawn at its end, PROJ-CONT (projectional continuance). STF also branches into TR-INFO (trans-information) → AFTD (affinity tendencies) → ATTN (attraction), which carries C-FO-ACT (composite focused activism) and INFO-F (information focus); and into SPT-DY (spiritual dynamics) → RIT-DY (ritual dynamics) → DYM-F (dynamic functionalism). The structural claim: source transfer in its working form opens onto *spiritual dynamics*, with that spiritual layer leading through ritual dynamics into dynamic functionalism.",
   "terms": [
     {
       "termId": "stf",
       "isSubject": true,
       "prefix": "c"
-    },
-    {
-      "termId": "prog-cont"
     },
     {
       "termId": "proj-cont"
@@ -46,48 +43,48 @@
   ],
   "relationships": [
     {
-      "from": "proj-cont",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "c-fo-act",
-      "type": "solid"
-    },
-    {
-      "from": "c-fo-act",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "spt-dy",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "aftd",
-      "type": "solid"
-    },
-    {
-      "from": "aftd",
-      "to": "info-f",
-      "type": "solid"
-    },
-    {
-      "from": "spt-dy",
-      "to": "dym-f",
-      "type": "solid"
-    },
-    {
       "from": "spt-dy",
       "to": "rit-dy",
       "type": "solid"
     },
     {
       "from": "stf",
+      "to": "proj-cont",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rit-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
       "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "c-fo-act",
+      "type": "solid"
+    },
+    {
+      "from": "attn",
+      "to": "info-f",
       "type": "solid"
     }
   ]

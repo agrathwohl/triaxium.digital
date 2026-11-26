@@ -6,7 +6,7 @@
   "subject": "th-cont",
   "title": "TH.CONT-----C.INFO.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-41, on the page where Braxton names Charlie Parker's activity as 'the embodiment of the second transformation of black people in America' — the moment 'the affinity insight (1) principle' (the transformation/affirmation principle introduced on the previous page) emerged after WWII through bebop's relation to what white culture calls 'art music'. (C)TH-CONT (thrust continuance) is crossed with C-INFO (composite information): the question is how the thrust continuance of black creativity gets organized into composite information when AFI(1) has just been activated — i.e., how is Charlie Parker's transformation legible as composite information? The diagram is unusually compact for vol1 — only 6 nodes — suggesting Braxton wants the structural claim crisp. (C)MT-INFO (multi-information, doubly crossed) is the central hub: it feeds TH-CONT (the subject), RT-DY (reality dynamics), C-INFO (the crossing partner), and MT-IF-DB (multi-informational degree basis). TH-CONT then solid-links to PRI-INFO (principle information). The structural argument: at the AFI(1) transformation moment, multi-information becomes the central organizing node — it simultaneously generates thrust continuance, reality dynamics, composite information, and the multi-informational degree basis, and only thrust continuance reaches principle information directly. The diagram is thus Braxton's specification of why bebop is structurally consequential: it puts multi-information into the *generative* position from which composite information, reality dynamics, and the degree-basis of further multi-information all derive.",
+  "description": "Diagram in T(AF)M-41, on the page where Braxton names Charlie Parker's activity as 'the embodiment of the second transformation of black people in America' — the moment 'the affinity insight (1) principle' (the transformation/affirmation principle introduced two pages earlier) emerged after WWII through bebop's relation to what America calls 'art music'. (C)TH-CONT (thrust continuance) is crossed with C-INFO (composite information): the question is how the thrust continuance of black creativity gets organized into composite information when AFI(1) has just been activated — i.e., how is Charlie Parker's transformation legible as composite information? The diagram is unusually compact for vol1 — only 6 nodes — suggesting Braxton wants the structural claim crisp. (C)MT-INFO (the concept of multi-information) sits at the bend of the path from the subject: TH-CONT runs to MT-INFO, which branches to PRI-INFO (principle information) and runs on to C-INFO; C-INFO branches to RT-T and to MT-IF-DB (multi-informational degree basis). The structural argument: at the AFI(1) transformation moment, thrust continuance reaches composite information only through multi-information, which also reaches principle information directly. The diagram is thus Braxton's specification of why bebop is structurally consequential: it puts multi-information into the *generative* position from which composite information, and through it RT-T and the degree-basis of further multi-information, derive.",
   "terms": [
     {
       "termId": "th-cont",
@@ -17,7 +17,7 @@
       "termId": "c-info"
     },
     {
-      "termId": "rt-dy"
+      "termId": "rt-t"
     },
     {
       "termId": "mt-info",
@@ -33,27 +33,27 @@
   "relationships": [
     {
       "from": "mt-info",
-      "to": "th-cont",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "rt-dy",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
       "to": "c-info",
       "type": "solid"
     },
     {
       "from": "th-cont",
-      "to": "pri-info",
+      "to": "mt-info",
       "type": "solid"
     },
     {
       "from": "mt-info",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
       "to": "mt-if-db",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "rt-t",
       "type": "solid"
     }
   ]

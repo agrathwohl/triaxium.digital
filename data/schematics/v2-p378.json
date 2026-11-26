@@ -6,7 +6,7 @@
   "subject": "info-dy",
   "title": "INFO.DY.------ATTN.",
   "type": "crossing",
-  "description": "Diagram closing R(AS)CM(II)-22, the section on how television, articles, and university courses positively educate listeners about classical music — and the *absence* of equivalent positive-media-involvement for alternative creativity. The prose immediately above names what the crossing diagrams: 'Only with this type of positive media involvement can anyone expect to really increase awareness of alternative creativity.' The crossing diagrams what information-dynamics actually crosses with when attraction is the working partner: INFO-DY (information dynamics — the form's own information output) is crossed with ATTN (attraction). INFO-DY sits at the upper-right with the subject-arrow; ACC-DY (accelerated dynamics) rises above-left and ACT (activism) anchors the upper-left as the subject's upper output. VT-DY (vibrational dynamics) sits at the right with INDIV-TD (individual tendencies) below it, then COS-P (cosmic-particulars) and AFI (affinity insight) on the lower-right as the subject's downward chain. ATTN sits centrally as partner-axis; SPT-DY (spiritual dynamics) and C-INFO (composite information) anchor the lower-left as partner-side downward outputs. Structural argument: the right-side chain VT-DY → INDIV-TD → COS-P → AFI is the *positive-media-involvement chain* the prose names — information-dynamics routes through vibrational-dynamics into individual tendencies, then into cosmic-particulars, and finally into affinity-insight. This is the chain western-classical-music receives because the upper diagonal ACC-DY → ACT routes accelerated-dynamics into activism that holds the right-side chain open. The partner-axis ATTN → SPT-DY / C-INFO is what attraction produces on its own when the upper diagonal is *not* held — spiritual-dynamics and composite-information without the affinity-insight terminus. For alternative creativity, the upper diagonal does not get held; attraction routes directly into spiritual-dynamics and composite-information without traversing the right-side chain. The 'positive media involvement' the prose names is structurally the ACC-DY → ACT diagonal: it must run, or the partner-side absorbs attraction into spectacle without ever reaching cosmic-particulars or affinity-insight.",
+  "description": "Diagram in R(AS)CM(II)-22, the section on how television, articles, and university courses positively educate listeners about classical music — and the *absence* of equivalent positive-media-involvement for alternative creativity. The prose immediately above names what the crossing diagrams: 'Only with this type of positive media involvement can anyone expect to really increase awareness of alternative creativity.' The crossing diagrams what information-dynamics actually crosses with when attraction is the working partner: INFO-DY (information dynamics — the form's own information output) is crossed with ATTN (attraction). INFO-DY sits at the upper-right with the subject-arrow, and its main line runs down-left to ATTN. Three lines leave the main line: one runs left to ACT (activism), with ACC-DY (accelerated dynamics) rising from it; one runs right to VT-DY (vibrational dynamics), with COS-P (cosmic particulars) branching from it and INDIV-TD (individual tendencies) branching in turn from COS-P; and one drops straight down to C-INFO (composite information), with AFI (affinity insight) and SPT-DY (spiritual dynamics) branching from it.",
   "terms": [
     { "termId": "info-dy", "isSubject": true },
     { "termId": "attn" },
@@ -22,12 +22,12 @@
   "relationships": [
     { "from": "info-dy", "to": "attn", "type": "solid" },
     { "from": "info-dy", "to": "vt-dy", "type": "solid" },
-    { "from": "vt-dy", "to": "indiv-td", "type": "solid" },
-    { "from": "indiv-td", "to": "cos-p", "type": "solid" },
-    { "from": "cos-p", "to": "afi", "type": "solid" },
-    { "from": "info-dy", "to": "acc-dy", "type": "solid" },
-    { "from": "acc-dy", "to": "act", "type": "solid" },
-    { "from": "attn", "to": "spt-dy", "type": "solid" },
-    { "from": "attn", "to": "c-info", "type": "solid" }
+    { "from": "vt-dy", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "indiv-td", "type": "solid" },
+    { "from": "info-dy", "to": "act", "type": "solid" },
+    { "from": "act", "to": "acc-dy", "type": "solid" },
+    { "from": "info-dy", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "afi", "type": "solid" },
+    { "from": "c-info", "to": "spt-dy", "type": "solid" }
   ]
 }

@@ -4,9 +4,9 @@
   "section": "TRF(CW)-17",
   "page": 445,
   "subject": "part",
-  "title": "(R)PART.------TR.",
+  "title": "(R)PART------ TR.",
   "type": "crossing",
-  "description": "First of two diagrams in TRF(CW)-17. The prose below identifies the structural target: 'To gain insight into the implications of creative women in improvised music is to in fact be confronted with the dynamic consequence of bi-aitionalism as well as the essence factor of creativity.' The crossing diagrams how the reality of participation structurally meets transformation at the creative-women bi-aitionalism scale: (R)PART crossed with TR. PART sits at lower-right with the subject-arrow; TR at upper-left as partner-axis. ATTN (attraction), MT-INFO (multi-information), PER-DY (perception dynamics) center. ALT-DEF (alternative definition), ALT-F (alternative functionalism) center-right. POL-DY (political dynamics) left, RE-ST (restructuralism), IST-F (isolated focus) lower-center.",
+  "description": "First of two diagrams in TRF(CW)-17. The prose below identifies the structural target: 'To gain insight into the implications of creative women in improvised music is to in fact be confronted with the dynamic consequence of bi-aitionalism as well as the essence factor of creativity.' The crossing diagrams how the reality of participation structurally meets transformation at the creative-women bi-aitionalism scale: (R)PART crossed with TR. PART sits at lower-right with the subject-arrow; TR at upper-left as partner-axis. ATTN (attraction), MT-INFO (multi-information), PER-DY (perception dynamics) center. ALT-DEF (alternative definitions), ALT-F (alternative functionalism) center-right. POL-DY (political dynamics) left, RE-ST (restructuralism), IST-F (isolated focus) lower-center.",
   "terms": [
     {
       "termId": "part",
@@ -48,11 +48,6 @@
       "type": "solid"
     },
     {
-      "from": "tr",
-      "to": "attn",
-      "type": "solid"
-    },
-    {
       "from": "attn",
       "to": "mt-info",
       "type": "solid"
@@ -63,32 +58,32 @@
       "type": "solid"
     },
     {
-      "from": "per-dy",
-      "to": "alt-def",
-      "type": "solid"
-    },
-    {
-      "from": "alt-def",
-      "to": "alt-f",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
-      "to": "part",
-      "type": "solid"
-    },
-    {
       "from": "part",
       "to": "pol-dy",
       "type": "solid"
     },
     {
       "from": "part",
-      "to": "re-st",
+      "to": "attn",
       "type": "solid"
     },
     {
       "from": "part",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "alt-def",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dy",
+      "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
       "to": "ist-f",
       "type": "solid"
     }

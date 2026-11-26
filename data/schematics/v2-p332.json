@@ -6,7 +6,7 @@
   "subject": "pri-info",
   "title": "PRI.INFO.------COS.ASN.-----ACT.TR.",
   "type": "triple-crossing",
-  "description": "Triple-crossing diagram closing R(AS)CM(I)-16, the section on television's failure to document creative music. The prose above names the structural stake: 'the failure of American television to responsibly present creative music will one day be seen as one of the great tragedies of this time period — for it must be understood that the neglect of artists like Charles Mingus is more than a simple oversight: what we could have learned from visual documentation of his work cannot be replaced.' The triple-crossing diagrams what principle-information is structurally meeting when television-documentation is at stake: (C)PRI-INFO (central principle information — the form's intellectually presented working content) crossed with COS-ASN (cosmic assignment — the form's cosmic/spiritual remit) crossed with ACT-TR ((D)INDIV-TD's actual transformation — the dynamic-individual transformation work the form does). PRI-INFO sits at upper-left with the subject-arrow; (R)PHY-U-C (the reality of physical universe context) anchors the left margin and (R)INFO-DE (the reality of information-descent) sits centrally with a *dashed* edge from COS-ASN above — the load-bearing conditional. SOC-RT (social reality) hangs below INFO-DE and routes to T-C-IMP (time continuum implications) at the lower center, which then connects via a second *dashed* edge down to DYM-F (dynamic functionalism) at the bottom — the second conditional, the form actually appearing. COS-ASN sits at the top-center as the middle-axis bridging hub. ACT-TR is partner-axis at upper-right with (D)INDIV-TD (dynamic individual tendencies) above it, PROJ-DY (projectional dynamics) below, and PER-TR (perceived transformation) on the right margin. Structural argument: the two dashed edges (COS-ASN → INFO-DE and T-C-IMP → DYM-F) are exactly the load-bearing conditionals television-documentation could supply and currently does not. Without visual documentation, cosmic-assignment reaches information-descent only conditionally, and time-continuum-implications reaches dynamic-functionalism only conditionally. The route from PHY-U-C (subject's left margin) across to PER-TR (partner's right margin) via PRI-INFO → COS-ASN → ACT-TR is the *full* documentation route — and the three axes need the dashed conditionals to actually hold, or the perceived-transformation on the partner-right never receives the physical-universe-context the subject side carries. Mingus's neglect is structurally this: the dashed edges were never held.",
+  "description": "Triple-crossing diagram in R(AS)CM(I)-16, the section on television's failure to document creative music. The prose above names the structural stake: 'the failure of American television to responsibly present creative music will one day be seen as one of the great tragedies of this time period — for it must be understood that the neglect of artists like Charles Mingus is more than a simple oversight: what we could have learned from visual documentation of his work cannot be replaced.' The triple-crossing diagrams what principle-information is structurally meeting when television-documentation is at stake: (C)PRI-INFO (the concept of principle information — the form's intellectually presented working content) crossed with COS-ASN (cosmic assignment — the form's cosmic/spiritual remit) crossed with ACT-TR (actual transformation). PRI-INFO sits at upper-left with the subject-arrow; (R)PHY-U-C (the reality of physical universe context) and T-C-IMP (time continuum implications) branch from the stretch between PRI-INFO and COS-ASN, and (R)INFO-DE (the reality of information degrees) hangs from COS-ASN by a *dashed* line, amplifying some aspect of COS-ASN. From T-C-IMP a line runs through SOC-RT (social reality) to PER-TR (perceived transformation), and DYM-F (dynamic functionalism) hangs from the SOC-RT–PER-TR stretch by a second *dashed* line. COS-ASN sits at the top-center as the middle-axis bridging hub. ACT-TR is partner-axis at upper-right; (D)INDIV-TD (the dynamics of individual tendencies) and PROJ-DY (projectional dynamics) branch from the stretch between COS-ASN and ACT-TR.",
   "terms": [
     { "termId": "pri-info", "isSubject": true, "prefix": "c" },
     { "termId": "cos-asn" },
@@ -23,14 +23,13 @@
   "relationships": [
     { "from": "pri-info", "to": "cos-asn", "type": "solid" },
     { "from": "cos-asn", "to": "act-tr", "type": "solid" },
-    { "from": "pri-info", "to": "phy-u-c", "type": "solid" },
-    { "from": "pri-info", "to": "info-de", "type": "solid" },
     { "from": "cos-asn", "to": "info-de", "type": "dashed" },
-    { "from": "info-de", "to": "soc-rt", "type": "solid" },
-    { "from": "soc-rt", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "dym-f", "type": "dashed" },
-    { "from": "indiv-td", "to": "act-tr", "type": "solid" },
+    { "from": "t-c-imp", "to": "soc-rt", "type": "solid" },
+    { "from": "act-tr", "to": "indiv-td", "type": "solid" },
     { "from": "act-tr", "to": "proj-dy", "type": "solid" },
-    { "from": "proj-dy", "to": "per-tr", "type": "solid" }
+    { "from": "cos-asn", "to": "phy-u-c", "type": "solid" },
+    { "from": "cos-asn", "to": "t-c-imp", "type": "solid" },
+    { "from": "soc-rt", "to": "per-tr", "type": "solid" },
+    { "from": "per-tr", "to": "dym-f", "type": "dashed" }
   ]
 }

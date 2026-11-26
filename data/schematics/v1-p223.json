@@ -6,7 +6,7 @@
   "subject": "cul-tf-s",
   "title": "CUL.TF.S.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in WAC-21, on the page where Braxton describes how Debussy in Europe and Harrison in America actualized cross-sectional extension by adopting non-western aesthetic material into western methodological form, and where he argues 'the future of a given extension is directly related to whether or not that extension can absorb the multi-informational and vibrational demands that relate to composite continuance.' (C)CUL-TF-S (cultural transfer shifts) is crossed with C-CONT (composite continuance): the question is what cultural transfer shifts have to do with composite continuance — i.e., whether borrowed cross-cultural material can hold the line of a tradition rather than fragmenting it. CUL-TF-S outputs to TRS (transition) and C-CONT (the crossing). C-CONT then feeds INFO-CON (information convergence) → PART (participation). A separate chain runs (R)ATTN (the reality of attraction) ← RE-ST (restructuralism), with ATTN branching to AFL-DY (affinity dynamics) and PROJ-DY (projectional dynamics) → T-C-IMP (time continuum implications). Structural argument: cultural transfer shifts produce composite continuance only via information convergence into participation — meaning Debussy/Harrison-style borrowings only count as composite-continuance if they make their way into actual participatory structures. The restructuralism→attraction sub-chain runs in parallel, producing affinity-dynamics and projectional-dynamics → time-continuum implications, but these are not on the cultural-transfer-shift main line. The diagram thus stages exactly the danger Braxton names: cross-sectional extension can register as restructuralism (interesting) without actually feeding composite continuance (necessary).",
+  "description": "Diagram in WAC-21, on the page where Braxton points to the effects of composers like Debussy in Europe or Harrison in America for understanding how actual cross-sectional extension would actualize, and where he argues 'the future of a given extension is directly related to whether or not that extension can absorb the multi-informational and vibrational demands that relate to composite continuance.' (C)CUL-TF-S (cultural transfer shifts) is crossed with C-CONT (composite continuance): the question is what cultural transfer shifts have to do with composite continuance — i.e., whether borrowed cross-cultural material can hold the line of a tradition rather than fragmenting it. CUL-TF-S outputs to TRS (transition) and C-CONT (the crossing). TRS then feeds INFO-CON (information convergence) → PROJ-DY (projectional dynamics). PROJ-DY branches to P-PART → T-C-IMP (time continuum implications) and to (R)ATTN (the reality of attraction) → AFL-DY (affinity dynamics) → RE-ST (restructuralism).",
   "terms": [
     {
       "termId": "cul-tf-s",
@@ -39,7 +39,7 @@
       "termId": "t-c-imp"
     },
     {
-      "termId": "part"
+      "termId": "p-part"
     }
   ],
   "relationships": [
@@ -54,33 +54,38 @@
       "type": "solid"
     },
     {
-      "from": "c-cont",
-      "to": "info-con",
-      "type": "solid"
-    },
-    {
-      "from": "re-st",
-      "to": "attn",
-      "type": "solid"
-    },
-    {
       "from": "attn",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "attn",
+      "from": "proj-dy",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "info-con",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
       "to": "proj-dy",
       "type": "solid"
     },
     {
       "from": "proj-dy",
+      "to": "p-part",
+      "type": "solid"
+    },
+    {
+      "from": "p-part",
       "to": "t-c-imp",
       "type": "solid"
     },
     {
-      "from": "info-con",
-      "to": "part",
+      "from": "afl-dy",
+      "to": "re-st",
       "type": "solid"
     }
   ]

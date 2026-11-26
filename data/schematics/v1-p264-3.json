@@ -6,7 +6,7 @@
   "subject": "alt-f",
   "title": "ALT.F.------DEC.",
   "type": "crossing",
-  "description": "Diagram in CMBA-20, the third on book p264. ALT-F (alternative functionalism) is crossed with DEC (decentralization). The structural claim is sharp: alternative functionalism *only* becomes operative through decentralization — Braxton's diagrammatic statement that no alternative can survive being centralized into the dominant interpretive apparatus. ALT-F outputs to DEC (the crossing) and TH-CONT (thrust continuance). TH-CONT → EXP-DYM (expansion dynamics) → (C)INFO-DOC (the concept of information documentation). INFO-DOC branches to MT-IF-DB (multi-informational degree basis) and POL-SIGN (political significance) → PROG-EXT-FT (progressional extended functionalism). Structural argument: alternative functionalism's productive output runs alternative-functionalism → thrust-continuance → expansion-dynamics → (concept of) information-documentation → political-significance → progressional-extended-functionalism — a six-stage chain where each step is gated by the previous. The (c) on information-documentation is critical: this is the *concept* of documentation, not real documentation, which is what allows the alternative to remain alternative. The branch from information-documentation to multi-informational-degree-basis runs in parallel. Read against the section: this is Braxton's diagrammatic specification of why decentralization is the structural requirement for alternative survival — centralization would turn the (c)info-doc node into a (r)info-doc node, and the chain would terminate as institutional capture rather than progressional extended functionalism.",
+  "description": "Diagram in CMBA-20, the third on book p264. ALT-F (alternative functionalism) is crossed with DEC (decentralization). ALT-F outputs to DEC (the crossing) and TH-CONT (thrust continuance). TH-CONT → EXP-DYM (expansion dynamics) → (C)INFO-DE (the concept of information degrees). INFO-DE branches to MT-IF-DB (multi-informational degree basis) and POL-SIGN (political significance) → PROG-EXT-FT (progressional extended functionalism). Structural argument: alternative functionalism's productive output runs alternative-functionalism → thrust-continuance → expansion-dynamics → (concept of) information-degrees → political-significance → progressional-extended-functionalism — a six-stage chain where each step is gated by the previous. The (c) on information-degrees is critical: this is the *concept* of information degrees, not their reality, which is what allows the alternative to remain alternative. The branch from information-degrees to multi-informational-degree-basis runs in parallel.",
   "terms": [
     {
       "termId": "alt-f",
@@ -25,7 +25,7 @@
       "termId": "mt-if-db"
     },
     {
-      "termId": "info-doc",
+      "termId": "info-de",
       "prefix": "c"
     },
     {
@@ -53,16 +53,16 @@
     },
     {
       "from": "exp-dym",
-      "to": "info-doc",
+      "to": "info-de",
       "type": "solid"
     },
     {
-      "from": "info-doc",
+      "from": "info-de",
       "to": "mt-if-db",
       "type": "solid"
     },
     {
-      "from": "info-doc",
+      "from": "info-de",
       "to": "pol-sign",
       "type": "solid"
     },

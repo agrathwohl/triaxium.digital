@@ -6,7 +6,7 @@
   "subject": "rt-op",
   "title": "RT.OP.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in the Creative Music From the Black Aesthetic section (CMBA-4), opening Braxton's argument that the transition of black creativity in the 1960s 'must be looked at from several necessary perspectives' — the absorption of western functionalism, the recognition that western functionalism was vibrationally insufficient, and the social-reality conditions of the sixties. (C)RT-OP (reality options) is crossed with SOC-RT (social reality): the question is what reality-options actually look like for post-Parker black creative musicians when crossed with the social-reality of mid-century America. Two upstream feeds: SPT-GH (spiritual growth) → RT-OP, and SOC-RT → RT-OP. SOC-RT also branches independently to SF-RZ (self-realization) → PART (participation). RT-OP outputs to PROG-CONT (progressional continuance), which then branches to TRS (transition) and POST (postulation) → INDIV-DY (individual dynamics). Structural argument: reality options are co-constituted by spiritual growth *and* social reality — not just by social pressure. Social reality also feeds an independent self-realization → participation chain, meaning the social-reality input is not exhausted by its contribution to reality options. Progressional continuance then bifurcates into transition and postulation (with postulation producing individual dynamics), capturing the section's thesis that 1960s black creativity simultaneously required transitional methodology *and* postulational individual development.",
+  "description": "Diagram in the Creative Music From the Black Aesthetic section (CMBA-4). (C)RT-OP (reality options) is crossed with SOC-RT (social reality): the question is what reality-options actually look like for post-Parker black creative musicians when crossed with the social-reality of mid-century America. RT-OP outputs to SOC-RT (the crossing), SPT-GH (spiritual growth), PROG-CONT (progressional continuance) → TRS (transition), and PART (participation). PART carries INDIV-DY (individual dynamics) → POST (postulation), which branches to SF-RZ (self-realization) and SPT-DYM (spiritual dynamics).",
   "terms": [
     { "termId": "rt-op", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt" },
@@ -16,16 +16,18 @@
     { "termId": "prog-cont" },
     { "termId": "trs" },
     { "termId": "post" },
-    { "termId": "indiv-dy" }
+    { "termId": "indiv-dy" },
+    { "termId": "spt-dym" }
   ],
   "relationships": [
-    { "from": "spt-gh", "to": "rt-op", "type": "solid" },
-    { "from": "soc-rt", "to": "rt-op", "type": "solid" },
-    { "from": "soc-rt", "to": "sf-rz", "type": "solid" },
-    { "from": "sf-rz", "to": "part", "type": "solid" },
+    { "from": "rt-op", "to": "spt-gh", "type": "solid" },
+    { "from": "rt-op", "to": "soc-rt", "type": "solid" },
     { "from": "rt-op", "to": "prog-cont", "type": "solid" },
     { "from": "prog-cont", "to": "trs", "type": "solid" },
-    { "from": "prog-cont", "to": "post", "type": "solid" },
-    { "from": "post", "to": "indiv-dy", "type": "solid" }
+    { "from": "indiv-dy", "to": "post", "type": "solid" },
+    { "from": "rt-op", "to": "part", "type": "solid" },
+    { "from": "part", "to": "indiv-dy", "type": "solid" },
+    { "from": "post", "to": "sf-rz", "type": "solid" },
+    { "from": "post", "to": "spt-dym", "type": "solid" }
   ]
 }

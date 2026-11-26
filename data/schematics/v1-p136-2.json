@@ -6,7 +6,7 @@
   "subject": "wo-exp-pri",
   "title": "WO.EXP.PRI.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-40, paired with v1-p136-1. (C)WO-EXP-PRI (world expansion principle) is crossed with PROG-CONT (progressional continuance): the question is what world-expansion (the basic principle by which a culture extends its reach) means when crossed with the progressional continuance of black creativity, given that AFI(1) — the transformation principle introduced on this very page — has just been named. WO-EXP-PRI outputs to PROG-CONT (the crossing partner) → CULT-SOLD (culture solidification), and to TR-INFO (trans-information), MT-INFO (multi-information). TR-INFO branches to ALT-C-PG (alternative composite progressionalism) and SPT-DY (spiritual dynamics). MT-INFO branches to TRS (transition) and ATTN (attraction). TRS solid-links to AFL (affinity alignment) and PART (participation). The structural claim: world-expansion crossed with progressional continuance requires *both* trans-information producing alternative composite progressionalism *and* multi-information producing transition into participation — with spiritual dynamics as a side-branch from trans-information. Read against AFI(1)'s introduction: this is the diagrammatic specification of what *transformation-grade* world expansion would have to operate through — exactly the spiritual-dynamics-grounded alternative composite progressionalism that AFI(1) demands.",
+  "description": "Diagram in T(AF)M-40, paired with v1-p136-1. (C)WO-EXP-PRI (world expansion principle) is crossed with PROG-CONT (progressional continuance): the question is what world-expansion means when crossed with the progressional continuance of black creativity, given that AFI(1) — the transformation principle introduced in the preceding passage — has just been named. Besides the main line to PROG-CONT, WO-EXP-PRI branches to TR-INFO (trans-information) → SPT-DY (spiritual dynamics), and to TRS (transition). TRS branches to ALT-C-PG (alternative composite progressionalism), to MT-INFO (multi-information) → ATTN (attraction), and to CULT-SOLD (culture solidification) → AFL (affinity alignment) → PART (participation). The structural claim: world-expansion crossed with progressional continuance runs *both* through trans-information into spiritual dynamics *and* through transition, which produces alternative composite progressionalism, multi-information, and a culture-solidification chain into participation.",
   "terms": [
     {
       "termId": "wo-exp-pri",
@@ -51,28 +51,8 @@
       "type": "solid"
     },
     {
-      "from": "prog-cont",
-      "to": "cult-sold",
-      "type": "solid"
-    },
-    {
       "from": "wo-exp-pri",
       "to": "tr-info",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "alt-c-pg",
-      "type": "solid"
-    },
-    {
-      "from": "wo-exp-pri",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "trs",
       "type": "solid"
     },
     {
@@ -81,18 +61,38 @@
       "type": "solid"
     },
     {
+      "from": "tr-info",
+      "to": "spt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "trs",
+      "type": "solid"
+    },
+    {
       "from": "trs",
+      "to": "alt-c-pg",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
       "to": "afl",
       "type": "solid"
     },
     {
-      "from": "trs",
+      "from": "afl",
       "to": "part",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "spt-dy",
       "type": "solid"
     }
   ]

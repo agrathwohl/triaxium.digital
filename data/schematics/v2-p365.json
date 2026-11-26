@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "POL.DYM.------WO.EXP.PRI.",
   "type": "hub-spoke",
-  "description": "Diagram opening R(AS)CM(II)-9 \u2014 the section on cultural-information focus as the structural ground beneath the present reality of creative music. The prose immediately above identifies the structural target: 'It is important that this idea is challenged \u2014 because the present situation we are now living in has not simply come from nowhere.' The crossing diagrams how political-dynamics structurally meets world-expansion-principle to produce the present-situation the prose names: (C)POL-DYM (the concept of political dynamics) crossed with WO-EXP-PRI (world expansion principle). POL-DYM sits on the left with the subject-arrow; LG-EXT (logical extension) sits at the left and STF (source transfer) anchors the left-margin as the subject-side leftward output. TRS (transition) sits centrally and ACC-FT (accelerated functionalism) at the upper-right with SOC-RT-DY (social-reality dynamics) on the right margin as the partner-side upper chain. SPT-DYM (spectacle dynamics) sits at the bottom-center as the bridging hub; PRI-INFO (principle information) anchors the bottom-left and WO-EXP-PRI is the partner-axis at lower-right. Structural argument: when political-dynamics is crossed with world-expansion-principle, the upper diagonal TRS \u2192 ACC-FT \u2192 SOC-RT-DY is the *cultural-information-focus route* \u2014 transition routes through accelerated-functionalism into social-reality-dynamics on the partner-side. This is the route that supplies the present-situation: political-dynamics's transformation reaches social-reality-dynamics by way of accelerated-functionalism that the receiving culture has built up over time. The leftward LG-EXT \u2192 STF output is what political-dynamics produces on its own \u2014 logical-extension into source-transfer, the form's own working chain. SPT-DYM at the bridging-bottom is the load-bearing hub: spectacle-dynamics routes PRI-INFO \u2190 SPT-DYM \u2192 WO-EXP-PRI, supplying principle-information on the subject-bottom-left and the world-expansion-principle on the partner-bottom-right. The 'present situation' the prose names is exactly this configuration: political-dynamics's spectacle-dynamics hub converts principle-information into world-expansion-principle without ever crossing the upper diagonal's transformation route, leaving the subject's working chain on its own.",
+  "description": "Diagram opening R(AS)CM(II)-9 \u2014 the section on cultural-information focus as the structural ground beneath the present reality of creative music. The prose immediately above identifies the structural target: 'It is important that this idea is challenged \u2014 because the present situation we are now living in has not simply come from nowhere.' The crossing diagrams how political-dynamics structurally meets world-expansion-principle to produce the present-situation the prose names: (C)POL-DYM (the concept of political dynamics) crossed with WO-EXP-PRI (world expansion principle). POL-DYM sits on the left with the subject-arrow; STF (source transfer) branches from the main line and runs to the left margin; LG-EXT (logical extension) and PRI-INFO (principle information) branch from STF, and SPT-DYM (spiritual dynamics) from PRI-INFO. TRS (transition) rises from the main line; SOC-RT-DY (social-reality dynamics) branches from TRS, and ACC-FT (accelerated functionalism) from SOC-RT-DY. WO-EXP-PRI is the partner-axis at lower-right.",
   "terms": [
     {
       "termId": "pol-dym",
@@ -46,11 +46,6 @@
     },
     {
       "from": "pol-dym",
-      "to": "lg-ext",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dym",
       "to": "trs",
       "type": "solid"
     },
@@ -60,28 +55,28 @@
       "type": "solid"
     },
     {
-      "from": "trs",
-      "to": "acc-ft",
-      "type": "solid"
-    },
-    {
       "from": "pol-dym",
       "to": "stf",
       "type": "solid"
     },
     {
-      "from": "pol-dym",
+      "from": "pri-info",
       "to": "spt-dym",
       "type": "solid"
     },
     {
-      "from": "spt-dym",
-      "to": "pri-info",
+      "from": "stf",
+      "to": "lg-ext",
       "type": "solid"
     },
     {
-      "from": "spt-dym",
-      "to": "wo-exp-pri",
+      "from": "soc-rt-dy",
+      "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "stf",
+      "to": "pri-info",
       "type": "solid"
     }
   ]

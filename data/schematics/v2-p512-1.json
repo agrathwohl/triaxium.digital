@@ -6,7 +6,7 @@
   "subject": "vt-u-pt",
   "title": "VT.U.PT.------POST.",
   "type": "hub-spoke",
-  "description": "First of two diagrams in MP(II)-30, the section on energy, political functionalism, and the coming change cycle. The prose immediately above the diagram names what the crossing actually does: 'every creative projection has insight as to the actualness of political functionalism. To view the nature underlying the coming change cycle is to view what factors are forming in both actual and vibrational (dynamic) terms, as well as how those factors relate to actual policy.' The crossing diagrams how the vibrational-universe particulars meet postulation in that policy-and-vibration relationship: VT-U-PT (vibrational-universe particulars \u2014 what creativity's vibrational dimension actually consists of) is crossed with POST (postulation \u2014 what political functionalism puts forward as its working claims). VT-U-PT sits centrally with the subject-arrow; A-PR (all-purpose) rises above and WO-EXP-PRI (world expansion principle) anchors the left margin as the subject-side upper output. CULT-SOLD (culture solidification) sits below VT-U-PT as the subject's central hub, with UNI-PI (universal-particular implication) at the bottom-left and AF-NT (affinity nature) below CULT-SOLD as the subject's downward outputs. POST sits at the upper-right as partner-axis; AFL-DY (affinity dynamics) and INDIV-TD (individual tendencies) hang on the right as partner-side outputs. Structural argument: when vibrational-universe particulars are crossed with political postulation, the upper diagonal A-PR \u2192 POST is the *insight-route* the prose names \u2014 all-purpose is exactly the edge that lets creative-vibrational-particulars deliver insight into policy. The subject's WO-EXP-PRI \u2192 UNI-PI \u2192 CULT-SOLD lower chain is what vibrational-universe-particulars produces on its own when the diagonal is held \u2014 universal-particular implication routes through culture-solidification into affinity-nature. The partner's AFL-DY \u2192 INDIV-TD chain is what postulation produces on its own. The crossing's *only* edge that connects the two \u2014 A-PR \u2192 POST at the top \u2014 is the load-bearing diagonal: without it, postulation hands the policy decisions over to affinity-dynamics ungrounded by vibrational-particulars, and the energy crisis the next prose section names becomes politics-as-usual.",
+  "description": "First of two diagrams in MP(II)-30, the section on energy, political functionalism, and the coming change cycle. The prose immediately above the diagram names what the crossing actually does: 'every creative projection has insight as to the actualness of political functionalism. To view the nature underlying the coming change cycle is to view what factors are forming in both actual and vibrational (dynamic) terms, as well as how those factors relate to actual policy.' The crossing diagrams how the vibrational-universe particulars meet postulation in that policy-and-vibration relationship: VT-U-PT (vibrational-universe particulars \u2014 what creativity's vibrational dimension actually consists of) is crossed with POST (postulation \u2014 what political functionalism puts forward as its working claims). VT-U-PT sits centrally with the subject-arrow; A-PR (all-purpose) rises from the main line, WO-EXP-PRI (world expansion principle) branches from the A-PR line to the left margin, and UNI-PI drops from the WO-EXP-PRI line to the bottom-left. AF-NT (affinity nature) drops from the main line to the bottom, and CULT-SOLD (culture solidification) branches from the AF-NT line. POST sits at the upper-right as partner-axis; AFL-DY (affinity dynamics) branches from the main line to the right, and INDIV-TD (individual tendencies) branches from the AFL-DY line.",
   "terms": [
     {
       "termId": "vt-u-pt",
@@ -49,42 +49,32 @@
       "type": "solid"
     },
     {
-      "from": "a-pr",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "vt-u-pt",
-      "to": "wo-exp-pri",
-      "type": "solid"
-    },
-    {
       "from": "wo-exp-pri",
       "to": "uni-pi",
       "type": "solid"
     },
     {
-      "from": "vt-u-pt",
-      "to": "cult-sold",
+      "from": "a-pr",
+      "to": "wo-exp-pri",
       "type": "solid"
     },
     {
-      "from": "cult-sold",
+      "from": "vt-u-pt",
       "to": "af-nt",
       "type": "solid"
     },
     {
-      "from": "uni-pi",
+      "from": "af-nt",
       "to": "cult-sold",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "vt-u-pt",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "afl-dy",
       "to": "indiv-td",
       "type": "solid"
     }

@@ -1,12 +1,12 @@
 {
   "id": "v2-p79",
   "volume": 2,
-  "section": "AF(D)-7",
+  "section": "(AF)D-7",
   "page": 79,
   "subject": "vt-dy",
   "title": "VT.DY.------WO.EXT.PRI.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-7 (Affinity Dynamics, Level One), on the page where Braxton argues that transfer shifts are 'natural' (or unnatural) dynamics manifested on the planet — registered in three things: (1) different types of beings in society, (2) the realness that culture groups perceive each other through affinity nature, (3) the progressional spread of information manifesting in mystical terms. (C)VT-DY (vibrational dynamics) is crossed with WO-EXT-PRI (world extension principle): the question is what vibrational dynamics produces when crossed with the world extension principle that Braxton positions as the cosmic-scale generative engine. The subject is fed by ACT (activism), SPT-GH (spiritual growth), and POL-DY (political dynamics). The partner WO-EXT-PRI is the structural endpoint. T-C-IMP (time continuum implications) is the central convergence hub, with COS-P (cosmic particulars) and PROG-CONT (progressional continuance) feeding it from above. TR-INFO (trans-information) and MOT-DY (motivation dynamics) form the lower output chain. Structural argument: vibrational dynamics reaches world-expansion only via the time-continuum-implications central hub, fed by cosmic-particulars and progressional-continuance. The transfer-shift framework requires the time-continuum and cosmic-scale convergence; vibrational dynamics alone is structurally insufficient.",
+  "description": "Diagram in AF(D)-7 (Affinity Dynamics, Level One), on the page where Braxton argues that transfer shifts can be viewed with respect to the 'natural' (or unnatural) dynamics manifested on the planet — registered in three things: (1) different types of beings in society, (2) physical universe areas on the planet coloring the affinity nature underlying how information is perceived, (3) the progressional spread of information manifesting in mystical terms. (C)VT-DY (vibrational dynamics) is crossed with WO-EXT-PRI: the question is what vibrational dynamics produces when crossed with WO-EXT-PRI. The partner WO-EXT-PRI is the structural endpoint. COS-P (cosmic particulars) branches from the main line and carries two lines: SPT-GH (spiritual growth), which carries ACT (activism), and PROG-CONT (progressional continuance), which leads to T-C-IMP (time continuum implications). From T-C-IMP the chain runs down through TR-INFO (trans-information) and POL-DY (political dynamics) to MOT-DY.",
   "terms": [
     { "termId": "vt-dy", "isSubject": true, "prefix": "c" },
     { "termId": "wo-ext-pri" },
@@ -17,17 +17,17 @@
     { "termId": "cos-p" },
     { "termId": "prog-cont" },
     { "termId": "tr-info" },
-    { "termId": "mdt-dy" }
+    { "termId": "mot-dy" }
   ],
   "relationships": [
-    { "from": "act", "to": "vt-dy", "type": "solid" },
-    { "from": "spt-gh", "to": "vt-dy", "type": "solid" },
-    { "from": "pol-dym", "to": "vt-dy", "type": "solid" },
-    { "from": "vt-dy", "to": "t-c-imp", "type": "solid" },
-    { "from": "cos-p", "to": "t-c-imp", "type": "solid" },
     { "from": "prog-cont", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "wo-ext-pri", "type": "solid" },
     { "from": "t-c-imp", "to": "tr-info", "type": "solid" },
-    { "from": "tr-info", "to": "mdt-dy", "type": "solid" }
+    { "from": "vt-dy", "to": "wo-ext-pri", "type": "solid" },
+    { "from": "vt-dy", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "spt-gh", "type": "solid" },
+    { "from": "spt-gh", "to": "act", "type": "solid" },
+    { "from": "cos-p", "to": "prog-cont", "type": "solid" },
+    { "from": "tr-info", "to": "pol-dym", "type": "solid" },
+    { "from": "pol-dym", "to": "mot-dy", "type": "solid" }
   ]
 }

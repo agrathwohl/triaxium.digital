@@ -6,15 +6,12 @@
   "subject": "ist-s-algn",
   "title": "IST.S.ALGN.------MT.INFO.",
   "type": "crossing",
-  "description": "First of two diagrams in CS-14 (Composite Science, section 14). The following prose discusses how 'the affinity adaptation of western science has moved to advance the nature of aspect-essence perception dynamics.' The crossing diagrams how isolated systematic alignment structurally meets multi-information at the aspect-essence-perception scale: (C)IST-S-ALGN (the concept of isolated systematic alignment) crossed with MT-INFO (multi-information). IST-S-ALGN sits on the left with the subject-arrow; MT-INTR (multiple interpretation) at upper-center and (P)RE-DIFF (physical-universe redefinition difference) at upper-right with T-C-IMP (time continuum implications) below as partner-side upper outputs. INFO-DY (information dynamics) at center-right with IF-ST-DY (infra-structure dynamics) and DYM-F (dynamic functionalism) at lower-right as the partner-side downward chain. EXP-DY (exposure dynamics) sits centrally, SPTC-D (spectacle diversion) at lower-left, MT-INFO-DB (multi-information feedback double-bind) at lower-center. Structural argument: the upper diagonal MT-INTR -> (P)RE-DIFF -> T-C-IMP is the western-science capture route - multiple-interpretation routes through physical redefinition-difference into time-continuum-implications. The form's isolated systematic alignment reaches multi-information only when EXP-DY's central bridging hub holds open against the partner-axis's downward chain through INFO-DY -> IF-ST-DY -> DYM-F.",
+  "description": "First of two diagrams in CS-14 (Creativity and Science, section 14). The following prose discusses how 'the affinity adaptation of western science has moved to advance the nature of aspect-essence perception dynamics.' The crossing diagrams how isolated systematic alignment structurally meets multi-information at the aspect-essence-perception scale: (C)IST-S-ALGN (the concept of isolated systematic alignment) crossed with MT-INFO (multi-information). IST-S-ALGN sits on the left with the subject-arrow; the main line ends at MT-INTR (multiple interpretation) at upper-center \u2014 no label MT-INFO is drawn. SPTC-D (spectacle diversion) drops from the main line, and INFO-DY (information dynamics) branches from the main line to the right, with (P)RE-DIFF (the point of idea completion of redefinitions) branching from INFO-DY and T-C-IMP (time continuum implications) from RE-DIFF. EXP-DY (expansion dynamics) also branches from INFO-DY, with IF-ST-DY (infra-structure dynamics) branching from EXP-DY, MT-INFO-DB from IF-ST-DY, and DYM-F (dynamic functionalism) from MT-INFO-DB.",
   "terms": [
     {
       "termId": "ist-s-algn",
       "isSubject": true,
       "prefix": "c"
-    },
-    {
-      "termId": "mt-info"
     },
     {
       "termId": "mt-intr"
@@ -48,17 +45,7 @@
   "relationships": [
     {
       "from": "ist-s-algn",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
-      "from": "ist-s-algn",
       "to": "mt-intr",
-      "type": "solid"
-    },
-    {
-      "from": "mt-intr",
-      "to": "re-dif",
       "type": "solid"
     },
     {
@@ -67,33 +54,38 @@
       "type": "solid"
     },
     {
-      "from": "mt-intr",
+      "from": "ist-s-algn",
       "to": "info-dy",
       "type": "solid"
     },
     {
       "from": "info-dy",
-      "to": "if-st-dy",
+      "to": "re-dif",
       "type": "solid"
     },
     {
       "from": "info-dy",
-      "to": "dym-f",
-      "type": "solid"
-    },
-    {
-      "from": "ist-s-algn",
       "to": "exp-dy",
       "type": "solid"
     },
     {
       "from": "exp-dy",
-      "to": "sptc-d",
+      "to": "if-st-dy",
       "type": "solid"
     },
     {
-      "from": "exp-dy",
+      "from": "if-st-dy",
       "to": "mt-info-db",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info-db",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "ist-s-algn",
+      "to": "sptc-d",
       "type": "solid"
     }
   ]

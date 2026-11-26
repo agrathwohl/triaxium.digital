@@ -6,7 +6,7 @@
   "subject": "wo-exp-pri",
   "title": "WO.EXP.PRI.------VT.PLT.",
   "type": "crossing",
-  "description": "First of two diagrams in TRF(CW)-28. The prose below identifies the structural target: 'Quite possibly the best way to understand the significance of bi-aitionalism - as a unification, spiritual and ethical insight factor - might be to examine the post-World War Two juncture in American history.' The crossing diagrams how world-exposure principle structurally meets vibrational-plateau at the bi-aitionalism scale: WO-EXP-PRI crossed with VT-PLT. WO-EXP-PRI sits at left with the subject-arrow; VT-PLT at center-lower-right as partner-axis. INFO-FM (information forum), PRI-INFO (principle information), SG (source-generation) upper chain. INFO-AF-BS (information-affinity base), ALT-DEF (alternative definition), ALT-FT (alternative functionalism) on the right. TR (transformation) lower-left, UNF-PI (unification (positively intended)) lower-center, POL-ACT (political activism) lower-right.",
+  "description": "First of two diagrams in TRF(CW)-28. The prose below identifies the structural target: 'Quite possibly the best way to understand the significance of bi-aitionalism - as a unification, spiritual and ethical insight factor - might be to examine the post-World War Two juncture in American history.' The crossing diagrams how world expansion principle structurally meets vibrational platform at the bi-aitionalism scale: WO-EXP-PRI crossed with VT-PLT. WO-EXP-PRI sits at left with the subject-arrow; VT-PLT at center-lower-right as partner-axis. The upper branch passes INFO-FM (information forum) on its way to PRI-INFO (principle information); INFO-AF-BS (information affinity basis) branches from it at INFO-FM, and SG (source initiation) branches from INFO-AF-BS. ALT-FT (alternative functionalism) runs right from the main line and carries ALT-DEF (alternative definitions) and POL-ACT. TR (transformation) lower-left, UNF-PI (unification (positively intended)) lower-center, POL-ACT (political activism) lower-right.",
   "terms": [
     {
       "termId": "wo-exp-pri",
@@ -60,38 +60,38 @@
       "type": "solid"
     },
     {
-      "from": "pri-info",
-      "to": "sg",
-      "type": "solid"
-    },
-    {
-      "from": "pri-info",
-      "to": "info-af-bs",
-      "type": "solid"
-    },
-    {
-      "from": "info-af-bs",
-      "to": "alt-def",
-      "type": "solid"
-    },
-    {
-      "from": "alt-def",
-      "to": "alt-ft",
-      "type": "solid"
-    },
-    {
       "from": "wo-exp-pri",
       "to": "tr",
       "type": "solid"
     },
     {
-      "from": "vt-plt",
-      "to": "unf-pi",
+      "from": "info-fm",
+      "to": "info-af-bs",
       "type": "solid"
     },
     {
-      "from": "vt-plt",
+      "from": "info-af-bs",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "alt-ft",
+      "type": "solid"
+    },
+    {
+      "from": "alt-ft",
+      "to": "alt-def",
+      "type": "solid"
+    },
+    {
+      "from": "alt-ft",
       "to": "pol-act",
+      "type": "solid"
+    },
+    {
+      "from": "tr",
+      "to": "unf-pi",
       "type": "solid"
     }
   ]

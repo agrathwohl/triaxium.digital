@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "(R)POL.DYM.------TRS.",
   "type": "crossing",
-  "description": "Diagram in MID-W-3, paired with v1-p409-1. (R)POL-DYM (the reality of political dynamics) is crossed with TRS (transition). (R)POL-DYM is fed by RE-ST (restructuralism), and outputs to TRS. CUL-TF-S (cultural transfer shifts) → TRS, and DEC (decentralization) → TRS — meaning transition is over-fed by three independent upstreams (real political dynamics, cultural transfer shifts, decentralization). TRS then outputs to ALT-F (alternative functionalism), GRAD (gradualism) → DOC (documentation), and MT-TFS-AT (multi-transfer-shift activity). Structural argument: real political dynamics produces transition only as one of three parallel inputs — cultural transfer shifts and decentralization being the other two. Once at transition, the productive outputs split into alternative functionalism (the desired output), gradualism → documentation (the gradualist capture chain), and multi-transfer-shift activity. The diagram thus diagrams the structural opportunity of the midwest movement Braxton describes: the AACM-like collective formations *added* decentralization as a third independent feed into transition, alongside the political-dynamics and cultural-transfer-shifts feeds — meaning the midwest's structural innovation was to make transition resilient against the gradualism→documentation capture chain by ensuring that decentralization remained operative as an alternative-functionalism upstream.",
+  "description": "Diagram in MID-W-3, paired with v1-p409-1. (R)POL-DYM (the reality of political dynamics) is crossed with TRS (transition). ALT-F (alternative functionalism) branches from the main line; CUL-TF-S (cultural transfer shifts) branches from ALT-F and opens into RE-ST (restructuralism), and GRAD (gradualism) branches from ALT-F and opens into DOC (documentation). DEC (decentralization) branches from the main line and opens into MT-TFS-AT (multi-transfer-shift activity).",
   "terms": [
     { "termId": "pol-dym", "isSubject": true, "prefix": "r" },
     { "termId": "re-st" },
@@ -19,13 +19,13 @@
     { "termId": "mt-tfs-at" }
   ],
   "relationships": [
-    { "from": "re-st", "to": "pol-dym", "type": "solid" },
     { "from": "pol-dym", "to": "trs", "type": "solid" },
-    { "from": "cul-tf-s", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "alt-f", "type": "solid" },
-    { "from": "trs", "to": "grad", "type": "solid" },
     { "from": "grad", "to": "doc", "type": "solid" },
-    { "from": "dec", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "mt-tfs-at", "type": "solid" }
+    { "from": "pol-dym", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "cul-tf-s", "type": "solid" },
+    { "from": "cul-tf-s", "to": "re-st", "type": "solid" },
+    { "from": "alt-f", "to": "grad", "type": "solid" },
+    { "from": "pol-dym", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "mt-tfs-at", "type": "solid" }
   ]
 }

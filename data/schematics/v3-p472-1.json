@@ -6,7 +6,7 @@
   "subject": "expn",
   "title": "EXPN.------PROG.CONT.",
   "type": "crossing",
-  "description": "First of two diagrams in TRF(II)-8. The prose above identifies: 'transformation, by its very definition, functions as a factor to reshape a given vibrational or physical universe situation. The realness of this phenomenon will comment on the changing nature of political and social dynamics.' The crossing diagrams how expansionism structurally meets progressional-continuance at the transformational-reshape scale: EXPN (expansionism) crossed with PROG-CONT (progressional continuance). EXPN sits at left with the subject-arrow; PROG-CONT at upper-right as partner-axis. ALT-FT (alternative functionalism) upper-left, DYM-FT (dynamic functionalism) upper-center, ACT (activism) center as upper bridging chain. INFO-DY (information dynamics), MT-INFO (multi-information), PER-DY (perception dynamics) on the right as partner outputs. APL-DT (application dictates) center, IST-F-ACT (isolated-focus activism) lower-right. (R)INT (reality of intention), ECO-DY (economic dynamics), POL-P (political policies) at lower-left as subject's downward chain. Structural argument: the upper chain ALT-FT -> DYM-FT -> ACT -> PROG-CONT routes the form's expansionism through alternative-functionalism and activism into progressional-continuance.",
+  "description": "First of two diagrams in TRF(II)-8. The prose above identifies: 'transformation, by its very definition, functions as a factor to reshape a given vibrational or physical universe situation. The realness of this phenomenon will comment on the changing nature of political and social dynamics.' The crossing diagrams how EXPN structurally meets progressional-continuance at the transformational-reshape scale: EXPN crossed with PROG-CONT (progressional continuance). EXPN sits at left with the subject-arrow; PROG-CONT at upper-right as partner-axis. ACT (activism) branches from the main line at upper-left and carries ALT-FT (alternative functionalism), which carries DYM-FT (dynamic functionalism). INFO-DY (information dynamics) runs right from the main line and carries MT-INFO (multi-information), which carries PER-DY (perception dynamics). APL-DT (application dictates) center, IST-F-ACT (isolated-focus activism) lower-right. ECO-DY (economic dynamics) drops from the main line to the lower left and carries (R)INT (reality of intention) and POL-P (political policies); APL-DT rises from the POL-P line and carries IST-F-ACT.",
   "terms": [
     {
       "termId": "expn",
@@ -58,42 +58,7 @@
     },
     {
       "from": "alt-ft",
-      "to": "expn",
-      "type": "solid"
-    },
-    {
-      "from": "alt-ft",
       "to": "dym-ft",
-      "type": "solid"
-    },
-    {
-      "from": "dym-ft",
-      "to": "act",
-      "type": "solid"
-    },
-    {
-      "from": "act",
-      "to": "prog-cont",
-      "type": "solid"
-    },
-    {
-      "from": "prog-cont",
-      "to": "info-dy",
-      "type": "solid"
-    },
-    {
-      "from": "prog-cont",
-      "to": "per-dy",
-      "type": "solid"
-    },
-    {
-      "from": "per-dy",
-      "to": "mt-info",
-      "type": "solid"
-    },
-    {
-      "from": "expn",
-      "to": "apl-dt",
       "type": "solid"
     },
     {
@@ -103,17 +68,47 @@
     },
     {
       "from": "expn",
-      "to": "int",
+      "to": "act",
       "type": "solid"
     },
     {
-      "from": "int",
-      "to": "eco-dy",
+      "from": "act",
+      "to": "alt-ft",
       "type": "solid"
     },
     {
       "from": "expn",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "expn",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "eco-dy",
+      "to": "int",
+      "type": "solid"
+    },
+    {
+      "from": "eco-dy",
       "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "apl-dt",
       "type": "solid"
     }
   ]

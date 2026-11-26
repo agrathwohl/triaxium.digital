@@ -6,7 +6,7 @@
   "subject": "rc",
   "title": "RC.------VT.DY.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-14, on the page where Braxton argues that race is 'directly related to the spread of people on the physical universe level, as well as the addition of given cosmic multi-ingredients (or vibrational alignments)' — and that the *concept* of race must be carefully distinguished from any one-dimensional or hierarchical reading. (C)RC — the *concept* of race, marked with the (c) prefix to insist it is conceptual not essential — is crossed with VT-DY (vibrational dynamics). The diagram poses that race-as-concept is structurally crossed with vibrational dynamics, but only as a downstream-of-multi-factors claim. RC outputs to VT-DY (the crossing), T-C-IMP (time continuum implications), PHY-U-C (physical universe context), POL-DYM (political dynamics), and MT-DEVF (multiple diversification). VT-DY then chains: → POST (postulation) → AFL-DY (affinity dynamics) → MT-INFO (multi-information). Structural argument: the concept of race fans into five outputs, of which only one (vibrational dynamics) leads further into postulation, affinity dynamics, and multi-information. The other four (time-continuum, physical-universe context, political dynamics, multiple diversification) terminate as separate sibling outputs. The diagram thus makes Braxton's anti-essentialist point structural: race-as-concept is generative across multiple unrelated domains, and *only* its vibrational-dynamics output reaches the multi-information layer that interests him.",
+  "description": "Diagram in UPB(II)-14. In UPB(II)-10 Braxton argues that race is 'directly related to the spread of people on the physical universe level, as well as the addition of given cosmic multi-ingredients (or vibrational alignments)' — and, on the pages around this diagram, that the *concept* of race must be carefully distinguished from any one-dimensional or hierarchical reading. (C)RC — the *concept* of race, marked with the (c) prefix to insist it is conceptual not essential — is crossed with VT-DY (vibrational dynamics). The diagram poses that race-as-concept is structurally crossed with vibrational dynamics, but only as a downstream-of-multi-factors claim. Besides the main line to VT-DY, two branches leave RC. T-C-IMP (time continuum implications) carries AF-DY (affinity dynamics), which branches to POST (postulation) and MT-INFO (multi-information). PHY-U-C (physical universe context) carries MT-DEVF (multiple diversification) → POL-DY (political dynamics).",
   "terms": [
     {
       "termId": "rc",
@@ -45,12 +45,12 @@
       "type": "solid"
     },
     {
-      "from": "vt-dy",
+      "from": "afl-dy",
       "to": "post",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "t-c-imp",
       "to": "afl-dy",
       "type": "solid"
     },
@@ -70,12 +70,12 @@
       "type": "solid"
     },
     {
-      "from": "rc",
+      "from": "mt-devf",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "rc",
+      "from": "phy-u-c",
       "to": "mt-devf",
       "type": "solid"
     }

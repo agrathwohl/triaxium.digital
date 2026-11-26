@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "POL.DYM.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-24, paired with v1-p120-1. POL-DYM (political dynamics) is crossed with PROG-CONT (progressional continuance): the structural pairing the section's prose has been building toward — what does it mean to make political dynamics *continuous* with the progressional thrust of black creativity, rather than letting political dynamics merely *interrupt* progressional flow? POL-DYM is fed by EXT-FT (extended functionalism), DE-SPTL (despiritualization), and INFO-AF-B (information affinity basis), which is itself fed by INTL (intellectualism). POL-DYM outputs to MDT-DY (motivation dynamics), AF-NT (affinity nature), and PROG-CONT (the crossing partner). PROG-CONT then solid-links to T-C-IMP (time continuum implications). AF-NT branches to COS-P (cosmic particulars) and SOC-RT-P (social reality particulars). The structural argument: political dynamics is not autonomous — it is constituted *upstream* by extended-functionalism, despiritualization, and intellectualism-fed information-affinity-basis (the very combination Braxton identifies as the western philosophical apparatus). Its outputs spread into motivation dynamics and affinity nature, the latter splitting cosmic from social-reality particulars. The diagram thus stages the *constitution* of political dynamics that black creativity must contend with, and the only direct route to time-continuum implications runs through progressional continuance — not through any of the upstream constituents.",
+  "description": "Diagram in T(AF)M-24, paired with v1-p120-1. POL-DYM (political dynamics) is crossed with PROG-CONT (progressional continuance): what does it mean to make political dynamics *continuous* with the progressional thrust of black creativity, rather than letting political dynamics merely *interrupt* progressional flow? POL-DYM branches to DE-SPTL (despiritualization) → EXT-FT (extended functionalism) → INFO-AF-B (information affinity basis) → INTL (intellectualism) → MOT-DYM. Besides the main line to PROG-CONT, POL-DYM runs to T-C-IMP (time continuum implications) → COS-P (cosmic particulars) → AF-NT (affinity nature) → SOC-RT-P (social reality particulars).",
   "terms": [
     {
       "termId": "pol-dym",
@@ -28,7 +28,7 @@
       "termId": "intl"
     },
     {
-      "termId": "mdt-dy"
+      "termId": "mot-dym"
     },
     {
       "termId": "af-nt"
@@ -45,53 +45,53 @@
   ],
   "relationships": [
     {
-      "from": "ext-ft",
-      "to": "pol-dym",
-      "type": "solid"
-    },
-    {
-      "from": "de-sptl",
-      "to": "pol-dym",
-      "type": "solid"
-    },
-    {
-      "from": "info-af-b",
-      "to": "pol-dym",
-      "type": "solid"
-    },
-    {
-      "from": "intl",
-      "to": "info-af-b",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dym",
-      "to": "mdt-dy",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dym",
-      "to": "af-nt",
-      "type": "solid"
-    },
-    {
       "from": "pol-dym",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "prog-cont",
+      "from": "af-nt",
+      "to": "soc-rt-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
+      "to": "de-sptl",
+      "type": "solid"
+    },
+    {
+      "from": "de-sptl",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "info-af-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-af-b",
+      "to": "intl",
+      "type": "solid"
+    },
+    {
+      "from": "intl",
+      "to": "mot-dym",
+      "type": "solid"
+    },
+    {
+      "from": "pol-dym",
       "to": "t-c-imp",
       "type": "solid"
     },
     {
-      "from": "af-nt",
+      "from": "t-c-imp",
       "to": "cos-p",
       "type": "solid"
     },
     {
-      "from": "af-nt",
-      "to": "soc-rt-p",
+      "from": "cos-p",
+      "to": "af-nt",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "aftd",
   "title": "AF.TD.------MT.INFO.",
   "type": "crossing",
-  "description": "First of two diagrams in ALT(FT)II-7. The prose immediately above identifies the structural target: 'creative music have already established a significant momentum — with respect to how its affinity dynamics have determined the present course western culture is now pursuing — and as such, this continuum is in an excellent position to accelerate the fundamentals of the next time cycle.' The crossing diagrams how affinity-tendencies structurally meets multi-information: AFTD (affinity tendencies) crossed with MT-INFO (multi-information). AFTD sits centrally with the subject-arrow; PRI-INFO (principle information) at upper-center and ATTN (attraction) with VT-PLT (vibrational platform) at upper-right as the partner-side upper outputs. (P)UTZ (physical-universe utilization) sits at upper-left. T-L (time lag) sits centrally and (R)P-FC (the reality of particular focus) at center-right as the bridging hubs. SPT-D (spectacle dictates) at the left-center and (R)INTR (the reality of interpretation) below as the subject's downward chain. PER-DY (perception dynamics) and MT-INFO at right-bottom anchor the partner-axis terminus. Structural argument: when affinity-tendencies is crossed with multi-information, the upper diagonal (P)UTZ → PRI-INFO → ATTN → VT-PLT is the *physical-universe-utilization route* — physical-universe-utilization routes through principle-information into attraction, finally producing vibrational-platform on the partner-side. AFTD → T-L is the bridging-axis route: affinity-tendencies routes through time-lag into the bridging hub. SPT-D → (R)INTR is the subject's downward chain — spectacle-dictates routes through the reality of interpretation. (R)P-FC → PER-DY → MT-INFO is the partner-axis's downward chain: the reality of political-focus routes through perception-dynamics into multi-information. The structural argument: the acceleration the prose names structurally requires holding the (P)UTZ upper diagonal *and* the AFTD → T-L bridging diagonal both open — affinity-tendencies determine the present-course only when the upper-physical-utilization chain runs to vibrational-platform without absorbing the bridging-axis's time-lag edge.",
+  "description": "First of two diagrams in ALT(FT)II-7. The prose immediately above identifies the structural target: 'creative music have already established a significant momentum — with respect to how its affinity dynamics have determined the present course western culture is now pursuing — and as such, this continuum is in an excellent position to accelerate the fundamentals of the next time cycle.' The crossing diagrams how affinity-tendencies structurally meets multi-information: AFTD (affinity tendencies) crossed with MT-INFO (multi-information). AFTD sits at left with the subject-arrow; PRI-INFO (principle information) at upper-center and ATTN (attraction) with VT-PLT (vibrational platform) at upper-right on the upper branch. (P)UTZ (the point of idea completion of utilization) sits at upper-left. T-L (time lag) sits centrally, hanging from the VT-PLT line, and (R)P-FC (the reality of particular focus) at center-right on its own branch from the main line. SPT-D at the left-center and (R)INTR (the reality of interpretation) below as the subject's downward chain. PER-DY (perception dynamics) and MT-INFO at right-bottom anchor the partner-axis terminus. Structural argument: when affinity-tendencies is crossed with multi-information, the upper branch runs from the main line to ATTN; PRI-INFO branches from the ATTN line, with (P)UTZ branching from the PRI-INFO line, and VT-PLT branches from the ATTN line, with T-L branching from the VT-PLT line. SPT-D → (R)INTR is the subject's downward chain — SPT-D routes through the reality of interpretation. (R)P-FC → PER-DY → MT-INFO branches from the main line: the reality of particular-focus routes through perception-dynamics into multi-information.",
   "terms": [
     { "termId": "aftd", "isSubject": true },
     { "termId": "mt-info" },
@@ -22,14 +22,15 @@
   ],
   "relationships": [
     { "from": "aftd", "to": "mt-info", "type": "solid" },
-    { "from": "utz", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "attn", "type": "solid" },
     { "from": "attn", "to": "vt-plt", "type": "solid" },
-    { "from": "aftd", "to": "t-l", "type": "solid" },
-    { "from": "t-l", "to": "p-fc", "type": "solid" },
     { "from": "aftd", "to": "spt-d", "type": "solid" },
     { "from": "spt-d", "to": "intr", "type": "solid" },
     { "from": "p-fc", "to": "per-dy", "type": "solid" },
-    { "from": "per-dy", "to": "mt-info", "type": "solid" }
+    { "from": "per-dy", "to": "mt-info", "type": "solid" },
+    { "from": "aftd", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "utz", "type": "solid" },
+    { "from": "vt-plt", "to": "t-l", "type": "solid" },
+    { "from": "aftd", "to": "p-fc", "type": "solid" }
   ]
 }

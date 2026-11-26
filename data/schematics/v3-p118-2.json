@@ -6,7 +6,7 @@
   "subject": "crtf-prog",
   "title": "CRTF.PROG.------VT.SCI.",
   "type": "crossing",
-  "description": "Second diagram on page 118 (ALT(FT)II-12), paired with C-ACT x INDIV-TD above. The crossing diagrams how cross-transfer-progressionalism structurally meets vibrational-science at the transformational-creative-musician scale the prose names: CRTF-PROG (cross-transfer progressionalism) crossed with VT-SCI (vibrational science). CRTF-PROG sits at upper-right with the subject-arrow; VT-SCI at lower-center as partner-axis. AF-POST (affinity postulation) center-left and PRI-INFO (principle information) center as the bridging hubs. APP-DT (applied dictates) right of crtf-prog. RE-CONT (recontinuance) at left and FUND-DY (fundamental dynamics) at lower-left as the subject's leftward chain. REL-TECH (relevant technology) center-right with SPT-AW (spiritual awareness) and C-INFO (composite information) anchoring the right margin. EXPN-DT (expansion dictates) at bottom. Structural argument: when cross-transfer-progressionalism is crossed with vibrational-science, the central bridging hub AF-POST -> PRI-INFO routes the form's affinity-postulation through principle-information into the partner's working chain. The subject's left chain RE-CONT -> FUND-DY produces recontinuance through fundamental-dynamics. The right chain APP-DT -> REL-TECH -> SPT-AW -> C-INFO carries applied-dictates through relevant-technology into composite-information.",
+  "description": "Second diagram on page 118 (ALT(FT)II-12), paired with C-ACT x INDIV-TD above. The crossing diagrams how cross-transfer-progressionalism structurally meets vibrational-science at the transformational-creative-musician scale the prose names: CRTF-PROG (cross-transfer progressionalism) crossed with VT-SCI (vibrational science). CRTF-PROG sits at upper-right with the subject-arrow; VT-SCI at lower-center as partner-axis. AF-POST (affinity postulation) center-left and PRI-INFO (principle information) center. APP-DT (application dictates) right of crtf-prog. RE-CONT (recontinuance) at left and FUND-DY (fundamental dynamics) below PRI-INFO as the subject's leftward chain. REL-TECH (relevant technology) center-right with SPT-AW (spiritual awareness) and C-INFO (composite information) anchoring the right margin. EXPN-DT (expansion dictates) at bottom. Structural argument: when cross-transfer-progressionalism is crossed with vibrational-science, the leftward chain runs from the main line to AF-POST, then RE-CONT branches from the AF-POST line, PRI-INFO from the RE-CONT line and FUND-DY from the PRI-INFO line. On the right, APP-DT branches from the main line with REL-TECH hanging from it; a vertical drops from the main line to EXPN-DT, with C-INFO branching from it and SPT-AW from the C-INFO line.",
   "terms": [
     {
       "termId": "crtf-prog",
@@ -50,16 +50,6 @@
       "type": "solid"
     },
     {
-      "from": "af-post",
-      "to": "crtf-prog",
-      "type": "solid"
-    },
-    {
-      "from": "af-post",
-      "to": "pri-info",
-      "type": "solid"
-    },
-    {
       "from": "pri-info",
       "to": "fund-dy",
       "type": "solid"
@@ -70,28 +60,38 @@
       "type": "solid"
     },
     {
-      "from": "re-cont",
+      "from": "crtf-prog",
       "to": "af-post",
       "type": "solid"
     },
     {
-      "from": "crtf-prog",
+      "from": "af-post",
+      "to": "re-cont",
+      "type": "solid"
+    },
+    {
+      "from": "re-cont",
+      "to": "pri-info",
+      "type": "solid"
+    },
+    {
+      "from": "app-dt",
       "to": "rel-tech",
       "type": "solid"
     },
     {
-      "from": "rel-tech",
-      "to": "spt-aw",
+      "from": "crtf-prog",
+      "to": "expn-dt",
       "type": "solid"
     },
     {
-      "from": "spt-aw",
+      "from": "expn-dt",
       "to": "c-info",
       "type": "solid"
     },
     {
-      "from": "vt-sci",
-      "to": "expn-dt",
+      "from": "c-info",
+      "to": "spt-aw",
       "type": "solid"
     }
   ]

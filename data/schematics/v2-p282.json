@@ -6,7 +6,7 @@
   "subject": "prog-cont",
   "title": "PROG.CONT.-----TR.",
   "type": "crossing",
-  "description": "Diagram in CMOA(II)-40 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) accompanying Braxton's closing claim about world creativity: 'the real dynamics of world transformation will be directly proportioned to how individuals deal with the challenge of actual reality expansion — both theoretically and actually.' PROG-CONT (progressional continuance) is crossed with TR (transformation): the question is what progressional-continuance produces when crossed with transformation — under conditions where individual transcultural artistic activity is the operative scale. CRTF-D (cross-transfer definitions) sits between subject and partner. TR is partner-center. INFO-DE (information descent) sits centrally on the right. (R)PART (the reality of participation) anchors the upper-right margin via a *dashed* edge — conditional. T-C-IMP (time continuum implications) sits below the central axis. AFI (affinity insight) anchors the right output. CULT-INFO-DY (culture-information dynamics) feeds in from the lower-left. EXT-F (extended functionalism) sits centrally below. AF-DY (affinity dynamics) anchors the lower-center. BSCF (basic scientific functionalism) hangs on the lower-right. Structural argument: progressional-continuance crossed with transformation is mediated by cross-transfer-definitions as central hub and time-continuum-implications as lower hub. The dashed edge to reality-of-participation is load-bearing: world-transformation produces real participation only conditionally — the individual transcultural artist (Tony Scott, Akiyoshi, Watanabe in the surrounding prose) must actively hold that edge. The diagram is Braxton's structural case for why individual world-musicianship matters: it is the only configuration in which the conditional participation edge gets actively maintained, producing affinity-insight and basic-scientific-functionalism as the real outputs of progressional-continuance crossed with transformation.",
+  "description": "Diagram in CMOA(II)-40 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan) accompanying Braxton's claim about world creativity: 'the real dynamics of world transformation will be directly proportioned to how individuals deal with the challenge of actual reality expansion — both theoretically and actually.' PROG-CONT (progressional continuance) is crossed with TR (transformation): the question is what progressional-continuance produces when crossed with transformation — under conditions where individual transcultural artistic activity is the operative scale. CRTF-D (cross-transfer definitions) and T-C-IMP (time continuum implications) branch from the main line between subject and partner. TR is partner-center. CULT-INFO-DY (culture-information dynamics) branches from the main line to the lower-left, and EXT-F (extended functionalism) runs from it across the center; AF-DY (affinity dynamics) drops from the EXT-F line to the lower-center, and INFO-DE (information degrees) rises from it on the right. AFI (affinity insight) branches from INFO-DE and anchors the right output; BSCF (basic science, or basic scientific functionalism) hangs from the AFI line on the lower-right, and (R)PART (the reality of participation) anchors the upper-right margin via a *dashed* edge from the AFI line — a dotted line amplifies some aspect of the concept it is connected to. Structural argument: progressional-continuance crossed with transformation carries its larger side structure through culture-information-dynamics and extended-functionalism, out to information-degrees and affinity-insight. The diagram is Braxton's structural case for why individual world-musicianship matters.",
   "terms": [
     { "termId": "prog-cont", "isSubject": true },
     { "termId": "tr" },
@@ -22,14 +22,14 @@
   ],
   "relationships": [
     { "from": "prog-cont", "to": "crtf-d", "type": "solid" },
-    { "from": "crtf-d", "to": "tr", "type": "solid" },
-    { "from": "tr", "to": "info-de", "type": "solid" },
-    { "from": "info-de", "to": "part", "type": "dashed" },
-    { "from": "crtf-d", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "ext-f", "type": "solid" },
     { "from": "info-de", "to": "afi", "type": "solid" },
-    { "from": "cult-info-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "cult-info-dy", "type": "solid" },
     { "from": "ext-f", "to": "af-dy", "type": "solid" },
-    { "from": "ext-f", "to": "bscf", "type": "solid" }
+    { "from": "prog-cont", "to": "tr", "type": "solid" },
+    { "from": "prog-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "cult-info-dy", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "info-de", "type": "solid" },
+    { "from": "afi", "to": "part", "type": "dashed" },
+    { "from": "afi", "to": "bscf", "type": "solid" }
   ]
 }

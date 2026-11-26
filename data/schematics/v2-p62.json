@@ -6,7 +6,7 @@
   "subject": "v-sy",
   "title": "V.SY.------POL.DY.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-40 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's analysis of media as the gatekeeper of alternative considerations: 'as long as western culture can give the illusion that western information principles are valid when applied to any offering from the world group aesthetic, this practice will continue.' V-SY (the value system) is crossed with POL-DY (political dynamics): the question is what value-system produces when crossed with political-dynamics, where political-dynamics is the gatekeeping function executed by media. MOT-DY (motion dynamics) and POL-DY appear together in the upper-left, with RT-ALGN (reality alignment) on the upper-right. INFO-INTR (information interpretation) feeds into the subject from the left. DY-F (dynamics fundamental) hangs on the right margin. POL-P (political policies) sits below political-dynamics. RT-OP (reality options) anchors the lower-center. PART (participation) hangs on the lower-right margin. Structural argument: the value-system crossed with political-dynamics is fed by motion-dynamics, information-interpretation, and the political-policies/reality-options lower chain. The crossing produces reality-alignment as the upper output and dynamics-fundamental and participation as marginal outputs. The diagram exposes Braxton's structural diagnostic: the value-system cannot produce real reality-alignment without going through political-dynamics first — which is precisely why media (the operational form of political-dynamics in this section) controls what counts as 'aligned reality.'",
+  "description": "Diagram in SD(SY)-40 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's analysis of media as the gatekeeper of alternative considerations: 'as long as western culture can give the illusion that western information principles are valid when applied to any offering from the world group aesthetic, this practice will continue.' V-SY (the value system) is crossed with POL-DY (political dynamics): the question is what value-system produces when crossed with political-dynamics, where political-dynamics is the gatekeeping function executed by media. INFO-INTR (information interpretation) branches from the main line and carries MOT-DY. DY-F (dynamic functionalism) also branches from the main line and carries RT-ALGN (reality alignment) and POL-P (political policies), which leads to PART (participation) and on to RT-OP (reality options).",
   "terms": [
     { "termId": "v-sy", "isSubject": true },
     { "termId": "pol-dy" },
@@ -19,13 +19,13 @@
     { "termId": "rt-op" }
   ],
   "relationships": [
-    { "from": "info-intr", "to": "v-sy", "type": "solid" },
-    { "from": "v-sy", "to": "mot-dy", "type": "solid" },
-    { "from": "mot-dy", "to": "pol-dy", "type": "solid" },
-    { "from": "pol-dy", "to": "rt-algn", "type": "solid" },
-    { "from": "pol-dy", "to": "dy-f", "type": "solid" },
-    { "from": "v-sy", "to": "pol-p", "type": "solid" },
-    { "from": "pol-p", "to": "rt-op", "type": "solid" },
-    { "from": "rt-op", "to": "part", "type": "solid" }
+    { "from": "v-sy", "to": "info-intr", "type": "solid" },
+    { "from": "part", "to": "rt-op", "type": "solid" },
+    { "from": "v-sy", "to": "pol-dy", "type": "solid" },
+    { "from": "info-intr", "to": "mot-dy", "type": "solid" },
+    { "from": "v-sy", "to": "dy-f", "type": "solid" },
+    { "from": "dy-f", "to": "rt-algn", "type": "solid" },
+    { "from": "dy-f", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "part", "type": "solid" }
   ]
 }

@@ -6,7 +6,7 @@
   "subject": "proj",
   "title": "PROJ.------COS.P.",
   "type": "crossing",
-  "description": "Diagram in CMBA-12. (C)PROJ (projection) is crossed with COS-P (cosmic particulars): the question is what projection requires of cosmic-particulars in the section that establishes the five degrees of extended functionalism (individual, collective, society, transformation, world-culture-resolidification). PROJ is fed by ACT (activism) and MTA-RT-SIGN (meta-reality significance). MTA-RT-SIGN also feeds COS-P. COS-P then branches to MT-DEVF (multiple diversification) and A-PR (all-purpose) → INFO-ALGN (information alignment). A separate hub: TR (transformation) → INFO-OR (information order) ← DYM-F (dynamic functionalism); INFO-OR then fans to OP-SPD (option spread) and INDIV-DY (individual dynamics). Structural argument: projection is fed by activism *and* meta-reality significance, with meta-reality significance also reaching cosmic particulars in parallel — meaning projection and cosmic particulars share an upstream source. From cosmic particulars, the diagram fans into multiple-diversification and all-purpose → information-alignment, encoding how cosmic-particulars get culturally legible. The transformation/dynamic-functionalism → information-order → option-spread/individual-dynamics chain runs in parallel, registering how transformation produces the option spread Braxton named in CMBA-11 as the structural shape of 1960s alternative routes. The diagram thus diagrams projection's cosmic grounding *and* the parallel transformation→information-order chain that produces the option spread.",
+  "description": "Diagram in CMBA-12. (C)PROJ (projection) is crossed with COS-P (cosmic particulars): the question is what projection requires of cosmic-particulars. PROJ branches to MTA-RT-SIGN (meta-reality significance) → ACT (activism), and to A-PR (all-purpose). A-PR branches to MT-DEVF (multiple diversification) and to TR (transformation) → INFO-DY (information dynamics). INFO-DY branches to INFO-ALGN (information alignment) and to DYM-F (dynamic functionalism) → OP-SPD (option spread) → INDIV-DY (individual dynamics). The transformation → information-dynamics → dynamic-functionalism → option-spread chain registers how transformation produces the option spread Braxton named in CMBA-11 as the structural shape of 1960s alternative routes.",
   "terms": [
     {
       "termId": "proj",
@@ -38,7 +38,7 @@
       "termId": "dym-f"
     },
     {
-      "termId": "info-or"
+      "termId": "info-dy"
     },
     {
       "termId": "op-spd"
@@ -49,52 +49,57 @@
   ],
   "relationships": [
     {
-      "from": "act",
-      "to": "proj",
+      "from": "proj",
+      "to": "mta-rt-sign",
       "type": "solid"
     },
     {
-      "from": "mta-rt-sign",
-      "to": "proj",
+      "from": "tr",
+      "to": "info-dy",
       "type": "solid"
     },
     {
-      "from": "mta-rt-sign",
+      "from": "info-dy",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
       "to": "cos-p",
       "type": "solid"
     },
     {
-      "from": "cos-p",
-      "to": "mt-devf",
+      "from": "mta-rt-sign",
+      "to": "act",
       "type": "solid"
     },
     {
-      "from": "cos-p",
+      "from": "proj",
       "to": "a-pr",
       "type": "solid"
     },
     {
       "from": "a-pr",
+      "to": "mt-devf",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "tr",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
       "to": "info-algn",
       "type": "solid"
     },
     {
-      "from": "tr",
-      "to": "info-or",
-      "type": "solid"
-    },
-    {
       "from": "dym-f",
-      "to": "info-or",
-      "type": "solid"
-    },
-    {
-      "from": "info-or",
       "to": "op-spd",
       "type": "solid"
     },
     {
-      "from": "info-or",
+      "from": "op-spd",
       "to": "indiv-dy",
       "type": "solid"
     }

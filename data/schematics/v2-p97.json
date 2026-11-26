@@ -1,12 +1,12 @@
 {
   "id": "v2-p97",
   "volume": 2,
-  "section": "AF(D)-25",
+  "section": "(AF)D-25",
   "page": 97,
   "subject": "ist-f",
   "title": "(R)IST.F.------TR.INFO.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-25 (Affinity Dynamics, Level One) accompanying Braxton's argument that 'institutionalized prodding' (university dominance) suppresses inquiry: 'the nature of being is suppressed — which is to say, both creative and functional information routes are perceived in accordance to the established power structure dictates.' (R)IST-F (the reality of isolated focus) is crossed with TR-INFO (trans-information): the question is what isolated-focus produces in its actual instantiation when crossed with trans-information — the (R) prefix marking that isolated-focus must actually obtain to resist institutional suppression. VT-DY (vibrational dynamics) feeds in from the upper-left. RT-INT-TR (reality initiative traits) sits between subject and partner. TR-INFO is the partner. AFL (affinity alignment) anchors the upper-right output. ATTN (attraction) sits below the subject as a central hub. TH-CONT-DY (thrust continuance dynamics) hangs on the right output. (P)INTR (point-of-activation interpretation) and AF-CON (affinity convergence) form the lower-center cluster. Structural argument: isolated-focus-as-real crossed with trans-information is mediated by reality-initiative-traits. The (p) prefix on INTR registers that interpretation in this configuration is triggered rather than continuous — Braxton's diagnostic that institutional prodding makes interpretation intermittent. Attraction as the lower hub is load-bearing: it is what gets captured by 'four thousand books' (the prose example), and the diagram exposes that real isolated-focus must route around the captured-attraction hub to reach affinity-alignment.",
+  "description": "Diagram in AF(D)-25 (Affinity Dynamics, Level One) accompanying Braxton's argument that 'institutionalized prodding' suppresses inquiry: 'the nature of being is suppressed — which is to say, both creative and functional information routes are perceived in accordance to the established power structure dictates.' (R)IST-F (the reality of isolated focus) is crossed with TR-INFO (trans-information): the question is what isolated-focus produces in its actual instantiation when crossed with trans-information. RT-INT-TR (reality initiative traits) branches from the main line and carries VT-DY (vibrational dynamics). TR-INFO is the partner. AFL (affinity alignment) also branches from the main line and leads to TH-CONT-DY (thrust continuance dynamics), then to ATTN (attraction), then to AF-CON (affinity convergence) and on to (P)INTR (point of idea completion for interpretation).",
   "terms": [
     { "termId": "ist-f", "isSubject": true, "prefix": "r" },
     { "termId": "tr-info" },
@@ -19,13 +19,13 @@
     { "termId": "af-con" }
   ],
   "relationships": [
-    { "from": "vt-dy", "to": "ist-f", "type": "solid" },
     { "from": "ist-f", "to": "rt-int-tr", "type": "solid" },
-    { "from": "rt-int-tr", "to": "tr-info", "type": "solid" },
-    { "from": "tr-info", "to": "afl", "type": "solid" },
-    { "from": "ist-f", "to": "attn", "type": "solid" },
-    { "from": "attn", "to": "th-cont-dy", "type": "solid" },
-    { "from": "af-con", "to": "attn", "type": "solid" },
-    { "from": "attn", "to": "intr", "type": "solid" }
+    { "from": "ist-f", "to": "tr-info", "type": "solid" },
+    { "from": "rt-int-tr", "to": "vt-dy", "type": "solid" },
+    { "from": "ist-f", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "th-cont-dy", "type": "solid" },
+    { "from": "th-cont-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "af-con", "type": "solid" },
+    { "from": "af-con", "to": "intr", "type": "solid" }
   ]
 }

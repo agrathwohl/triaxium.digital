@@ -6,11 +6,11 @@
   "subject": "info-ds",
   "title": "(R)INFO.DS.------AF.DY.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-30, on the page where Braxton argues that spectacle-diversion 'extends to source transfer' — that the actual realness of spectacle-diversion functions as the phenomenon allowing style transference, with style being indebted to world group influences (Indian religion, Asian dress, women's movement use of black functionalism, etc.). (R)INFO-DS — the reality of information dissemination — is crossed with AF-DY (affinity dynamics): the question is what real dissemination does to affinity dynamics in a culture that has institutionalized spectacle-diversion. (C)SPT-D (the concept of spectacle dynamics), (C)ST (the concept of style), and PHY-U-P (physical universe particular) feed the subject. PROG-CONT (progressional continuance) and SOC-RT (social reality) are upstream constituting forces. The crossing produces AF-DY, which fans into VT-DY (vibrational dynamics), POST (postulation), INDIV-TD (individual tendencies), and STF (source transfer). Structural argument: real information dissemination, when routed through the spectacle-style apparatus of a culture, produces affinity dynamics that flow outward to four parallel cultural-vibrational outputs. STF (source transfer) as the terminal node registers Braxton's diagnostic claim: the dissemination apparatus IS the source-transfer mechanism by which spectacle absorbs style from outside its essence continuum.",
+  "description": "Diagram in SD(SY)-30, on the page where Braxton argues that spectacle diversion is 'the juncture which most lends itself to source transfer' — that the actual realness of spectacle-diversion functions as the phenomenon allowing style transference, with activist groups indebted to world group influences on style and its related functionalism (the dress of the hippies, the borrowing of Indian religion, the women's movement use of black functionalism, etc.). (R)INFO-DS — the reality of information dissemination — is crossed with AF-DY (affinity dynamics): the question is what real dissemination does to affinity dynamics in a culture that has institutionalized spectacle-diversion. INDIV-TD (individual tendencies) branches from the main line and carries POST (postulation), which leads to VT-DY (vibrational dynamics), and SOC-RT (social reality), which carries STF (source transfer) and PROG-CONT (progressional continuance). From PROG-CONT the chain runs to PHY-U-P (physical universe particular), then to (C)SPT-D and on to (C)ST (the concept of style).",
   "terms": [
     { "termId": "info-ds", "isSubject": true, "prefix": "r" },
     { "termId": "afl-dy" },
-    { "termId": "spt-dym", "prefix": "c" },
+    { "termId": "spt-d", "prefix": "c" },
     { "termId": "sty", "prefix": "c" },
     { "termId": "phy-u-p" },
     { "termId": "prog-cont" },
@@ -21,15 +21,15 @@
     { "termId": "stf" }
   ],
   "relationships": [
-    { "from": "spt-dym", "to": "info-ds", "type": "solid" },
-    { "from": "sty", "to": "info-ds", "type": "solid" },
-    { "from": "phy-u-p", "to": "info-ds", "type": "solid" },
-    { "from": "prog-cont", "to": "info-ds", "type": "solid" },
-    { "from": "soc-rt", "to": "info-ds", "type": "solid" },
     { "from": "info-ds", "to": "afl-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "vt-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "post", "type": "solid" },
-    { "from": "afl-dy", "to": "indiv-td", "type": "solid" },
-    { "from": "afl-dy", "to": "stf", "type": "solid" }
+    { "from": "info-ds", "to": "indiv-td", "type": "solid" },
+    { "from": "indiv-td", "to": "post", "type": "solid" },
+    { "from": "post", "to": "vt-dy", "type": "solid" },
+    { "from": "indiv-td", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "stf", "type": "solid" },
+    { "from": "soc-rt", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "phy-u-p", "type": "solid" },
+    { "from": "phy-u-p", "to": "spt-d", "type": "solid" },
+    { "from": "spt-d", "to": "sty", "type": "solid" }
   ]
 }

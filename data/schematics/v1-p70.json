@@ -6,7 +6,7 @@
   "subject": "afl",
   "title": "AFL.------PRI.INFO.",
   "type": "crossing",
-  "description": "Diagram in the Western Art Music section (WAM-12), the page where Braxton opens the argument that 'the most basic factor that has determined the course of western art music can be found in the progressive decline of the church as the vibrational center of culture and the emphasis on intellectualism as a dynamic replacement for center.' AFL (affinity alignment) is crossed with PRI-INFO (principle information): the question is what kind of principle information actually grounds an affinity alignment when the spiritual center has decayed. The diagram routes the crossing: AFL → PRI-INFO branches into ATT (attitude) by a *dashed* edge — registering that the link from principle information to attitude is conditional, not direct — and into AFN (affinity negation) which solid-extends to both SOC-RT (social reality) and IST-F (isolated focus, with IST-F → INTR (interpretation) closing the chain). Lateral solid branches from PRI-INFO reach MT-INFO (multi-information), AFL-DY (affinity dynamics), and AFTD (affinity tendencies). The structural claim: under western intellectualism, principle information no longer flows uncontested into attitude; instead it routes through affinity *negation* into isolated focus and the social-real, leaving multi-information, affinity dynamics, and affinity tendencies as parallel but separated outflows of the alignment.",
+  "description": "Diagram in the Western Art Music section (WAM-12), the page where Braxton opens the argument that 'the most basic factor that has determined the course of western art music can be found in the progressive decline of the church as the vibrational center of culture and the emphasis on intellectualism as a dynamic replacement for center.' AFL (affinity alignment) is crossed with PRI-INFO (principle information): the question is what kind of principle information actually grounds an affinity alignment when the spiritual center has decayed. The diagram routes the crossing: AFL branches into MT-INFO (multi-information), which carries AFL-DY (affinity dynamics); AFL-DY branches into AFTD (affinity tendencies) and into AFN (affinity negation). AFN carries ATT (attitude) by a *dashed* line — which amplifies some aspect of the concept it is connected to — and extends solidly to SOC-RT (social reality), which branches into IST-F (isolated focus) and (r)INTR (interpretation). The structural claim: under western intellectualism, the alignment routes through multi-information and affinity dynamics into affinity *negation*, and from there into the social-real, isolated focus and interpretation.",
   "terms": [
     {
       "termId": "afl",
@@ -48,42 +48,42 @@
       "type": "solid"
     },
     {
-      "from": "pri-info",
-      "to": "att",
-      "type": "dashed"
-    },
-    {
-      "from": "pri-info",
-      "to": "afn",
-      "type": "solid"
-    },
-    {
       "from": "afn",
       "to": "soc-rt",
       "type": "solid"
     },
     {
-      "from": "afn",
-      "to": "ist-f",
-      "type": "solid"
-    },
-    {
-      "from": "pri-info",
+      "from": "afl",
       "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "pri-info",
+      "from": "mt-info",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "pri-info",
+      "from": "afl-dy",
       "to": "aftd",
       "type": "solid"
     },
     {
-      "from": "ist-f",
+      "from": "afl-dy",
+      "to": "afn",
+      "type": "solid"
+    },
+    {
+      "from": "afn",
+      "to": "att",
+      "type": "dashed"
+    },
+    {
+      "from": "soc-rt",
+      "to": "ist-f",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
       "to": "intr",
       "type": "solid"
     }

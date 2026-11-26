@@ -6,7 +6,7 @@
   "subject": "re-st",
   "title": "(R)RE.ST.------TRS.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-17, paired with v1-p113-1 on the same page. (R)RE-ST — the reality of restructuralism — is crossed with TRS (transition). The diagram reads against Braxton's claim that black creativity is 'providing clues as to the next transitional progression (to real transformation)': what does it mean for restructuralism's *reality* (not its concept) to be crossed with transition? RE-ST is fed by TR-INFO (trans-information) → SOC-RT-DY (social reality dynamics), and by DYM-SPT (dynamic spiritualism). RE-ST then outputs to TRS, which solid-branches to LK-IMP (linkage implications), MT-INFO (multi-information), and ACC-FT (accelerated functionalism). A separate output from RE-ST runs to C-CULT-AT (composite culture attitude) → PART (participation) and → AFI (affinity insight). The structural argument: real restructuralism (not abstract restructuring) requires *both* trans-information feeding through social reality dynamics *and* dynamic spiritualism as upstream inputs. Once activated, it produces transition that fans into linkage implications, multi-information, and accelerated functionalism — and a parallel composite-culture-attitude chain that produces participation and affinity insight. The diagram thus stages what trans-African creativity's projected role in transformation would structurally require.",
+  "description": "Diagram in T(AF)M-17, paired with v1-p113-1 on the same page. (R)RE-ST — the reality of restructuralism — is crossed with TRS (transition). The diagram reads against Braxton's claim that black creativity is 'providing clues as to the next transitional progression (to real transformation)': what does it mean for restructuralism's *reality* (not its concept) to be crossed with transition? RE-ST branches to DYM-SPT (dynamic spiritualism) → TR-INFO (trans-information) → SOC-RT-DY (social reality dynamics). Besides the main line to TRS, RE-ST also runs to ACC-FT (accelerated functionalism), which branches to LK-IMP (linkage implications) → MT-INFO (multi-information) and to C-CULT-AT (composite culture attitude) → PART (participation) → AFI (affinity insight). The structural argument: real restructuralism (not abstract restructuring) opens *both* into dynamic spiritualism, with trans-information and social reality dynamics beyond it, *and* into accelerated functionalism, which fans into linkage implications and multi-information and into a composite-culture-attitude chain that produces participation and affinity insight. The diagram thus stages what trans-African creativity's projected role in transformation would structurally require.",
   "terms": [
     { "termId": "re-st", "isSubject": true, "prefix": "r" },
     { "termId": "trs" },
@@ -22,14 +22,14 @@
   ],
   "relationships": [
     { "from": "tr-info", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "re-st", "type": "solid" },
-    { "from": "dym-spt", "to": "re-st", "type": "solid" },
     { "from": "re-st", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "lk-imp", "type": "solid" },
-    { "from": "trs", "to": "mt-info", "type": "solid" },
-    { "from": "trs", "to": "acc-ft", "type": "solid" },
-    { "from": "re-st", "to": "c-cult-at", "type": "solid" },
     { "from": "c-cult-at", "to": "part", "type": "solid" },
-    { "from": "c-cult-at", "to": "afi", "type": "solid" }
+    { "from": "re-st", "to": "dym-spt", "type": "solid" },
+    { "from": "dym-spt", "to": "tr-info", "type": "solid" },
+    { "from": "re-st", "to": "acc-ft", "type": "solid" },
+    { "from": "acc-ft", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "acc-ft", "to": "c-cult-at", "type": "solid" },
+    { "from": "part", "to": "afi", "type": "solid" }
   ]
 }

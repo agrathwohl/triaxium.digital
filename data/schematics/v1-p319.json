@@ -6,7 +6,7 @@
   "subject": "alt-c-pg",
   "title": "ALT.C.PG.------T.C.IMP.",
   "type": "crossing",
-  "description": "Diagram in the Post-Cage Continuum section (PCC-3), opening Braxton's three-fold division of extension: restructuralism, stylism, and extended application of traditional functionalism. (C)ALT-C-PG (alternative composite progressionalism) is crossed with T-C-IMP (time continuum implications): the question is what alternative composite progressionalism implies for the time continuum at the moment when the post-Cage continuum has run thirty years. CULT-INFO-DY (culture information dynamics) and T-C-IMP both feed ALT-C-PG. ALT-C-PG → ALT-F (alternative functionalism) → INFO-DE-B (a diagram-only term, likely 'information determination basis') → PROJ-DY (projectional dynamics). ALT-F also → PROG-CONT (progressional continuance), and PROG-CONT has a *dashed* edge to AFL-DY (affinity dynamics). (P)RE-ST (the point of activation of restructuralism) has *dashed* edges to PR-TRS (primary transition) and ALT-F. Structural argument: alternative composite progressionalism, when crossed with time-continuum implications, produces alternative functionalism — and alternative functionalism reaches projectional dynamics only via the determination-basis intermediary. The dashed edges from progressional-continuance to affinity-dynamics, and from the point-of-activation of restructuralism to both primary-transition and alternative-functionalism, mark these connections as conditional — meaning the post-Cage continuum's productive outputs (real change in affinity dynamics, real primary transition) only conditionally activate at the point-of-activation of restructuralism, even though the structural chain is in place.",
+  "description": "Diagram in the Post-Cage Continuum section (PCC-3), opening Braxton's three-fold division of extension: restructuralism, stylism, and extended application of traditional functionalism. (C)ALT-C-PG (alternative composite progressionalism) is crossed with T-C-IMP (time continuum implications): the question is what alternative composite progressionalism implies for the time continuum. ALT-C-PG → T-C-IMP is the main line. ALT-F (alternative functionalism) branches from the main line, and CULT-INFO-DY (culture information dynamics), PR-TRS (on a *dashed* line) and (P)RE-ST (the point of idea completion of restructuralism) all branch from ALT-F. RE-ST → INFO-DE-B (information degree basis), which branches to PROG-CONT (progressional continuance) and PROJ-DY (projectional dynamics); PROJ-DY has a *dashed* line to AFL-DY (affinity dynamics). Structural argument: alternative composite progressionalism, when crossed with time-continuum implications, produces alternative functionalism — and alternative functionalism reaches projectional dynamics only via (P)RE-ST and the information-degree-basis intermediary. The dashed lines to PR-TRS and to AFL-DY each amplify some aspect of the concept they are connected to (alternative functionalism and projectional dynamics respectively).",
   "terms": [
     {
       "termId": "alt-c-pg",
@@ -44,23 +44,13 @@
   ],
   "relationships": [
     {
-      "from": "cult-info-dy",
-      "to": "alt-c-pg",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "alt-c-pg",
+      "from": "alt-c-pg",
+      "to": "t-c-imp",
       "type": "solid"
     },
     {
       "from": "alt-c-pg",
       "to": "alt-f",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
-      "to": "info-de-b",
       "type": "solid"
     },
     {
@@ -70,22 +60,32 @@
     },
     {
       "from": "alt-f",
-      "to": "prog-cont",
+      "to": "re-st",
       "type": "solid"
     },
     {
-      "from": "prog-cont",
-      "to": "afl-dy",
-      "type": "dashed"
+      "from": "alt-f",
+      "to": "cult-info-dy",
+      "type": "solid"
     },
     {
-      "from": "re-st",
+      "from": "alt-f",
       "to": "pr-trs",
       "type": "dashed"
     },
     {
       "from": "re-st",
-      "to": "alt-f",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-de-b",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "afl-dy",
       "type": "dashed"
     }
   ]

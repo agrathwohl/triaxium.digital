@@ -6,7 +6,7 @@
   "subject": "dec",
   "title": "(R)DEC.------DYM.F.",
   "type": "crossing",
-  "description": "Diagram in MID-W-16. (R)DEC (the reality of decentralization) is crossed with DYM-F (dynamic functionalism). The pairing is structurally pointed: real decentralization (not the concept) crossed with dynamic functionalism asks what actual decentralization *does* when it operates as a dynamic-functional principle (rather than a political slogan). DYM-F → DEC (the crossing). LK-IMP (linkage implications) → INFO-CON (information convergence) → PROG-CONT (progressional continuance) → TR (transformation). INFO-CON → DYM-SPT (dynamic spiritualism) → MTA-RT-SIGN (meta-reality significance). (P)TM (the point of activation of terminology) → MTA-RT-SIGN. DYM-F → MTA-RT-SIGN. Structural argument: real decentralization arrives via dynamic functionalism. The parallel productive chain runs through linkage implications → information convergence, which fans into progressional continuance → transformation *and* dynamic spiritualism → meta-reality significance. Meta-reality significance is the central convergence point — fed by *three* upstreams (dynamic spiritualism, the point-of-activation of terminology, and dynamic functionalism). The diagram thus diagrams the structural conditions for what makes a decentralized organization actually meaningful: it requires that linkage implications connect to information convergence (collective communication of meaning), which then bifurcates into both progressional-continuance-leading-to-transformation *and* dynamic-spiritualism-leading-to-meta-reality-significance. The AACM diagrammed: it survives only as long as both arms remain active.",
+  "description": "Diagram in MID-W-16. (R)DEC (the reality of decentralization) is crossed with DYM-F (dynamic functionalism). The pairing is structurally pointed: real decentralization (not the concept) crossed with dynamic functionalism asks what actual decentralization *does* when it operates as a dynamic-functional principle (rather than a political slogan). INFO-CON (information convergence) branches from the main line and opens into LK-IMP (linkage implications) and MTA-RT-SIGN (meta-reality significance). MTA-RT-SIGN opens into DYM-SPT (dynamic spiritualism), which opens into PROG-CONT (progressional continuance) → TR (transformation) and into (P)TM (the point of idea completion of terminology—or terms of a definition).",
   "terms": [
     {
       "termId": "dec",
@@ -41,43 +41,43 @@
   ],
   "relationships": [
     {
-      "from": "dym-f",
-      "to": "dec",
-      "type": "solid"
-    },
-    {
-      "from": "lk-imp",
-      "to": "info-con",
-      "type": "solid"
-    },
-    {
-      "from": "info-con",
-      "to": "prog-cont",
-      "type": "solid"
-    },
-    {
       "from": "prog-cont",
       "to": "tr",
       "type": "solid"
     },
     {
+      "from": "dec",
+      "to": "dym-f",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "info-con",
+      "type": "solid"
+    },
+    {
       "from": "info-con",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "info-con",
+      "to": "mta-rt-sign",
+      "type": "solid"
+    },
+    {
+      "from": "mta-rt-sign",
       "to": "dym-spt",
       "type": "solid"
     },
     {
       "from": "dym-spt",
-      "to": "mta-rt-sign",
+      "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "tm",
-      "to": "mta-rt-sign",
-      "type": "solid"
-    },
-    {
-      "from": "dym-f",
-      "to": "mta-rt-sign",
+      "from": "dym-spt",
+      "to": "tm",
       "type": "solid"
     }
   ]

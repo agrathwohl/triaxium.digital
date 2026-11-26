@@ -6,7 +6,7 @@
   "subject": "part",
   "title": "(R)PART.------POL.DY.",
   "type": "crossing",
-  "description": "Diagram in PCC-17, paired with v1-p333-1. (R)PART (the reality of participation) is crossed with POL-DYM (political dynamics). The diagram poses what *real* participation requires when crossed with political dynamics in the post-Cage context where MEV's 'sound pool' (audience-participating communal music) was one experimental answer. PART → EXP-DYM (expansion dynamics); RT-DY (reality dynamics) → EXP-DYM; PROG-SIGN (progressional significance) → EXP-DYM. EXP-DYM is the central hub — three independent feeds. EXP-DYM → ALT-C-PG (alternative composite progressionalism) and EXP-DYM → INFO-DS (information dissemination). A separate chain: ACC-DY (accelerated dynamics) → POL-DYM → EXP-INFO-B (expansion information basis). Structural argument: real participation, reality dynamics, and progressional significance converge on expansion dynamics — a triple-feed hub — and from there produce alternative composite progressionalism and information dissemination. The political-dynamics chain runs in parallel: accelerated dynamics produces political dynamics, which produces expansion-information-basis. The two halves of the diagram run *in parallel* without converging — meaning real participation's productive outputs (alt-c-pg and info-ds) and political-dynamics' productive outputs (expansion-information-basis) are separate, not derived from each other. The crossing is structurally a *parallel* not a *convergent* one — Braxton's diagrammatic statement that real participation does not depend on political dynamics for its expansion.",
+  "description": "Diagram in PCC-17, paired with v1-p333-1. (R)PART (the reality of participation) is crossed with POL-DYM (political dynamics). The diagram poses what *real* participation requires when crossed with political dynamics in the post-Cage context. PART → POL-DYM is the main line, and RT-DY (reality dynamics) branches from it. PROG-SIGN (progressional significance) branches from RT-DY, and ACC-DY (accelerated dynamics) and INFO-DS (information dissemination) branch from PROG-SIGN. Two lines branch from INFO-DS: one to EXP-DYM (expansion dynamics), from which EXP-INFO-B (expansion information basis) branches, and one to ALT-C-PG (alternative composite progressionalism).",
   "terms": [
     {
       "termId": "part",
@@ -40,38 +40,43 @@
   ],
   "relationships": [
     {
+      "from": "info-ds",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
       "from": "part",
-      "to": "exp-dym",
-      "type": "solid"
-    },
-    {
-      "from": "rt-dy",
-      "to": "exp-dym",
-      "type": "solid"
-    },
-    {
-      "from": "prog-sign",
-      "to": "exp-dym",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dym",
-      "to": "alt-c-pg",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dym",
-      "to": "info-ds",
-      "type": "solid"
-    },
-    {
-      "from": "acc-dy",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "pol-dym",
+      "from": "part",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-dy",
+      "to": "prog-sign",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "prog-sign",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
       "to": "exp-info-b",
+      "type": "solid"
+    },
+    {
+      "from": "info-ds",
+      "to": "alt-c-pg",
       "type": "solid"
     }
   ]

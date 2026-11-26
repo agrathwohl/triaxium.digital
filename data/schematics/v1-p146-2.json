@@ -6,7 +6,7 @@
   "subject": "tr-info",
   "title": "(R)TR.INFO.------PROJ.DY.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-8, paired with v1-p146-1. (R)TR-INFO — the reality of trans-information — is crossed with PROJ-DY (projectional dynamics). The diagram poses what *real* trans-information (as distinct from any specific transmitted content) looks like when crossed with projectional dynamics. SOC-RT-DY (social reality dynamics) feeds the subject. TR-INFO outputs to POL-P (political policies), to RT-INT-TR (reality initiative traits), and to PROJ-DY (the crossing). POL-P then branches to POST (postulation) and LANG-DY (language dynamics). PROJ-DY → UPB (underlying philosophical basis), and UPB branches to WO-EXP-PRI (world expansion principle) and T-C-IMP (time continuum implications). Structural argument: real trans-information is downstream of social-reality-dynamics, and *upstream* of political-policies (which produces postulation and language-dynamics), reality-initiative-traits, and projectional-dynamics (which produces UPB itself, branching into world-expansion and time-continuum). The diagram thus situates the underlying-philosophical-basis as the *output* of projectional dynamics fed by trans-information — meaning UPB is not an a-priori platform but a derived structure, exactly the methodological move Braxton is making in this section.",
+  "description": "Diagram in UPB(II)-8, paired with v1-p146-1. (R)TR-INFO — the reality of trans-information — is crossed with PROJ-DY (projectional dynamics). The diagram poses what *real* trans-information (as distinct from any specific transmitted content) looks like when crossed with projectional dynamics. Besides the main line to PROJ-DY, two branches leave the subject. RT-INT-TR (reality initiative traits) carries POL-P (political policies), which branches to LANG-DY (language dynamics) and to SOC-RT-DY (social reality dynamics) → POST (postulation). UPB (underlying philosophical basis) carries T-C-IMP (time continuum implications) → WO-EXP-PRI (world expansion principle).",
   "terms": [
     { "termId": "tr-info", "isSubject": true, "prefix": "r" },
     { "termId": "proj-dy" },
@@ -20,14 +20,14 @@
     { "termId": "t-c-imp" }
   ],
   "relationships": [
-    { "from": "soc-rt-dy", "to": "tr-info", "type": "solid" },
-    { "from": "tr-info", "to": "pol-p", "type": "solid" },
-    { "from": "pol-p", "to": "post", "type": "solid" },
     { "from": "pol-p", "to": "lang-dy", "type": "solid" },
     { "from": "tr-info", "to": "rt-int-tr", "type": "solid" },
     { "from": "tr-info", "to": "proj-dy", "type": "solid" },
-    { "from": "proj-dy", "to": "upb", "type": "solid" },
-    { "from": "upb", "to": "wo-exp-pri", "type": "solid" },
-    { "from": "upb", "to": "t-c-imp", "type": "solid" }
+    { "from": "upb", "to": "t-c-imp", "type": "solid" },
+    { "from": "rt-int-tr", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "post", "type": "solid" },
+    { "from": "tr-info", "to": "upb", "type": "solid" },
+    { "from": "t-c-imp", "to": "wo-exp-pri", "type": "solid" }
   ]
 }

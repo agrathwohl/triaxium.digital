@@ -1,12 +1,12 @@
 {
   "id": "v2-p96",
   "volume": 2,
-  "section": "AF(D)-24",
+  "section": "(AF)D-24",
   "page": 96,
   "subject": "info-intr",
   "title": "INFO.INTR.------POL.DYM.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-24 (Affinity Dynamics, Level One) accompanying Braxton's diagnostic of suppression: 'quite possibly the most basic tool that has been used to stop the move towards all investigation has been the use of affinity negation (that is, the move to negate how a person or persons perceive of themselves).' INFO-INTR (information interpretation) is crossed with POL-DYM (political dynamics): the question is what information-interpretation produces when crossed with political-dynamics — under conditions where political-dynamics is the operational vehicle of affinity-negation. POL-DYM sits at the upper-center with LANG-DY (language dynamics) and PROG-SIGN (progressional significance) on the upper-right output. SOC-RT (social reality) anchors the right output. RT-INT-TR (reality initiative traits) sits centrally between subject and partner. INT (intention) feeds upward into the subject from below. CRT (criticism) anchors the lower-center. INFO-DYM (information dynamics) hangs on the lower-right. Structural argument: information-interpretation crossed with political-dynamics is mediated by reality-initiative-traits as central hub. The diagram exposes Braxton's structural diagnostic: affinity-negation (mentioned in the prose) operates by interrupting the path from intention through reality-initiative-traits to political-dynamics. The productive outputs (language-dynamics, progressional-significance, social-reality) are then captured by political-dynamics without the corrective informed by the actual intention. Real criticism (CRT) and the information-dynamics it produces become marginal outputs rather than central determinants.",
+  "description": "Diagram in AF(D)-24 (Affinity Dynamics, Level One) accompanying Braxton's diagnostic of suppression: 'quite possibly the most basic tool that has been used to stop the move towards all investigation has been the use of affinity negation (that is, the move to negate how a person or persons perceive of themselves).' INFO-INTR (information interpretation) is crossed with POL-DYM (political dynamics): the question is what information-interpretation produces when crossed with political-dynamics. SOC-RT (social reality) branches from the main line and carries two branches: PROG-SIGN (progressional significance), with LANG-DY (language dynamics) on it, and RT-INT-TR (reality initiative traits), which leads to INT (intention), then to INFO-DYM (information dynamics) and on to CRT (criticism).",
   "terms": [
     { "termId": "info-intr", "isSubject": true },
     { "termId": "pol-dym" },
@@ -20,13 +20,12 @@
   ],
   "relationships": [
     { "from": "info-intr", "to": "pol-dym", "type": "solid" },
-    { "from": "pol-dym", "to": "lang-dy", "type": "solid" },
-    { "from": "lang-dy", "to": "prog-sign", "type": "solid" },
-    { "from": "pol-dym", "to": "soc-rt", "type": "solid" },
-    { "from": "info-intr", "to": "rt-int-tr", "type": "solid" },
-    { "from": "rt-int-tr", "to": "pol-dym", "type": "solid" },
-    { "from": "int", "to": "info-intr", "type": "solid" },
-    { "from": "crt", "to": "rt-int-tr", "type": "solid" },
-    { "from": "rt-int-tr", "to": "info-dym", "type": "solid" }
+    { "from": "info-intr", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "prog-sign", "type": "solid" },
+    { "from": "prog-sign", "to": "lang-dy", "type": "solid" },
+    { "from": "soc-rt", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "int", "type": "solid" },
+    { "from": "int", "to": "info-dym", "type": "solid" },
+    { "from": "info-dym", "to": "crt", "type": "solid" }
   ]
 }

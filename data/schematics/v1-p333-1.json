@@ -6,7 +6,7 @@
   "subject": "c-info",
   "title": "C.INFO.------TR.",
   "type": "crossing",
-  "description": "Diagram in PCC-17, on the page where Braxton describes the Sonic Arts Union and Musica Elettronica Viva as the two principal collective extensions of post-Cage activity, with diverging affinities: SAU as vehicle for individual composer's compositional approach, MEV as collective improvisation. C-INFO (composite information) is crossed with TR (transformation): the question is what composite information's relationship to transformation looks like when the post-Cage continuum has produced both an individual-track ensemble and a collective-track ensemble. C-INFO → TR (the crossing). EXT-FT (extended functionalism) → PROG-CONT (progressional continuance) → MT-INFO (multi-information) → DYM-F (dynamic functionalism) → (R)TR-DEF (the reality of trans-definition). TR → PHY-U-P (physical universe particular) → EXP-INFO-B (expansion information basis) → AFL-DY (affinity dynamics). T-C-IMP (time continuum implications) → EXP-INFO-B in parallel. Structural argument: composite information reaches transformation directly, but transformation's downstream chain runs through the physical universe particular into the expansion-information-basis hub (which is also fed by time-continuum implications), and from there into affinity dynamics. Meanwhile, extended functionalism produces a parallel chain through progressional continuance into multi-information into dynamic functionalism into the reality of trans-definition. The diagram thus diagrams the two-track structure Braxton describes: the SAU/individual-composer track via extended-functionalism into trans-definition, and the MEV/collective-improvisation track via the physical universe into affinity dynamics through expansion-information-basis.",
+  "description": "Diagram in PCC-17. C-INFO (composite information) is crossed with TR (transformation): the question is what composite information's relationship to transformation looks like. C-INFO → TR (the crossing). Two lines branch from the main line. One runs to PHY-U-P (physical universe particular), from which T-C-IMP (time continuum implications) branches. The other runs to PROG-CONT (progressional continuance), which branches to EXT-FT (extended functionalism) and MT-INFO (multi-information). DYM-F (dynamic functionalism) and AFL-DY (affinity dynamics) branch from MT-INFO, and EXT-INFO-B and (R)DIFF both branch from AFL-DY.",
   "terms": [
     {
       "termId": "c-info",
@@ -25,7 +25,7 @@
       "termId": "dym-f"
     },
     {
-      "termId": "tr-def",
+      "termId": "diff",
       "prefix": "r"
     },
     {
@@ -35,7 +35,7 @@
       "termId": "phy-u-p"
     },
     {
-      "termId": "exp-info-b"
+      "termId": "ext-info-b"
     },
     {
       "termId": "afl-dy"
@@ -51,8 +51,8 @@
       "type": "solid"
     },
     {
-      "from": "ext-ft",
-      "to": "prog-cont",
+      "from": "prog-cont",
+      "to": "ext-ft",
       "type": "solid"
     },
     {
@@ -66,28 +66,33 @@
       "type": "solid"
     },
     {
-      "from": "dym-f",
-      "to": "tr-def",
+      "from": "afl-dy",
+      "to": "ext-info-b",
       "type": "solid"
     },
     {
-      "from": "tr",
+      "from": "c-info",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "afl-dy",
+      "to": "diff",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
       "to": "phy-u-p",
       "type": "solid"
     },
     {
       "from": "phy-u-p",
-      "to": "exp-info-b",
-      "type": "solid"
-    },
-    {
-      "from": "exp-info-b",
-      "to": "afl-dy",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "exp-info-b",
+      "to": "t-c-imp",
       "type": "solid"
     }
   ]

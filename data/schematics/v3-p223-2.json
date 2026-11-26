@@ -6,7 +6,7 @@
   "subject": "info-doc",
   "title": "INFO.DOC.-----AFL.DYM.------T.C.IMP.",
   "type": "network",
-  "description": "Triple-crossing diagram on page 223 (T(IMP)M-21), paired with STF \u00d7 PROJ-DY above. The triple-axis names what black-improvised-music's information-documentation structurally requires when both affinity-alignment-dynamism *and* time-continuum-implications are working partners: (PO)INFO-DOC (the political-output of information-documentation) crossed with AFL-DYM (affinity-alignment dynamism \u2014 the middle axis) crossed with T-C-IMP (time continuum implications). INFO-DOC sits at upper-left with the subject-arrow and the (po) prefix marking it as the political-output of the form's documentation. AFL-DYM (the middle axis) sits at upper-right. T-C-IMP sits at center-right as partner-axis. TH-CONT (thrust continuance) sits centrally as the bridging hub. AFL-DY-INT (the internal of affinity-alignment dynamics, written 'afl.dy.int.') anchors the bottom-left as the bridging-axis downward terminus. Structural argument: the triple-axis is the structural payload \u2014 the (PO) prefix on INFO-DOC marks that information-documentation has *already* been converted into political-output form by the controlling forces (matching the prior diagram's meta-reality-retardation). For the form to actually preserve its meta-reality potential, three axes must hold simultaneously: the subject-axis's political-output information-documentation, the middle-axis's affinity-alignment dynamism, and the partner-axis's time continuum implications. TH-CONT at the central hub is what carries the form through all three axes. AFL-DY-INT at the bottom-left is the *internal* affinity-alignment dynamics \u2014 the form's actual interior affinity-working that exists prior to the political-output conversion. The structural argument: black-improvised-music's actual meta-reality potential (the prior page's prose target) requires the triple-axis configuration to hold open the connection from AFL-DY-INT through TH-CONT all the way to T-C-IMP \u2014 only with all three crossing-axes maintaining their working positions does the form's interior affinity-alignment reach time-continuum-implications; otherwise the controlling forces' political-output captures information-documentation alone and the form's meta-reality potential retards into the partner-axis's terminal time-implication.",
+  "description": "Triple-crossing diagram on page 223 (T(IMP)M-21), paired with STF \u00d7 PROJ-DY above. The triple-axis names what black-improvised-music's information-documentation structurally requires when both affinity-dynamics *and* time-continuum-implications are working partners: (PO)INFO-DOC (the point of information documentation) crossed with AFL-DYM (affinity dynamics \u2014 the middle axis) crossed with T-C-IMP (time continuum implications). INFO-DOC sits at upper-left with the subject-arrow and the (po) prefix, 'point of'. AFL-DYM (the middle axis) sits at upper-right. T-C-IMP sits at lower-right as partner-axis. TH-CONT (thrust continuance) sits centrally, on a line that descends from the INFO-DOC\u2013AFL-DYM line. AFL-DY-INT (written 'afl.dy.int.') ends that line at the bottom-left, below TH-CONT. Structurally, the main line runs from INFO-DOC to AFL-DYM and turns down to T-C-IMP; TH-CONT and AFL-DY-INT lie on a separate line from the INFO-DOC\u2013AFL-DYM stretch.",
   "terms": [
     {
       "termId": "info-doc",
@@ -21,6 +21,9 @@
     },
     {
       "termId": "th-cont"
+    },
+    {
+      "termId": "afl-dy-int"
     }
   ],
   "relationships": [
@@ -41,7 +44,7 @@
     },
     {
       "from": "th-cont",
-      "to": "t-c-imp",
+      "to": "afl-dy-int",
       "type": "solid"
     }
   ]

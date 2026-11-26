@@ -6,7 +6,7 @@
   "subject": "tr-info",
   "title": "TR.INFO.------RT.ALGN.",
   "type": "crossing",
-  "description": "First of two diagrams in EVOL-6. The prose below identifies the structural target about preferential activity: 'Because in the final analysis, western culture has created a situation where what a person says is as significant as what a person does.' The crossing diagrams how transformation-information meets reality-alignment at the preferential-activity scale: TR-INFO crossed with RT-ALGN. POL-CY (political cycle) upper-center, (R)INTR (reality of interpretation) left, TR-INFO upper-right. POST (postulation), PER-DY (perception dynamics), AF-DY (affinity dynamics) on the right. CRT, CULT-INFO-B (culture information basis), JR-DY (junior dynamic) center, CR-INFO-DY (circular information dynamics) right of rt.algn. RT-ALGN center. MT-INTR (multiple interpretation) lower-right, TRS (transition) bottom-center.",
+  "description": "First of two diagrams in EVOL-6. The prose below identifies the structural target about preferential activity: 'Because in the final analysis, western culture has created a situation where what a person says is as significant as what a person does.' The crossing diagrams how trans-information meets reality-alignment at the preferential-activity scale: TR-INFO crossed with RT-ALGN. POL-CY (political cycle) upper-center, (R)INTR (reality of interpretation) left, TR-INFO upper-right. POST (postulation), PER-DY (perception dynamics), AF-DY (affinity dynamics) on the right. CRT, CULT-INFO-B (culture information basis), JR-DY (journalism dynamics) lower-left, CR-INFO-DY (circular information dynamics) right of rt.algn. RT-ALGN center. MT-INTR (multiple interpretation) lower-right, TRS (transition) bottom-center.",
   "terms": [
     {
       "termId": "tr-info",
@@ -57,13 +57,8 @@
       "type": "solid"
     },
     {
-      "from": "pol-cy",
-      "to": "tr-info",
-      "type": "solid"
-    },
-    {
-      "from": "intr",
-      "to": "rt-algn",
+      "from": "tr-info",
+      "to": "pol-cy",
       "type": "solid"
     },
     {
@@ -72,43 +67,48 @@
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "af-dy",
       "to": "per-dy",
       "type": "solid"
     },
     {
-      "from": "per-dy",
-      "to": "af-dy",
-      "type": "solid"
-    },
-    {
-      "from": "rt-algn",
+      "from": "mt-intr",
       "to": "cr-info-dy",
       "type": "solid"
     },
     {
-      "from": "crt",
-      "to": "rt-algn",
+      "from": "pol-cy",
+      "to": "cult-info-b",
       "type": "solid"
     },
     {
       "from": "cult-info-b",
-      "to": "rt-algn",
+      "to": "intr",
       "type": "solid"
     },
     {
-      "from": "jr-dy",
-      "to": "rt-algn",
+      "from": "intr",
+      "to": "crt",
       "type": "solid"
     },
     {
-      "from": "cr-info-dy",
-      "to": "mt-intr",
+      "from": "crt",
+      "to": "jr-dy",
       "type": "solid"
     },
     {
-      "from": "rt-algn",
+      "from": "post",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
       "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "mt-intr",
       "type": "solid"
     }
   ]

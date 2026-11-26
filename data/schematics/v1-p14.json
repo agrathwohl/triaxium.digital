@@ -6,7 +6,7 @@
   "subject": "vt-dy",
   "title": "(R)VT. DY.------ POST.",
   "type": "crossing",
-  "description": "Pedagogical example schematic from the Glossary Integration / CODE section (book pp 13–14), where Braxton teaches the reader how to read his integration charts. The arrow points to VT-DY (vibrational dynamics) marking it as the schematic's subject; the bracketed (R) prefix signals 'the reality of' that subject; the dashed line to POST (postulation) signals the relational concept the subject is being read against. Three branches expand the subject: (1) source initiation SI, opening into primary vibrational tendencies PRI-VT-TD; (2) reality alignment RT-ALGN, opening into language dynamics LANG-DY; (3) affinity tendencies AFTD, opening into individual dynamics INDIV-DY which itself branches into affinity insight AFI and progressional continuance PROG-CONT. The diagram thus instantiates Braxton's broader claim — articulated on pp 13–14 — that no concept in the Tri-Axium system can be read in only one context: a schematic 'should be viewed as axiom tenets', forcing the reader to hold the subject's vibrational, reality-alignment, and affinity-tendency aspects together.",
+  "description": "Pedagogical example schematic from the CODE section (book pp 13–14), where Braxton teaches the reader how to read his integration charts. The arrow points to VT-DY (vibrational dynamics) marking it as the schematic's subject; the bracketed (R) prefix signals 'the reality of' that subject; the main line to POST (postulation) signals the relational concept the subject is being read against. Three branches expand the subject: (1) source initiation SG, opening into primary vibrational tendencies PRI-VT-TD; (2) reality alignment RT-ALGN, opening into language dynamics LANG-DY; (3) affinity tendencies AFTD, opening into individual dynamics INDIV-DY, which itself branches into affinity insight AFI, and into progressional continuance PROG-CONT. The diagram thus instantiates Braxton's broader claim — articulated on pp 13–14 — that no concept in the Tri-Axium system can be read in only one context: a schematic 'should be viewed as axiom tenets', forcing the reader to hold the subject's vibrational, reality-alignment, and affinity-tendency aspects together.",
   "terms": [
     {
       "termId": "vt-dy",
@@ -17,7 +17,7 @@
       "termId": "post"
     },
     {
-      "termId": "si"
+      "termId": "sg"
     },
     {
       "termId": "pri-vt-td"
@@ -45,15 +45,15 @@
     {
       "from": "vt-dy",
       "to": "post",
-      "type": "dashed"
-    },
-    {
-      "from": "vt-dy",
-      "to": "si",
       "type": "solid"
     },
     {
-      "from": "si",
+      "from": "vt-dy",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
       "to": "pri-vt-td",
       "type": "solid"
     },
@@ -83,7 +83,7 @@
       "type": "solid"
     },
     {
-      "from": "indiv-dy",
+      "from": "aftd",
       "to": "prog-cont",
       "type": "solid"
     }

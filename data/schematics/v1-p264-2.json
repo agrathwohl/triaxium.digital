@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "CMBA-20",
   "page": 264,
-  "subject": "afi-tf",
+  "subject": "aftf",
   "title": "AFI.TF.------STF.",
   "type": "crossing",
-  "description": "Diagram in CMBA-20, the second on book p264. (C)AFTF (affinity transfer) is crossed with STF (source transfer): a precise structural pairing, since both 'affinity transfer' and 'source transfer' are Braxton's terms for cross-cultural movement of creative material, but with different valences — affinity-transfer being the reality of sympathy-based adoption, source-transfer being the structural transmission of source-initiated material. AFTF is fed by (P)TRS (the *point of activation* of transition). AFTF outputs to STF (the crossing) and MT-INFO (multi-information). STF then outputs to AFI (affinity insight), which branches to PROJ-DY (projectional dynamics) and ASP-ES (aspect essence). ASP-ES has a *dashed* edge to (R)INT (the reality of intention). Structural argument: affinity transfer is the upstream that produces source transfer, with source transfer in turn producing affinity insight as its meaningful outcome. Affinity insight then bifurcates into projectional dynamics and aspect essence, with the latter only conditionally reaching the reality of intention (the dashed edge). The diagram thus stages Braxton's structural claim about modal-extension and the Indian/black-creativity convergence: affinity transfer (sympathetic adoption, e.g., black musicians moved by Indian modality) precedes source transfer (the actual structural transmission), and produces affinity insight as the *meaningful* outcome. Real intention only emerges conditionally from aspect essence — i.e., the question of whether the borrower's intention actually fits the source's essence remains open.",
+  "description": "Diagram in CMBA-20, the second on book p264. (C)AFTF (affinity transfer) is crossed with STF (source transfer). AFTF outputs to STF (the crossing) and MT-INFO (multi-information). A further branch from the main line leads to (P)TRS (the point of idea completion of transition). MT-INFO then leads to AFI-DY, which branches to ASP-ES (aspect essence); ASP-ES in turn branches to PROJ-DY (projectional dynamics). ASP-ES has a *dashed* edge to (R)INT (the reality of intention).",
   "terms": [
     {
       "termId": "aftf",
@@ -24,7 +24,7 @@
       "termId": "mt-info"
     },
     {
-      "termId": "afi"
+      "termId": "afi-dy"
     },
     {
       "termId": "proj-dy"
@@ -39,8 +39,8 @@
   ],
   "relationships": [
     {
-      "from": "trs",
-      "to": "aftf",
+      "from": "aftf",
+      "to": "trs",
       "type": "solid"
     },
     {
@@ -54,17 +54,7 @@
       "type": "solid"
     },
     {
-      "from": "stf",
-      "to": "afi",
-      "type": "solid"
-    },
-    {
-      "from": "afi",
-      "to": "proj-dy",
-      "type": "solid"
-    },
-    {
-      "from": "afi",
+      "from": "afi-dy",
       "to": "asp-es",
       "type": "solid"
     },
@@ -72,6 +62,16 @@
       "from": "asp-es",
       "to": "int",
       "type": "dashed"
+    },
+    {
+      "from": "mt-info",
+      "to": "afi-dy",
+      "type": "solid"
+    },
+    {
+      "from": "asp-es",
+      "to": "proj-dy",
+      "type": "solid"
     }
   ]
 }

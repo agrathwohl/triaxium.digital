@@ -6,7 +6,7 @@
   "subject": "af-post",
   "title": "AF.POST.-----EXT.DY.",
   "type": "crossing",
-  "description": "Diagram in PR.S(RD)II-4. The prose below identifies the structural target: 'To understand the reality of transformational journalism is to focus on how this phenomenon has come about - and what it means.' The crossing diagrams how affinity-postulation structurally meets extended-dynamics at the transformational-journalism scale: AF-POST crossed with EXT-DY. AF-POST sits at upper-center with the subject-arrow; EXT-DY at lower-center as partner-axis. POST (postulation), ALT-DEF (alternative definition) upper-right. WO-EXP-PRI (world expansion principle) upper-left. PER-DY (perception dynamics) left, C-INFO (composite information) center. VT-PLT (vibrational platform), TR (transformation) right. LK-IMP (linkage implication) left. PROJ-DY (projectional dynamics), METH (method) right. EXT-FT (extended functionalism) lower-center.",
+  "description": "Diagram in PR.S(RD)II-4. The prose below identifies the structural target: 'To understand the reality of transformational journalism is to focus on how this phenomenon has come about - and what it means.' The crossing diagrams how affinity-postulation structurally meets extended-dynamics at the transformational-journalism scale: AF-POST crossed with EXT-DY. AF-POST sits at upper-center with the subject-arrow; EXT-DY at lower-left as partner-axis. POST (postulation), ALT-DEF (alternative definitions) upper-right. WO-EXP-PRI (world expansion principle) upper-left. PER-DY (perception dynamics), C-INFO (composite information) left. VT-PLT (vibrational platform), TR (transformation) right. LK-IMP (linkage implications) left. PROJ-DY (projectional dynamics), METH (methodology) right. EXT-FT (extended functionalism) lower-center.",
   "terms": [
     {
       "termId": "af-post",
@@ -56,58 +56,58 @@
       "type": "solid"
     },
     {
-      "from": "af-post",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "post",
-      "to": "alt-def",
-      "type": "solid"
-    },
-    {
-      "from": "wo-exp-pri",
-      "to": "af-post",
-      "type": "solid"
-    },
-    {
-      "from": "per-dy",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
-      "from": "c-info",
-      "to": "af-post",
-      "type": "solid"
-    },
-    {
       "from": "alt-def",
       "to": "vt-plt",
       "type": "solid"
     },
     {
-      "from": "vt-plt",
+      "from": "af-post",
       "to": "tr",
       "type": "solid"
     },
     {
-      "from": "lk-imp",
-      "to": "ext-dy",
+      "from": "tr",
+      "to": "alt-def",
       "type": "solid"
     },
     {
-      "from": "ext-dy",
-      "to": "proj-dy",
+      "from": "vt-plt",
+      "to": "post",
       "type": "solid"
     },
     {
-      "from": "proj-dy",
+      "from": "af-post",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
       "to": "meth",
       "type": "solid"
     },
     {
-      "from": "ext-dy",
-      "to": "ext-ft",
+      "from": "meth",
+      "to": "proj-dy",
+      "type": "solid"
+    },
+    {
+      "from": "af-post",
+      "to": "lk-imp",
+      "type": "solid"
+    },
+    {
+      "from": "lk-imp",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "wo-exp-pri",
+      "to": "per-dy",
       "type": "solid"
     }
   ]

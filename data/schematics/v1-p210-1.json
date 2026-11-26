@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "WAC-8",
   "page": 210,
-  "subject": "ext-f",
+  "subject": "ext-ft",
   "title": "EXT.F.------PROG.SIGN.",
   "type": "crossing",
-  "description": "Diagram in the Western Art Continuance section (WAC-8), embedded in Braxton's argument that 'the dissolution of the composite reality of western art music coincides with the composite factors reshaping the total planet situation' and that the transitional cycle of post-Schoenberg/Webern composition produced two principal extension routes — source-initiation and source-transfer. (C)EXT-FT (extended functionalism) is crossed with PROG-SIGN (progressional significance): the question is what extended functionalism's significance is for progression, given that Berg, Schoenberg, and Webern each made the technique mean different things. ALT-F (alternative functionalism) feeds EXT-FT directly. AFTD (affinity tendencies) and PRI-INFO (principle information) both feed POL-DYM (political dynamics) → ALT-F → SOC-RT (social reality) → INFO-DS (information dissemination). EXT-FT outputs to TRS (transition) and PROG-SIGN. Structural argument: the path to extended functionalism's progressional significance is direct, but the *constituting upstream* — affinity tendencies and principle information feeding political dynamics — runs through alternative functionalism and into social reality and dissemination *before* reaching extended functionalism. The diagram makes Braxton's claim structural: extended functionalism is not a free technical choice but a politically-mediated outcome of the specific affinity tendencies and principle-information regime of post-1900 Europe.",
+  "description": "Diagram in the Western Art Continuance section (WAC-8). In WAC-4 Braxton argues that 'the dissolution of the composite reality of western art music coincides with the composite factors reshaping the total planet situation.' (C)EXT-F (extended functionalism) is crossed with PROG-SIGN (progressional significance): the question is what extended functionalism's significance is for progression, given that Berg, Schoenberg, and Webern each made the technique mean different things. Besides the main line to PROG-SIGN, the subject carries TRS (transition) and ALT-F (alternative functionalism). ALT-F carries SOC-RT (social reality) → POL-DY (political dynamics), which branches to INFO-DS (information dissemination) and to a second ALT-F; that ALT-F carries PRI-INFO (principle information) → AF-TD (affinity tendencies).",
   "terms": [
     {
       "termId": "ext-ft",
@@ -36,27 +36,30 @@
     },
     {
       "termId": "info-ds"
+    },
+    {
+      "termId": "alt-f-2"
     }
   ],
   "relationships": [
     {
-      "from": "alt-f",
-      "to": "ext-ft",
-      "type": "solid"
-    },
-    {
-      "from": "aftd",
-      "to": "pol-dym",
+      "from": "ext-ft",
+      "to": "alt-f",
       "type": "solid"
     },
     {
       "from": "pri-info",
-      "to": "pol-dym",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f-2",
+      "to": "pri-info",
       "type": "solid"
     },
     {
       "from": "pol-dym",
-      "to": "alt-f",
+      "to": "alt-f-2",
       "type": "solid"
     },
     {
@@ -65,7 +68,7 @@
       "type": "solid"
     },
     {
-      "from": "soc-rt",
+      "from": "pol-dym",
       "to": "info-ds",
       "type": "solid"
     },
@@ -77,6 +80,11 @@
     {
       "from": "ext-ft",
       "to": "prog-sign",
+      "type": "solid"
+    },
+    {
+      "from": "soc-rt",
+      "to": "pol-dym",
       "type": "solid"
     }
   ]

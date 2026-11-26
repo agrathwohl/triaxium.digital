@@ -6,7 +6,7 @@
   "subject": "re-doc",
   "title": "(R)RE.DOC.-----AF.DY.",
   "type": "crossing",
-  "description": "Diagram in TRF(II)-17. The prose above identifies the structural target: 'the collective forces of western culture function as a negative factor with regards to the actualness of creativity from every sector of the planet - especially if the creator is not a white man.' The crossing diagrams how reality-of-redocumentation structurally meets affinity-dynamics at the creative-women-evaluation scale: (R)RE-DOC crossed with AF-DY. RE-DOC sits at left with the subject-arrow; AF-DY at center-bottom as partner-axis. C-INFO (composite information), MT-INTR (multiple interpretation), STF (source transfer) upper chain. INDIV-TD (individual tendencies) center, T-C-IMP (time continuum implications) right. SG (source-generation) center. CULT-INFO-DY (culture information dynamics), CULT-SOLD (culture solidification) right. VT-DY (vibrational dynamics), PER-DY (perception dynamics), TR (transformation) on the lower-left chain. RT-DY (reality dynamics) lower-center.",
+  "description": "Diagram in TRF(II)-17. The prose above identifies the structural target: 'the collective forces of western culture function as a negative factor with regards to the actualness of creativity from every sector of the planet - especially if the creator is not a white man.' The crossing diagrams how reality-of-redocumentation structurally meets affinity-dynamics at the creative-women-evaluation scale: (R)RE-DOC crossed with AF-DY. RE-DOC sits at left with the subject-arrow; AF-DY at center-bottom as partner-axis. C-INFO (composite information) sits at a junction on the upper branch, which carries INDIV-TD (individual tendencies) and runs on to MT-INTR (multiple interpretation); a second MT-INTR branches at C-INFO. CULT-INFO-DY (culture information dynamics) runs right from the main line and carries T-C-IMP (time continuum implications) and CULT-SOLD (culture solidification); SG (source initiation) branches from T-C-IMP and carries STF (source transfer), and RT-DY (reality dynamics) drops from CULT-SOLD. TR (transformation) drops from the main line and carries VT-DY (vibrational dynamics), which carries PER-DY (perception dynamics).",
   "terms": [
     {
       "termId": "re-doc",
@@ -51,6 +51,9 @@
     },
     {
       "termId": "rt-dy"
+    },
+    {
+      "termId": "mt-intr-2"
     }
   ],
   "relationships": [
@@ -70,38 +73,8 @@
       "type": "solid"
     },
     {
-      "from": "mt-intr",
-      "to": "stf",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "mt-intr",
-      "to": "indiv-td",
-      "type": "solid"
-    },
-    {
-      "from": "re-doc",
-      "to": "sg",
-      "type": "solid"
-    },
-    {
-      "from": "stf",
-      "to": "cult-info-dy",
-      "type": "solid"
-    },
-    {
       "from": "cult-info-dy",
       "to": "cult-sold",
-      "type": "solid"
-    },
-    {
-      "from": "re-doc",
-      "to": "vt-dy",
       "type": "solid"
     },
     {
@@ -110,18 +83,48 @@
       "type": "solid"
     },
     {
-      "from": "per-dy",
+      "from": "c-info",
+      "to": "mt-intr-2",
+      "type": "solid"
+    },
+    {
+      "from": "c-info",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
+      "to": "cult-info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "cult-info-dy",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "stf",
+      "type": "solid"
+    },
+    {
+      "from": "cult-sold",
+      "to": "rt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "re-doc",
       "to": "tr",
       "type": "solid"
     },
     {
       "from": "tr",
-      "to": "af-dy",
-      "type": "solid"
-    },
-    {
-      "from": "af-dy",
-      "to": "rt-dy",
+      "to": "vt-dy",
       "type": "solid"
     }
   ]

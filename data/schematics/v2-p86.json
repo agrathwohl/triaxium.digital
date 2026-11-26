@@ -1,12 +1,12 @@
 {
   "id": "v2-p86",
   "volume": 2,
-  "section": "AF(D)-14",
+  "section": "(AF)D-14",
   "page": 86,
   "subject": "cul-tf-s",
   "title": "CUL.TF.S.------SOC.RT.DY.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-14 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the great predominance of information spread (or transfer) has been brought about through the destruction of nation against nation — what we call war' — that war-driven transfer brings 'special problems with respect to the reality underlying how information is viewed.' (C)CUL-TF-S (the concept of cultural transfer shifts) is crossed with SOC-RT-DY (social reality dynamics): the question is what cultural-transfer-shifts produces when crossed with social-reality-dynamics under war-mediated transfer conditions. C-INFO (composite information), MT-INFO (multi-information), and S-ST (source shift (progressionalism) manipulation) form the upper-center cluster. RT-DY (reality dynamics) and LANG-DY (language dynamics) anchor the upper-right output. SOC-RT-DY (social reality dynamics) itself is the central crossing axis. AFL (affinity alignment) sits below. CULT-AF-B (culture affinity basis) feeds upward from the lower-left via a *dashed* edge (conditional). (R)INTR (the reality of interpretation) anchors the lower-left via another dashed edge. TH-CONT (thrust continuance), (R)IST-F (reality of isolated focus), and IST-F (isolated focus) form the lower-right cluster with another dashed connection. Structural argument: the multiple dashed edges expose Braxton's structural diagnostic — under war-mediated transfer, the link between cultural-transfer-shifts and culture-affinity-basis, between reality-interpretation and the crossing, and between social-reality-dynamics and isolated-focus, are all *conditional* rather than guaranteed. The diagram exposes that war does transfer information but corrupts the fidelity of the very upstreams (interpretation, affinity-basis, source-functionalism) that would make the transferred information productive.",
+  "description": "Diagram in AF(D)-14 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the great predominance of information spread (or transfer) has been brought about through the destruction of nation against nation — what we call war' — that war-driven transfer brings 'special problems with respect to the reality underlying how information is viewed.' (C)CUL-TF-S (the concept of cultural transfer shifts) is crossed with SOC-RT-DY (social reality dynamics): the question is what cultural-transfer-shifts produces when crossed with social-reality-dynamics under war-mediated transfer conditions. C-INFO (composite information) branches from the main line and leads to AFL (affinity alignment), which carries MT-INFO (multi-information), with RT-DY (reality dynamics) on it, and TH-CONT (thrust continuance). TH-CONT carries CULT-AF-B (culture affinity basis) and (R)IST-F (the reality of isolated focus); from (R)IST-F run LANG-DY (language dynamics) and, by a *dashed* line, IST-F (isolated focus), and from LANG-DY a dashed line rises to S-ST (source shift (progressionalism) manipulation). A third dashed line runs from the main line to (R)INTR (the reality of interpretation). In Braxton's legend a dotted line amplifies some aspect of the main concept it is connected to.",
   "terms": [
     { "termId": "cul-tf-s", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt-dy" },
@@ -20,20 +20,20 @@
     { "termId": "intr", "prefix": "r" },
     { "termId": "th-cont" },
     { "termId": "ist-f", "prefix": "r" },
-    { "termId": "ist-f" }
+    { "termId": "ist-f-2" }
   ],
   "relationships": [
     { "from": "cul-tf-s", "to": "c-info", "type": "solid" },
-    { "from": "c-info", "to": "mt-info", "type": "solid" },
-    { "from": "mt-info", "to": "s-st", "type": "dashed" },
     { "from": "cul-tf-s", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "rt-dy", "type": "solid" },
-    { "from": "rt-dy", "to": "lang-dy", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "afl", "type": "solid" },
-    { "from": "cul-tf-s", "to": "cult-af-b", "type": "dashed" },
-    { "from": "cult-af-b", "to": "intr", "type": "dashed" },
     { "from": "afl", "to": "th-cont", "type": "solid" },
-    { "from": "th-cont", "to": "ist-f", "type": "dashed" },
-    { "from": "afl", "to": "ist-f", "type": "solid" }
+    { "from": "th-cont", "to": "ist-f", "type": "solid" },
+    { "from": "cul-tf-s", "to": "intr", "type": "dashed" },
+    { "from": "c-info", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "rt-dy", "type": "solid" },
+    { "from": "th-cont", "to": "cult-af-b", "type": "solid" },
+    { "from": "ist-f", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "s-st", "type": "dashed" },
+    { "from": "ist-f", "to": "ist-f-2", "type": "dashed" }
   ]
 }

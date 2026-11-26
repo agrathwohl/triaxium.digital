@@ -6,7 +6,7 @@
   "subject": "rc",
   "title": "RC.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-18 (Social Reality / Trans-Information, Level Two), second of two on book p162, paired with v2-p162-1. Continues the closing education argument by holding race as concept against progressional-continuance — the question of whether race-thinking can be reconciled with real cultural continuance. (C)RC (the concept of race) is crossed with PROG-CONT (progressional continuance): the question is what race-as-concept produces when crossed with progressional-continuance — under conditions where narrow information lines sustain spectacle. SPT-DY (spiritual dynamics) feeds in from the upper-left. ATTN (attraction) sits between subject and partner on the left. PROG-CONT sits at the upper-center. INFO-DY (information dynamics) anchors the upper-right output. RE-ST (restructuralism) sits below the central axis. AF-DY (affinity dynamics) and VT-DY (vibrational dynamics) form the lower-right output cluster. STY (style) hangs on the lower-left margin. INDIV-DY-RT (individual dynamic reality) anchors the lower-center. IST-PT (isolated particulars) anchors the bottom-center. Structural argument: race-as-concept crossed with progressional-continuance is mediated by attraction as central hub and restructuralism as lower hub. The doubled lower upstreams — style on one side, individual-dynamic-reality plus isolated-particulars on the other — register Braxton's structural commitment that real continuance requires individual-dynamic-reality (the (rt) suffix marks it as real) as the deeper upstream. The diagram exposes Braxton's diagnostic: race-as-concept can productively cross with progressional-continuance only when isolated-particulars is the lower foundation — when education works at that level — and only then does the affinity-dynamics/vibrational-dynamics output cluster register cultural transformation.",
+  "description": "Diagram in SR(TRS)II-18 (Social Reality / Trans-Information, Level Two), second of two on book p162, paired with v2-p162-1. Continues the education argument by holding race as concept against progressional-continuance — the question of whether race-thinking can be reconciled with real cultural continuance. (C)RC (the concept of race) is crossed with PROG-CONT (progressional continuance): the question is what race-as-concept produces when crossed with progressional-continuance — under conditions where narrow information lines sustain the present situation. SPT-DY (spiritual dynamics) branches from the main line to the upper left and carries ATTN (attraction). PROG-CONT sits at the upper-center. INFO-DY (information dynamics) anchors the upper-right output. RE-ST (restructuralism) sits below the central axis; its line carries INFO-DY and STY. AF-DY (affinity dynamics) and VT-DY (vibrational dynamics) form the lower-right output cluster. STY (style) hangs on the lower-left margin and carries IST-PT. INDIV-DY-RT (individual dynamic reality) anchors the lower-center, on a line from IST-PT. IST-PT (isolated particulars) anchors the bottom-center.",
   "terms": [
     { "termId": "rc", "isSubject": true, "prefix": "c" },
     { "termId": "prog-cont" },
@@ -21,15 +21,15 @@
     { "termId": "ist-pt" }
   ],
   "relationships": [
-    { "from": "spt-dy", "to": "prog-cont", "type": "solid" },
-    { "from": "attn", "to": "rc", "type": "solid" },
     { "from": "rc", "to": "prog-cont", "type": "solid" },
-    { "from": "prog-cont", "to": "info-dy", "type": "solid" },
     { "from": "rc", "to": "re-st", "type": "solid" },
-    { "from": "re-st", "to": "af-dy", "type": "solid" },
-    { "from": "re-st", "to": "vt-dy", "type": "solid" },
-    { "from": "sty", "to": "rc", "type": "solid" },
-    { "from": "indiv-dy-rt", "to": "re-st", "type": "solid" },
-    { "from": "ist-pt", "to": "indiv-dy-rt", "type": "solid" }
+    { "from": "ist-pt", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "rc", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "attn", "type": "solid" },
+    { "from": "re-st", "to": "sty", "type": "solid" },
+    { "from": "sty", "to": "ist-pt", "type": "solid" },
+    { "from": "re-st", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "vt-dy", "type": "solid" }
   ]
 }

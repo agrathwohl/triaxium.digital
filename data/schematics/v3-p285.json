@@ -6,7 +6,7 @@
   "subject": "info-dy",
   "title": "(R)INFO.DY.----C.CULT.AT.",
   "type": "crossing",
-  "description": "Diagram in PR.S(RD)II-39. The prose above identifies the structural target: 'The controlling and defining forces of western information regulation function as a negative factor to the actual meta-reality of creative music.' The crossing diagrams how the reality of information-dynamics structurally meets composite culture attitude at the regulation-of-creative-music scale: (R)INFO-DY (reality of information dynamics) crossed with C-CULT-AT (composite culture attitude). INFO-DY sits at lower-center with the subject-arrow; C-CULT-AT at upper-center as partner-axis. CULT-INFO-B (culture information basis) upper-right, DOC (documentation) center-right, MD-DY (media dynamics) right, JR-DY (junior dynamic) right. MT-INFO (multi-information) left. T-C-IMP (time continuum implications) lower-left, AF-DY (affinity dynamics) lower-center, RT-DY (reality dynamics) lower-right, RT-INT-TR (reality initiative traits) lower-right. Structural argument: when reality-information-dynamics is crossed with composite-culture-attitude, the upper-right chain CULT-INFO-B -> DOC -> MD-DY -> JR-DY is the western-information-regulation route. The lower chain T-C-IMP -> AF-DY -> RT-DY -> RT-INT-TR routes through the form's own working axis.",
+  "description": "Diagram in PR.S(RD)II-39. The prose above identifies the structural target: 'The controlling and defining forces of western information regulation function as a negative factor to the actual meta-reality of creative music.' The crossing diagrams how the reality of information-dynamics structurally meets composite culture attitude at the regulation-of-creative-music scale: (R)INFO-DY (reality of information dynamics) crossed with C-CULT-AT (composite culture attitude). INFO-DY sits at lower-center with the subject-arrow; C-CULT-AT at upper-center as partner-axis. CULT-INFO-B (culture information basis) upper-right, DOC (documentation) center-right, MD-DY (media dynamics) right, JR-DY (journalism dynamics) right. MT-INFO (multi-information) left. T-C-IMP (time continuum implications) lower-left, AF-DY (affinity dynamics) lower-center, RT-DY (reality dynamics) lower-right, RT-INT-TR (reality initiative traits) lower-right. Structural argument: when reality-information-dynamics is crossed with composite-culture-attitude, the upper-right chain CULT-INFO-B -> MD-DY -> JR-DY -> DOC, branching from the main line, is the western-information-regulation route. Two further branches leave the main line lower down: T-C-IMP, whose line carries MT-INFO, and RT-DY, whose line carries AF-DY, with RT-INT-TR branching from AF-DY's line.",
   "terms": [
     {
       "termId": "info-dy",
@@ -51,17 +51,17 @@
       "type": "solid"
     },
     {
-      "from": "c-cult-at",
+      "from": "info-dy",
       "to": "cult-info-b",
       "type": "solid"
     },
     {
-      "from": "c-cult-at",
+      "from": "jr-dy",
       "to": "doc",
       "type": "solid"
     },
     {
-      "from": "doc",
+      "from": "cult-info-b",
       "to": "md-dy",
       "type": "solid"
     },
@@ -71,7 +71,7 @@
       "type": "solid"
     },
     {
-      "from": "info-dy",
+      "from": "t-c-imp",
       "to": "mt-info",
       "type": "solid"
     },
@@ -81,7 +81,7 @@
       "type": "solid"
     },
     {
-      "from": "info-dy",
+      "from": "rt-dy",
       "to": "af-dy",
       "type": "solid"
     },
@@ -91,7 +91,7 @@
       "type": "solid"
     },
     {
-      "from": "rt-dy",
+      "from": "af-dy",
       "to": "rt-int-tr",
       "type": "solid"
     }

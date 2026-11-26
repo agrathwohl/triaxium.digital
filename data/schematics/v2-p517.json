@@ -3,14 +3,15 @@
   "volume": 2,
   "section": "MP(II)-35",
   "page": 517,
-  "subject": "info-doc",
+  "subject": "info-acc",
   "title": "INFO.DOC.------ACC.FT.",
   "type": "hub-spoke",
-  "description": "Diagram closing MP(II)-35 \u2014 the section on multi-national corporations as the fastest-developing piece of a greater progressional phenomenon of accelerated western functionalism. The prose immediately above identifies the structural target: 'by solidifying accelerated functionalism in this context, western culture has moved to secure its hold on the total planet. The rise of multi-national corporations is only the fastest development of a much greater progressional phenomenon.' The crossing diagrams how information-documentation structurally meets accelerated-functionalism at the multi-national-corporation scale: INFO-DOC (information documentation \u2014 the documented information that supplies the form's working record) crossed with ACC-FT (accelerated functionalism). The diagram labels the central subject node with two stacked prefixes \u2014 (C)INFO-ACC (central information-accumulation) and (R)INT (the reality of intention) \u2014 indicating the subject side is the *intersection* of information-accumulation in its central form and intention in its reality form. INFO-DOC sits as title-axis subject; IST-ACT (isolated activism) sits at upper-left, RT-DY (reality dynamics) at upper-center, and ACC-FT at upper-right as the partner-axis upper outputs. RT-INT-TR (reality initiative traits) sits at right with CN-INFO (controlled information) below as partner-side outputs, and RT-T (reality-thrust) at the lower-right as the partner-side downward terminus. ALT-F (alternative functionalism) sits at the left-center as the subject's leftward output. SOC-RT-DY (social-reality dynamics) hangs at the lower-left with PHY-U-P (physical-universe particulars) at the bottom-left as the subject-side downward chain. POL-P (political policies) sits at the lower-center and TRS (transition) at the bottom-right as the bridging-axis downward chain. Structural argument: when information-documentation is crossed with accelerated-functionalism, the upper diagonal IST-ACT \u2192 RT-DY \u2192 ACC-FT \u2192 RT-INT-TR \u2192 CN-INFO \u2192 RT-T is the *multi-national-corporation route* \u2014 isolated activism routes through reality-dynamics into accelerated-functionalism, then through reality initiative traits into controlled-information and finally into reality-thrust. This is the route by which multi-national corporations like ITT/General Motors actually accumulate functionalism \u2014 every edge in the chain is a corporate working step that converts the form's information-documentation into the partner's accelerated working. ALT-F \u2192 SOC-RT-DY \u2192 PHY-U-P on the subject-left is what information-documentation produces on its own \u2014 alternative-functionalism routes through social-reality dynamics into physical-universe particulars. POL-P \u2192 TRS on the central-bottom is the bridging-axis downward chain: political-policies routes into transition. The structural argument: the multi-national-corporation rise the prose names is structurally the partner-axis's upper diagonal running through six edges without ever crossing into the subject's working chain \u2014 the third-world functionalism the prose mentions can only reach the form by holding the central subject-node's (C)INFO-ACC \u00d7 (R)INT intersection open, which the upper diagonal structurally prevents.",
+  "description": "Diagram closing MP(II)-35 \u2014 the section on multi-national corporations as the fastest-developing piece of a greater progressional phenomenon of accelerated western functionalism. The prose immediately above identifies the structural target: 'by solidifying accelerated functionalism in this context, western culture has moved to secure its hold on the total planet. The rise of multi-national corporations is only the fastest development of a much greater progressional phenomenon.' The crossing diagrams how information-documentation structurally meets accelerated-functionalism at the multi-national-corporation scale: INFO-DOC (information documentation \u2014 the documented information that supplies the form's working record) crossed with ACC-FT (accelerated functionalism). The diagram labels the subject node, the dot the arrow points to, with two stacked labels \u2014 (C)INFO-ACC and (R)INT (the reality of intention) \u2014 indicating the subject side is the *intersection* of the concept of INFO-ACC and the reality of intention. ACC-FT sits at upper-right at the end of the main line. RT-DY (reality dynamics) rises from the main line, with IST-ACT (isolated activism) branching from it; SOC-RT-DY (social-reality dynamics) branches from IST-ACT, ALT-F (alternative functionalism) from SOC-RT-DY, and PHY-U-P (physical-universe particulars) from ALT-F. POL-P (political policies) drops from the main line; RT-T branches from POL-P, with RT-INT-TR (reality initiative traits) and TRS (transition) branching from RT-T and CN-INFO (controlled information) from RT-INT-TR.",
   "terms": [
     {
-      "termId": "info-doc",
-      "isSubject": true
+      "termId": "info-acc",
+      "isSubject": true,
+      "prefix": "c"
     },
     {
       "termId": "acc-ft"
@@ -52,28 +53,13 @@
   ],
   "relationships": [
     {
-      "from": "info-doc",
+      "from": "info-acc",
       "to": "acc-ft",
       "type": "solid"
     },
     {
-      "from": "info-doc",
-      "to": "ist-act",
-      "type": "solid"
-    },
-    {
-      "from": "info-doc",
+      "from": "info-acc",
       "to": "rt-dy",
-      "type": "solid"
-    },
-    {
-      "from": "rt-dy",
-      "to": "acc-ft",
-      "type": "solid"
-    },
-    {
-      "from": "acc-ft",
-      "to": "rt-int-tr",
       "type": "solid"
     },
     {
@@ -82,33 +68,48 @@
       "type": "solid"
     },
     {
-      "from": "cn-info",
-      "to": "rt-t",
+      "from": "info-acc",
+      "to": "pol-p",
       "type": "solid"
     },
     {
-      "from": "info-doc",
-      "to": "alt-f",
+      "from": "rt-dy",
+      "to": "ist-act",
       "type": "solid"
     },
     {
-      "from": "info-doc",
+      "from": "ist-act",
       "to": "soc-rt-dy",
       "type": "solid"
     },
     {
       "from": "soc-rt-dy",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
       "to": "phy-u-p",
       "type": "solid"
     },
     {
-      "from": "info-doc",
-      "to": "pol-p",
+      "from": "pol-p",
+      "to": "rt-t",
       "type": "solid"
     },
     {
-      "from": "pol-p",
+      "from": "rt-t",
+      "to": "rt-int-tr",
+      "type": "solid"
+    },
+    {
+      "from": "rt-t",
       "to": "trs",
+      "type": "solid"
+    },
+    {
+      "from": "info-acc",
+      "to": "int",
       "type": "solid"
     }
   ]

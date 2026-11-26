@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "EXT.F(II)-6",
   "page": 444,
-  "subject": "re-def",
+  "subject": "re-dif",
   "title": "RE.DEF.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in EXT.F(II)-6, paired with v1-p444-1. (C)RE-DIF (the concept of redefinitions) is crossed with PROG-CONT (progressional continuance). VT-DY (vibrational dynamics) → RE-DIF and MT-INTR (multiple interpretation) → RE-DIF; APP-RDEF (applied redefinitions) → RE-DIF, with APP-RDEF also → POL-P (political policies). RE-DIF → PROG-CONT (the crossing) → AFL-DY (affinity dynamics). A separate sub-chain: SOC-RT-DY (social reality dynamics) → AF-CON (affinity convergence) → LANG-DY (language dynamics) → ALT-F (alternative functionalism). Structural argument: the concept of redefinitions is over-determined upstream by *three* parallel feeds (vibrational dynamics, multiple interpretation, applied redefinitions). Applied redefinitions also feeds political policies as a sibling output. The redefinitions → progressional continuance → affinity dynamics chain is the productive line. The parallel social-reality-dynamics → affinity-convergence → language-dynamics → alternative-functionalism chain runs structurally separate, with no convergence into the main redefinitions chain. The diagram thus stages the seventies' diagnostic claim: the *concept* of redefinitions is well-fed and productive of progressional continuance and affinity dynamics, but the social-reality-driven alternative functionalism chain runs in a different track — meaning institutional acknowledgment of the music in the seventies (per the prose) does not automatically channel into alternative functionalism. The two productive chains run in parallel without convergence.",
+  "description": "Diagram in EXT.F(II)-6, paired with v1-p444-1. (C)RE-DEF (the concept of redefinitions) is crossed with PROG-CONT (progressional continuance). Three lines branch from the main line: MT-INTR (multiple interpretation), which opens into VT-DY (vibrational dynamics); AF-DY (affinity dynamics), which opens into LANG-DY (language dynamics) → AF-CON (affinity convergence) → ALT-F (alternative functionalism); and SOC-RT-DY (social reality dynamics), which opens into POL-P (political policies) → APP-RDEF (applied redefinitions).",
   "terms": [
     {
       "termId": "re-dif",
@@ -46,48 +46,53 @@
   ],
   "relationships": [
     {
-      "from": "vt-dy",
-      "to": "re-dif",
-      "type": "solid"
-    },
-    {
-      "from": "mt-intr",
-      "to": "re-dif",
-      "type": "solid"
-    },
-    {
       "from": "re-dif",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "prog-cont",
+      "from": "re-dif",
+      "to": "mt-intr",
+      "type": "solid"
+    },
+    {
+      "from": "mt-intr",
+      "to": "vt-dy",
+      "type": "solid"
+    },
+    {
+      "from": "re-dif",
       "to": "afl-dy",
       "type": "solid"
     },
     {
-      "from": "app-rdef",
-      "to": "re-dif",
-      "type": "solid"
-    },
-    {
-      "from": "app-rdef",
-      "to": "pol-p",
-      "type": "solid"
-    },
-    {
-      "from": "af-con",
+      "from": "afl-dy",
       "to": "lang-dy",
       "type": "solid"
     },
     {
       "from": "lang-dy",
+      "to": "af-con",
+      "type": "solid"
+    },
+    {
+      "from": "af-con",
       "to": "alt-f",
       "type": "solid"
     },
     {
+      "from": "re-dif",
+      "to": "soc-rt-dy",
+      "type": "solid"
+    },
+    {
       "from": "soc-rt-dy",
-      "to": "af-con",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "app-rdef",
       "type": "solid"
     }
   ]

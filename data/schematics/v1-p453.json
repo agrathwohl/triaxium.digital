@@ -3,10 +3,10 @@
   "volume": 1,
   "section": "EXT.F(II)-15",
   "page": 453,
-  "subject": "cult-info-fo",
+  "subject": "cult-info-f",
   "title": "CULT.INFO.FO.------POL.DY.",
   "type": "crossing",
-  "description": "Diagram in EXT.F(II)-15. (C)CULT-INFO-F (the concept of culture information focus) is crossed with POL-DYM (political dynamics). MPT (manipulation, the reality of) → CULT-INFO-F; AFL (affinity alignment) → CULT-INFO-F. CULT-INFO-F → EXT-FT (extended functionalism) → PART (participation) → POL-P (political policies). A separate sub-chain: POL-DYM (the crossing) → SOC-RT (social reality) → (R)INTR (real interpretation). MT-INFO (multi-information) → INTR. P-PROG (particular progressionalism) → AFL. Structural argument: the *concept* of culture information focus is fed by manipulation and by affinity alignment — meaning culture information focus is structurally constituted by both the manipulation-apparatus and the underlying affinity. The productive output runs through extended functionalism into participation into political policies — meaning culture information focus's main downstream chain *terminates* at political policies. The political-dynamics → social-reality → real-interpretation chain runs in parallel, with multi-information feeding interpretation as a parallel input. The diagram thus diagrams a sharp diagnostic: when culture information focus is conceptually grasped (the (c) prefix), its productive line ends at political policies — and political dynamics' separate chain to real interpretation runs alongside, with multi-information also reaching interpretation. Real interpretation and political policies are *separate* terminal outputs, not converging — meaning Braxton's structural claim is that the political-policies layer and the real-interpretation layer remain divergent in the seventies despite all the cross-continental work and integration efforts.",
+  "description": "Diagram in EXT.F(II)-15. (C)CULT-INFO-F (the concept of culture information focus) is crossed with POL-DYM (political dynamics). EXT-FT (extended functionalism) branches from the main line and opens into PART (participation) → SOC-RT (social reality) → POL-P (political policies). AFL (affinity alignment) branches from the main line and opens into MPT (manipulation, the reality of) and (R)INTR (real interpretation); (R)INTR opens into MT-INFO (multi-information) → P-PROG (particular progressionalism).",
   "terms": [
     {
       "termId": "cult-info-f",
@@ -57,38 +57,43 @@
       "type": "solid"
     },
     {
+      "from": "cult-info-f",
+      "to": "pol-dym",
+      "type": "solid"
+    },
+    {
       "from": "part",
-      "to": "pol-p",
-      "type": "solid"
-    },
-    {
-      "from": "mpt",
-      "to": "cult-info-f",
-      "type": "solid"
-    },
-    {
-      "from": "afl",
-      "to": "cult-info-f",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dym",
       "to": "soc-rt",
       "type": "solid"
     },
     {
       "from": "soc-rt",
-      "to": "intr",
+      "to": "pol-p",
       "type": "solid"
     },
     {
-      "from": "p-prog",
+      "from": "cult-info-f",
       "to": "afl",
       "type": "solid"
     },
     {
-      "from": "mt-info",
+      "from": "afl",
+      "to": "mpt",
+      "type": "solid"
+    },
+    {
+      "from": "afl",
       "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
+      "to": "p-prog",
       "type": "solid"
     }
   ]

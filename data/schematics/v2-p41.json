@@ -6,7 +6,7 @@
   "subject": "pri-vt-td",
   "title": "PRI.VT.TD.------AF.DY.",
   "type": "hub-spoke",
-  "description": "Diagram in SD(SY)-19 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the diversion sequence in America can be talked of as patterns that occur within a given time cycle which invariably determine how a given group of people see themselves \u2014 both conceptually and vibrationally.' (C)PRI-VT-TD (principle vibrational tendencies) is crossed with AF-DY (affinity dynamics): the question is what principle-vibrational-tendencies produces when crossed with affinity-dynamics, given that the diversion sequence is described as 'extremely sophisticated manipulation' rather than 'natural progressionalism.' PROG-CONT (progressional continuance) and AFL (affinity alignment) feed downward into the right cluster around PHY-U-P (physical universe particulars) and POST (postulation). WO-EXP-PRI (world expansion principle) feeds in from the left. TRS (transition) and POL-DY (political dynamics) form the lower-left upstream. MT-INFO (multi-information) and INFO-DY (information dynamics) attach to the central crossing line. AFI (affinity insight) and (R)INTR (the reality of interpretation) hang on the right margin. Structural argument: principle-vibrational-tendencies become productive of affinity-dynamics only through a doubled mediation \u2014 world-expansion-principle on one side and progressional-continuance with affinity-alignment on the other. The diagram exposes that no single upstream sustains the crossing; the diversion sequence works precisely because it disguises itself as natural progressionalism, and the schematic insists that real affinity-dynamics requires both pre-given vibrational tendencies and live world-experiential input.",
+  "description": "Diagram in SD(SY)-19 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's claim that 'the diversion sequence in America can be talked of as patterns that occur within a given time cycle which invariably determine how a given group of people see themselves \u2014 both conceptually and vibrationally.' (C)PRI-VT-TD (principle vibrational tendencies) is crossed with AF-DY (affinity dynamics): the question is what principle-vibrational-tendencies produces when crossed with affinity-dynamics, given that the diversion sequence is described as 'extremely sophisticated manipulation' rather than 'natural progressionalism.' PROG-CONT (progressional continuance) branches from the main line and opens into WO-EXP-PRI (world expansion principle) \u2192 TRS (transition) \u2192 POL-DY (political dynamics). POST (postulation) branches from the main line and opens into AFL (affinity alignment) \u2192 PHY-U-P (physical universe particular) and into INFO-DY (information dynamics); INFO-DY opens into MT-INFO (multi-information) and (R)INTR (the reality of interpretation) \u2192 AFI (affinity insight).",
   "terms": [
     {
       "termId": "pri-vt-td",
@@ -53,58 +53,63 @@
   ],
   "relationships": [
     {
-      "from": "wo-exp-pri",
-      "to": "pri-vt-td",
+      "from": "pri-vt-td",
+      "to": "af-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-vt-td",
+      "to": "prog-cont",
       "type": "solid"
     },
     {
       "from": "prog-cont",
-      "to": "af-dy",
+      "to": "wo-exp-pri",
       "type": "solid"
     },
     {
-      "from": "afl",
-      "to": "af-dy",
+      "from": "wo-exp-pri",
+      "to": "trs",
       "type": "solid"
     },
     {
-      "from": "af-dy",
-      "to": "phy-u-p",
+      "from": "trs",
+      "to": "pol-dy",
       "type": "solid"
     },
     {
-      "from": "af-dy",
+      "from": "pri-vt-td",
       "to": "post",
       "type": "solid"
     },
     {
       "from": "post",
-      "to": "intr",
+      "to": "afl",
       "type": "solid"
     },
     {
-      "from": "pri-vt-td",
-      "to": "mt-info",
+      "from": "afl",
+      "to": "phy-u-p",
       "type": "solid"
     },
     {
-      "from": "pri-vt-td",
+      "from": "post",
       "to": "info-dy",
       "type": "solid"
     },
     {
       "from": "info-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "intr",
       "to": "afi",
-      "type": "solid"
-    },
-    {
-      "from": "trs",
-      "to": "pri-vt-td",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dy",
-      "to": "pri-vt-td",
       "type": "solid"
     }
   ]

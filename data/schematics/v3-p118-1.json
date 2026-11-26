@@ -6,7 +6,7 @@
   "subject": "c-act",
   "title": "C.ACT.------INDIV.TD.",
   "type": "crossing",
-  "description": "First of two diagrams in ALT(FT)II-12. The prose below identifies the structural target: 'The present-day participation dynamics of the transformational creative musician should not be viewed lightly. This development is directly related to the expansion of creative dynamic options for both the individual and the music.' The crossing diagrams how central-activism structurally meets individual-tendencies: C-ACT crossed with INDIV-TD. C-ACT sits at left with the subject-arrow; INDIV-TD at upper-center as partner-axis. AF-TD (affinity transformation-dynamics) upper-left, CULT-SOLD (culture solidification) upper-center, EXP-DY (exposure dynamics) upper-right with DEC (decentralization) and EXB-H-OR (establishing high order) on the right. VT-SY (value system) left, ATTN (attraction) center, MT-INFO (multi-information) center, C-FO-ACT (composite focused activism) center-bottom, CULT-AF-B (cultural-affinity base) lower-center, GRAD (gradualism) and (R)CN-INFO (reality of controlled information) at lower-right. Structural argument: the upper chain through CULT-SOLD/EXP-DY routes central-activism into the partner's working chain through individual tendencies into the decentralization/establishing-high-order outputs.",
+  "description": "First of two diagrams in ALT(FT)II-12. The prose below identifies the structural target: 'The present-day participation dynamics of the transformational creative musician should not be viewed lightly. This development is directly related to the expansion of creative dynamic options for both the individual and the music.' The crossing diagrams how composite-activism structurally meets individual-tendencies: C-ACT crossed with INDIV-TD. C-ACT sits at left with the subject-arrow; INDIV-TD at upper-center as partner-axis. AF-TD (affinity tendencies) upper-left, CULT-SOLD (culture solidification) upper-center, EXP-DY (expansion dynamics) upper-right with DEC (decentralization) and EXB-H-OR (establishing high order) on the right. VT-SY left, ATTN (attraction) center, MT-INFO (multi-information) center, C-FO-ACT (composite focused activism) center-bottom, CULT-AF-B (culture affinity basis) lower-center, GRAD (gradualism) and (R)CN-INFO (reality of controlled information) at lower-right. Structural argument: the DEC branch off the main line carries CULT-SOLD and EXP-DY, with EXB-H-OR branching from the EXP-DY line, routing composite-activism into the decentralization/establishing-high-order outputs.",
   "terms": [
     {
       "termId": "c-act",
@@ -60,63 +60,63 @@
       "type": "solid"
     },
     {
-      "from": "af-td",
-      "to": "indiv-td",
-      "type": "solid"
-    },
-    {
-      "from": "indiv-td",
-      "to": "cult-sold",
-      "type": "solid"
-    },
-    {
-      "from": "cult-sold",
-      "to": "exp-dy",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dy",
-      "to": "dec",
-      "type": "solid"
-    },
-    {
-      "from": "dec",
-      "to": "exb-h-or",
-      "type": "solid"
-    },
-    {
       "from": "c-act",
       "to": "vt-sy",
       "type": "solid"
     },
     {
-      "from": "c-act",
-      "to": "attn",
+      "from": "vt-sy",
+      "to": "af-td",
       "type": "solid"
     },
     {
-      "from": "attn",
+      "from": "c-act",
+      "to": "dec",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "cult-sold",
+      "type": "solid"
+    },
+    {
+      "from": "dec",
+      "to": "exp-dy",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dy",
+      "to": "exb-h-or",
+      "type": "solid"
+    },
+    {
+      "from": "c-act",
       "to": "mt-info",
       "type": "solid"
     },
     {
-      "from": "c-act",
+      "from": "mt-info",
+      "to": "attn",
+      "type": "solid"
+    },
+    {
+      "from": "mt-info",
       "to": "c-fo-act",
       "type": "solid"
     },
     {
-      "from": "c-fo-act",
+      "from": "c-act",
       "to": "cult-af-b",
       "type": "solid"
     },
     {
-      "from": "c-fo-act",
-      "to": "grad",
+      "from": "cult-af-b",
+      "to": "cn-info",
       "type": "solid"
     },
     {
-      "from": "grad",
-      "to": "cn-info",
+      "from": "cn-info",
+      "to": "grad",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "extn",
   "title": "EXTN.----PR.TRS.",
   "type": "crossing",
-  "description": "Diagram in T(IMP)M-11. The prose above identifies the structural target: 'creative music from the black aesthetic has reached the next time cycle for source transfer: that is, the thrust progression of creative music from the black aesthetic is subjected to source transfer every fifteen to twenty years.' The crossing diagrams how extension structurally meets principle-transmission at the source-transfer cycle scale: EXTN crossed with PR-TRS. EXTN sits at lower-center with the subject-arrow; PR-TRS at upper-center as partner-axis. AF-COMP (affinity compression), IST-F (isolated focus) upper-left. ALT-F (alternative functionalism), RES-RT (responsibility ratio) on the upper-right. AFI-2 (affinity insight level 2) center-left. RT-INT-TR (reality initiative traits), GRAD (gradualism) lower-right. ACC-DY (accelerated dynamics) lower-center, INFO-DY (information dynamics) lower-right.",
+  "description": "Diagram in T(IMP)M-11. The prose above identifies the structural target: 'creative music from the black aesthetic has reached the next time cycle for source transfer: that is, the thrust progression of creative music from the black aesthetic is subjected to source transfer every fifteen to twenty years.' The crossing diagrams how existentialism structurally meets PR-TRS at the source-transfer cycle scale: EXTN crossed with PR-TRS. EXTN sits at lower-left with the subject-arrow; PR-TRS at upper-center as partner-axis. AF-COMP (affinity compression), IST-F (isolated focus) upper-left. ALT-F (alternative functionalism), RES-RT (responsibility ratio) on the upper-right. AFI(2) (affinity insight, second degree) center-left. RT-INT-TR (reality initiative traits), GRAD (gradualism) lower-right. ACC-DY (accelerated dynamics) lower-center, INFO-DY (information dynamics) lower-right.",
   "terms": [
     {
       "termId": "extn",
@@ -55,28 +55,8 @@
       "type": "solid"
     },
     {
-      "from": "ist-f",
-      "to": "pr-trs",
-      "type": "solid"
-    },
-    {
-      "from": "pr-trs",
-      "to": "alt-f",
-      "type": "solid"
-    },
-    {
-      "from": "alt-f",
-      "to": "res-rt",
-      "type": "solid"
-    },
-    {
       "from": "extn",
       "to": "afi-2",
-      "type": "solid"
-    },
-    {
-      "from": "extn",
-      "to": "acc-dy",
       "type": "solid"
     },
     {
@@ -85,13 +65,33 @@
       "type": "solid"
     },
     {
-      "from": "rt-int-tr",
-      "to": "grad",
+      "from": "afi-2",
+      "to": "af-comp",
       "type": "solid"
     },
     {
-      "from": "acc-dy",
+      "from": "extn",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "acc-dy",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
+      "to": "res-rt",
+      "type": "solid"
+    },
+    {
+      "from": "rt-int-tr",
       "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "grad",
       "type": "solid"
     }
   ]

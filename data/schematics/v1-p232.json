@@ -6,7 +6,7 @@
   "subject": "alt-c-pg",
   "title": "ALT.C.PG.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in WAC-30, on the page where Braxton argues that 'the diversification of America's utilization of source-transfer-related extension would move to affect the composite reality of the western aesthetic — while at the same time not threaten the vibrational basis of western extension.' (C)ALT-C-PG (alternative composite progressionalism) is crossed with SOC-RT (social reality): the question is what alternative-composite-progressionalism does once it enters social reality — the structural shape of the Euro-American intervention. ALT-C-PG outputs to SOC-RT (the crossing). SOC-RT then chains: → RT-DY (reality dynamics) → EXP-DYM (expansion dynamics) → TR (transformation) → PROG-EXT-FT (progressional extended functionalism); a *dashed* edge from SOC-RT → LK-IMP (linkage implications) registers that the link to linkage-implications is conditional, not direct; a *dashed* edge from EXP-DYM → TH-CONT (thrust continuance) marks that link as conditional too. ALT-F (alternative functionalism) also feeds SOC-RT, and DYM-F (dynamic functionalism) feeds the subject ALT-C-PG. Structural argument: alternative composite progressionalism reaches transformation only via the reality-dynamics → expansion-dynamics chain, with progressional extended functionalism as terminal output. The dashed edges to linkage-implications and thrust-continuance encode the structural worry of the section: the Euro-American extension does not automatically become composite-continuous or thrust-coherent — those connections are conditional, and that conditionality is what makes the project precarious.",
+  "description": "Diagram in WAC-30. (C)ALT-C-PG (alternative composite progressionalism) is crossed with SOC-RT (social reality): the question is what alternative-composite-progressionalism does once it enters social reality — the structural shape of the Euro-American intervention. ALT-C-PG outputs to SOC-RT (the crossing). ALT-C-PG also branches to DYM-F (dynamic functionalism) and to ALT-F (alternative functionalism). ALT-F then carries EXP-DYM (expansion dynamics), which branches to RT-DY (reality dynamics), to TR (transformation) → PROG-EXT-FT (progressional extended functionalism), and by a *dashed* edge to LK-IMP (linkage implications); a *dashed* edge also runs from TR → TH-CONT (thrust continuance). Per Braxton's legend, a dotted line amplifies some aspect of the main concept it is connected to. Structural argument: alternative composite progressionalism reaches transformation only via the alternative-functionalism → expansion-dynamics chain, with progressional extended functionalism as terminal output.",
   "terms": [
     {
       "termId": "alt-c-pg",
@@ -48,24 +48,9 @@
       "type": "solid"
     },
     {
-      "from": "soc-rt",
-      "to": "lk-imp",
-      "type": "dashed"
-    },
-    {
-      "from": "soc-rt",
+      "from": "exp-dym",
       "to": "rt-dy",
       "type": "solid"
-    },
-    {
-      "from": "rt-dy",
-      "to": "exp-dym",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dym",
-      "to": "th-cont",
-      "type": "dashed"
     },
     {
       "from": "exp-dym",
@@ -78,14 +63,29 @@
       "type": "solid"
     },
     {
-      "from": "alt-f",
-      "to": "soc-rt",
+      "from": "alt-c-pg",
+      "to": "dym-f",
       "type": "solid"
     },
     {
-      "from": "dym-f",
-      "to": "alt-c-pg",
+      "from": "alt-c-pg",
+      "to": "alt-f",
       "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "exp-dym",
+      "type": "solid"
+    },
+    {
+      "from": "exp-dym",
+      "to": "lk-imp",
+      "type": "dashed"
+    },
+    {
+      "from": "tr",
+      "to": "th-cont",
+      "type": "dashed"
     }
   ]
 }

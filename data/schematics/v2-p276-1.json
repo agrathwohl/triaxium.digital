@@ -6,7 +6,7 @@
   "subject": "crtf-d",
   "title": "CRTF.D.------ALT.F.",
   "type": "crossing",
-  "description": "Diagram in CMOA(II)-34 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p276. Closes Braxton's Japan analysis where 'the present reality of Japanese creativity is not available for international scrutiny.' (C)CRTF-D (the concept of cross-transfer definitions) is crossed with ALT-F (alternative functionalism): the question is what cross-transfer-definitions produces when crossed with alternative-functionalism under conditions of the Japan-West one-way culture gap. PROG-CONT (progressional continuance) and POL-DY (political dynamics) form the upper-center cluster. (P)CULT-INFO-DY (point-of-activation culture-information dynamics) anchors the upper-right output via a long bridge from the central axis. ALT-F itself sits centrally below. PROJ-CONT (projectional continuance) and LK-IMP (linkage implication) form the right-side outputs. INFO-DS (information dissemination), DYM-F (dynamic functionalism), and STF (source transfer) form the lower upstream cluster. Structural argument: cross-transfer-definitions-as-concept crossed with alternative-functionalism is mediated by alternative-functionalism itself as central hub (an unusual but structurally telling configuration where the partner doubles as the hub). The (p) prefix on culture-information-dynamics is load-bearing — Japanese culture-information operates at point-of-activation rather than as sustained system, exposing Braxton's diagnostic that Japanese cross-transfer-definitions only triggers culture-information event-by-event because the Western recognition apparatus does not provide sustained channels. The triple lower upstream (information-dissemination, dynamic-functionalism, source-transfer) gives the schematic its decentralization, but the productive outputs depend on the conditional point-of-activation hub firing.",
+  "description": "Diagram in CMOA(II)-34 (Creative Music Outside of America, Level One — France/Italy/Northern Europe/Japan), first of two on book p276. Sits within Braxton's Japan analysis, after his statement that 'the present reality of Japanese creativity is not available for international scrutiny.' (C)CRTF-D (the concept of cross-transfer definitions) is crossed with ALT-F (alternative functionalism): the question is what cross-transfer-definitions produces when crossed with alternative-functionalism under conditions of the Japan-West one-way culture gap. The main line runs from the subject down to ALT-F, which sits centrally below. PROG-CONT (progressional continuance) branches from the main line, and (P)CULT-INFO-DY (culture-information dynamics at its point of idea completion) branches from PROG-CONT to the upper right. Three lines leave the CULT-INFO-DY line: POL-DY (political dynamics) rises above it; PROJ-CONT (projectional continuance) and LK-IMP (linkage implications) share the end of a line on the right; and DYM-F (dynamic functionalism) drops below it, with INFO-DS (information dissemination) branching from DYM-F and STF (source transfer) from INFO-DS. Structural argument: cross-transfer-definitions-as-concept crossed with alternative-functionalism carries all of its side structure through progressional-continuance and culture-information-dynamics; ALT-F has no branches of its own.",
   "terms": [
     { "termId": "crtf-d", "isSubject": true, "prefix": "c" },
     { "termId": "alt-f" },
@@ -21,13 +21,13 @@
   ],
   "relationships": [
     { "from": "crtf-d", "to": "prog-cont", "type": "solid" },
-    { "from": "prog-cont", "to": "pol-dy", "type": "solid" },
-    { "from": "pol-dy", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "pol-dy", "type": "solid" },
     { "from": "crtf-d", "to": "alt-f", "type": "solid" },
-    { "from": "alt-f", "to": "proj-cont", "type": "solid" },
     { "from": "proj-cont", "to": "lk-imp", "type": "solid" },
-    { "from": "info-ds", "to": "alt-f", "type": "solid" },
-    { "from": "dym-f", "to": "alt-f", "type": "solid" },
-    { "from": "alt-f", "to": "stf", "type": "solid" }
+    { "from": "prog-cont", "to": "cult-info-dy", "type": "solid" },
+    { "from": "cult-info-dy", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "info-ds", "type": "solid" },
+    { "from": "info-ds", "to": "stf", "type": "solid" },
+    { "from": "cult-info-dy", "to": "proj-cont", "type": "solid" }
   ]
 }

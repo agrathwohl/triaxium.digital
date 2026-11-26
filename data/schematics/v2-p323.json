@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "POL.DYM.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram closing R(AS)CM(I)-7. The prose immediately above identifies the structural target: the sexist-and-nationalistic 'redefinitions' bebop-era journalism produced represent 'the most important bastion of disruption in this time zone.' The crossing diagrams what political-dynamics actually crosses with when social-reality is its working partner: (C)POL-DYM (the concept of political dynamics) is crossed with SOC-RT (social reality — the receiving culture that absorbs the redefinitions). POL-DYM sits on the left with the subject-arrow; T-C-IMP (time continuum implications) rises above and COS-D (cosmic dictates) sits at top-center as bridging output — the political-dynamics's upper claim is exactly cosmic-dictates. MOT-DY (motion dynamics) and PART (participation) anchor the lower-left as the subject's downward outputs. SOC-RT is partner-axis at upper-right; INDIV-DY-RT (individual dynamic reality) hangs on the right, with AFL-DY (affinity dynamics) below it and INTR (interpretation) at the lower-right as the partner-side's downward chain. Structural argument: when political-dynamics is crossed with social-reality at the bebop-redefinition scale, the upper diagonal COS-D → SOC-RT shows the route — cosmic-dictates supply political-dynamics's authority to reach social-reality. The lower-right chain INDIV-DY-RT → AFL-DY → INTR is what social-reality produces on its own: interpretation-only affinity-dynamics-of-the-individual, the privatized reception form. MOT-DY → PART on the subject's bottom is what political-dynamics produces alone. The diagonals must hold or POL-DYM's claim that 'sexist and nationalistic redefinitions' carry the cosmic-dictates weight gets absorbed into SOC-RT's individual-dynamics chain without ever meeting the participation the subject side could supply.",
+  "description": "Diagram in R(AS)CM(I)-7. The prose immediately above identifies the structural target: western information dissemination, so infested with racist-sexist-and-nationalistic 'redefinitions' that it represents 'the most important bastion of disruption in this time zone.' The crossing diagrams what political-dynamics actually crosses with when social-reality is its working partner: (C)POL-DYM (the concept of political dynamics) is crossed with SOC-RT (social reality — the receiving culture that absorbs the redefinitions). POL-DYM sits on the left with the subject-arrow; T-C-IMP (time continuum implications) branches from the main line, and COS-D (cosmic dictates) branches from T-C-IMP. PART (participation) branches from the main line, and MOT-DY, INDIV-DY-RT (individual dynamic reality) and INTR (interpretation) all branch from PART; AFL-DY (affinity dynamics) branches from INTR. SOC-RT is partner-axis at upper-right.",
   "terms": [
     { "termId": "pol-dym", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt" },
@@ -22,11 +22,10 @@
     { "from": "pol-dym", "to": "soc-rt", "type": "solid" },
     { "from": "pol-dym", "to": "t-c-imp", "type": "solid" },
     { "from": "t-c-imp", "to": "cos-d", "type": "solid" },
-    { "from": "cos-d", "to": "soc-rt", "type": "solid" },
-    { "from": "pol-dym", "to": "mot-dy", "type": "solid" },
     { "from": "pol-dym", "to": "part", "type": "solid" },
-    { "from": "soc-rt", "to": "indiv-dy-rt", "type": "solid" },
-    { "from": "soc-rt", "to": "afl-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "intr", "type": "solid" }
+    { "from": "intr", "to": "afl-dy", "type": "solid" },
+    { "from": "part", "to": "mot-dy", "type": "solid" },
+    { "from": "part", "to": "indiv-dy-rt", "type": "solid" },
+    { "from": "part", "to": "intr", "type": "solid" }
   ]
 }

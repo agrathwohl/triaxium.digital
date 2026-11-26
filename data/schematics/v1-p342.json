@@ -6,7 +6,7 @@
   "subject": "proj",
   "title": "(R)PROJ.------T.C.IMP.",
   "type": "crossing",
-  "description": "Diagram in PCC-26. (R)PROJ — the reality of projection — is crossed with T-C-IMP (time continuum implications). FUND-DYN (fundamental dynamics) and PROJ both → TRS (transition) → T-C-IMP (the crossing) → IF-SPT (infra-spirituality) → RT-DY (reality dynamics) → PROG-CONT (progressional continuance). C-CONT (composite continuance) → EXT-DYM (extended dynamics) → PROJ — meaning composite continuance feeds the reality of projection through extended dynamics. A separate sub-chain: VT-DY (vibrational dynamics) → A-PR (all-purpose) → COS-P (cosmic particulars) and A-PR → PHY-U-P (physical universe particular). Structural argument: real projection's relationship to time-continuum implications requires a chain through transition, with both fundamental dynamics and projection itself producing transition. Time-continuum implications then chains through *infra-spirituality* (Braxton's term for the spiritual layer beneath surface practice) into reality dynamics into progressional continuance. Composite continuance feeds projection from a parallel direction via extended dynamics. The vibrational-dynamics → all-purpose → cosmic-particulars/physical-universe-particular sub-chain runs separately. The diagram thus diagrams a key Braxton claim about transition (PCC-26): real transition requires infra-spirituality as the necessary intermediate between time-continuum implications and reality dynamics — meaning surface practice without an infra-spiritual layer cannot produce real progressional continuance no matter how the projection is constituted.",
+  "description": "Diagram in PCC-26. (R)PROJ — the reality of projection — is crossed with T-C-IMP (time continuum implications). PROJ → T-C-IMP (the crossing). Two lines branch from the main line. The first runs to TRS (transition); EXT-CON branches from TRS, and FUND-DYN (fundamental dynamics) and EXT-DYM (extended dynamics) branch from EXT-CON. The second runs to COS-P (cosmic particulars), which branches two ways: COS-P → IF-SPT (infra-spirituality) → RT-DY (reality dynamics) → PROG-CONT (progressional continuance), and COS-P → A-PR (all-purpose) → VT-DY (vibrational dynamics) → PHY-U-P (physical universe particular).",
   "terms": [
     {
       "termId": "proj",
@@ -32,7 +32,7 @@
       "termId": "prog-cont"
     },
     {
-      "termId": "c-cont"
+      "termId": "ext-con"
     },
     {
       "termId": "ext-dym"
@@ -57,21 +57,6 @@
       "type": "solid"
     },
     {
-      "from": "fund-dyn",
-      "to": "trs",
-      "type": "solid"
-    },
-    {
-      "from": "trs",
-      "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "if-spt",
-      "type": "solid"
-    },
-    {
       "from": "if-spt",
       "to": "rt-dy",
       "type": "solid"
@@ -82,27 +67,47 @@
       "type": "solid"
     },
     {
-      "from": "c-cont",
+      "from": "ext-con",
       "to": "ext-dym",
       "type": "solid"
     },
     {
-      "from": "ext-dym",
-      "to": "proj",
+      "from": "a-pr",
+      "to": "vt-dy",
       "type": "solid"
     },
     {
-      "from": "vt-dy",
+      "from": "cos-p",
       "to": "a-pr",
       "type": "solid"
     },
     {
-      "from": "a-pr",
+      "from": "proj",
+      "to": "t-c-imp",
+      "type": "solid"
+    },
+    {
+      "from": "trs",
+      "to": "ext-con",
+      "type": "solid"
+    },
+    {
+      "from": "ext-con",
+      "to": "fund-dyn",
+      "type": "solid"
+    },
+    {
+      "from": "proj",
       "to": "cos-p",
       "type": "solid"
     },
     {
-      "from": "a-pr",
+      "from": "cos-p",
+      "to": "if-spt",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
       "to": "phy-u-p",
       "type": "solid"
     }

@@ -6,7 +6,7 @@
   "subject": "info-ds",
   "title": "(R)INFO.DS.------SOC.RT.P.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-20 (Social Reality and Trans-Information, Level Two), on the page where Braxton argues that 'the realness of history is important for providing the necessary backdrop to develop the character and confidence of young people' — citing the example that even in the late sixties the only great figures black people could study in grammar and high school were George Washington Carver and Booker T. Washington. (R)INFO-DS (the reality of information dissemination) is crossed with SOC-RT-P (social reality particulars): the question is what real dissemination produces when crossed with social-reality-particulars in a culture where history itself is selectively curated. IST-ACT (isolated activism) feeds the subject. SOC-RT-P (the partner) is the structural endpoint. (R)CULT-INFO-FO (the reality of culture information focus) is a parallel feed from below. AF-DY (affinity dynamics) is the central hub. DYM-F (dynamic functionalism) is the upper-right output. ALT-C-PROG (alternative composite progressionalism, *dashed*) and PR-TR (primary transformation, *dashed*) are conditional outputs. INFO-DOC (information documentation) feeds AF-DY. Structural argument: real dissemination's path to social-reality-particulars passes through affinity-dynamics, with the *dashed* edges to alternative-composite-progressionalism and primary-transformation marking these as conditional — the diagram registers that alternative progression and primary transformation are not guaranteed by the dissemination-social-reality crossing alone; they require additional structural conditions Braxton names elsewhere.",
+  "description": "Diagram in SR(TRS)II-20 (Social Reality and Trans-Information, Level Two), on the page where Braxton argues that 'the realness of history is important for providing the necessary backdrop to develop the character and confidence of young people' — citing the example that even in the late sixties the only great figures black people could study in grammar and high school were George Washington Carver and Booker T. Washington. (R)INFO-DS (the reality of information dissemination) is crossed with SOC-RT-P (social reality particulars): the question is what real dissemination produces when crossed with social-reality-particulars in a culture where history itself is selectively curated. The partner SOC-RT-P is the structural endpoint. (R)CULT-INFO-FO (the reality of culture information focus) branches from the main line, and AF-DY (affinity dynamics) branches from (R)CULT-INFO-FO. AF-DY carries IST-ACT (isolated activism) and PR-TR. PR-TR carries DYM-F (dynamic functionalism), which carries ALT-C-PROG (alternative composite progressionalism), and a *dashed* line to INFO-DOC (information documentation), which amplifies some aspect of PR-TR.",
   "terms": [
     { "termId": "info-ds", "isSubject": true, "prefix": "r" },
     { "termId": "soc-rt-p" },
@@ -15,17 +15,17 @@
     { "termId": "afl-dy" },
     { "termId": "dym-f" },
     { "termId": "alt-c-pg" },
-    { "termId": "pr-trs" },
+    { "termId": "pr-tr" },
     { "termId": "info-doc" }
   ],
   "relationships": [
-    { "from": "ist-act", "to": "info-ds", "type": "solid" },
     { "from": "info-ds", "to": "soc-rt-p", "type": "solid" },
     { "from": "cult-info-f", "to": "afl-dy", "type": "solid" },
-    { "from": "info-ds", "to": "afl-dy", "type": "solid" },
-    { "from": "afl-dy", "to": "dym-f", "type": "solid" },
-    { "from": "info-doc", "to": "afl-dy", "type": "solid" },
-    { "from": "info-doc", "to": "alt-c-pg", "type": "dashed" },
-    { "from": "info-doc", "to": "pr-trs", "type": "dashed" }
+    { "from": "info-ds", "to": "cult-info-f", "type": "solid" },
+    { "from": "afl-dy", "to": "ist-act", "type": "solid" },
+    { "from": "afl-dy", "to": "pr-tr", "type": "solid" },
+    { "from": "pr-tr", "to": "info-doc", "type": "dashed" },
+    { "from": "pr-tr", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "alt-c-pg", "type": "solid" }
   ]
 }

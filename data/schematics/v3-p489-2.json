@@ -6,7 +6,7 @@
   "subject": "rotp",
   "title": "ROTP.------ALT.F.",
   "type": "crossing",
-  "description": "Second diagram on page 489 (TRF(II)-25), paired with (R)INT x PART above. The crossing diagrams how responsibility-of-the-positions structurally meet alternative-functionalism at the next-cycle power-sharing scale: ROTP (responsibility of the position) crossed with ALT-F (alternative functionalism). ROTP sits at left with the subject-arrow; ALT-F at lower-center as partner-axis. POL-CON (political consciousness) upper-right, ECO-DY (economic dynamics) upper-center, WO-UNF (world unification) right. CULT-AF-BS (culture affinity basis) right, EXP-DT (expansion dictates) center, C-INFO (composite information) center. AF-DY (affinity dynamics) and INFO-DY (information dynamics) lower-right. TR (transformation), APL-DT (application dictates), HI-P (high purpose) form the lower chain. Structural argument: when responsibility-of-the-position is crossed with alternative-functionalism, the upper diagonal POL-CON -> ECO-DY -> ROTP shows the partner-axis route - political-consciousness and economic-dynamics route into responsibility-of-the-positions, the partner's working chain. The form's actual alternative-functionalism reaches its own working through TR -> APL-DT -> HI-P on the lower chain, with EXP-DT/C-INFO central hubs.",
+  "description": "Second diagram on page 489 (TRF(II)-25), paired with (R)INT x PART above. The crossing diagrams how responsibility-of-the-position structurally meets alternative-functionalism at the next-cycle power-sharing scale: ROTP (responsibility of the position) crossed with ALT-F (alternative functionalism). ROTP sits at left with the subject-arrow; ALT-F at lower-center as partner-axis. POL-CON (political consciousness) upper-right, ECO-DY (economic dynamics) upper-center, WO-UNF (world unification) right. CULT-AF-BS (culture affinity basis) right, EXP-DT (expansion dictates) center, C-INFO (composite information) center. AF-DY (affinity dynamics) and INFO-DY (information dynamics) lower-right. POL-CON branches from the main line and carries ECO-DY and WO-UNF, from which EXP-DT drops; INFO-DY branches from the main line and carries C-INFO, which carries AF-DY, from which CULT-AF-BS rises. TR (transformation) runs to the lower left and carries HI-P (high purpose), which carries APL-DT (application dictates).",
   "terms": [
     {
       "termId": "rotp",
@@ -56,43 +56,13 @@
       "type": "solid"
     },
     {
-      "from": "rotp",
-      "to": "eco-dy",
-      "type": "solid"
-    },
-    {
-      "from": "eco-dy",
-      "to": "pol-con",
-      "type": "solid"
-    },
-    {
       "from": "pol-con",
       "to": "wo-unf",
       "type": "solid"
     },
     {
-      "from": "wo-unf",
-      "to": "cult-af-bs",
-      "type": "solid"
-    },
-    {
-      "from": "rotp",
-      "to": "exp-dt",
-      "type": "solid"
-    },
-    {
-      "from": "exp-dt",
-      "to": "c-info",
-      "type": "solid"
-    },
-    {
       "from": "c-info",
       "to": "af-dy",
-      "type": "solid"
-    },
-    {
-      "from": "af-dy",
-      "to": "info-dy",
       "type": "solid"
     },
     {
@@ -102,17 +72,42 @@
     },
     {
       "from": "tr",
-      "to": "apl-dt",
-      "type": "solid"
-    },
-    {
-      "from": "tr",
       "to": "hi-p",
       "type": "solid"
     },
     {
-      "from": "apl-dt",
-      "to": "alt-f",
+      "from": "rotp",
+      "to": "pol-con",
+      "type": "solid"
+    },
+    {
+      "from": "pol-con",
+      "to": "eco-dy",
+      "type": "solid"
+    },
+    {
+      "from": "wo-unf",
+      "to": "exp-dt",
+      "type": "solid"
+    },
+    {
+      "from": "rotp",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "info-dy",
+      "to": "c-info",
+      "type": "solid"
+    },
+    {
+      "from": "af-dy",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "hi-p",
+      "to": "apl-dt",
       "type": "solid"
     }
   ]

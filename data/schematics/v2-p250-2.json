@@ -6,7 +6,7 @@
   "subject": "crtf-d",
   "title": "(R)CRTF.D.----POL.DY.",
   "type": "crossing",
-  "description": "Diagram in CMOA(II)-8, second of two on book p250, paired with v2-p250-1. (R)CRTF-D (the reality of cross-transfer definitions) is crossed with POL-DY (political dynamics): the question is what cross-transfer-definitions produces in its actual instantiation when crossed with political-dynamics — the (R) prefix marking that real cross-transfer-definitions (the actual music made by touring musicians) is what political-dynamics had to absorb. DEC (decentralization) and POL-DY itself form the upper-center cluster. PROG-SIGN (progressional significance) sits centrally. DIS-C-CT (disintegration of a culture's center) anchors the upper-right output. (R)DOC (reality of documentation) and MT-INFO (multi-information) cluster on the right output. (R)INT (reality of intention) sits between subject and partner. EXPM (expansionism) feeds into the central axis from below-left. STF (source transfer) sits centrally below. TRS (transition) anchors the bottom-center. DE-SPTL (despiritualization) hangs on the lower-right margin. Structural argument: cross-transfer-definitions-as-real crossed with political-dynamics is mediated by reality-intention as central hub, with progressional-significance as the cross-axis between subject and partner. The multiple (r) prefixes ((r)crtf-d, (r)int, (r)doc) register Braxton's structural commitment that real touring impact required *real* — not styled — versions of cross-transfer-definitions, intention, and documentation. The lower upstreams (expansionism, source-transfer, transition) sustain the crossing. The despiritualization output is structurally telling: real political-dynamics crossed with real cross-transfer-definitions produces despiritualization (the dissolution of place-bound musical identity), exposing why the touring impact functioned as transformation rather than merely as documentation.",
+  "description": "Diagram in CMOA(II)-8, second of two on book p250, paired with v2-p250-1. (R)CRTF-D (the reality of cross-transfer definitions) is crossed with POL-DY (political dynamics): the question is what cross-transfer-definitions produces in its actual instantiation when crossed with political-dynamics — the (R) prefix marking that real cross-transfer-definitions (the actual music made by touring musicians) is what political-dynamics had to absorb. DEC (decentralization) and POL-DY itself form the upper-center cluster; DEC rises from the main line. A vertical from the main line runs down to (R)INT (reality of intention), which carries (R)DOC (reality of documentation) to the right. From (R)DOC come PROG-SIGN (progressional significance), which carries DIS-C-CT (disintegration of a culture's center) at the upper-right, with MT-INFO (multi-information) hanging from DIS-C-CT, and STF (source transfer) below. DE-SPTL (despiritualization) hangs from STF on the lower-right margin; TRS (transition) hangs from DE-SPTL at the bottom-center, and EXPM (expansionism) from TRS on the lower-left. Structural argument: cross-transfer-definitions-as-real crossed with political-dynamics branches through reality-intention as central hub. The despiritualization output is structurally telling: political-dynamics crossed with real cross-transfer-definitions produces despiritualization (the dissolution of place-bound musical identity), exposing why the touring impact functioned as transformation rather than merely as documentation.",
   "terms": [
     { "termId": "crtf-d", "isSubject": true, "prefix": "r" },
     { "termId": "pol-dy" },
@@ -15,7 +15,7 @@
     { "termId": "dis-c-ct" },
     { "termId": "doc", "prefix": "r" },
     { "termId": "mt-info" },
-    { "termId": "intr", "prefix": "r" },
+    { "termId": "int", "prefix": "r" },
     { "termId": "expm" },
     { "termId": "stf" },
     { "termId": "trs" },
@@ -24,14 +24,14 @@
   "relationships": [
     { "from": "crtf-d", "to": "dec", "type": "solid" },
     { "from": "crtf-d", "to": "pol-dy", "type": "solid" },
-    { "from": "pol-dy", "to": "prog-sign", "type": "solid" },
     { "from": "prog-sign", "to": "dis-c-ct", "type": "solid" },
-    { "from": "pol-dy", "to": "doc", "type": "solid" },
-    { "from": "doc", "to": "mt-info", "type": "solid" },
-    { "from": "crtf-d", "to": "intr", "type": "solid" },
-    { "from": "intr", "to": "stf", "type": "solid" },
-    { "from": "expm", "to": "intr", "type": "solid" },
-    { "from": "stf", "to": "trs", "type": "solid" },
-    { "from": "stf", "to": "de-sptl", "type": "solid" }
+    { "from": "crtf-d", "to": "int", "type": "solid" },
+    { "from": "stf", "to": "de-sptl", "type": "solid" },
+    { "from": "int", "to": "doc", "type": "solid" },
+    { "from": "doc", "to": "prog-sign", "type": "solid" },
+    { "from": "dis-c-ct", "to": "mt-info", "type": "solid" },
+    { "from": "doc", "to": "stf", "type": "solid" },
+    { "from": "de-sptl", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "expm", "type": "solid" }
   ]
 }

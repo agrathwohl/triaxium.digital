@@ -6,7 +6,7 @@
   "subject": "dym-f",
   "title": "DYM.F.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-31, the third on book p169. DYM-F (dynamic functionalism) is crossed with MT-INFO (multi-information). Two upstream feeds: IST-F-AT (isolated focus activism) → DYM-F, and AFL-DY (affinity dynamics) → DYM-F, with AFL-DY also feeding POST (postulation). DYM-F outputs to MT-INFO (the crossing) and to CULT-INFO-F (culture information focus). MT-INFO recursively feeds POST. POST then chains: → BSCF (basic scientific functionalism) → C-FO-ACT (composite focused activism); and POST → PR-TRS (primary transition, a diagram-only compound). Structural argument: dynamic functionalism is co-constituted by isolated-focus-activism and affinity-dynamics, and its outputs (multi-information, culture information focus) eventually loop back through postulation — which itself is fed by the multi-information output. Postulation thus becomes the *recursive* hub, producing both basic-scientific-functionalism→composite-focused-activism and primary-transition. Read against the UPB(II) section: this is Braxton's diagrammatic specification of how dynamic-functionalism (the section's core philosophical claim about creativity's purposive role) is built — not by single-shot derivation, but by a feedback loop in which multi-information re-feeds postulation to generate both science-application and primary-transition.",
+  "description": "Diagram in UPB(II)-31, the third on book p169. DYM-F (dynamic functionalism) is crossed with MT-INFO (multi-information). Besides the main line to MT-INFO, three branches leave the subject: CUL-INFO-F (culture information focus), IST-F-ACT (isolated focus activism), and AF-DY (affinity dynamics). AF-DY carries POST (postulation), which carries CO-FO-ACT (composite focused activism). CO-FO-ACT branches to PR-TRS and to BSCF (basic science, or basic scientific functionalism), and BSCF carries (R)POST (the reality of postulation).",
   "terms": [
     {
       "termId": "dym-f",
@@ -16,7 +16,7 @@
       "termId": "mt-info"
     },
     {
-      "termId": "ist-f-at"
+      "termId": "ist-f-act"
     },
     {
       "termId": "afl-dy"
@@ -29,13 +29,13 @@
       "termId": "bscf"
     },
     {
-      "termId": "c-fo-act"
+      "termId": "co-fo-act"
     },
     {
-      "termId": "cult-info-f"
+      "termId": "cul-info-f"
     },
     {
-      "termId": "post"
+      "termId": "post-2"
     },
     {
       "termId": "pr-trs"
@@ -43,28 +43,28 @@
   ],
   "relationships": [
     {
-      "from": "ist-f-at",
-      "to": "dym-f",
+      "from": "dym-f",
+      "to": "ist-f-act",
+      "type": "solid"
+    },
+    {
+      "from": "dym-f",
+      "to": "afl-dy",
       "type": "solid"
     },
     {
       "from": "afl-dy",
-      "to": "dym-f",
-      "type": "solid"
-    },
-    {
-      "from": "afl-dy",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "post",
-      "to": "bscf",
+      "to": "post-2",
       "type": "solid"
     },
     {
       "from": "bscf",
-      "to": "c-fo-act",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "co-fo-act",
+      "to": "bscf",
       "type": "solid"
     },
     {
@@ -74,16 +74,16 @@
     },
     {
       "from": "dym-f",
-      "to": "cult-info-f",
+      "to": "cul-info-f",
       "type": "solid"
     },
     {
-      "from": "mt-info",
-      "to": "post",
+      "from": "post-2",
+      "to": "co-fo-act",
       "type": "solid"
     },
     {
-      "from": "post",
+      "from": "co-fo-act",
       "to": "pr-trs",
       "type": "solid"
     }

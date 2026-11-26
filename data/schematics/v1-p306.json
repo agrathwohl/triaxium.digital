@@ -6,7 +6,7 @@
   "subject": "s-proj",
   "title": "S.PROJ.------T.C.IMP.",
   "type": "crossing",
-  "description": "Diagram in WI-22, on the page where Braxton clarifies that 'the concept of the grand trade-off pertains to the essence lining that determines the vibrational nature of events in this cycle' — that western art music is treated as 'more than the merely natural' while every progressional period of music from the white improvisor 'has always been viewed as a more sophisticated offering' than its black counterparts. S-PROJ (source projection) is crossed with T-C-IMP (time continuum implications): the question is what source projection looks like when crossed with time-continuum implications in this 'sophistication' regime. S-PROJ → T-C-IMP. T-C-IMP branches to AFL-DY (affinity dynamics) and TR-INFO (trans-information) → LANG-DY (language dynamics) → C-FO-ACT (composite focused activism). A-PR (all-purpose) → T-C-IMP. INDIV-TD (individual tendencies) → A-PR; POL-P (political policies) → INDIV-TD; POL-P → PART (participation); INDIV-TD → PHY-U-P (physical universe particular) → RE-ST (restructuralism). Structural argument: source projection's path to its time-continuum implications fans into three downstream layers — affinity dynamics, the trans-information→language→composite-focused-activism chain, and the all-purpose chain (itself fed by individual tendencies, fed by political policies). Political policies also bears directly on participation. The all-purpose-grade output is what arrives at time-continuum implications — meaning the diagram captures Braxton's structural worry: source projection's 'sophisticated' uptake (the all-purpose route) is exactly what allows political policies to dominate via individual tendencies. The chain through trans-information into composite focused activism is the alternative route that bypasses political-policy capture, but it requires language-dynamics as the intermediary.",
+  "description": "Diagram in WI-22, on the page where Braxton clarifies that 'the concept of the grand trade-off pertains to the essence lining that determines the vibrational nature of events in this cycle' — that western art music is treated as 'more than the merely natural' while every progressional period of music from the white improvisor 'has always been viewed as a more sophisticated offering' than its black counterparts. S-PROJ (source projection) is crossed with T-C-IMP (time continuum implications): the question is what source projection looks like when crossed with time-continuum implications in this 'sophistication' regime. S-PROJ → T-C-IMP. S-PROJ also branches to TR-INFO (trans-information), which branches to A-PR (all-purpose), AFL-DY (affinity dynamics), and RE-ST (restructuralism). RE-ST branches to LANG-DY (language dynamics) → C-FO-ACT (composite focused activism) and to INDIV-TD (individual tendencies) → PHY-U-P (physical universe particular) → POL-P (political policies) → PART (participation). Political policies also bears directly on participation.",
   "terms": [
     {
       "termId": "s-proj",
@@ -53,38 +53,8 @@
       "type": "solid"
     },
     {
-      "from": "t-c-imp",
-      "to": "afl-dy",
-      "type": "solid"
-    },
-    {
-      "from": "t-c-imp",
-      "to": "tr-info",
-      "type": "solid"
-    },
-    {
-      "from": "tr-info",
-      "to": "lang-dy",
-      "type": "solid"
-    },
-    {
       "from": "lang-dy",
       "to": "c-fo-act",
-      "type": "solid"
-    },
-    {
-      "from": "a-pr",
-      "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "indiv-td",
-      "to": "a-pr",
-      "type": "solid"
-    },
-    {
-      "from": "pol-p",
-      "to": "indiv-td",
       "type": "solid"
     },
     {
@@ -98,8 +68,38 @@
       "type": "solid"
     },
     {
-      "from": "phy-u-p",
+      "from": "s-proj",
+      "to": "tr-info",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
+      "to": "afl-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tr-info",
       "to": "re-st",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "indiv-td",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-p",
+      "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "re-st",
+      "to": "lang-dy",
       "type": "solid"
     }
   ]

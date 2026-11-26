@@ -6,7 +6,7 @@
   "subject": "th-cont",
   "title": "TH.CONT.------(R)TH.CONT.",
   "type": "crossing",
-  "description": "Diagram in CMBA-7, on the page where Braxton outlines the second degree of extended functionalism — 'the vibrational implications of collected participation in alternative creativity'. (C)TH-CONT — the *concept* of thrust continuance — is crossed with (R)TH-CONT — the *reality* of thrust continuance: a uniquely self-referential crossing where the same term appears with both prefixes, forcing the reader to ask what thrust-continuance-as-concept and thrust-continuance-as-real actually look like together. C-CONT (composite continuance) feeds (C)TH-CONT. (C)TH-CONT outputs to T-C-IMP (time continuum implications), which is also fed by AFI (affinity insight) and AFL-DY (affinity dynamics), and which loops back to (C)TH-CONT and outputs to PROJ-DY (projectional dynamics). INFO-DOC (information documentation) also feeds (C)TH-CONT, which outputs to INFO-DE-B (a diagram-only term, likely 'information determination basis'). LK-IMP (linkage implications) feeds (C)TH-CONT. (R)TH-CONT is connected via the diagram's title only — its specific edges aren't in the relationships list, suggesting Braxton wanted the *crossing* itself (concept vs reality of the same term) to be the structural argument. Structural claim: the concept of thrust continuance is over-determined upstream (composite continuance, affinity insight, information documentation, affinity dynamics, linkage implications all feed it through time-continuum implications), and its only direct outputs are projectional dynamics and information-determination-basis. The reality of thrust continuance is what's *outside* this diagram's explicit edges — implicit in the music's actualization, not specifiable as another node.",
+  "description": "Diagram in CMBA-7, on the page where Braxton lists several degrees of extended functionalism and accelerated dynamics. (C)TH-CONT — the *concept* of thrust continuance — is crossed with (R)TH-CONT — the *reality* of thrust continuance: a uniquely self-referential crossing where the same term appears with both prefixes, forcing the reader to ask what thrust-continuance-as-concept and thrust-continuance-as-real actually look like together. The main line carries T-C-IMP (time continuum implications) at a junction: (C)TH-CONT → T-C-IMP → (R)TH-CONT. T-C-IMP branches to C-CONT (composite continuance) and PROJ-DY (projectional dynamics); (R)TH-CONT branches to AFI (affinity insight) and INFO-DE-B (information degree basis). PROJ-DY branches to INFO-DE (information degrees) and to AFL-DY (affinity dynamics) → LK-IMP (linkage implications).",
   "terms": [
     {
       "termId": "th-cont",
@@ -14,7 +14,7 @@
       "prefix": "c"
     },
     {
-      "termId": "th-cont",
+      "termId": "th-cont-2",
       "prefix": "r"
     },
     {
@@ -30,7 +30,7 @@
       "termId": "proj-dy"
     },
     {
-      "termId": "info-doc"
+      "termId": "info-de"
     },
     {
       "termId": "afl-dy"
@@ -44,23 +44,13 @@
   ],
   "relationships": [
     {
-      "from": "c-cont",
-      "to": "th-cont",
-      "type": "solid"
-    },
-    {
       "from": "th-cont",
       "to": "t-c-imp",
       "type": "solid"
     },
     {
-      "from": "afi",
-      "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
       "from": "t-c-imp",
-      "to": "th-cont",
+      "to": "th-cont-2",
       "type": "solid"
     },
     {
@@ -69,23 +59,33 @@
       "type": "solid"
     },
     {
-      "from": "info-doc",
-      "to": "th-cont",
+      "from": "th-cont-2",
+      "to": "info-de-b",
+      "type": "solid"
+    },
+    {
+      "from": "t-c-imp",
+      "to": "c-cont",
+      "type": "solid"
+    },
+    {
+      "from": "th-cont-2",
+      "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "info-de",
+      "type": "solid"
+    },
+    {
+      "from": "proj-dy",
+      "to": "afl-dy",
       "type": "solid"
     },
     {
       "from": "afl-dy",
-      "to": "t-c-imp",
-      "type": "solid"
-    },
-    {
-      "from": "lk-imp",
-      "to": "th-cont",
-      "type": "solid"
-    },
-    {
-      "from": "th-cont",
-      "to": "info-de-b",
+      "to": "lk-imp",
       "type": "solid"
     }
   ]

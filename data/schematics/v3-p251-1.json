@@ -6,7 +6,7 @@
   "subject": "cult-af-b",
   "title": "CULT.AF.B.------POL.P.",
   "type": "crossing",
-  "description": "First of two diagrams in PR.S(RD)II-5. The prose below identifies the structural target: 'The distortions that have crept into western analysis can be viewed by understanding the essence premise that dictates its information degrees.' The crossing diagrams how cultural-affinity base structurally meets political-particulars at the western-analysis scale: CULT-AF-B crossed with POL-P. CULT-AF-B sits at lower-right with the subject-arrow; POL-P at upper-right as partner-axis. PROJ-DY (projectional dynamics), AF-NT (affinity nature), (R)INTR (reality of interpretation) upper-center to upper-right. INFO-F (information focus), RTD-PRD (related procedure) center. T-C-IMP (time continuum implications), WO-EXP-PR (world exposure principle) at left. PROG-CONT (progressional continuance), POL-DY (political dynamics), LK-IMP (linkage implication) at lower-center.",
+  "description": "First of two diagrams in PR.S(RD)II-5. The prose below identifies the structural target: 'The distortions that have crept into western analysis can be viewed by understanding the essence premise that dictates its information degrees.' The crossing diagrams how culture-affinity-basis structurally meets political-policies at the western-analysis scale: CULT-AF-B crossed with POL-P. CULT-AF-B sits at lower-right with the subject-arrow; POL-P at upper-right as partner-axis. PROJ-DY (projectional dynamics), AF-NT (affinity nature), (R)INTR (reality of interpretation) upper-center to upper-right. INFO-F (information focus), RTD-PRD (related procedure) center. T-C-IMP (time continuum implications), WO-EXP-PR (world expansion principle) at left. PROG-CONT (progressional continuance), POL-DY (political dynamics), LK-IMP (linkage implications) at lower-center.",
   "terms": [
     {
       "termId": "cult-af-b",
@@ -49,57 +49,57 @@
   ],
   "relationships": [
     {
-      "from": "cult-af-b",
-      "to": "pol-p",
-      "type": "solid"
-    },
-    {
-      "from": "proj-dy",
-      "to": "info-f",
-      "type": "solid"
-    },
-    {
       "from": "af-nt",
       "to": "pol-p",
       "type": "solid"
     },
     {
-      "from": "intr",
-      "to": "pol-p",
+      "from": "cult-af-b",
+      "to": "info-f",
       "type": "solid"
     },
     {
       "from": "info-f",
+      "to": "af-nt",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "intr",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
       "to": "rtd-prd",
       "type": "solid"
     },
     {
-      "from": "rtd-prd",
-      "to": "cult-af-b",
+      "from": "info-f",
+      "to": "t-c-imp",
       "type": "solid"
     },
     {
       "from": "t-c-imp",
-      "to": "info-f",
+      "to": "proj-dy",
       "type": "solid"
     },
     {
-      "from": "wo-exp-pri",
-      "to": "info-f",
-      "type": "solid"
-    },
-    {
-      "from": "cult-af-b",
+      "from": "t-c-imp",
       "to": "prog-cont",
       "type": "solid"
     },
     {
-      "from": "cult-af-b",
+      "from": "prog-cont",
+      "to": "wo-exp-pri",
+      "type": "solid"
+    },
+    {
+      "from": "info-f",
       "to": "pol-dy",
       "type": "solid"
     },
     {
-      "from": "cult-af-b",
+      "from": "pol-dy",
       "to": "lk-imp",
       "type": "solid"
     }

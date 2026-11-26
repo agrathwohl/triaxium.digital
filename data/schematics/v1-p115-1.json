@@ -6,7 +6,7 @@
   "subject": "post",
   "title": "(R)POST.------MTH.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-19. (R)POST — the reality of postulation — is crossed with MTH (methodology). Embedded in the part of the section where Braxton discusses source-transfer implications and how western misdocumentation has reduced trans-African creativity to fragments of itself. The diagram poses: when postulation's *reality* (not its concept) is crossed with methodology, what is the structural chain? POST is fed by C-AF-ALGN (composite affinity alignment) → PART (participation), with C-AF-ALGN also feeding DYM-F (dynamic functionalism) — so participation is itself produced by the affinity-alignment-dynamic-functionalism dyad. POST → MTH → CRTF-D (cross-transfer definitions) → INFO-AF-B (information affinity basis): the methodological chain ends in information affinity basis only via cross-transfer definitions, which Braxton names elsewhere as the western redocumentation device. POST also branches to WO-EXP-PRI (world expansion principle) and T-C-IMP (time continuum implications), and T-C-IMP solid-links to ALT-F (alternative functionalism) and AF-NT (affinity nature). The structural claim: real postulation only reaches methodology through participation grounded in composite-affinity-alignment, and methodology's terminal node is information-affinity-basis — but only via cross-transfer definitions, the very mechanism that has historically distorted black creativity.",
+  "description": "Diagram in T(AF)M-19. (R)POST — the reality of postulation — is crossed with MTH (methodology). Embedded in the part of the section where Braxton discusses the source-transfer implications of black creativity. The diagram poses: when postulation's *reality* (not its concept) is crossed with methodology, what is the structural chain? POST branches to DYM-F (dynamic functionalism) → C-AF-ALGN (composite affinity alignment) → PART (participation). Besides the main line POST → MTH, a second line runs POST → CRTF-D (cross-transfer definitions) → T-C-IMP (time continuum implications), and T-C-IMP branches to INFO-AF-B (information affinity basis) and to WO-EXP-PRI (world expansion principle) → ALT-F (alternative functionalism) → AF-NT (affinity nature). The structural claim: real postulation reaches methodology directly, while information-affinity-basis is reached only via cross-transfer definitions and time continuum implications.",
   "terms": [
     { "termId": "post", "isSubject": true, "prefix": "r" },
     { "termId": "mth" },
@@ -21,15 +21,15 @@
     { "termId": "af-nt" }
   ],
   "relationships": [
-    { "from": "c-af-algn", "to": "dym-f", "type": "solid" },
     { "from": "c-af-algn", "to": "part", "type": "solid" },
-    { "from": "part", "to": "post", "type": "solid" },
     { "from": "post", "to": "mth", "type": "solid" },
-    { "from": "mth", "to": "crtf-d", "type": "solid" },
-    { "from": "crtf-d", "to": "info-af-b", "type": "solid" },
-    { "from": "post", "to": "wo-exp-pri", "type": "solid" },
-    { "from": "post", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "alt-f", "type": "solid" },
-    { "from": "t-c-imp", "to": "af-nt", "type": "solid" }
+    { "from": "post", "to": "dym-f", "type": "solid" },
+    { "from": "dym-f", "to": "c-af-algn", "type": "solid" },
+    { "from": "post", "to": "crtf-d", "type": "solid" },
+    { "from": "crtf-d", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-af-b", "type": "solid" },
+    { "from": "t-c-imp", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "af-nt", "type": "solid" }
   ]
 }

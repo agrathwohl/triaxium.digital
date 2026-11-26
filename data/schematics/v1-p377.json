@@ -6,7 +6,7 @@
   "subject": "rt-algn",
   "title": "RT.ALGN.------CULT.INFO.DY.",
   "type": "crossing",
-  "description": "Diagram in The New York Movement section (NYM-11) condensing the structural argument running across pages 374–379 of TAW1: the reality alignment (RT-ALGN) of post-Ayler creative black music is not autonomously self-determined but is *crossed* — the (c) prefix denotes a crossing relation — with culture information dynamics (CULT-INFO-DY), the apparatus by which the white defining/controlling community processes and disseminates cultural product. The crossing is mediated, not direct: a determined chain runs from information dissemination (INFO-DS) through political policies (POL-P), redocumentation (RE-DOC), affinity compression (AF-COMP), and controlled information (CN-INFO) into political dynamics (POL-DYM) and from there onto RT-ALGN itself. Isolated focus (IST-F) and a transformation/transition node (the diagram-only term TR-TRS, fed by social reality particulars SOC-RT-P) bear directly on the subject; alternative functionalism (ALT-F) bears on CULT-INFO-DY in turn. The page's prose makes the diagram concrete: rock music's commercial dominance was crushing post-Ayler musicians economically, but Braxton's claim is structural rather than circumstantial — black creative music's reality options are constrained by the cultural-political control chain, which 'defines and discards' (NYM-12) the music through redocumentation and dissemination policy rather than through any direct engagement with the music's own thrust trajectory.",
+  "description": "Diagram in The New York Movement section (NYM-11): the reality alignment (RT-ALGN) of post-Ayler creative black music — with the (c) prefix, the concept of reality alignment — is *crossed* with culture information dynamics (CULT-INFO-DY). Besides the main line to CULT-INFO-DY, two lines leave the subject. One runs to TR-TRS (a diagram-only term), from which hang isolated focus (IST-F) and social reality particulars (SOC-RT-P). The other runs to political dynamics (POL-DYM) → political policies (POL-P); from POL-P branch controlled information (CN-INFO) → redocumentation (RE-DOC) → affinity compression (AF-COMP), and alternative functionalism (ALT-F) → information dissemination (INFO-DS). The page's prose makes the diagram concrete: rock music's commercial dominance was crushing post-Ayler musicians economically, but Braxton's claim is structural rather than circumstantial — by the time rock appeared, black creativity 'had already been systematically defined by the controlling forces from the white community and discarded' (NYM-12).",
   "terms": [
     {
       "termId": "rt-algn",
@@ -49,43 +49,23 @@
   ],
   "relationships": [
     {
-      "from": "ist-f",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "tr-trs",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "cult-info-dy",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "pol-dym",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "soc-rt-p",
+      "from": "rt-algn",
       "to": "tr-trs",
       "type": "solid"
     },
     {
-      "from": "alt-f",
+      "from": "rt-algn",
       "to": "cult-info-dy",
       "type": "solid"
     },
     {
-      "from": "cn-info",
+      "from": "rt-algn",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "af-comp",
-      "to": "cn-info",
+      "from": "tr-trs",
+      "to": "soc-rt-p",
       "type": "solid"
     },
     {
@@ -94,13 +74,33 @@
       "type": "solid"
     },
     {
-      "from": "pol-p",
-      "to": "re-doc",
+      "from": "tr-trs",
+      "to": "ist-f",
       "type": "solid"
     },
     {
-      "from": "info-ds",
+      "from": "pol-dym",
       "to": "pol-p",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "alt-f",
+      "type": "solid"
+    },
+    {
+      "from": "alt-f",
+      "to": "info-ds",
+      "type": "solid"
+    },
+    {
+      "from": "pol-p",
+      "to": "cn-info",
+      "type": "solid"
+    },
+    {
+      "from": "cn-info",
+      "to": "re-doc",
       "type": "solid"
     }
   ]

@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.-----PROJ.DY",
   "type": "crossing",
-  "description": "First of two diagrams in T(IMP)M-21. The following prose names the structural target: 'My reason for commenting on the historical progressions of improvised music from the black aesthetic is to give some understanding as to how once a form has been adopted by the controlling forces of western culture, the meta-reality potential of that form usually retards.' The crossing diagrams how structural-form structurally meets projectional-dynamics at the meta-reality-retardation scale: STF (source transfer) crossed with PROJ-DY (projectional dynamics). STF sits centrally with the subject-arrow; RE-ST (restructuralism) at upper-center and PROJ-DY at upper-right with MOT-DY (motion dynamics) and LG-DY (logical dynamics) anchoring the upper-right margin as the partner-side upper outputs. IST-S-ALGN (isolated systematic alignment) at upper-left and CULT-INFO-B (culture information basis) below as the subject-side leftward chain. RT-DY (reality dynamics) at left-center as the subject-side downward output. PRI-INFO (principle information) sits at right-center as the bridging hub. INFO-INTG (information integration) and T-C-IMP (time continuum implications) sit centrally and right as the bridging-axis downward chain. PROG-CONT (progressional continuance) at bottom-center as the bridging-axis terminus. Structural argument: when structural-form is crossed with projectional-dynamics, the upper diagonal RE-ST → PROJ-DY → MOT-DY → LG-DY is the *western-cultural projection chain* — restructuralism routes through projectional-dynamics into motion-dynamics, finally producing logical-dynamics on the partner-side. IST-S-ALGN → CULT-INFO-B → RT-DY is the subject-side leftward-downward chain — isolated-systematic-alignment routes through culture-information-basis into reality-dynamics. PRI-INFO → INFO-INTG → T-C-IMP → PROG-CONT is the bridging-axis chain — principle-information routes through information-integration into time-continuum-implications and finally into progressional-continuance. The structural argument: the meta-reality-potential retardation the prose names is structurally produced when the upper diagonal RE-ST → PROJ-DY → MOT-DY → LG-DY captures structural-form's working content via restructuralism — the form's actual projectional-dynamics gets converted into logical-dynamics on the partner-side rather than reaching INFO-INTG's central integration through the bridging-axis. The form's meta-reality potential gets retarded by logical-dynamics absorbing it into the receiving culture's projection.",
+  "description": "First of two diagrams in T(IMP)M-21. The following prose names the structural target: 'My reason for commenting on the historical progressions of improvised music from the black aesthetic is to give some understanding as to how once a form has been adopted by the controlling forces of western culture, the meta-reality potential of that form usually retards.' The crossing diagrams how source-transfer structurally meets projectional-dynamics at the meta-reality-retardation scale: STF (source transfer) crossed with PROJ-DY (projectional dynamics). STF sits at lower-left with the subject-arrow; RE-ST (restructuralism) at upper-center and PROJ-DY at upper-right, with MOT-DY and LG-DY (logical dynamics) at the upper-right margin on a branch from PRI-INFO's line. IST-S-ALGN (isolated systematic alignment) at upper-left branches from the main line and carries RE-ST and RT-DY (reality dynamics); CULT-INFO-B (culture information basis) at left hangs from RT-DY's line, and RT-DY sits at lower-left. PRI-INFO (principle information) sits at right-center on a branch from the main line. INFO-INTG (information integration) and T-C-IMP (time continuum implications) sit lower-right: T-C-IMP branches from PROG-CONT's line and INFO-INTG from T-C-IMP's line. PROG-CONT (progressional continuance) at bottom-center, on a vertical from the main line.",
   "terms": [
     { "termId": "stf", "isSubject": true },
     { "termId": "proj-dy" },
@@ -23,16 +23,15 @@
   ],
   "relationships": [
     { "from": "stf", "to": "proj-dy", "type": "solid" },
-    { "from": "stf", "to": "re-st", "type": "solid" },
-    { "from": "re-st", "to": "proj-dy", "type": "solid" },
-    { "from": "proj-dy", "to": "mot-dy", "type": "solid" },
-    { "from": "mot-dy", "to": "lg-dy", "type": "solid" },
+    { "from": "lg-dy", "to": "mot-dy", "type": "solid" },
     { "from": "stf", "to": "ist-s-algn", "type": "solid" },
-    { "from": "ist-s-algn", "to": "cult-info-b", "type": "solid" },
-    { "from": "cult-info-b", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "cult-info-b", "type": "solid" },
     { "from": "stf", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "info-intg", "type": "solid" },
-    { "from": "info-intg", "to": "t-c-imp", "type": "solid" },
-    { "from": "t-c-imp", "to": "prog-cont", "type": "solid" }
+    { "from": "t-c-imp", "to": "info-intg", "type": "solid" },
+    { "from": "prog-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "ist-s-algn", "to": "re-st", "type": "solid" },
+    { "from": "ist-s-algn", "to": "rt-dy", "type": "solid" },
+    { "from": "pri-info", "to": "lg-dy", "type": "solid" },
+    { "from": "stf", "to": "prog-cont", "type": "solid" }
   ]
 }

@@ -6,7 +6,7 @@
   "subject": "re-doc",
   "title": "(R)RE.DOC.------C.CONT.",
   "type": "crossing",
-  "description": "First of two diagrams in CMOA(II)-53 facing Braxton's account of the 'suppression cycle' — 'this is the period where one asks the question \"whatever happened to ole Joe?\" From a dynamic beginning, where a given thrust alignment served as basis for both new projectional forms and vitality, and in doing so provided the vibrational uplift for composite world culture, to a suppressed scattering of surprised musicians (who probably are still fighting each other) — this is what I mean by trans-response-shift pattern.' The crossing diagrams the structural condition under which that pattern becomes possible: (R)RE-DOC (the *reality* of redocumentation — the cycle in which a thrust alignment gets historicized) is crossed with C-CONT (composite continuance — whether the form's actual vibrational thrust keeps moving). RE-DOC sits in the lower-left with the subject-arrow; PART (the reality of participation) hangs immediately above it, the load-bearing condition for redocumentation to remain alive. AF-NT (affinity nature) anchors the bottom-center as the bottom output. On the partner side, C-CONT is the central hub: it routes to SPT-DYM (spectacle dynamics) up-right, AFTF (affinity transfer) directly right, and INFO-F (information focus) down-right, with CRTF-PROG (cross-transfer progressionalism) hanging off INFO-F at the far lower-right. Across the top, SOC-RT-DY (social-reality dynamics) feeds into TRS (transition) and TRS fans out to ALT-F (alternative functionalism) and back down into C-CONT. Structural argument: when redocumentation is crossed with composite-continuance, the diagonals running from the upper-left (SOC-RT-DY/TRS) through C-CONT and down to CRTF-PROG show the *only* viable path — redocumentation becomes continuance only when transition actively routes social-reality-dynamics through composite-continuance into cross-transfer-progressionalism. Lose the diagonal — let TRS terminate at ALT-F instead — and the partner-axis stops reaching across; redocumentation gets stranded with PART alone holding it up, and the trans-response-shift pattern follows.",
+  "description": "First of two diagrams in CMOA(II)-53 facing Braxton's account of the 'suppression cycle' — 'this is the period where one asks the question \"whatever happened to ole Joe?\" From a dynamic beginning, where a given thrust alignment served as basis for both new projectional forms and vitality, and in doing so provided the vibrational uplift for composite world culture, to a suppressed scattering of surprised musicians (who probably are still fighting each other) — this is what I mean by trans-response-shift pattern.' The crossing diagrams the structural condition under which that pattern becomes possible: (R)RE-DOC (the *reality* of redocumentation — the cycle in which a thrust alignment gets historicized) is crossed with C-CONT (composite continuance — whether the form's actual vibrational thrust keeps moving). RE-DOC sits in the lower-left with the subject-arrow, and the main line runs up-right to C-CONT, which has no branches of its own. TRS (transition) rises from the main line; SOC-RT-DY (social-reality dynamics) branches from it to the left, with PART (participation) hanging from SOC-RT-DY just above the subject, and SPT-DYM (spiritual dynamics) branches from it to the right, with ALT-F (alternative functionalism) rising from the SPT-DYM line. Lower down, INFO-F (information focus) branches from the main line to the right; AF-NT (affinity nature) drops from it to anchor the bottom-center, and AFTF (affinity transfer) rises from it, with CRTF-PROG (cross-transfer progressionalism) hanging off AFTF at the far lower-right. Structural argument: redocumentation crossed with composite-continuance builds its side structure from two points on the main line, transition above and information-focus below.",
   "terms": [
     { "termId": "re-doc", "isSubject": true, "prefix": "r" },
     { "termId": "c-cont" },
@@ -22,15 +22,14 @@
   ],
   "relationships": [
     { "from": "re-doc", "to": "c-cont", "type": "solid" },
-    { "from": "re-doc", "to": "part", "type": "solid" },
-    { "from": "re-doc", "to": "af-nt", "type": "solid" },
-    { "from": "soc-rt-dy", "to": "trs", "type": "solid" },
-    { "from": "trs", "to": "alt-f", "type": "solid" },
-    { "from": "trs", "to": "c-cont", "type": "solid" },
-    { "from": "c-cont", "to": "spt-dym", "type": "solid" },
-    { "from": "c-cont", "to": "aftf", "type": "solid" },
-    { "from": "c-cont", "to": "info-f", "type": "solid" },
-    { "from": "info-f", "to": "crtf-prog", "type": "solid" },
-    { "from": "part", "to": "soc-rt-dy", "type": "solid" }
+    { "from": "trs", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "part", "type": "solid" },
+    { "from": "re-doc", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "spt-dym", "type": "solid" },
+    { "from": "spt-dym", "to": "alt-f", "type": "solid" },
+    { "from": "re-doc", "to": "info-f", "type": "solid" },
+    { "from": "info-f", "to": "af-nt", "type": "solid" },
+    { "from": "info-f", "to": "aftf", "type": "solid" },
+    { "from": "aftf", "to": "crtf-prog", "type": "solid" }
   ]
 }

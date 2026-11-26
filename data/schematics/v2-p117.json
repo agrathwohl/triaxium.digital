@@ -6,7 +6,7 @@
   "subject": "p-fc",
   "title": "(R)P.FC.------POL.P.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-5 (Aspect Essence / Perception Dynamics, Level One) opening Braxton's central frame for the chapter: the sixties activism analysis. 'The vibrational platform that solidified in the sixties would establish the first real move towards alternative functionalism for the post–World War Two generation.' (R)P-FC (the reality of particular focus) is crossed with POL-P (political policies): the question is what particular-focus produces in its actual instantiation when crossed with political-policies — the (R) prefix marking that this is about the *real* focal-point at which sixties activism intervened, not a conceptual one. EXT-INFO (extended information) sits between subject and partner. MT-INFO (multi-information) feeds in from the upper-left. POL-P sits at the upper-right. TRS (transition) hangs below EXT-INFO. POST (postulation) anchors the lower-center. OP-SPD (option-spread) hangs on the lower-right. SOC-RT-DY (social-reality dynamics) sits between particular-focus and the lower output. CULT-SOLD (culture solidification) anchors the lower-center. Structural argument: particular-focus-as-real crossed with political-policies is mediated by extended-information as central hub, with multi-information as upstream and option-spread as marginal output. The diagram exposes Braxton's structural diagnostic of sixties activism: real particular-focus crossed with political-policies produces option-spread (multiple alternative paths) and feeds into culture-solidification through postulation and social-reality-dynamics. The schematic is the case for why the early sixties activism was productive — particular-focus was *real* (not styled), and the productive output ran through three lower upstream tests (transition, postulation, social-reality-dynamics) into culture-solidification.",
+  "description": "Diagram in AE(PD)-5 (Aspect Essence / Perception Dynamics, Level One) opening Braxton's central frame for the chapter: the sixties activism analysis. 'The vibrational platform that solidified in the sixties would establish the first real move towards alternative functionalism for the post–World War Two generation.' (R)P-FC (the reality of particular focus) is crossed with POL-P (political policies): the question is what particular-focus produces in its actual instantiation when crossed with political-policies. EXT-INFO (extended information) branches from the main line and leads to MT-INFO (multi-information), which carries TRS (transition). POL-P sits at the upper-right. OP-SPD (option-spread) also branches from the main line and leads to SOC-RT-DY (social-reality dynamics), then to POST (postulation) and on to CULT-SOLD (culture solidification). The diagram exposes Braxton's structural diagnostic of sixties activism: real particular-focus crossed with political-policies produces option-spread (multiple alternative paths) and feeds into culture-solidification through postulation and social-reality-dynamics.",
   "terms": [
     { "termId": "p-fc", "isSubject": true, "prefix": "r" },
     { "termId": "pol-p" },
@@ -19,14 +19,13 @@
     { "termId": "cult-sold" }
   ],
   "relationships": [
-    { "from": "mt-info", "to": "ext-info", "type": "solid" },
     { "from": "p-fc", "to": "ext-info", "type": "solid" },
-    { "from": "ext-info", "to": "pol-p", "type": "solid" },
     { "from": "p-fc", "to": "pol-p", "type": "solid" },
-    { "from": "ext-info", "to": "trs", "type": "solid" },
-    { "from": "p-fc", "to": "post", "type": "solid" },
-    { "from": "pol-p", "to": "op-spd", "type": "solid" },
-    { "from": "post", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "post", "to": "cult-sold", "type": "solid" }
+    { "from": "post", "to": "cult-sold", "type": "solid" },
+    { "from": "ext-info", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "trs", "type": "solid" },
+    { "from": "p-fc", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "post", "type": "solid" }
   ]
 }

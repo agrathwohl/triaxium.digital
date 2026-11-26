@@ -6,7 +6,7 @@
   "subject": "vt-dy",
   "title": "(R)VT.DY.------POST.",
   "type": "crossing",
-  "description": "Diagram in WI-26, paired with v1-p310-1. (R)VT-DY — the reality of vibrational dynamics — is crossed with POST (postulation). This is structurally the *same crossing* as the CODE/v1-p14 example schematic from Braxton's pedagogical opening, returning here in the WI context — meaning Braxton is staging the question of how the reality of vibrational dynamics gets postulated in the white-improvisor's situation specifically. VT-DY → PRI-VT-TD (principle vibrational tendencies) → SI (source initiation) → POST (the crossing) → PROG-CONT (progressional continuance), POST → AFTD (affinity tendencies), POST → LANG-DY (language dynamics). LANG-DY → RT-ALGN (reality alignment) and LANG-DY → INDIV-DY (individual dynamics) → AFI (affinity insight). Structural argument: the reality of vibrational dynamics flows through principle vibrational tendencies → source initiation → postulation as a single chain. From postulation, three parallel outputs emerge: progressional continuance (the diachronic axis), affinity tendencies (the affinity axis), and language dynamics (the conceptual axis). Language dynamics then bifurcates into reality alignment and individual dynamics → affinity insight. The diagram thus stages the white improvisor's *opportunity*: if the source initiation grounding is real (i.e., not merely conceptual), the postulation chain produces all three downstream — but if source initiation is merely pedagogical/source-transfer, the chain breaks at postulation and language dynamics dominates without primary-vibrational-tendency grounding. The pedagogical example from p14 is here re-asked with explicit social-political stakes.",
+  "description": "Diagram in WI-26, paired with v1-p310-1. (R)VT-DY — the reality of vibrational dynamics — is crossed with POST (postulation). This is structurally the *same crossing* as the CODE/v1-p14 example schematic from Braxton's pedagogical opening, returning here in the WI context. VT-DY → POST (the crossing). VT-DY also branches to SG (source initiation) → PRI-VT-TD (principle vibrational tendencies), to RT-ALGN (reality alignment) → LANG-DY (language dynamics), and to AFTD (affinity tendencies), which branches to PROG-CONT (progressional continuance) and to INDIV-DY (individual dynamics) → AFI (affinity insight). The pedagogical example from p14 is here re-asked with explicit social-political stakes.",
   "terms": [
     {
       "termId": "vt-dy",
@@ -17,7 +17,7 @@
       "termId": "pri-vt-td"
     },
     {
-      "termId": "si"
+      "termId": "sg"
     },
     {
       "termId": "post"
@@ -43,48 +43,48 @@
   ],
   "relationships": [
     {
-      "from": "vt-dy",
+      "from": "sg",
       "to": "pri-vt-td",
       "type": "solid"
     },
     {
-      "from": "pri-vt-td",
-      "to": "si",
-      "type": "solid"
-    },
-    {
-      "from": "si",
-      "to": "post",
-      "type": "solid"
-    },
-    {
-      "from": "post",
-      "to": "prog-cont",
-      "type": "solid"
-    },
-    {
-      "from": "post",
-      "to": "aftd",
-      "type": "solid"
-    },
-    {
-      "from": "post",
+      "from": "rt-algn",
       "to": "lang-dy",
-      "type": "solid"
-    },
-    {
-      "from": "lang-dy",
-      "to": "rt-algn",
-      "type": "solid"
-    },
-    {
-      "from": "lang-dy",
-      "to": "indiv-dy",
       "type": "solid"
     },
     {
       "from": "indiv-dy",
       "to": "afi",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "post",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "sg",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "rt-algn",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "aftd",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "prog-cont",
+      "type": "solid"
+    },
+    {
+      "from": "aftd",
+      "to": "indiv-dy",
       "type": "solid"
     }
   ]

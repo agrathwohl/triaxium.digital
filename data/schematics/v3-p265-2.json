@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------V.SY.",
   "type": "crossing",
-  "description": "Second diagram on page 265 (PR.S(RD)II-19), paired with TH-CONT × AF-COMP above. The crossing diagrams how multi-information structurally meets value-system at the journalism-insensitivity scale the prior diagram named: MT-INFO (multi-information) crossed with V-SY (value system — the partner-axis's organized value-system that determines acceptance). MT-INFO sits at upper-left with the subject-arrow; OBS (observation) at top-center and AFL (affinity alignment) at upper-right with INDIV-TD (individual tendencies) and PER-DY (perception dynamics) below as the partner-side upper-right chain. PRI-INFO (principle information) sits at left and CULT-INFO-B (culture information basis) further left as the subject-side leftward chain. DEF (definition) at lower-left as the subject-side downward output. V-SY sits centrally below; ATTN (attraction) at lower-right with SPT-DY (spiritual dynamics) and AFI (affinity insight) at the right-bottom margin as the bridging-axis downward chain. RT-INT-TR (reality initiative traits) at the bottom-center as the bridging terminus. Structural argument: when multi-information is crossed with value-system, the upper diagonal OBS → AFL → INDIV-TD → PER-DY is the *value-system's organizing route* — observation routes through affinity-alignment into individual tendencies and finally into perception-dynamics on the partner-side. PRI-INFO → CULT-INFO-B is the subject-side leftward chain — principle-information routes into culture-information-basis. DEF is the subject's downward output (definition). V-SY → ATTN → SPT-DY → AFI is the partner-axis's downward chain — value-system routes through attraction into spiritual-dynamics, finally producing affinity-insight on the partner-side. RT-INT-TR at the bridging-bottom is the form's reality initiative traits terminus. The structural argument: the profound insensitivity to the actual music the prose names is structurally produced when MT-INFO's upper diagonal converts the form's PRI-INFO into AFL on the partner-axis via OBS — value-system absorbs the form's principle-information through observation-and-alignment before CULT-INFO-B can hold the subject-side cultural-affinity base; the partner-axis's downward chain produces affinity-insight on its own terms, while the form's actual reality initiative traits only reaches the bridging-bottom as RT-INT-TR, never crossing the value-system axis.",
+  "description": "Second diagram on page 265 (PR.S(RD)II-19), paired with TH-CONT × AF-COMP above. The crossing diagrams how multi-information structurally meets value-system at the journalism-insensitivity scale the prior diagram named: MT-INFO (multi-information) crossed with V-SY (value system — the partner-axis's organized value-system that determines acceptance). MT-INFO sits at upper-left with the subject-arrow; V-SY sits centrally below as partner-axis. AFL (affinity alignment) branches up to the right from the main line and carries OBS (observation) and INDIV-TD (individual tendencies), which carries PER-DY (perception dynamics). CULT-INFO-B (culture information basis) branches to the left and carries PRI-INFO (principle information) and DEF (definition). SPT-DY (spiritual dynamics) branches to the right and carries AFI (affinity insight), which carries ATTN (attraction), which carries RT-INT-TR (reality initiative traits).",
   "terms": [
     { "termId": "mt-info", "isSubject": true },
     { "termId": "v-sy" },
@@ -24,16 +24,16 @@
   ],
   "relationships": [
     { "from": "mt-info", "to": "v-sy", "type": "solid" },
-    { "from": "mt-info", "to": "obs", "type": "solid" },
-    { "from": "obs", "to": "afl", "type": "solid" },
     { "from": "afl", "to": "indiv-td", "type": "solid" },
     { "from": "indiv-td", "to": "per-dy", "type": "solid" },
-    { "from": "mt-info", "to": "pri-info", "type": "solid" },
-    { "from": "pri-info", "to": "cult-info-b", "type": "solid" },
     { "from": "cult-info-b", "to": "def", "type": "solid" },
-    { "from": "v-sy", "to": "attn", "type": "solid" },
-    { "from": "attn", "to": "spt-dy", "type": "solid" },
     { "from": "spt-dy", "to": "afi", "type": "solid" },
-    { "from": "v-sy", "to": "rt-int-tr", "type": "solid" }
+    { "from": "mt-info", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "obs", "type": "solid" },
+    { "from": "mt-info", "to": "cult-info-b", "type": "solid" },
+    { "from": "cult-info-b", "to": "pri-info", "type": "solid" },
+    { "from": "mt-info", "to": "spt-dy", "type": "solid" },
+    { "from": "afi", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "rt-int-tr", "type": "solid" }
   ]
 }

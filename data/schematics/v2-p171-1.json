@@ -6,7 +6,7 @@
   "subject": "info-trns",
   "title": "(R)INFO.TRNS.----- PHY.U.P.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-27 (Social Reality / Trans-Information, Level Two), first of two on book p171. Opens Braxton's culture-procedure analysis: 'the significance of world culture must be understood with respect to what progressional continuance implies about procedure.' (R)INFO-TRNS (the reality of information transference) is crossed with PHY-U-P (physical universe particulars): the question is what information-transference produces in its actual instantiation when crossed with physical-universe-particulars — the (R) prefix marking that real information-transference is what differentiates real procedure from spectacle-procedure. TH-CONT-DY (thrust continuance dynamics) sits at the upper-center. TRS (transition) and ALT-F (alternative functionalism) cluster on the upper-right output. SOC-RT (social reality) sits between subject and partner. PHY-U-P is the partner. (R)INT (the reality of intention) sits below the central axis. WO-EXP-PRI (world expansion principle) anchors the right margin. PR-TRS (primary transition) feeds in from the lower-left. VT-DY (vibrational dynamics) sits between subject and lower-center. ACC-DY (accelerated dynamics) anchors the lower-right. Structural argument: information-transference-as-real crossed with physical-universe-particulars is mediated by social-reality as central hub and reality-of-intention as lower hub. The doubled upstreams (thrust-continuance-dynamics above, primary-transition plus vibrational-dynamics below) sustain the crossing. The diagram exposes Braxton's structural commitment for real procedure: information-transference must actually obtain (the (r)), and the physical-universe-particulars output must route through both social-reality and intention-as-real — only then does the upper cluster (transition, alternative-functionalism) become operative as real procedure rather than spectacle-procedure.",
+  "description": "Diagram in SR(TRS)II-27 (Social Reality / Trans-Information, Level Two), first of two on book p171. Opens Braxton's culture-procedure analysis: 'the significance of world culture must be understood with respect to what progressional continuance implies about procedure.' (R)INFO-TRNS (the reality of information transference) is crossed with PHY-U-P (physical universe particulars): the question is what information-transference produces in its actual instantiation when crossed with physical-universe-particulars — the (R) prefix marking that real information-transference is what differentiates real procedure from spectacle-procedure. TH-CONT-DY (thrust continuance dynamics) sits at the upper-center. TRS (transition) branches from the main line and carries TH-CONT-DY and ALT-F (alternative functionalism); SOC-RT (social reality) branches from ALT-F. PHY-U-P is the partner. (R)INT (the reality of intention) sits below the central axis. VT-DY (vibrational dynamics) also branches from the main line and carries PR-TRS and WO-EXP-PRI (world expansion principle); ACC-DY (accelerated dynamics) branches from WO-EXP-PRI.",
   "terms": [
     { "termId": "info-trns", "isSubject": true, "prefix": "r" },
     { "termId": "phy-u-p" },
@@ -14,22 +14,22 @@
     { "termId": "trs" },
     { "termId": "alt-f" },
     { "termId": "soc-rt" },
-    { "termId": "intr", "prefix": "r" },
+    { "termId": "int", "prefix": "r" },
     { "termId": "wo-exp-pri" },
     { "termId": "pr-trs" },
     { "termId": "vt-dy" },
     { "termId": "acc-dy" }
   ],
   "relationships": [
-    { "from": "info-trns", "to": "th-cont-dy", "type": "solid" },
-    { "from": "th-cont-dy", "to": "trs", "type": "solid" },
     { "from": "trs", "to": "alt-f", "type": "solid" },
-    { "from": "info-trns", "to": "soc-rt", "type": "solid" },
-    { "from": "soc-rt", "to": "phy-u-p", "type": "solid" },
-    { "from": "soc-rt", "to": "intr", "type": "solid" },
-    { "from": "intr", "to": "wo-exp-pri", "type": "solid" },
-    { "from": "pr-trs", "to": "info-trns", "type": "solid" },
-    { "from": "vt-dy", "to": "intr", "type": "solid" },
-    { "from": "intr", "to": "acc-dy", "type": "solid" }
+    { "from": "info-trns", "to": "phy-u-p", "type": "solid" },
+    { "from": "info-trns", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "th-cont-dy", "type": "solid" },
+    { "from": "alt-f", "to": "soc-rt", "type": "solid" },
+    { "from": "info-trns", "to": "int", "type": "solid" },
+    { "from": "info-trns", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "pr-trs", "type": "solid" },
+    { "from": "vt-dy", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "wo-exp-pri", "to": "acc-dy", "type": "solid" }
   ]
 }

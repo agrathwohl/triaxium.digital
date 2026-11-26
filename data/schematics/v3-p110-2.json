@@ -6,7 +6,7 @@
   "subject": "ext-ft",
   "title": "EXT.FT.------C.CONT.",
   "type": "crossing",
-  "description": "Second diagram on page 110 (ALT(FT)II-4). The crossing diagrams how extended-functionalism structurally meets composite-continuance at the projectional-strain scale: EXT-FT (extended functionalism) crossed with C-CONT (composite continuance). EXT-FT sits at left; C-CONT at upper-right as partner-axis. AFI-2 (affinity insight, level 2) upper-left, DYM-SPT (dynamic spiritualism) upper-center, F (form) upper-center as the upper bridging chain. TECH-DY (technological dynamics) right. VT-DY (vibrational dynamics) lower-left, RT-ALGN (reality alignment) center, MTH (methodology) lower-center-right as bridging chain. INDIV-DY (individual dynamics) at bottom. Structural argument: when extended-functionalism is crossed with composite-continuance, the upper chain AFI-2 -> DYM-SPT -> F -> C-CONT is the bridging route through which affinity-insight level-two reaches composite-continuance via dynamic-spiritualism and form. The form's actual continuance reaches the partner through TECH-DY on the right. The lower chain VT-DY -> RT-ALGN -> MTH carries vibrational-dynamics through reality-alignment into methodology, the subject's downward output.",
+  "description": "Second diagram on page 110 (ALT(FT)II-4). The crossing diagrams how extended-functionalism structurally meets composite-continuance at the projectional-strain scale: EXT-FT (extended functionalism) crossed with C-CONT (composite continuance). EXT-FT sits at left; C-CONT at upper-right as partner-axis. AFI-2 (affinity insight, second degree) upper-left, DYM-SPT (dynamic spiritualism) upper-center, F (form) upper-center. TECH-DY (technological dynamics) right. VT-DY (vibrational dynamics) lower-left, RT-ALGN (reality alignment) center, MTH (methodology) lower-center-right. INDIV-DY (individual dynamics) at bottom. Structural argument: when extended-functionalism is crossed with composite-continuance, DYM-SPT and F rise from the main line as separate branches, and AFI-2 branches from the DYM-SPT line. TECH-DY branches from the main line on the right, with MTH branching from the TECH-DY line. The lower chain VT-DY -> RT-ALGN -> INDIV-DY carries vibrational-dynamics through reality-alignment into individual dynamics, the subject's downward output.",
   "terms": [
     {
       "termId": "ext-ft",
@@ -47,26 +47,6 @@
       "type": "solid"
     },
     {
-      "from": "afi-2",
-      "to": "dym-spt",
-      "type": "solid"
-    },
-    {
-      "from": "dym-spt",
-      "to": "f",
-      "type": "solid"
-    },
-    {
-      "from": "f",
-      "to": "c-cont",
-      "type": "solid"
-    },
-    {
-      "from": "c-cont",
-      "to": "tech-dy",
-      "type": "solid"
-    },
-    {
       "from": "ext-ft",
       "to": "vt-dy",
       "type": "solid"
@@ -78,12 +58,32 @@
     },
     {
       "from": "rt-algn",
-      "to": "mth",
+      "to": "indiv-dy",
       "type": "solid"
     },
     {
-      "from": "rt-algn",
-      "to": "indiv-dy",
+      "from": "ext-ft",
+      "to": "dym-spt",
+      "type": "solid"
+    },
+    {
+      "from": "dym-spt",
+      "to": "afi-2",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "f",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "tech-dy",
+      "type": "solid"
+    },
+    {
+      "from": "tech-dy",
+      "to": "mth",
       "type": "solid"
     }
   ]

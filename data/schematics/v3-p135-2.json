@@ -6,7 +6,7 @@
   "subject": "wo-exp-pr",
   "title": "WO.EXP.PR.------DYM.SPT.",
   "type": "crossing",
-  "description": "Second diagram on page 135 (ALT(FT)II-29), paired with T-SC × INT above. Where the first diagram structurally shows the upper-route through which trans-science reaches observation, this one names what world-exposure-principle meets when dynamic-spirit is the working partner — the principle of how transformational-functionalism's solidification actually materializes in the world: WO-EXP-PR (world-exposure principle — the actual principle by which a form reaches world-exposure) crossed with DYM-SPT (dynamic spiritualism). WO-EXP-PR sits at the bottom-left with the subject-arrow; DYM-SPT at top-left and CULT-AF-B (cultural-affinity base) at upper-right as the partner-side upper outputs. EXB-H-OR (establishing high order) sits at the left below DYM-SPT. TR-INFO (trans-information) sits centrally above; INFO-DE(B) (black information-descent) below it and APL-DT (application dictates) anchoring the upper-right as the bridging-axis upper chain. PROJ-DY (projectional dynamics) sits at center-right as the partner-axis position. RE-CONT (recontinuance) sits centrally below with AF-POST (affinity postulation) at lower-center and PRI-INFO (principle information) at the bottom-right as the bridging-axis downward chain. Structural argument: when world-exposure-principle is crossed with dynamic-spiritualism, the upper diagonal DYM-SPT → CULT-AF-B is the *spiritual-affinity route* — dynamic-spiritualism routes through cultural-affinity-base on the partner-side. EXB-H-OR → WO-EXP-PR is what establishing-high-order produces — the principle entering through high-order establishment. TR-INFO → INFO-DE(B) → APL-DT is the bridging-axis upper chain — trans-information routes through black-information-descent into application-dictates. PROJ-DY is the partner-axis's working projection position. RE-CONT → AF-POST → PRI-INFO is the bridging-bottom chain: recontinuance routes through affinity-postulation into principle-information, the form's actual continuance working into postulating-principle. The structural argument: the transformational-functionalism's world-exposure the prior diagram named as the basic-tone-uplift is structurally the WO-EXP-PR → EXB-H-OR upward edge holding *and* the RE-CONT → AF-POST → PRI-INFO bridging-bottom chain producing principle-information on the bridging-terminus — without both, world-exposure routes only into PROJ-DY's partner-axis projection without ever reaching the form's actual recontinuance.",
+  "description": "Second diagram on page 135 (ALT(FT)II-29), paired with T-SC × INT above. Where the first diagram crosses theoretical-science with intention, this one names what world-expansion-principle meets when dynamic-spiritualism is the working partner: WO-EXP-PR (world expansion principle) crossed with DYM-SPT (dynamic spiritualism). WO-EXP-PR sits at the bottom-left with the subject-arrow; DYM-SPT at top-left and CULT-AF-B (culture affinity basis) at upper-right. EXB-H-OR (establishing high order) sits at the left below DYM-SPT. TR-INFO (trans-information) sits centrally above; INFO-DE(B) (information degrees) below it and APL-DT (application dictates) anchoring the upper-right. PROJ-DY (projectional dynamics) sits at center-right. RE-CONT (recontinuance) sits centrally below with AF-POST (affinity postulation) at lower-center and PRI-INFO (principle information) at the bottom-right. Structural argument: when world-expansion-principle is crossed with dynamic-spiritualism, three lines leave the vertical main line. The top one runs to CULT-AF-B, with EXB-H-OR branching from it and TR-INFO from the EXB-H-OR line. The middle one runs to PROJ-DY, with INFO-DE(B) branching from it and APL-DT from the INFO-DE(B) line. The lowest runs to AF-POST, with RE-CONT branching from it and PRI-INFO from the RE-CONT line.",
   "terms": [
     { "termId": "wo-exp-pr", "isSubject": true },
     { "termId": "dym-spt" },
@@ -22,13 +22,14 @@
   ],
   "relationships": [
     { "from": "wo-exp-pr", "to": "dym-spt", "type": "solid" },
-    { "from": "dym-spt", "to": "cult-af-b", "type": "solid" },
-    { "from": "wo-exp-pr", "to": "exb-h-or", "type": "solid" },
-    { "from": "tr-info", "to": "info-de", "type": "solid" },
     { "from": "info-de", "to": "apl-dt", "type": "solid" },
-    { "from": "info-de", "to": "proj-dy", "type": "solid" },
-    { "from": "wo-exp-pr", "to": "re-cont", "type": "solid" },
-    { "from": "re-cont", "to": "af-post", "type": "solid" },
-    { "from": "af-post", "to": "pri-info", "type": "solid" }
+    { "from": "wo-exp-pr", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "tr-info", "type": "solid" },
+    { "from": "wo-exp-pr", "to": "proj-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "info-de", "type": "solid" },
+    { "from": "wo-exp-pr", "to": "af-post", "type": "solid" },
+    { "from": "af-post", "to": "re-cont", "type": "solid" },
+    { "from": "re-cont", "to": "pri-info", "type": "solid" }
   ]
 }

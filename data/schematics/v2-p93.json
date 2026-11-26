@@ -1,12 +1,12 @@
 {
   "id": "v2-p93",
   "volume": 2,
-  "section": "AF(D)-21",
+  "section": "(AF)D-21",
   "page": 93,
   "subject": "af-td",
   "title": "AF.TD.------AFI(1)",
   "type": "crossing",
-  "description": "Diagram in AF(D)-21 (Affinity Dynamics, Level One) accompanying Braxton's diagnostic that 'the solidification of alternative viewpoints cannot affect the basic lining of western culture — and because of this, positive transformation is negated (or stopped)' under suppressed affinity dynamics. (C)AF-TD (the concept of affinity-tendency) is crossed with AFI(1) (affinity insight, first-order): the question is what affinity-tendency produces when crossed with first-order affinity-insight — the (1) marker on AFI being load-bearing, distinguishing primary affinity-insight from secondary (AFI2) which appears elsewhere in the glossary. VT-DY (vibrational dynamics) sits between subject and partner. PER-TRS (perceived transition) anchors the upper-right output. SOC-RT-P (social reality particulars) hangs on the right margin. (R)TM (the reality of terminology) feeds in from the lower-left. SF-RZ (self-realization) sits below the subject. IST-F (isolated focus) and AFL (affinity alignment) form the lower-center. ACT-T (actual terms) anchors the lower-right via a *dashed* edge to ALT-F (alternative functionalism). Structural argument: affinity-tendency crossed with first-order-affinity-insight produces perceived-transition as upper output and social-reality-particulars as right output. The dashed edge between ACT-T and ALT-F is load-bearing: it exposes Braxton's structural verdict that *actual* alternative-functionalism is only conditionally achievable from actual-terms — the suppression Braxton names operates precisely by breaking that dashed link, making alternative-functionalism appear unreachable from any actual ground.",
+  "description": "Diagram in AF(D)-21 (Affinity Dynamics, Level One) accompanying Braxton's diagnostic that 'the solidification of alternative viewpoints cannot affect the basic lining of western culture — and because of this, positive transformation is negated (or stopped)' under suppressed affinity dynamics. (C)AF-TD (the concept of affinity tendencies) is crossed with AFI(1) (affinity insight—first degree): the question is what affinity-tendencies produce when crossed with first-degree affinity-insight — the (1) marker on AFI being load-bearing, distinguishing it from the second degree, AFI(2), in Braxton's CODE list. SF-RZ (self-realization) drops from the main line and carries (R)TM (the reality of terminology—or terms of a definition) and a long line to SOC-RT-P (social reality particulars). From SOC-RT-P rise VT-DY (vibrational dynamics) and PER-TRS (perceived transition), and AFL (affinity alignment) drops; AFL carries IST-F (isolated focus) and ACT-T. ACT-T (actual terms) anchors the lower-right via a *dashed* edge to ALT-F (alternative functionalism). In Braxton's legend a dotted line amplifies some aspect of the main concept it is connected to.",
   "terms": [
     { "termId": "af-td", "isSubject": true, "prefix": "c" },
     { "termId": "afi1" },
@@ -21,15 +21,15 @@
     { "termId": "alt-f" }
   ],
   "relationships": [
-    { "from": "af-td", "to": "vt-dy", "type": "solid" },
-    { "from": "vt-dy", "to": "afi1", "type": "solid" },
-    { "from": "afi1", "to": "per-trs", "type": "solid" },
-    { "from": "afi1", "to": "soc-rt-p", "type": "solid" },
-    { "from": "tm", "to": "af-td", "type": "solid" },
     { "from": "af-td", "to": "sf-rz", "type": "solid" },
-    { "from": "sf-rz", "to": "ist-f", "type": "solid" },
-    { "from": "ist-f", "to": "afl", "type": "solid" },
     { "from": "afl", "to": "act-t", "type": "solid" },
-    { "from": "act-t", "to": "alt-f", "type": "dashed" }
+    { "from": "act-t", "to": "alt-f", "type": "dashed" },
+    { "from": "af-td", "to": "afi1", "type": "solid" },
+    { "from": "sf-rz", "to": "tm", "type": "solid" },
+    { "from": "sf-rz", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "vt-dy", "type": "solid" },
+    { "from": "soc-rt-p", "to": "per-trs", "type": "solid" },
+    { "from": "soc-rt-p", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "ist-f", "type": "solid" }
   ]
 }

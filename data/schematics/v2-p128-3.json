@@ -6,7 +6,7 @@
   "subject": "p-fc",
   "title": "P.FC.------PHY.U.P.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-16, third of three on book p128, paired with v2-p128-1 and v2-p128-2. Closes Braxton's triple-presentation: each schematic on this page holds the same activism question against a different crossing partner. (C)P-FC (the concept of particular focus) is crossed with PHY-U-P (physical universe particulars): the question is what particular-focus produces when crossed with physical-universe-particulars — closing the activism-conditions argument by routing through physical-universe ground. PHY-U-P sits at the top. VT-DY (vibrational dynamics) and INFO-DS (information dissemination) form the upper-right cluster with RT-ALGN (reality alignment) on the right output. V-SY (value system) and AF-NT (affinity-nature) anchor the right margin. INTR (interpretation) sits between subject and partner on the lower bridge. IST-F (isolated focus) hangs below. AF-DY (affinity dynamics) and LANG (language) form the lower-left upstream chain. Structural argument: particular-focus crossed with physical-universe-particulars is mediated by interpretation as central hub and isolated-focus as lower support. The doubled lower upstreams (affinity-dynamics and language) expose the structural commitment: physical-universe-particulars can only produce reality-alignment when the language and affinity-dynamics paths converge through interpretation. The three diagrams on this page together comprise Braxton's argument that sixties activism's effective form was a *triple crossing* — composite-focus against principle-information (v2-p128-1), gradualism against information-dynamics (v2-p128-2), and particular-focus against physical-universe-particulars (v2-p128-3) — and that the seventies' decline came from holding only one of these crossings at a time rather than all three.",
+  "description": "Diagram in AE(PD)-16, third of three on book p128, paired with v2-p128-1 and v2-p128-2. Closes Braxton's triple-presentation. (C)P-FC (the concept of particular focus) is crossed with PHY-U-P (physical universe particulars): the question is what particular-focus produces when crossed with physical-universe-particulars — closing the activism-conditions argument by routing through physical-universe ground. PHY-U-P is the partner. AF-DY (affinity dynamics) branches from the main line and carries LANG (language). RT-ALGN (reality alignment) also branches from the main line and carries two chains: VT-DY (vibrational dynamics) to INFO-DS (information dissemination), and INTR (interpretation), which carries V-SY (value system) and AF-NT (affinity-nature), with IST-F (isolated focus) on AF-NT.",
   "terms": [
     { "termId": "p-fc", "isSubject": true, "prefix": "c" },
     { "termId": "phy-u-p" },
@@ -22,15 +22,14 @@
   ],
   "relationships": [
     { "from": "p-fc", "to": "phy-u-p", "type": "solid" },
-    { "from": "phy-u-p", "to": "vt-dy", "type": "solid" },
     { "from": "vt-dy", "to": "info-ds", "type": "solid" },
-    { "from": "info-ds", "to": "rt-algn", "type": "solid" },
-    { "from": "rt-algn", "to": "v-sy", "type": "solid" },
-    { "from": "rt-algn", "to": "af-nt", "type": "solid" },
-    { "from": "p-fc", "to": "intr", "type": "solid" },
-    { "from": "intr", "to": "phy-u-p", "type": "solid" },
-    { "from": "intr", "to": "ist-f", "type": "solid" },
-    { "from": "af-dy", "to": "intr", "type": "solid" },
-    { "from": "lang", "to": "af-dy", "type": "solid" }
+    { "from": "p-fc", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "lang", "type": "solid" },
+    { "from": "p-fc", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "vt-dy", "type": "solid" },
+    { "from": "rt-algn", "to": "intr", "type": "solid" },
+    { "from": "intr", "to": "v-sy", "type": "solid" },
+    { "from": "intr", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "ist-f", "type": "solid" }
   ]
 }

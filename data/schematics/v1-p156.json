@@ -6,10 +6,10 @@
   "subject": "pri-info-td",
   "title": "PRI.INFO.TD.------ALT.F.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-18, on the page where Braxton argues that 'creativity is related to functionalism, both with regards to the meta-reality of a given culture group and the actualness of particulars on the physical universe level.' Note: the title abbreviates as PRI.INFO.TD but the actual subject termId in the file is PRI-VT-TD (principle vibrational tendencies) — Braxton uses both expansions in his prose; here it sits as the crossing's subject. (C)PRI-VT-TD is crossed with ALT-F (alternative functionalism). Two upstream feeds: IST-PT (isolated particulars) → INFO-OR (information order) → PRI-VT-TD; and INFO-CON (information convergence) → PRI-VT-TD directly. The subject outputs to ALT-F (the crossing) and to AFI (affinity insight). ALT-F then branches to RT-INT-TR (reality initiative traits) → SOC-RT (social reality), and to RE-ST (restructuralism) → FUND-DYN (fundamental dynamics). Structural argument: principle vibrational tendencies are produced by the convergence of isolated-particulars and information-convergence, and their alternative-functional output requires *two parallel routes* — one through reality-initiative-traits into social reality, one through restructuralism into fundamental dynamics. Affinity insight is a *separate* terminal output. The diagram thus diagrams the *prerequisite* structure for alternative functionalism: it cannot be willed into being from a single upstream — it requires the dual convergence Braxton names in the surrounding prose.",
+  "description": "Diagram in UPB(II)-18, on the page where Braxton argues that 'creativity is related to functionalism, both with regards to the meta-reality of a given culture group and the actualness of particulars on the physical universe level.' (C)PRI-INFO-TD (principle information tendencies) is crossed with ALT-F (alternative functionalism). Besides the main line to ALT-F, two branches leave the subject. INFO-DY (information dynamics) carries INFO-CON (information convergence) → IST-P. AFI (affinity insight) carries RE-ST (restructuralism) → SOC-RT (social reality), which branches to RT-INT-TR (reality initiative traits) and to FUND-DY (fundamental dynamics).",
   "terms": [
     {
-      "termId": "pri-vt-td",
+      "termId": "pri-info-td",
       "isSubject": true,
       "prefix": "c"
     },
@@ -17,10 +17,10 @@
       "termId": "alt-f"
     },
     {
-      "termId": "ist-pt"
+      "termId": "ist-p"
     },
     {
-      "termId": "info-or"
+      "termId": "info-dy"
     },
     {
       "termId": "info-con"
@@ -43,47 +43,47 @@
   ],
   "relationships": [
     {
-      "from": "ist-pt",
-      "to": "info-or",
-      "type": "solid"
-    },
-    {
       "from": "info-con",
-      "to": "pri-vt-td",
+      "to": "ist-p",
       "type": "solid"
     },
     {
-      "from": "info-or",
-      "to": "pri-vt-td",
+      "from": "info-dy",
+      "to": "info-con",
       "type": "solid"
     },
     {
-      "from": "pri-vt-td",
+      "from": "pri-info-td",
+      "to": "info-dy",
+      "type": "solid"
+    },
+    {
+      "from": "pri-info-td",
       "to": "alt-f",
       "type": "solid"
     },
     {
-      "from": "alt-f",
+      "from": "soc-rt",
       "to": "rt-int-tr",
       "type": "solid"
     },
     {
-      "from": "rt-int-tr",
+      "from": "re-st",
       "to": "soc-rt",
       "type": "solid"
     },
     {
-      "from": "alt-f",
+      "from": "afi",
       "to": "re-st",
       "type": "solid"
     },
     {
-      "from": "re-st",
+      "from": "soc-rt",
       "to": "fund-dyn",
       "type": "solid"
     },
     {
-      "from": "pri-vt-td",
+      "from": "pri-info-td",
       "to": "afi",
       "type": "solid"
     }

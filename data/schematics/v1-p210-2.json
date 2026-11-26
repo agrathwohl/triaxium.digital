@@ -6,10 +6,10 @@
   "subject": "sg",
   "title": "SG.------FUND.DYM.",
   "type": "crossing",
-  "description": "Diagram in WAC-8, paired with v1-p210-1. (C)SI (source initiation, the (c) prefix marking the conceptual reading) is crossed with FUND-DYN (fundamental dynamics): the question is what source initiation as a concept means in relation to a culture's fundamental dynamics — a structural claim about how foundational dynamics produce extension routes (Berg/Schoenberg/Webern as source-initiation extensions of the same European fundamental). SI outputs to FUND-DYN → POL-P (political policies), and to PROJ-DY (projectional dynamics) → INDIV-TD (individual tendencies) → TM (terminology of a definition). A separate chain runs TR-DEF (trans-definition) → PHY-U-P (physical universe particular) → SOC-RT-DY (social reality dynamics) and PHY-U-P → POL-DYM (political dynamics). VT-PLT (vibrational platform) → PHY-U-C (physical universe context). Structural argument: source initiation, conceptually understood, fans into two principal outputs — fundamental dynamics → political policies, and projectional dynamics → individual tendencies → terminology. The trans-definition / physical-universe-particular sub-chain is a parallel constituting layer that produces social reality dynamics and political dynamics independently. The diagram thus diagrams the *separateness* of source-initiation extension from the social-political real: these are parallel constituting tracks meeting only via shared conceptual subject.",
+  "description": "Diagram in WAC-8, paired with v1-p210-1. (C)SG (source initiation, the (c) prefix marking the conceptual reading) is crossed with FUND-DYM (fundamental dynamics): the question is what source initiation as a concept means in relation to a culture's fundamental dynamics. Besides the main line to FUND-DYM, two branches leave the subject. COP-P carries PHY-U-C (physical universe context) → TR-DIFF → VT-PLT (vibrational platform). PROJ-DY (projectional dynamics) carries INDIV-TD (individual tendencies) → POL-DY (political dynamics), which branches to TM (terminology—or terms of a definition) and to PHY-U-P (physical universe particular) → SOC-RT-DY (social reality dynamics).",
   "terms": [
     {
-      "termId": "si",
+      "termId": "sg",
       "isSubject": true,
       "prefix": "c"
     },
@@ -17,10 +17,7 @@
       "termId": "fund-dyn"
     },
     {
-      "termId": "pol-p"
-    },
-    {
-      "termId": "tr-def"
+      "termId": "tr-diff"
     },
     {
       "termId": "phy-u-p"
@@ -45,21 +42,24 @@
     },
     {
       "termId": "tm"
+    },
+    {
+      "termId": "cop-p"
     }
   ],
   "relationships": [
     {
-      "from": "si",
+      "from": "sg",
       "to": "fund-dyn",
       "type": "solid"
     },
     {
-      "from": "fund-dyn",
-      "to": "pol-p",
+      "from": "cop-p",
+      "to": "phy-u-c",
       "type": "solid"
     },
     {
-      "from": "tr-def",
+      "from": "pol-dym",
       "to": "phy-u-p",
       "type": "solid"
     },
@@ -69,17 +69,17 @@
       "type": "solid"
     },
     {
-      "from": "phy-u-p",
+      "from": "indiv-td",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "vt-plt",
-      "to": "phy-u-c",
+      "from": "tr-diff",
+      "to": "vt-plt",
       "type": "solid"
     },
     {
-      "from": "si",
+      "from": "sg",
       "to": "proj-dy",
       "type": "solid"
     },
@@ -89,8 +89,18 @@
       "type": "solid"
     },
     {
-      "from": "indiv-td",
+      "from": "pol-dym",
       "to": "tm",
+      "type": "solid"
+    },
+    {
+      "from": "sg",
+      "to": "cop-p",
+      "type": "solid"
+    },
+    {
+      "from": "phy-u-c",
+      "to": "tr-diff",
       "type": "solid"
     }
   ]

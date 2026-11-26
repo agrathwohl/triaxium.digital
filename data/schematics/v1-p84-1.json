@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------SOC.RT.DY.",
   "type": "crossing",
-  "description": "Diagram in WAM-26, the first of two diagrams on a page where Braxton argues that 'the concept of separation \"ised\" through the western thrust alignment is directly related to language, and the net effect of this development has helped shape the present social-political reality we are in during this period.' (C)MT-INFO (multi-information) is crossed with SOC-RT-DY (social reality dynamics): the question is how multi-information, under western institutional conditions, generates social-reality dynamics. The diagram routes the crossing through three branches: MT-INFO → AF-NT (affinity nature) → MT-DEVF (multiple diversification) → INDIV-DY (individual dynamics) → PART (participation), tracing one chain from multi-information into individual participatory practice; MT-INFO → OP-SPD (option spread) → RT-DY (reality dynamics), tracing how multi-information's spread of options shapes reality dynamics; and the direct crossing edge MT-INFO → SOC-RT-DY. The argument: under composer-medium conditions, multi-information's contribution to social reality is mediated by *diversification* (which fans into participation only at several removes) and by *option spread* (which constrains reality dynamics by what western alignment allows as 'options') — never by direct unified flow into community.",
+  "description": "Diagram in WAM-26, the first of two diagrams on a page where Braxton argues that 'the concept of separation \"ised\" through the western thrust alignment is directly related to language, and the net effect of this development has helped shape the present social-political reality we are in during this period.' (C)MT-INFO (multi-information) is crossed with SOC-RT-DY (social reality dynamics): the question is how multi-information, under western institutional conditions, generates social-reality dynamics. The diagram routes the crossing through three branches: MT-INFO → MT-DEVF (multiple diversification) → INDIV-DY (individual dynamics) → OP-SPD (option spread), which branches into AF-NT (affinity nature) and PART (participation), tracing one chain from multi-information into individual participatory practice; MT-INFO → RT-DY (reality dynamics); and the direct crossing edge MT-INFO → SOC-RT-DY. The argument: under composer-medium conditions, multi-information's contribution to social reality is mediated by *diversification* (which fans into participation only at several removes, through individual dynamics and *option spread*) — never by direct unified flow into community.",
   "terms": [
     { "termId": "mt-info", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt-dy" },
@@ -19,11 +19,11 @@
   ],
   "relationships": [
     { "from": "mt-info", "to": "soc-rt-dy", "type": "solid" },
-    { "from": "mt-info", "to": "af-nt", "type": "solid" },
-    { "from": "af-nt", "to": "mt-devf", "type": "solid" },
-    { "from": "mt-info", "to": "op-spd", "type": "solid" },
-    { "from": "op-spd", "to": "rt-dy", "type": "solid" },
     { "from": "mt-devf", "to": "indiv-dy", "type": "solid" },
-    { "from": "indiv-dy", "to": "part", "type": "solid" }
+    { "from": "mt-info", "to": "rt-dy", "type": "solid" },
+    { "from": "mt-info", "to": "mt-devf", "type": "solid" },
+    { "from": "indiv-dy", "to": "op-spd", "type": "solid" },
+    { "from": "op-spd", "to": "af-nt", "type": "solid" },
+    { "from": "op-spd", "to": "part", "type": "solid" }
   ]
 }

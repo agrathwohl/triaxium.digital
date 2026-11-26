@@ -6,7 +6,7 @@
   "subject": "mth",
   "title": "MTH.------TR.",
   "type": "crossing",
-  "description": "Diagram in T(IMP)M-24. The prose above identifies the structural target: 'if the functional properties that outline how given creative thrusts are to be actualized are a necessary factor that relates to the vibrational and cosmic realness of that form, then this necessity must mean something - that is, the functional properties of a given functional creative thrust are as they are because they mean something.' The crossing diagrams how method structurally meets transformation: MTH crossed with TR. MTH sits at upper-center with the subject-arrow; TR at lower-center as partner-axis. VT-DY (vibrational dynamics) upper-left, EXPM (expansionism) upper-right. APL-DT (application dictates) center, TECH-DY (technological dynamics) center-right, WO-UNF (world unification) right. PER-DY (perception dynamics) left, MT-INFO (multi-information) center-bottom, PART (participation) right. RT-DY (reality dynamics) lower-center, ACC-FT (accelerated functionalism) lower-right.",
+  "description": "Diagram in T(IMP)M-24. The prose above identifies the structural target: 'if the functional properties that outline how given creative thrusts are to be actualized are a necessary factor that relates to the vibrational and cosmic realness of that form, then this necessity must mean something - that is, the functional properties of a given functional creative thrust are as they are because they mean something.' The crossing diagrams how methodology structurally meets transformation: MTH crossed with TR. MTH sits at upper-center with the subject-arrow; TR at lower-center as partner-axis. VT-DY (vibrational dynamics) upper-left, EXPM (expansionism) upper-right. APL-DT (application dictates) center, TECH-DY (technological dynamics) center-right, WO-UNF (world unification) right. PER-DY (perception dynamics) left, MT-INFO (multi-information) left, PART (participation) right. RT-DY (reality dynamics) lower-center, ACC-FT (accelerated functionalism) lower-right.",
   "terms": [
     {
       "termId": "mth",
@@ -53,8 +53,8 @@
       "type": "solid"
     },
     {
-      "from": "vt-dy",
-      "to": "mth",
+      "from": "mth",
+      "to": "vt-dy",
       "type": "solid"
     },
     {
@@ -63,43 +63,43 @@
       "type": "solid"
     },
     {
-      "from": "mth",
-      "to": "apl-dt",
-      "type": "solid"
-    },
-    {
-      "from": "apl-dt",
-      "to": "tech-dy",
-      "type": "solid"
-    },
-    {
       "from": "tech-dy",
-      "to": "wo-unf",
-      "type": "solid"
-    },
-    {
-      "from": "per-dy",
-      "to": "tr",
-      "type": "solid"
-    },
-    {
-      "from": "mt-info",
-      "to": "tr",
-      "type": "solid"
-    },
-    {
-      "from": "part",
-      "to": "tr",
-      "type": "solid"
-    },
-    {
-      "from": "tr",
-      "to": "rt-dy",
+      "to": "apl-dt",
       "type": "solid"
     },
     {
       "from": "rt-dy",
       "to": "acc-ft",
+      "type": "solid"
+    },
+    {
+      "from": "expm",
+      "to": "tech-dy",
+      "type": "solid"
+    },
+    {
+      "from": "apl-dt",
+      "to": "wo-unf",
+      "type": "solid"
+    },
+    {
+      "from": "vt-dy",
+      "to": "per-dy",
+      "type": "solid"
+    },
+    {
+      "from": "per-dy",
+      "to": "mt-info",
+      "type": "solid"
+    },
+    {
+      "from": "mth",
+      "to": "part",
+      "type": "solid"
+    },
+    {
+      "from": "part",
+      "to": "rt-dy",
       "type": "solid"
     }
   ]

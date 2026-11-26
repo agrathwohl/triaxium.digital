@@ -6,7 +6,7 @@
   "subject": "part",
   "title": "PART.------HI.P.",
   "type": "crossing",
-  "description": "First of two diagrams on page 437 (MP(I)-11). The crossing diagrams how participation structurally meets high-purpose at the activist-creativity scale: PART (participation — actual creative participation in the form) is crossed with HI-P (high purpose — the cultural-political high-purpose participation is supposed to serve). PART sits on the left with the subject-arrow; AF-DY (affinity dynamics) hangs at the left margin as the subject's leftward output. UNF-PI (unification (positively intended)) rises at the upper-right and TR (transformation) sits below it, with OBS (observation) and HI-P clustered at the partner-axis center-right. IF-ST-DY (infra-structure dynamics) sits centrally with CULT-O (culture order) below it and MT-INFO (multi-information) at the lower-left as subject-side downward outputs. RIT-DY (ritual dynamics) hangs at the right with P-FC (particular focus) below as partner-side downward outputs, and MTA-RT-SIGN (meta-reality significance) at the bottom-center as the bridging-axis terminus. Structural argument: when participation is crossed with high-purpose, the upper diagonal UNF-PI → TR → OBS → HI-P is the *high-purpose route* — unification (positively intended) routes through transformation into observation and into high-purpose. The subject's downward chain IF-ST-DY → MT-INFO is what participation produces on its own without the partner-axis: infra-structure dynamics into multi-information. The central CULT-O → RIT-DY → P-FC → MTA-RT-SIGN chain is the bridging-axis: culture-order routes through ritual-dynamics into political-focus and finally into meta-reality significance at the bottom. AF-DY on the subject's left margin is what affinity-dynamics provides as participation's actual working ground. The argument structurally: participation reaches high-purpose only when the upper diagonal holds all four edges *and* the central bridging chain holds; otherwise participation produces only multi-information (subject-side) or meta-reality significance (bridging-side), without ever crossing into the partner-axis's working high-purpose.",
+  "description": "First of two diagrams on page 437 (MP(I)-11). The crossing diagrams how participation structurally meets high-purpose at the activist-creativity scale: PART (participation — actual creative participation in the form) is crossed with HI-P (high purpose — the cultural-political high-purpose participation is supposed to serve). PART sits on the left with the subject-arrow; HI-P sits at the lower-right end of the main line. UNF-PI (unification (positively intended)) rises from the main line to the upper-right, TR (transformation) branches from UNF-PI, and OBS (observation) hangs from TR. IF-ST-DY (infra-structure dynamics) descends from the main line, AF-DY (affinity dynamics) branches left from IF-ST-DY, and MT-INFO (multi-information) descends from AF-DY. CULT-O (culture order) also descends from the main line; RIT-DY (ritual dynamics) branches from CULT-O, MTA-RT-SIGN (meta-reality significance) descends from RIT-DY, and P-FC (particular focus) branches from MTA-RT-SIGN.",
   "terms": [
     { "termId": "part", "isSubject": true },
     { "termId": "hi-p" },
@@ -26,13 +26,12 @@
     { "from": "part", "to": "unf-pi", "type": "solid" },
     { "from": "unf-pi", "to": "tr", "type": "solid" },
     { "from": "tr", "to": "obs", "type": "solid" },
-    { "from": "obs", "to": "hi-p", "type": "solid" },
-    { "from": "part", "to": "af-dy", "type": "solid" },
     { "from": "part", "to": "if-st-dy", "type": "solid" },
-    { "from": "if-st-dy", "to": "mt-info", "type": "solid" },
     { "from": "part", "to": "cult-o", "type": "solid" },
     { "from": "cult-o", "to": "rit-dy", "type": "solid" },
-    { "from": "rit-dy", "to": "p-fc", "type": "solid" },
-    { "from": "cult-o", "to": "mta-rt-sign", "type": "solid" }
+    { "from": "if-st-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "mt-info", "type": "solid" },
+    { "from": "rit-dy", "to": "mta-rt-sign", "type": "solid" },
+    { "from": "mta-rt-sign", "to": "p-fc", "type": "solid" }
   ]
 }

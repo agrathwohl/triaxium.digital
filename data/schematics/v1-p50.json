@@ -6,7 +6,7 @@
   "subject": "info-trns",
   "title": "INFO.TRNS.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in WM-26, the page where Braxton declares that 'the progressional actualness of a given creative manifestation transcends the particulars of any one empirical criterion, and as such the whole subject of musicology has to be dealt with very delicately.' INFO-TRNS (information transference) is *crossed* — (c) prefix — with SOC-RT (social reality), the central claim being that what gets transmitted as 'information' about world creativity is structurally entangled with the social-reality position of the transmitting culture. Five branches radiate from INFO-TRNS: into EXT-FT (extended functionalism), with a dashed link to RT-OP (reality options) → SOC-RT, registering the conditional nature of how western functionalist transmission constrains what reality-options reach social reality; into MT-DI (multi-dimensional/ism) with a dashed link to MTH (methodology); into TR (transformation) → CULT-AF-BS (culture affinity basis, dashed) → PRI-AF-TO (primary affinity tendencies); into POL-DYM (political dynamics); into SPT-AW (spiritual awareness) with a dashed link to CN-INFO (controlled information); and into A-PR (all-purpose). The dashed conventions cluster around exactly the relations Braxton identifies as distorted by western misdocumentation: information transference is being mediated, not direct.",
+  "description": "Diagram in WM-26, the page where Braxton declares that 'the progressional actualness of a given creative manifestation transcends the particulars of any one empirical criterion, and as such the whole subject of musicology has to be dealt with very delicately.' INFO-TRNS (information transference) is *crossed* — (c) prefix, the concept of — with SOC-RT (social reality), the central claim being that what gets transmitted as 'information' about world creativity is structurally entangled with the social-reality position of the transmitting culture. Besides the main line, three branches radiate from INFO-TRNS: into MT-DI (multi-dimensional/ism), which carries EXT-FT (extended functionalism) with a dashed link to OP-DY (option dynamics), and a dashed link to MTH (methodology); into TR (transformation) → A-PR (all-purpose), with a dashed link to SPT-AW (spiritual awareness) → CI; and into CULT-AF-BS (culture affinity basis) → POL-DYM (political dynamics), with a dashed link to PAFT.",
   "terms": [
     {
       "termId": "info-trns",
@@ -18,9 +18,6 @@
     },
     {
       "termId": "ext-ft"
-    },
-    {
-      "termId": "rt-op"
     },
     {
       "termId": "mt-di"
@@ -38,34 +35,22 @@
       "termId": "pol-dym"
     },
     {
-      "termId": "pri-af-to"
-    },
-    {
       "termId": "spt-aw"
     },
     {
       "termId": "a-pr"
     },
     {
-      "termId": "cn-info"
+      "termId": "op-dy"
+    },
+    {
+      "termId": "ci"
+    },
+    {
+      "termId": "paft"
     }
   ],
   "relationships": [
-    {
-      "from": "info-trns",
-      "to": "ext-ft",
-      "type": "solid"
-    },
-    {
-      "from": "ext-ft",
-      "to": "rt-op",
-      "type": "dashed"
-    },
-    {
-      "from": "rt-op",
-      "to": "soc-rt",
-      "type": "solid"
-    },
     {
       "from": "info-trns",
       "to": "mt-di",
@@ -82,34 +67,49 @@
       "type": "solid"
     },
     {
-      "from": "tr",
-      "to": "cult-af-bs",
+      "from": "info-trns",
+      "to": "soc-rt",
+      "type": "solid"
+    },
+    {
+      "from": "mt-di",
+      "to": "ext-ft",
+      "type": "solid"
+    },
+    {
+      "from": "ext-ft",
+      "to": "op-dy",
       "type": "dashed"
     },
     {
-      "from": "cult-af-bs",
-      "to": "pri-af-to",
+      "from": "tr",
+      "to": "a-pr",
+      "type": "solid"
+    },
+    {
+      "from": "a-pr",
+      "to": "spt-aw",
+      "type": "dashed"
+    },
+    {
+      "from": "spt-aw",
+      "to": "ci",
       "type": "solid"
     },
     {
       "from": "info-trns",
+      "to": "cult-af-bs",
+      "type": "solid"
+    },
+    {
+      "from": "cult-af-bs",
       "to": "pol-dym",
       "type": "solid"
     },
     {
-      "from": "info-trns",
-      "to": "spt-aw",
-      "type": "solid"
-    },
-    {
-      "from": "spt-aw",
-      "to": "cn-info",
+      "from": "pol-dym",
+      "to": "paft",
       "type": "dashed"
-    },
-    {
-      "from": "info-trns",
-      "to": "a-pr",
-      "type": "solid"
     }
   ]
 }

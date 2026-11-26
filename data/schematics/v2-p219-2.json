@@ -6,7 +6,7 @@
   "subject": "pri-af-td",
   "title": "PRI.AF.TD. ------ TR.",
   "type": "crossing",
-  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One — Britain/Germany/Holland), second of two on book p219, paired with v2-p219-1. Continues the European creativity argument by holding affinity-tendency at the principle level against transformation. (C)PRI-AF-TD (the concept of principle affinity-tendency) is crossed with TR (transformation): the question is what principle-affinity-tendency produces when crossed with transformation — the (c) prefix marking that principle-affinity-tendency is being held conceptually (the structural design), and the transformation question is whether European creativity constitutes a transformative move. AF-DY (affinity dynamics) and AFI (affinity insight) form the upper-left cluster. COS-D (cosmic dictates) anchors the upper-left margin. TR is the partner at the upper-right. ALT-D (alternative definitions), (R)TM (reality of terminology), and ACT (activism) form the central cluster. (R)INT (reality of intention) sits between TR and the lower outputs. SOC-RT-DY (social-reality dynamics) hangs on the right output. IST-F (isolated focus) anchors the right margin. APP-RDEF (applied redefinitions) sits below the central axis. FUND-DY (fundamental dynamics) anchors the lower-right. Structural argument: principle-affinity-tendency-as-concept crossed with transformation is mediated by a triple-mediation: alternative-definitions, reality-of-terminology, and activism all sit at the central register between subject and partner. The (r) prefix on INT registers that intention must actually obtain for the output cluster (social-reality-dynamics, isolated-focus, fundamental-dynamics) to register transformation. The diagram exposes Braxton's structural diagnostic of what European creativity must achieve: not just multi-information transference (v2-p219-1), but the *transformational* crossing that requires principle-affinity-tendency, alternative-definitions, terminology-as-real, and activism to all be live. Applied-redefinitions as marginal output is the warning: without those upstreams, the crossing produces only the appearance of redefinition.",
+  "description": "Diagram in CMOA(I)-13 (Creative Music Outside of America, Level One — Britain/Germany/Holland), second of two on book p219, paired with v2-p219-1. Continues the European creativity argument by holding affinity-tendency at the primary level against transformation. (C)PRI-AF-TD (the concept of primary affinity tendencies) is crossed with TR (transformation): the question is what primary-affinity-tendencies produces when crossed with transformation — the (c) prefix marking that primary-affinity-tendencies is being held conceptually (the structural design), and the transformation question is whether European creativity constitutes a transformative move. AFI (affinity insight) rises from the main line and carries AF-DY (affinity dynamics) and COS-D (cosmic dictates) in the upper-left cluster. TR is the partner at the upper-right. (R)INT (reality of intention) branches from the main line and carries ALT-D (alternative definitions) and ACT (activism). ACT carries (R)TM (the reality of terminology—or terms of a definition), from which APP-RDEF (applied redefinitions) hangs, and SOC-RT-DY (social-reality dynamics), which carries FUND-DY (fundamental dynamics) at the lower-right. IST-F (isolated focus) anchors the right margin. The (r) prefix on INT registers that intention must actually obtain for the output cluster (social-reality-dynamics, isolated-focus, fundamental-dynamics) that hangs beneath it.",
   "terms": [
     { "termId": "pri-af-td", "isSubject": true, "prefix": "c" },
     { "termId": "tr" },
@@ -16,23 +16,24 @@
     { "termId": "alt-d" },
     { "termId": "tm", "prefix": "r" },
     { "termId": "act" },
-    { "termId": "intr", "prefix": "r" },
+    { "termId": "int", "prefix": "r" },
     { "termId": "soc-rt-dy" },
     { "termId": "ist-f" },
     { "termId": "app-rdef" },
     { "termId": "fund-dy" }
   ],
   "relationships": [
-    { "from": "af-dy", "to": "pri-af-td", "type": "solid" },
     { "from": "afi", "to": "cos-d", "type": "solid" },
     { "from": "pri-af-td", "to": "tr", "type": "solid" },
-    { "from": "tr", "to": "intr", "type": "solid" },
-    { "from": "alt-d", "to": "pri-af-td", "type": "solid" },
-    { "from": "tm", "to": "tr", "type": "solid" },
-    { "from": "act", "to": "tr", "type": "solid" },
-    { "from": "intr", "to": "soc-rt-dy", "type": "solid" },
     { "from": "soc-rt-dy", "to": "ist-f", "type": "solid" },
-    { "from": "pri-af-td", "to": "app-rdef", "type": "solid" },
-    { "from": "app-rdef", "to": "fund-dy", "type": "solid" }
+    { "from": "pri-af-td", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "af-dy", "type": "solid" },
+    { "from": "pri-af-td", "to": "int", "type": "solid" },
+    { "from": "int", "to": "alt-d", "type": "solid" },
+    { "from": "int", "to": "act", "type": "solid" },
+    { "from": "act", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "fund-dy", "type": "solid" },
+    { "from": "act", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "app-rdef", "type": "solid" }
   ]
 }
