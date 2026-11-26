@@ -1,0 +1,37 @@
+{
+  "id": "v3-p373",
+  "volume": 3,
+  "section": "PMBA-37",
+  "page": 373,
+  "subject": "rt-dy",
+  "title": "RT.DY.------POL.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 373 (PMBA-37). RT-DY (reality dynamics) is the subject; POL-DY (political dynamics) is the partner. From the subject: SOC-RT-P (social reality particulars), T-C-IMP (time continuum implications) and INFO-DY. From SOC-RT-P: INFO-TRNS (information transference). From INFO-TRNS: JR-DYM (journalism dynamics) and INFO-ALGN (information alignment). From JR-DYM: INFO-FM (information forum). From T-C-IMP: EXP-DT (expansion dictates). From INFO-DY: IST-F (isolated focus). From IST-F: TM (terminology—or terms of a definition).",
+  "terms": [
+    { "termId": "rt-dy", "isSubject": true },
+    { "termId": "pol-dy" },
+    { "termId": "soc-rt-p" },
+    { "termId": "info-trns" },
+    { "termId": "jr-dym" },
+    { "termId": "info-fm" },
+    { "termId": "info-algn" },
+    { "termId": "t-c-imp" },
+    { "termId": "exp-dt" },
+    { "termId": "info-dy" },
+    { "termId": "ist-f" },
+    { "termId": "tm" }
+  ],
+  "relationships": [
+    { "from": "rt-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "soc-rt-p", "type": "solid" },
+    { "from": "soc-rt-p", "to": "info-trns", "type": "solid" },
+    { "from": "info-trns", "to": "jr-dym", "type": "solid" },
+    { "from": "jr-dym", "to": "info-fm", "type": "solid" },
+    { "from": "info-trns", "to": "info-algn", "type": "solid" },
+    { "from": "rt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "exp-dt", "type": "solid" },
+    { "from": "rt-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "tm", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p363",
+  "volume": 3,
+  "section": "PMBA-27",
+  "page": 363,
+  "subject": "prog-ext-ft",
+  "title": "PROG.EXT.FT.------ACC.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 363 (PMBA-27). PROG-EXT-FT (progressional extended functionalism) is the subject; ACC-DY (accelerated dynamics) is the partner. From the subject: TRS (transition), LK-IMP (linkage implications) and PER-DY (perception dynamics). From TRS: EXP-DT (expansion dictates). From EXP-DT: T-C-IMP (time continuum implications). From LK-IMP: MT-INFO (multi-information). From MT-INFO: MT-DEVF (multiple diversification) and APL-DT (application dictates). From PER-DY: CULT-AF-B (culture affinity basis). From CULT-AF-B: POL-DY (political dynamics).",
+  "terms": [
+    { "termId": "prog-ext-ft", "isSubject": true },
+    { "termId": "acc-dy" },
+    { "termId": "trs" },
+    { "termId": "exp-dt" },
+    { "termId": "t-c-imp" },
+    { "termId": "lk-imp" },
+    { "termId": "mt-info" },
+    { "termId": "mt-devf" },
+    { "termId": "apl-dt" },
+    { "termId": "per-dy" },
+    { "termId": "cult-af-b" },
+    { "termId": "pol-dy" }
+  ],
+  "relationships": [
+    { "from": "prog-ext-ft", "to": "acc-dy", "type": "solid" },
+    { "from": "prog-ext-ft", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "exp-dt", "type": "solid" },
+    { "from": "exp-dt", "to": "t-c-imp", "type": "solid" },
+    { "from": "prog-ext-ft", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "mt-devf", "type": "solid" },
+    { "from": "mt-info", "to": "apl-dt", "type": "solid" },
+    { "from": "prog-ext-ft", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "cult-af-b", "type": "solid" },
+    { "from": "cult-af-b", "to": "pol-dy", "type": "solid" }
+  ]
+}

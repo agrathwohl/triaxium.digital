@@ -1,0 +1,35 @@
+{
+  "id": "v3-p494-3",
+  "volume": 3,
+  "section": "TRF(II)-30",
+  "page": 494,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 494 (TRF(II)-30). PROJ-DY (projectional dynamics) is the subject; MT-INFO (multi-information) is the partner. From the subject: AFL (affinity alignment), LK-IMP (linkage implications) and TRS (transition). From AFL: ATTN (attraction) and IST-S-ALGN (isolated systematic alignment). From IST-S-ALGN: APL-DT (application dictates). From LK-IMP: SPT-DY (spiritual dynamics) and PRI-INFO (principle information). From PRI-INFO: IST-F (isolated focus).",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "mt-info" },
+    { "termId": "afl" },
+    { "termId": "attn" },
+    { "termId": "ist-s-algn" },
+    { "termId": "apl-dt" },
+    { "termId": "lk-imp" },
+    { "termId": "spt-dy" },
+    { "termId": "pri-info" },
+    { "termId": "ist-f" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "mt-info", "type": "solid" },
+    { "from": "proj-dy", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "attn", "type": "solid" },
+    { "from": "afl", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "apl-dt", "type": "solid" },
+    { "from": "proj-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "spt-dy", "type": "solid" },
+    { "from": "lk-imp", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "ist-f", "type": "solid" },
+    { "from": "proj-dy", "to": "trs", "type": "solid" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v3-p462",
+  "volume": 3,
+  "section": "TRF(CW)-34",
+  "page": 462,
+  "subject": "soc-rt-dy",
+  "title": "SOC.RT.DY.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 462 (TRF(CW)-34). SOC-RT-DY (social reality dynamics) is the subject; PROG-CONT (progressional continuance) is the partner. From the subject: T-C-IMP (time continuum implications), VT-DY (vibrational dynamics) and CULT-INFO-OS. From T-C-IMP: OBS (observation). From OBS: CULT-SOLD (culture solidification), with the (P) prefix, \"point of idea completion\". From VT-DY: PER-DY (perception dynamics). From PER-DY: ROTP (responsibility of the position). From ROTP: RT-ALGN (reality alignment). From CULT-INFO-OS: MT-RT-SIGN and PRI-AF-TD (primary affinity tendencies). From MT-RT-SIGN: IF-ST-DY (infra-structure dynamics).",
+  "terms": [
+    { "termId": "soc-rt-dy", "isSubject": true },
+    { "termId": "prog-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "obs" },
+    { "termId": "cult-sold", "prefix": "p" },
+    { "termId": "vt-dy" },
+    { "termId": "per-dy" },
+    { "termId": "rotp" },
+    { "termId": "rt-algn" },
+    { "termId": "cult-info-os" },
+    { "termId": "mt-rt-sign" },
+    { "termId": "if-st-dy" },
+    { "termId": "pri-af-td" }
+  ],
+  "relationships": [
+    { "from": "soc-rt-dy", "to": "prog-cont", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "obs", "type": "solid" },
+    { "from": "obs", "to": "cult-sold", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "rotp", "type": "solid" },
+    { "from": "rotp", "to": "rt-algn", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "cult-info-os", "type": "solid" },
+    { "from": "cult-info-os", "to": "mt-rt-sign", "type": "solid" },
+    { "from": "mt-rt-sign", "to": "if-st-dy", "type": "solid" },
+    { "from": "cult-info-os", "to": "pri-af-td", "type": "solid" }
+  ]
+}

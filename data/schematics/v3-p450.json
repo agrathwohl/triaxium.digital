@@ -1,0 +1,39 @@
+{
+  "id": "v3-p450",
+  "volume": 3,
+  "section": "TRF(CW)-22",
+  "page": 450,
+  "subject": "spt-gh",
+  "title": "SPT.GH.------HI.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 450 (TRF(CW)-22). SPT-GH (spiritual growth) is the subject; HI-P (high purpose) is the partner. From the subject: COS-P (cosmic particulars), PART (participation) and COS-DT. From COS-P: EXP-DY (expansion dynamics). From EXP-DY: WOR-UNF. From PART: PHY-U-C (physical universe context). From PHY-U-C: RT-DY (reality dynamics). From COS-DT: INFO-DY and VT-DY (vibrational dynamics). From VT-DY: IF-SPT (infra-spirituality). From IF-SPT: PROJ-DY (projectional dynamics).",
+  "terms": [
+    { "termId": "spt-gh", "isSubject": true },
+    { "termId": "hi-p" },
+    { "termId": "cos-p" },
+    { "termId": "exp-dy" },
+    { "termId": "wor-unf" },
+    { "termId": "part" },
+    { "termId": "phy-u-c" },
+    { "termId": "rt-dy" },
+    { "termId": "cos-dt" },
+    { "termId": "info-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "if-spt" },
+    { "termId": "proj-dy" }
+  ],
+  "relationships": [
+    { "from": "spt-gh", "to": "hi-p", "type": "solid" },
+    { "from": "spt-gh", "to": "cos-p", "type": "solid" },
+    { "from": "cos-p", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "wor-unf", "type": "solid" },
+    { "from": "spt-gh", "to": "part", "type": "solid" },
+    { "from": "part", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "rt-dy", "type": "solid" },
+    { "from": "spt-gh", "to": "cos-dt", "type": "solid" },
+    { "from": "cos-dt", "to": "info-dy", "type": "solid" },
+    { "from": "cos-dt", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "if-spt", "type": "solid" },
+    { "from": "if-spt", "to": "proj-dy", "type": "solid" }
+  ]
+}

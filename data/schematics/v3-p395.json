@@ -1,0 +1,35 @@
+{
+  "id": "v3-p395",
+  "volume": 3,
+  "section": "JR-17",
+  "page": 395,
+  "subject": "afi-2",
+  "title": "AFI(2)------SOC.RT.DY.",
+  "type": "crossing",
+  "description": "Chart on book p. 395 (JR-17). AFI-2 (affinity insight—second degree) is the subject; SOC-RT-DY (social reality dynamics) is the partner. From the subject: POL-DY (political dynamics), RT-INT-TR (reality initiative traits) and INFO-AF-B (information affinity basis). From POL-DY: EXP-DY (expansion dynamics). From EXP-DY: POL-P (political policies) and IF-ST-DY (infra-structure dynamics). From RT-INT-TR: MOT-DY. From MOT-DY: PART (participation). From INFO-AF-B: JR-DY (journalism dynamics). The page text begins: \"I have not meant to imply that there has been no significant creativity utilizing the affinity insight (2) principle\".",
+  "terms": [
+    { "termId": "afi-2", "isSubject": true },
+    { "termId": "soc-rt-dy" },
+    { "termId": "pol-dy" },
+    { "termId": "exp-dy" },
+    { "termId": "pol-p" },
+    { "termId": "if-st-dy" },
+    { "termId": "rt-int-tr" },
+    { "termId": "mot-dy" },
+    { "termId": "part" },
+    { "termId": "info-af-b" },
+    { "termId": "jr-dy" }
+  ],
+  "relationships": [
+    { "from": "afi-2", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "afi-2", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "exp-dy", "type": "solid" },
+    { "from": "exp-dy", "to": "pol-p", "type": "solid" },
+    { "from": "exp-dy", "to": "if-st-dy", "type": "solid" },
+    { "from": "afi-2", "to": "rt-int-tr", "type": "solid" },
+    { "from": "rt-int-tr", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "part", "type": "solid" },
+    { "from": "afi-2", "to": "info-af-b", "type": "solid" },
+    { "from": "info-af-b", "to": "jr-dy", "type": "solid" }
+  ]
+}

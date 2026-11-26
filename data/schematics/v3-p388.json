@@ -1,0 +1,33 @@
+{
+  "id": "v3-p388",
+  "volume": 3,
+  "section": "JR-10",
+  "page": 388,
+  "subject": "prog-cont",
+  "title": "PROG.CONT.------APP.RDEF.",
+  "type": "crossing",
+  "description": "Chart on book p. 388 (JR-10). PROG-CONT (progressional continuance) is the subject; APP-RDEF (applied redefinitions) is the partner. From the subject: CULT-DOC, TRS (transition) and INFO-DY. From TRS: ALT-F (alternative functionalism). From ALT-F: METH. From METH: EXT-F (extended functionalism). From INFO-DY: VT-DY (vibrational dynamics) and IST-S-ALGN (isolated systematic alignment). Two further lines, one from the CULT-DOC line and one from the IST-S-ALGN line, end in dots without labels.",
+  "terms": [
+    { "termId": "prog-cont", "isSubject": true },
+    { "termId": "app-rdef" },
+    { "termId": "cult-doc" },
+    { "termId": "trs" },
+    { "termId": "alt-f" },
+    { "termId": "meth" },
+    { "termId": "ext-f" },
+    { "termId": "info-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "ist-s-algn" }
+  ],
+  "relationships": [
+    { "from": "prog-cont", "to": "app-rdef", "type": "solid" },
+    { "from": "prog-cont", "to": "cult-doc", "type": "solid" },
+    { "from": "prog-cont", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "meth", "type": "solid" },
+    { "from": "meth", "to": "ext-f", "type": "solid" },
+    { "from": "prog-cont", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-s-algn", "type": "solid" }
+  ]
+}

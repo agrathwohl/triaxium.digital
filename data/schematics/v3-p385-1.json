@@ -1,0 +1,39 @@
+{
+  "id": "v3-p385-1",
+  "volume": 3,
+  "section": "JR-7",
+  "page": 385,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------INFO.DY.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 385 (JR-7). PROJ-DY (projectional dynamics) is the subject; INFO-DY is the partner. From the subject: TH-CONT (thrust continuance), LK-IMP (linkage implications) and TRS (transition). From TH-CONT: T-C-IMP (time continuum implications). From T-C-IMP: RT-ALGN (reality alignment). From RT-ALGN: SCI-DY (scientific dynamics). From LK-IMP: POST (postulation) and PER-VT-U-FUND (perceived vibrational universe fundamental). From PER-VT-U-FUND: C-CONT (composite continuance). From C-CONT: PRI-AF-TD (primary affinity tendencies). From PRI-AF-TD: VT-DY (vibrational dynamics).",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "info-dy" },
+    { "termId": "th-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "rt-algn" },
+    { "termId": "sci-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "post" },
+    { "termId": "per-vt-u-fund" },
+    { "termId": "c-cont" },
+    { "termId": "pri-af-td" },
+    { "termId": "vt-dy" },
+    { "termId": "trs" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "info-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "th-cont", "type": "solid" },
+    { "from": "th-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "rt-algn", "type": "solid" },
+    { "from": "rt-algn", "to": "sci-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "post", "type": "solid" },
+    { "from": "lk-imp", "to": "per-vt-u-fund", "type": "solid" },
+    { "from": "per-vt-u-fund", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "pri-af-td", "type": "solid" },
+    { "from": "pri-af-td", "to": "vt-dy", "type": "solid" },
+    { "from": "proj-dy", "to": "trs", "type": "solid" }
+  ]
+}

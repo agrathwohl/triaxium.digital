@@ -1,0 +1,35 @@
+{
+  "id": "v3-p497",
+  "volume": 3,
+  "section": "TRF(II)-33",
+  "page": 497,
+  "subject": "stf",
+  "title": "STF.------PART.",
+  "type": "crossing",
+  "description": "Chart on book p. 497 (TRF(II)-33). STF (source transfer) is the subject; PART (participation) is the partner. From the subject: INFO-INVT, AFI (affinity insight) and TECH-DY (technological dynamics). From INFO-INVT: DEF (definition), with the (R) prefix, \"the reality of\", and TM (terminology—or terms of a definition). From AFI: IF-SPTL. From IF-SPTL: MOT-DY. From TECH-DY: IST-S-ALGN (isolated systematic alignment). From IST-S-ALGN: APL-DT (application dictates).",
+  "terms": [
+    { "termId": "stf", "isSubject": true },
+    { "termId": "part" },
+    { "termId": "info-invt" },
+    { "termId": "def", "prefix": "r" },
+    { "termId": "tm" },
+    { "termId": "afi" },
+    { "termId": "if-sptl" },
+    { "termId": "mot-dy" },
+    { "termId": "tech-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "apl-dt" }
+  ],
+  "relationships": [
+    { "from": "stf", "to": "part", "type": "solid" },
+    { "from": "stf", "to": "info-invt", "type": "solid" },
+    { "from": "info-invt", "to": "def", "type": "solid" },
+    { "from": "info-invt", "to": "tm", "type": "solid" },
+    { "from": "stf", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "if-sptl", "type": "solid" },
+    { "from": "if-sptl", "to": "mot-dy", "type": "solid" },
+    { "from": "stf", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "ist-s-algn", "to": "apl-dt", "type": "solid" }
+  ]
+}

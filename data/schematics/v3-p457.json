@@ -1,0 +1,33 @@
+{
+  "id": "v3-p457",
+  "volume": 3,
+  "section": "TRF(CW)-29",
+  "page": 457,
+  "subject": "pol-p",
+  "title": "PROJ.DY.------POL.P.",
+  "type": "crossing",
+  "description": "Chart on book p. 457 (TRF(CW)-29). The arrow points to POL-P, the second code of the title: POL-P (political policies) is the subject; PROJ-DY (projectional dynamics) is the partner. From the subject: CULT-SOLD (culture solidification), PER-DY (perception dynamics) and PROG-CONT (progressional continuance). From CULT-SOLD: DEF (definition). From DEF: PART (participation). From PROG-CONT: MT-INFO (multi-information) and BIA (bi-aitional). From BIA: AFI (affinity insight). The text above the chart speaks of \"the seriousness of bi-aitionalism\".",
+  "terms": [
+    { "termId": "pol-p", "isSubject": true },
+    { "termId": "proj-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "def" },
+    { "termId": "part" },
+    { "termId": "per-dy" },
+    { "termId": "prog-cont" },
+    { "termId": "mt-info" },
+    { "termId": "bia" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "pol-p", "to": "proj-dy", "type": "solid" },
+    { "from": "pol-p", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "def", "type": "solid" },
+    { "from": "def", "to": "part", "type": "solid" },
+    { "from": "pol-p", "to": "per-dy", "type": "solid" },
+    { "from": "pol-p", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "mt-info", "type": "solid" },
+    { "from": "prog-cont", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "afi", "type": "solid" }
+  ]
+}

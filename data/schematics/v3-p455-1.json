@@ -1,0 +1,37 @@
+{
+  "id": "v3-p455-1",
+  "volume": 3,
+  "section": "TRF(CW)-27",
+  "page": 455,
+  "subject": "bia",
+  "title": "BIA.------V.SY.",
+  "type": "crossing",
+  "description": "Chart 1 of 2 on book p. 455 (TRF(CW)-27). BIA (bi-aitional) is the subject; V-SY (value system) is the partner. From the subject: DEC (decentralization), SPT-DY (spiritual dynamics) and CULT-SOLD (culture solidification). From DEC: ALT-F (alternative functionalism). From ALT-F: PART (participation) and AFI-2 (affinity insight—second degree). From SPT-DY: AFI (affinity insight) and IF-SPT (infra-spirituality). From IF-SPT: INFO-DE-B (information degrees). From CULT-SOLD: RT-INT-TR (reality initiative traits).",
+  "terms": [
+    { "termId": "bia", "isSubject": true },
+    { "termId": "v-sy" },
+    { "termId": "dec" },
+    { "termId": "alt-f" },
+    { "termId": "part" },
+    { "termId": "afi-2" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "if-spt" },
+    { "termId": "info-de-b" },
+    { "termId": "cult-sold" },
+    { "termId": "rt-int-tr" }
+  ],
+  "relationships": [
+    { "from": "bia", "to": "v-sy", "type": "solid" },
+    { "from": "bia", "to": "dec", "type": "solid" },
+    { "from": "dec", "to": "alt-f", "type": "solid" },
+    { "from": "alt-f", "to": "part", "type": "solid" },
+    { "from": "alt-f", "to": "afi-2", "type": "solid" },
+    { "from": "bia", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "spt-dy", "to": "if-spt", "type": "solid" },
+    { "from": "if-spt", "to": "info-de-b", "type": "solid" },
+    { "from": "bia", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "rt-int-tr", "type": "solid" }
+  ]
+}

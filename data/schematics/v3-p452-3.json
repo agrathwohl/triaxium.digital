@@ -1,0 +1,27 @@
+{
+  "id": "v3-p452-3",
+  "volume": 3,
+  "section": "TRF(CW)-24",
+  "page": 452,
+  "subject": "re-st",
+  "title": "RE.ST.------WO.UNI.",
+  "type": "crossing",
+  "description": "Chart 3 of 3 on book p. 452 (TRF(CW)-24). RE-ST (restructuralism) is the subject; WO-UNI is the partner. From the subject: AFI (affinity insight) and EXT-FT (extended functionalism). From AFI: SPT-DY (spiritual dynamics). From EXT-FT: BIA (bi-aitional). From BIA: ALT-F (alternative functionalism).",
+  "terms": [
+    { "termId": "re-st", "isSubject": true },
+    { "termId": "wo-uni" },
+    { "termId": "afi" },
+    { "termId": "spt-dy" },
+    { "termId": "ext-ft" },
+    { "termId": "bia" },
+    { "termId": "alt-f" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "wo-uni", "type": "solid" },
+    { "from": "re-st", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "spt-dy", "type": "solid" },
+    { "from": "re-st", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "bia", "type": "solid" },
+    { "from": "bia", "to": "alt-f", "type": "solid" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "v3-p451",
+  "volume": 3,
+  "section": "TRF(CW)-23",
+  "page": 451,
+  "subject": "th-af-algn",
+  "title": "TH.AF.ALGN.------INFO.RT.",
+  "type": "crossing",
+  "description": "Chart on book p. 451 (TRF(CW)-23). TH-AF-ALGN (thrust affinity alignment) is the subject; INFO-RT (information reality) is the partner. From the subject: SPT-DY (spiritual dynamics), AFL (affinity alignment) and PROJ-CONT (projectional continuance). From SPT-DY: POST (postulation). From AFL: PHY-U-C (physical universe context). From PHY-U-C: RT-ALGN (reality alignment) and VT-PLT (vibrational platform). From VT-PLT: TR-INFO (trans-information). From PROJ-CONT: PROJ-DY (projectional dynamics).",
+  "terms": [
+    { "termId": "th-af-algn", "isSubject": true },
+    { "termId": "info-rt" },
+    { "termId": "spt-dy" },
+    { "termId": "post" },
+    { "termId": "afl" },
+    { "termId": "phy-u-c" },
+    { "termId": "rt-algn" },
+    { "termId": "vt-plt" },
+    { "termId": "tr-info" },
+    { "termId": "proj-cont" },
+    { "termId": "proj-dy" }
+  ],
+  "relationships": [
+    { "from": "th-af-algn", "to": "info-rt", "type": "solid" },
+    { "from": "th-af-algn", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "post", "type": "solid" },
+    { "from": "th-af-algn", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "rt-algn", "type": "solid" },
+    { "from": "phy-u-c", "to": "vt-plt", "type": "solid" },
+    { "from": "vt-plt", "to": "tr-info", "type": "solid" },
+    { "from": "th-af-algn", "to": "proj-cont", "type": "solid" },
+    { "from": "proj-cont", "to": "proj-dy", "type": "solid" }
+  ]
+}

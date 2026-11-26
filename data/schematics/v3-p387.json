@@ -1,0 +1,37 @@
+{
+  "id": "v3-p387",
+  "volume": 3,
+  "section": "JR-9",
+  "page": 387,
+  "subject": "post",
+  "title": "(R)POST.------PRI.AF.TD.",
+  "type": "crossing",
+  "description": "Chart on book p. 387 (JR-9). POST (postulation) is the subject, with the (R) prefix, \"the reality of\"; PRI-AF-TD (primary affinity tendencies) is the partner. From the subject: AEXP-DY, POL-DY (political dynamics) and SOC-RT (social reality). From AEXP-DY: RE-ST (restructuralism). From RE-ST: LANG-DY (language dynamics). From LANG-DY: IST-S-ALGN (isolated systematic alignment). From POL-DY: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From SOC-RT: CULT-INFO-DY (culture information dynamics) and CULT-SOLD (culture solidification). From CULT-SOLD: RE-DOC (redocumentation).",
+  "terms": [
+    { "termId": "post", "isSubject": true, "prefix": "r" },
+    { "termId": "pri-af-td" },
+    { "termId": "aexp-dy" },
+    { "termId": "re-st" },
+    { "termId": "lang-dy" },
+    { "termId": "ist-s-algn" },
+    { "termId": "pol-dy" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "soc-rt" },
+    { "termId": "cult-info-dy" },
+    { "termId": "cult-sold" },
+    { "termId": "re-doc" }
+  ],
+  "relationships": [
+    { "from": "post", "to": "pri-af-td", "type": "solid" },
+    { "from": "post", "to": "aexp-dy", "type": "solid" },
+    { "from": "aexp-dy", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "lang-dy", "type": "solid" },
+    { "from": "lang-dy", "to": "ist-s-algn", "type": "solid" },
+    { "from": "post", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "tm", "type": "solid" },
+    { "from": "post", "to": "soc-rt", "type": "solid" },
+    { "from": "soc-rt", "to": "cult-info-dy", "type": "solid" },
+    { "from": "soc-rt", "to": "cult-sold", "type": "solid" },
+    { "from": "cult-sold", "to": "re-doc", "type": "solid" }
+  ]
+}

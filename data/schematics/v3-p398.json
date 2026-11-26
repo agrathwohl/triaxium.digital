@@ -1,0 +1,37 @@
+{
+  "id": "v3-p398",
+  "volume": 3,
+  "section": "JR-20",
+  "page": 398,
+  "subject": "part",
+  "title": "(R)PART.------C.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 398 (JR-20). PART (participation) is the subject, with the (R) prefix, \"the reality of\"; C-INFO (composite information) is the partner. From the subject: SOC-RT-DY (social reality dynamics), SPT-DY (spiritual dynamics) and TR (transformation). From SOC-RT-DY: INVT-DT (investigation dictates). From INVT-DT: EXT-FT (extended functionalism). From SPT-DY: AFI (affinity insight). From AFI: AF-POST (affinity postulation). From TR: PER-DY (perception dynamics) and C-FO-ACT (composite focused activism). From C-FO-ACT: RT-DY (reality dynamics).",
+  "terms": [
+    { "termId": "part", "isSubject": true, "prefix": "r" },
+    { "termId": "c-info" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "invt-dt" },
+    { "termId": "ext-ft" },
+    { "termId": "spt-dy" },
+    { "termId": "afi" },
+    { "termId": "af-post" },
+    { "termId": "tr" },
+    { "termId": "per-dy" },
+    { "termId": "c-fo-act" },
+    { "termId": "rt-dy" }
+  ],
+  "relationships": [
+    { "from": "part", "to": "c-info", "type": "solid" },
+    { "from": "part", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "invt-dt", "type": "solid" },
+    { "from": "invt-dt", "to": "ext-ft", "type": "solid" },
+    { "from": "part", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "af-post", "type": "solid" },
+    { "from": "part", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "per-dy", "type": "solid" },
+    { "from": "tr", "to": "c-fo-act", "type": "solid" },
+    { "from": "c-fo-act", "to": "rt-dy", "type": "solid" }
+  ]
+}

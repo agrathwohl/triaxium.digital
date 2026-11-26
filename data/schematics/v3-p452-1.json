@@ -1,0 +1,37 @@
+{
+  "id": "v3-p452-1",
+  "volume": 3,
+  "section": "TRF(CW)-24",
+  "page": 452,
+  "subject": "th-af-algn",
+  "title": "TH.AF.ALGN.------INFO.RT.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 452 (TRF(CW)-24). TH-AF-ALGN (thrust affinity alignment) is the subject; INFO-RT (information reality) is the partner. From the subject: PRO-DY, T-C-IMP (time continuum implications) and SPT-DY (spiritual dynamics). From PRO-DY: INFO-F (information focus). From T-C-IMP: TRS (transition). From TRS: CULT-SOLD (culture solidification). From SPT-DY: AF-DY (affinity dynamics) and VT-DY (vibrational dynamics). From AF-DY: AF-POST (affinity postulation). From VT-DY: CULT-AF-BS (culture affinity basis).",
+  "terms": [
+    { "termId": "th-af-algn", "isSubject": true },
+    { "termId": "info-rt" },
+    { "termId": "pro-dy" },
+    { "termId": "info-f" },
+    { "termId": "t-c-imp" },
+    { "termId": "trs" },
+    { "termId": "cult-sold" },
+    { "termId": "spt-dy" },
+    { "termId": "af-dy" },
+    { "termId": "af-post" },
+    { "termId": "vt-dy" },
+    { "termId": "cult-af-bs" }
+  ],
+  "relationships": [
+    { "from": "th-af-algn", "to": "info-rt", "type": "solid" },
+    { "from": "th-af-algn", "to": "pro-dy", "type": "solid" },
+    { "from": "pro-dy", "to": "info-f", "type": "solid" },
+    { "from": "th-af-algn", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "trs", "type": "solid" },
+    { "from": "trs", "to": "cult-sold", "type": "solid" },
+    { "from": "th-af-algn", "to": "spt-dy", "type": "solid" },
+    { "from": "spt-dy", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "af-post", "type": "solid" },
+    { "from": "spt-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "cult-af-bs", "type": "solid" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "v3-p385-2",
+  "volume": 3,
+  "section": "JR-7",
+  "page": 385,
+  "subject": "expn",
+  "title": "(R)EXPN.------CULT.AF.B.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 385 (JR-7). EXPN is the subject, with the (R) prefix, \"the reality of\"; CULT-AF-B (culture affinity basis) is the partner. From the subject: AFL (affinity alignment), PROG-CONT (progressional continuance) and VT-DY (vibrational dynamics). From AFL: TR-INFO (trans-information). From TR-INFO: IST-F (isolated focus). From PROG-CONT: AF-DY (affinity dynamics). From AF-DY: ATTN (attraction). From ATTN: INFO-DY, with the (R) prefix, \"the reality of\". From VT-DY: AF-NT (affinity nature). From AF-NT: AFI (affinity insight). The label STY (style) stands below the chart with no line or dot.",
+  "terms": [
+    { "termId": "expn", "isSubject": true, "prefix": "r" },
+    { "termId": "cult-af-b" },
+    { "termId": "afl" },
+    { "termId": "tr-info" },
+    { "termId": "ist-f" },
+    { "termId": "prog-cont" },
+    { "termId": "af-dy" },
+    { "termId": "attn" },
+    { "termId": "info-dy", "prefix": "r" },
+    { "termId": "vt-dy" },
+    { "termId": "af-nt" },
+    { "termId": "afi" }
+  ],
+  "relationships": [
+    { "from": "expn", "to": "cult-af-b", "type": "solid" },
+    { "from": "expn", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "ist-f", "type": "solid" },
+    { "from": "expn", "to": "prog-cont", "type": "solid" },
+    { "from": "prog-cont", "to": "af-dy", "type": "solid" },
+    { "from": "af-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "info-dy", "type": "solid" },
+    { "from": "expn", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "afi", "type": "solid" }
+  ]
+}

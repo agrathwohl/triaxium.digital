@@ -1,0 +1,35 @@
+{
+  "id": "v3-p453",
+  "volume": 3,
+  "section": "TRF(CW)-25",
+  "page": 453,
+  "subject": "vt-dy",
+  "title": "VT.DY.------POST.",
+  "type": "crossing",
+  "description": "Chart on book p. 453 (TRF(CW)-25). VT-DY (vibrational dynamics) is the subject; POST (postulation) is the partner. From the subject: TR (transformation), ATTN (attraction) and PART (participation). From TR: INFO-INTG (information integration). From INFO-INTG: C-INFO (composite information). From ATTN: INFO-DY. From INFO-DY: IST-PT (isolated particulars). From IST-PT: SF-RZ (self-realization). From PART: AF-DY (affinity dynamics).",
+  "terms": [
+    { "termId": "vt-dy", "isSubject": true },
+    { "termId": "post" },
+    { "termId": "tr" },
+    { "termId": "info-intg" },
+    { "termId": "c-info" },
+    { "termId": "attn" },
+    { "termId": "info-dy" },
+    { "termId": "ist-pt" },
+    { "termId": "sf-rz" },
+    { "termId": "part" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "vt-dy", "to": "post", "type": "solid" },
+    { "from": "vt-dy", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "info-intg", "type": "solid" },
+    { "from": "info-intg", "to": "c-info", "type": "solid" },
+    { "from": "vt-dy", "to": "attn", "type": "solid" },
+    { "from": "attn", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "ist-pt", "type": "solid" },
+    { "from": "ist-pt", "to": "sf-rz", "type": "solid" },
+    { "from": "vt-dy", "to": "part", "type": "solid" },
+    { "from": "part", "to": "af-dy", "type": "solid" }
+  ]
+}

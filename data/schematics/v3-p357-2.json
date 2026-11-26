@@ -1,0 +1,37 @@
+{
+  "id": "v3-p357-2",
+  "volume": 3,
+  "section": "PMBA-21",
+  "page": 357,
+  "subject": "proj-dy",
+  "title": "PROJ.DY.------WO.EXP.PRI.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 357 (PMBA-21). PROJ-DY (projectional dynamics) is the subject; WO-EXP-PRI (world expansion principle) is the partner. From the subject: INFO-DY, EXT-FT (extended functionalism) and TR-INFO (trans-information). From INFO-DY: LK-IMP (linkage implications). From EXT-FT: TECH-DY (technological dynamics). From TECH-DY: EXP-CONT-2 (expansion condition (isolated focus)). From TR-INFO: MT-RT-SIGN and STF (source transfer). From STF: PROG-SIGN (progressional significance). From PROG-SIGN: AF-DY (affinity dynamics).",
+  "terms": [
+    { "termId": "proj-dy", "isSubject": true },
+    { "termId": "wo-exp-pri" },
+    { "termId": "info-dy" },
+    { "termId": "lk-imp" },
+    { "termId": "ext-ft" },
+    { "termId": "tech-dy" },
+    { "termId": "exp-cont-2" },
+    { "termId": "tr-info" },
+    { "termId": "mt-rt-sign" },
+    { "termId": "stf" },
+    { "termId": "prog-sign" },
+    { "termId": "af-dy" }
+  ],
+  "relationships": [
+    { "from": "proj-dy", "to": "wo-exp-pri", "type": "solid" },
+    { "from": "proj-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "lk-imp", "type": "solid" },
+    { "from": "proj-dy", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "tech-dy", "type": "solid" },
+    { "from": "tech-dy", "to": "exp-cont-2", "type": "solid" },
+    { "from": "proj-dy", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "mt-rt-sign", "type": "solid" },
+    { "from": "tr-info", "to": "stf", "type": "solid" },
+    { "from": "stf", "to": "prog-sign", "type": "solid" },
+    { "from": "prog-sign", "to": "af-dy", "type": "solid" }
+  ]
+}

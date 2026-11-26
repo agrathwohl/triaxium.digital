@@ -1,0 +1,33 @@
+{
+  "id": "v3-p455-2",
+  "volume": 3,
+  "section": "TRF(CW)-27",
+  "page": 455,
+  "subject": "vt-att",
+  "title": "VT.ATT.------IST.S.ALGN.",
+  "type": "crossing",
+  "description": "Chart 2 of 2 on book p. 455 (TRF(CW)-27). VT-ATT (vibrational attitude) is the subject; IST-S-ALGN (isolated systematic alignment) is the partner. From the subject: PER-DY (perception dynamics), RT-DY (reality dynamics) and UPB (underlying philosophical basis). From PER-DY: AFI (affinity insight). From RT-DY: APL-DT (application dictates). From APL-DT: INTR (interpretation). From UPB: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From TM: P-FC (particular focus).",
+  "terms": [
+    { "termId": "vt-att", "isSubject": true },
+    { "termId": "ist-s-algn" },
+    { "termId": "per-dy" },
+    { "termId": "afi" },
+    { "termId": "rt-dy" },
+    { "termId": "apl-dt" },
+    { "termId": "intr" },
+    { "termId": "upb" },
+    { "termId": "tm", "prefix": "r" },
+    { "termId": "p-fc" }
+  ],
+  "relationships": [
+    { "from": "vt-att", "to": "ist-s-algn", "type": "solid" },
+    { "from": "vt-att", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "afi", "type": "solid" },
+    { "from": "vt-att", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "apl-dt", "type": "solid" },
+    { "from": "apl-dt", "to": "intr", "type": "solid" },
+    { "from": "vt-att", "to": "upb", "type": "solid" },
+    { "from": "upb", "to": "tm", "type": "solid" },
+    { "from": "tm", "to": "p-fc", "type": "solid" }
+  ]
+}

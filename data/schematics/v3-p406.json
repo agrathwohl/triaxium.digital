@@ -1,0 +1,37 @@
+{
+  "id": "v3-p406",
+  "volume": 3,
+  "section": "JR-28",
+  "page": 406,
+  "subject": "rotp",
+  "title": "ROTP.------INFO.DS.",
+  "type": "crossing",
+  "description": "Chart on book p. 406 (JR-28). ROTP (responsibility of the position) is the subject; INFO-DS (information dissemination) is the partner. From the subject: MY-INFO, TR (transformation) and POL-P (political policies). From MY-INFO: MOT-DY. From MOT-DY: MT-DEVF (multiple diversification). From TR: LK-IMP (linkage implications). From LK-IMP: SPT-DY (spiritual dynamics). From POL-P: RT-DY (reality dynamics). From RT-DY: INFO-FR (information forum). From INFO-FR: JR-DY (journalism dynamics).",
+  "terms": [
+    { "termId": "rotp", "isSubject": true },
+    { "termId": "info-ds" },
+    { "termId": "my-info" },
+    { "termId": "mot-dy" },
+    { "termId": "mt-devf" },
+    { "termId": "tr" },
+    { "termId": "lk-imp" },
+    { "termId": "spt-dy" },
+    { "termId": "pol-p" },
+    { "termId": "rt-dy" },
+    { "termId": "info-fr" },
+    { "termId": "jr-dy" }
+  ],
+  "relationships": [
+    { "from": "rotp", "to": "info-ds", "type": "solid" },
+    { "from": "rotp", "to": "my-info", "type": "solid" },
+    { "from": "my-info", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "mt-devf", "type": "solid" },
+    { "from": "rotp", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "spt-dy", "type": "solid" },
+    { "from": "rotp", "to": "pol-p", "type": "solid" },
+    { "from": "pol-p", "to": "rt-dy", "type": "solid" },
+    { "from": "rt-dy", "to": "info-fr", "type": "solid" },
+    { "from": "info-fr", "to": "jr-dy", "type": "solid" }
+  ]
+}

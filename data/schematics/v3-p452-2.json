@@ -1,0 +1,37 @@
+{
+  "id": "v3-p452-2",
+  "volume": 3,
+  "section": "TRF(CW)-24",
+  "page": 452,
+  "subject": "unf-pi",
+  "title": "UNF.PI.------TH.CONT.DY",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 452 (TRF(CW)-24). UNF-PI (unification (positively intended)) is the subject; TH-CONT-DY (thrust continuance dynamics) is the partner. From the subject: RE-ST (restructuralism), WO-UNI and C-INFO (composite information). From RE-ST: EXT-FT (extended functionalism). From EXT-FT: SCI-DY (scientific dynamics). From WO-UNI: ECO-DY (economic dynamics). From ECO-DY: POL-P (political policies). From C-INFO: PRI-INFO (principle information). From PRI-INFO: MT-INTR (multiple interpretation). From MT-INTR: MT-INFO-DB.",
+  "terms": [
+    { "termId": "unf-pi", "isSubject": true },
+    { "termId": "th-cont-dy" },
+    { "termId": "re-st" },
+    { "termId": "ext-ft" },
+    { "termId": "sci-dy" },
+    { "termId": "wo-uni" },
+    { "termId": "eco-dy" },
+    { "termId": "pol-p" },
+    { "termId": "c-info" },
+    { "termId": "pri-info" },
+    { "termId": "mt-intr" },
+    { "termId": "mt-info-db" }
+  ],
+  "relationships": [
+    { "from": "unf-pi", "to": "th-cont-dy", "type": "solid" },
+    { "from": "unf-pi", "to": "re-st", "type": "solid" },
+    { "from": "re-st", "to": "ext-ft", "type": "solid" },
+    { "from": "ext-ft", "to": "sci-dy", "type": "solid" },
+    { "from": "unf-pi", "to": "wo-uni", "type": "solid" },
+    { "from": "wo-uni", "to": "eco-dy", "type": "solid" },
+    { "from": "eco-dy", "to": "pol-p", "type": "solid" },
+    { "from": "unf-pi", "to": "c-info", "type": "solid" },
+    { "from": "c-info", "to": "pri-info", "type": "solid" },
+    { "from": "pri-info", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "mt-info-db", "type": "solid" }
+  ]
+}

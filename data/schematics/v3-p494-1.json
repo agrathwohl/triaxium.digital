@@ -1,0 +1,39 @@
+{
+  "id": "v3-p494-1",
+  "volume": 3,
+  "section": "TRF(II)-30",
+  "page": 494,
+  "subject": "exp-dy",
+  "title": "EXP.DY.------ALT.C.PROG.",
+  "type": "crossing",
+  "description": "Chart 1 of 3 on book p. 494 (TRF(II)-30). EXP-DY (expansion dynamics) is the subject; ALT-C-PROG is the partner. From the subject: EXT-F (extended functionalism), POL-DY (political dynamics) and INFO-DY. From EXT-F: WO-UNF (world unification). From POL-DY: EXB-H-OR (establishing high order). From EXB-H-OR: PHY-U-C (physical universe context). From PHY-U-C: SOC-PG. From INFO-DY: PER-DY (perception dynamics) and MT-INFO (multi-information). From MT-INFO: MOT-DY. From MOT-DY: HI-P (high purpose).",
+  "terms": [
+    { "termId": "exp-dy", "isSubject": true },
+    { "termId": "alt-c-prog" },
+    { "termId": "ext-f" },
+    { "termId": "wo-unf" },
+    { "termId": "pol-dy" },
+    { "termId": "exb-h-or" },
+    { "termId": "phy-u-c" },
+    { "termId": "soc-pg" },
+    { "termId": "info-dy" },
+    { "termId": "per-dy" },
+    { "termId": "mt-info" },
+    { "termId": "mot-dy" },
+    { "termId": "hi-p" }
+  ],
+  "relationships": [
+    { "from": "exp-dy", "to": "alt-c-prog", "type": "solid" },
+    { "from": "exp-dy", "to": "ext-f", "type": "solid" },
+    { "from": "ext-f", "to": "wo-unf", "type": "solid" },
+    { "from": "exp-dy", "to": "pol-dy", "type": "solid" },
+    { "from": "pol-dy", "to": "exb-h-or", "type": "solid" },
+    { "from": "exb-h-or", "to": "phy-u-c", "type": "solid" },
+    { "from": "phy-u-c", "to": "soc-pg", "type": "solid" },
+    { "from": "exp-dy", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "per-dy", "type": "solid" },
+    { "from": "info-dy", "to": "mt-info", "type": "solid" },
+    { "from": "mt-info", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "hi-p", "type": "solid" }
+  ]
+}

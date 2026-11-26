@@ -1,0 +1,37 @@
+{
+  "id": "v3-p503",
+  "volume": 3,
+  "section": "TRF(II)-39",
+  "page": 503,
+  "subject": "spt-gh",
+  "title": "SPT.GH.------INFO.DE.(B)",
+  "type": "crossing",
+  "description": "Chart on book p. 503 (TRF(II)-39). SPT-GH (spiritual growth) is the subject; INFO-DE-B (information degrees) is the partner. From the subject: PER-DY (perception dynamics), VT-DY (vibrational dynamics) and WO-UNF (world unification). From PER-DY: MT-INTR (multiple interpretation). From MT-INTR: LK-IMP (linkage implications). From LK-IMP: BIA (bi-aitional). From VT-DY: AFI (affinity insight). From AFI: POST (postulation). From WO-UNF: EXT-CONT-1. From EXT-CONT-1: ALT-C-PROG.",
+  "terms": [
+    { "termId": "spt-gh", "isSubject": true },
+    { "termId": "info-de-b" },
+    { "termId": "per-dy" },
+    { "termId": "mt-intr" },
+    { "termId": "lk-imp" },
+    { "termId": "bia" },
+    { "termId": "vt-dy" },
+    { "termId": "afi" },
+    { "termId": "post" },
+    { "termId": "wo-unf" },
+    { "termId": "ext-cont-1" },
+    { "termId": "alt-c-prog" }
+  ],
+  "relationships": [
+    { "from": "spt-gh", "to": "info-de-b", "type": "solid" },
+    { "from": "spt-gh", "to": "per-dy", "type": "solid" },
+    { "from": "per-dy", "to": "mt-intr", "type": "solid" },
+    { "from": "mt-intr", "to": "lk-imp", "type": "solid" },
+    { "from": "lk-imp", "to": "bia", "type": "solid" },
+    { "from": "spt-gh", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "afi", "type": "solid" },
+    { "from": "afi", "to": "post", "type": "solid" },
+    { "from": "spt-gh", "to": "wo-unf", "type": "solid" },
+    { "from": "wo-unf", "to": "ext-cont-1", "type": "solid" },
+    { "from": "ext-cont-1", "to": "alt-c-prog", "type": "solid" }
+  ]
+}

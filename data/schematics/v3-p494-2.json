@@ -1,0 +1,33 @@
+{
+  "id": "v3-p494-2",
+  "volume": 3,
+  "section": "TRF(II)-30",
+  "page": 494,
+  "subject": "de-sptl",
+  "title": "DE.SPTL.------CR.INFO.DY.",
+  "type": "crossing",
+  "description": "Chart 2 of 3 on book p. 494 (TRF(II)-30). DE-SPTL (despiritualization) is the subject; CR-INFO-DY (circular information dynamics) is the partner. From the subject: TR (transformation), VT-DY (vibrational dynamics) and PART (participation). From TR: DIS-C-CT (disintegration of a culture’s center). From DIS-C-CT: EXP-CONT-2 (expansion condition (isolated focus)). From VT-DY: INFO-DE-B (information degrees). From PART: MOT-DY. From MOT-DY: INDIV-TD-2 (individual tendencies).",
+  "terms": [
+    { "termId": "de-sptl", "isSubject": true },
+    { "termId": "cr-info-dy" },
+    { "termId": "tr" },
+    { "termId": "dis-c-ct" },
+    { "termId": "exp-cont-2" },
+    { "termId": "vt-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "part" },
+    { "termId": "mot-dy" },
+    { "termId": "indiv-td-2" }
+  ],
+  "relationships": [
+    { "from": "de-sptl", "to": "cr-info-dy", "type": "solid" },
+    { "from": "de-sptl", "to": "tr", "type": "solid" },
+    { "from": "tr", "to": "dis-c-ct", "type": "solid" },
+    { "from": "dis-c-ct", "to": "exp-cont-2", "type": "solid" },
+    { "from": "de-sptl", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "de-sptl", "to": "part", "type": "solid" },
+    { "from": "part", "to": "mot-dy", "type": "solid" },
+    { "from": "mot-dy", "to": "indiv-td-2", "type": "solid" }
+  ]
+}

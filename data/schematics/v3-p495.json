@@ -1,0 +1,37 @@
+{
+  "id": "v3-p495",
+  "volume": 3,
+  "section": "TRF(II)-31",
+  "page": 495,
+  "subject": "re-st",
+  "title": "RE.ST.------PROG.CONT.",
+  "type": "crossing",
+  "description": "Chart on book p. 495 (TRF(II)-31). RE-ST (restructuralism) is the subject, with the (R) prefix, \"the reality of\"; PROG-CONT (progressional continuance) is the partner. From the subject: INFO-DY, AFL (affinity alignment) and TR-INFO (trans-information). From INFO-DY: RE-ST-2 (restructuralism, a second re.st. label, without prefix). From RE-ST-2: LANG-DY (language dynamics). From AFL: PER-DY (perception dynamics) and RIT-DY (ritual dynamics). From RIT-DY: INFO-DE-B (information degrees). From TR-INFO: T-C-IMP (time continuum implications). From T-C-IMP: STF (source transfer).",
+  "terms": [
+    { "termId": "re-st", "isSubject": true, "prefix": "r" },
+    { "termId": "prog-cont" },
+    { "termId": "info-dy" },
+    { "termId": "re-st-2" },
+    { "termId": "lang-dy" },
+    { "termId": "afl" },
+    { "termId": "per-dy" },
+    { "termId": "rit-dy" },
+    { "termId": "info-de-b" },
+    { "termId": "tr-info" },
+    { "termId": "t-c-imp" },
+    { "termId": "stf" }
+  ],
+  "relationships": [
+    { "from": "re-st", "to": "prog-cont", "type": "solid" },
+    { "from": "re-st", "to": "info-dy", "type": "solid" },
+    { "from": "info-dy", "to": "re-st-2", "type": "solid" },
+    { "from": "re-st-2", "to": "lang-dy", "type": "solid" },
+    { "from": "re-st", "to": "afl", "type": "solid" },
+    { "from": "afl", "to": "per-dy", "type": "solid" },
+    { "from": "afl", "to": "rit-dy", "type": "solid" },
+    { "from": "rit-dy", "to": "info-de-b", "type": "solid" },
+    { "from": "re-st", "to": "tr-info", "type": "solid" },
+    { "from": "tr-info", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "stf", "type": "solid" }
+  ]
+}

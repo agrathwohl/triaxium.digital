@@ -1,0 +1,37 @@
+{
+  "id": "v3-p402",
+  "volume": 3,
+  "section": "JR-24",
+  "page": 402,
+  "subject": "lan",
+  "title": "(R)LANG------MT.INFO.",
+  "type": "crossing",
+  "description": "Chart on book p. 402 (JR-24). LAN (the title writes LANG) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: ROJ-DY, C-CONT (composite continuance) and SOC-RT-DY (social reality dynamics). From ROJ-DY: VT-DY (vibrational dynamics). From VT-DY: AF-NT (affinity nature). From AF-NT: IF-SPT (infra-spirituality). From C-CONT: T-C-IMP (time continuum implications). From T-C-IMP: INFO-TRNS (information transference). From SOC-RT-DY: IST-F (isolated focus). From IST-F: STY (style).",
+  "terms": [
+    { "termId": "lan", "isSubject": true, "prefix": "r" },
+    { "termId": "mt-info" },
+    { "termId": "roj-dy" },
+    { "termId": "vt-dy" },
+    { "termId": "af-nt" },
+    { "termId": "if-spt" },
+    { "termId": "c-cont" },
+    { "termId": "t-c-imp" },
+    { "termId": "info-trns" },
+    { "termId": "soc-rt-dy" },
+    { "termId": "ist-f" },
+    { "termId": "sty" }
+  ],
+  "relationships": [
+    { "from": "lan", "to": "mt-info", "type": "solid" },
+    { "from": "lan", "to": "roj-dy", "type": "solid" },
+    { "from": "roj-dy", "to": "vt-dy", "type": "solid" },
+    { "from": "vt-dy", "to": "af-nt", "type": "solid" },
+    { "from": "af-nt", "to": "if-spt", "type": "solid" },
+    { "from": "lan", "to": "c-cont", "type": "solid" },
+    { "from": "c-cont", "to": "t-c-imp", "type": "solid" },
+    { "from": "t-c-imp", "to": "info-trns", "type": "solid" },
+    { "from": "lan", "to": "soc-rt-dy", "type": "solid" },
+    { "from": "soc-rt-dy", "to": "ist-f", "type": "solid" },
+    { "from": "ist-f", "to": "sty", "type": "solid" }
+  ]
+}
