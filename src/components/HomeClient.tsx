@@ -258,7 +258,6 @@ export default function HomeClient({ schematics }: HomeClientProps) {
               <div className="mt-3 bg-bx-surface border border-bx-trace p-3">
                 <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest">READ IN WORDS</h3>
                 <p className="text-xs text-bx-gray-300 leading-relaxed">{readInWords(selectedSchematic)}</p>
-                <p className="text-[10px] text-bx-gray-500 mt-1">Braxton’s form for reading a chart aloud (vol. 1 p. 14), applied to this chart.</p>
               </div>
 
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] min-h-0">
