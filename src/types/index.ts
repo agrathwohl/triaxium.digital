@@ -59,7 +59,7 @@ export interface Relationship {
   label?: string;
 }
 
-export type ViewMode = 'tree' | 'network' | 'workspace';
+export type ViewMode = 'tree' | 'network' | 'workspace' | 'atlas' | 'book' | 'codes';
 
 export interface UserSchematic {
   id: string;

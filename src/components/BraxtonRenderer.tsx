@@ -6,9 +6,9 @@ import { layoutBraxtonianSchematic, PREFIX_LEGEND, FONT_SIZE } from '@/lib/servi
 import { terms } from '@/data/schematics-full';
 
 const INK = '#c8cdd5';
-const ACTIVE = '#5b8abf';
+const ACTIVE = '#338ced';
 
-export default function BraxtonRenderer({ schematic }: { schematic: Schematic }) {
+export default function BraxtonRenderer({ schematic, onCodeClick }: { schematic: Schematic; onCodeClick?: (termId: string) => void }) {
   const layout = useMemo(() => layoutBraxtonianSchematic(schematic), [schematic]);
   const [tip, setTip] = useState<{ x: number; y: number; id: string; dotted: boolean } | null>(null);
 
@@ -44,6 +44,8 @@ export default function BraxtonRenderer({ schematic }: { schematic: Schematic })
             onMouseLeave={() => setTip(null)}
             onFocus={(e) => { const r = e.currentTarget.getBoundingClientRect(); setTip({ x: r.left, y: r.bottom, id: l.id, dotted: l.dotted }); }}
             onBlur={() => setTip(null)}
+            onClick={() => onCodeClick?.(l.id)}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onCodeClick?.(l.id); } }}
           >
             <rect x={l.box.x} y={l.box.y} width={l.box.w} height={l.box.h} fill="transparent" />
             <circle cx={l.x} cy={l.y} r={3.2} fill={INK} />
@@ -75,6 +77,7 @@ export default function BraxtonRenderer({ schematic }: { schematic: Schematic })
           {prefix && PREFIX_LEGEND[prefix] && <div className="text-bx-gray-400 mt-1">{PREFIX_LEGEND[prefix]}</div>}
           {tip.id === schematic.subject && <div className="text-bx-gray-400 mt-1">Subject</div>}
           {tip.dotted && <div className="text-bx-gray-400 mt-1">On a dotted line</div>}
+          {onCodeClick && <div className="text-bx-gray-500 mt-1">Select to open in ATLAS</div>}
         </div>
       )}
     </div>

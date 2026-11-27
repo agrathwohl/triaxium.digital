@@ -7,8 +7,12 @@ import { termFamilies } from '@/data/schematics';
 
 import BraxtonRenderer from '@/components/BraxtonRenderer';
 import NetworkView from '@/components/NetworkView';
+import AtlasView from '@/components/AtlasView';
+import BookMapView from '@/components/BookMapView';
+import CodesView from '@/components/CodesView';
+import { buildIndex, baseCode, readInWords } from '@/lib/corpus';
 import { PREFIX_LEGEND } from '@/lib/services/braxtonLayout';
-import { Search, GitBranch, Network, Filter, Menu, X, ChevronLeft, ChevronDown, ChevronRight } from 'lucide-react';
+import { Search, GitBranch, Network, Compass, BookOpen, LayoutGrid, Filter, Menu, X, ChevronLeft, ChevronDown, ChevronRight } from 'lucide-react';
 
 interface HomeClientProps {
   schematics: Schematic[];
@@ -21,6 +25,8 @@ export default function HomeClient({ schematics }: HomeClientProps) {
   const [selectedSchematic, setSelectedSchematic] = useState<Schematic | null>(schematics[0] || null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [familiesOpen, setFamiliesOpen] = useState(false);
+  const [atlasCode, setAtlasCode] = useState('afi');
+  const index = useMemo(() => buildIndex(schematics), [schematics]);
 
   const filteredSchematics = useMemo(() => {
     const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9()]+/g, ' ').trim();
@@ -46,6 +52,11 @@ export default function HomeClient({ schematics }: HomeClientProps) {
     setSelectedFamilies((prev) =>
       prev.includes(family) ? prev.filter((f) => f !== family) : [...prev, family]
     );
+  };
+
+  const openCode = (code: string) => {
+    setAtlasCode(code);
+    setViewMode('atlas');
   };
 
   const handleSelectSchematic = (schematic: Schematic) => {
@@ -93,6 +104,9 @@ export default function HomeClient({ schematics }: HomeClientProps) {
             {([
               { mode: 'tree' as ViewMode, icon: GitBranch, label: 'SCHEMATICS' },
               { mode: 'network' as ViewMode, icon: Network, label: 'NETWORK' },
+              { mode: 'atlas' as ViewMode, icon: Compass, label: 'ATLAS' },
+              { mode: 'book' as ViewMode, icon: BookOpen, label: 'BOOK' },
+              { mode: 'codes' as ViewMode, icon: LayoutGrid, label: 'CODES' },
             ]).map(({ mode, icon: Icon, label }) => (
               <button
                 key={mode}
@@ -238,7 +252,13 @@ export default function HomeClient({ schematics }: HomeClientProps) {
               </div>
 
               <div className="bg-bx-black border border-bx-trace schematic-grid">
-                <BraxtonRenderer schematic={selectedSchematic} />
+                <BraxtonRenderer schematic={selectedSchematic} onCodeClick={(id) => openCode(baseCode(selectedSchematic, id))} />
+              </div>
+
+              <div className="mt-3 bg-bx-surface border border-bx-trace p-3">
+                <h3 className="text-xs font-bold text-bx-white mb-1 tracking-widest">READ IN WORDS</h3>
+                <p className="text-xs text-bx-gray-300 leading-relaxed">{readInWords(selectedSchematic)}</p>
+                <p className="text-[10px] text-bx-gray-500 mt-1">Braxton’s form for reading a chart aloud (vol. 1 p. 14), applied to this chart.</p>
               </div>
 
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] min-h-0">
@@ -305,6 +325,14 @@ export default function HomeClient({ schematics }: HomeClientProps) {
               onSelectSchematic={handleSelectSchematic}
             />
           )}
+
+          {viewMode === 'atlas' && (
+            <AtlasView index={index} code={atlasCode} onCode={setAtlasCode} onOpenChart={handleSelectSchematic} />
+          )}
+
+          {viewMode === 'book' && <BookMapView schematics={schematics} onOpenChart={handleSelectSchematic} />}
+
+          {viewMode === 'codes' && <CodesView schematics={schematics} index={index} onCode={openCode} />}
         </div>
       </div>
     </div>

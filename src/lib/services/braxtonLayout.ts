@@ -50,9 +50,13 @@ export function drawnLabel(s: Schematic, termId: string): string {
   return (prefix ? `(${prefix})` : '') + text;
 }
 
-interface Node {
+export interface ChartNode {
   id: string;
   dotted: boolean;
+  kids: ChartNode[];
+}
+
+interface Node extends ChartNode {
   kids: Node[];
   starts: number[];
   len: number;
@@ -67,13 +71,7 @@ interface Node {
 const codeOf = (part: string) =>
   part.trim().replace(/^\([^)]*\)/, '').toLowerCase().replace(/\s+/g, '').replace(/\./g, '-').replace(/^-+|-+$/g, '');
 
-/**
- * Lay out a chart in Braxton's drawing grammar (vol. 1 pp. 11–14): the main line runs from the
- * subject to the partner; every other line starts on the line of the term it comes from and ends
- * at a dot with its label. Lines from the main line alternate above and below it; lines from those
- * alternate horizontal and vertical. Labels keep their size; a large chart is large.
- */
-export function layoutBraxtonianSchematic(s: Schematic): BraxtonLayout {
+export function chartTree(s: Schematic): { root: Node; partner: Node | null } {
   const ids = new Set(s.terms.map((t) => t.termId));
   const adj = new Map<string, { to: string; dotted: boolean; fwd: boolean }[]>([...ids].map((i) => [i, []]));
   for (const r of s.relationships) {
@@ -99,7 +97,17 @@ export function layoutBraxtonianSchematic(s: Schematic): BraxtonLayout {
     }
   }
   const titlePartner = codeOf(s.title.split(/-{3,}/)[1] ?? '');
-  const P = root.kids.find((k) => k.id === titlePartner) ?? root.kids[0] ?? null;
+  return { root, partner: root.kids.find((k) => k.id === titlePartner) ?? root.kids[0] ?? null };
+}
+
+/**
+ * Lay out a chart in Braxton's drawing grammar (vol. 1 pp. 11–14): the main line runs from the
+ * subject to the partner; every other line starts on the line of the term it comes from and ends
+ * at a dot with its label. Lines from the main line alternate above and below it; lines from those
+ * alternate horizontal and vertical. Labels keep their size; a large chart is large.
+ */
+export function layoutBraxtonianSchematic(s: Schematic): BraxtonLayout {
+  const { root, partner: P } = chartTree(s);
 
   const w = (n: Node) => drawnLabel(s, n.id).length * CHAR_W;
   // Labels stay flat while the shear lifts the lines to their right, so a label that sits above

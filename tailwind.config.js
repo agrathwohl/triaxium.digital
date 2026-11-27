@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'braxton-v1': '#5b8abf',
-        'braxton-v2': '#bf5b5b',
-        'braxton-v3': '#bfa05b',
+        'braxton-v1': '#338ced',
+        'braxton-v2': '#e76624',
+        'braxton-v3': '#00a888',
         'bx': {
           'black': '#080c12',
           'surface': '#0d1117',
