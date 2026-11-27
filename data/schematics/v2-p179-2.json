@@ -6,7 +6,7 @@
   "subject": "info-af-b",
   "title": "INFO.AF.B.------CR.INFO.DY.",
   "type": "network",
-  "description": "Diagram in SR(TRS)II-35, second of two on book p179. (C)INFO-AF-B (information affinity basis) is the subject. The main line runs from the subject to C-CONT (composite continuance). CRTF-D (cross-transfer definitions) and CR-INFO-DY (circular information dynamics) branch from the main line. CRTF-D carries APP-RDEF (applied redefinitions) and STF (source transfer); MT-INFO (multi-information) branches from STF, COS-D (cosmic dictates) from MT-INFO, ALT-F (alternative functionalism) from COS-D, and LANG-DY (language dynamics) from ALT-F. CR-INFO-DY carries CUL-TF-S (cultural transfer shifts) and CULT-AF-B (culture affinity basis).",
+  "description": "Chart 2 of 2 on book p. 179 (SR(TRS)II-35). INFO-AF-B (information affinity basis) is the subject, with the (C) prefix, \"the concept of\"; CR-INFO-DY (circular information dynamics) is the partner. From the subject: C-CONT (composite continuance) and CRTF-D (cross-transfer definitions). From CR-INFO-DY: CUL-TF-S (cultural transfer shifts) and CULT-AF-BS (culture affinity basis). From CRTF-D: APP-RDEF (applied redefinitions) and STF (source transfer). From STF: MT-INFO (multi-information). From MT-INFO: COS-D (cosmic dictates). From COS-D: ALT-F (alternative functionalism). From ALT-F: LANG-DY (language dynamics).",
   "terms": [
     { "termId": "info-af-b", "isSubject": true, "prefix": "c" },
     { "termId": "cr-info-dy" },

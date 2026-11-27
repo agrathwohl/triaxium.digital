@@ -6,7 +6,7 @@
   "subject": "wo-exp-pri",
   "title": "WO.EXP.PRI.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-27. (C)WO-EXP-PRI (world expansion principle) is crossed with MT-INFO (multi-information). Two lines branch from the main line. The first runs to STF (source transfer); ALT-F (alternative functionalism) branches from STF, and ACC-DY (accelerated dynamics) branches from ALT-F. The second runs to C-CONT (composite continuance) and continues as a single chain: C-CONT → SI (source initiation) → COS-D (cosmic dictates) → INFO-DE-B → SOC-RT (social reality) → INDIV-DY (individual dynamics).",
+  "description": "Chart on book p. 311 (WI-27). WO-EXP-PRI (world expansion principle) is the subject, with the (C) prefix, \"the concept of\"; MT-INFO (multi-information) is the partner. From the subject: STF (source transfer) and C-CONT (composite continuance). From STF: ALT-F (alternative functionalism). From C-CONT: SI (source initiation). From ALT-F: ACC-DY (accelerated dynamics). From SI: COS-D (cosmic dictates). From COS-D: INFO-DE-B (information degrees). From INFO-DE-B: SOC-RT (social reality). From SOC-RT: INDIV-DY (individual dynamics).",
   "terms": [
     {
       "termId": "wo-exp-pri",

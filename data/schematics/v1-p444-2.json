@@ -6,7 +6,7 @@
   "subject": "re-dif",
   "title": "RE.DEF.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in EXT.F(II)-6, paired with v1-p444-1. (C)RE-DEF (the concept of redefinitions) is crossed with PROG-CONT (progressional continuance). Three lines branch from the main line: MT-INTR (multiple interpretation), which opens into VT-DY (vibrational dynamics); AF-DY (affinity dynamics), which opens into LANG-DY (language dynamics) → AF-CON (affinity convergence) → ALT-F (alternative functionalism); and SOC-RT-DY (social reality dynamics), which opens into POL-P (political policies) → APP-RDEF (applied redefinitions).",
+  "description": "Chart 2 of 2 on book p. 444 (EXT.F(II)-6). RE-DIF (redefinitions) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. The title names RE-DEF (redefinition); the chart has no label for it. From the subject: MT-INTR (multiple interpretation), AFL-DY (affinity dynamics) and SOC-RT-DY (social reality dynamics). From MT-INTR: VT-DY (vibrational dynamics). From AFL-DY: LANG-DY (language dynamics). From SOC-RT-DY: POL-P (political policies). From LANG-DY: AF-CON (affinity convergence). From POL-P: APP-RDEF (applied redefinitions). From AF-CON: ALT-F (alternative functionalism).",
   "terms": [
     {
       "termId": "re-dif",

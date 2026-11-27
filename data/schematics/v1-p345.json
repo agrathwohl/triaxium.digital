@@ -6,7 +6,7 @@
   "subject": "alt-f",
   "title": "C.CONT.------ALT.F.",
   "type": "crossing",
-  "description": "Diagram in PCC-29. C-CONT (composite continuance) is crossed with ALT-F (alternative functionalism) — what does composite continuance require of alternative functionalism, and vice versa? The arrow points to ALT-F, so ALT-F is the subject: ALT-F → C-CONT (the crossing). ALT-F → GRAD (gradualism) directly. GRAD → STF (source transfer). From the STF line branch a second ALT-F label and SOC-RT-P (social reality particulars). SOC-RT-P has a *dashed* line to POL-P (political policies); in Braxton's legend a dotted line amplifies some aspect of the main concept it is connected to. From that dashed line branch AFL (affinity alignment) and CULT-INFO-F (culture information focus) → (R)PART (the reality of participation).",
+  "description": "Chart on book p. 345 (PCC-29). ALT-F (alternative functionalism) is the subject; C-CONT (composite continuance) is the partner. From the subject: GRAD (gradualism). From GRAD: STF (source transfer). From STF: ALT-F and SOC-RT-P (social reality particular). POL-P (political policies) is on a dotted line from SOC-RT-P. From POL-P: AFL (affinity alignment) and CULT-INFO-F (culture information focus). From CULT-INFO-F: PART (participation), with the (R) prefix, \"the reality of\".",
   "terms": [
     { "termId": "c-cont" },
     { "termId": "alt-f", "isSubject": true },

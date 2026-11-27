@@ -6,7 +6,7 @@
   "subject": "c-info",
   "title": "C.INFO.------TR.",
   "type": "crossing",
-  "description": "Diagram in PCC-17. C-INFO (composite information) is crossed with TR (transformation): the question is what composite information's relationship to transformation looks like. C-INFO → TR (the crossing). Two lines branch from the main line. One runs to PHY-U-P (physical universe particular), from which T-C-IMP (time continuum implications) branches. The other runs to PROG-CONT (progressional continuance), which branches to EXT-FT (extended functionalism) and MT-INFO (multi-information). DYM-F (dynamic functionalism) and AFL-DY (affinity dynamics) branch from MT-INFO, and EXT-INFO-B and (R)DIFF both branch from AFL-DY.",
+  "description": "Chart 1 of 2 on book p. 333 (PCC-17). C-INFO (composite information) is the subject; TR (transformation) is the partner. From the subject: PROG-CONT (progressional continuance) and PHY-U-P (physical universe particular). From PROG-CONT: EXT-FT (extended functionalism) and MT-INFO (multi-information). From PHY-U-P: T-C-IMP (time continuum implications). From MT-INFO: DYM-F (dynamic functionalism) and AFL-DY (affinity dynamics). From AFL-DY: EXT-INFO-B and DIFF, with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "c-info",

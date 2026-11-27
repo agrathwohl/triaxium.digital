@@ -6,7 +6,7 @@
   "subject": "c-fo-act",
   "title": "C.FO.ACT.------DYM.F.",
   "type": "crossing",
-  "description": "Diagram in PCC-25, paired with v1-p341-1. (C)C-FO-ACT (composite focused activism) is crossed with DYM-F (dynamic functionalism). The main line bends at (R)INT (the reality of intention): C-FO-ACT → (R)INT → DYM-F (the crossing). PHY-U-P (physical universe particular) branches from the C-FO-ACT → INT stretch, and PR-TRS branches from PHY-U-P. VT-U-PT (vibrational universe particulars) branches from the INT → DYM-F stretch; C-CONT (composite continuance), EXT-DYM (extended dynamics) and TR (transformation) branch from VT-U-PT, and (R)INFO-DE (the reality of information degrees) and MT-INFO (multi-information) branch from TR.",
+  "description": "Chart 2 of 2 on book p. 341 (PCC-25). C-FO-ACT (composite focused activism) is the subject, with the (C) prefix, \"the concept of\"; DYM-F (dynamic functionalism) is the partner. From the subject: INT (intention), with the (R) prefix, \"the reality of\". From DYM-F: VT-U-PT (vibrational universe particulars). From INT: DYM-F and PHY-U-P (physical universe particular). From VT-U-PT: EXT-DYM (extended dynamics), C-CONT (composite continuance) and TR (transformation). From PHY-U-P: PR-TRS. From TR: INFO-DE (information degrees), with the (R) prefix, \"the reality of\", and MT-INFO (multi-information).",
   "terms": [
     {
       "termId": "c-fo-act",

@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------CRTF.PROG.",
   "type": "crossing",
-  "description": "Diagram in PCC-23, paired with v1-p339-1. (C)MT-INFO (multi-information) is crossed with CRTF-PROG (cross-transfer progressionalism): the question is what multi-information becomes when its progression is *cross-transfer* rather than source-initiation. MT-INFO → CRTF-PROG (the crossing). Three lines branch from the main line. The first runs to T-C-IMP (time continuum implications) and continues as a chain: T-C-IMP → COS-P (cosmic particulars) → VT-DY (vibrational dynamics) → SOC-RT-DY (social reality dynamics). The second runs to TR-INFO (trans-information), from which RE-ST (restructuralism) branches. The third runs to LK-IMP (linkage implications) and continues LK-IMP → INFO-DS (information dissemination) → AFL-DY (affinity dynamics).",
+  "description": "Chart 2 of 2 on book p. 339 (PCC-23). MT-INFO (multi-information) is the subject, with the (C) prefix, \"the concept of\"; CRTF-PROG (cross-transfer progressionalism) is the partner. From the subject: T-C-IMP (time continuum implications), LK-IMP (linkage implications) and TR-INFO (trans-information). From T-C-IMP: COS-P (cosmic particulars). From LK-IMP: INFO-DS (information dissemination). From TR-INFO: RE-ST (restructuralism). From COS-P: VT-DY (vibrational dynamics). From INFO-DS: AFL-DY (affinity dynamics). From VT-DY: SOC-RT-DY (social reality dynamics).",
   "terms": [
     { "termId": "mt-info", "isSubject": true, "prefix": "c" },
     { "termId": "t-c-imp" },

@@ -6,7 +6,7 @@
   "subject": "rt-dym",
   "title": "RT.DYM.------POL.P.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-36 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's distinction between two transfer conditions: one 'natural' (connected to spiritual and vibrational factors interconnecting with progressional information) and one 'manufactured' (the result of flaws in the western philosophical and vibrational position). (C)RT-DYM (the concept of reality dynamics) is crossed with POL-P (political policies): the question is what reality-dynamics produces when crossed with political-policies, when the transfer-cycle is being manufactured rather than naturally occurring. INFO-DE-B (information degree basis) branches from the main line and leads to IST-PT (isolated particulars). CN-INFO (controlled information) also branches from the main line and leads to JR-DYM (journalism dynamics) and on to CRT (criticism). RT-INT-TR (reality initiative traits) branches from the main line and carries C-CULT-AT (composite culture attitude) and AFTD (affinity tendencies), which leads to ATT (attitude).",
+  "description": "Chart on book p. 58 (SD(SY)-36). RT-DYM (reality dynamics) is the subject, with the (C) prefix, \"the concept of\"; POL-P (political policies) is the partner. From the subject: CN-INFO (controlled information), INFO-DE-B (information degrees) and RT-INT-TR (reality initiative traits). From CN-INFO: JR-DYM (journalism dynamics). From INFO-DE-B: IST-PT (isolated particulars). From RT-INT-TR: C-CULT-AT (composite culture attitude) and AFTD (affinity tendencies). From JR-DYM: CRT (criticism). From AFTD: ATT (attitude).",
   "terms": [
     { "termId": "rt-dym", "isSubject": true, "prefix": "c" },
     { "termId": "pol-p" },

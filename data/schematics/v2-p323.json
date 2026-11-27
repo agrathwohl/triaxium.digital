@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "POL.DYM.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in R(AS)CM(I)-7. The prose immediately above identifies the structural target: western information dissemination, so infested with racist-sexist-and-nationalistic 'redefinitions' that it represents 'the most important bastion of disruption in this time zone.' The crossing diagrams what political-dynamics actually crosses with when social-reality is its working partner: (C)POL-DYM (the concept of political dynamics) is crossed with SOC-RT (social reality — the receiving culture that absorbs the redefinitions). POL-DYM sits on the left with the subject-arrow; T-C-IMP (time continuum implications) branches from the main line, and COS-D (cosmic dictates) branches from T-C-IMP. PART (participation) branches from the main line, and MOT-DY, INDIV-DY-RT (individual dynamic reality) and INTR (interpretation) all branch from PART; AFL-DY (affinity dynamics) branches from INTR. SOC-RT is partner-axis at upper-right.",
+  "description": "Chart on book p. 323 (R(AS)CM(I)-7). POL-DYM (political dynamics) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: T-C-IMP (time continuum implications) and PART (participation). From T-C-IMP: COS-D (cosmic dictates). From PART: MOT-DY, INDIV-DY-RT (individual dynamic reality) and INTR (interpretation). From INTR: AFL-DY (affinity dynamics).",
   "terms": [
     { "termId": "pol-dym", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt" },

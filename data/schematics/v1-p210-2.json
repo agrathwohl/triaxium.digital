@@ -6,7 +6,7 @@
   "subject": "sg",
   "title": "SG.------FUND.DYM.",
   "type": "crossing",
-  "description": "Diagram in WAC-8, paired with v1-p210-1. (C)SG (source initiation, the (c) prefix marking the conceptual reading) is crossed with FUND-DYM (fundamental dynamics): the question is what source initiation as a concept means in relation to a culture's fundamental dynamics. Besides the main line to FUND-DYM, two branches leave the subject. COP-P carries PHY-U-C (physical universe context) → TR-DIFF → VT-PLT (vibrational platform). PROJ-DY (projectional dynamics) carries INDIV-TD (individual tendencies) → POL-DY (political dynamics), which branches to TM (terminology—or terms of a definition) and to PHY-U-P (physical universe particular) → SOC-RT-DY (social reality dynamics).",
+  "description": "Chart 2 of 2 on book p. 210 (WAC-8). SG (source initiation) is the subject, with the (C) prefix, \"the concept of\". The title names FUND-DYM (fundamental dynamics); the chart has no label for it. From the subject: FUND-DYN (fundamental dynamics), PROJ-DY (projectional dynamics) and COP-P. From PROJ-DY: INDIV-TD (individual tendencies). From COP-P: PHY-U-C (physical universe context). From INDIV-TD: POL-DYM (political dynamics). From PHY-U-C: TR-DIFF. From POL-DYM: PHY-U-P (physical universe particular) and TM (terminology—or terms of a definition). From TR-DIFF: VT-PLT (vibrational platform). From PHY-U-P: SOC-RT-DY (social reality dynamics).",
   "terms": [
     {
       "termId": "sg",

@@ -6,7 +6,7 @@
   "subject": "aftd",
   "title": "AF.TD.------TH.AF.ALGN.",
   "type": "crossing",
-  "description": "Diagram in PCC-24. (C)AFTD (affinity tendencies) is crossed with TH-AF-ALGN (thrust affinity alignment). The main line bends at (N)PRI-INFO (principle information): AFTD → (N)PRI-INFO → TH-AF-ALGN (the crossing). (R)ATTN (the reality of attraction) branches from (N)PRI-INFO at the bend. AFL (affinity alignment) branches from the PRI-INFO → TH-AF-ALGN stretch, and CULT-INFO-F (culture information focus) branches from AFL. DYM-F (dynamic functionalism) and INDIV-DY-RT (individual dynamic reality) branch from CULT-INFO-F, and the chain continues INDIV-DY-RT → (R)PART (the reality of participation) → COS-P (cosmic particulars).",
+  "description": "Chart on book p. 340 (PCC-24). AFTD (affinity tendencies) is the subject, with the (C) prefix, \"the concept of\"; TH-AF-ALGN (thrust affinity alignment) is the partner. The title names AF-TD (affinity tendencies); the chart has no label for it. From the subject: PRI-INFO (principle information), with the (N) prefix. From TH-AF-ALGN: AFL (affinity alignment). From PRI-INFO: TH-AF-ALGN and ATTN (attraction), with the (R) prefix, \"the reality of\". From AFL: CULT-INFO-F (culture information focus). From CULT-INFO-F: INDIV-DY-RT (individual dynamic reality) and DYM-F (dynamic functionalism). From INDIV-DY-RT: PART (participation), with the (R) prefix, \"the reality of\". From PART: COS-P (cosmic particulars).",
   "terms": [
     {
       "termId": "aftd",

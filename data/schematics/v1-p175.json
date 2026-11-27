@@ -6,7 +6,7 @@
   "subject": "dym-spt",
   "title": "DYM.SPT.------AFI.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-37. Earlier, in UPB(II)-32, Braxton names the use of creativity as 'one of the most sacred alliances we can enter into' and warns that 'if not understood, that culture (and person) could possibly expose themselves to cosmic actualities (and matters) that could cause serious harm.' (C)DYM-SPT — the *concept* of dynamic spiritualism — is crossed with AFI (affinity insight). The diagram contains both AFI(1) (affinity insight—first degree) and AFI(2) (affinity insight—second degree) as separate nodes. Besides the main line to AFI, two branches leave the subject. AFI(2) carries PHY-U-P (physical universe particular) → SOC-RT (social reality) → SOC-RT-DY (social reality dynamics) → PART (participation). AFI(1) carries COS-D (cosmic dictates) → TR (transformation) → ACC-DY (accelerated dynamics) → RT-DY (reality dynamics).",
+  "description": "Chart on book p. 175 (UPB(II)-37). DYM-SPT (dynamic spiritualism) is the subject, with the (C) prefix, \"the concept of\"; AFI (affinity insight) is the partner. From the subject: AFI-2 (affinity insight—second degree) and AFI-1 (affinity insight—first degree). From AFI-2: PHY-U-P (physical universe particular). From AFI-1: COS-D (cosmic dictates). From PHY-U-P: SOC-RT (social reality). From COS-D: TR (transformation). From SOC-RT: SOC-RT-DY (social reality dynamics). From TR: ACC-DY (accelerated dynamics). From SOC-RT-DY: PART (participation). From ACC-DY: RT-DY (reality dynamics).",
   "terms": [
     { "termId": "dym-spt", "isSubject": true, "prefix": "c" },
     { "termId": "afi" },

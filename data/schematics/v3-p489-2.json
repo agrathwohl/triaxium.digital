@@ -6,7 +6,7 @@
   "subject": "rotp",
   "title": "ROTP.------ALT.F.",
   "type": "crossing",
-  "description": "Second diagram on page 489 (TRF(II)-25), paired with (R)INT x PART above. The crossing diagrams how responsibility-of-the-position structurally meets alternative-functionalism at the next-cycle power-sharing scale: ROTP (responsibility of the position) crossed with ALT-F (alternative functionalism). ROTP sits at left with the subject-arrow; ALT-F at lower-center as partner-axis. POL-CON (political consciousness) upper-right, ECO-DY (economic dynamics) upper-center, WO-UNF (world unification) right. CULT-AF-BS (culture affinity basis) right, EXP-DT (expansion dictates) center, C-INFO (composite information) center. AF-DY (affinity dynamics) and INFO-DY (information dynamics) lower-right. POL-CON branches from the main line and carries ECO-DY and WO-UNF, from which EXP-DT drops; INFO-DY branches from the main line and carries C-INFO, which carries AF-DY, from which CULT-AF-BS rises. TR (transformation) runs to the lower left and carries HI-P (high purpose), which carries APL-DT (application dictates).",
+  "description": "Chart 2 of 2 on book p. 489 (TRF(II)-25). ROTP (responsibility of the position) is the subject; ALT-F (alternative functionalism) is the partner. From the subject: TR (transformation), POL-CON (political consciousness) and INFO-DY (information dynamics). From TR: HI-P (high purpose). From POL-CON: WO-UNF (world unification) and ECO-DY (economic dynamics). From INFO-DY: C-INFO (composite information). From HI-P: APL-DT (application dictates). From WO-UNF: EXP-DT (expansion dictates). From C-INFO: AF-DY (affinity dynamics). From AF-DY: CULT-AF-BS (culture affinity basis).",
   "terms": [
     {
       "termId": "rotp",

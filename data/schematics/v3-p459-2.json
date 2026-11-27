@@ -6,7 +6,7 @@
   "subject": "alt-f",
   "title": "ALT.F.------APP.RDEF.",
   "type": "crossing",
-  "description": "Second diagram on page 459 (TRF(CW)-31). The crossing diagrams how alternative functionalism structurally meets applied-redefinitions: ALT-F crossed with APP-RDEF. ALT-F sits at lower-center with the subject-arrow; APP-RDEF at upper-center as partner-axis. STF (source transfer) upper-left, SCI-DY (scientific dynamics) upper-right. CRTF-DEF (cross-transfer definitions) left, EXT-FT (extended functionalism) right, PRI-INFO (principle information) center-left. (P)POST (point of idea completion, postulation) center-right. MT-INFO (multi-information) center. MT-DEVF (multiple diversification) lower-left, PROG-CONT (progressional continuance), POL-CONT (political continuance) lower-right, DOC (documentation) right.",
+  "description": "Chart 2 of 2 on book p. 459 (TRF(CW)-31). ALT-F (alternative functionalism) is the subject; APP-RDEF (applied redefinitions) is the partner. From the subject: PROG-CONT (progressional continuance), PRI-INFO (principle information) and SCI-DY (scientific dynamics). From PROG-CONT: POL-CONT. From PRI-INFO: STF (source transfer) and MT-INFO (multi-information). From SCI-DY: EXT-FT (extended functionalism). From POL-CONT: DOC (documentation). From STF: CRTF-DEF (cross-transfer definitions). From MT-INFO: MT-DEVF (multiple diversification). From EXT-FT: POST (postulation), with the (P) prefix, \"point of idea completion\".",
   "terms": [
     {
       "termId": "alt-f",

@@ -6,7 +6,7 @@
   "subject": "alt-f",
   "title": "ALT.F.------DEC.",
   "type": "crossing",
-  "description": "Diagram in CMBA-20, the third on book p264. ALT-F (alternative functionalism) is crossed with DEC (decentralization). ALT-F outputs to DEC (the crossing) and TH-CONT (thrust continuance). TH-CONT → EXP-DYM (expansion dynamics) → (C)INFO-DE (the concept of information degrees). INFO-DE branches to MT-IF-DB (multi-informational degree basis) and POL-SIGN (political significance) → PROG-EXT-FT (progressional extended functionalism). Structural argument: alternative functionalism's productive output runs alternative-functionalism → thrust-continuance → expansion-dynamics → (concept of) information-degrees → political-significance → progressional-extended-functionalism — a six-stage chain where each step is gated by the previous. The (c) on information-degrees is critical: this is the *concept* of information degrees, not their reality, which is what allows the alternative to remain alternative. The branch from information-degrees to multi-informational-degree-basis runs in parallel.",
+  "description": "Chart 3 of 3 on book p. 264 (CMBA-20). ALT-F (alternative functionalism) is the subject; DEC (decentralization) is the partner. From the subject: TH-CONT (thrust continuance). From TH-CONT: EXP-DYM (expansion dynamics). From EXP-DYM: INFO-DE (information degrees), with the (C) prefix, \"the concept of\". From INFO-DE: MT-IF-DB (multi-informational degree basis) and POL-SIGN (political significance). From POL-SIGN: PROG-EXT-FT (progressional extended functionalism).",
   "terms": [
     {
       "termId": "alt-f",

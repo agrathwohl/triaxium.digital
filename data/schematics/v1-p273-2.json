@@ -6,7 +6,7 @@
   "subject": "proj-dy",
   "title": "(R)PROJ.DY.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in CMBA-29, the second on book p273. (R)PROJ-DY — the reality of projectional dynamics — is crossed with MT-INFO (multi-information). The diagram uses three prefixed nodes — (R)INFO-INTR (the reality of information interpretation), (C)POST (the concept of postulation), (R)PART (the reality of participation) — staging the structural question of whether real projectional dynamics actually delivers transformation when multi-information is its crossing partner. PROJ-DY → MT-INFO (the crossing). PROJ-DY also branches to SOC-RT (social reality), which leads to DYM-F (dynamic functionalism), and to T-C-IMP (time continuum implications), which branches to (C)POST and (R)INFO-INTR. (R)INFO-INTR leads to MT-RT-SIGN, which branches to (R)PART.",
+  "description": "Chart 2 of 2 on book p. 273 (CMBA-29). PROJ-DY (projectional dynamics) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: SOC-RT (social reality) and T-C-IMP (time continuum implications). From SOC-RT: DYM-F (dynamic functionalism). From T-C-IMP: POST (postulation), with the (C) prefix, \"the concept of\", and INFO-INTR (information interpretation), with the (R) prefix, \"the reality of\". From INFO-INTR: MT-RT-SIGN. From MT-RT-SIGN: PART (participation), with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "proj-dy",

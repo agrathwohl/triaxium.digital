@@ -6,7 +6,7 @@
   "subject": "grad",
   "title": "GRAD.------DOC.",
   "type": "crossing",
-  "description": "Diagram in WI-11, the section where Braxton introduces the *gradualism* concept by way of the talk-show anecdote about a white jazz musician who named Tony Bennett the best jazz singer in history, Woody Herman's the best big band, etc. — illustrating how 'the perpetuation of a given viewpoint, in a given time parameter, can be solidified as true, if not successfully challenged.' (C)GRAD (gradualism) is crossed with DOC (documentation): the diagram poses what gradualism actually does to documentation. GRAD → DOC (the crossing), and GRAD → CULT-INFO-F (culture information focus). CULT-INFO-F branches to DEF (definition) and PHY-U-P (physical universe particular). DEF → INFO-INTR (information interpretation) → INT (intention) → POL-SIGN (political significance). PHY-U-P → TRS (transition) → RT-DY (reality dynamics) → PART (participation).",
+  "description": "Chart on book p. 295 (WI-11). GRAD (gradualism) is the subject, with the (C) prefix, \"the concept of\"; DOC (documentation) is the partner. From the subject: CULT-INFO-F (culture information focus). From CULT-INFO-F: DEF (definition) and PHY-U-P (physical universe particular). From DEF: INFO-INTR (information interpretation). From PHY-U-P: TRS (transition). From INFO-INTR: INT (intention). From TRS: RT-DY (reality dynamics). From INT: POL-SIGN (political significance). From RT-DY: PART (participation).",
   "terms": [
     { "termId": "grad", "isSubject": true, "prefix": "c" },
     { "termId": "doc" },

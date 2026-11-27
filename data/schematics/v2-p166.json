@@ -6,7 +6,7 @@
   "subject": "c-info",
   "title": "C.INFO.------SOC.RT.DY.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-22 (Social Reality / Trans-Information, Level Two) accompanying Braxton's claim: 'the achievements in world culture can provide some basis for viewing this cycle as a cycle — which is to say, a point in time and nothing more.' (C)C-INFO (the concept of composite information) is crossed with SOC-RT-DY (social-reality dynamics): the question is what composite-information produces when crossed with social-reality-dynamics — composite-information being the deeper field of world-cultural achievement against which this cycle should be measured. COS-P (cosmic particulars) and VT-DY (vibrational dynamics) branch from the main line. VT-DY carries (R)TM (the reality of terminology, or terms of a definition) and PROG-CONT (progressional continuance). PROG-CONT carries INFO-DY (information dynamics) and (R)OBS (the reality of observation), and a *dashed* line from (R)OBS to PART (participation) amplifies some aspect of (R)OBS.",
+  "description": "Chart on book p. 166 (SR(TRS)II-22). C-INFO (composite information) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT-DY (social reality dynamics) is the partner. From the subject: COS-P (cosmic particulars) and VT-DY (vibrational dynamics). From VT-DY: PROG-CONT (progressional continuance) and TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From PROG-CONT: INFO-DY (information dynamics) and OBS (observation), with the (R) prefix, \"the reality of\". PART (participation) is on a dotted line from OBS.",
   "terms": [
     { "termId": "c-info", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt-dy" },

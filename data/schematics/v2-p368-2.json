@@ -6,7 +6,7 @@
   "subject": "per-vt-u-fund",
   "title": "PER.VT.U.FUND.------PROG.CONT.",
   "type": "crossing",
-  "description": "Second diagram on page 368 (R(AS)CM(II)-12). The crossing diagrams how the concept of perceived-vibrational-universe-fundamental structurally meets progressional-continuance: (C)PER-VT-U-FUND (the concept of perceived vibrational universe fundamental) crossed with PROG-CONT (progressional continuance). PER-VT-U-FUND sits on the left with the subject-arrow; PROJ-DYM (projectional dynamics) rises from the main line, and AFI (affinity insight) branches from PROJ-DYM at upper-left. TRS (transition) branches from the main line; PHY-U-P (physical-universe particulars) hangs from TRS and carries two lines: one to C-INFO (composite information), from which SOC-RT-DY (social-reality dynamics) drops, and one to MT-INFO (multi-information), from which POL-DYM (political dynamics) drops. PROG-CONT sits at upper-right as partner-axis.",
+  "description": "Chart 2 of 3 on book p. 368 (R(AS)CM(II)-12). PER-VT-U-FUND (perceived vibrational universe fundamental) is the subject, with the (C) prefix, \"the concept of\"; PROG-CONT (progressional continuance) is the partner. From the subject: PROJ-DYM (projectional dynamics) and TRS (transition). From PROJ-DYM: AFI (affinity insight). From TRS: PHY-U-P (physical universe particular). From PHY-U-P: C-INFO (composite information) and MT-INFO (multi-information). From C-INFO: SOC-RT-DY (social reality dynamics). From MT-INFO: POL-DYM (political dynamics).",
   "terms": [
     { "termId": "per-vt-u-fund", "isSubject": true, "prefix": "c" },
     { "termId": "prog-cont" },

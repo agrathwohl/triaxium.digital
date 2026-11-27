@@ -6,7 +6,7 @@
   "subject": "pol-con",
   "title": "(R)POL.CON.------SPT.DYM.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-38 (Social Reality / Trans-Information, Level Two) accompanying Braxton's framing of culture-information focus: 'the collective forces which dictate how given information lines are interpreted to either the composite spectrum (people) of a given culture, or to the composite whole of its effective parameter (which in this case is planet Earth).' (C)POL-CON (the concept of political consciousness) is crossed with SPT-DYM (spiritual dynamics): the question is what political-consciousness produces when crossed with spiritual-dynamics — the (c) prefix marking that this is the concept of political consciousness, not a particular policy. MT-INFO (multi-information) branches from the main line and carries POL-P (political policies). INFO-AF-B (information-affinity basis) also branches from the main line and carries LK-IMP (linkage implications), which carries ALT-F (alternative functionalism), and IF-ST-DY (infra-structure dynamics), which carries MOT-DY.",
+  "description": "Chart on book p. 182 (SR(TRS)II-38). POL-CON (political consciousness) is the subject, with the (C) prefix, \"the concept of\"; SPT-DYM (spiritual dynamics) is the partner. From the subject: MT-INFO (multi-information) and INFO-AF-B (information affinity basis). From MT-INFO: POL-P (political policies). From INFO-AF-B: LK-IMP (linkage implications) and IF-ST-DY (infra-structure dynamics). From LK-IMP: ALT-F (alternative functionalism). From IF-ST-DY: MOT-DY.",
   "terms": [
     { "termId": "pol-con", "isSubject": true, "prefix": "c" },
     { "termId": "spt-dym" },

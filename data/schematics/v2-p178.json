@@ -6,7 +6,7 @@
   "subject": "rt-op",
   "title": "RT.OP.------TR.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-34 (Social Reality / Trans-Information, Level Two) accompanying Braxton's structural diagnostic of western culture's center-factor: 'the social mechanisms sustaining the center factor of western culture is that the lives and affinity realness of outside initiations are isolated from the mainstream (the mainstream being white people and their lives and their social, intellectual and functional reality).' RT-OP (reality options) is crossed with TR (transformation): the question is what reality-options produces when crossed with transformation — under conditions where reality-options is structured to isolate non-mainstream initiations. TR sits upper-center. RE-ST (restructuralism) branches from the main line and carries EXT-DYM (extended dynamics). ACC-DY (accelerated dynamics) also branches from the main line and carries LK-IMP (linkage implications) and AFI (affinity insight); POL-DY (political dynamics) branches from AFI and carries INFO-CON (information convergence).",
+  "description": "Chart on book p. 178 (SR(TRS)II-34). RT-OP (reality options) is the subject; TR (transformation) is the partner. From the subject: RE-ST (restructuralism) and ACC-DY (accelerated dynamics). From RE-ST: EXT-DYM (extended dynamics). From ACC-DY: LK-IMP (linkage implications) and AFI (affinity insight). From AFI: POL-DY (political dynamics). From POL-DY: INFO-CON (information convergence).",
   "terms": [
     { "termId": "rt-op", "isSubject": true },
     { "termId": "tr" },

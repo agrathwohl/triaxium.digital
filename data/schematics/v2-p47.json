@@ -6,7 +6,7 @@
   "subject": "soc-rt-dy",
   "title": "SOC.RT.DY.------PHY.U.P.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-25 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's opening of the hippie-movement analysis: 'the principles which manifest themselves in each spectacle-diversion sequence, and how people relate to what this sequence is supposed to mean — that clarifies the real fabric of American culture.' (C)SOC-RT-DY (the concept of social reality dynamics) is crossed with PHY-U-P (physical universe particulars): the question is what social-reality-dynamics produces when crossed with physical-universe-particulars in a culture where the diversion sequence determines self-perception. POL-P (political policies) branches from the main line and leads to CN-INFO (controlled information), which carries PROG-CONT (progressional continuance) and (R)TM (the reality of terminology—or terms of a definition). From (R)TM the chain runs to (R)INT (the reality of intention), then to CUL-INFO-B (culture-information basis), which ends in TRS (transition).",
+  "description": "Chart on book p. 47 (SD(SY)-25). SOC-RT-DY (social reality dynamics) is the subject, with the (C) prefix, \"the concept of\"; PHY-U-P (physical universe particular) is the partner. From the subject: POL-P (political policies). From POL-P: CN-INFO (controlled information). From CN-INFO: PROG-CONT (progressional continuance) and TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\". From TM: INT (intention), with the (R) prefix, \"the reality of\". From INT: CUL-INFO-B. From CUL-INFO-B: TRS (transition).",
   "terms": [
     { "termId": "soc-rt-dy", "isSubject": true, "prefix": "c" },
     { "termId": "phy-u-p" },

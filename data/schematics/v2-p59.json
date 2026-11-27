@@ -6,7 +6,7 @@
   "subject": "tr-def",
   "title": "TR.DEF.------CULT.SOLD.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-37, where Braxton defines a spectacle-diversion sequence as determined by '(1) the time cycle of a given situation, (2) the vibrational cycle (and how this consideration is manifested in a given physical universe situation), (3) the social reality cycle of a given culture, and finally (4) the political particulars of a given culture.' (C)TR-DEF (trans-definition) is crossed with CULT-SOLD (culture solidification): the question is what trans-definition does to culture solidification when spectacle-diversion is operative. Above the main line, C-CONT (composite continuance) branches from the subject and leads to LK-IMP (linkage implications) and on to MT-INFO (multi-information). Below it, CULT-AF-B (culture affinity basis) branches from the subject and leads to IF-ST-DY (infra-structure dynamics), then to INDIV-TD (individual tendencies), POST (postulation), and RT-INT-TR (reality initiative traits).",
+  "description": "Chart on book p. 59 (SD(SY)-37). TR-DEF (trans-definition) is the subject, with the (C) prefix, \"the concept of\"; CULT-SOLD (culture solidification) is the partner. From the subject: CULT-AF-BS (culture affinity basis) and C-CONT (composite continuance). From CULT-AF-BS: IF-ST-DY (infra-structure dynamics). From C-CONT: LK-IMP (linkage implications). From IF-ST-DY: INDIV-TD (individual tendencies). From LK-IMP: MT-INFO (multi-information). From INDIV-TD: POST (postulation). From POST: RT-INT-TR (reality initiative traits).",
   "terms": [
     { "termId": "tr-def", "isSubject": true, "prefix": "c" },
     { "termId": "cult-sold" },

@@ -6,7 +6,7 @@
   "subject": "dec",
   "title": "DEC.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-15 (Affinity Dynamics, Level One) accompanying Braxton's analysis of redocumentation: 'the inability of given groups to acknowledge the dynamic offerings of another group (or the seriousness of time change, as a factor that promotes memory gaps) can better help us to understand what has happened to make this cycle as it is.' (C)DEC (the concept of decentralization) is crossed with C-CONT (composite continuance): the question is what decentralization produces when crossed with composite-continuance. MT-INFO (multi-information) branches from the main line and leads to INFO-DY (information dynamics), which carries EXP-F (expanded functionalism). EXP-F carries PR-TR and (R)PART (the reality of participation), from which the chain runs to UNF-PI (unification (positively intended)) and then to DYM-F (dynamic functionalism). POL-P (political policies) also drops from the main line and leads to INFO-COMP (information compression), which carries AS-ES (aspect essence).",
+  "description": "Chart on book p. 87 ((AF)D-15). DEC (decentralization) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. From the subject: MT-INFO (multi-information) and POL-P (political policies). From MT-INFO: INFO-DY (information dynamics). From POL-P: INFO-COMP (information compression). From INFO-DY: EXP-F. From INFO-COMP: AS-ES. From EXP-F: PR-TR and PART (participation), with the (R) prefix, \"the reality of\". From PART: UNF-PI (unification (positively intended)). From UNF-PI: DYM-F (dynamic functionalism).",
   "terms": [
     { "termId": "dec", "isSubject": true, "prefix": "c" },
     { "termId": "c-cont" },

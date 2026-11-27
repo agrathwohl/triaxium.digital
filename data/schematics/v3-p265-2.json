@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------V.SY.",
   "type": "crossing",
-  "description": "Second diagram on page 265 (PR.S(RD)II-19), paired with TH-CONT × AF-COMP above. The crossing diagrams how multi-information structurally meets value-system at the journalism-insensitivity scale the prior diagram named: MT-INFO (multi-information) crossed with V-SY (value system — the partner-axis's organized value-system that determines acceptance). MT-INFO sits at upper-left with the subject-arrow; V-SY sits centrally below as partner-axis. AFL (affinity alignment) branches up to the right from the main line and carries OBS (observation) and INDIV-TD (individual tendencies), which carries PER-DY (perception dynamics). CULT-INFO-B (culture information basis) branches to the left and carries PRI-INFO (principle information) and DEF (definition). SPT-DY (spiritual dynamics) branches to the right and carries AFI (affinity insight), which carries ATTN (attraction), which carries RT-INT-TR (reality initiative traits).",
+  "description": "Chart 2 of 2 on book p. 265 (PR.S(RD)II-19). MT-INFO (multi-information) is the subject; V-SY (value system) is the partner. From the subject: AFL (affinity alignment), CULT-INFO-B (culture information basis) and SPT-DY (spiritual dynamics). From AFL: INDIV-TD (individual tendencies) and OBS (observation). From CULT-INFO-B: DEF (definition) and PRI-INFO (principle information). From SPT-DY: AFI (affinity insight). From INDIV-TD: PER-DY (perception dynamics). From AFI: ATTN (attraction). From ATTN: RT-INT-TR (reality initiative traits).",
   "terms": [
     { "termId": "mt-info", "isSubject": true },
     { "termId": "v-sy" },

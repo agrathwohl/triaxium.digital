@@ -6,7 +6,7 @@
   "subject": "info-ds",
   "title": "(R)INFO.DS.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in WI-29. (R)INFO-DS — the reality of information dissemination — is crossed with C-CONT (composite continuance). INFO-DS → C-CONT (the crossing). RE-ST (restructuralism) branches from the main line. A second line from the main line runs to T-C-IMP (time continuum implications); PHY-U-P (physical universe particular) branches from it, and PROJ-DY (projectional dynamics) branches from PHY-U-P. COS-P (cosmic particulars) also branches from the T-C-IMP line; HI-P (high purpose) branches from COS-P, and both TH-CONT-DY (thrust continuance dynamics) and TRS (transition) branch from HI-P.",
+  "description": "Chart on book p. 313 (WI-29). INFO-DS (information dissemination) is the subject, with the (R) prefix, \"the reality of\"; C-CONT (composite continuance) is the partner. From the subject: T-C-IMP (time continuum implications) and RE-ST (restructuralism). From T-C-IMP: PHY-U-P (physical universe particular) and COS-P (cosmic particulars). From PHY-U-P: PROJ-DY (projectional dynamics). From COS-P: HI-P (high purpose). From HI-P: TH-CONT-DY (thrust continuance dynamics) and TRS (transition).",
   "terms": [
     { "termId": "info-ds", "isSubject": true, "prefix": "r" },
     { "termId": "proj-dy" },

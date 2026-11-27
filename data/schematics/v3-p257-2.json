@@ -6,7 +6,7 @@
   "subject": "sty",
   "title": "(R)STY.------INFO.F.",
   "type": "crossing",
-  "description": "Second diagram on page 257 (PR.S(RD)II-11), paired with ALT-FT × SPT-GH above. This one names what style meets when information-focus is the working partner: (R)STY (the reality of style) crossed with INFO-F (information focus). STY sits on the right with the subject-arrow; INFO-F sits at center-bottom as partner-axis. AF-DY (affinity dynamics) branches left from the main line and carries INDIV-TD (individual tendencies), which carries ATTN (attraction). SOC-RT-DY (social-reality dynamics) drops from the main line and carries VT-DY (vibrational dynamics), which carries POST (postulation). AFI (affinity insight) branches left from the main line and carries PER-DY (perception dynamics) and SPT-DY (spiritual dynamics), which carries RIT-DY (ritual dynamics).",
+  "description": "Chart 2 of 2 on book p. 257 (PR.S(RD)II-11). STY (style) is the subject, with the (R) prefix, \"the reality of\"; INFO-F (information focus) is the partner. From the subject: AF-DY (affinity dynamics), SOC-RT-DY (social reality dynamics) and AFI (affinity insight). From AF-DY: INDIV-TD (individual tendencies). From SOC-RT-DY: VT-DY (vibrational dynamics). From AFI: SPT-DY (spiritual dynamics) and PER-DY (perception dynamics). From INDIV-TD: ATTN (attraction). From VT-DY: POST (postulation). From SPT-DY: RIT-DY (ritual dynamics).",
   "terms": [
     { "termId": "sty", "isSubject": true, "prefix": "r" },
     { "termId": "info-f" },

@@ -6,7 +6,7 @@
   "subject": "pri-info-td",
   "title": "PRI.INFO.TD.------ALT.F.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-18, on the page where Braxton argues that 'creativity is related to functionalism, both with regards to the meta-reality of a given culture group and the actualness of particulars on the physical universe level.' (C)PRI-INFO-TD (principle information tendencies) is crossed with ALT-F (alternative functionalism). Besides the main line to ALT-F, two branches leave the subject. INFO-DY (information dynamics) carries INFO-CON (information convergence) → IST-P. AFI (affinity insight) carries RE-ST (restructuralism) → SOC-RT (social reality), which branches to RT-INT-TR (reality initiative traits) and to FUND-DY (fundamental dynamics).",
+  "description": "Chart on book p. 156 (UPB(II)-18). PRI-INFO-TD is the subject, with the (C) prefix, \"the concept of\"; ALT-F (alternative functionalism) is the partner. From the subject: INFO-DY (information dynamics) and AFI (affinity insight). From INFO-DY: INFO-CON (information convergence). From AFI: RE-ST (restructuralism). From INFO-CON: IST-P. From RE-ST: SOC-RT (social reality). From SOC-RT: RT-INT-TR (reality initiative traits) and FUND-DYN (fundamental dynamics).",
   "terms": [
     {
       "termId": "pri-info-td",

@@ -6,7 +6,7 @@
   "subject": "info-f-d",
   "title": "INFO.F.D.------ALT.F.",
   "type": "crossing",
-  "description": "Diagram in WAC-35. INFO-F-D (information focus distortion) is crossed with ALT-F (alternative functionalism): a structurally pointed pairing — the question is what distortion-of-information-focus does to alternative functionalism. The path from INFO-F-D to ALT-F bends at SOC-RT (social reality): INFO-F-D → SOC-RT → ALT-F, with ALT-F branching to PRI-INFO (principle information). SOC-RT also branches to (C)STF (the *concept* of source transfer), from which a *dashed* edge runs to SPTC-D (spectacle diversion), and to INDIV-DY-RT (individual dynamic reality), which branches to SPT-AW (spiritual awareness) and, by a *dashed* edge, to IST-S-ALGN (isolated systematic alignment). Per Braxton's legend, a dotted line amplifies some aspect of the main concept it is connected to. Structural argument: information focus distortion crossed with alternative functionalism does not collapse the alternative — it routes through social reality into alternative functionalism and principle information *and* into individual dynamic reality and spiritual awareness.",
+  "description": "Chart on book p. 237 (WAC-35). INFO-F-D (information focus distortion) is the subject; ALT-F (alternative functionalism) is the partner. From the subject: SOC-RT (social reality). From ALT-F: PRI-INFO (principle information). From SOC-RT: ALT-F, STF (source transfer), with the (C) prefix, \"the concept of\", and INDIV-DY-RT (individual dynamic reality). SPTC-D (spectacle diversion) is on a dotted line from STF. From INDIV-DY-RT: SPT-AW (spiritual awareness). IST-S-ALGN (isolated systematic alignment) is on a dotted line from INDIV-DY-RT.",
   "terms": [
     {
       "termId": "info-f-d",

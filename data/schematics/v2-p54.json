@@ -6,7 +6,7 @@
   "subject": "mt-info",
   "title": "MT.INFO.------CULT.SOLD.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-32 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's structural verdict on the sixties: 'these people were no more equipped to deal with the transition which took place in the sixties than their parents were … nothing had changed anyway.' MT-INFO (multi-information) is crossed with CULT-SOLD (culture solidification): the question is what multi-information produces when crossed with culture-solidification — the structural failure of the sixties being precisely that multi-information arrived but no culture-solidification followed. Above the main line, DYM-F (dynamic functionalism) branches from the subject and leads to SCI-DYM (scientific dynamics) and on to FUND-P (fundamental particulars). Below it, VT-DY (vibrational dynamics) branches from the subject and carries VT-PT, which leads to DYM-SPT (dynamic spiritualism), and AF-TD (affinity tendencies), which leads to PROJ-DY (projectional dynamics).",
+  "description": "Chart on book p. 54 (SD(SY)-32). MT-INFO (multi-information) is the subject; CULT-SOLD (culture solidification) is the partner. From the subject: VT-DY (vibrational dynamics) and DYM-F (dynamic functionalism). From VT-DY: VT-PT (vibrational particulars) and AF-TD (affinity tendencies). From DYM-F: SCI-DYM (scientific dynamics). From VT-PT: DYM-SPT (dynamic spiritualism). From AF-TD: PROJ-DY (projectional dynamics). From SCI-DYM: FUND-P (fundamental particulars).",
   "terms": [
     { "termId": "mt-info", "isSubject": true },
     { "termId": "cult-sold" },

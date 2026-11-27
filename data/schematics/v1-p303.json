@@ -6,7 +6,7 @@
   "subject": "rt-int-tr",
   "title": "RT.INT.TR.------POL.P.",
   "type": "crossing",
-  "description": "Diagram in WI-19, the section where Braxton introduces the 'grand trade-off'. RT-INT-TR (reality initiative traits) is crossed with POL-P (political policies). Further branches from the main line lead to T-C-IMP (time continuum implications) → INFO-TRNS (information transference), to INFO-DOC (information documentation), and to DEF (definition). DEF branches to INFO-DE-B (information degree basis) and CN-INFO (controlled information); CN-INFO → AF-COMP (affinity compression) → AGT (agreement).",
+  "description": "Chart on book p. 303 (WI-19). RT-INT-TR (reality initiative traits) is the subject; POL-P (political policies) is the partner. From the subject: T-C-IMP (time continuum implications), DEF (definition) and INFO-DOC (information documentation). From T-C-IMP: INFO-TRNS (information transference). From DEF: INFO-DE-B (information degrees) and CN-INFO (controlled information). From CN-INFO: AF-COMP (affinity compression). From AF-COMP: AGT (agreement).",
   "terms": [
     { "termId": "rt-int-tr", "isSubject": true },
     { "termId": "t-c-imp" },

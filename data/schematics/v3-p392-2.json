@@ -6,7 +6,7 @@
   "subject": "afl",
   "title": "AFL.------VT.DY.",
   "type": "crossing",
-  "description": "Second diagram on page 392 (JR-14). The crossing diagrams how affinity-alignment structurally meets vibrational-dynamics: AFL crossed with VT-DY. AFL sits at left with the subject-arrow; VT-DY at center-right as partner-axis. MT-INFO (multi-information) upper-center, INFO-DY (information dynamics) upper-right, INVT-DT (investigation dictates) right. TM (terminology\u2014or terms of a definition), IST-F (isolated focus) right. CULT-AF-BS (culture affinity basis) lower-left, C-CONT (composite continuance) lower-left. TR (transformation) lower-left, IF-ST-DY (infra-structure dynamics) lower-center, PER-DY (perception dynamics) lower-center. Structural argument: the upper chain MT-INFO -> INFO-DY -> TM -> INVT-DT -> IST-F routes the form's affinity-alignment through information-dynamics into investigation-dictates. The lower-left chain CULT-AF-BS -> PER-DY -> IF-ST-DY and the TR line, which carries C-CONT, branch separately from the main line.",
+  "description": "Chart 2 of 2 on book p. 392 (JR-14). AFL (affinity alignment) is the subject; VT-DY (vibrational dynamics) is the partner. From the subject: MT-INFO (multi-information), CULT-AF-BS (culture affinity basis) and TR (transformation). From MT-INFO: INFO-DY (information dynamics). From CULT-AF-BS: PER-DY (perception dynamics). From TR: C-CONT (composite continuance). From INFO-DY: TM (terminology—or terms of a definition). From PER-DY: IF-ST-DY (infra-structure dynamics). From TM: INVT-DT (investigation dictates). From INVT-DT: IST-F (isolated focus).",
   "terms": [
     {
       "termId": "afl",

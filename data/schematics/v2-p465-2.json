@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.------IST.S.ALGN.",
   "type": "crossing",
-  "description": "Second diagram on page 465, paired with the IST-F × AFL-DY × AFI triple-crossing above. Where the first diagram shows the three-axis exclusion-of-no-one route, this one closes by structurally showing where the artist's structural-form has to land if the political-creativity relationship the prose names is to hold: (C)STF (the concept of source transfer) is crossed with IST-S-ALGN (isolated systematic alignment). STF sits at top-center with the subject-arrow; a single bent line runs down from it through PROG-CONT (progressional continuance), APP-RDEF (applied redefinitions) and IST-F (isolated focus), each at a bend, to IST-S-ALGN at the bottom-right as the partner-axis terminus. PROJ-CONT (projectional continuance) branches right from the STF–PROG-CONT stretch, so it reads from PROG-CONT; CUL-TF-S (cultural transfer shifts) and ALT-D (alternative definitions) branch right and left from the PROG-CONT–APP-RDEF stretch, so they read from APP-RDEF.",
+  "description": "Chart 2 of 2 on book p. 465 (MP(I)-39). STF (source transfer) is the subject, with the (C) prefix, \"the concept of\"; IST-S-ALGN (isolated systematic alignment) is the partner. From the subject: PROG-CONT (progressional continuance). From PROG-CONT: PROJ-CONT (projectional continuance) and APP-RDEF (applied redefinitions). From APP-RDEF: IST-F (isolated focus), ALT-D (alternative definitions) and CUL-TF-S (cultural transfer shifts). From IST-F: IST-S-ALGN.",
   "terms": [
     { "termId": "stf", "isSubject": true, "prefix": "c" },
     { "termId": "ist-s-algn" },

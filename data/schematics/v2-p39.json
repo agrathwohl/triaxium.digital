@@ -6,7 +6,7 @@
   "subject": "phy-u-fund",
   "title": "PHY.U.FUND.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-17 (Spectacle-Diversion Syndrome, Level One), opening Braxton's elaboration of 'the spectacle-diversion sequence of American progressionalism — involving what this phenomenon has posed for western affinity dynamics and expansion as well as creativity.' (C)PHY-U-FUND (physical universe fundamental) is crossed with C-CONT (composite continuance): the question is what the physical universe fundamental requires to produce composite continuance, when the culture's actual generative apparatus is spectacle-diversion. SPT-DYM (spiritual dynamics) branches from the main line and opens into S-PROJ (source projection). PRI-INFO (principle information) branches from the main line and opens into RE-ST (restructuralism) → RT-INT-TR (reality initiative traits). MT-INFO (multi-information) branches from the main line and opens into SCI-DYM (scientific dynamics) → ACT-T (actual terms).",
+  "description": "Chart on book p. 39 (SD(SY)-17). PHY-U-FUND (physical universe fundamental) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. From the subject: SPT-DYM (spiritual dynamics), PRI-INFO (principle information) and MT-INFO (multi-information). From SPT-DYM: S-PROJ (source projection). From PRI-INFO: RE-ST (restructuralism). From MT-INFO: SCI-DYM (scientific dynamics). From RE-ST: RT-INT-TR (reality initiative traits). From SCI-DYM: ACT-T (actual terms).",
   "terms": [
     { "termId": "phy-u-fund", "isSubject": true, "prefix": "c" },
     { "termId": "c-cont" },

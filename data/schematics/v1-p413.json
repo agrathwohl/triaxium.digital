@@ -6,7 +6,7 @@
   "subject": "pol-con",
   "title": "(R)POL.CON.------TR.",
   "type": "crossing",
-  "description": "Diagram in MID-W-7, one page before Braxton describes the AACM as 'a non-profit collective organization, chartered by the State of Illinois, formed solely for the purpose of creating a more meaningful environment for both the creative musician and the community.' (R)POL-CON (the reality of political consciousness) is crossed with TR (transformation). The structural pairing is direct: real political consciousness is what crosses with transformation. DYM-F (dynamic functionalism) branches from the main line and opens into INFO-CON (information convergence) and C-FO-ACT (composite focused activism). RT-OP (reality options) branches from the main line and opens into TH-AF-ALGN (thrust affinity alignment) → INTR (interpretation).",
+  "description": "Chart on book p. 413 (MID-W-7). POL-CON (political consciousness) is the subject, with the (R) prefix, \"the reality of\"; TR (transformation) is the partner. From the subject: DYM-F (dynamic functionalism) and RT-OP (reality options). From DYM-F: INFO-CON (information convergence) and C-FO-ACT (composite focused activism). From RT-OP: TH-AF-ALGN (thrust affinity alignment). From TH-AF-ALGN: INTR (interpretation).",
   "terms": [
     { "termId": "pol-con", "isSubject": true, "prefix": "r" },
     { "termId": "c-fo-act" },

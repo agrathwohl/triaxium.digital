@@ -6,7 +6,7 @@
   "subject": "p-prog",
   "title": "P.PROG.------MT.INFO.",
   "type": "crossing",
-  "description": "Second diagram on page 474 (TRF(II)-10), paired with PER.PHY.U.FUND × WO.EXP.PRI above. The crossing diagrams how particular-progressionalism structurally meets multi-information at the multi-factor-cyclic-shift scale: P-PROG (particular progressionalism) crossed with MT-INFO (multi-information). P-PROG sits at upper-right with the subject-arrow; MT-INFO sits at lower-left as partner-axis. SOC-RT-P (social-reality particular) branches right from the main line and carries RT-DY (reality dynamics). TRS (transition) runs left from the main line and carries POL-CON (political consciousness), which carries P-FC (particular focus). AF-DY (affinity dynamics) drops from the main line and carries AFI (affinity insight) and LK-IMP (linkage implications); LK-IMP carries RE-DOC (redocumentation) and PRI-INFO (principle information), which carries RE-ST (restructuralism).",
+  "description": "Chart 2 of 2 on book p. 474 (TRF(II)-10). P-PROG (particular progressionalism) is the subject; MT-INFO (multi-information) is the partner. From the subject: SOC-RT-P (social reality particular), TRS (transition) and AF-DY (affinity dynamics). From SOC-RT-P: RT-DY (reality dynamics). From TRS: POL-CON (political consciousness). From AF-DY: AFI (affinity insight) and LK-IMP (linkage implications). From POL-CON: P-FC (particular focus). From LK-IMP: RE-DOC (redocumentation) and PRI-INFO (principle information). From PRI-INFO: RE-ST (restructuralism).",
   "terms": [
     { "termId": "p-prog", "isSubject": true },
     { "termId": "mt-info" },

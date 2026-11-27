@@ -6,7 +6,7 @@
   "subject": "re-st",
   "title": "RE.ST.------TRS.",
   "type": "crossing",
-  "description": "Diagram in WAC-14, paired with v1-p216-1. (C)RE-ST (restructuralism — Braxton's term he prefers over 'innovation') is crossed with TRS (transition). The diagram poses what restructuralism's relationship to transition actually requires structurally — situated against Braxton's WAC-6 remark that restructuralism 'is the word I use instead of innovation since innovation does not semantically give enough emphasis on the progressive route of a given information readaptation.' Besides the main line to TRS, two branches leave the subject: PROG-CONT (progressional continuance) and ALT-ACT (alternative activism). ALT-ACT carries INFO-AF-B (information affinity basis) and AFI (affinity insight). INFO-AF-B branches to IST-S-ALGN (isolated systematic alignment) and to INTR (interpretation) → AFTF (affinity transfer). AFI branches to INDIV-TD (individual tendencies) and SPT-DY (spiritual dynamics).",
+  "description": "Chart 2 of 2 on book p. 216 (WAC-14). RE-ST (restructuralism) is the subject, with the (C) prefix, \"the concept of\"; TRS (transition) is the partner. From the subject: PROG-CONT (progressional continuance) and ALT-ACT (alternative activism). From ALT-ACT: AFI (affinity insight) and INFO-AF-B (information affinity basis). From AFI: SPT-DY (spiritual dynamics) and INDIV-TD (individual tendencies). From INFO-AF-B: IST-S-ALGN (isolated systematic alignment) and INTR (interpretation). From INTR: AFTF (affinity transfer).",
   "terms": [
     { "termId": "re-st", "isSubject": true, "prefix": "c" },
     { "termId": "trs" },

@@ -6,7 +6,7 @@
   "subject": "ist-f",
   "title": "(R)IST.F.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in NYM-26, paired with v1-p392-1. (R)IST-F — the reality of isolated focus — is crossed with MT-INFO (multi-information). Besides the main line to MT-INFO, two lines leave the subject. One runs to CULT-INFO-B (culture information basis), from which branch INFO-F (information focus) and DYM-F (dynamic functionalism) → MTH (methodology) → P-FC (particular focus). The other runs to INTL (intellectualism), from which branch CR-INFO-DY (circular information dynamics) and IST-S-ALGN (isolated systematic alignment).",
+  "description": "Chart 2 of 2 on book p. 392 (NYM-26). IST-F (isolated focus) is the subject, with the (R) prefix, \"the reality of\"; MT-INFO (multi-information) is the partner. From the subject: INTL (intellectualism) and CULT-INFO-B (culture information basis). From INTL: CR-INFO-DY (circular information dynamics) and IST-S-ALGN (isolated systematic alignment). From CULT-INFO-B: DYM-F (dynamic functionalism) and INFO-F (information focus). From DYM-F: MTH (methodology). From MTH: P-FC (particular focus).",
   "terms": [
     { "termId": "ist-f", "isSubject": true, "prefix": "r" },
     { "termId": "dym-f" },

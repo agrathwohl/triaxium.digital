@@ -6,7 +6,7 @@
   "subject": "afi",
   "title": "AFI.------EXP.INFO.B.",
   "type": "crossing",
-  "description": "Second diagram on page 500 (TRF(II)-36), paired with SPT-DY × AF-POST above. The crossing diagrams how affinity-insight structurally meets expansion-information-basis at the alternative-spiritual-affinity-alignment scale the prior diagram named: AFI (affinity insight) crossed with EXP-INFO-B (expansion information basis). AFI sits at center-left with the subject-arrow; EXP-INFO-B sits at center-right as partner-axis. TR (transformation) rises from the main line to the upper right and carries OP-SD (option spread), which carries SOC-RT-DY (social-reality dynamics). SPT-DY (spiritual dynamics) drops from the main line to the lower right and carries IST-S-ALGN (isolated systematic alignment), which carries MT-INFO (multi-information). (R)TM (the reality of terminology, or terms of a definition) drops from the main line to the lower left and carries CULT-AF-B (culture affinity basis), which carries POST (postulation).",
+  "description": "Chart 2 of 2 on book p. 500 (TRF(II)-36). AFI (affinity insight) is the subject; EXP-INFO-B (expansion information basis) is the partner. From the subject: TM (terminology—or terms of a definition), with the (R) prefix, \"the reality of\", TR (transformation) and SPT-DY (spiritual dynamics). From TM: CULT-AF-B (culture affinity basis). From TR: OP-SD (option spread). From SPT-DY: IST-S-ALGN (isolated systematic alignment). From CULT-AF-B: POST (postulation). From OP-SD: SOC-RT-DY (social reality dynamics). From IST-S-ALGN: MT-INFO (multi-information).",
   "terms": [
     { "termId": "afi", "isSubject": true },
     { "termId": "exp-info-b" },

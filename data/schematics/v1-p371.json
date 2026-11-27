@@ -6,7 +6,7 @@
   "subject": "info-intr",
   "title": "(R)INFO.INTR.------TRS.",
   "type": "crossing",
-  "description": "Diagram in NYM-5. (R)INFO-INTR — the *reality* of information interpretation — is crossed with TRS (transition). The diagram poses what real interpretation requires when crossed with the transition the post-Ayler movement was undergoing. Besides the main line to TRS (the crossing), three lines leave the subject. PRI-INFO (principle information) → AFL-DY (affinity dynamics) → INT (intention). POL-DYM (political dynamics) → SOC-RT-P (social reality particulars) → PROG-SIGN (progressional significance). MTA-IMP (meta-implications) → MTA-RT-SIGN (meta-reality significance) → C-CONT (composite continuance).",
+  "description": "Chart on book p. 371 (NYM-5). INFO-INTR (information interpretation) is the subject, with the (R) prefix, \"the reality of\"; TRS (transition) is the partner. From the subject: PRI-INFO (principle information), MTA-IMP (meta-implications) and POL-DYM (political dynamics). From PRI-INFO: AFL-DY (affinity dynamics). From MTA-IMP: MTA-RT-SIGN (meta-reality significance). From POL-DYM: SOC-RT-P (social reality particular). From AFL-DY: INT (intention). From MTA-RT-SIGN: C-CONT (composite continuance). From SOC-RT-P: PROG-SIGN (progressional significance).",
   "terms": [
     { "termId": "info-intr", "isSubject": true, "prefix": "r" },
     { "termId": "int" },

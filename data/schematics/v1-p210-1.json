@@ -6,7 +6,7 @@
   "subject": "ext-ft",
   "title": "EXT.F.------PROG.SIGN.",
   "type": "crossing",
-  "description": "Diagram in the Western Art Continuance section (WAC-8). In WAC-4 Braxton argues that 'the dissolution of the composite reality of western art music coincides with the composite factors reshaping the total planet situation.' (C)EXT-F (extended functionalism) is crossed with PROG-SIGN (progressional significance): the question is what extended functionalism's significance is for progression, given that Berg, Schoenberg, and Webern each made the technique mean different things. Besides the main line to PROG-SIGN, the subject carries TRS (transition) and ALT-F (alternative functionalism). ALT-F carries SOC-RT (social reality) → POL-DY (political dynamics), which branches to INFO-DS (information dissemination) and to a second ALT-F; that ALT-F carries PRI-INFO (principle information) → AF-TD (affinity tendencies).",
+  "description": "Chart 1 of 2 on book p. 210 (WAC-8). EXT-FT (extended functionalism) is the subject, with the (C) prefix, \"the concept of\"; PROG-SIGN (progressional significance) is the partner. The title names EXT-F (extended functionalism); the chart has no label for it. From the subject: ALT-F (alternative functionalism) and TRS (transition). From ALT-F: SOC-RT (social reality). From SOC-RT: POL-DYM (political dynamics). From POL-DYM: ALT-F-2 (alternative functionalism) and INFO-DS (information dissemination). From ALT-F-2: PRI-INFO (principle information). From PRI-INFO: AFTD (affinity tendencies).",
   "terms": [
     {
       "termId": "ext-ft",

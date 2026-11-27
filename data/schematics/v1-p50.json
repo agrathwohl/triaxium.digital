@@ -6,7 +6,7 @@
   "subject": "info-trns",
   "title": "INFO.TRNS.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in WM-26, the page where Braxton declares that 'the progressional actualness of a given creative manifestation transcends the particulars of any one empirical criterion, and as such the whole subject of musicology has to be dealt with very delicately.' INFO-TRNS (information transference) is *crossed* — (c) prefix, the concept of — with SOC-RT (social reality), the central claim being that what gets transmitted as 'information' about world creativity is structurally entangled with the social-reality position of the transmitting culture. Besides the main line, three branches radiate from INFO-TRNS: into MT-DI (multi-dimensional/ism), which carries EXT-FT (extended functionalism) with a dashed link to OP-DY (option dynamics), and a dashed link to MTH (methodology); into TR (transformation) → A-PR (all-purpose), with a dashed link to SPT-AW (spiritual awareness) → CI; and into CULT-AF-BS (culture affinity basis) → POL-DYM (political dynamics), with a dashed link to PAFT.",
+  "description": "Chart on book p. 50 (WM-26). INFO-TRNS (information transference) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: MT-DI (multi-dimensional), TR (transformation) and CULT-AF-BS (culture affinity basis). From MT-DI: EXT-FT (extended functionalism). MTH (methodology) is on a dotted line from MT-DI. From TR: A-PR (all-purpose). From CULT-AF-BS: POL-DYM (political dynamics). OP-DY is on a dotted line from EXT-FT. SPT-AW (spiritual awareness) is on a dotted line from A-PR. PAFT is on a dotted line from POL-DYM. From SPT-AW: CI.",
   "terms": [
     {
       "termId": "info-trns",

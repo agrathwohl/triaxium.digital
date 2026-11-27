@@ -6,7 +6,7 @@
   "subject": "post",
   "title": "(R)POST.------MTH.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-19. (R)POST — the reality of postulation — is crossed with MTH (methodology). Embedded in the part of the section where Braxton discusses the source-transfer implications of black creativity. The diagram poses: when postulation's *reality* (not its concept) is crossed with methodology, what is the structural chain? POST branches to DYM-F (dynamic functionalism) → C-AF-ALGN (composite affinity alignment) → PART (participation). Besides the main line POST → MTH, a second line runs POST → CRTF-D (cross-transfer definitions) → T-C-IMP (time continuum implications), and T-C-IMP branches to INFO-AF-B (information affinity basis) and to WO-EXP-PRI (world expansion principle) → ALT-F (alternative functionalism) → AF-NT (affinity nature). The structural claim: real postulation reaches methodology directly, while information-affinity-basis is reached only via cross-transfer definitions and time continuum implications.",
+  "description": "Chart 1 of 2 on book p. 115 (T(AF)M-19). POST (postulation) is the subject, with the (R) prefix, \"the reality of\"; MTH (methodology) is the partner. From the subject: DYM-F (dynamic functionalism) and CRTF-D (cross-transfer definitions). From DYM-F: C-AF-ALGN (composite affinity alignment). From CRTF-D: T-C-IMP (time continuum implications). From C-AF-ALGN: PART (participation). From T-C-IMP: INFO-AF-B (information affinity basis) and WO-EXP-PRI (world expansion principle). From WO-EXP-PRI: ALT-F (alternative functionalism). From ALT-F: AF-NT (affinity nature).",
   "terms": [
     { "termId": "post", "isSubject": true, "prefix": "r" },
     { "termId": "mth" },

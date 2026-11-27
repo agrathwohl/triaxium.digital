@@ -6,7 +6,7 @@
   "subject": "cult-af-bs",
   "title": "CULT.AF.BS.------INFO.DY.",
   "type": "crossing",
-  "description": "Second diagram on page 387, paired with C-CULT-AT × RT-DY above: CULT-AF-BS (culture affinity basis) is crossed with INFO-DY (information dynamics — what touring/booking *as exposure* would do for the form). CULT-AF-BS is subject on the left with the subject-arrow, and its main line runs down-right to INFO-DY. Three lines leave the main line: a vertical drops to VT-PLT (vibrational platform), with SPT-PLT branching from it to the lower left and V-SY (value system) to the lower right; one rises up-right to MT-INFO (multi-information), with TR-INFO (trans-information) branching from it to the upper right and EXP-DY (expansion dynamics) branching in turn from TR-INFO; and a second vertical drops to WO-EXP-PRI (world expansion principle), with COS-AGN (cosmic assignment) branching from it to the lower right.",
+  "description": "Chart 2 of 2 on book p. 387 (R(AS)CM(II)-31). CULT-AF-BS (culture affinity basis) is the subject; INFO-DY (information dynamics) is the partner. From the subject: MT-INFO (multi-information), VT-PLT (vibrational platform) and WO-EXP-PRI (world expansion principle). From MT-INFO: TR-INFO (trans-information). From VT-PLT: SPT-PLT and V-SY (value system). From WO-EXP-PRI: COS-AGN (cosmic assignment). From TR-INFO: EXP-DY (expansion dynamics).",
   "terms": [
     { "termId": "cult-af-bs", "isSubject": true },
     { "termId": "info-dy" },

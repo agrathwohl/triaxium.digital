@@ -6,7 +6,7 @@
   "subject": "th-cont",
   "title": "TH.CONT.------(R)TH.CONT.",
   "type": "crossing",
-  "description": "Diagram in CMBA-7, on the page where Braxton lists several degrees of extended functionalism and accelerated dynamics. (C)TH-CONT — the *concept* of thrust continuance — is crossed with (R)TH-CONT — the *reality* of thrust continuance: a uniquely self-referential crossing where the same term appears with both prefixes, forcing the reader to ask what thrust-continuance-as-concept and thrust-continuance-as-real actually look like together. The main line carries T-C-IMP (time continuum implications) at a junction: (C)TH-CONT → T-C-IMP → (R)TH-CONT. T-C-IMP branches to C-CONT (composite continuance) and PROJ-DY (projectional dynamics); (R)TH-CONT branches to AFI (affinity insight) and INFO-DE-B (information degree basis). PROJ-DY branches to INFO-DE (information degrees) and to AFL-DY (affinity dynamics) → LK-IMP (linkage implications).",
+  "description": "Chart on book p. 251 (CMBA-7). TH-CONT (thrust continuance) is the subject, with the (C) prefix, \"the concept of\". From the subject: T-C-IMP (time continuum implications). From T-C-IMP: TH-CONT-2 (thrust continuance), with the (R) prefix, \"the reality of\", PROJ-DY (projectional dynamics) and C-CONT (composite continuance). From TH-CONT-2: INFO-DE-B (information degrees) and AFI (affinity insight). From PROJ-DY: INFO-DE (information degrees) and AFL-DY (affinity dynamics). From AFL-DY: LK-IMP (linkage implications).",
   "terms": [
     {
       "termId": "th-cont",

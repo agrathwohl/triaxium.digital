@@ -6,7 +6,7 @@
   "subject": "info-dy",
   "title": "INFO.DY.------ATTN.",
   "type": "crossing",
-  "description": "Diagram in R(AS)CM(II)-22, the section on how television, articles, and university courses positively educate listeners about classical music — and the *absence* of equivalent positive-media-involvement for alternative creativity. The prose immediately above names what the crossing diagrams: 'Only with this type of positive media involvement can anyone expect to really increase awareness of alternative creativity.' The crossing diagrams what information-dynamics actually crosses with when attraction is the working partner: INFO-DY (information dynamics — the form's own information output) is crossed with ATTN (attraction). INFO-DY sits at the upper-right with the subject-arrow, and its main line runs down-left to ATTN. Three lines leave the main line: one runs left to ACT (activism), with ACC-DY (accelerated dynamics) rising from it; one runs right to VT-DY (vibrational dynamics), with COS-P (cosmic particulars) branching from it and INDIV-TD (individual tendencies) branching in turn from COS-P; and one drops straight down to C-INFO (composite information), with AFI (affinity insight) and SPT-DY (spiritual dynamics) branching from it.",
+  "description": "Chart on book p. 378 (R(AS)CM(II)-22). INFO-DY (information dynamics) is the subject; ATTN (attraction) is the partner. From the subject: VT-DY (vibrational dynamics), ACT (activism) and C-INFO (composite information). From VT-DY: COS-P (cosmic particulars). From ACT: ACC-DY (accelerated dynamics). From C-INFO: AFI (affinity insight) and SPT-DY (spiritual dynamics). From COS-P: INDIV-TD (individual tendencies).",
   "terms": [
     { "termId": "info-dy", "isSubject": true },
     { "termId": "attn" },

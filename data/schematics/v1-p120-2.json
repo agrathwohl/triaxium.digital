@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "POL.DYM.------PROG.CONT.",
   "type": "crossing",
-  "description": "Diagram in T(AF)M-24, paired with v1-p120-1. POL-DYM (political dynamics) is crossed with PROG-CONT (progressional continuance): what does it mean to make political dynamics *continuous* with the progressional thrust of black creativity, rather than letting political dynamics merely *interrupt* progressional flow? POL-DYM branches to DE-SPTL (despiritualization) → EXT-FT (extended functionalism) → INFO-AF-B (information affinity basis) → INTL (intellectualism) → MOT-DYM. Besides the main line to PROG-CONT, POL-DYM runs to T-C-IMP (time continuum implications) → COS-P (cosmic particulars) → AF-NT (affinity nature) → SOC-RT-P (social reality particulars).",
+  "description": "Chart 2 of 2 on book p. 120 (T(AF)M-24). POL-DYM (political dynamics) is the subject; PROG-CONT (progressional continuance) is the partner. From the subject: DE-SPTL (despiritualization) and T-C-IMP (time continuum implications). From DE-SPTL: EXT-FT (extended functionalism). From T-C-IMP: COS-P (cosmic particulars). From EXT-FT: INFO-AF-B (information affinity basis). From COS-P: AF-NT (affinity nature). From INFO-AF-B: INTL (intellectualism). From AF-NT: SOC-RT-P (social reality particular). From INTL: MOT-DYM.",
   "terms": [
     {
       "termId": "pol-dym",

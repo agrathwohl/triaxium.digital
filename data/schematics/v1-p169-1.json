@@ -6,7 +6,7 @@
   "subject": "tf-sh",
   "title": "TF.SH.------PRI.INFO.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-31, the first of three on book p169. (C)TF-SH (transfer shift) is crossed with PRI-INFO (principle information). Besides the main line to PRI-INFO, two branches leave the subject: TR (transformation), and T-C-IMP (time continuum implications), which carries MT-INFO (multi-information). MT-INFO branches to COS-P (cosmic particulars) and to ATTN (attraction). COS-P carries CULT-AF-BS (culture affinity basis) → APP-RDEF (applied redefinitions) → POL-P (political policies). ATTN carries TRS (transition) → PHY-U-P (physical universe particular).",
+  "description": "Chart 1 of 3 on book p. 169 (UPB(II)-31). TF-SH (transfer shifts) is the subject, with the (C) prefix, \"the concept of\"; PRI-INFO (principle information) is the partner. From the subject: TR (transformation) and T-C-IMP (time continuum implications). From T-C-IMP: MT-INFO (multi-information). From MT-INFO: COS-P (cosmic particulars) and ATTN (attraction). From COS-P: CULT-AF-BS (culture affinity basis). From ATTN: TRS (transition). From CULT-AF-BS: APP-RDEF (applied redefinitions). From TRS: PHY-U-P (physical universe particular). From APP-RDEF: POL-P (political policies).",
   "terms": [
     { "termId": "tf-sh", "isSubject": true, "prefix": "c" },
     { "termId": "pri-info" },

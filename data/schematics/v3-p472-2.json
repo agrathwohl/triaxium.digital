@@ -6,7 +6,7 @@
   "subject": "act-tr",
   "title": "ACT.TR.------EXPN.",
   "type": "crossing",
-  "description": "Second diagram on page 472 (TRF(II)-8), paired with EXPN x PROG-CONT above. The crossing diagrams how actual-transformation structurally meets EXPN at the political-and-social-dynamics scale: ACT-TR (actual transformation) crossed with EXPN. ACT-TR sits at lower-center with the subject-arrow; EXPN at upper-center as partner-axis. WO-UNF (world unification) upper-left, SPT-GH (spiritual growth) upper-center, TRS (transition) upper-right. PROG-CONT (progressional continuance) right. SPT-GH hangs from an unlabeled line off the main line and carries WO-UNF. TRS rises from the main line and carries PROG-CONT and STF (source transfer); STF carries C-INFO (composite information), which carries T-C-IMP (time continuum implications), which carries SG (source initiation). The lower-left line from the main line passes RT-ALGN (reality alignment) on its way to PHY-U-C (physical-universe context); SOC-RT-DEV (social-reality development) branches from it at RT-ALGN and carries SOC-PR (social programs).",
+  "description": "Chart 2 of 2 on book p. 472 (TRF(II)-8). ACT-TR (actual transformation) is the subject; EXPN is the partner. From the subject: TRS (transition), SPT-GH (spiritual growth) and RT-ALGN (reality alignment). From TRS: PROG-CONT (progressional continuance) and STF (source transfer). From SPT-GH: WO-UNF (world unification). From RT-ALGN: PHY-U-C (physical universe context) and SOC-RT-DEV. From STF: C-INFO (composite information). From SOC-RT-DEV: SOC-PR (social programs). From C-INFO: T-C-IMP (time continuum implications). From T-C-IMP: SG (source initiation).",
   "terms": [
     {
       "termId": "act-tr",

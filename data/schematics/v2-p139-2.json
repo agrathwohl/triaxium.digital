@@ -6,7 +6,7 @@
   "subject": "c-fo-act",
   "title": "C.FO.ACT.----- TR.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-27, second of two on book p139, paired with v2-p139-1. C-FO-ACT (composite focused activism) is crossed with TR (transformation): the question is what composite focused activism produces when crossed with transformation, in the same context where the spectacle-diversion is operative as the progressional platform. WO-UNF (world unification) branches from the main line and carries C-ACT (composite activism), from whose line HI-P (high purpose) rises and leads to C-HM (composite humanity). EXP-DY (expansion dynamics) branches from the main line and carries ECO-DY (economic dynamics) and FUND-DY (fundamental dynamics), which leads to IF-SPT (infra-spirituality). OBS (observation) branches from the main line and carries MT-INFO (multi-information) and AF-POST (affinity postulation), which leads to APL-DT (application dictates) and on to AFI (affinity insight).",
+  "description": "Chart 2 of 2 on book p. 139 (AE(PD)-27). C-FO-ACT (composite focused activism) is the subject; TR (transformation) is the partner. From the subject: WO-UNF (world unification), EXP-DYM (expansion dynamics) and OBS (observation). From WO-UNF: C-ACT (composite activism). From EXP-DYM: ECO-DYM (economic dynamics) and FUND-DYN (fundamental dynamics). From OBS: MT-INFO (multi-information) and AF-POST (affinity postulation). From C-ACT: HI-P (high purpose). From FUND-DYN: IF-SPT (infra-spirituality). From AF-POST: APL-DT (application dictates). From HI-P: C-HM (composite humanity). From APL-DT: AFI (affinity insight).",
   "terms": [
     { "termId": "c-fo-act", "isSubject": true },
     { "termId": "tr" },

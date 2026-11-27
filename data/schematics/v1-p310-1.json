@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.------PRI.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-26, the first of two on book p310. (C)STF (source transfer) is crossed with PRI-INFO (principle information). The diagram poses what source transfer requires when crossed with principle information. STF → PRI-INFO (the crossing). STF also branches to T-C-IMP (time continuum implications) → AFL-DY (affinity dynamics) → LK-IMP (linkage implications); LK-IMP branches to MT-INFO (multi-information) and to AF-CON (affinity convergence) → POL-DYM (political dynamics) → TM (terminology—or terms of a definition). A third branch runs STF → CULT-SOLD (culture solidification) → RE-ST (restructuralism) → IST-F (isolated focus).",
+  "description": "Chart 1 of 2 on book p. 310 (WI-26). STF (source transfer) is the subject, with the (C) prefix, \"the concept of\"; PRI-INFO (principle information) is the partner. From the subject: CULT-SOLD (culture solidification) and T-C-IMP (time continuum implications). From CULT-SOLD: RE-ST (restructuralism). From T-C-IMP: AFL-DY (affinity dynamics). From RE-ST: IST-F (isolated focus). From AFL-DY: LK-IMP (linkage implications). From LK-IMP: MT-INFO (multi-information) and AF-CON (affinity convergence). From AF-CON: POL-DYM (political dynamics). From POL-DYM: TM (terminology—or terms of a definition).",
   "terms": [
     { "termId": "stf", "isSubject": true, "prefix": "c" },
     { "termId": "pri-info" },

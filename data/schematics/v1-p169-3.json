@@ -6,7 +6,7 @@
   "subject": "dym-f",
   "title": "DYM.F.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-31, the third on book p169. DYM-F (dynamic functionalism) is crossed with MT-INFO (multi-information). Besides the main line to MT-INFO, three branches leave the subject: CUL-INFO-F (culture information focus), IST-F-ACT (isolated focus activism), and AF-DY (affinity dynamics). AF-DY carries POST (postulation), which carries CO-FO-ACT (composite focused activism). CO-FO-ACT branches to PR-TRS and to BSCF (basic science, or basic scientific functionalism), and BSCF carries (R)POST (the reality of postulation).",
+  "description": "Chart 3 of 3 on book p. 169 (UPB(II)-31). DYM-F (dynamic functionalism) is the subject; MT-INFO (multi-information) is the partner. From the subject: IST-F-ACT, AFL-DY (affinity dynamics) and CUL-INFO-F. From AFL-DY: POST-2 (postulation). From POST-2: CO-FO-ACT. From CO-FO-ACT: BSCF (basic scientific functionalism) and PR-TRS. From BSCF: POST (postulation), with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "dym-f",

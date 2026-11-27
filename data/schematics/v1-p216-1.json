@@ -6,7 +6,7 @@
   "subject": "ist-pt",
   "title": "IST.PT.------INFO.DS.",
   "type": "crossing",
-  "description": "Diagram in WAC-14, one page after the passage where Varèse appears as the first to call for electronic instruments. In WAC-22 Braxton argues that 'no real understanding of transitional western art music can take place unless the composite reality of its extension is taken into account.' (C)IST-PT (isolated particulars) is crossed with INFO-DS (information dissemination): the diagram poses what isolated-particulars (Varèse's electronic instruments, etc.) actually do when they enter the dissemination apparatus of a culture. Besides the main line to INFO-DS, three branches leave the subject. ALT-D (alternative definitions) carries AFN (affinity negation), which branches to APP-RDEF (applied redefinitions) and ACC-F (accelerated functionalism). DYM-F (dynamic functionalism) carries CRTF-D (cross-transfer definitions). AF-COMP (affinity compression) carries MN-DI (mono-dimensional) → IST-F-ACT (isolated focus activism).",
+  "description": "Chart 1 of 2 on book p. 216 (WAC-14). IST-PT (isolated particulars) is the subject, with the (C) prefix, \"the concept of\"; INFO-DS (information dissemination) is the partner. From the subject: ALT-D (alternative definitions), DYM-F (dynamic functionalism) and AF-COMP (affinity compression). From ALT-D: AFN (affinity negation). From DYM-F: CRTF-D (cross-transfer definitions). From AF-COMP: MN-DI (mono-dimensional). From AFN: APP-RDEF (applied redefinitions) and ACC-FT (accelerated functionalism). From MN-DI: IST-F-ACT.",
   "terms": [
     {
       "termId": "ist-pt",

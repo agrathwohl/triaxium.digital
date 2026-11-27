@@ -6,7 +6,7 @@
   "subject": "re-st",
   "title": "RE.ST.------PRIN.INFO.",
   "type": "crossing",
-  "description": "Diagram in CMBA-19, embedded in Braxton's argument about Coltrane's late-fifties activity and the move into source-transfer extension via modal forms. (C)RE-ST (restructuralism) is crossed with PRI-INFO (principle information): the question is what restructuralism does to principle information in a context where modal forms are reorganizing what counts as primary informational ground. RE-ST branches to INT (intention), which carries UNF-PI (unification positively intended/world unification) and CN-INFO (controlled information) → AF-COMP (affinity compression). RE-ST also branches to SOC-RT-DY (social reality dynamics), which carries IST-F-AT (isolated focus activism) → INTR (interpretation), and CULT-AF-BS (culture affinity basis) → MT-INFO (multi-information) → a second AF-COMP.",
+  "description": "Chart on book p. 263 (CMBA-19). RE-ST (restructuralism) is the subject, with the (C) prefix, \"the concept of\". The title names PRIN-INFO; the chart has no label for it. From the subject: PRI-INFO (principle information), INT (intention) and SOC-RT-DY (social reality dynamics). From INT: UNF-PI (unification (positively intended)) and CN-INFO (controlled information). From SOC-RT-DY: IST-F-AT (isolated focus activism) and CULT-AF-BS (culture affinity basis). From CN-INFO: AF-COMP (affinity compression). From IST-F-AT: INTR (interpretation). From CULT-AF-BS: MT-INFO (multi-information). From MT-INFO: AF-COMP-2 (affinity compression).",
   "terms": [
     {
       "termId": "re-st",

@@ -6,7 +6,7 @@
   "subject": "vt-dy",
   "title": "VT.DY.-----DIS.C.CT.",
   "type": "crossing",
-  "description": "First of two diagrams in MP(II)-11. The crossing diagrams how vibrational-dynamics structurally meets disintegration of a culture's center. VT-DY (vibrational dynamics — what the form's actual vibrational working consists of) is crossed with DIS-C-CT (disintegration of a culture's center). VT-DY sits on the left with the subject-arrow; TR rises from the main line, EXP-DY (expansion dynamics) branches from the TR line to the upper-right, and T-C-IMP (time continuum implications) branches from the EXP-DY line. INFO-COMP (information compression) branches from the main line out to the right margin, AFN (affinity negation) branches from the INFO-COMP line, and IF-SPT (infra-spirituality) from the AFN line. POL-DY (political dynamics) branches from the main line to the center-left; PART (participation) drops from the POL-DY line, ECO-DYM (economic dynamics) branches from the PART line, and POL-P (political policies) from the ECO-DYM line.",
+  "description": "Chart 1 of 2 on book p. 493 (MP(II)-11). VT-DY (vibrational dynamics) is the subject; DIS-C-CT (disintegration of a culture’s center) is the partner. From the subject: TR (transformation), POL-DY (political dynamics) and INFO-COMP (information compression). From TR: EXP-DY (expansion dynamics). From POL-DY: PART (participation). From INFO-COMP: AFN (affinity negation). From EXP-DY: T-C-IMP (time continuum implications). From PART: ECO-DYM (economic dynamics). From AFN: IF-SPT (infra-spirituality). From ECO-DYM: POL-P (political policies).",
   "terms": [
     { "termId": "vt-dy", "isSubject": true },
     { "termId": "dis-c-ct" },

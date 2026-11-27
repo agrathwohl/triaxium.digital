@@ -6,7 +6,7 @@
   "subject": "acc-dy",
   "title": "ACC.DY.------INFO.F.",
   "type": "crossing",
-  "description": "Diagram in R(AS)CM(II)-50 — the section transitioning into the Decentralization argument. The prose immediately above identifies the structural object: 'the relationship between creative musicians and their community must be viewed as important.' The crossing diagrams what accelerated-dynamics meets when it tries to reach the form-of-information that musician-community relationship would carry: ACC-DY (accelerated dynamics) is crossed with INFO-F (information focus). ACC-DY sits on the left with the subject-arrow, and its main line runs straight right to INFO-F. Three lines leave the main line: one rises to AFI-1 (affinity insight, first degree), with SPT-DY (spiritual dynamics) branching from it and TR (transformation) and HI-P (high purpose) branching in turn from SPT-DY; one runs down-left to LG-DY (logical dynamics), with MTA-RT-SIGN (meta-reality significance) and LANG-D branching from it; and one runs down-right to INDIV-DY (individual dynamics), with MOT-DY branching from it.",
+  "description": "Chart on book p. 406 (R(AS)CM(II)-50). ACC-DY (accelerated dynamics) is the subject; INFO-F (information focus) is the partner. From the subject: AFI-1 (affinity insight—first degree), LG-DY (logical dynamics) and INDIV-DY (individual dynamics). From AFI-1: SPT-DY (spiritual dynamics). From LG-DY: MTA-RT-SIGN (meta-reality significance) and LANG-D. From INDIV-DY: MOT-DY. From SPT-DY: TR (transformation) and HI-P (high purpose).",
   "terms": [
     { "termId": "acc-dy", "isSubject": true },
     { "termId": "info-f" },

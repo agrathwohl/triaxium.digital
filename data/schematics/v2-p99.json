@@ -6,7 +6,7 @@
   "subject": "per-phy-u-find",
   "title": "PER.PHY.U.FUND.------TRS.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-27 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'the over-balance of information from the western perceived affinity alignment (taught without regard for its progressional significance — source initiation) must be viewed as a negative factor for positive transformation.' (C)PER-PHY-U-FIND (so drawn at the arrow; the title reads PER.PHY.U.FUND., perceived physical universe fundamental) is crossed with TRS (transition): the question is what the subject produces when crossed with transition — perceived being the load-bearing qualifier. LANG-DY (language dynamics) branches from the main line. INFO-CO also branches from the main line and carries two chains: T-C-IMP (time continuum implications) to GRAD (gradualism) to IST-F-ACT (isolated focus activism), and IF-SPT (infra-spirituality), which carries WO-MTH (world methodology) and A-PR (all-purpose).",
+  "description": "Chart on book p. 99 ((AF)D-27). PER-PHY-U-FIND is the subject, with the (C) prefix, \"the concept of\"; TRS (transition) is the partner. The title names PER-PHY-U-FUND (perceived physical universe fundamental); the chart has no label for it. From the subject: LANG-DY (language dynamics) and INFO-CO. From INFO-CO: T-C-IMP (time continuum implications) and IF-SPT (infra-spirituality). From T-C-IMP: GRAD (gradualism). From IF-SPT: WO-MTH (world methodology) and A-PR (all-purpose). From GRAD: IST-F-ACT.",
   "terms": [
     { "termId": "per-phy-u-find", "isSubject": true, "prefix": "c" },
     { "termId": "trs" },

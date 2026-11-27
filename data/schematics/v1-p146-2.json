@@ -6,7 +6,7 @@
   "subject": "tr-info",
   "title": "(R)TR.INFO.------PROJ.DY.",
   "type": "crossing",
-  "description": "Diagram in UPB(II)-8, paired with v1-p146-1. (R)TR-INFO — the reality of trans-information — is crossed with PROJ-DY (projectional dynamics). The diagram poses what *real* trans-information (as distinct from any specific transmitted content) looks like when crossed with projectional dynamics. Besides the main line to PROJ-DY, two branches leave the subject. RT-INT-TR (reality initiative traits) carries POL-P (political policies), which branches to LANG-DY (language dynamics) and to SOC-RT-DY (social reality dynamics) → POST (postulation). UPB (underlying philosophical basis) carries T-C-IMP (time continuum implications) → WO-EXP-PRI (world expansion principle).",
+  "description": "Chart 2 of 2 on book p. 146 (UPB(II)-8). TR-INFO (trans-information) is the subject, with the (R) prefix, \"the reality of\"; PROJ-DY (projectional dynamics) is the partner. From the subject: RT-INT-TR (reality initiative traits) and UPB (underlying philosophical basis). From RT-INT-TR: POL-P (political policies). From UPB: T-C-IMP (time continuum implications). From POL-P: LANG-DY (language dynamics) and SOC-RT-DY (social reality dynamics). From T-C-IMP: WO-EXP-PRI (world expansion principle). From SOC-RT-DY: POST (postulation).",
   "terms": [
     { "termId": "tr-info", "isSubject": true, "prefix": "r" },
     { "termId": "proj-dy" },

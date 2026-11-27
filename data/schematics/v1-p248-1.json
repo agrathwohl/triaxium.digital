@@ -6,7 +6,7 @@
   "subject": "rt-op",
   "title": "RT.OP.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in the Creative Music From the Black Aesthetic section (CMBA-4). (C)RT-OP (reality options) is crossed with SOC-RT (social reality): the question is what reality-options actually look like for post-Parker black creative musicians when crossed with the social-reality of mid-century America. RT-OP outputs to SOC-RT (the crossing), SPT-GH (spiritual growth), PROG-CONT (progressional continuance) → TRS (transition), and PART (participation). PART carries INDIV-DY (individual dynamics) → POST (postulation), which branches to SF-RZ (self-realization) and SPT-DYM (spiritual dynamics).",
+  "description": "Chart 1 of 2 on book p. 248 (CMBA-4). RT-OP (reality options) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: SPT-GH (spiritual growth), PROG-CONT (progressional continuance) and PART (participation). From PROG-CONT: TRS (transition). From PART: INDIV-DY (individual dynamics). From INDIV-DY: POST (postulation). From POST: SF-RZ (self-realization) and SPT-DYM (spiritual dynamics).",
   "terms": [
     { "termId": "rt-op", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt" },

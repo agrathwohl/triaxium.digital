@@ -6,7 +6,7 @@
   "subject": "extn",
   "title": "EXTN.----PR.TRS.",
   "type": "crossing",
-  "description": "Diagram in T(IMP)M-11. The prose above identifies the structural target: 'creative music from the black aesthetic has reached the next time cycle for source transfer: that is, the thrust progression of creative music from the black aesthetic is subjected to source transfer every fifteen to twenty years.' The crossing diagrams how existentialism structurally meets PR-TRS at the source-transfer cycle scale: EXTN crossed with PR-TRS. EXTN sits at lower-left with the subject-arrow; PR-TRS at upper-center as partner-axis. AF-COMP (affinity compression), IST-F (isolated focus) upper-left. ALT-F (alternative functionalism), RES-RT (responsibility ratio) on the upper-right. AFI(2) (affinity insight, second degree) center-left. RT-INT-TR (reality initiative traits), GRAD (gradualism) lower-right. ACC-DY (accelerated dynamics) lower-center, INFO-DY (information dynamics) lower-right.",
+  "description": "Chart on book p. 213 (T(IMP)M-11). EXTN (existentialism) is the subject; PR-TRS is the partner. From the subject: AFI-2 (affinity insight—second degree) and ALT-F (alternative functionalism). From AFI-2: AF-COMP (affinity compression). From ALT-F: ACC-DY (accelerated dynamics). From AF-COMP: IST-F (isolated focus). From ACC-DY: RT-INT-TR (reality initiative traits). From RT-INT-TR: RES-RT (responsibility ratio) and INFO-DY (information dynamics). From INFO-DY: GRAD (gradualism).",
   "terms": [
     {
       "termId": "extn",

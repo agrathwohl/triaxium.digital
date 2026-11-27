@@ -6,7 +6,7 @@
   "subject": "si",
   "title": "SI.------RT.OP.",
   "type": "tree",
-  "description": "Diagram in NYM-26, the first of two on book p392. (C)SI (the concept of source initiation) → PROG-CONT (progressional continuance) → (C)RT-ALGN (the concept of reality alignment). RT-ALGN branches into RT-OP (reality options) and (R)PART (real participation); (R)STY (the reality of style) branches from the PART line. RT-OP has a *dashed* edge to SOC-RT (social reality). Structural argument: this is Braxton's diagrammatic specification of how source initiation, *as a concept*, propagates through progressional continuance into the conceptual reality alignment, which then branches into reality options and real participation, with real style branching from participation. In Braxton's legend the dotted line from reality-options to social-reality amplifies some aspect of the main concept it is connected to.",
+  "description": "Chart 1 of 2 on book p. 392 (NYM-26). SI (source initiation) is the subject, with the (C) prefix, \"the concept of\"; RT-OP (reality options) is the partner. From the subject: PROG-CONT (progressional continuance). SOC-RT (social reality) is on a dotted line from RT-OP. From PROG-CONT: RT-ALGN (reality alignment), with the (C) prefix, \"the concept of\". From RT-ALGN: RT-OP and PART (participation), with the (R) prefix, \"the reality of\". From PART: STY (style), with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "si",

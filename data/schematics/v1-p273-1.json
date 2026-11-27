@@ -6,7 +6,7 @@
   "subject": "c-act",
   "title": "C.ACT.------DYM.F.",
   "type": "crossing",
-  "description": "Diagram in CMBA-29, the first on book p273. (C)C-ACT (composite activism) is crossed with DYM-F (dynamic functionalism). The diagram is densely populated with prefixed nodes — (R)INDIV-TD (the reality of individual tendencies), (R)LANG (the reality of language), (P)RE-DIF (the point of idea completion of redefinitions). C-ACT outputs to DYM-F (the crossing) and MT-INFO (multi-information). MT-INFO branches to C-CONT (composite continuance) and (R)INDIV-TD. C-CONT leads to TR (transformation) → SOC-RT-P (social reality particulars). (R)INDIV-TD branches to INFO-F (information focus) and ALT-F (alternative functionalism); ALT-F branches to GRAD (gradualism) and (R)LANG, and (R)LANG to (P)RE-DIF.",
+  "description": "Chart 1 of 2 on book p. 273 (CMBA-29). C-ACT (composite activism) is the subject, with the (C) prefix, \"the concept of\"; DYM-F (dynamic functionalism) is the partner. From the subject: MT-INFO (multi-information). From MT-INFO: C-CONT (composite continuance) and INDIV-TD (individual tendencies), with the (R) prefix, \"the reality of\". From C-CONT: TR (transformation). From INDIV-TD: INFO-F (information focus) and ALT-F (alternative functionalism). From TR: SOC-RT-P (social reality particular). From ALT-F: GRAD (gradualism) and LANG (language), with the (R) prefix, \"the reality of\". From LANG: RE-DIF (redefinitions), with the (P) prefix, \"point of idea completion\".",
   "terms": [
     {
       "termId": "c-act",

@@ -6,7 +6,7 @@
   "subject": "c-fo-act",
   "title": "C.FO.ACT.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in NYM-30. C-FO-ACT (composite focused activism) is crossed with SOC-RT (social reality) — what does post-Ayler composite focused activism do to social reality? Besides the main line to SOC-RT (the crossing), one line leaves the subject, to POL-DYM (political dynamics). From the POL-DYM line branch ALT-F (alternative functionalism) → DEC (decentralization), and DYM-F (dynamic functionalism), from whose line hang LK-IMP (linkage implications), TRS (transition) and CULT-INFO-B (culture information basis).",
+  "description": "Chart on book p. 396 (NYM-30). C-FO-ACT (composite focused activism) is the subject; SOC-RT (social reality) is the partner. From the subject: POL-DYM (political dynamics). From POL-DYM: DYM-F (dynamic functionalism) and ALT-F (alternative functionalism). From DYM-F: TRS (transition), CULT-INFO-B (culture information basis) and LK-IMP (linkage implications). From ALT-F: DEC (decentralization).",
   "terms": [
     {
       "termId": "c-fo-act",

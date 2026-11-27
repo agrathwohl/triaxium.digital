@@ -6,7 +6,7 @@
   "subject": "stf",
   "title": "STF.------POL.DY.",
   "type": "crossing",
-  "description": "Second diagram on page 430, paired with (R)SG × TR above: (C)STF (the concept of source transfer) crossed with POL-DY (political dynamics — the working political reality of that activism). (C)STF sits at the center with the subject-arrow, and its main line runs up-left to the partner, drawn as POL-DYM. Two lines leave the main line. One runs right to TM (terminology—or terms of a definition), with INT (intention) rising from it and AF-NT (affinity nature) branching from it down-right; CN-INFO (controlled information) and SOC-RT-P (social-reality-particular) branch from AF-NT's line, and ALT-F (alternative functionalism) branches in turn from SOC-RT-P. The other drops as a vertical to MT-INFO (multi-information) at the bottom-left, with TRS (transition) running right from it and ALT-D (alternative definitions) rising from TRS's line.",
+  "description": "Chart 2 of 2 on book p. 430 (MP(I)-4). STF (source transfer) is the subject, with the (C) prefix, \"the concept of\". The title names POL-DY (political dynamics); the chart has no label for it. From the subject: POL-DYM (political dynamics), TM (terminology—or terms of a definition) and MT-INFO (multi-information). From TM: INT (intention) and AF-NT (affinity nature). From MT-INFO: TRS (transition). From AF-NT: CN-INFO (controlled information) and SOC-RT-P (social reality particular). From TRS: ALT-D (alternative definitions). From SOC-RT-P: ALT-F (alternative functionalism).",
   "terms": [
     { "termId": "stf", "isSubject": true, "prefix": "c" },
     { "termId": "pol-dym" },

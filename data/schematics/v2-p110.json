@@ -6,7 +6,7 @@
   "subject": "ist-f",
   "title": "IST.F.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-38 (Affinity Dynamics, Level One) accompanying Braxton's claim that 'in the final analysis, all of these concepts do translate on the physical universe level — which is to say, our actual lives are related to what has happened from the distortion of true information.' (C)IST-F (the concept of isolated focus) is crossed with SOC-RT (social reality): the question is what isolated-focus produces when crossed with social-reality — when distortion has made isolated-focus an isolated, controlled phenomenon. AFL (affinity alignment) branches from the main line and leads to CULT-INFO-DY (culture-information dynamics), then to POL-DYM (political dynamics) and on to POST (postulation). INFO-ALGN (information alignment) also branches from the main line and leads to IF-ST-DY (infra-structure dynamics), which carries INTR (interpretation).",
+  "description": "Chart on book p. 110 ((AF)D-38). IST-F (isolated focus) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: AFL (affinity alignment) and INFO-ALGN (information alignment). From AFL: CULT-INFO-DY (culture information dynamics). From INFO-ALGN: IF-ST-DY (infra-structure dynamics). From CULT-INFO-DY: POL-DYM (political dynamics). From IF-ST-DY: INTR (interpretation). From POL-DYM: POST (postulation).",
   "terms": [
     { "termId": "ist-f", "isSubject": true, "prefix": "c" },
     { "termId": "soc-rt" },

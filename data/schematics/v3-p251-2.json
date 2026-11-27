@@ -6,7 +6,7 @@
   "subject": "soc-rt",
   "title": "SOC.RT.------POL.P.",
   "type": "crossing",
-  "description": "Second diagram on page 251 (PR.S(RD)II-5), paired with CULT-AF-B x POL-P above. The crossing diagrams how social-reality structurally meets political-policies: SOC-RT crossed with POL-P. SOC-RT sits at left with the subject-arrow; POL-P at center-right as partner-axis. SOC-RT-P (social-reality particular) branches up from the main line; it carries RT-ALGN (reality alignment), which carries CULT-SOLD (culture solidification), and TRS (transition), which carries T-C-IMP (time continuum implications), which carries STF (source transfer). IF-ST-DY (infra-structure dynamics) branches down to the right and carries EXP-DY (expansion dynamics) and PART (participation), which carries INFO-COMP (information compression). INFO-ALGN (information alignment) branches down to the left and carries VT-PLT (vibrational platform), which carries CN-INFO (controlled information) and VT-SY.",
+  "description": "Chart 2 of 2 on book p. 251 (PR.S(RD)II-5). SOC-RT (social reality) is the subject; POL-P (political policies) is the partner. From the subject: INFO-ALGN (information alignment), SOC-RT-P (social reality particular) and IF-ST-DY (infra-structure dynamics). From INFO-ALGN: VT-PLT (vibrational platform). From SOC-RT-P: TRS (transition) and RT-ALGN (reality alignment). From IF-ST-DY: EXP-DY (expansion dynamics) and PART (participation). From VT-PLT: CN-INFO (controlled information) and VT-SY. From TRS: T-C-IMP (time continuum implications). From RT-ALGN: CULT-SOLD (culture solidification). From PART: INFO-COMP (information compression). From T-C-IMP: STF (source transfer).",
   "terms": [
     {
       "termId": "soc-rt",

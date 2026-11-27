@@ -6,7 +6,7 @@
   "subject": "if-st-dy",
   "title": "IF.ST.DY.------PART.",
   "type": "crossing",
-  "description": "Second diagram on page 493, paired with VT-DY × DIS-C-CT above. IF-ST-DY (infra-structure dynamics) is crossed with PART (participation). IF-ST-DY sits at top-center with the subject-arrow, and the main line runs straight down from it; INFO-DY (information dynamics) branches from the main line to the upper-left, AFI (affinity insight) branches from the INFO-DY line, and ACT (activism) from the AFI line. TRS (transition) branches from the main line near its lower end out to the left; PROG-CONT (progressional continuance) branches from the TRS line to the far-left, and TR-INFO (trans-information) from the PROG-CONT line. SOC-RT (social reality) branches from the main line to the right margin, RT-IMP (reality implications) branches from the SOC-RT line to the lower-right, and CN-INFO (controlled information) from the RT-IMP line. PART sits at the bottom-center as partner-axis terminus.",
+  "description": "Chart 2 of 2 on book p. 493 (MP(II)-11). IF-ST-DY (infra-structure dynamics) is the subject; PART (participation) is the partner. From the subject: INFO-DY (information dynamics), SOC-RT (social reality) and TRS (transition). From INFO-DY: AFI (affinity insight). From SOC-RT: RT-IMP (reality implications). From TRS: PROG-CONT (progressional continuance). From AFI: ACT (activism). From RT-IMP: CN-INFO (controlled information). From PROG-CONT: TR-INFO (trans-information).",
   "terms": [
     { "termId": "if-st-dy", "isSubject": true },
     { "termId": "part" },

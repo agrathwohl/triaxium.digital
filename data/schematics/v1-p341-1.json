@@ -6,7 +6,7 @@
   "subject": "bia",
   "title": "BIA.------AFI.",
   "type": "crossing",
-  "description": "Diagram in PCC-25, the first of two on book p341, where Braxton specifies the AFI(1) and AFI(2) bifurcation in diagram form. (C)BIA (the *concept* of bi-aitional, the masculine/feminine dual-principle structure) is crossed with AFI (affinity insight). The diagram contains all three AFI nodes — AFI, AFI-1, AFI-2 — making the affinity-insight bifurcation diagrammatic. The main line bends at (R)C-INFO (the reality of composite information): BIA → (R)C-INFO → AFI. AFI has a *dashed* edge to AFI-2 (the second-degree affinity insight), and AFI-2 → SOC-RT (social reality). AFI also has a dashed edge to AFI-1 (the first-degree affinity insight), and AFI-1 → PR-TRS. ACT (activism) and DYM-F (dynamic functionalism) branch from the C-INFO → AFI stretch, and COS-P (cosmic particulars) branches from DYM-F. C-INFO also → PROG-CONT (progressional continuance) → (R)ATTN (the reality of attraction).",
+  "description": "Chart 1 of 2 on book p. 341 (PCC-25). BIA (bi-aitional) is the subject, with the (C) prefix, \"the concept of\"; AFI (affinity insight) is the partner. From the subject: C-INFO (composite information), with the (R) prefix, \"the reality of\". From AFI: ACT (activism) and DYM-F (dynamic functionalism). AFI-2 (affinity insight—second degree) is on a dotted line from AFI. AFI-1 (affinity insight—first degree) is on a dotted line from AFI. From C-INFO: PROG-CONT (progressional continuance) and AFI. From AFI-2: SOC-RT (social reality). From DYM-F: COS-P (cosmic particulars). From AFI-1: PR-TRS. From PROG-CONT: ATTN (attraction), with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "bia",

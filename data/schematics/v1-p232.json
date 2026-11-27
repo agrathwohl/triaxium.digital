@@ -6,7 +6,7 @@
   "subject": "alt-c-pg",
   "title": "ALT.C.PG.------SOC.RT.",
   "type": "crossing",
-  "description": "Diagram in WAC-30. (C)ALT-C-PG (alternative composite progressionalism) is crossed with SOC-RT (social reality): the question is what alternative-composite-progressionalism does once it enters social reality — the structural shape of the Euro-American intervention. ALT-C-PG outputs to SOC-RT (the crossing). ALT-C-PG also branches to DYM-F (dynamic functionalism) and to ALT-F (alternative functionalism). ALT-F then carries EXP-DYM (expansion dynamics), which branches to RT-DY (reality dynamics), to TR (transformation) → PROG-EXT-FT (progressional extended functionalism), and by a *dashed* edge to LK-IMP (linkage implications); a *dashed* edge also runs from TR → TH-CONT (thrust continuance). Per Braxton's legend, a dotted line amplifies some aspect of the main concept it is connected to. Structural argument: alternative composite progressionalism reaches transformation only via the alternative-functionalism → expansion-dynamics chain, with progressional extended functionalism as terminal output.",
+  "description": "Chart on book p. 232 (WAC-30). ALT-C-PG (alternative composite progressionalism) is the subject, with the (C) prefix, \"the concept of\"; SOC-RT (social reality) is the partner. From the subject: DYM-F (dynamic functionalism) and ALT-F (alternative functionalism). From ALT-F: EXP-DYM (expansion dynamics). From EXP-DYM: RT-DY (reality dynamics) and TR (transformation). LK-IMP (linkage implications) is on a dotted line from EXP-DYM. From TR: PROG-EXT-FT (progressional extended functionalism). TH-CONT (thrust continuance) is on a dotted line from TR.",
   "terms": [
     {
       "termId": "alt-c-pg",

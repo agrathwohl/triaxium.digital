@@ -6,7 +6,7 @@
   "subject": "af-con",
   "title": "AF.CON.------RE.ST.",
   "type": "crossing",
-  "description": "Diagram in WAC-27, the third on book p229. (C)AF-CON (affinity convergence) is crossed with RE-ST (restructuralism). Embedded in the Euro-American discussion: when affinity-convergence (the bringing-together of disparate affinity tendencies under one project) is crossed with restructuralism, what's the resulting structural shape? AF-CON outputs to RE-ST (the crossing) and to INFO-DY (information dynamics) → LANG-DY (language dynamics). LANG-DY branches to LG-EXT (logical extension) → POST (postulation), and to AFL-DT (affinity dictates) → IF-ST-DY (infra-structure dynamics) → PROG-CONT (progressional continuance) → SOC-RT-INTR (social reality interpretation) → INFO-DE (information degrees).",
+  "description": "Chart 3 of 3 on book p. 229 (WAC-27). AF-CON (affinity convergence) is the subject, with the (C) prefix, \"the concept of\"; RE-ST (restructuralism) is the partner. From the subject: INFO-DY (information dynamics). From INFO-DY: LANG-DY (language dynamics). From LANG-DY: LG-EXT (logical extension) and AFL-DT (affinity dictates). From LG-EXT: POST (postulation). From AFL-DT: IF-ST-DY (infra-structure dynamics). From IF-ST-DY: PROG-CONT (progressional continuance). From PROG-CONT: SOC-RT-INTR (social reality interpretation). From SOC-RT-INTR: INFO-DE (information degrees).",
   "terms": [
     {
       "termId": "af-con",

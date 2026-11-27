@@ -6,7 +6,7 @@
   "subject": "grad",
   "title": "GRAD. ------ INFO.DY.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-16, second of three on book p128, paired with v2-p128-1 and v2-p128-3. Continues Braxton's diagnostic of expansion conditions: gradualism considered as a *concept* (the (c) prefix) against information-dynamics. (C)GRAD (the concept of gradualism) is crossed with INFO-DY (information dynamics): the question is what gradualism produces when crossed with information-dynamics. CR-INFO-DY (circular information dynamics) branches from the main line and carries two chains: IST-F (isolated focus), which carries CRTF-D (cross-transfer definitions) and CRT (criticism), and DYM-SEP (dynamic separation), which leads to INT (intention). INFO-DY is the partner. INFO-TRNS (information transference) also branches from the main line and leads to INFO-AF-B (information-affinity basis), then to IF-ST-DY (infra-structure dynamics) and on to APP-RDEF (applied redefinitions).",
+  "description": "Chart 2 of 3 on book p. 128 (AE(PD)-16). GRAD (gradualism) is the subject, with the (C) prefix, \"the concept of\"; INFO-DY (information dynamics) is the partner. From the subject: CR-INFO-DY (circular information dynamics) and INFO-TRNS (information transference). From CR-INFO-DY: DYM-SEP (dynamic separation) and IST-F (isolated focus). From INFO-TRNS: INFO-AF-B (information affinity basis). From DYM-SEP: INT (intention). From IST-F: CRT (criticism) and CRTF-D (cross-transfer definitions). From INFO-AF-B: IF-ST-DY (infra-structure dynamics). From IF-ST-DY: APP-RDEF (applied redefinitions).",
   "terms": [
     { "termId": "grad", "isSubject": true, "prefix": "c" },
     { "termId": "info-dy" },

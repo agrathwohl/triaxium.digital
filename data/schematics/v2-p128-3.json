@@ -6,7 +6,7 @@
   "subject": "p-fc",
   "title": "P.FC.------PHY.U.P.",
   "type": "crossing",
-  "description": "Diagram in AE(PD)-16, third of three on book p128, paired with v2-p128-1 and v2-p128-2. Closes Braxton's triple-presentation. (C)P-FC (the concept of particular focus) is crossed with PHY-U-P (physical universe particulars): the question is what particular-focus produces when crossed with physical-universe-particulars — closing the activism-conditions argument by routing through physical-universe ground. PHY-U-P is the partner. AF-DY (affinity dynamics) branches from the main line and carries LANG (language). RT-ALGN (reality alignment) also branches from the main line and carries two chains: VT-DY (vibrational dynamics) to INFO-DS (information dissemination), and INTR (interpretation), which carries V-SY (value system) and AF-NT (affinity-nature), with IST-F (isolated focus) on AF-NT.",
+  "description": "Chart 3 of 3 on book p. 128 (AE(PD)-16). P-FC (particular focus) is the subject, with the (C) prefix, \"the concept of\"; PHY-U-P (physical universe particular) is the partner. From the subject: AF-DY (affinity dynamics) and RT-ALGN (reality alignment). From AF-DY: LANG (language). From RT-ALGN: VT-DY (vibrational dynamics) and INTR (interpretation). From VT-DY: INFO-DS (information dissemination). From INTR: V-SY (value system) and AF-NT (affinity nature). From AF-NT: IST-F (isolated focus).",
   "terms": [
     { "termId": "p-fc", "isSubject": true, "prefix": "c" },
     { "termId": "phy-u-p" },

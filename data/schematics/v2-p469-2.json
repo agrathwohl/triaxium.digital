@@ -6,7 +6,7 @@
   "subject": "proj-dy",
   "title": "PROJ.DY.------PR.INT.",
   "type": "crossing",
-  "description": "Second diagram on page 469, paired with OP-SPD × POL-P above. Where the first diagram shows the structural shape of western-art-music's always-already-there funding, this one names what projectional-dynamics meets when it actually goes out into the world without that funding: PROJ-DY (projectional dynamics) crossed with PR-INT (the primary intention). PROJ-DY sits on the left with the subject-arrow; its main line runs right to PR-INT, the partner-axis. (R)OBS (the reality of observation) rises from the main line, with INFO-DY (information dynamics) branching from OBS's line and AF-DY (affinity dynamics) from INFO-DY's line. T-C-IMP (time continuum implications) branches from the main line near PR-INT, with RT-DY (reality dynamics) branching from T-C-IMP's line and MOT-DY from RT-DY's line. SPT-DY (spiritual dynamics) drops from the main line to the bottom-center, with AFI (affinity insight) branching from SPT-DY's line and PRI-AF-TD (primary affinity tendencies) from AFI's line.",
+  "description": "Chart 2 of 2 on book p. 469 (MP(I)-43). PROJ-DY (projectional dynamics) is the subject; PR-INT (primary intention) is the partner. From the subject: SPT-DY (spiritual dynamics), OBS (observation), with the (R) prefix, \"the reality of\", and T-C-IMP (time continuum implications). From SPT-DY: AFI (affinity insight). From OBS: INFO-DY (information dynamics). From T-C-IMP: RT-DY (reality dynamics). From AFI: PRI-AF-TD (primary affinity tendencies). From INFO-DY: AF-DY (affinity dynamics). From RT-DY: MOT-DY.",
   "terms": [
     { "termId": "proj-dy", "isSubject": true },
     { "termId": "pr-int" },

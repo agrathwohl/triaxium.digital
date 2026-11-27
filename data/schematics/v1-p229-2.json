@@ -6,7 +6,7 @@
   "subject": "doc",
   "title": "DOC.------(R)INFO.TRNS.",
   "type": "crossing",
-  "description": "Diagram in WAC-27, the second on book p229. (C)DOC — the *concept* of documentation — is crossed with (R)INFO-TRNS — the *reality* of information transference. The (c) on documentation and the (r) on information-transference are deliberately paired: Braxton is asking what the concept of documentation actually does to the reality of information transference. DOC outputs to PROJ-DY (projectional dynamics), INFO-TRNS (the crossing), and POL-DYM (political dynamics). POL-DYM branches to MT-INFO (multi-information), which carries two chains: SOC-RT (social reality) → GRAD (gradualism), and AFL-DY (affinity dynamics) → EXT-FT (extended functionalism) → PR-TRS → (R)MPT (the reality of manipulation). Structural argument: the concept of documentation reaches multi-information and social reality only via political dynamics.",
+  "description": "Chart 2 of 3 on book p. 229 (WAC-27). DOC (documentation) is the subject, with the (C) prefix, \"the concept of\"; INFO-TRNS (information transference) is the partner, with the (R) prefix, \"the reality of\". From the subject: PROJ-DY (projectional dynamics) and POL-DYM (political dynamics). From POL-DYM: MT-INFO (multi-information). From MT-INFO: SOC-RT (social reality) and AFL-DY (affinity dynamics). From SOC-RT: GRAD (gradualism). From AFL-DY: EXT-FT (extended functionalism). From EXT-FT: PR-TRS. From PR-TRS: MPT (manipulation), with the (R) prefix, \"the reality of\".",
   "terms": [
     {
       "termId": "doc",

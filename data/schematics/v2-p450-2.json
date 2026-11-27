@@ -6,7 +6,7 @@
   "subject": "dym-ft",
   "title": "DYM.FT.------C.FO.ACT.",
   "type": "crossing",
-  "description": "Second diagram on page 450, paired with INFO-DY × ALT-FT above. This one crosses DYM-FT (dynamic functionalism — what alternative form *does* in working motion) with C-FO-ACT (composite focused activism). DYM-FT sits on the left with the subject-arrow; SCI-DY (scientific dynamics) rises above as the subject's upward output, with METH branching from it. INFO-DY hangs below DYM-FT as the subject's working hub: IST-F (isolated focus) branches left from it and MT-INFO (multi-information) branches down-right, with DEF (definition) branching from MT-INFO to the right margin. C-FO-ACT sits at the lower end of the main line as partner. CULT-SOLD (culture solidification) rises from the main line to the upper-right; RT-ALGN (reality alignment) branches from CULT-SOLD, and PART (participation) rises from RT-ALGN to the upper-right.",
+  "description": "Chart 2 of 2 on book p. 450 (MP(I)-24). DYM-FT (dynamic functionalism) is the subject; C-FO-ACT (composite focused activism) is the partner. From the subject: SCI-DY (scientific dynamics), INFO-DY (information dynamics) and CULT-SOLD (culture solidification). From SCI-DY: METH. From INFO-DY: MT-INFO (multi-information) and IST-F (isolated focus). From CULT-SOLD: RT-ALGN (reality alignment). From MT-INFO: DEF (definition). From RT-ALGN: PART (participation).",
   "terms": [
     { "termId": "dym-ft", "isSubject": true },
     { "termId": "c-fo-act" },

@@ -6,7 +6,7 @@
   "subject": "aftf",
   "title": "AFI.TF.------STF.",
   "type": "crossing",
-  "description": "Diagram in CMBA-20, the second on book p264. (C)AFTF (affinity transfer) is crossed with STF (source transfer). AFTF outputs to STF (the crossing) and MT-INFO (multi-information). A further branch from the main line leads to (P)TRS (the point of idea completion of transition). MT-INFO then leads to AFI-DY, which branches to ASP-ES (aspect essence); ASP-ES in turn branches to PROJ-DY (projectional dynamics). ASP-ES has a *dashed* edge to (R)INT (the reality of intention).",
+  "description": "Chart 2 of 3 on book p. 264 (CMBA-20). AFTF (affinity transfer) is the subject, with the (C) prefix, \"the concept of\"; STF (source transfer) is the partner. The title names AFI-TF; the chart has no label for it. From the subject: TRS (transition), with the (P) prefix, \"point of idea completion\", and MT-INFO (multi-information). From MT-INFO: AFI-DY. From AFI-DY: ASP-ES (aspect essence). From ASP-ES: PROJ-DY (projectional dynamics). INT (intention), with the (R) prefix, \"the reality of\", is on a dotted line from ASP-ES.",
   "terms": [
     {
       "termId": "aftf",

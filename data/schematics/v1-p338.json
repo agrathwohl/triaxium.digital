@@ -6,7 +6,7 @@
   "subject": "if-st-dy",
   "title": "IF.ST.DY.------C.CONT.",
   "type": "crossing",
-  "description": "Diagram in PCC-22. (C)IF-ST-DY (infra-structure dynamics) is crossed with C-CONT (composite continuance): the question is what infrastructure dynamics looks like when crossed with composite continuance. IF-ST-DY → C-CONT (the crossing). STF (source transfer) and CULT-AF-BS (culture affinity basis) branch from the main line. Two lines branch from CULT-AF-BS. One runs to INFO-DY (information dynamics), from which POST (postulation) branches. The other runs to MT-DEVF (multiple diversification), which branches to (R)MTH (the reality of methodology), with IST-F (isolated focus) branching from (R)MTH, and to SOC-RT-DY (social reality dynamics), from which LANG-DY (language dynamics) branches.",
+  "description": "Chart on book p. 338 (PCC-22). IF-ST-DY (infra-structure dynamics) is the subject, with the (C) prefix, \"the concept of\"; C-CONT (composite continuance) is the partner. From the subject: STF (source transfer) and CULT-AF-BS (culture affinity basis). From CULT-AF-BS: INFO-DY (information dynamics) and MT-DEVF (multiple diversification). From INFO-DY: POST (postulation). From MT-DEVF: MTH (methodology), with the (R) prefix, \"the reality of\", and SOC-RT-DY (social reality dynamics). From MTH: IST-F (isolated focus). From SOC-RT-DY: LANG-DY (language dynamics).",
   "terms": [
     {
       "termId": "if-st-dy",

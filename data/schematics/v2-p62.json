@@ -6,7 +6,7 @@
   "subject": "v-sy",
   "title": "V.SY.------POL.DY.",
   "type": "crossing",
-  "description": "Diagram in SD(SY)-40 (Spectacle-Diversion Syndrome, Level One) accompanying Braxton's analysis of media as the gatekeeper of alternative considerations: 'as long as western culture can give the illusion that western information principles are valid when applied to any offering from the world group aesthetic, this practice will continue.' V-SY (the value system) is crossed with POL-DY (political dynamics): the question is what value-system produces when crossed with political-dynamics, where political-dynamics is the gatekeeping function executed by media. INFO-INTR (information interpretation) branches from the main line and carries MOT-DY. DY-F (dynamic functionalism) also branches from the main line and carries RT-ALGN (reality alignment) and POL-P (political policies), which leads to PART (participation) and on to RT-OP (reality options).",
+  "description": "Chart on book p. 62 (SD(SY)-40). V-SY (value system) is the subject; POL-DY (political dynamics) is the partner. From the subject: INFO-INTR (information interpretation) and DY-F (dynamic functionalism). From INFO-INTR: MOT-DY. From DY-F: RT-ALGN (reality alignment) and POL-P (political policies). From POL-P: PART (participation). From PART: RT-OP (reality options).",
   "terms": [
     { "termId": "v-sy", "isSubject": true },
     { "termId": "pol-dy" },

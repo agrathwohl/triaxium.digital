@@ -6,7 +6,7 @@
   "subject": "pol-dym",
   "title": "(R)POL.DYM.------TRS.",
   "type": "crossing",
-  "description": "Diagram in MID-W-3, paired with v1-p409-1. (R)POL-DYM (the reality of political dynamics) is crossed with TRS (transition). ALT-F (alternative functionalism) branches from the main line; CUL-TF-S (cultural transfer shifts) branches from ALT-F and opens into RE-ST (restructuralism), and GRAD (gradualism) branches from ALT-F and opens into DOC (documentation). DEC (decentralization) branches from the main line and opens into MT-TFS-AT (multi-transfer-shift activity).",
+  "description": "Chart 2 of 2 on book p. 409 (MID-W-3). POL-DYM (political dynamics) is the subject, with the (R) prefix, \"the reality of\"; TRS (transition) is the partner. From the subject: ALT-F (alternative functionalism) and DEC (decentralization). From ALT-F: CUL-TF-S (cultural transfer shifts) and GRAD (gradualism). From DEC: MT-TFS-AT (multi-transfer shift activity). From CUL-TF-S: RE-ST (restructuralism). From GRAD: DOC (documentation).",
   "terms": [
     { "termId": "pol-dym", "isSubject": true, "prefix": "r" },
     { "termId": "re-st" },

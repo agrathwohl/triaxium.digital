@@ -6,7 +6,7 @@
   "subject": "rt-int-tr",
   "title": "RT.INT.TR.------TRS.",
   "type": "crossing",
-  "description": "Diagram in NYM-19. (C)RT-INT-TR (reality initiative traits) is crossed with TRS (transition). Besides the main line to TRS (the crossing), lines run from the subject to LG-DISA (logical dissolution), POST (postulation) and AFTD (affinity tendencies). LG-DISA → CULT-INFO-B (culture information basis). From AFTD branch ACC-FT (accelerated functionalism) → INDIV-DY (individual dynamics), and IF-ST-DY (infra-structure dynamics) → JR-DYM (journalism dynamics) → LK-IMP (linkage implications).",
+  "description": "Chart on book p. 385 (NYM-19). RT-INT-TR (reality initiative traits) is the subject, with the (C) prefix, \"the concept of\"; TRS (transition) is the partner. From the subject: LG-DISA (logical dissolution), POST (postulation) and AFTD (affinity tendencies). From LG-DISA: CULT-INFO-B (culture information basis). From AFTD: ACC-FT (accelerated functionalism) and IF-ST-DY (infra-structure dynamics). From ACC-FT: INDIV-DY (individual dynamics). From IF-ST-DY: JR-DYM (journalism dynamics). From JR-DYM: LK-IMP (linkage implications).",
   "terms": [
     { "termId": "rt-int-tr", "isSubject": true, "prefix": "c" },
     { "termId": "lg-disa" },

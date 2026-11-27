@@ -6,7 +6,7 @@
   "subject": "pri-info",
   "title": "PRI.INFO.------LK.IMP.",
   "type": "crossing",
-  "description": "Second diagram on page 512, paired with VT-U-PT × POST above. This one names the structural condition under which principle-information actually carries linkage-implication into political functionalism: PRI-INFO (principle information — the form's working informational frame) crossed with LK-IMP (linkage implications — what the form's principles structurally link to). PRI-INFO sits centrally with the subject-arrow, its label written 'prin.info.'; the main line rises straight from it to LK-IMP; (PO)STF (point of source transfer) branches from LK-IMP's dot to the upper-left, and TH-CONT (thrust continuance) branches from the main line to the upper-right. LK-IMP sits centrally above as partner-axis. OP-SPD (option spread) branches from the TH-CONT line down to the right; TH-AFF-ALGN (thrust affinity alignment) drops from the OP-SPD line to the bottom-center, and RT-INT-TR (reality initiative traits) branches from the OP-SPD line to the right.",
+  "description": "Chart 2 of 2 on book p. 512 (MP(II)-30). PRI-INFO (principle information) is the subject; LK-IMP (linkage implications) is the partner. From the subject: TH-CONT (thrust continuance). From LK-IMP: STF (source transfer), with the (PO) prefix, \"point of\". From TH-CONT: OP-SPD (option spread). From OP-SPD: TH-AFF-ALGN and RT-INT-TR (reality initiative traits).",
   "terms": [
     { "termId": "pri-info", "isSubject": true },
     { "termId": "lk-imp" },

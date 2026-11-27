@@ -6,7 +6,7 @@
   "subject": "part",
   "title": "PART.------HI.P.",
   "type": "crossing",
-  "description": "First of two diagrams on page 437 (MP(I)-11). The crossing diagrams how participation structurally meets high-purpose at the activist-creativity scale: PART (participation — actual creative participation in the form) is crossed with HI-P (high purpose — the cultural-political high-purpose participation is supposed to serve). PART sits on the left with the subject-arrow; HI-P sits at the lower-right end of the main line. UNF-PI (unification (positively intended)) rises from the main line to the upper-right, TR (transformation) branches from UNF-PI, and OBS (observation) hangs from TR. IF-ST-DY (infra-structure dynamics) descends from the main line, AF-DY (affinity dynamics) branches left from IF-ST-DY, and MT-INFO (multi-information) descends from AF-DY. CULT-O (culture order) also descends from the main line; RIT-DY (ritual dynamics) branches from CULT-O, MTA-RT-SIGN (meta-reality significance) descends from RIT-DY, and P-FC (particular focus) branches from MTA-RT-SIGN.",
+  "description": "Chart 1 of 2 on book p. 437 (MP(I)-11). PART (participation) is the subject; HI-P (high purpose) is the partner. From the subject: UNF-PI (unification (positively intended)), IF-ST-DY (infra-structure dynamics) and CULT-O (culture order). From UNF-PI: TR (transformation). From IF-ST-DY: AF-DY (affinity dynamics). From CULT-O: RIT-DY (ritual dynamics). From TR: OBS (observation). From AF-DY: MT-INFO (multi-information). From RIT-DY: MTA-RT-SIGN (meta-reality significance). From MTA-RT-SIGN: P-FC (particular focus).",
   "terms": [
     { "termId": "part", "isSubject": true },
     { "termId": "hi-p" },

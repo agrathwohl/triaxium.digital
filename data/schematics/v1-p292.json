@@ -6,7 +6,7 @@
   "subject": "crtf-d",
   "title": "CRTF.D.------MT.INFO.",
   "type": "crossing",
-  "description": "Diagram in WI-8. (C)CRTF-D (cross-transfer definitions) is crossed with MT-INFO (multi-information). The (c) on cross-transfer-definitions is critical: this is the *concept* of cross-transfer definitions — the institutional mechanism by which a piece of source-initiated music gets re-defined when it transfers across cultural lines. The diagram poses what multi-information looks like when crossed with that conceptual mechanism. CRTF-D → MT-INFO (the crossing) and CRTF-D → (R)INT (the reality of intention). (R)INT branches to ALT-D (alternative definitions) and EXT-DYM (extended dynamics). EXT-DYM branches to APP-RDEF (applied redefinitions), which forks into AFN (affinity negation) and AFTF (affinity transfer), and to ALT-C-PG (alternative composite progressionalism).",
+  "description": "Chart on book p. 292 (WI-8). CRTF-D (cross-transfer definitions) is the subject, with the (C) prefix, \"the concept of\"; MT-INFO (multi-information) is the partner. From the subject: INT (intention), with the (R) prefix, \"the reality of\". From INT: ALT-D (alternative definitions) and EXT-DYM (extended dynamics). From EXT-DYM: ALT-C-PG (alternative composite progressionalism) and APP-RDEF (applied redefinitions). From APP-RDEF: AFN (affinity negation) and AFTF (affinity transfer).",
   "terms": [
     {
       "termId": "crtf-d",

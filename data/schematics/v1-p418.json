@@ -6,7 +6,7 @@
   "subject": "c-fo-act",
   "title": "C.FO.ACT.------T.C.IMP.",
   "type": "crossing",
-  "description": "Diagram in MID-W-12, on the page where Braxton begins describing the AACM's free music school program — 'in 1967, the Association for the Advancement of Creative Musicians addressed itself to one of the most important problems facing the black community' — and the structural commitment to community engagement. C-FO-ACT (composite focused activism) is crossed with T-C-IMP (time continuum implications). RT-ALGN (reality alignment) branches from the main line. CULT-INFO-DY (culture information dynamics) branches from the main line and opens into MT-INFO (multi-information); MT-INFO opens into EXP-DYM (expansion dynamics) and POL-DYM (political dynamics) → C-CONT (composite continuance). A dotted line runs from the main line to INFO-INTR (information interpretation), which opens into DYM-F (dynamic functionalism) and PHY-U-P (physical universe particular).",
+  "description": "Chart on book p. 418 (MID-W-12). C-FO-ACT (composite focused activism) is the subject; T-C-IMP (time continuum implications) is the partner. From the subject: RT-ALGN (reality alignment) and CULT-INFO-DY (culture information dynamics). INFO-INTR (information interpretation) is on a dotted line from the subject. From CULT-INFO-DY: MT-INFO (multi-information). From INFO-INTR: DYM-F (dynamic functionalism) and PHY-U-P (physical universe particular). From MT-INFO: EXP-DYM (expansion dynamics) and POL-DYM (political dynamics). From POL-DYM: C-CONT (composite continuance).",
   "terms": [
     {
       "termId": "c-fo-act",

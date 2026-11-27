@@ -6,7 +6,7 @@
   "subject": "rc",
   "title": "RC------AFL.",
   "type": "crossing",
-  "description": "Diagram in AF(D)-29 (Affinity Dynamics, Level One) accompanying Braxton's clarification: 'the perceived composite western affinity alignment is not the composite western affinity alignment … there would still be the realness of affinity dynamics as well as the dynamic uniqueness of given planet areas and/or vibrational groups.' (C)RC (the concept of race) is crossed with AFL (affinity alignment): the question is what race produces when crossed with affinity-alignment — race being explicitly held at the conceptual level (the (c) prefix). INDIV-DY (individual dynamics) branches from the main line and carries IF-SPT (infra-spirituality) and IST-F (isolated focus). AFL is the partner. AFTD (affinity tendencies) also branches from the main line and leads to AF-POST (affinity postulation), then to COS-D (cosmic dictates) and on to HI-P (high purpose).",
+  "description": "Chart on book p. 101 ((AF)D-29). RC (race) is the subject, with the (C) prefix, \"the concept of\"; AFL (affinity alignment) is the partner. From the subject: INDIV-DY (individual dynamics) and AFTD (affinity tendencies). From INDIV-DY: IF-SPT (infra-spirituality) and IST-F (isolated focus). From AFTD: AF-POST (affinity postulation). From AF-POST: COS-D (cosmic dictates). From COS-D: HI-P (high purpose).",
   "terms": [
     { "termId": "rc", "isSubject": true, "prefix": "c" },
     { "termId": "afl" },

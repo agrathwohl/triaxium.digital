@@ -6,7 +6,7 @@
   "subject": "tr-info",
   "title": "TR.INFO.------RT.ALGN.",
   "type": "crossing",
-  "description": "First of two diagrams in EVOL-6. The prose below identifies the structural target about preferential activity: 'Because in the final analysis, western culture has created a situation where what a person says is as significant as what a person does.' The crossing diagrams how trans-information meets reality-alignment at the preferential-activity scale: TR-INFO crossed with RT-ALGN. POL-CY (political cycle) upper-center, (R)INTR (reality of interpretation) left, TR-INFO upper-right. POST (postulation), PER-DY (perception dynamics), AF-DY (affinity dynamics) on the right. CRT, CULT-INFO-B (culture information basis), JR-DY (journalism dynamics) lower-left, CR-INFO-DY (circular information dynamics) right of rt.algn. RT-ALGN center. MT-INTR (multiple interpretation) lower-right, TRS (transition) bottom-center.",
+  "description": "Chart 1 of 2 on book p. 168 (EVOL-6). TR-INFO (trans-information) is the subject; RT-ALGN (reality alignment) is the partner. From the subject: POL-CY, POST (postulation) and TRS (transition). From POL-CY: CULT-INFO-B (culture information basis). From POST: AF-DY (affinity dynamics). From TRS: MT-INTR (multiple interpretation). From CULT-INFO-B: INTR (interpretation), with the (R) prefix, \"the reality of\". From AF-DY: PER-DY (perception dynamics). From MT-INTR: CR-INFO-DY (circular information dynamics). From INTR: CRT (criticism). From CRT: JR-DY (journalism dynamics).",
   "terms": [
     {
       "termId": "tr-info",

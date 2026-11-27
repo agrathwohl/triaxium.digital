@@ -6,7 +6,7 @@
   "subject": "c-cont",
   "title": "(C)C.CONT. -----TR.",
   "type": "crossing",
-  "description": "Diagram in SR(TRS)II-18 (Social Reality / Trans-Information, Level Two), first of two on book p162. Accompanies Braxton's argument about education: 'the importance of education for transformation cannot be over-emphasized, because the present physical universe situation is directly sustained by narrow information lines.' (C)C-CONT (the concept of composite continuance) is crossed with TR (transformation): the question is what composite-continuance produces when crossed with transformation — under conditions where narrow information lines sustain the present situation. C-CONT also appears as the left node (the c.cont. label refers to the subject). AFI (affinity insight) and SPT-DY (spiritual dynamics) form the upper-center cluster. TR is the partner on the upper-right. C-INFO-DY (composite-information dynamics) anchors the right output. AF-DY (affinity dynamics) hangs from the C-INFO-DY line and carries ALT-INFO. ALT-INFO (alternative information) hangs on the lower-right margin.",
+  "description": "Chart 1 of 2 on book p. 162 (SR(TRS)II-18). C-CONT (composite continuance) is the subject; TR (transformation) is the partner. From the subject: SPT-DY (spiritual dynamics) and C-INFO-DY. From SPT-DY: AFI (affinity insight). From C-INFO-DY: AF-DY (affinity dynamics). From AF-DY: ALT-INFO (alternative information).",
   "terms": [
     { "termId": "c-cont", "isSubject": true },
     { "termId": "tr" },

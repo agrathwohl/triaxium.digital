@@ -6,7 +6,7 @@
   "subject": "sci-dym",
   "title": "SCI.DYM.------PROJ.DY.",
   "type": "crossing",
-  "description": "Diagram in MP(II)-8, second of two on book p490, paired with v2-p490-1. SCI-DYM (scientific dynamics) is crossed with PROJ-DY (projectional dynamics): the question is what scientific-dynamics produces when crossed with projectional-dynamics in the context of state-broadcast cultural politics where the broadcasting apparatus doesn't comprehend its own material. INFO-DY (information dynamics) and ACC-FT (accelerated functionalism) form the upper-right cluster with METH (methodology). AFI (affinity insight) branches from the main line down to the left; INDIV-TD (individual tendencies) branches from the AFI line, AFL (affinity alignment) and MT-INFO (multi-information) both branch from the INDIV-TD line, and PER-TR (perceived transformation) branches from the MT-INFO line. A vertical drops from the main line through PART (participation) to C-INFO (composite information), and CULT-INFO-B (culture information basis) branches from it at PART; the main line ends at PROJ-DY.",
+  "description": "Chart 2 of 2 on book p. 490 (MP(II)-8). SCI-DYM (scientific dynamics) is the subject; PROJ-DY (projectional dynamics) is the partner. From the subject: INFO-DY (information dynamics), AFI (affinity insight) and PART (participation). From INFO-DY: ACC-FT (accelerated functionalism). From AFI: INDIV-TD (individual tendencies). From PART: C-INFO (composite information) and CULT-INFO-B (culture information basis). From ACC-FT: MTH (methodology). From INDIV-TD: AFL (affinity alignment) and MT-INFO (multi-information). From MT-INFO: PER-TR (perceived transformation).",
   "terms": [
     { "termId": "sci-dym", "isSubject": true },
     { "termId": "proj-dy" },

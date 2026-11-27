@@ -6,7 +6,7 @@
   "subject": "ist-pt",
   "title": "IST.PT.------WO.EXT.PRI.",
   "type": "crossing",
-  "description": "Diagram in EXT.F(II)-22. (C)IST-PT (the concept of isolated particulars) is crossed with WO-EXT-PRI. DYM-F (dynamic functionalism) branches from the main line and opens into TRS (transition) and MT-IMP (multi-implications); MT-IMP opens into ALT-C-PG (alternative composite progressionalism) and P-FC (particular focus). PROG-CONT (progressional continuance) branches from the main line. INFO-DY (information dynamics) branches from the main line and opens into PR-TRS.",
+  "description": "Chart on book p. 460 (EXT.F(II)-22). IST-PT (isolated particulars) is the subject, with the (C) prefix, \"the concept of\"; WO-EXT-PRI is the partner. From the subject: DYM-F (dynamic functionalism), PROG-CONT (progressional continuance) and INFO-DY (information dynamics). From DYM-F: TRS (transition) and MT-IMP (multi-implications). From INFO-DY: PR-TRS. From MT-IMP: ALT-C-PG (alternative composite progressionalism) and P-FC (particular focus).",
   "terms": [
     {
       "termId": "ist-pt",
