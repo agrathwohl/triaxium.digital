@@ -175,4 +175,6 @@ export const termFamilies = [
   { id: 'reality', label: 'Reality (RT)', color: '#10b981' },
   { id: 'composite', label: 'Composite (C)', color: '#f59e0b' },
   { id: 'transformation', label: 'Transformation (TR)', color: '#ec4899' },
+  { id: 'social-reality', label: 'Social (SOC-RT)', color: '#14b8a6' },
+  { id: 'other', label: 'Other', color: '#71717a' },
 ];

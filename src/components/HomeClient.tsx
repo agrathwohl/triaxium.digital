@@ -1,14 +1,14 @@
 'use client';
 
-import { useState, useMemo, useRef, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { Schematic, ViewMode } from '@/types';
 import { terms as allTerms } from '@/data/schematics-full';
 import { termFamilies } from '@/data/schematics';
 
 import BraxtonRenderer from '@/components/BraxtonRenderer';
 import NetworkView from '@/components/NetworkView';
-import Workspace from '@/components/Workspace';
-import { Search, GitBranch, Network, Edit3, Filter, RefreshCw, Menu, X, ChevronLeft, ChevronDown, ChevronRight } from 'lucide-react';
+import { PREFIX_LEGEND } from '@/lib/services/braxtonLayout';
+import { Search, GitBranch, Network, Filter, Menu, X, ChevronLeft, ChevronDown, ChevronRight } from 'lucide-react';
 
 interface HomeClientProps {
   schematics: Schematic[];
@@ -19,32 +19,17 @@ export default function HomeClient({ schematics }: HomeClientProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFamilies, setSelectedFamilies] = useState<string[]>([]);
   const [selectedSchematic, setSelectedSchematic] = useState<Schematic | null>(schematics[0] || null);
-  const [userSchematics, setUserSchematics] = useState<Schematic[]>([]);
-  const [rendererKey, setRendererKey] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [familiesOpen, setFamiliesOpen] = useState(false);
-  const rendererRef = useRef<HTMLDivElement>(null);
-  const [rendererWidth, setRendererWidth] = useState(800);
-
-  useEffect(() => {
-    const el = rendererRef.current;
-    if (!el) return;
-    const measure = () => setRendererWidth(el.clientWidth);
-    measure();
-    const obs = new ResizeObserver(measure);
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
 
   const filteredSchematics = useMemo(() => {
+    const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9()]+/g, ' ').trim();
+    const q = norm(searchQuery);
     return schematics.filter((schematic) => {
-      const q = searchQuery.toLowerCase();
       const matchesSearch =
-        !searchQuery ||
-        schematic.title.toLowerCase().includes(q) ||
-        schematic.subject.toLowerCase().includes(q) ||
-        schematic.id.toLowerCase().includes(q) ||
-        schematic.description?.toLowerCase().includes(q);
+        !q ||
+        [schematic.title, schematic.subject, schematic.id, schematic.description ?? '', ...schematic.terms.map((t) => t.termId)]
+          .some((field) => norm(field).includes(q));
 
       const matchesFamilies =
         selectedFamilies.length === 0 ||
@@ -63,13 +48,9 @@ export default function HomeClient({ schematics }: HomeClientProps) {
     );
   };
 
-  const handleSaveSchematic = (schematic: Schematic) => {
-    setUserSchematics((prev) => [...prev, schematic]);
-  };
-
   const handleSelectSchematic = (schematic: Schematic) => {
     setSelectedSchematic(schematic);
-    setRendererKey(k => k + 1);
+    setViewMode('tree');
     setSidebarOpen(false);
   };
 
@@ -112,7 +93,6 @@ export default function HomeClient({ schematics }: HomeClientProps) {
             {([
               { mode: 'tree' as ViewMode, icon: GitBranch, label: 'SCHEMATICS' },
               { mode: 'network' as ViewMode, icon: Network, label: 'NETWORK' },
-              { mode: 'workspace' as ViewMode, icon: Edit3, label: 'WORKSPACE' },
             ]).map(({ mode, icon: Icon, label }) => (
               <button
                 key={mode}
@@ -240,7 +220,7 @@ export default function HomeClient({ schematics }: HomeClientProps) {
 
         <div className="flex-1 overflow-auto">
           {viewMode === 'tree' && selectedSchematic && (
-            <div className="p-3 sm:p-4 flex flex-col h-full">
+            <div className="p-3 sm:p-4 flex flex-col">
               <div className="flex items-start sm:items-center justify-between mb-3 gap-2">
                 <div className="min-w-0 flex-1">
                   <button
@@ -255,22 +235,10 @@ export default function HomeClient({ schematics }: HomeClientProps) {
                     VOL {selectedSchematic.volume} | {selectedSchematic.section} | P.{selectedSchematic.page} | {selectedSchematic.type}
                   </p>
                 </div>
-                <button
-                  onClick={() => setRendererKey(k => k + 1)}
-                  className="flex-shrink-0 flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1.5 bg-bx-surface border border-bx-trace text-bx-gray-400 text-[10px] sm:text-xs hover:border-bx-gray-300 hover:text-bx-white transition-colors"
-                >
-                  <RefreshCw className="w-3 h-3" />
-                  <span className="hidden sm:inline">REGEN</span>
-                </button>
               </div>
 
-              <div ref={rendererRef} className="flex-1 min-h-[250px] sm:min-h-0 bg-bx-black border border-bx-trace overflow-hidden schematic-grid">
-                <BraxtonRenderer
-                  key={rendererKey}
-                  schematic={selectedSchematic}
-                  width={rendererWidth}
-                  height={Math.min(500, Math.max(280, rendererWidth * 0.6))}
-                />
+              <div className="bg-bx-black border border-bx-trace schematic-grid">
+                <BraxtonRenderer schematic={selectedSchematic} />
               </div>
 
               <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] min-h-0">
@@ -300,19 +268,17 @@ export default function HomeClient({ schematics }: HomeClientProps) {
                 </div>
               </div>
 
-              <div className="mt-3 flex flex-wrap gap-3 sm:gap-6 text-[10px] sm:text-xs text-bx-gray-500">
-                <div className="flex items-center gap-2">
-                  <span className="inline-block w-6 h-0.5 bg-bx-white" />
-                  <span>Thick (primary)</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="inline-block w-6 h-px bg-bx-gray-400" />
-                  <span>Solid (direct)</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="inline-block w-6 h-px border-t border-dashed border-bx-gray-500" />
-                  <span>Dashed (context)</span>
-                </div>
+              <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-[10px] sm:text-xs text-bx-gray-400">
+                <span>↓ points to the subject</span>
+                {selectedSchematic.relationships.some((r) => r.type === 'dashed') && (
+                  <span className="flex items-center gap-2">
+                    <span className="inline-block w-6 border-t-2 border-dotted border-bx-gray-300" />
+                    dotted line: amplifies some aspect of the main concept it is connected to
+                  </span>
+                )}
+                {Array.from(new Set(selectedSchematic.terms.map((t) => t.prefix && PREFIX_LEGEND[t.prefix]).filter(Boolean))).map((text) => (
+                  <span key={text}>{text}</span>
+                ))}
               </div>
             </div>
           )}
@@ -336,14 +302,7 @@ export default function HomeClient({ schematics }: HomeClientProps) {
               schematics={schematics}
               terms={allTerms}
               selectedSchematic={selectedSchematic}
-              onSelectSchematic={setSelectedSchematic}
-            />
-          )}
-
-          {viewMode === 'workspace' && (
-            <Workspace
-              userSchematics={userSchematics}
-              onSaveSchematic={handleSaveSchematic}
+              onSelectSchematic={handleSelectSchematic}
             />
           )}
         </div>

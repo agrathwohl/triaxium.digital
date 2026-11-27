@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Tri-Axium Digital | The Braxtonian Knowledge System',
   description: 'Interactive platform for navigating the Tri-Axium Writings integration schematics',
+  icons: { icon: '/TCF_logo_ICO.webp' },
 };
 
 export default function RootLayout({

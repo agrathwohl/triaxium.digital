@@ -1,264 +1,207 @@
-import dagre from 'dagre';
-import { Schematic, SchematicTerm, Relationship } from '@/types';
+import { Schematic } from '@/types';
+import { terms } from '@/data/schematics-full';
 
-export interface LayoutNode {
+export interface LayoutLine { x1: number; y1: number; x2: number; y2: number; dotted: boolean }
+export interface LayoutLabel {
   id: string;
+  text: string;
   x: number;
   y: number;
-  width: number;
-  height: number;
-  isSubject?: boolean;
-  prefix?: string;
+  lx: number;
+  ly: number;
+  anchor: 'start' | 'middle' | 'end';
+  dotted: boolean;
+  isSubject: boolean;
+  box: { x: number; y: number; w: number; h: number };
 }
+export interface BraxtonLayout { lines: LayoutLine[]; labels: LayoutLabel[]; width: number; height: number }
 
-export interface LayoutEdge {
-  from: string;
-  to: string;
-  type: 'solid' | 'dashed' | 'thick';
-  points?: { x: number; y: number }[];
-}
-
-export interface BraxtonLayout {
-  nodes: LayoutNode[];
-  edges: LayoutEdge[];
-  width: number;
-  height: number;
-}
-
-// Braxtonian visual configuration
-// Schematics flow horizontally/diagonally — LR is the default rank direction.
-const BRAXTON_CONFIG = {
-  nodeWidth: 110,
-  nodeHeight: 40,
-  subjectNodeWidth: 130,
-  subjectNodeHeight: 50,
-
-  // Spacing — wider ranksep for horizontal spread, tight nodesep for diagonal feel
-  spacing: {
-    tree:          { ranksep: 140, nodesep: 50 },
-    crossing:      { ranksep: 160, nodesep: 60 },
-    'angled-tree': { ranksep: 130, nodesep: 45 },
-    network:       { ranksep: 150, nodesep: 55 },
-    horizontal:    { ranksep: 140, nodesep: 50 },
-    'hub-spoke':   { ranksep: 140, nodesep: 50 },
-  },
-
-  // Line type visual weights (affects layout prominence)
-  lineWeights: {
-    thick: 10,
-    solid: 5,
-    dashed: 2,
-  },
+// Prefix wording from Braxton's legend (Tri-Axium Writings vol. 1, CODE section).
+export const PREFIX_LEGEND: Record<string, string> = {
+  r: '(R) the reality of',
+  R: '(R) the reality of',
+  c: '(C) the concept of',
+  p: '(P) point of idea completion',
+  'p-at': '(P-AT) point of activation',
+  po: '(PO) point of',
+  'p-in': '(P-IN) its position in',
+  d: '(D) the dynamics of',
+  ct: '(CT) the criterion of',
+  l: '(L) level',
+  pfc: '(PFC) point for future calibration',
 };
 
+export const FONT_SIZE = 13;
+const CHAR_W = FONT_SIZE * 0.6;
+const ROW = 22;
+const SHEAR = 0.2;
+const ARROW_ROOM = 40;
+const PAD = 24;
+
+const glossary = new Map(terms.map((t) => [t.id, t]));
+
+export function drawnLabel(s: Schematic, termId: string): string {
+  const m = termId.match(/^(.*)-([2-9])$/);
+  const repeated = m && s.terms.some((t) => t.termId === m[1]);
+  const id = repeated ? m![1] : termId;
+  let text = (glossary.get(id)?.abbreviation ?? id).toLowerCase().replace(/-/g, '.').replace(/\s+/g, '');
+  if (!text.endsWith('.')) text += '.';
+  const prefix = s.terms.find((t) => t.termId === termId)?.prefix;
+  return (prefix ? `(${prefix})` : '') + text;
+}
+
+interface Node {
+  id: string;
+  dotted: boolean;
+  kids: Node[];
+  starts: number[];
+  len: number;
+  leftExtent: number;
+  rightExtent: number;
+  width: number;
+  thickness: number;
+  side: 1 | -1;
+  junctionX: number;
+}
+
+const codeOf = (part: string) =>
+  part.trim().replace(/^\([^)]*\)/, '').toLowerCase().replace(/\s+/g, '').replace(/\./g, '-').replace(/^-+|-+$/g, '');
+
 /**
- * Layout a Braxtonian schematic using Dagre with custom constraints
+ * Lay out a chart in Braxton's drawing grammar (vol. 1 pp. 11–14): the main line runs from the
+ * subject to the partner; every other line starts on the line of the term it comes from and ends
+ * at a dot with its label. Lines from the main line alternate above and below it; lines from those
+ * alternate horizontal and vertical. Labels keep their size; a large chart is large.
  */
-export function layoutBraxtonianSchematic(schematic: Schematic): BraxtonLayout {
-  const g = new dagre.graphlib.Graph({
-    directed: true,
-    compound: false,
-    multigraph: false,
-  });
-  
-  const config = BRAXTON_CONFIG.spacing[schematic.type] || BRAXTON_CONFIG.spacing.tree;
-  
-  // Set graph configuration
-  g.setGraph({
-    rankdir: getRankDirection(schematic.type),
-    ranksep: config.ranksep,
-    nodesep: config.nodesep,
-    marginx: 50,
-    marginy: 50,
-    // Don't minimize crossings - preserve intentional crossings
-    acyclicer: schematic.type === 'crossing' ? undefined : 'greedy',
-    ranker: 'network-simplex',
-  });
-  
-  // Set default edge label
-  g.setDefaultEdgeLabel(() => ({}));
-  
-  // Add nodes
-  schematic.terms.forEach((term) => {
-    const isSubject = term.isSubject;
-    g.setNode(term.termId, {
-      label: term.termId,
-      width: isSubject ? BRAXTON_CONFIG.subjectNodeWidth : BRAXTON_CONFIG.nodeWidth,
-      height: isSubject ? BRAXTON_CONFIG.subjectNodeHeight : BRAXTON_CONFIG.nodeHeight,
-      isSubject: isSubject,
-      prefix: term.prefix,
+export function layoutBraxtonianSchematic(s: Schematic): BraxtonLayout {
+  const ids = new Set(s.terms.map((t) => t.termId));
+  const adj = new Map<string, { to: string; dotted: boolean; fwd: boolean }[]>([...ids].map((i) => [i, []]));
+  for (const r of s.relationships) {
+    const a = r.from.toLowerCase(), b = r.to.toLowerCase();
+    if (!ids.has(a) || !ids.has(b)) continue;
+    adj.get(a)!.push({ to: b, dotted: r.type === 'dashed', fwd: true });
+    adj.get(b)!.push({ to: a, dotted: r.type === 'dashed', fwd: false });
+  }
+  adj.forEach((l) => l.sort((x, y) => Number(y.fwd) - Number(x.fwd)));
+
+  const mk = (id: string, dotted: boolean): Node => ({ id, dotted, kids: [], starts: [], len: 0, leftExtent: 0, rightExtent: 0, width: 0, thickness: 0, side: -1, junctionX: 0 });
+  const root = mk(s.subject, false);
+  const seen = new Set([s.subject]);
+  const queue = [root];
+  while (queue.length) {
+    const n = queue.shift()!;
+    for (const e of adj.get(n.id) ?? []) {
+      if (seen.has(e.to)) continue;
+      seen.add(e.to);
+      const k = mk(e.to, e.dotted);
+      n.kids.push(k);
+      queue.push(k);
+    }
+  }
+  const titlePartner = codeOf(s.title.split(/-{3,}/)[1] ?? '');
+  const P = root.kids.find((k) => k.id === titlePartner) ?? root.kids[0] ?? null;
+
+  const w = (n: Node) => drawnLabel(s, n.id).length * CHAR_W;
+  // Labels stay flat while the shear lifts the lines to their right, so a label that sits above
+  // other lines needs SHEAR × its width of extra room.
+  const measureV = (n: Node, side: 1 | -1) => {
+    let along = ROW * 0.9, prevW = 0;
+    n.kids.forEach((k, i) => {
+      measureH(k, side);
+      along += side < 0 ? SHEAR * w(k) : i ? SHEAR * prevW : 0;
+      n.starts.push(along);
+      along += Math.max(ROW, k.thickness + ROW / 2) + 6;
+      prevW = w(k);
     });
+    n.len = Math.max(along + ROW * 0.3, 2 * ROW);
+    n.leftExtent = w(n) / 2 + 6;
+    n.rightExtent = Math.max(w(n) / 2 + 6, ...n.kids.map((k) => k.width + 4));
+  };
+  const measureH = (n: Node, side: 1 | -1) => {
+    let along = 18;
+    for (const k of n.kids) { measureV(k, side); along += k.leftExtent; n.starts.push(along); along += k.rightExtent + 10; }
+    n.len = Math.max(along, 36);
+    n.width = Math.max(n.len + 8 + w(n), ...n.kids.map((k, i) => n.starts[i] + k.rightExtent));
+    n.thickness = Math.max(ROW * 0.7, ...n.kids.map((k) => k.len + ROW));
+  };
+
+  type Dot = { n: Node; x: number; y: number; pos: 'above' | 'below' | 'right' | 'subject' };
+  const segs: [number, number, number, number, boolean][] = [];
+  const dots: Dot[] = [];
+  const placeV = (n: Node, x: number, y: number, side: 1 | -1) => {
+    const ey = y + side * n.len;
+    segs.push([x, y, x, ey, n.dotted]);
+    dots.push({ n, x, y: ey, pos: side < 0 ? 'above' : 'below' });
+    n.kids.forEach((k, i) => placeH(k, x, y + side * n.starts[i], side, x + k.len, y + side * n.starts[i]));
+  };
+  const placeH = (n: Node, x: number, y: number, side: 1 | -1, ex: number, ey: number) => {
+    segs.push([x, y, ex, ey, n.dotted]);
+    dots.push({ n, x: ex, y: ey, pos: 'right' });
+    n.kids.forEach((k, i) => { const t = n.starts[i] / n.len; placeV(k, x + (ex - x) * t, y + (ey - y) * t, side); });
+  };
+
+  const branches = root.kids.filter((k) => k !== P);
+  branches.forEach((k, i) => { k.side = i % 2 ? 1 : -1; measureV(k, k.side); });
+  const cursor = { '-1': 26, '1': 26 };
+  for (const k of branches) { k.junctionX = cursor[k.side] + k.leftExtent; cursor[k.side] = k.junctionX + k.rightExtent + 16; }
+  const L = Math.max(cursor['-1'], cursor['1'], 140) + 20 + (P ? w(P) / 2 : 0);
+  dots.push({ n: root, x: 0, y: 0, pos: 'subject' });
+  if (P) { segs.push([0, 0, L, 0, P.dotted]); dots.push({ n: P, x: L, y: 0, pos: 'above' }); }
+  branches.forEach((k) => placeV(k, k.junctionX, 0, k.side));
+  if (P) {
+    let off = ROW * 0.9;
+    for (const k of P.kids) {
+      measureH(k, 1);
+      placeH(k, L, 0, 1, L + Math.max(k.len, 50), off);
+      off += Math.max(ROW, k.thickness + ROW / 2) + 8;
+    }
+  }
+
+  const tf = (x: number, y: number): [number, number] => [x, y - SHEAR * x];
+  const lines = segs.map(([x1, y1, x2, y2, dotted]) => { const [a, b] = tf(x1, y1); const [c, d] = tf(x2, y2); return { x1: a, y1: b, x2: c, y2: d, dotted }; });
+  const labels: LayoutLabel[] = dots.map((o) => {
+    const [x, y] = tf(o.x, o.y);
+    const text = drawnLabel(s, o.n.id), tw = text.length * CHAR_W;
+    let lx: number, ly: number, anchor: LayoutLabel['anchor'];
+    if (o.pos === 'right') { lx = x + 7; ly = y + 4.5; anchor = 'start'; }
+    else if (o.pos === 'above') { lx = x; ly = y - 9; anchor = 'middle'; }
+    else if (o.pos === 'below') { lx = x; ly = y + 17; anchor = 'middle'; }
+    else { lx = x - 4; ly = y + 18; anchor = 'end'; }
+    const x0 = anchor === 'start' ? lx : anchor === 'end' ? lx - tw : lx - tw / 2;
+    return { id: o.n.id, text, x, y, lx, ly, anchor, dotted: o.n.dotted, isSubject: o.pos === 'subject', box: { x: x0 - 3, y: ly - 14, w: tw + 6, h: 19 } };
   });
-  
-  // Add edges with Braxtonian weights
-  // Normalize from/to to lowercase to match termId keys
-  schematic.relationships.forEach((rel) => {
-    const from = rel.from.toLowerCase();
-    const to = rel.to.toLowerCase();
-    if (!g.hasNode(from) || !g.hasNode(to)) return; // skip broken refs
-    g.setEdge(from, to, {
-      weight: BRAXTON_CONFIG.lineWeights[rel.type],
-      minlen: rel.type === 'dashed' ? 2 : 1,
-      type: rel.type,
-    });
-  });
-  
-  // Apply custom subject positioning constraints before layout
-  applySubjectConstraints(g, schematic);
-  
-  // Run layout
-  dagre.layout(g);
-  
-  // Extract results
-  const nodes: LayoutNode[] = schematic.terms.map((term) => {
-    const node = g.node(term.termId);
-    return {
-      id: term.termId,
-      x: node.x,
-      y: node.y,
-      width: node.width,
-      height: node.height,
-      isSubject: term.isSubject,
-      prefix: term.prefix,
-    };
-  });
-  
-  const edges: LayoutEdge[] = schematic.relationships.map((rel) => {
-    const from = rel.from.toLowerCase();
-    const to = rel.to.toLowerCase();
-    const edge = g.edge(from, to);
-    return {
-      from,
-      to,
-      type: rel.type,
-      points: edge?.points,
-    };
-  });
-  
-  // Calculate graph dimensions
-  const graph = g.graph();
-  
+
+  separateOverlappingLabels(labels);
+
+  let minX = Infinity, minY = -ARROW_ROOM, maxX = -Infinity, maxY = -Infinity;
+  for (const l of lines) { minX = Math.min(minX, l.x1, l.x2); maxX = Math.max(maxX, l.x1, l.x2); minY = Math.min(minY, l.y1, l.y2); maxY = Math.max(maxY, l.y1, l.y2); }
+  for (const l of labels) { minX = Math.min(minX, l.box.x); maxX = Math.max(maxX, l.box.x + l.box.w); minY = Math.min(minY, l.box.y); maxY = Math.max(maxY, l.box.y + l.box.h); }
+  const dx = PAD - minX, dy = PAD - minY;
   return {
-    nodes,
-    edges,
-    width: graph.width || 800,
-    height: graph.height || 600,
+    lines: lines.map((l) => ({ ...l, x1: l.x1 + dx, y1: l.y1 + dy, x2: l.x2 + dx, y2: l.y2 + dy })),
+    labels: labels.map((l) => ({ ...l, x: l.x + dx, y: l.y + dy, lx: l.lx + dx, ly: l.ly + dy, box: { ...l.box, x: l.box.x + dx, y: l.box.y + dy } })),
+    width: Math.ceil(maxX - minX + PAD * 2),
+    height: Math.ceil(maxY - minY + PAD * 2),
   };
 }
 
-/**
- * Get rank direction based on schematic type.
- * Default is LR (left-to-right) — Braxton's schematics flow horizontally
- * with diagonal connections between nodes.
- */
-function getRankDirection(type: string): 'TB' | 'BT' | 'LR' | 'RL' {
-  switch (type) {
-    case 'tree':
-      return 'LR';
-    case 'crossing':
-      return 'LR';
-    case 'angled-tree':
-      return 'LR';
-    case 'horizontal':
-      return 'LR';
-    case 'network':
-      return 'LR';
-    default:
-      return 'LR';
-  }
-}
-
-/**
- * Apply subject positioning constraints.
- * In horizontal (LR) flow the subject sits on the left side,
- * vertically centered — other terms fan out to the right diagonally.
- */
-function applySubjectConstraints(g: dagre.graphlib.Graph, schematic: Schematic) {
-  const subjectTerm = schematic.terms.find(t => t.isSubject);
-  if (!subjectTerm) return;
-
-  const graphWidth = 800;
-  const graphHeight = 600;
-
-  // Subject always starts at left-center for LR flow
-  const subjectX = 80;
-  const subjectY = graphHeight / 2;
-
-  const node = g.node(subjectTerm.termId);
-  if (node) {
-    (node as any).x = subjectX;
-    (node as any).y = subjectY;
-  }
-}
-
-/**
- * Batch layout multiple schematics
- */
-export function layoutSchematics(schematics: Schematic[]): Map<string, BraxtonLayout> {
-  const layouts = new Map<string, BraxtonLayout>();
-  
-  schematics.forEach((schematic) => {
-    try {
-      const layout = layoutBraxtonianSchematic(schematic);
-      layouts.set(schematic.id, layout);
-    } catch (error) {
-      console.error(`Failed to layout schematic ${schematic.id}:`, error);
+function separateOverlappingLabels(labels: LayoutLabel[]) {
+  for (let pass = 0; pass < 60; pass++) {
+    let moved = false;
+    for (let i = 0; i < labels.length; i++) {
+      for (let j = i + 1; j < labels.length; j++) {
+        const a = labels[i].box, b = labels[j].box;
+        const ox = Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x);
+        const oy = Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y);
+        if (ox <= 1 || oy <= 2) continue;
+        const half = (b.y + b.h / 2 >= a.y + a.h / 2 ? 1 : -1) * (oy + 1) / 2;
+        labels[i].ly -= half;
+        a.y -= half;
+        labels[j].ly += half;
+        b.y += half;
+        moved = true;
+      }
     }
-  });
-  
-  return layouts;
-}
-
-/**
- * Visual styling for line types
- */
-export const lineStyles: Record<string, { strokeWidth: number; stroke: string; strokeOpacity: number; strokeDasharray?: string }> = {
-  thick: {
-    strokeWidth: 3,
-    stroke: '#e8e8e8',
-    strokeOpacity: 1,
-  },
-  solid: {
-    strokeWidth: 1.5,
-    stroke: '#808080',
-    strokeOpacity: 0.9,
-  },
-  dashed: {
-    strokeWidth: 1,
-    stroke: '#555555',
-    strokeDasharray: '6, 4',
-    strokeOpacity: 0.7,
-  },
-};
-
-/**
- * Node styling based on prefix
- */
-export const nodeStyles: Record<string, { fill: string; stroke: string; strokeWidth: number }> = {
-  default:  { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  subject:  { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  '(c)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  'c':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  '(r)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  'r':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  '[R]':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  'R':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  '(p)':    { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-  'p':      { fill: 'transparent', stroke: 'transparent', strokeWidth: 0 },
-};
-
-export function getNodeStyle(term: SchematicTerm) {
-  if (term.isSubject) {
-    return nodeStyles.subject;
+    if (!moved) return;
   }
-  
-  if (term.prefix && (nodeStyles as Record<string, typeof nodeStyles.default>)[term.prefix]) {
-    return (nodeStyles as Record<string, typeof nodeStyles.default>)[term.prefix];
-  }
-  
-  return nodeStyles.default;
-}
-
-export function getEdgeStyle(type: string) {
-  return lineStyles[type] || lineStyles.solid;
 }

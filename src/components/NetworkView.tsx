@@ -79,22 +79,23 @@ export default function NetworkView({
 
     const nodeIds = new Set(nodes.map(n => n.id));
 
-    // Build co-occurrence links
+    // Links are the lines Braxton drew, counted once per schematic
     const linkMap = new Map<string, { count: number; schematics: string[] }>();
     schematics.forEach(s => {
-      const termIds = s.terms.map(t => t.termId).filter(id => nodeIds.has(id));
-      for (let i = 0; i < termIds.length; i++) {
-        for (let j = i + 1; j < termIds.length; j++) {
-          const key = [termIds[i], termIds[j]].sort().join('::');
-          const existing = linkMap.get(key);
-          if (existing) {
-            existing.count++;
-            existing.schematics.push(s.id);
-          } else {
-            linkMap.set(key, { count: 1, schematics: [s.id] });
-          }
+      const keys = new Set<string>();
+      s.relationships.forEach(r => {
+        const a = r.from.toLowerCase(), b = r.to.toLowerCase();
+        if (a !== b && nodeIds.has(a) && nodeIds.has(b)) keys.add([a, b].sort().join('::'));
+      });
+      keys.forEach(key => {
+        const existing = linkMap.get(key);
+        if (existing) {
+          existing.count++;
+          existing.schematics.push(s.id);
+        } else {
+          linkMap.set(key, { count: 1, schematics: [s.id] });
         }
-      }
+      });
     });
 
     const links: GraphLink[] = [];
@@ -288,7 +289,7 @@ export default function NetworkView({
   }, [graphData, dimensions]);
 
   return (
-    <div className="flex-1 bg-bx-black overflow-hidden flex flex-col">
+    <div className="h-full bg-bx-black overflow-hidden flex flex-col">
       {/* Graph */}
       <div ref={containerRef} className="flex-1 min-h-0 relative schematic-grid">
         <svg
